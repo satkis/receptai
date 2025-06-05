@@ -1,0 +1,50 @@
+[
+  {
+    "name": "pagrindinis-patiekalas",
+    "displayName": { "lt": "Pagrindinis patiekalas", "en": "Main course" },
+    "description": { "lt": "Pagrindiniai pietų patiekalai", "en": "Main lunch dishes" },
+    "icon": "🍽️",
+    "order": 1,
+    "active": true
+  },
+  {
+    "name": "sriuba",
+    "displayName": { "lt": "Sriuba", "en": "Soup" },
+    "description": { "lt": "Šiltos ir šaltos sriubos", "en": "Hot and cold soups" },
+    "icon": "🍲",
+    "order": 2,
+    "active": true
+  },
+  {
+    "name": "desertas",
+    "displayName": { "lt": "Desertas", "en": "Dessert" },
+    "description": { "lt": "Saldūs desertai", "en": "Sweet desserts" },
+    "icon": "🍰",
+    "order": 3,
+    "active": true
+  },
+  {
+    "name": "uzkandziai",
+    "displayName": { "lt": "Užkandžiai", "en": "Appetizers" },
+    "description": { "lt": "Lengvi užkandžiai", "en": "Light appetizers" },
+    "icon": "🥗",
+    "order": 4,
+    "active": true
+  },
+  {
+    "name": "tradicinis",
+    "displayName": { "lt": "Tradicinis", "en": "Traditional" },
+    "description": { "lt": "Lietuviški tradiciniai patiekalai", "en": "Lithuanian traditional dishes" },
+    "icon": "🇱🇹",
+    "order": 5,
+    "active": true
+  },
+  {
+    "name": "vasariskas",
+    "displayName": { "lt": "Vasariškas", "en": "Summer" },
+    "description": { "lt": "Vasariški ir gaivūs patiekalai", "en": "Summer and refreshing dishes" },
+    "icon": "☀️",
+    "order": 6,
+    "active": true
+  }
+]

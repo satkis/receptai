@@ -109,9 +109,9 @@ export interface Recipe {
   // Legacy fields for backward compatibility
   image?: string;
   images?: string[];
-  prepTime?: number;
-  cookTime?: number;
-  totalTime?: number;
+  prepTimeMinutes?: number;
+  cookTimeMinutes?: number;
+  totalTimeMinutes?: number;
   difficulty?: 'easy' | 'medium' | 'hard';
   category?: string;
   tags?: string[];
@@ -235,8 +235,8 @@ export interface ApiResponse<T = any> {
 export interface RecipeFormData {
   title: string;
   description: string;
-  prepTime: number;
-  cookTime: number;
+  prepTimeMinutes: number;
+  cookTimeMinutes: number;
   servings: number;
   difficulty: 'easy' | 'medium' | 'hard';
   category: string;

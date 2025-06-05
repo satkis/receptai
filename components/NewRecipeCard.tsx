@@ -25,10 +25,10 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
   const [isIngredientsExpanded, setIsIngredientsExpanded] = useState(false);
   const [isLiked, setIsLiked] = useState(false);
 
-  // Get localized content - use description as display title
-  const title = getRecipeTitle(recipe); // Keep for background/future use
+  // Get localized content
+  const title = getRecipeTitle(recipe);
   const description = getRecipeDescription(recipe);
-  const displayTitle = description; // Use description as the main title
+  const displayTitle = title; // Use actual title as the main title
   const vitalIngredients = getVitalIngredients(recipe);
   const allIngredients = recipe.ingredients || [];
   const totalIngredients = getTotalIngredientsCount(recipe);
@@ -36,6 +36,20 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
   const timing = getRecipeTiming(recipe);
   const effort = getRecipeDifficulty(recipe);
   const rating = getRecipeRating(recipe);
+
+  // Debug timing
+  console.log('Recipe timing debug:', {
+    recipeSlug: recipe.slug,
+    timing,
+    cookingTime: (recipe as any).cookingTime,
+    prepTimeMinutes: (recipe as any).prepTimeMinutes,
+    totalTimeMinutes: (recipe as any).totalTimeMinutes
+  });
+
+  // Fallback time display if timing is 0
+  const displayTime = timing.totalTime > 0 ? formatTime(timing.totalTime) :
+                     (recipe as any).cookingTime ? `${(recipe as any).cookingTime} min` :
+                     '30 min';
 
   const servings = recipe.servings || 4;
   const cuisine = recipe.categories?.cuisine || 'Lithuanian';
@@ -71,7 +85,7 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
               <div className="flex flex-col sm:flex-row gap-2">
                 <div className="flex items-center gap-1 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-gray-500">
                   <span>🕒</span>
-                  <span className="text-sm font-medium">{formatTime(timing.totalTime)}</span>
+                  <span className="text-sm font-medium">{displayTime}</span>
                 </div>
                 <div className="flex items-center gap-1 bg-blue-300/80 backdrop-blur-sm rounded-full px-2 py-1 text-gray-700">
                   <span className="text-xs">Porcijos: {servings}</span>
@@ -176,7 +190,7 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
             <div className="flex flex-col sm:flex-row gap-1">
               <div className="flex items-center gap-1 bg-white/90 backdrop-blur-sm rounded-full px-2 py-1 text-gray-500">
                 <span>🕒</span>
-                <span className="text-xs font-medium">{formatTime(timing.totalTime)}</span>
+                <span className="text-xs font-medium">{displayTime}</span>
               </div>
               <div className="flex items-center gap-1 bg-blue-300/80 backdrop-blur-sm rounded-full px-2 py-1 text-gray-700">
                 <span className="text-xs">Porcijos: {servings}</span>

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '@/components/Layout';
-import { sampleRecipes } from '@/data/sampleRecipes';
+import { sampleRecipes } from '@/data/sampleRecipes.json';
 import { Clock, Users, Star, ChefHat } from 'lucide-react';
 
 export default function Recipes() {
@@ -64,7 +64,7 @@ export default function Recipes() {
                       </h3>
 
                       <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                        {recipe.description}
+                        {recipe.title}
                       </p>
 
                       {/* Meta Info */}

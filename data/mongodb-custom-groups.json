@@ -1,0 +1,51 @@
+[
+  {
+    "name": "viskas",
+    "displayName": { "lt": "Viskas", "en": "Everything" },
+    "description": { "lt": "Visi receptai", "en": "All recipes" },
+    "order": 1,
+    "active": true
+  },
+  {
+    "name": "valgome-sveikiau",
+    "displayName": { "lt": "Valgome sveikiau!", "en": "Eating healthier!" },
+    "description": { "lt": "Sveiki ir maistingi receptai", "en": "Healthy and nutritious recipes" },
+    "order": 2,
+    "active": true
+  },
+  {
+    "name": "karsti-patiekalai",
+    "displayName": { "lt": "Karštį patiekalai", "en": "Hot dishes" },
+    "description": { "lt": "Šilti ir sotūs patiekalai", "en": "Warm and filling dishes" },
+    "order": 3,
+    "active": true
+  },
+  {
+    "name": "sriubos",
+    "displayName": { "lt": "Sriubos", "en": "Soups" },
+    "description": { "lt": "Įvairios sriubos ir sultiniai", "en": "Various soups and broths" },
+    "order": 4,
+    "active": true
+  },
+  {
+    "name": "uzkandziai",
+    "displayName": { "lt": "Užkandžiai", "en": "Snacks" },
+    "description": { "lt": "Lengvi užkandžiai ir aperityvai", "en": "Light snacks and appetizers" },
+    "order": 5,
+    "active": true
+  },
+  {
+    "name": "pyragai-kepiniai",
+    "displayName": { "lt": "Pyragai, kepiniai", "en": "Cakes, pastries" },
+    "description": { "lt": "Saldūs kepiniai ir desertai", "en": "Sweet pastries and desserts" },
+    "order": 6,
+    "active": true
+  },
+  {
+    "name": "salotos-misraines",
+    "displayName": { "lt": "Salotos, mišrainės", "en": "Salads, mixed dishes" },
+    "description": { "lt": "Šviežios salotos ir mišrainės", "en": "Fresh salads and mixed dishes" },
+    "order": 7,
+    "active": true
+  }
+]

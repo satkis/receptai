@@ -1,10 +1,153 @@
 import Head from 'next/head';
+import { useState, useEffect } from 'react';
 import NewRecipeCard from '@/components/NewRecipeCard';
-import { newSampleRecipes } from '@/data/newSampleRecipes';
 
+interface Recipe {
+  id: string;
+  title: string;
+  description: string;
+  slug: string;
+  image: string;
+  cookingTime: number;
+  servings: number;
+  difficulty: string;
+  categories: string[];
+  customGroups: string[];
+  ingredients: Array<{
+    name: string;
+    amount: string;
+    unit: string;
+    vital: boolean;
+  }>;
+  instructions: Array<{
+    step: number;
+    description: string;
+  }>;
+  nutrition: any;
+  tags: string[];
+  author: string;
+  featured: boolean;
+  published: boolean;
+}
+
+interface CustomGroup {
+  id: string;
+  name: string;
+  slug?: string;
+  displayName: string;
+  description: string;
+  order: number;
+}
 
 export default function NewRecipes() {
   console.log('New Recipes page rendered');
+
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [customGroups, setCustomGroups] = useState<CustomGroup[]>([]);
+  const [selectedGroup, setSelectedGroup] = useState<string>('viskas');
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [initialized, setInitialized] = useState(false);
+
+  // Single useEffect to fetch all data
+  useEffect(() => {
+    if (initialized) return; // Prevent multiple calls
+
+    const fetchAllData = async () => {
+      try {
+        console.log('Fetching initial data...');
+        setLoading(true);
+
+        // Fetch groups first
+        const groupsResponse = await fetch('/api/custom-groups');
+        const groupsData = await groupsResponse.json();
+
+        if (groupsData.success) {
+          console.log('Groups loaded:', groupsData.data.length);
+          setCustomGroups(groupsData.data);
+        }
+
+        // Fetch initial recipes
+        const recipesResponse = await fetch(`/api/recipes/mongodb?groupSlug=viskas&limit=20`);
+        const recipesData = await recipesResponse.json();
+
+        if (recipesData.success) {
+          console.log('Recipes loaded:', recipesData.data.length);
+          setRecipes(recipesData.data);
+        } else {
+          setError(recipesData.error || 'Failed to fetch recipes');
+        }
+
+        setInitialized(true);
+      } catch (err) {
+        console.error('Error fetching data:', err);
+        setError('Failed to load data');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchAllData();
+  }, [initialized]);
+
+  // Separate effect for group changes (only after initialization)
+  useEffect(() => {
+    if (!initialized) return; // Don't run until initialized
+
+    const fetchRecipesForGroup = async () => {
+      try {
+        console.log('Fetching recipes for group:', selectedGroup);
+        setLoading(true);
+
+        const recipesResponse = await fetch(`/api/recipes/mongodb?groupSlug=${selectedGroup}&limit=20`);
+        const recipesData = await recipesResponse.json();
+
+        if (recipesData.success) {
+          setRecipes(recipesData.data);
+        } else {
+          setError(recipesData.error || 'Failed to fetch recipes');
+        }
+      } catch (err) {
+        console.error('Error fetching recipes:', err);
+        setError('Failed to load recipes');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchRecipesForGroup();
+  }, [selectedGroup, initialized]);
+
+  const handleGroupChange = (groupSlug: string) => {
+    setSelectedGroup(groupSlug);
+  };
+
+  if (loading || !initialized) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
+          <p className="text-gray-600">Kraunami receptai...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100 flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-red-600 mb-4">Klaida: {error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600"
+          >
+            Bandyti dar kartą
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -21,12 +164,17 @@ export default function NewRecipes() {
           <div className="bg-gray-50 border-b border-gray-200 py-3 sticky top-16 z-40">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex flex-wrap gap-2">
-                {['viskas', 'valgome sveikiau!', 'karštį patiekalai', 'sriubos', 'užkandžiai', 'pyragai, kepiniai', 'salotos, mišrainės'].map((group, index) => (
+                {customGroups.map((group) => (
                   <button
-                    key={index}
-                    className="px-3 py-1 text-xs md:px-4 md:py-2 md:text-sm bg-gray-100 hover:bg-orange-100 text-gray-700 hover:text-orange-700 rounded-full transition-colors"
+                    key={group.id}
+                    onClick={() => handleGroupChange(group.slug || group.name)}
+                    className={`px-3 py-1 text-xs md:px-4 md:py-2 md:text-sm rounded-full transition-colors ${
+                      selectedGroup === (group.slug || group.name)
+                        ? 'bg-orange-500 text-white'
+                        : 'bg-gray-100 hover:bg-orange-100 text-gray-700 hover:text-orange-700'
+                    }`}
                   >
-                    {group}
+                    {group.displayName}
                   </button>
                 ))}
               </div>
@@ -63,14 +211,25 @@ export default function NewRecipes() {
 
                 {/* Recipe Grid */}
                 <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-                  {newSampleRecipes.map((recipe) => (
-                    <NewRecipeCard 
-                      key={recipe._id?.toString()} 
-                      recipe={recipe}
+                  {recipes.map((recipe) => (
+                    <NewRecipeCard
+                      key={recipe.id}
+                      recipe={recipe as any}
                       variant="grid"
                     />
                   ))}
                 </div>
+
+                {recipes.length === 0 && (
+                  <div className="text-center py-12">
+                    <p className="text-gray-500 text-lg">
+                      {selectedGroup === 'viskas'
+                        ? 'Receptų nerasta'
+                        : `Receptų kategorijoje "${customGroups.find(g => g.name === selectedGroup)?.displayName}" nerasta`
+                      }
+                    </p>
+                  </div>
+                )}
 
                 {/* Featured Collection Section */}
                 <div className="mb-8">
@@ -82,10 +241,10 @@ export default function NewRecipes() {
                   </div>
                   
                   <div className="space-y-6">
-                    {newSampleRecipes.slice(0, 2).map((recipe) => (
-                      <NewRecipeCard 
-                        key={`featured-${recipe._id?.toString()}`} 
-                        recipe={recipe}
+                    {recipes.filter(recipe => recipe.featured).slice(0, 2).map((recipe) => (
+                      <NewRecipeCard
+                        key={`featured-${recipe.id}`}
+                        recipe={recipe as any}
                         variant="featured"
                       />
                     ))}

@@ -1,0 +1,189 @@
+[
+  {
+    "title": {
+      "lt": "Tradiciniai cepelinai su mėsos įdaru",
+      "en": "Traditional Cepelinai with Meat Filling"
+    },
+    "description": {
+      "lt": "Autentiški lietuviški cepelinai su sultingu mėsos įdaru",
+      "en": "Authentic Lithuanian cepelinai with juicy meat filling"
+    },
+    "slug": "tradiciniai-cepelinai-su-mesos-idaru",
+    "image": "/images/cepelinai.jpg",
+    "cookingTime": 90,
+    "servings": 4,
+    "difficulty": "medium",
+    "categories": ["pagrindinis-patiekalas", "tradicinis"],
+    "customGroups": ["karštį patiekalai", "tradiciniai"],
+    "ingredients": [
+      {
+        "name": { "lt": "Bulvės", "en": "Potatoes" },
+        "amount": "2",
+        "unit": "kg",
+        "vital": true
+      },
+      {
+        "name": { "lt": "Kiaulienos mėsa", "en": "Pork meat" },
+        "amount": "500",
+        "unit": "g",
+        "vital": true
+      },
+      {
+        "name": { "lt": "Svogūnas", "en": "Onion" },
+        "amount": "1",
+        "unit": "vnt",
+        "vital": false
+      },
+      {
+        "name": { "lt": "Druska", "en": "Salt" },
+        "amount": "pagal skonį",
+        "unit": "",
+        "vital": false
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "description": {
+          "lt": "Nulupkite ir sutarkuokite bulves",
+          "en": "Peel and grate the potatoes"
+        }
+      },
+      {
+        "step": 2,
+        "description": {
+          "lt": "Paruoškite mėsos įdarą",
+          "en": "Prepare the meat filling"
+        }
+      }
+    ],
+    "nutrition": {
+      "calories": 450,
+      "protein": 25,
+      "carbs": 55,
+      "fat": 15
+    },
+    "tags": ["lietuviška", "tradicinis", "šventinis"],
+    "author": "Receptai.lt",
+    "createdAt": { "$date": "2025-01-01T00:00:00.000Z" },
+    "updatedAt": { "$date": "2025-01-01T00:00:00.000Z" },
+    "published": true,
+    "featured": true
+  },
+  {
+    "title": {
+      "lt": "Šaltibarščiai su bulvėmis ir kiaušiniais",
+      "en": "Cold Beet Soup with Potatoes and Eggs"
+    },
+    "description": {
+      "lt": "Gaivūs vasariški šaltibarščiai su šviežiais daržovėmis",
+      "en": "Refreshing summer cold beet soup with fresh vegetables"
+    },
+    "slug": "saltibarsciai-su-bulvemis-ir-kiausiniais",
+    "image": "/images/saltibarsciai.jpg",
+    "cookingTime": 30,
+    "servings": 6,
+    "difficulty": "easy",
+    "categories": ["sriuba", "vasariškas"],
+    "customGroups": ["valgome sveikiau!", "sriubos"],
+    "ingredients": [
+      {
+        "name": { "lt": "Burokėlių sultys", "en": "Beetroot juice" },
+        "amount": "1",
+        "unit": "l",
+        "vital": true
+      },
+      {
+        "name": { "lt": "Rūgštus grietinėlė", "en": "Sour cream" },
+        "amount": "200",
+        "unit": "ml",
+        "vital": true
+      },
+      {
+        "name": { "lt": "Virtos bulvės", "en": "Boiled potatoes" },
+        "amount": "4",
+        "unit": "vnt",
+        "vital": false
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "description": {
+          "lt": "Sumaišykite burokėlių sultis su grietinėle",
+          "en": "Mix beetroot juice with sour cream"
+        }
+      }
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 8,
+      "carbs": 25,
+      "fat": 6
+    },
+    "tags": ["vasariškas", "šaltas", "sveika"],
+    "author": "Receptai.lt",
+    "createdAt": { "$date": "2025-01-01T00:00:00.000Z" },
+    "updatedAt": { "$date": "2025-01-01T00:00:00.000Z" },
+    "published": true,
+    "featured": false
+  },
+  {
+    "title": {
+      "lt": "Bulvių kugelis su spirgučiais",
+      "en": "Potato Pudding with Cracklings"
+    },
+    "description": {
+      "lt": "Tradicinis lietuviškas bulvių kugelis su spirgučiais",
+      "en": "Traditional Lithuanian potato pudding with cracklings"
+    },
+    "slug": "bulviu-kugelis-su-spirguciais",
+    "image": "/images/kugelis.jpg",
+    "cookingTime": 120,
+    "servings": 8,
+    "difficulty": "medium",
+    "categories": ["pagrindinis-patiekalas", "tradicinis"],
+    "customGroups": ["karštį patiekalai", "pyragai, kepiniai"],
+    "ingredients": [
+      {
+        "name": { "lt": "Bulvės", "en": "Potatoes" },
+        "amount": "3",
+        "unit": "kg",
+        "vital": true
+      },
+      {
+        "name": { "lt": "Spirgučiai", "en": "Cracklings" },
+        "amount": "200",
+        "unit": "g",
+        "vital": true
+      },
+      {
+        "name": { "lt": "Kiaušiniai", "en": "Eggs" },
+        "amount": "3",
+        "unit": "vnt",
+        "vital": true
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "description": {
+          "lt": "Sutarkuokite bulves smulkiu tarkuoju",
+          "en": "Grate potatoes with fine grater"
+        }
+      }
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 12,
+      "carbs": 45,
+      "fat": 18
+    },
+    "tags": ["lietuviška", "tradicinis", "keptas"],
+    "author": "Receptai.lt",
+    "createdAt": { "$date": "2025-01-01T00:00:00.000Z" },
+    "updatedAt": { "$date": "2025-01-01T00:00:00.000Z" },
+    "published": true,
+    "featured": true
+  }
+]

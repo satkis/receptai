@@ -43,9 +43,9 @@ export function getInstructionText(
 // Helper to get recipe timing information
 export function getRecipeTiming(recipe: Recipe) {
   return {
-    prepTime: recipe.categories?.prepTimeMinutes || recipe.prepTime || 0,
-    cookTime: recipe.categories?.cookTimeMinutes || recipe.cookTime || 0,
-    totalTime: recipe.categories?.totalTimeMinutes || recipe.totalTime || 0,
+    prepTime: recipe.prepTimeMinutes || 0,
+    cookTime: recipe.cookTimeMinutes || 0,
+    totalTime: recipe.totalTimeMinutes || 0,
   };
 }
 
