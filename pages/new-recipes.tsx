@@ -55,7 +55,7 @@ export default function NewRecipes() {
 
     const fetchAllData = async () => {
       try {
-        console.log('Fetching initial data...');
+        console.log('🚀 Fetching initial data...');
         setLoading(true);
 
         // Fetch groups first
@@ -63,7 +63,7 @@ export default function NewRecipes() {
         const groupsData = await groupsResponse.json();
 
         if (groupsData.success) {
-          console.log('Groups loaded:', groupsData.data.length);
+          console.log('✅ Groups loaded:', groupsData.data.length);
           setCustomGroups(groupsData.data);
         }
 
@@ -72,15 +72,16 @@ export default function NewRecipes() {
         const recipesData = await recipesResponse.json();
 
         if (recipesData.success) {
-          console.log('Recipes loaded:', recipesData.data.length);
+          console.log('✅ Recipes loaded:', recipesData.data.length);
           setRecipes(recipesData.data);
         } else {
           setError(recipesData.error || 'Failed to fetch recipes');
         }
 
         setInitialized(true);
+        console.log('✅ Initialization complete');
       } catch (err) {
-        console.error('Error fetching data:', err);
+        console.error('❌ Error fetching data:', err);
         setError('Failed to load data');
       } finally {
         setLoading(false);
@@ -88,7 +89,7 @@ export default function NewRecipes() {
     };
 
     fetchAllData();
-  }, [initialized]);
+  }, []); // Remove initialized dependency to prevent loops
 
   // Separate effect for group changes (only after initialization)
   useEffect(() => {
@@ -152,10 +153,29 @@ export default function NewRecipes() {
   return (
     <>
       <Head>
-        <title>Receptai - Paragaujam.lt</title>
-        <meta name="description" content="Atraskite geriausius lietuviškus receptus. Nuo tradicinių patiekalų iki modernių interpretacijų." />
-        <meta property="og:title" content="Receptai - Paragaujam.lt" />
-        <meta property="og:description" content="Atraskite geriausius lietuviškus receptus. Nuo tradicinių patiekalų iki modernių interpretacijų." />
+        <title>Lietuviški receptai - Paragaujam.lt</title>
+        <meta name="description" content="Atraskite skanius lietuviškus receptus su nuotraukomis ir detaliais gaminimo aprašymais. Cepelinai, šaltibarščiai, kugelis ir daugiau tradicinių patiekalų." />
+        <meta name="keywords" content="lietuviški receptai, tradiciniai patiekalai, cepelinai, šaltibarščiai, kugelis, lietuviška virtuvė" />
+        <link rel="canonical" href="https://receptai.lt/new-recipes" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Lietuviški receptai - Paragaujam.lt" />
+        <meta property="og:description" content="Atraskite skanius lietuviškus receptus su nuotraukomis ir detaliais gaminimo aprašymais." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://receptai.lt/new-recipes" />
+        <meta property="og:site_name" content="Paragaujam.lt" />
+        <meta property="og:locale" content="lt_LT" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Lietuviški receptai - Paragaujam.lt" />
+        <meta name="twitter:description" content="Atraskite skanius lietuviškus receptus su nuotraukomis ir detaliais gaminimo aprašymais." />
+
+        {/* Additional SEO */}
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="lt" />
+        <link rel="alternate" hrefLang="lt" href="https://receptai.lt/new-recipes" />
+        <link rel="alternate" hrefLang="en" href="https://receptai.lt/en/new-recipes" />
       </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100">

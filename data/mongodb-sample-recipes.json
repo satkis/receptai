@@ -57,6 +57,18 @@
         }
       }
     ],
+    "tips": {
+      "lt": [
+        "**Paruošimas:** Bulves geriau tarkuoti šviežias, ne senas - taip cepelinai bus skatesni",
+        "**Gaminimas:** Verdant vandenį šiek tiek pasūdyti, kad cepelinai neišvirtų",
+        "**Patiekimas:** Puikiai tinka su grietine, spirgučiais ir šviežiais krapais"
+      ],
+      "en": [
+        "**Preparation:** Use fresh potatoes, not old ones - this way cepelinai will be tastier",
+        "**Cooking:** Salt the boiling water slightly so cepelinai don't fall apart",
+        "**Serving:** Goes great with sour cream, cracklings and fresh dill"
+      ]
+    },
     "nutrition": {
       "calories": 450,
       "protein": 25,

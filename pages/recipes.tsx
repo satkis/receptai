@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '@/components/Layout';
-import { sampleRecipes } from '@/data/sampleRecipes.json';
+import { sampleRecipes } from '@/data/sampleRecipes';
 import { Clock, Users, Star, ChefHat } from 'lucide-react';
 
 export default function Recipes() {
@@ -40,7 +40,7 @@ export default function Recipes() {
                     <div className="relative h-48 bg-gray-200">
                       <img
                         src={recipe.image}
-                        alt={recipe.title}
+                        alt={typeof recipe.title === 'string' ? recipe.title : recipe.title.lt}
                         className="w-full h-full object-cover"
                       />
 
@@ -60,11 +60,11 @@ export default function Recipes() {
                     {/* Recipe Content */}
                     <div className="p-6">
                       <h3 className="font-semibold text-gray-900 text-lg mb-2 line-clamp-2">
-                        {recipe.title}
+                        {typeof recipe.title === 'string' ? recipe.title : recipe.title.lt}
                       </h3>
 
                       <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                        {recipe.title}
+                        {typeof recipe.description === 'string' ? recipe.description : recipe.description.lt}
                       </p>
 
                       {/* Meta Info */}
@@ -81,7 +81,7 @@ export default function Recipes() {
                         </div>
 
                         {/* Rating */}
-                        {recipe.averageRating > 0 && (
+                        {recipe.averageRating && recipe.averageRating > 0 && (
                           <div className="flex items-center space-x-1">
                             <Star className="w-4 h-4 text-yellow-400 fill-current" />
                             <span className="font-medium">{recipe.averageRating.toFixed(1)}</span>

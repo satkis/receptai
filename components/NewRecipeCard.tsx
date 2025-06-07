@@ -69,7 +69,7 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
 
   if (variant === 'featured') {
     return (
-      <div className={`bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 ${className}`}>
+      <Link href={`/recipes/${recipe.slug}`} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 ${className}`}>
         <div className="flex flex-col lg:flex-row">
           {/* Image Section */}
           <div className="relative lg:w-64 h-48 lg:h-auto">
@@ -169,13 +169,13 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
             </div>
           </div>
         </div>
-      </div>
+      </Link>
     );
   }
 
   // Grid variant (compact)
   return (
-    <div className={`bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 group ${className}`}>
+    <Link href={`/recipes/${recipe.slug}`} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 group ${className}`}>
         {/* Image Section */}
         <div className="relative h-48">
           <Image
@@ -274,6 +274,6 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
             )}
           </div> */}
         </div>
-    </div>
+    </Link>
   );
 }
