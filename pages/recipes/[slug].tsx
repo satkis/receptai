@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Clock, Users, ChefHat, ArrowLeft, Heart, Bookmark, Share2 } from 'lucide-react';
 import SchemaOrgRecipe from '@/components/SchemaOrgRecipe';
-import RecipeTips from '@/components/RecipeTips';
 import { getMultilingualIngredientIcon } from '@/utils/ingredientIcons';
 
 interface Recipe {
@@ -26,10 +25,6 @@ interface Recipe {
     step: number;
     text: { lt: string; en: string } | string;
   }>;
-  tips?: {
-    lt: string[];
-    en: string[];
-  };
   nutrition?: {
     calories: string;
     protein?: string;
@@ -262,15 +257,6 @@ export default function RecipePage({ recipe, language = 'lt' }: RecipePageProps)
               )}
             </div>
           </div>
-
-          {/* Tips Section */}
-          {recipe.tips && (recipe.tips.lt?.length > 0 || recipe.tips.en?.length > 0) && (
-            <RecipeTips
-              tips={recipe.tips}
-              language={language}
-              className="mb-8"
-            />
-          )}
 
           {/* Desktop Layout */}
           <div className="hidden lg:grid xl:grid-cols-5 lg:grid-cols-4 gap-8">

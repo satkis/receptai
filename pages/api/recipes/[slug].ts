@@ -64,9 +64,6 @@ export default async function handler(
           text: inst.text || { lt: 'Step', en: 'Step' }
         })) || [],
 
-        // Tips
-        tips: recipe.tips || { lt: [], en: [] },
-
         // Nutrition
         nutrition: recipe.nutrition || {
           calories: '0 kcal',

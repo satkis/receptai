@@ -63,11 +63,6 @@ export interface Recipe {
   ingredients: NewIngredient[];
   instructions: NewInstruction[];
 
-  tips?: {
-    lt: string[];
-    en: string[];
-  };
-
   nutrition: {
     calories: number;
     carbs: number;

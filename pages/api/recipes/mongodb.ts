@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import clientPromise from '@/lib/mongodb'
-import { ObjectId } from 'mongodb'
 
 export default async function handler(
   req: NextApiRequest,
@@ -108,7 +107,6 @@ export default async function handler(
           step: inst.step,
           description: inst.text?.[language as string] || inst.text?.lt || inst.text
         })) || [],
-        tips: recipe.tips || { lt: [], en: [] },
         nutrition: recipe.nutrition || {},
         tags: recipe.keywords || [],
         author: recipe.author?.name || 'Receptai.lt',
