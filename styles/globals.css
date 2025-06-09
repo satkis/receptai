@@ -12,6 +12,16 @@
   display: none;  /* Safari and Chrome */
 }
 
+/* Smooth scrolling for better UX */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure sticky filters don't interfere with other fixed elements */
+.filter-sticky {
+  z-index: 40;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;

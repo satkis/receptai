@@ -33,6 +33,7 @@ export default function FilterPills({
 }: FilterPillsProps) {
   // Local state for immediate UI updates to prevent visual lag
   const [localActiveFilters, setLocalActiveFilters] = useState(activeFilters);
+  const [isProcessing, setIsProcessing] = useState(false);
 
   // Sync local state with props when they change
   useEffect(() => {
@@ -66,6 +67,10 @@ export default function FilterPills({
 
   // Handle single selection for time and ingredient filters
   const handleSingleSelection = (filterType: string, value: string) => {
+    // Prevent rapid clicking
+    if (isProcessing) return;
+    setIsProcessing(true);
+
     const currentSelections = localActiveFilters[filterType] || [];
 
     // If clicking the same filter, deselect it
@@ -90,6 +95,9 @@ export default function FilterPills({
       });
       onFilterChange(filterType, value, true);
     }
+
+    // Reset processing state after delay to prevent rapid clicking
+    setTimeout(() => setIsProcessing(false), 500);
   };
 
   return (
@@ -97,10 +105,10 @@ export default function FilterPills({
       {/* Time Filters Row */}
       {timeFilters && timeFilters.options && timeFilters.options.length > 0 && (
         <div>
-          <h4 className="text-sm font-medium text-gray-700 mb-2">Laikas:</h4>
+          {/* <h4 className="text-sm font-medium text-gray-700 mb-2">Laikas:</h4> */}
           {/* Mobile: Horizontal scroll carousel */}
           <div className="md:hidden">
-            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+            <div className="flex gap-2 overflow-x-auto scrollbar-hide">
               {timeFilters.options.map(option => (
                 <div key={option.key} className="flex-shrink-0">
                   <FilterPill
@@ -131,10 +139,10 @@ export default function FilterPills({
       {/* Main Ingredient Filters Row */}
       {ingredientFilters && ingredientFilters.options && ingredientFilters.options.length > 0 && (
         <div>
-          <h4 className="text-sm font-medium text-gray-700 mb-2">Ingredientai:</h4>
+          {/* <h4 className="text-sm font-medium text-gray-700 mb-2">Ingredientai:</h4> */}
           {/* Mobile: Horizontal scroll carousel */}
           <div className="md:hidden">
-            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+            <div className="flex gap-0 overflow-x-auto scrollbar-hide">
               {ingredientFilters.options.map(option => (
                 <div key={option.key} className="flex-shrink-0">
                   <FilterPill
@@ -165,7 +173,7 @@ export default function FilterPills({
       {/* Other Filters (if any) */}
       {otherFilters.length > 0 && (
         <div>
-          <h4 className="text-sm font-medium text-gray-700 mb-2">Kiti filtrai:</h4>
+          {/* <h4 className="text-sm font-medium text-gray-700 mb-2">Kiti filtrai:</h4> */}
           <div className="flex flex-wrap gap-2">
             {otherFilters.map(([filterType, filterGroup]) => {
               if (!filterGroup || !filterGroup.options || !Array.isArray(filterGroup.options)) {
@@ -208,19 +216,32 @@ interface FilterPillProps {
 }
 
 function FilterPill({ option, isActive, onClick }: FilterPillProps) {
-  const baseClasses = "inline-flex items-center gap-1 px-3 py-2 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer border";
-  
-  const activeClasses = isActive
-    ? "bg-orange-500 text-white border-orange-500 shadow-md"
-    : "bg-white text-gray-700 border-gray-300 hover:border-orange-300 hover:bg-orange-50";
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleClick = () => {
+    if (isClicked) return; // Prevent multiple clicks
+    setIsClicked(true);
+    onClick();
+    // Reset click state after delay
+    setTimeout(() => setIsClicked(false), 500);
+  };
+
+  const baseClasses = "inline-flex items-center gap-1 px-3 py-2 rounded-full text-sm font-medium transition-all duration-200 border";
+
+  const activeClasses = isClicked
+    ? "bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed"
+    : isActive
+    ? "bg-orange-500 text-white border-orange-500 shadow-md cursor-pointer hover:bg-orange-600"
+    : "bg-white text-gray-700 border-gray-300 hover:border-orange-300 hover:bg-orange-50 cursor-pointer";
 
   return (
     <button
-      onClick={onClick}
+      onClick={handleClick}
+      disabled={isClicked}
       className={`${baseClasses} ${activeClasses}`}
       style={{
-        backgroundColor: isActive && option.color ? option.color : undefined,
-        borderColor: isActive && option.color ? option.color : undefined
+        backgroundColor: isActive && option.color && !isClicked ? option.color : undefined,
+        borderColor: isActive && option.color && !isClicked ? option.color : undefined
       }}
     >
       {option.icon && <span className="text-base">{option.icon}</span>}

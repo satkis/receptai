@@ -60,6 +60,7 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(initialData.pagination.hasNextPage);
   const [currentPage, setCurrentPage] = useState(1);
+  const [isUpdating, setIsUpdating] = useState(false); // Prevent rapid clicks
 
   // Update URL without page reload when filters change
   const updateURL = useCallback((newFilters: { [key: string]: string[] }) => {
@@ -76,6 +77,10 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
 
   // Handle filter changes
   const handleFilterChange = useCallback(async (filterType: string, value: string, isActive: boolean) => {
+    // Prevent rapid clicks
+    if (isUpdating) return;
+    setIsUpdating(true);
+
     const newFilters = { ...filters };
 
     if (!newFilters[filterType]) {
@@ -103,7 +108,9 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
       }
     }
 
+    // Update state and URL immediately
     setFilters(newFilters);
+    updateURL(newFilters);
     setLoading(true);
     setCurrentPage(1);
 
@@ -127,14 +134,17 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
       if (data.success) {
         setRecipes(data.data.recipes);
         setHasMore(data.data.pagination.hasNextPage);
-        updateURL(newFilters);
       }
     } catch (error) {
       console.error('Filter error:', error);
+      // Revert URL on error
+      updateURL(filters);
     } finally {
       setLoading(false);
+      // Add delay to prevent rapid clicking and ensure URL sync
+      setTimeout(() => setIsUpdating(false), 600);
     }
-  }, [filters, router.query.category, language, updateURL]);
+  }, [filters, router.query.category, language, updateURL, isUpdating]);
 
   // Load more recipes for infinite scroll
   const loadMoreRecipes = useCallback(async () => {
