@@ -1,66 +1,81 @@
-// Category Page with Enhanced Filtering
-// /receptai/[category] - e.g., /receptai/sumustiniai, /receptai/vistiena
+// Dynamic Subcategory Page
+// /receptai/[category]/[subcategory] - e.g., /receptai/vistiena/salotos
 
 import { useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
-import Layout from '../../components/Layout';
-import NewRecipeCard from '../../components/NewRecipeCard';
-import FilterPills from '../../components/FilterPills';
-import Breadcrumb, { generateCategoryBreadcrumbs } from '../../components/Breadcrumb';
+import Layout from '../../../components/Layout';
+import NewRecipeCard from '../../../components/NewRecipeCard';
+import FilterPills from '../../../components/FilterPills';
+import Breadcrumb, { generateCategoryBreadcrumbs } from '../../../components/Breadcrumb';
 
 interface Recipe {
   _id: string;
+  title: { lt: string; en?: string };
   slug: string;
-  title: string;
-  description: string;
-  image: { url: string };
-  timing: { totalTimeMinutes: number };
-  servings: { amount: number; unit: string };
-  ingredients: Array<{ name: string; amount: number; unit: string }>;
-  categories: any;
+  description: { lt: string; en?: string };
+  image: string;
+  totalTimeMinutes: number;
+  servings: number;
+  ingredients: Array<{
+    name: { lt: string; en?: string };
+    quantity: string;
+    vital: boolean;
+  }>;
+  categories: {
+    main: string;
+    sub: string;
+    cuisine?: string;
+    timeGroup?: string;
+    dietary?: string[];
+  };
+  breadcrumb: {
+    main: { label: string; slug: string };
+    sub: { label: string; slug: string };
+  };
   rating: { average: number; count: number };
-  groups: string[];
 }
 
-interface FilterOption {
-  key: string;
-  label: string;
-  icon?: string;
-  color?: string;
-  count: number;
-  active: boolean;
-}
-
-interface CategoryPageProps {
+interface SubcategoryPageProps {
   initialData: {
-    recipes: Recipe[];
     category: {
+      _id: string;
+      label: { lt: string; en: string };
       slug: string;
+      type: string;
       title: string;
       description: string;
       canonicalUrl: string;
     };
-    availableFilters: { [key: string]: { label: any; order: number; options: FilterOption[] } };
+    subcategory: {
+      label: string;
+      slug: string;
+      title: string;
+      description: string;
+    };
+    recipes: Recipe[];
     pagination: {
       currentPage: number;
       totalPages: number;
-      totalCount: number;
+      totalRecipes: number;
       hasNextPage: boolean;
+      hasPrevPage: boolean;
+      limit: number;
     };
+    availableFilters: { [key: string]: any };
   };
   language: string;
 }
 
-export default function CategoryPage({ initialData, language }: CategoryPageProps) {
+export default function SubcategoryPage({ initialData, language }: SubcategoryPageProps) {
   const router = useRouter();
   const [recipes, setRecipes] = useState<Recipe[]>(initialData.recipes);
   const [filters, setFilters] = useState<{ [key: string]: string[] }>({});
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(initialData.pagination.hasNextPage);
   const [currentPage, setCurrentPage] = useState(1);
-  const [isUpdating, setIsUpdating] = useState(false); // Prevent rapid clicks
+  const [isUpdating, setIsUpdating] = useState(false);
 
   // Update URL without page reload when filters change
   const updateURL = useCallback((newFilters: { [key: string]: string[] }) => {
@@ -70,52 +85,46 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
       .join(',');
 
     const query = filterParams ? `?filters=${filterParams}` : '';
-    const newUrl = `/receptai/${router.query.category}${query}`;
+    const newUrl = `/receptai/${router.query.category}/${router.query.subcategory}${query}`;
     
     router.push(newUrl, undefined, { shallow: true });
   }, [router]);
 
   // Handle filter changes
   const handleFilterChange = useCallback(async (filterType: string, value: string, isActive: boolean) => {
-    // Prevent rapid clicks
     if (isUpdating) return;
     setIsUpdating(true);
 
     const newFilters = { ...filters };
-
+    
     if (!newFilters[filterType]) {
       newFilters[filterType] = [];
     }
 
-    // Single selection filter types (only one can be selected at a time)
+    // Single selection filter types
     const singleSelectionTypes = ['timeRequired', 'mainIngredient'];
 
     if (isActive) {
       if (singleSelectionTypes.includes(filterType)) {
-        // For single selection: replace entire array with just this value
         newFilters[filterType] = [value];
       } else {
-        // For multiple selection: add to array if not already present
         if (!newFilters[filterType].includes(value)) {
           newFilters[filterType].push(value);
         }
       }
     } else {
-      // Remove filter (same logic for both single and multiple selection)
       newFilters[filterType] = newFilters[filterType].filter(v => v !== value);
       if (newFilters[filterType].length === 0) {
         delete newFilters[filterType];
       }
     }
 
-    // Update state and URL immediately
     setFilters(newFilters);
     updateURL(newFilters);
     setLoading(true);
     setCurrentPage(1);
 
     try {
-      // Fetch filtered recipes
       const filterParams = Object.entries(newFilters)
         .filter(([_, values]) => values.length > 0)
         .map(([key, values]) => `${key}:${values.join(',')}`)
@@ -124,18 +133,11 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
       const queryParams = new URLSearchParams({
         ...(filterParams && { filters: filterParams }),
         page: '1',
-        limit: '8',
+        limit: '12',
         language
       });
 
-      // Try new categories API first, fallback to old API
-      let response = await fetch(`/api/categories/${router.query.category}?${queryParams}`);
-
-      if (!response.ok) {
-        // Fallback to old API
-        response = await fetch(`/api/recipes/category/${router.query.category}?${queryParams}`);
-      }
-
+      const response = await fetch(`/api/subcategories/${router.query.category}/${router.query.subcategory}?${queryParams}`);
       const data = await response.json();
 
       if (data.success) {
@@ -144,16 +146,14 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
       }
     } catch (error) {
       console.error('Filter error:', error);
-      // Revert URL on error
       updateURL(filters);
     } finally {
       setLoading(false);
-      // Add delay to prevent rapid clicking and ensure URL sync
       setTimeout(() => setIsUpdating(false), 600);
     }
-  }, [filters, router.query.category, language, updateURL, isUpdating]);
+  }, [filters, router.query.category, router.query.subcategory, language, updateURL, isUpdating]);
 
-  // Load more recipes for infinite scroll
+  // Load more recipes
   const loadMoreRecipes = useCallback(async () => {
     if (loading) return;
 
@@ -166,11 +166,11 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
       const queryParams = new URLSearchParams({
         ...(filterParams && { filters: filterParams }),
         page: (currentPage + 1).toString(),
-        limit: '8',
+        limit: '12',
         language
       });
 
-      const response = await fetch(`/api/recipes/category/${router.query.category}?${queryParams}`);
+      const response = await fetch(`/api/subcategories/${router.query.category}/${router.query.subcategory}?${queryParams}`);
       const data = await response.json();
 
       if (data.success) {
@@ -181,7 +181,7 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
     } catch (error) {
       console.error('Load more error:', error);
     }
-  }, [filters, currentPage, router.query.category, language, loading]);
+  }, [filters, currentPage, router.query.category, router.query.subcategory, language, loading]);
 
   // Clear all filters
   const clearFilters = useCallback(() => {
@@ -189,14 +189,13 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
     setLoading(true);
     setCurrentPage(1);
 
-    // Fetch unfiltered recipes
-    fetch(`/api/recipes/category/${router.query.category}?page=1&limit=8&language=${language}`)
+    fetch(`/api/subcategories/${router.query.category}/${router.query.subcategory}?page=1&limit=12&language=${language}`)
       .then(res => res.json())
       .then(data => {
         if (data.success) {
           setRecipes(data.data.recipes);
           setHasMore(data.data.pagination.hasNextPage);
-          router.push(`/receptai/${router.query.category}`, undefined, { shallow: true });
+          router.push(`/receptai/${router.query.category}/${router.query.subcategory}`, undefined, { shallow: true });
         }
       })
       .finally(() => setLoading(false));
@@ -205,33 +204,34 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
   // Generate breadcrumbs
   const breadcrumbs = generateCategoryBreadcrumbs(
     router.query.category as string,
-    undefined,
+    router.query.subcategory as string,
     initialData.category
   );
 
   return (
     <>
       <Head>
-        <title>{initialData.category.title}</title>
-        <meta name="description" content={initialData.category.description} />
-        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}${initialData.category.canonicalUrl}`} />
-        <meta property="og:title" content={initialData.category.title} />
-        <meta property="og:description" content={initialData.category.description} />
-        <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}${initialData.category.canonicalUrl}`} />
+        <title>{initialData.subcategory.title}</title>
+        <meta name="description" content={initialData.subcategory.description} />
+        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}/receptai/${router.query.category}/${router.query.subcategory}`} />
+        <meta property="og:title" content={initialData.subcategory.title} />
+        <meta property="og:description" content={initialData.subcategory.description} />
+        <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}/receptai/${router.query.category}/${router.query.subcategory}`} />
         <meta property="og:type" content="website" />
       </Head>
 
       <Layout>
         {/* Breadcrumb Navigation */}
         <Breadcrumb items={breadcrumbs} />
+
         <div className="container mx-auto px-4 py-6">
-          {/* Category Header */}
+          {/* Subcategory Header */}
           <div className="mb-8">
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
-              {initialData.category.title.replace(' - Paragaujam.lt', '')}
+              {initialData.subcategory.label}
             </h1>
             <p className="text-lg text-gray-600 mb-6">
-              {initialData.category.description}
+              {initialData.subcategory.description}
             </p>
 
             {/* Filter Pills */}
@@ -263,7 +263,7 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
                 ))}
               </div>
 
-              {/* Load More Button (temporary replacement for infinite scroll) */}
+              {/* Load More Button */}
               {hasMore && (
                 <div className="flex justify-center mt-8">
                   <button
@@ -290,7 +290,7 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
                 Receptų nerasta
               </h3>
               <p className="text-gray-600 mb-4">
-                Pabandykite pakeisti filtrus arba išvalyti visus filtrus.
+                Šioje subkategorijoje receptų dar nėra arba pabandykite pakeisti filtrus.
               </p>
               <button
                 onClick={clearFilters}
@@ -308,28 +308,22 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
 
 export const getServerSideProps: GetServerSideProps = async ({ params, query }) => {
   const category = params?.category as string;
+  const subcategory = params?.subcategory as string;
   const language = (query.language as string) || 'lt';
 
   try {
-    // Fetch initial data for the category page
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
     const queryParams = new URLSearchParams({
       page: '1',
-      limit: '8',
+      limit: '12',
       language,
       ...(query.filters && { filters: query.filters as string })
     });
 
-    // Try new categories API first
-    let response = await fetch(`${baseUrl}/api/categories/${category}?${queryParams}`);
-
+    const response = await fetch(`${baseUrl}/api/subcategories/${category}/${subcategory}?${queryParams}`);
+    
     if (!response.ok) {
-      // Fallback to old API
-      response = await fetch(`${baseUrl}/api/recipes/category/${category}?${queryParams}`);
-
-      if (!response.ok) {
-        return { notFound: true };
-      }
+      return { notFound: true };
     }
 
     const data = await response.json();
@@ -346,7 +340,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
     };
 
   } catch (error) {
-    console.error('Category page error:', error);
+    console.error('Subcategory page error:', error);
     return { notFound: true };
   }
 };

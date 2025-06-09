@@ -2,93 +2,152 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { ChevronRight, Home } from 'lucide-react';
+import Head from 'next/head';
 
-interface BreadcrumbItem {
+export interface BreadcrumbItem {
   label: string;
   href?: string;
+  isActive?: boolean;
 }
 
 interface BreadcrumbProps {
   items?: BreadcrumbItem[];
   className?: string;
+  schemaData?: any; // Schema.org BreadcrumbList data
 }
 
-export default function Breadcrumb({ items, className = '' }: BreadcrumbProps) {
+export default function Breadcrumb({ items, className = '', schemaData }: BreadcrumbProps) {
   const router = useRouter();
-  
-  // Only show breadcrumbs on recipe subpages
-  const isRecipeSubpage = router.pathname.startsWith('/recipes/') && router.pathname !== '/recipes';
-  
-  if (!isRecipeSubpage && !items) {
+
+  // Show breadcrumbs on recipe pages and category pages
+  const shouldShowBreadcrumbs = router.pathname.startsWith('/receptai/') || items;
+
+  if (!shouldShowBreadcrumbs) {
     return null;
   }
 
   // Generate breadcrumb items based on current route if not provided
   const breadcrumbItems = items || generateBreadcrumbItems(router);
 
-  return (
-    <nav className={`bg-gray-50 border-b border-gray-200 ${className}`} aria-label="Breadcrumb">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center py-3">
-          <ol className="flex items-center space-x-2 text-sm">
-            {/* Home */}
-            <li>
-              <Link 
-                href="/" 
-                className="text-gray-500 hover:text-orange-600 transition-colors flex items-center"
-              >
-                <Home className="w-4 h-4" />
-                <span className="sr-only">Pagrindinis</span>
-              </Link>
-            </li>
+  // Generate Schema.org structured data
+  const generateSchemaData = () => {
+    if (schemaData) return schemaData;
 
-            {breadcrumbItems.map((item, index) => (
-              <li key={index} className="flex items-center">
-                <ChevronRight className="w-4 h-4 text-gray-400 mx-2" />
-                {item.href && index < breadcrumbItems.length - 1 ? (
-                  <Link 
-                    href={item.href}
-                    className="text-gray-500 hover:text-orange-600 transition-colors"
-                  >
-                    {item.label}
-                  </Link>
-                ) : (
-                  <span className="text-gray-900 font-medium">
-                    {item.label}
-                  </span>
-                )}
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+    return {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Pagrindinis",
+          "item": baseUrl
+        },
+        ...breadcrumbItems.map((item, index) => ({
+          "@type": "ListItem",
+          "position": index + 2,
+          "name": item.label,
+          "item": item.href ? `${baseUrl}${item.href}` : undefined
+        }))
+      ]
+    };
+  };
+
+  return (
+    <>
+      {/* Schema.org structured data */}
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateSchemaData())
+          }}
+        />
+      </Head>
+
+      {/* Breadcrumb navigation */}
+      <nav className={`bg-gray-50 border-b border-gray-200 ${className}`} aria-label="Breadcrumb">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center py-3">
+            <ol className="flex items-center space-x-2 text-sm">
+              {/* Home */}
+              <li>
+                <Link
+                  href="/"
+                  className="text-gray-500 hover:text-orange-600 transition-colors flex items-center"
+                >
+                  <Home className="w-4 h-4" />
+                  <span className="sr-only">Pagrindinis</span>
+                </Link>
               </li>
-            ))}
-          </ol>
+
+              {breadcrumbItems.map((item, index) => (
+                <li key={index} className="flex items-center">
+                  <ChevronRight className="w-4 h-4 text-gray-400 mx-2" />
+                  {item.href && !item.isActive && index < breadcrumbItems.length - 1 ? (
+                    <Link
+                      href={item.href}
+                      className="text-gray-500 hover:text-orange-600 transition-colors"
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <span className="text-gray-900 font-medium" aria-current={item.isActive ? "page" : undefined}>
+                      {item.label}
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 }
 
 function generateBreadcrumbItems(router: any): BreadcrumbItem[] {
   const pathSegments = router.pathname.split('/').filter(Boolean);
+  const querySegments = router.asPath.split('/').filter(Boolean);
   const items: BreadcrumbItem[] = [];
 
-  if (pathSegments[0] === 'recipes') {
-    items.push({ label: 'Receptai', href: '/recipes' });
-    
-    if (pathSegments[1]) {
-      // This is a specific recipe page
-      // We could fetch the recipe title here, but for now use the slug
-      const recipeSlug = pathSegments[1];
-      const recipeTitle = formatRecipeTitle(recipeSlug);
-      items.push({ label: recipeTitle });
-    }
-  }
+  if (pathSegments[0] === 'receptai') {
+    items.push({ label: 'Receptai', href: '/receptai' });
 
-  if (pathSegments[0] === 'categories') {
-    items.push({ label: 'Kategorijos', href: '/categories' });
-    
-    if (pathSegments[1]) {
-      const categorySlug = pathSegments[1];
+    // Handle category structure: /receptai/[category]/[subcategory]/[recipe]
+    if (querySegments[1]) {
+      const categorySlug = querySegments[1];
       const categoryTitle = formatCategoryTitle(categorySlug);
-      items.push({ label: categoryTitle });
+
+      if (querySegments[2]) {
+        // Has subcategory
+        items.push({
+          label: categoryTitle,
+          href: `/receptai/${categorySlug}`
+        });
+
+        const subcategorySlug = querySegments[2];
+        const subcategoryTitle = formatSubcategoryTitle(subcategorySlug);
+
+        if (querySegments[3]) {
+          // Has recipe
+          items.push({
+            label: subcategoryTitle,
+            href: `/receptai/${categorySlug}/${subcategorySlug}`
+          });
+
+          const recipeSlug = querySegments[3];
+          const recipeTitle = formatRecipeTitle(recipeSlug);
+          items.push({ label: recipeTitle, isActive: true });
+        } else {
+          // Subcategory page
+          items.push({ label: subcategoryTitle, isActive: true });
+        }
+      } else {
+        // Category page only
+        items.push({ label: categoryTitle, isActive: true });
+      }
     }
   }
 
@@ -106,13 +165,130 @@ function formatRecipeTitle(slug: string): string {
 function formatCategoryTitle(slug: string): string {
   // Convert category slug to readable title
   const categoryMap: { [key: string]: string } = {
+    'karsti-patiekalai': 'Karšti patiekalai',
     'sriubos': 'Sriubos',
-    'troskiniai': 'Troškiniai',
-    'salotos': 'Salotos',
-    'desertas': 'Desertai',
     'uzkandziai': 'Užkandžiai',
-    'pagrindinis-patiekalas': 'Pagrindiniai patiekalai'
+    'salotos': 'Salotos ir mišrainės',
+    'vistiena': 'Vištiena',
+    'jautiena': 'Jautiena',
+    'zuvis': 'Žuvis ir jūros gėrybės',
+    'desertai': 'Desertai',
+    '15-min-patiekalai': '15 minučių patiekalai',
+    'be-glitimo': 'Be glitimo',
+    'vegetariski': 'Vegetariški patiekalai'
   };
-  
+
   return categoryMap[slug] || formatRecipeTitle(slug);
+}
+
+function formatSubcategoryTitle(slug: string): string {
+  // Convert subcategory slug to readable title
+  const subcategoryMap: { [key: string]: string } = {
+    'kepsniai-karbonadai': 'Kepsniai ir karbonadai',
+    'troskiniai': 'Troškiniai',
+    'apkepai': 'Apkepai',
+    'koses-tyres': 'Košės ir tyrės',
+    'klasikines-sriubos': 'Klasikinės sriubos',
+    'vistienos-sriuba': 'Vištienos sriuba',
+    'darzoviu-sriubos': 'Daržovių sriubos',
+    'rugstynių-sriuba': 'Rūgštynių sriuba',
+    'vieno-kasnio': 'Vieno kąsnio užkandžiai',
+    'prie-alaus': 'Užkandžiai prie alaus',
+    'sumustiniai': 'Sumuštiniai',
+    'vistienos-salotos': 'Vištienos salotos',
+    'jautienos-salotos': 'Jautienos salotos',
+    'darzoviu-salotos': 'Daržovių salotos',
+    'vistienos-patiekalai': 'Vištienos patiekalai',
+    'jautienos-patiekalai': 'Jautienos patiekalai',
+    'jautienos-troskiniai': 'Troškiniai iš jautienos',
+    'zuvies-patiekalai': 'Žuvies patiekalai',
+    'lasisa': 'Receptai su lašiša',
+    'juros-gerybes': 'Jūros gėrybių patiekalai',
+    'tortai': 'Tortai',
+    'pyragai': 'Pyragai',
+    'keksai': 'Keksai',
+    'sausainiai': 'Sausainiai'
+  };
+
+  return subcategoryMap[slug] || formatRecipeTitle(slug);
+}
+
+// Utility function to generate breadcrumbs from recipe data
+export function generateRecipeBreadcrumbs(recipe: any): BreadcrumbItem[] {
+  const breadcrumbs: BreadcrumbItem[] = [
+    {
+      label: "Receptai",
+      href: "/receptai"
+    }
+  ];
+
+  // Add main category if available
+  if (recipe.breadcrumb?.main) {
+    breadcrumbs.push({
+      label: recipe.breadcrumb.main.label,
+      href: `/receptai/${recipe.breadcrumb.main.slug}`
+    });
+  }
+
+  // Add subcategory if available
+  if (recipe.breadcrumb?.sub) {
+    breadcrumbs.push({
+      label: recipe.breadcrumb.sub.label,
+      href: `/receptai/${recipe.breadcrumb.main.slug}/${recipe.breadcrumb.sub.slug}`
+    });
+  }
+
+  // Add current recipe
+  breadcrumbs.push({
+    label: recipe.title?.lt || recipe.title,
+    href: `/receptai/${recipe.breadcrumb?.main?.slug || 'receptas'}/${recipe.breadcrumb?.sub?.slug || 'patiekalas'}/${recipe.slug}`,
+    isActive: true
+  });
+
+  return breadcrumbs;
+}
+
+// Utility function to generate category page breadcrumbs
+export function generateCategoryBreadcrumbs(
+  categorySlug: string,
+  subcategorySlug?: string,
+  categoryData?: any
+): BreadcrumbItem[] {
+  const breadcrumbs: BreadcrumbItem[] = [
+    {
+      label: "Receptai",
+      href: "/receptai"
+    }
+  ];
+
+  // Add main category
+  if (categoryData?.label?.lt) {
+    breadcrumbs.push({
+      label: categoryData.label.lt,
+      href: `/receptai/${categorySlug}`,
+      isActive: !subcategorySlug
+    });
+  } else {
+    // Fallback if no category data
+    breadcrumbs.push({
+      label: formatCategoryTitle(categorySlug),
+      href: `/receptai/${categorySlug}`,
+      isActive: !subcategorySlug
+    });
+  }
+
+  // Add subcategory if present
+  if (subcategorySlug) {
+    const subcategoryLabel = categoryData?.subcategories?.find(
+      (sub: any) => sub.slug === subcategorySlug
+    )?.label || formatSubcategoryTitle(subcategorySlug);
+
+    breadcrumbs.push({
+      label: subcategoryLabel,
+      href: `/receptai/${categorySlug}/${subcategorySlug}`,
+      isActive: true
+    });
+  }
+
+  return breadcrumbs;
 }
