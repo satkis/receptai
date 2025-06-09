@@ -6,6 +6,42 @@ export default async function handler(
   res: NextApiResponse
 ) {
   if (req.method === 'GET') {
+    // Handle ObjectID query
+    if (req.query.objectId) {
+      try {
+        const { ObjectId } = require('mongodb')
+        const client = await clientPromise
+        const db = client.db(process.env.MONGODB_DB || 'receptai')
+
+        const recipe = await db.collection('recipes').findOne({
+          _id: new ObjectId(req.query.objectId as string)
+        })
+
+        if (!recipe) {
+          return res.status(404).json({
+            success: false,
+            error: 'Recipe not found'
+          })
+        }
+
+        return res.status(200).json({
+          success: true,
+          data: {
+            id: recipe._id.toString(),
+            title: recipe.title,
+            description: recipe.description,
+            slug: recipe.slug,
+            ltDescription: recipe.description?.lt || recipe.description
+          }
+        })
+      } catch (error) {
+        return res.status(500).json({
+          success: false,
+          error: 'Failed to fetch recipe by ObjectID',
+          details: error instanceof Error ? error.message : 'Unknown error'
+        })
+      }
+    }
     try {
       const client = await clientPromise
       const db = client.db(process.env.MONGODB_DB || 'receptai')

@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "sumustiniai",
+    "category": "mealType",
+    "categoryValue": "sumustiniai",
+    "seo": {
+      "title": "Sumuštinių receptai - Paragaujam.lt",
+      "description": "Geriausi sumuštinių receptai su detaliais instrukcijomis. Greiti ir skanūs sumuštiniai visai šeimai.",
+      "keywords": ["sumuštiniai", "receptai", "greiti patiekalai", "užkandžiai"],
+      "canonicalUrl": "/receptai/sumustiniai"
+    },
+    "quickFilters": [
+      { "type": "timeRequired", "values": ["15min", "30min"], "order": 1, "label": { "lt": "Laikas", "en": "Time" } },
+      { "type": "mainIngredient", "values": ["vistiena", "jautiena", "zuvis"], "order": 2, "label": { "lt": "Ingredientas", "en": "Ingredient" } },
+      { "type": "dietary", "values": ["vegetariski", "veganiski"], "order": 3, "label": { "lt": "Dieta", "en": "Diet" } }
+    ],
+    "active": true,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "uzkandžiai",
+    "category": "mealType",
+    "categoryValue": "uzkandžiai",
+    "seo": {
+      "title": "Užkandžių receptai - Paragaujam.lt",
+      "description": "Skanūs užkandžių receptai šventėms ir kasdienai. Lengvi ir greitai paruošiami užkandžiai.",
+      "keywords": ["užkandžiai", "receptai", "šventės", "vaišės"],
+      "canonicalUrl": "/receptai/uzkandžiai"
+    },
+    "quickFilters": [
+      { "type": "timeRequired", "values": ["15min", "30min"], "order": 1, "label": { "lt": "Laikas", "en": "Time" } },
+      { "type": "dietary", "values": ["vegetariski", "veganiski"], "order": 2, "label": { "lt": "Dieta", "en": "Diet" } },
+      { "type": "customTags", "values": ["šventėms", "vaikams"], "order": 3, "label": { "lt": "Proga", "en": "Occasion" } }
+    ],
+    "active": true,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "desertai",
+    "category": "mealType",
+    "categoryValue": "desertai",
+    "seo": {
+      "title": "Desertų receptai - Paragaujam.lt",
+      "description": "Saldūs desertų receptai visoms progoms. Tortai, pyragaičiai ir kiti skanėstai.",
+      "keywords": ["desertai", "receptai", "tortai", "pyragaičiai", "saldumynai"],
+      "canonicalUrl": "/receptai/desertai"
+    },
+    "quickFilters": [
+      { "type": "timeRequired", "values": ["30min", "1h", "2h", "2h+"], "order": 1, "label": { "lt": "Laikas", "en": "Time" } },
+      { "type": "dietary", "values": ["vegetariski", "veganiski", "be-glitimo"], "order": 2, "label": { "lt": "Dieta", "en": "Diet" } },
+      { "type": "customTags", "values": ["šventėms", "gimtadieniui"], "order": 3, "label": { "lt": "Proga", "en": "Occasion" } }
+    ],
+    "active": true,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "vistiena",
+    "category": "mainIngredient",
+    "categoryValue": "vistiena",
+    "seo": {
+      "title": "Vištienos receptai - Paragaujam.lt",
+      "description": "Skaniausi vištienos receptai su detaliais instrukcijomis. Keptos, virtos ir troškinto vištienos patiekalai.",
+      "keywords": ["vištiena", "receptai", "vištienos patiekalai", "mėsa"],
+      "canonicalUrl": "/receptai/vistiena"
+    },
+    "quickFilters": [
+      { "type": "timeRequired", "values": ["30min", "1h"], "order": 1, "label": { "lt": "Laikas", "en": "Time" } },
+      { "type": "mealType", "values": ["pietus", "vakariene"], "order": 2, "label": { "lt": "Patiekalo tipas", "en": "Meal Type" } },
+      { "type": "cuisine", "values": ["lietuviska", "azijietiska"], "order": 3, "label": { "lt": "Virtuvė", "en": "Cuisine" } }
+    ],
+    "active": true,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "zuvis",
+    "category": "mainIngredient",
+    "categoryValue": "zuvis",
+    "seo": {
+      "title": "Žuvies receptai - Paragaujam.lt",
+      "description": "Sveiki žuvies receptai su omega-3. Keptos, virtos ir troškinto žuvies patiekalai.",
+      "keywords": ["žuvis", "receptai", "žuvies patiekalai", "sveika mityba"],
+      "canonicalUrl": "/receptai/zuvis"
+    },
+    "quickFilters": [
+      { "type": "timeRequired", "values": ["15min", "30min"], "order": 1, "label": { "lt": "Laikas", "en": "Time" } },
+      { "type": "mealType", "values": ["pietus", "vakariene"], "order": 2, "label": { "lt": "Patiekalo tipas", "en": "Meal Type" } },
+      { "type": "dietary", "values": ["sveika", "baltyminga"], "order": 3, "label": { "lt": "Dieta", "en": "Diet" } }
+    ],
+    "active": true,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "lietuviska",
+    "category": "cuisine",
+    "categoryValue": "lietuviska",
+    "seo": {
+      "title": "Lietuviški receptai - Paragaujam.lt",
+      "description": "Tradiciniai lietuviški receptai ir patiekalai. Cepelinai, kugelis, šaltibarščiai ir kiti klasikiniai patiekalai.",
+      "keywords": ["lietuviški receptai", "tradiciniai patiekalai", "cepelinai", "kugelis"],
+      "canonicalUrl": "/receptai/lietuviska"
+    },
+    "quickFilters": [
+      { "type": "mealType", "values": ["pietus", "vakariene", "uzkandžiai"], "order": 1, "label": { "lt": "Patiekalo tipas", "en": "Meal Type" } },
+      { "type": "timeRequired", "values": ["1h", "2h", "2h+"], "order": 2, "label": { "lt": "Laikas", "en": "Time" } },
+      { "type": "customTags", "values": ["šventėms", "tradicinis"], "order": 3, "label": { "lt": "Proga", "en": "Occasion" } }
+    ],
+    "active": true,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "vegetariski",
+    "category": "dietary",
+    "categoryValue": "vegetariski",
+    "seo": {
+      "title": "Vegetariški receptai - Paragaujam.lt",
+      "description": "Skanūs vegetariški receptai be mėsos. Sveiki ir maistingi augaliniai patiekalai visai šeimai.",
+      "keywords": ["vegetariški receptai", "be mėsos", "augaliniai patiekalai", "sveika mityba"],
+      "canonicalUrl": "/receptai/vegetariski"
+    },
+    "quickFilters": [
+      { "type": "mealType", "values": ["pusryčiai", "pietus", "vakariene"], "order": 1, "label": { "lt": "Patiekalo tipas", "en": "Meal Type" } },
+      { "type": "timeRequired", "values": ["15min", "30min", "1h", "2h"], "order": 2, "label": { "lt": "Laikas", "en": "Time" } },
+      { "type": "mainIngredient", "values": ["daržoves", "grybai", "ankstiniai"], "order": 3, "label": { "lt": "Ingredientas", "en": "Ingredient" } }
+    ],
+    "active": true,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  }
+]

@@ -37,21 +37,20 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
   const effort = getRecipeDifficulty(recipe);
   const rating = getRecipeRating(recipe);
 
-  // Debug timing
-  console.log('Recipe timing debug:', {
-    recipeSlug: recipe.slug,
-    timing,
-    cookingTime: (recipe as any).cookingTime,
-    prepTimeMinutes: (recipe as any).prepTimeMinutes,
-    totalTimeMinutes: (recipe as any).totalTimeMinutes
-  });
+  // Debug timing (commented out for production)
+  // console.log('Recipe timing debug:', { recipeSlug: recipe.slug, timing });
 
   // Fallback time display if timing is 0
   const displayTime = timing.totalTime > 0 ? formatTime(timing.totalTime) :
                      (recipe as any).cookingTime ? `${(recipe as any).cookingTime} min` :
-                     '30 min';
+                     'apie 2 val'; // Default fallback matching our time categories
 
-  const servings = recipe.servings || 4;
+  // Handle servings - it can be a number or an object with amount/unit
+  const servings = typeof recipe.servings === 'object' && recipe.servings?.amount
+    ? recipe.servings.amount
+    : typeof recipe.servings === 'number'
+    ? recipe.servings
+    : 4;
   const cuisine = recipe.categories?.cuisine || 'Lithuanian';
   const author = recipe.author?.name || 'Chef';
 
@@ -74,7 +73,7 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
           {/* Image Section */}
           <div className="relative lg:w-64 h-48 lg:h-auto">
             <Image
-              src={recipe.image || '/placeholder-recipe.jpg'}
+              src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.url || '/placeholder-recipe.jpg'}
               alt={title}
               fill
               className="object-cover"
@@ -179,7 +178,7 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
         {/* Image Section */}
         <div className="relative h-48">
           <Image
-            src={recipe.image || '/placeholder-recipe.jpg'}
+            src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.url || '/placeholder-recipe.jpg'}
             alt={title}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"

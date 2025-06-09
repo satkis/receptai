@@ -42,12 +42,20 @@ export function getInstructionText(
 
 // Helper to get recipe timing information
 export function getRecipeTiming(recipe: Recipe) {
+  // Handle different schema structures:
+  // 1. New schema: recipe.timing.totalTimeMinutes (from your MongoDB)
+  // 2. Categories schema: recipe.categories.totalTimeMinutes
+  // 3. Legacy schema: recipe.totalTimeMinutes
+  const timing = (recipe as any).timing || {};
+
   return {
-    prepTime: recipe.prepTimeMinutes || 0,
-    cookTime: recipe.cookTimeMinutes || 0,
-    totalTime: recipe.totalTimeMinutes || 0,
+    prepTime: timing.prepTimeMinutes || recipe.categories?.prepTimeMinutes || recipe.prepTimeMinutes || 0,
+    cookTime: timing.cookTimeMinutes || recipe.categories?.cookTimeMinutes || recipe.cookTimeMinutes || 0,
+    totalTime: timing.totalTimeMinutes || recipe.categories?.totalTimeMinutes || recipe.totalTimeMinutes || 0,
   };
 }
+
+
 
 // Helper to get recipe difficulty
 export function getRecipeDifficulty(recipe: Recipe): 'Easy' | 'Medium' | 'Hard' {
@@ -95,18 +103,22 @@ export function getVitalIngredientsCount(recipe: Recipe): number {
   return recipe.ingredients.filter(ing => typeof ing === 'object' && 'vital' in ing && ing.vital).length;
 }
 
-// Helper to format time display
+// Helper to format time display in Lithuanian
 export function formatTime(minutes: number): string {
+  if (minutes <= 0) return '0 min';
+
   if (minutes < 60) {
-    return `${minutes}m`;
+    return `${minutes} min`;
   }
-  
+
   const hours = Math.floor(minutes / 60);
   const remainingMinutes = minutes % 60;
-  
+
   if (remainingMinutes === 0) {
-    return `${hours}h`;
+    return hours === 1 ? '1 val' : `${hours} val`;
   }
-  
-  return `${hours}h ${remainingMinutes}m`;
+
+  return hours === 1
+    ? `1 val ${remainingMinutes} min`
+    : `${hours} val ${remainingMinutes} min`;
 }

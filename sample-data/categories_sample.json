@@ -1,0 +1,200 @@
+[
+  {
+    "type": "mealType",
+    "key": "pusryčiai",
+    "label": {
+      "lt": "Pusryčiai",
+      "en": "Breakfast"
+    },
+    "description": {
+      "lt": "Ryto patiekalai energijos papildymui",
+      "en": "Morning meals for energy boost"
+    },
+    "icon": "🌅",
+    "color": "#FFD93D",
+    "order": 1,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "mealType",
+    "key": "pietus",
+    "label": {
+      "lt": "Pietūs",
+      "en": "Lunch"
+    },
+    "description": {
+      "lt": "Dienos patiekalai sočiam pietums",
+      "en": "Midday meals for satisfying lunch"
+    },
+    "icon": "☀️",
+    "color": "#FF8C42",
+    "order": 2,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "mealType",
+    "key": "vakariene",
+    "label": {
+      "lt": "Vakarienė",
+      "en": "Dinner"
+    },
+    "description": {
+      "lt": "Vakaro patiekalai šeimai",
+      "en": "Evening meals for family"
+    },
+    "icon": "🌙",
+    "color": "#6A4C93",
+    "order": 3,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "mealType",
+    "key": "uzkandžiai",
+    "label": {
+      "lt": "Užkandžiai",
+      "en": "Snacks"
+    },
+    "description": {
+      "lt": "Lengvi užkandžiai ir vaišės",
+      "en": "Light snacks and appetizers"
+    },
+    "icon": "🥨",
+    "color": "#F18F01",
+    "order": 4,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "mealType",
+    "key": "desertai",
+    "label": {
+      "lt": "Desertai",
+      "en": "Desserts"
+    },
+    "description": {
+      "lt": "Saldūs patiekalai ir skanėstai",
+      "en": "Sweet treats and desserts"
+    },
+    "icon": "🍰",
+    "color": "#FF69B4",
+    "order": 5,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "cuisine",
+    "key": "lietuviska",
+    "label": {
+      "lt": "Lietuviška",
+      "en": "Lithuanian"
+    },
+    "description": {
+      "lt": "Tradiciniai lietuviški patiekalai",
+      "en": "Traditional Lithuanian dishes"
+    },
+    "icon": "🇱🇹",
+    "color": "#FFD700",
+    "order": 1,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "cuisine",
+    "key": "italiska",
+    "label": {
+      "lt": "Itališka",
+      "en": "Italian"
+    },
+    "description": {
+      "lt": "Itališkos virtuvės patiekalai",
+      "en": "Italian cuisine dishes"
+    },
+    "icon": "🇮🇹",
+    "color": "#009246",
+    "order": 2,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "dietary",
+    "key": "vegetariski",
+    "label": {
+      "lt": "Vegetariški",
+      "en": "Vegetarian"
+    },
+    "description": {
+      "lt": "Patiekalai be mėsos",
+      "en": "Dishes without meat"
+    },
+    "icon": "🌱",
+    "color": "#4CAF50",
+    "order": 1,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "dietary",
+    "key": "veganiski",
+    "label": {
+      "lt": "Veganiški",
+      "en": "Vegan"
+    },
+    "description": {
+      "lt": "Patiekalai be gyvūninių produktų",
+      "en": "Dishes without animal products"
+    },
+    "icon": "🌿",
+    "color": "#2E7D32",
+    "order": 2,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "mainIngredient",
+    "key": "vistiena",
+    "label": {
+      "lt": "Vištiena",
+      "en": "Chicken"
+    },
+    "description": {
+      "lt": "Patiekalai su vištiena",
+      "en": "Dishes with chicken"
+    },
+    "icon": "🐔",
+    "color": "#FFC107",
+    "order": 1,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "type": "mainIngredient",
+    "key": "zuvis",
+    "label": {
+      "lt": "Žuvis",
+      "en": "Fish"
+    },
+    "description": {
+      "lt": "Žuvies patiekalai",
+      "en": "Fish dishes"
+    },
+    "icon": "🐟",
+    "color": "#00BCD4",
+    "order": 2,
+    "active": true,
+    "parentCategory": null,
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  }
+]

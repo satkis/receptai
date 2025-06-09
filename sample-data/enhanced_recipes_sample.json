@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "vistienos-sumustiniai",
+    "title": {
+      "lt": "Vištienos sumuštiniai su avokadu",
+      "en": "Chicken Avocado Sandwiches"
+    },
+    "description": {
+      "lt": "Skanūs ir maistingi vištienos sumuštiniai su šviežiu avokadu ir daržovėmis. Puikus pasirinkimas greitam pietums.",
+      "en": "Delicious and nutritious chicken sandwiches with fresh avocado and vegetables. Perfect choice for a quick lunch."
+    },
+    "availableLanguages": ["lt", "en"],
+    "image": {
+      "url": "/images/vistienos-sumustiniai.jpg",
+      "alt": "Vištienos sumuštiniai su avokadu",
+      "width": 1200,
+      "height": 800
+    },
+    "keywords": ["vištienos sumuštiniai", "avokadas", "greitas pietūs", "sveika mityba"],
+    "timing": {
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 5,
+      "totalTimeMinutes": 15,
+      "activeTimeMinutes": 8,
+      "restTimeMinutes": 2
+    },
+    "servings": {
+      "amount": 2,
+      "unit": {
+        "lt": "porcijos",
+        "en": "servings"
+      }
+    },
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": { "lt": "g", "en": "g" },
+        "name": { "lt": "Vištienos krūtinėlė", "en": "Chicken breast" },
+        "isMain": true,
+        "isOptional": false
+      },
+      {
+        "amount": 1,
+        "unit": { "lt": "vnt", "en": "piece" },
+        "name": { "lt": "Avokadas", "en": "Avocado" },
+        "isMain": false,
+        "isOptional": false
+      },
+      {
+        "amount": 4,
+        "unit": { "lt": "riekės", "en": "slices" },
+        "name": { "lt": "Duona", "en": "Bread" },
+        "isMain": false,
+        "isOptional": false
+      },
+      {
+        "amount": 2,
+        "unit": { "lt": "lapai", "en": "leaves" },
+        "name": { "lt": "Salotų lapai", "en": "Lettuce leaves" },
+        "isMain": false,
+        "isOptional": true
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": {
+          "lt": "Iškepdami vištienos krūtinėlę ant keptuvės su šiek tiek aliejaus 3-4 minutes iš kiekvienos pusės.",
+          "en": "Cook chicken breast in a pan with a little oil for 3-4 minutes on each side."
+        }
+      },
+      {
+        "step": 2,
+        "text": {
+          "lt": "Supjaustykite avokadą plonomis riekėmis ir paruoškite duonos riekės.",
+          "en": "Slice the avocado thinly and prepare the bread slices."
+        }
+      },
+      {
+        "step": 3,
+        "text": {
+          "lt": "Sudėkite visus ingredientus ant duonos ir paduokite.",
+          "en": "Assemble all ingredients on bread and serve."
+        }
+      }
+    ],
+    "nutrition": {
+      "calories": "420 kcal",
+      "protein": "32g",
+      "fat": "18g",
+      "carbohydrates": "28g"
+    },
+    "categories": {
+      "cuisine": ["lietuviska"],
+      "mealType": ["sumustiniai", "pietus"],
+      "dietary": ["sveika", "baltyminga"],
+      "mainIngredient": ["vistiena"],
+      "timeRequired": "15min",
+      "customTags": ["greitas", "vaikams"]
+    },
+    "groupIds": [],
+    "rating": {
+      "average": 4.7,
+      "count": 23
+    },
+    "author": {
+      "name": "Paragaujam.lt"
+    },
+    "status": "public",
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" },
+    "updatedAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "vegetariski-grybai-uzkandis",
+    "title": {
+      "lt": "Vegetariški grybų užkandžiai",
+      "en": "Vegetarian Mushroom Appetizers"
+    },
+    "description": {
+      "lt": "Skanūs vegetariški grybų užkandžiai su žolelėmis. Puikus pasirinkimas vakarėliams ir šventėms.",
+      "en": "Delicious vegetarian mushroom appetizers with herbs. Perfect choice for parties and celebrations."
+    },
+    "availableLanguages": ["lt", "en"],
+    "image": {
+      "url": "/images/grybai-uzkandis.jpg",
+      "alt": "Vegetariški grybų užkandžiai",
+      "width": 1200,
+      "height": 800
+    },
+    "keywords": ["vegetariški užkandžiai", "grybai", "šventės", "vakarėliai"],
+    "timing": {
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 20,
+      "totalTimeMinutes": 35,
+      "activeTimeMinutes": 12,
+      "restTimeMinutes": 8
+    },
+    "servings": {
+      "amount": 4,
+      "unit": {
+        "lt": "porcijos",
+        "en": "servings"
+      }
+    },
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": { "lt": "g", "en": "g" },
+        "name": { "lt": "Šampinjonai", "en": "Mushrooms" },
+        "isMain": true,
+        "isOptional": false
+      },
+      {
+        "amount": 100,
+        "unit": { "lt": "g", "en": "g" },
+        "name": { "lt": "Sūris", "en": "Cheese" },
+        "isMain": false,
+        "isOptional": false
+      },
+      {
+        "amount": 2,
+        "unit": { "lt": "šaukštai", "en": "tablespoons" },
+        "name": { "lt": "Alyvuogių aliejus", "en": "Olive oil" },
+        "isMain": false,
+        "isOptional": false
+      },
+      {
+        "amount": 1,
+        "unit": { "lt": "šaukštelis", "en": "teaspoon" },
+        "name": { "lt": "Žolelės", "en": "Herbs" },
+        "isMain": false,
+        "isOptional": true
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": {
+          "lt": "Nuvalykite grybus ir išimkite kotelį.",
+          "en": "Clean mushrooms and remove stems."
+        }
+      },
+      {
+        "step": 2,
+        "text": {
+          "lt": "Sumaišykite sūrį su žolelėmis ir pripildykite grybus.",
+          "en": "Mix cheese with herbs and fill mushrooms."
+        }
+      },
+      {
+        "step": 3,
+        "text": {
+          "lt": "Kepkite orkaitėje 180°C temperatūroje 20 minučių.",
+          "en": "Bake in oven at 180°C for 20 minutes."
+        }
+      }
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "protein": "12g",
+      "fat": "14g",
+      "carbohydrates": "6g"
+    },
+    "categories": {
+      "cuisine": ["lietuviska"],
+      "mealType": ["uzkandžiai"],
+      "dietary": ["vegetariski"],
+      "mainIngredient": ["grybai"],
+      "timeRequired": "30min",
+      "customTags": ["šventėms"]
+    },
+    "groupIds": [],
+    "rating": {
+      "average": 4.5,
+      "count": 18
+    },
+    "author": {
+      "name": "Paragaujam.lt"
+    },
+    "status": "public",
+    "createdAt": { "$date": "2024-01-15T11:00:00.000Z" },
+    "updatedAt": { "$date": "2024-01-15T11:00:00.000Z" }
+  },
+  {
+    "slug": "šokolado-tortas",
+    "title": {
+      "lt": "Šokolado tortas su uogomis",
+      "en": "Chocolate Cake with Berries"
+    },
+    "description": {
+      "lt": "Nepaprastai skanus šokolado tortas su šviežiomis uogomis. Idealus gimtadienio ar šventės tortui.",
+      "en": "Incredibly delicious chocolate cake with fresh berries. Perfect for birthday or celebration cake."
+    },
+    "availableLanguages": ["lt", "en"],
+    "image": {
+      "url": "/images/sokolado-tortas.jpg",
+      "alt": "Šokolado tortas su uogomis",
+      "width": 1200,
+      "height": 800
+    },
+    "keywords": ["šokolado tortas", "uogos", "gimtadienis", "šventės"],
+    "timing": {
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 45,
+      "totalTimeMinutes": 120,
+      "activeTimeMinutes": 25,
+      "restTimeMinutes": 45
+    },
+    "servings": {
+      "amount": 8,
+      "unit": {
+        "lt": "porcijos",
+        "en": "servings"
+      }
+    },
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": { "lt": "g", "en": "g" },
+        "name": { "lt": "Juodasis šokoladas", "en": "Dark chocolate" },
+        "isMain": true,
+        "isOptional": false
+      },
+      {
+        "amount": 4,
+        "unit": { "lt": "vnt", "en": "pieces" },
+        "name": { "lt": "Kiaušiniai", "en": "Eggs" },
+        "isMain": false,
+        "isOptional": false
+      },
+      {
+        "amount": 150,
+        "unit": { "lt": "g", "en": "g" },
+        "name": { "lt": "Cukrus", "en": "Sugar" },
+        "isMain": false,
+        "isOptional": false
+      },
+      {
+        "amount": 200,
+        "unit": { "lt": "g", "en": "g" },
+        "name": { "lt": "Šviežios uogos", "en": "Fresh berries" },
+        "isMain": false,
+        "isOptional": true
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "text": {
+          "lt": "Ištirpinkite šokoladą vandens vonelėje.",
+          "en": "Melt chocolate in a double boiler."
+        }
+      },
+      {
+        "step": 2,
+        "text": {
+          "lt": "Išplakite kiaušinius su cukrumi iki putų.",
+          "en": "Whisk eggs with sugar until fluffy."
+        }
+      },
+      {
+        "step": 3,
+        "text": {
+          "lt": "Sumaišykite šokoladą su kiaušiniais ir kepkite 45 min.",
+          "en": "Mix chocolate with eggs and bake for 45 minutes."
+        }
+      },
+      {
+        "step": 4,
+        "text": {
+          "lt": "Papuoškite uogomis ir paduokite.",
+          "en": "Decorate with berries and serve."
+        }
+      }
+    ],
+    "nutrition": {
+      "calories": "380 kcal",
+      "protein": "8g",
+      "fat": "22g",
+      "carbohydrates": "42g"
+    },
+    "categories": {
+      "cuisine": ["lietuviska"],
+      "mealType": ["desertai"],
+      "dietary": ["vegetariski"],
+      "mainIngredient": ["šokoladas"],
+      "timeRequired": "2h",
+      "customTags": ["šventėms", "gimtadieniui"]
+    },
+    "groupIds": [],
+    "rating": {
+      "average": 4.9,
+      "count": 45
+    },
+    "author": {
+      "name": "Paragaujam.lt"
+    },
+    "status": "public",
+    "createdAt": { "$date": "2024-01-15T12:00:00.000Z" },
+    "updatedAt": { "$date": "2024-01-15T12:00:00.000Z" }
+  }
+]

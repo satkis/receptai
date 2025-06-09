@@ -1,0 +1,268 @@
+[
+  {
+    "type": "cuisine",
+    "key": "lietuviska",
+    "label": { "lt": "Lietuviška", "en": "Lithuanian" },
+    "icon": "🇱🇹",
+    "color": "#FFD700",
+    "order": 1,
+    "active": true
+  },
+  {
+    "type": "cuisine",
+    "key": "italiska",
+    "label": { "lt": "Itališka", "en": "Italian" },
+    "icon": "🇮🇹",
+    "color": "#009246",
+    "order": 2,
+    "active": true
+  },
+  {
+    "type": "cuisine",
+    "key": "azijietiska",
+    "label": { "lt": "Azijietiška", "en": "Asian" },
+    "icon": "🥢",
+    "color": "#FF6B6B",
+    "order": 3,
+    "active": true
+  },
+  {
+    "type": "cuisine",
+    "key": "prancuziska",
+    "label": { "lt": "Prancūziška", "en": "French" },
+    "icon": "🇫🇷",
+    "color": "#0055A4",
+    "order": 4,
+    "active": true
+  },
+  {
+    "type": "mealType",
+    "key": "pusryčiai",
+    "label": { "lt": "Pusryčiai", "en": "Breakfast" },
+    "icon": "🌅",
+    "color": "#FFD93D",
+    "order": 1,
+    "active": true
+  },
+  {
+    "type": "mealType",
+    "key": "pietus",
+    "label": { "lt": "Pietūs", "en": "Lunch" },
+    "icon": "☀️",
+    "color": "#FF8C42",
+    "order": 2,
+    "active": true
+  },
+  {
+    "type": "mealType",
+    "key": "vakariene",
+    "label": { "lt": "Vakarienė", "en": "Dinner" },
+    "icon": "🌙",
+    "color": "#6A4C93",
+    "order": 3,
+    "active": true
+  },
+  {
+    "type": "mealType",
+    "key": "uzkandžiai",
+    "label": { "lt": "Užkandžiai", "en": "Snacks" },
+    "icon": "🥨",
+    "color": "#F18F01",
+    "order": 4,
+    "active": true
+  },
+  {
+    "type": "mealType",
+    "key": "desertai",
+    "label": { "lt": "Desertai", "en": "Desserts" },
+    "icon": "🍰",
+    "color": "#FF69B4",
+    "order": 5,
+    "active": true
+  },
+  {
+    "type": "mealType",
+    "key": "sumustiniai",
+    "label": { "lt": "Sumuštiniai", "en": "Sandwiches" },
+    "icon": "🥪",
+    "color": "#8BC34A",
+    "order": 6,
+    "active": true
+  },
+  {
+    "type": "timeRequired",
+    "key": "15min",
+    "label": { "lt": "iki 15min", "en": "up to 15min" },
+    "icon": "⚡",
+    "color": "#FF5722",
+    "order": 1,
+    "active": true,
+    "metadata": { "maxMinutes": 15 }
+  },
+  {
+    "type": "timeRequired",
+    "key": "30min",
+    "label": { "lt": "iki 30min", "en": "up to 30min" },
+    "icon": "🕐",
+    "color": "#FF9800",
+    "order": 2,
+    "active": true,
+    "metadata": { "maxMinutes": 30 }
+  },
+  {
+    "type": "timeRequired",
+    "key": "1h",
+    "label": { "lt": "iki 1val", "en": "up to 1h" },
+    "icon": "🕑",
+    "color": "#2196F3",
+    "order": 3,
+    "active": true,
+    "metadata": { "maxMinutes": 60 }
+  },
+  {
+    "type": "timeRequired",
+    "key": "2h",
+    "label": { "lt": "apie 2val", "en": "about 2h" },
+    "icon": "🕕",
+    "color": "#9C27B0",
+    "order": 4,
+    "active": true,
+    "metadata": { "maxMinutes": 120 }
+  },
+  {
+    "type": "timeRequired",
+    "key": "2h+",
+    "label": { "lt": "virš 2val", "en": "over 2h" },
+    "icon": "🕘",
+    "color": "#795548",
+    "order": 5,
+    "active": true,
+    "metadata": { "minMinutes": 120 }
+  },
+  {
+    "type": "dietary",
+    "key": "vegetariski",
+    "label": { "lt": "Vegetariški", "en": "Vegetarian" },
+    "icon": "🌱",
+    "color": "#4CAF50",
+    "order": 1,
+    "active": true
+  },
+  {
+    "type": "dietary",
+    "key": "veganiski",
+    "label": { "lt": "Veganiški", "en": "Vegan" },
+    "icon": "🌿",
+    "color": "#2E7D32",
+    "order": 2,
+    "active": true
+  },
+  {
+    "type": "dietary",
+    "key": "be-glitimo",
+    "label": { "lt": "Be glitimo", "en": "Gluten-free" },
+    "icon": "🚫🌾",
+    "color": "#FF9800",
+    "order": 3,
+    "active": true
+  },
+  {
+    "type": "dietary",
+    "key": "keto",
+    "label": { "lt": "Keto", "en": "Keto" },
+    "icon": "🥑",
+    "color": "#795548",
+    "order": 4,
+    "active": true
+  },
+  {
+    "type": "dietary",
+    "key": "sveika",
+    "label": { "lt": "Sveika", "en": "Healthy" },
+    "icon": "💚",
+    "color": "#4CAF50",
+    "order": 5,
+    "active": true
+  },
+  {
+    "type": "mainIngredient",
+    "key": "vistiena",
+    "label": { "lt": "Vištiena", "en": "Chicken" },
+    "icon": "🐔",
+    "color": "#FFC107",
+    "order": 1,
+    "active": true
+  },
+  {
+    "type": "mainIngredient",
+    "key": "jautiena",
+    "label": { "lt": "Jautiena", "en": "Beef" },
+    "icon": "🥩",
+    "color": "#D32F2F",
+    "order": 2,
+    "active": true
+  },
+  {
+    "type": "mainIngredient",
+    "key": "zuvis",
+    "label": { "lt": "Žuvis", "en": "Fish" },
+    "icon": "🐟",
+    "color": "#00BCD4",
+    "order": 3,
+    "active": true
+  },
+  {
+    "type": "mainIngredient",
+    "key": "daržoves",
+    "label": { "lt": "Daržovės", "en": "Vegetables" },
+    "icon": "🥕",
+    "color": "#4CAF50",
+    "order": 4,
+    "active": true
+  },
+  {
+    "type": "mainIngredient",
+    "key": "grybai",
+    "label": { "lt": "Grybai", "en": "Mushrooms" },
+    "icon": "🍄",
+    "color": "#795548",
+    "order": 5,
+    "active": true
+  },
+  {
+    "type": "customTags",
+    "key": "šventėms",
+    "label": { "lt": "Šventėms", "en": "For Holidays" },
+    "icon": "🎉",
+    "color": "#E91E63",
+    "order": 1,
+    "active": true
+  },
+  {
+    "type": "customTags",
+    "key": "vaikams",
+    "label": { "lt": "Vaikams", "en": "For Kids" },
+    "icon": "👶",
+    "color": "#FF9800",
+    "order": 2,
+    "active": true
+  },
+  {
+    "type": "customTags",
+    "key": "tradicinis",
+    "label": { "lt": "Tradicinis", "en": "Traditional" },
+    "icon": "🏛️",
+    "color": "#795548",
+    "order": 3,
+    "active": true
+  },
+  {
+    "type": "customTags",
+    "key": "greitas",
+    "label": { "lt": "Greitas", "en": "Quick" },
+    "icon": "⚡",
+    "color": "#FF5722",
+    "order": 4,
+    "active": true
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "30-minuciu-patiekalai",
+    "label": {
+      "lt": "30 minučių patiekalai",
+      "en": "30-Minute Meals"
+    },
+    "description": {
+      "lt": "Greiti ir skanūs patiekalai, kuriuos galima paruošti per 30 minučių",
+      "en": "Quick and delicious meals that can be prepared in 30 minutes"
+    },
+    "icon": "🕐",
+    "color": "#FF9800",
+    "priority": 1,
+    "filters": {
+      "maxTimeMinutes": 30,
+      "autoInclude": true
+    },
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "vegetariski-patiekalai",
+    "label": {
+      "lt": "Vegetariški patiekalai",
+      "en": "Vegetarian Dishes"
+    },
+    "description": {
+      "lt": "Skanūs vegetariški receptai be mėsos",
+      "en": "Delicious vegetarian recipes without meat"
+    },
+    "icon": "🌱",
+    "color": "#4CAF50",
+    "priority": 2,
+    "filters": {
+      "dietary": ["vegetariski"],
+      "autoInclude": true
+    },
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "šventiniai-patiekalai",
+    "label": {
+      "lt": "Šventiniai patiekalai",
+      "en": "Holiday Dishes"
+    },
+    "description": {
+      "lt": "Ypatingi patiekalai šventėms ir progoms",
+      "en": "Special dishes for holidays and occasions"
+    },
+    "icon": "🎉",
+    "color": "#E91E63",
+    "priority": 3,
+    "filters": {
+      "customTags": ["šventėms"],
+      "autoInclude": true
+    },
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "lengvi-receptai",
+    "label": {
+      "lt": "Lengvi receptai",
+      "en": "Easy Recipes"
+    },
+    "description": {
+      "lt": "Paprasti receptai pradedantiesiems virėjams",
+      "en": "Simple recipes for beginner cooks"
+    },
+    "icon": "😊",
+    "color": "#4CAF50",
+    "priority": 4,
+    "filters": {
+      "difficulty": "lengvas",
+      "autoInclude": true
+    },
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  },
+  {
+    "slug": "sveiki-patiekalai",
+    "label": {
+      "lt": "Sveiki patiekalai",
+      "en": "Healthy Dishes"
+    },
+    "description": {
+      "lt": "Maistingi ir sveiki receptai visai šeimai",
+      "en": "Nutritious and healthy recipes for the whole family"
+    },
+    "icon": "💚",
+    "color": "#4CAF50",
+    "priority": 5,
+    "filters": {
+      "dietary": ["sveika"],
+      "autoInclude": true
+    },
+    "createdAt": { "$date": "2024-01-15T10:00:00.000Z" }
+  }
+]
