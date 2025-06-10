@@ -15,11 +15,11 @@ import {
 
 import { Recipe } from '@/types';
 
-interface RecipeDetailProps {
+interface DetailRecipeProps {
   recipe: Recipe;
 }
 
-export default function RecipeDetail({ recipe }: RecipeDetailProps) {
+export default function DetailRecipe({ recipe }: DetailRecipeProps) {
   const [servings, setServings] = useState(recipe.servings);
   const [checkedIngredients, setCheckedIngredients] = useState<Set<number>>(new Set());
   const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());

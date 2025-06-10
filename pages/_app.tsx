@@ -7,7 +7,7 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
 import '@/styles/globals.css';
-import Layout from '@/components/Layout';
+import Layout from '@/components/layout/Layout';
 import { generateWebsiteStructuredData, generateOrganizationStructuredData } from '@/utils/seo';
 
 // SWR fetcher function

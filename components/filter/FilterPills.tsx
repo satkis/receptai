@@ -105,7 +105,6 @@ export default function FilterPills({
       {/* Time Filters Row */}
       {timeFilters && timeFilters.options && timeFilters.options.length > 0 && (
         <div>
-          {/* <h4 className="text-sm font-medium text-gray-700 mb-2">Laikas:</h4> */}
           {/* Mobile: Horizontal scroll carousel */}
           <div className="md:hidden">
             <div className="flex gap-2 overflow-x-auto scrollbar-hide">
@@ -139,7 +138,6 @@ export default function FilterPills({
       {/* Main Ingredient Filters Row */}
       {ingredientFilters && ingredientFilters.options && ingredientFilters.options.length > 0 && (
         <div>
-          {/* <h4 className="text-sm font-medium text-gray-700 mb-2">Ingredientai:</h4> */}
           {/* Mobile: Horizontal scroll carousel */}
           <div className="md:hidden">
             <div className="flex gap-0 overflow-x-auto scrollbar-hide">
@@ -173,7 +171,6 @@ export default function FilterPills({
       {/* Other Filters (if any) */}
       {otherFilters.length > 0 && (
         <div>
-          {/* <h4 className="text-sm font-medium text-gray-700 mb-2">Kiti filtrai:</h4> */}
           <div className="flex flex-wrap gap-2">
             {otherFilters.map(([filterType, filterGroup]) => {
               if (!filterGroup || !filterGroup.options || !Array.isArray(filterGroup.options)) {

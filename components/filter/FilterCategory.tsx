@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { ChefHat, Utensils, Coffee, Cookie, Salad, Wine } from 'lucide-react';
 
-interface CategoryFilterProps {
+interface FilterCategoryProps {
   categories: string[];
   selectedCategory?: string;
   onCategoryChange?: (category: string) => void;
@@ -27,12 +27,12 @@ const categoryColors: Record<string, string> = {
   'Salotos': 'bg-emerald-100 text-emerald-800 hover:bg-emerald-200',
 };
 
-export default function CategoryFilter({
+export default function FilterCategory({
   categories,
   selectedCategory = '',
   onCategoryChange,
   showAsGrid = false,
-}: CategoryFilterProps) {
+}: FilterCategoryProps) {
   const handleCategoryClick = (category: string) => {
     if (onCategoryChange) {
       onCategoryChange(category === selectedCategory ? '' : category);
@@ -49,7 +49,7 @@ export default function CategoryFilter({
           return (
             <Link
               key={category}
-              href={`/recipes?category=${encodeURIComponent(category.toLowerCase().replace(/\s+/g, '-'))}`}
+              href={`/receptai?category=${encodeURIComponent(category.toLowerCase().replace(/\s+/g, '-'))}`}
               className={`${colorClass} p-6 rounded-xl text-center transition-all duration-200 hover:scale-105 hover:shadow-md group`}
             >
               <div className="flex flex-col items-center space-y-3">

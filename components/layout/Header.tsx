@@ -19,12 +19,9 @@ export default function Header() {
   console.log('Header - current route:', router.pathname);
 
   const navigation = [
-    { name: 'Receptai', href: '/recipes' },
-    { name: 'Kategorijos', href: '/categories' },
-    { name: 'Apie mus', href: '/about' },
+    { name: 'Receptai', href: '/receptai' }, // Updated to use Lithuanian URL
+    { name: 'Kategorijos', href: '/receptai' }, // Updated to use Lithuanian URL
   ];
-
-
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50" id="main-header">
@@ -55,8 +52,6 @@ export default function Header() {
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
-
-
         </div>
 
         {/* Desktop Header */}
@@ -90,7 +85,7 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 className={`${
-                  router.pathname === item.href
+                  router.pathname.startsWith(item.href)
                     ? 'text-orange-500 font-medium'
                     : 'text-gray-700 hover:text-orange-500'
                 } transition-colors duration-200`}
@@ -104,15 +99,12 @@ export default function Header() {
           <div className="flex items-center space-x-4">
             <button
               className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"
-              onClick={() => router.push('/search')}
               title="Ieškoti"
             >
               <Search className="w-5 h-5" />
             </button>
           </div>
         </div>
-
-
 
         {/* Mobile Menu */}
         {isMenuOpen && (
@@ -135,7 +127,7 @@ export default function Header() {
                   key={item.name}
                   href={item.href}
                   className={`block px-3 py-2 rounded-md text-base font-medium ${
-                    router.pathname === item.href
+                    router.pathname.startsWith(item.href)
                       ? 'text-orange-500 bg-orange-50'
                       : 'text-gray-700 hover:text-orange-500 hover:bg-gray-50'
                   } transition-colors duration-200`}
@@ -144,13 +136,6 @@ export default function Header() {
                   {item.name}
                 </Link>
               ))}
-
-              {/* Login info in mobile menu */}
-              <div className="px-3 py-2 border-t border-gray-100 mt-4 pt-4">
-                <span className="text-sm text-gray-500">
-                  Prisijungimas netrukus
-                </span>
-              </div>
             </div>
           </div>
         )}

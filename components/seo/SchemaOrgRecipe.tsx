@@ -40,6 +40,7 @@ interface Recipe {
     mealType?: string;
     dietary?: string[];
   };
+  categoryPath?: string;
 }
 
 interface SchemaOrgRecipeProps {
@@ -89,6 +90,9 @@ export default function SchemaOrgRecipe({ recipe, language = 'lt', url }: Schema
     return instruction.text?.[language] || instruction.text?.lt || instruction;
   };
 
+  // Build canonical URL using Lithuanian structure
+  const canonicalUrl = url || `https://paragaujam.lt/receptai/${recipe.categoryPath}/${recipe.slug}`;
+
   // Build Schema.org structured data
   const schemaData = {
     "@context": "https://schema.org",
@@ -96,18 +100,18 @@ export default function SchemaOrgRecipe({ recipe, language = 'lt', url }: Schema
     "name": getTitle(),
     "description": getDescription(),
     "image": [getImageUrl()],
-    "url": url || `https://receptai.lt/recipes/${recipe.slug}`,
+    "url": canonicalUrl,
     "author": {
-      "@type": "Person",
-      "name": recipe.author?.name || "Receptai.lt"
+      "@type": "Organization",
+      "name": "Paragaujam.lt"
     },
     "datePublished": recipe.createdAt || new Date().toISOString(),
     "prepTime": recipe.prepTimeMinutes ? `PT${recipe.prepTimeMinutes}M` : undefined,
     "cookTime": recipe.cookTimeMinutes ? `PT${recipe.cookTimeMinutes}M` : undefined,
     "totalTime": `PT${recipe.totalTimeMinutes || 30}M`,
     "recipeCategory": recipe.filters?.mealType || "Main Course",
-    "recipeCuisine": recipe.filters?.cuisine || "Lithuanian",
-    "recipeYield": getServings().toString(),
+    "recipeCuisine": recipe.filters?.cuisine || "Lietuviška",
+    "recipeYield": `${getServings()} porcijos`,
     "nutrition": recipe.nutrition ? {
       "@type": "NutritionInformation",
       "calories": recipe.nutrition.calories,
@@ -136,28 +140,27 @@ export default function SchemaOrgRecipe({ recipe, language = 'lt', url }: Schema
   const title = getTitle();
   const description = getDescription();
   const imageUrl = getImageUrl();
-  const canonicalUrl = url || `https://receptai.lt/recipes/${recipe.slug}`;
 
   return (
     <Head>
       {/* Basic Meta Tags */}
-      <title>{title} - Receptai.lt</title>
+      <title>{title} - Receptas | Paragaujam.lt</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={recipe.keywords?.join(", ") || recipe.categories?.join(", ") || ""} />
       <link rel="canonical" href={canonicalUrl} />
 
       {/* Open Graph Meta Tags */}
-      <meta property="og:title" content={`${title} - Receptai.lt`} />
+      <meta property="og:title" content={`${title} - Receptas | Paragaujam.lt`} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={imageUrl} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content="article" />
-      <meta property="og:site_name" content="Receptai.lt" />
+      <meta property="og:site_name" content="Paragaujam.lt" />
       <meta property="og:locale" content={language === 'lt' ? 'lt_LT' : 'en_US'} />
 
       {/* Twitter Card Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={`${title} - Receptai.lt`} />
+      <meta name="twitter:title" content={`${title} - Receptas | Paragaujam.lt`} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={imageUrl} />
 
@@ -166,8 +169,8 @@ export default function SchemaOrgRecipe({ recipe, language = 'lt', url }: Schema
       <meta name="recipe:cook_time" content={recipe.cookTimeMinutes?.toString() || "0"} />
       <meta name="recipe:total_time" content={recipe.totalTimeMinutes?.toString() || "30"} />
       <meta name="recipe:serves" content={getServings().toString()} />
-      <meta name="recipe:cuisine" content={recipe.filters?.cuisine || "Lithuanian"} />
-      <meta name="recipe:category" content={recipe.filters?.mealType || "Main Course"} />
+      <meta name="recipe:cuisine" content={recipe.filters?.cuisine || "Lietuviška"} />
+      <meta name="recipe:category" content={recipe.filters?.mealType || "Pagrindinis patiekalas"} />
 
       {/* Structured Data */}
       <script
@@ -179,13 +182,12 @@ export default function SchemaOrgRecipe({ recipe, language = 'lt', url }: Schema
 
       {/* Additional SEO Meta Tags */}
       <meta name="robots" content="index, follow" />
-      <meta name="author" content={recipe.author?.name || "Receptai.lt"} />
+      <meta name="author" content="Paragaujam.lt" />
       <meta name="language" content={language} />
 
       {/* Hreflang for multilingual support */}
-      <link rel="alternate" hrefLang="lt" href={`https://receptai.lt/recipes/${recipe.slug}`} />
-      <link rel="alternate" hrefLang="en" href={`https://receptai.lt/en/recipes/${recipe.slug}`} />
-      <link rel="alternate" hrefLang="x-default" href={`https://receptai.lt/recipes/${recipe.slug}`} />
+      <link rel="alternate" hrefLang="lt" href={canonicalUrl} />
+      <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
     </Head>
   );
 }

@@ -3,10 +3,11 @@
 
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
-import Head from 'next/head';
 import Image from 'next/image';
 import { MongoClient } from 'mongodb';
-import Breadcrumb, { generateRecipeBreadcrumbs } from '../../../../components/Breadcrumb';
+import Breadcrumb, { generateRecipeBreadcrumbs } from '../../../../components/navigation/Breadcrumb';
+import SEOHead, { RecipeSEOHead } from '../../../../components/seo/SEOHead';
+import { generateRecipeSEO } from '../../../../utils/seo-enhanced';
 
 
 
@@ -115,47 +116,14 @@ export default function RecipePage({ recipe }: RecipePageProps) {
     setCheckedIngredients(newChecked);
   };
 
+  // Generate enhanced SEO data
+  const seoData = generateRecipeSEO(recipe);
+
   return (
     <>
-      <Head>
-        <title>{recipe.seo?.metaTitle || recipe.title?.lt || 'Receptas'}</title>
-        <meta name="description" content={recipe.seo?.metaDescription || recipe.description?.lt || 'Receptas'} />
-        {recipe.seo?.keywords && (
-          <meta name="keywords" content={recipe.seo.keywords.join(', ')} />
-        )}
-        {recipe.seo?.canonicalUrl && (
-          <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}${recipe.seo.canonicalUrl}`} />
-        )}
-
-        {/* Open Graph */}
-        <meta property="og:title" content={recipe.seo?.metaTitle || recipe.title?.lt || 'Receptas'} />
-        <meta property="og:description" content={recipe.seo?.metaDescription || recipe.description?.lt || 'Receptas'} />
-        <meta property="og:image" content={`${process.env.NEXT_PUBLIC_SITE_URL}${recipe.image || '/hero-image.jpg'}`} />
-        {recipe.seo?.canonicalUrl && (
-          <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}${recipe.seo.canonicalUrl}`} />
-        )}
-        <meta property="og:type" content="article" />
-
-        {/* Schema.org Recipe Data */}
-        {recipe.schemaOrg && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(recipe.schemaOrg)
-            }}
-          />
-        )}
-
-        {/* Breadcrumb Schema */}
-        {recipe.seo?.breadcrumbSchema && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(recipe.seo.breadcrumbSchema)
-            }}
-          />
-        )}
-      </Head>
+      <SEOHead seo={seoData}>
+        <RecipeSEOHead recipe={recipe} />
+      </SEOHead>
 
       <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100">
         {/* Breadcrumb Navigation */}

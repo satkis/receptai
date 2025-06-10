@@ -8,13 +8,13 @@ interface FilterOptions {
   language: string;
 }
 
-interface AdvancedFiltersProps {
+interface FilterAdvancedProps {
   filters: FilterOptions;
   onFiltersChange: (filters: FilterOptions) => void;
   className?: string;
 }
 
-export default function AdvancedFilters({ filters, onFiltersChange, className = '' }: AdvancedFiltersProps) {
+export default function FilterAdvanced({ filters, onFiltersChange, className = '' }: FilterAdvancedProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const dietaryOptions = [

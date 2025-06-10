@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Recipe } from '@/types';
-import RecipeCard from './RecipeCard';
+import CardRecipe from './CardRecipe';
 
 interface FeaturedRecipesProps {
   recipes: Recipe[];
@@ -76,10 +76,9 @@ export default function FeaturedRecipes({ recipes }: FeaturedRecipesProps) {
             className="flex-shrink-0 w-80"
             style={{ scrollSnapAlign: 'start' }}
           >
-            <RecipeCard
+            <CardRecipe
               recipe={recipe}
-              showSaveButton
-              showAuthor
+              variant="featured"
               className="h-full"
             />
           </div>
@@ -94,7 +93,7 @@ export default function FeaturedRecipes({ recipes }: FeaturedRecipesProps) {
               key={index}
               onClick={() => scrollToIndex(index)}
               className={`w-2 h-2 rounded-full transition-colors duration-200 ${
-                index === currentIndex ? 'bg-primary' : 'bg-gray-300'
+                index === currentIndex ? 'bg-orange-500' : 'bg-gray-300'
               }`}
               aria-label={`Eiti į ${index + 1} receptą`}
             />

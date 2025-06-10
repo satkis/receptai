@@ -15,10 +15,11 @@ interface SearchSuggestion {
   title: string;
   slug?: string;
   category?: string;
+  categoryPath?: string;
 }
 
 export default function SearchBar({
-  placeholder = 'Ieškoti...',
+  placeholder = 'Ieškoti receptų...',
   className = '',
   onSearch,
   enableSuggestions = true
@@ -102,19 +103,19 @@ export default function SearchBar({
       onSearch(searchQuery);
     } else {
       console.log('Navigating to search page');
-      router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+      router.push(`/receptai?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
 
   const handleSuggestionClick = (suggestion: SearchSuggestion) => {
     console.log('Suggestion clicked:', suggestion);
 
-    if (suggestion.type === 'recipe' && suggestion.slug) {
+    if (suggestion.type === 'recipe' && suggestion.slug && suggestion.categoryPath) {
       console.log('Navigating to recipe:', suggestion.slug);
-      router.push(`/recipes/${suggestion.slug}`);
+      router.push(`/receptai/${suggestion.categoryPath}/${suggestion.slug}`);
     } else if (suggestion.type === 'category' && suggestion.category) {
       console.log('Navigating to category:', suggestion.category);
-      router.push(`/recipes?category=${encodeURIComponent(suggestion.category)}`);
+      router.push(`/receptai/${suggestion.category}`);
     } else {
       console.log('Performing search for suggestion title:', suggestion.title);
       performSearch(suggestion.title);
@@ -181,10 +182,10 @@ export default function SearchBar({
   }, []);
 
   return (
-    <div className={`search-container ${className}`}>
+    <div className={`relative ${className}`}>
       <form onSubmit={handleSubmit} className="relative">
         <div className="relative">
-          <Search className="search-icon w-5 h-5" />
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input
             ref={inputRef}
             type="text"
@@ -193,7 +194,7 @@ export default function SearchBar({
             onKeyDown={handleKeyDown}
             onFocus={() => query.length >= 2 && setShowSuggestions(true)}
             placeholder={placeholder}
-            className="search-input"
+            className="w-full pl-10 pr-10 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
             autoComplete="off"
           />
           {query && (
@@ -215,7 +216,7 @@ export default function SearchBar({
           >
             {isLoading ? (
               <div className="p-4 text-center text-gray-500">
-                <div className="spinner w-5 h-5 mx-auto mb-2" />
+                <div className="animate-spin w-5 h-5 mx-auto mb-2 border-2 border-orange-500 border-t-transparent rounded-full" />
                 Ieškoma...
               </div>
             ) : (
@@ -229,8 +230,8 @@ export default function SearchBar({
                 >
                   <div className="flex items-center space-x-3">
                     <div className={`w-2 h-2 rounded-full ${
-                      suggestion.type === 'recipe' ? 'bg-primary' :
-                      suggestion.type === 'ingredient' ? 'bg-secondary' :
+                      suggestion.type === 'recipe' ? 'bg-orange-500' :
+                      suggestion.type === 'ingredient' ? 'bg-green-500' :
                       'bg-gray-400'
                     }`} />
                     <div>

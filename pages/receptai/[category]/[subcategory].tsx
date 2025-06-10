@@ -6,9 +6,9 @@ import { useRouter } from 'next/router';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 
-import NewRecipeCard from '../../../components/NewRecipeCard';
-import FilterPills from '../../../components/FilterPills';
-import Breadcrumb, { generateCategoryBreadcrumbs } from '../../../components/Breadcrumb';
+import CardRecipe from '../../../components/recipe/CardRecipe';
+import FilterPills from '../../../components/filter/FilterPills';
+import Breadcrumb, { generateCategoryBreadcrumbs } from '../../../components/navigation/Breadcrumb';
 
 interface Recipe {
   _id: string;
@@ -256,7 +256,7 @@ export default function SubcategoryPage({ initialData, language }: SubcategoryPa
             <div>
               <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
                 {recipes.map((recipe) => (
-                  <NewRecipeCard
+                  <CardRecipe
                     key={recipe._id}
                     recipe={recipe}
                     language={language}

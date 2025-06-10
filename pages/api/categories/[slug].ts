@@ -22,33 +22,46 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const categoriesCollection = db.collection('categories');
     const recipesCollection = db.collection('recipes');
 
-    // Find the category
-    const category = await categoriesCollection.findOne({ 
+    // Find the category in our enhanced categories collection
+    let category = await categoriesCollection.findOne({
       slug: slug,
-      isActive: true 
+      status: "active"
     });
 
+    // If category doesn't exist in categories collection, check if recipes exist for this category
     if (!category) {
-      return res.status(404).json({ 
-        success: false, 
-        error: 'Category not found' 
+      const recipesExist = await recipesCollection.countDocuments({
+        status: "published",
+        categoryPath: new RegExp(`^${slug}/`)
       });
+
+      if (recipesExist === 0) {
+        return res.status(404).json({
+          success: false,
+          error: 'Category not found'
+        });
+      }
+
+      // Create a dynamic category object
+      category = {
+        slug: slug,
+        title: formatSlugToTitle(slug),
+        description: `${formatSlugToTitle(slug)} receptai`,
+        image: `/images/categories/${slug}.jpg`,
+        icon: '🍽️',
+        status: 'active',
+        subcategories: [],
+        createdAt: new Date(),
+        updatedAt: new Date()
+      };
     }
 
-    // Build recipe query based on category type
-    let recipeQuery: any = {};
-    
-    if (category.type === 'main-category') {
-      recipeQuery['categories.main'] = category.label.lt;
-    } else if (category.type === 'filter-category') {
-      if (category.slug === '15-min-patiekalai') {
-        recipeQuery.totalTimeMinutes = { $lte: 15 };
-      } else if (category.slug === 'be-glitimo') {
-        recipeQuery['categories.dietary'] = 'Be glitimo';
-      } else if (category.slug === 'vegetariski') {
-        recipeQuery['categories.dietary'] = 'Vegetariški patiekalai';
-      }
-    }
+    // Build recipe query for this category
+    // All recipes that start with this category path
+    const recipeQuery: any = {
+      status: "published",
+      categoryPath: new RegExp(`^${slug}/`)
+    };
 
     // Get total count
     const totalRecipes = await recipesCollection.countDocuments(recipeQuery);
@@ -75,8 +88,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       data: {
         category: {
           ...category,
-          title: category.seo.title,
-          description: category.seo.description,
+          title: category.seo?.metaTitle || category.title,
+          description: category.seo?.metaDescription || category.description,
           canonicalUrl: `/receptai/${category.slug}`
         },
         recipes,
@@ -167,4 +180,29 @@ async function getAvailableFilters(recipesCollection: any, baseQuery: any) {
         }))
     }
   };
+}
+
+// Helper function to format slug to title
+function formatSlugToTitle(slug: string): string {
+  const lithuanianMappings: { [key: string]: string } = {
+    'karsti-patiekalai': 'Karšti patiekalai',
+    'saldumynai': 'Saldumynai',
+    'sriubos': 'Sriubos',
+    'salotai': 'Salotai',
+    'uzkandziai': 'Užkandžiai',
+    'gerimai': 'Gėrimai',
+    'apkepai': 'Apkepai',
+    'trokiniai': 'Troškinti patiekalai',
+    'kepsniai': 'Kepsniai',
+    'tortai': 'Tortai',
+    'pyragai': 'Pyragai',
+    'sausainiai': 'Sausainiai',
+    'karsti-barsčiai': 'Karšti barščiai',
+    'salti-barsčiai': 'Šalti barščiai'
+  };
+
+  return lithuanianMappings[slug] || slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 }

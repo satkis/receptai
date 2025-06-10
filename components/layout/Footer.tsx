@@ -6,35 +6,32 @@ export default function Footer() {
 
   const footerLinks = {
     recipes: [
-      { name: 'Pirmieji patiekalai', href: '/recipes?category=pirmieji-patiekalai' },
-      { name: 'Antrieji patiekalai', href: '/recipes?category=antrieji-patiekalai' },
-      { name: 'Saldumynai', href: '/recipes?category=saldumynai' },
-      { name: 'Užkandžiai', href: '/recipes?category=uzkandziai' },
-      { name: 'Gėrimai', href: '/recipes?category=gerimai' },
+      { name: 'Karšti patiekalai', href: '/receptai/karsti-patiekalai' },
+      { name: 'Šalti patiekalai', href: '/receptai/salti-patiekalai' },
+      { name: 'Saldumynai', href: '/receptai/saldumynai' },
+      { name: 'Gėrimai', href: '/receptai/gerimai' },
     ],
     company: [
-      { name: 'Apie mus', href: '/about' },
-      { name: 'Kontaktai', href: '/contact' },
-      { name: 'Privatumo politika', href: '/privacy' },
-      { name: 'Naudojimo taisyklės', href: '/terms' },
-      { name: 'Reklama', href: '/advertising' },
+      { name: 'Apie mus', href: '/apie-mus' },
+      { name: 'Kontaktai', href: '/kontaktai' },
+      { name: 'Privatumo politika', href: '/privatumas' },
+      { name: 'Naudojimo taisyklės', href: '/taisykles' },
     ],
     support: [
-      { name: 'Pagalba', href: '/help' },
-      { name: 'DUK', href: '/faq' },
-      { name: 'Receptų pateikimas', href: '/submit-recipe' },
-      { name: 'Pranešti apie problemą', href: '/report' },
+      { name: 'Pagalba', href: '/pagalba' },
+      { name: 'DUK', href: '/duk' },
+      { name: 'Receptų pateikimas', href: '/pateikti-recepta' },
     ],
   };
 
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container-custom py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
                 <ChefHat className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold">Paragaujam.lt</span>
@@ -48,7 +45,7 @@ export default function Footer() {
                 href="https://facebook.com/paragaujam"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary transition-colors duration-200"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
                 <Facebook className="w-5 h-5" />
               </a>
@@ -56,13 +53,13 @@ export default function Footer() {
                 href="https://instagram.com/paragaujam"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary transition-colors duration-200"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
                 href="mailto:info@paragaujam.lt"
-                className="text-gray-400 hover:text-primary transition-colors duration-200"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
                 <Mail className="w-5 h-5" />
               </a>
@@ -143,11 +140,11 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Jūsų el. paštas"
-                className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
               />
               <button
                 type="submit"
-                className="btn-primary-custom px-6 py-2 text-sm"
+                className="px-6 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-lg transition-colors duration-200 text-sm"
               >
                 Prenumeruoti
               </button>
@@ -161,13 +158,13 @@ export default function Footer() {
             © {currentYear} Paragaujam.lt. Visos teisės saugomos.
           </div>
           <div className="flex space-x-6 text-sm text-gray-400">
-            <Link href="/privacy" className="hover:text-white transition-colors duration-200">
+            <Link href="/privatumas" className="hover:text-white transition-colors duration-200">
               Privatumas
             </Link>
-            <Link href="/terms" className="hover:text-white transition-colors duration-200">
+            <Link href="/taisykles" className="hover:text-white transition-colors duration-200">
               Taisyklės
             </Link>
-            <Link href="/cookies" className="hover:text-white transition-colors duration-200">
+            <Link href="/slapukai" className="hover:text-white transition-colors duration-200">
               Slapukai
             </Link>
           </div>

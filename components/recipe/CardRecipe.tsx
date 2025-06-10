@@ -15,13 +15,13 @@ import {
   formatTime
 } from '@/utils/multilingual';
 
-interface NewRecipeCardProps {
+interface CardRecipeProps {
   recipe: Recipe;
   variant?: 'grid' | 'featured';
   className?: string;
 }
 
-export default function NewRecipeCard({ recipe, variant = 'grid', className = '' }: NewRecipeCardProps) {
+export default function CardRecipe({ recipe, variant = 'grid', className = '' }: CardRecipeProps) {
   const [isIngredientsExpanded, setIsIngredientsExpanded] = useState(false);
   const [isLiked, setIsLiked] = useState(false);
 
@@ -36,9 +36,6 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
   const timing = getRecipeTiming(recipe);
   const effort = getRecipeDifficulty(recipe);
   const rating = getRecipeRating(recipe);
-
-  // Debug timing (commented out for production)
-  // console.log('Recipe timing debug:', { recipeSlug: recipe.slug, timing });
 
   // Fallback time display if timing is 0
   const displayTime = timing.totalTime > 0 ? formatTime(timing.totalTime) :
@@ -68,7 +65,7 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
 
   if (variant === 'featured') {
     return (
-      <Link href={`/recipes/${recipe.slug}`} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 ${className}`}>
+      <Link href={`/receptai/${recipe.categoryPath}/${recipe.slug}`} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 ${className}`}>
         <div className="flex flex-col lg:flex-row">
           {/* Image Section */}
           <div className="relative lg:w-64 h-48 lg:h-auto">
@@ -99,13 +96,11 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
             >
               <Heart className={`w-4 h-4 transition-colors ${isLiked ? 'text-red-500 fill-red-500' : 'text-gray-600'}`} />
             </button>
-            
-
           </div>
           
           {/* Content Section */}
           <div className="flex-1 p-6">
-            <Link href={`/recipes/${recipe.slug}`}>
+            <Link href={`/receptai/${recipe.categoryPath}/${recipe.slug}`}>
               <h3 className="text-xl font-bold text-gray-900 mb-4 hover:text-orange-600 transition-colors line-clamp-2">
                 {displayTitle}
               </h3>
@@ -174,7 +169,7 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
 
   // Grid variant (compact)
   return (
-    <Link href={`/recipes/${recipe.slug}`} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 group ${className}`}>
+    <Link href={`/receptai/${recipe.categoryPath}/${recipe.slug}`} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 group ${className}`}>
         {/* Image Section */}
         <div className="relative h-48">
           <Image
@@ -197,8 +192,6 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
             </div>
           </div>
           
-
-          
           {/* Heart Button */}
           <button
             className="absolute top-3 right-3 p-2 bg-white/90 backdrop-blur-sm rounded-full hover:bg-white transition-colors"
@@ -210,7 +203,7 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
         
         {/* Content Section */}
         <div className="p-4">
-          <Link href={`/recipes/${recipe.slug}`}>
+          <Link href={`/receptai/${recipe.categoryPath}/${recipe.slug}`}>
             <h3 className="font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-orange-600 transition-colors text-sm cursor-pointer">
               {displayTitle}
             </h3>
@@ -260,18 +253,6 @@ export default function NewRecipeCard({ recipe, variant = 'grid', className = ''
               </div>
             </div>
           )}
-          
-          {/* Hidden for now - Author and Reviews */}
-          {/* <div className="flex items-center justify-between pt-3 border-t border-gray-100">
-            <div className="text-xs text-gray-500">
-              by <span className="font-medium text-gray-700">{author}</span>
-            </div>
-            {rating.count > 0 && (
-              <div className="text-xs text-gray-500">
-                ({rating.count} reviews)
-              </div>
-            )}
-          </div> */}
         </div>
     </Link>
   );

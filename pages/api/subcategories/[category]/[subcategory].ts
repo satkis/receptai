@@ -23,9 +23,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const recipesCollection = db.collection('recipes');
 
     // Find the main category
-    const mainCategory = await categoriesCollection.findOne({ 
+    const mainCategory = await categoriesCollection.findOne({
       slug: category,
-      isActive: true 
+      status: "active"
     });
 
     if (!mainCategory) {
@@ -41,16 +41,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     );
 
     if (!subcategoryData) {
-      return res.status(404).json({ 
-        success: false, 
-        error: 'Subcategory not found' 
+      return res.status(404).json({
+        success: false,
+        error: 'Subcategory not found'
       });
     }
 
     // Build recipe query for subcategory
     const recipeQuery: any = {
-      'categories.main': mainCategory.label.lt,
-      'categories.sub': subcategoryData.label
+      status: "published",
+      categoryPath: `${category}/${subcategory}`
     };
 
     // Apply filters if provided
@@ -113,20 +113,20 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const availableFilters = await getAvailableFilters(recipesCollection, recipeQuery);
 
     // Generate SEO data for subcategory
-    const subcategoryTitle = `${subcategoryData.label} - ${mainCategory.label.lt} | Paragaujam.lt`;
-    const subcategoryDescription = `${subcategoryData.label} receptai iš ${mainCategory.label.lt} kategorijos. Skanūs ir lengvi receptai kiekvienai dienai.`;
+    const subcategoryTitle = `${subcategoryData.title} - ${mainCategory.title} | Paragaujam.lt`;
+    const subcategoryDescription = `${subcategoryData.title} receptai iš ${mainCategory.title} kategorijos. Skanūs ir lengvi receptai kiekvienai dienai.`;
 
     res.status(200).json({
       success: true,
       data: {
         category: {
           ...mainCategory,
-          title: mainCategory.seo.title,
-          description: mainCategory.seo.description,
+          title: mainCategory.title,
+          description: mainCategory.description,
           canonicalUrl: `/receptai/${mainCategory.slug}`
         },
         subcategory: {
-          label: subcategoryData.label,
+          label: subcategoryData.title,
           slug: subcategoryData.slug,
           title: subcategoryTitle,
           description: subcategoryDescription
