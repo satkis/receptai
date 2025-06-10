@@ -5,7 +5,7 @@ import { useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
-import Layout from '../../components/Layout';
+
 import NewRecipeCard from '../../components/NewRecipeCard';
 import FilterPills from '../../components/FilterPills';
 import Breadcrumb, { generateCategoryBreadcrumbs } from '../../components/Breadcrumb';
@@ -221,10 +221,11 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
         <meta property="og:type" content="website" />
       </Head>
 
-      <Layout>
+      <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100">
         {/* Breadcrumb Navigation */}
         <Breadcrumb items={breadcrumbs} />
-        <div className="container mx-auto px-4 py-6">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="max-w-4xl mx-auto">
           {/* Category Header */}
           <div className="mb-8">
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
@@ -300,8 +301,9 @@ export default function CategoryPage({ initialData, language }: CategoryPageProp
               </button>
             </div>
           )}
+          </div>
         </div>
-      </Layout>
+      </div>
     </>
   );
 }

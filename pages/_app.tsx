@@ -1,5 +1,5 @@
 import type { AppProps } from 'next/app';
-import { SessionProvider } from 'next-auth/react';
+// import { SessionProvider } from 'next-auth/react'; // Temporarily disabled
 import { SWRConfig } from 'swr';
 import { Toaster } from 'react-hot-toast';
 import Head from 'next/head';
@@ -37,7 +37,7 @@ const useGoogleAnalytics = () => {
   }, [router.events]);
 };
 
-export default function App({ Component, pageProps: { session, ...pageProps } }: AppProps) {
+export default function App({ Component, pageProps }: AppProps) {
   useGoogleAnalytics();
 
   const websiteStructuredData = generateWebsiteStructuredData();
@@ -100,7 +100,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } }:
         )}
       </Head>
 
-      <SessionProvider session={session}>
+      {/* <SessionProvider session={session}> */}
         <SWRConfig
           value={{
             fetcher,
@@ -112,7 +112,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } }:
           <Layout>
             <Component {...pageProps} />
           </Layout>
-          
+
           {/* Toast notifications */}
           <Toaster
             position="bottom-right"
@@ -135,7 +135,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } }:
             }}
           />
         </SWRConfig>
-      </SessionProvider>
+      {/* </SessionProvider> */}
     </>
   );
 }

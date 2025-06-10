@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout from '@/components/Layout';
+
 
 export default function Categories() {
   console.log('Categories page rendered');
@@ -20,8 +20,7 @@ export default function Categories() {
         <meta name="description" content="Receptų kategorijos - raskite tai, ko ieškote" />
       </Head>
 
-      <Layout>
-        <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50">
           {/* Hero Section */}
           <div className="bg-white border-b border-gray-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -75,7 +74,6 @@ export default function Categories() {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 }

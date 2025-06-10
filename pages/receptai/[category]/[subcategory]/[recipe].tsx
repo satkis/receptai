@@ -6,6 +6,7 @@ import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import { MongoClient } from 'mongodb';
+import Breadcrumb, { generateRecipeBreadcrumbs } from '../../../../components/Breadcrumb';
 
 
 
@@ -86,6 +87,7 @@ interface RecipePageProps {
 
 export default function RecipePage({ recipe }: RecipePageProps) {
   console.log('RecipePage rendering with recipe:', recipe?.title?.lt || 'NO TITLE');
+  console.log('Recipe image path:', recipe?.image);
 
   // State for interactive ingredient checking
   const [checkedIngredients, setCheckedIngredients] = useState<Set<number>>(new Set());
@@ -156,6 +158,9 @@ export default function RecipePage({ recipe }: RecipePageProps) {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100">
+        {/* Breadcrumb Navigation */}
+        <Breadcrumb items={generateRecipeBreadcrumbs(recipe)} />
+
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="max-w-4xl mx-auto">
             {/* Recipe Header */}
@@ -165,8 +170,10 @@ export default function RecipePage({ recipe }: RecipePageProps) {
                   src={recipe.image || '/hero-image.jpg'}
                   alt={recipe.title?.lt || 'Receptas'}
                   fill
-                  className="object-cover"
+                  className="object-cover transition-opacity duration-300"
                   priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                  quality={85}
                   onError={(e) => {
                     // Fallback to hero image if recipe image fails
                     const target = e.target as HTMLImageElement;

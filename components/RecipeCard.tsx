@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useSession } from 'next-auth/react';
+// import { useSession } from 'next-auth/react'; // Temporarily disabled
 import { toast } from 'react-hot-toast';
 import { 
   Clock, 
@@ -30,7 +30,8 @@ export default function RecipeCard({
 }: RecipeCardProps) {
   const [isSaved, setIsSaved] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const { data: session } = useSession();
+  // const { data: session } = useSession(); // Temporarily disabled
+  const session = null; // Temporarily disabled authentication
 
   const handleSaveRecipe = async (e: React.MouseEvent) => {
     e.preventDefault();
