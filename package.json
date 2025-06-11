@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "migrate": "node scripts/migration/run-migration.js migrate",
+    "migrate:verify": "node scripts/migration/run-migration.js verify",
+    "migrate:cleanup": "node scripts/migration/run-migration.js cleanup",
+    "migrate:help": "node scripts/migration/run-migration.js help"
   },
   "dependencies": {
     "axios": "^1.6.0",
