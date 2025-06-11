@@ -3,11 +3,11 @@
 
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
-import Image from 'next/image';
 import { MongoClient } from 'mongodb';
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../../../components/navigation/Breadcrumb';
 import SEOHead, { RecipeSEOHead } from '../../../../components/seo/SEOHead';
 import { generateRecipeSEO } from '../../../../utils/seo-enhanced';
+import PlaceholderImage from '../../../../components/ui/PlaceholderImage';
 
 
 
@@ -126,15 +126,12 @@ export default function RecipePage({ recipe }: RecipePageProps) {
       </SEOHead>
 
       <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100">
-        {/* Breadcrumb Navigation */}
-        <Breadcrumb items={generateRecipeBreadcrumbs(recipe)} />
-
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="max-w-4xl mx-auto">
             {/* Recipe Header */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
               <div className="relative h-64 md:h-80">
-                <Image
+                <PlaceholderImage
                   src={recipe.image || '/hero-image.jpg'}
                   alt={recipe.title?.lt || 'Receptas'}
                   fill
@@ -142,11 +139,6 @@ export default function RecipePage({ recipe }: RecipePageProps) {
                   priority
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                   quality={85}
-                  onError={(e) => {
-                    // Fallback to hero image if recipe image fails
-                    const target = e.target as HTMLImageElement;
-                    target.src = '/hero-image.jpg';
-                  }}
                 />
 
                 {/* Recipe Meta Overlays */}
@@ -222,6 +214,11 @@ export default function RecipePage({ recipe }: RecipePageProps) {
                   </div>
                 )}
               </div>
+            </div>
+
+            {/* Breadcrumb Navigation Container */}
+            <div className="bg-white rounded-2xl shadow-lg p-2 mb-6">
+              <Breadcrumb items={generateRecipeBreadcrumbs(recipe)} containerless={true} />
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

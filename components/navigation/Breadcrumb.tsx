@@ -14,9 +14,10 @@ interface BreadcrumbProps {
   items?: BreadcrumbItem[];
   className?: string;
   schemaData?: any; // Schema.org BreadcrumbList data
+  containerless?: boolean; // New prop to render without container styling
 }
 
-export default function Breadcrumb({ items, className = '', schemaData }: BreadcrumbProps) {
+export default function Breadcrumb({ items, className = '', schemaData, containerless = false }: BreadcrumbProps) {
   const router = useRouter();
 
   // Show breadcrumbs on recipe pages and category pages
@@ -67,12 +68,13 @@ export default function Breadcrumb({ items, className = '', schemaData }: Breadc
       </Head>
 
       {/* Breadcrumb navigation */}
-      <nav className={`bg-gray-50 border-b border-gray-200 ${className}`} aria-label="Breadcrumb">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center py-3">
-            <ol className="flex items-center space-x-2 text-sm">
+      {containerless ? (
+        // Containerless version for use inside other containers
+        <nav className={`${className}`} aria-label="Breadcrumb">
+          <div className="overflow-x-auto scrollbar-hide">
+            <ol className="flex items-center space-x-2 text-sm whitespace-nowrap min-w-max">
               {/* Home */}
-              <li>
+              <li className="flex-shrink-0">
                 <Link
                   href="/"
                   className="text-gray-500 hover:text-orange-600 transition-colors flex items-center"
@@ -83,17 +85,20 @@ export default function Breadcrumb({ items, className = '', schemaData }: Breadc
               </li>
 
               {breadcrumbItems.map((item, index) => (
-                <li key={index} className="flex items-center">
-                  <ChevronRight className="w-4 h-4 text-gray-400 mx-2" />
+                <li key={index} className="flex items-center flex-shrink-0">
+                  <ChevronRight className="w-4 h-4 text-gray-400 mx-2 flex-shrink-0" />
                   {item.href && !item.isActive && index < breadcrumbItems.length - 1 ? (
                     <Link
                       href={item.href}
-                      className="text-gray-500 hover:text-orange-600 transition-colors"
+                      className="text-gray-500 hover:text-orange-600 transition-colors whitespace-nowrap"
                     >
                       {item.label}
                     </Link>
                   ) : (
-                    <span className="text-gray-900 font-medium" aria-current={item.isActive ? "page" : undefined}>
+                    <span
+                      className="text-gray-900 font-medium whitespace-nowrap"
+                      aria-current={item.isActive ? "page" : undefined}
+                    >
                       {item.label}
                     </span>
                   )}
@@ -101,8 +106,52 @@ export default function Breadcrumb({ items, className = '', schemaData }: Breadc
               ))}
             </ol>
           </div>
-        </div>
-      </nav>
+        </nav>
+      ) : (
+        // Default version with full container styling
+        <nav className={`bg-gray-50 border-b border-gray-200 ${className}`} aria-label="Breadcrumb">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="py-3">
+              {/* Mobile: Horizontal scrollable breadcrumbs */}
+              <div className="overflow-x-auto scrollbar-hide">
+                <ol className="flex items-center space-x-2 text-sm whitespace-nowrap min-w-max">
+                  {/* Home */}
+                  <li className="flex-shrink-0">
+                    <Link
+                      href="/"
+                      className="text-gray-500 hover:text-orange-600 transition-colors flex items-center"
+                    >
+                      <Home className="w-4 h-4" />
+                      <span className="sr-only">Pagrindinis</span>
+                    </Link>
+                  </li>
+
+                  {breadcrumbItems.map((item, index) => (
+                    <li key={index} className="flex items-center flex-shrink-0">
+                      <ChevronRight className="w-4 h-4 text-gray-400 mx-2 flex-shrink-0" />
+                      {item.href && !item.isActive && index < breadcrumbItems.length - 1 ? (
+                        <Link
+                          href={item.href}
+                          className="text-gray-500 hover:text-orange-600 transition-colors whitespace-nowrap"
+                        >
+                          {item.label}
+                        </Link>
+                      ) : (
+                        <span
+                          className="text-gray-900 font-medium whitespace-nowrap"
+                          aria-current={item.isActive ? "page" : undefined}
+                        >
+                          {item.label}
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </div>
+          </div>
+        </nav>
+      )}
     </>
   );
 }

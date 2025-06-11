@@ -1,5 +1,5 @@
 // Enhanced SEO Head component following Google's best practices
-import React from 'react';
+import React, { Fragment } from 'react';
 import Head from 'next/head';
 import { SEOData } from '@/utils/seo-enhanced';
 import { SEO_CONFIG } from '@/config/seo-constants';
@@ -53,12 +53,12 @@ export default function SEOHead({ seo, children }: SEOHeadProps) {
       
       {/* Open Graph Images */}
       {seo.openGraph.images.map((image, index) => (
-        <React.Fragment key={index}>
+        <Fragment key={index}>
           <meta property="og:image" content={image.url} />
           <meta property="og:image:width" content={image.width.toString()} />
           <meta property="og:image:height" content={image.height.toString()} />
           <meta property="og:image:alt" content={image.alt} />
-        </React.Fragment>
+        </Fragment>
       ))}
       
       {/* Twitter Card Meta Tags */}
