@@ -211,60 +211,144 @@ function CategoryFilter({
   );
 }
 
-// Recipe Card Component
+// Recipe Card Component - Fixed layout and ingredients display
 function RecipeCard({ recipe }: { recipe: Recipe }) {
+  const [isIngredientsExpanded, setIsIngredientsExpanded] = useState(false);
+
+  const handleIngredientsClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsIngredientsExpanded(!isIngredientsExpanded);
+  };
+
+  // Format time display
+  const displayTime = recipe.totalTimeMinutes > 0 ? `${recipe.totalTimeMinutes} min` : 'apie 2 val';
+  const servings = recipe.servings || 4;
+
+  // Get actual ingredients - prioritize real ingredients over tags
+  let ingredients: any[] = [];
+
+  console.log('Recipe data:', {
+    slug: recipe.slug,
+    hasIngredients: !!recipe.ingredients,
+    ingredientsLength: recipe.ingredients?.length,
+    hasTags: !!recipe.tags,
+    tagsLength: recipe.tags?.length,
+    ingredients: recipe.ingredients,
+    tags: recipe.tags
+  });
+
+  if (recipe.ingredients && Array.isArray(recipe.ingredients) && recipe.ingredients.length > 0) {
+    ingredients = recipe.ingredients;
+    console.log('✅ Using ingredients:', ingredients);
+  } else if (recipe.tags && Array.isArray(recipe.tags)) {
+    // Only use tags as fallback if no ingredients
+    ingredients = recipe.tags.map(tag => ({ name: { lt: tag } }));
+    console.log('⚠️ Using tags as fallback:', ingredients);
+  }
+
   return (
-    <a
-      href={`/receptas/${recipe.slug}`}
-      className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-    >
-      <div className="relative h-48">
-        <PlaceholderImage
-          src={recipe.image}
-          alt={recipe.title.lt}
-          fill
-          className="object-cover"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
-        {recipe.score && (
-          <div className="absolute top-2 right-2 bg-orange-500 text-white px-2 py-1 rounded text-xs font-medium">
-            {(recipe.score * 100).toFixed(0)}% atitikimas
+    <div className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow group flex flex-col h-full">
+      <a href={`/receptas/${recipe.slug}`} className="block flex flex-col h-full">
+        {/* Image Section - Fixed height */}
+        <div className="relative w-full h-40 flex-shrink-0 overflow-hidden">
+          <PlaceholderImage
+            src={recipe.image}
+            alt={recipe.title.lt}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+          />
+
+          {/* Time and Servings on top-left of image */}
+          <div className="absolute top-2 left-2 z-10">
+            <div className="flex items-center gap-1 bg-black/80 backdrop-blur-sm rounded-full px-2 py-1">
+              <span className="text-xs text-white font-medium">🕒 {displayTime}</span>
+              <span className="text-xs text-white">•</span>
+              <span className="text-xs text-white font-medium">👥 {servings}</span>
+            </div>
           </div>
-        )}
-      </div>
-      <div className="p-4">
-        <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
-          {recipe.title.lt}
-        </h3>
-        <p className="text-gray-600 text-sm mb-3 line-clamp-2">
-          {recipe.description.lt}
-        </p>
-        <div className="flex items-center justify-between text-sm text-gray-600 mb-3">
-          <div className="flex items-center gap-4">
-            <span>🕒 {recipe.totalTimeMinutes} min</span>
-            <span>👥 {recipe.servings}</span>
-          </div>
-          {recipe.rating.count > 0 && (
-            <span>⭐ {recipe.rating.average.toFixed(1)}</span>
+        </div>
+
+        {/* Content Section - Flexible height */}
+        <div className="p-3 flex-1 flex flex-col">
+          {/* Title */}
+          <h3 className="font-semibold text-gray-900 mb-2 text-sm leading-tight group-hover:text-orange-600 transition-colors">
+            {recipe.title.lt}
+          </h3>
+
+          {/* Ingredients */}
+          {ingredients.length > 0 && (
+            <div className="mt-auto">
+              <div className="flex flex-wrap gap-1">
+                {!isIngredientsExpanded ? (
+                  <>
+                    {ingredients.slice(0, 3).map((ingredient, index) => {
+                      // Handle different ingredient structures
+                      let name = '';
+                      if (typeof ingredient === 'string') {
+                        name = ingredient;
+                      } else if (ingredient.name) {
+                        if (typeof ingredient.name === 'string') {
+                          name = ingredient.name;
+                        } else if (ingredient.name.lt) {
+                          name = ingredient.name.lt;
+                        }
+                      }
+
+                      return (
+                        <span key={index} className="inline-block text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">
+                          {name}
+                        </span>
+                      );
+                    })}
+                    {ingredients.length > 3 && (
+                      <button
+                        className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded-full hover:bg-gray-300 transition-colors"
+                        onClick={handleIngredientsClick}
+                      >
+                        +{ingredients.length - 3}
+                      </button>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    {ingredients.map((ingredient, index) => {
+                      // Handle different ingredient structures
+                      let name = '';
+                      if (typeof ingredient === 'string') {
+                        name = ingredient;
+                      } else if (ingredient.name) {
+                        if (typeof ingredient.name === 'string') {
+                          name = ingredient.name;
+                        } else if (ingredient.name.lt) {
+                          name = ingredient.name.lt;
+                        }
+                      }
+
+                      return (
+                        <span
+                          key={index}
+                          className="inline-block text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full"
+                        >
+                          {name}
+                        </span>
+                      );
+                    })}
+                    <button
+                      className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded-full hover:bg-gray-300 transition-colors"
+                      onClick={handleIngredientsClick}
+                    >
+                      ×
+                    </button>
+                  </>
+                )}
+              </div>
+            </div>
           )}
         </div>
-        <div className="flex flex-wrap gap-1">
-          {recipe.tags.slice(0, 3).map((tag, index) => (
-            <a
-              key={index}
-              href={`/paieska?q=${encodeURIComponent(tag)}`}
-              className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded hover:bg-orange-100 hover:text-orange-700 transition-colors"
-              onClick={(e) => e.stopPropagation()}
-            >
-              {tag}
-            </a>
-          ))}
-          {recipe.tags.length > 3 && (
-            <span className="text-xs text-gray-500">+{recipe.tags.length - 3}</span>
-          )}
-        </div>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 }
 
@@ -285,7 +369,7 @@ function RecipeGrid({ recipes }: { recipes: Recipe[] }) {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
       {recipes.map((recipe) => (
         <RecipeCard key={recipe._id} recipe={recipe} />
       ))}

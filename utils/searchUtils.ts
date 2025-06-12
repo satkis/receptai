@@ -124,6 +124,7 @@ export function buildSearchAggregation(
         totalTimeMinutes: 1,
         servings: 1,
         tags: 1,
+        ingredients: 1,  // ← Added ingredients field
         rating: 1,
         difficulty: 1,
         timeCategory: 1,

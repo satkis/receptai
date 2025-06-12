@@ -130,11 +130,12 @@ function TagList({ tags }: { tags: string[] }) {
   );
 }
 
-// Recipe Header Component
+// Recipe Header Component - Fixed layout to prevent content hiding
 function RecipeHeader({ recipe }: { recipe: Recipe }) {
   return (
-    <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
-      <div className="relative h-64 md:h-80">
+    <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-8 flex flex-col">
+      {/* Image Section - Fixed height container */}
+      <div className="relative w-full h-64 md:h-80 flex-shrink-0 overflow-hidden">
         <PlaceholderImage
           src={recipe.image}
           alt={recipe.title.lt}
@@ -145,16 +146,17 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
           quality={85}
         />
       </div>
-      
-      <div className="p-6">
+
+      {/* Content Section - Separate container */}
+      <div className="p-6 bg-white flex-1">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
           {recipe.title.lt}
         </h1>
-        
+
         <p className="text-gray-600 text-lg mb-6">
           {recipe.description.lt}
         </p>
-        
+
         <div className="flex flex-wrap gap-4 text-sm text-gray-600">
           <div className="flex items-center gap-1">
             <span>🕒</span>
