@@ -4,6 +4,55 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { MongoClient } from 'mongodb';
 
+// Helper function to convert Lithuanian characters to standard letters
+function lithuanianToSlug(text: string): string {
+  const lithuanianMap: Record<string, string> = {
+    'ą': 'a', 'Ą': 'A',
+    'č': 'c', 'Č': 'C',
+    'ę': 'e', 'Ę': 'E',
+    'ė': 'e', 'Ė': 'E',
+    'į': 'i', 'Į': 'I',
+    'š': 's', 'Š': 'S',
+    'ų': 'u', 'Ų': 'U',
+    'ū': 'u', 'Ū': 'U',
+    'ž': 'z', 'Ž': 'Z'
+  };
+
+  return text
+    .split('')
+    .map(char => lithuanianMap[char] || char)
+    .join('')
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s_-]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+// Helper function to find tag by slug or original name
+async function findTagBySlugOrName(db: any, searchTerm: string) {
+  // First try to find by exact slug match
+  let tagData = await db.collection('tags_new').findOne({ slug: searchTerm });
+
+  if (tagData) return tagData;
+
+  // If not found, try to find by exact name match
+  tagData = await db.collection('tags_new').findOne({ name: searchTerm });
+
+  if (tagData) return tagData;
+
+  // If still not found, try to find by converting Lithuanian characters
+  // Get all tags and check if any convert to our search term
+  const allTags = await db.collection('tags_new').find({}).toArray();
+
+  for (const tag of allTags) {
+    if (lithuanianToSlug(tag.name) === searchTerm) {
+      return tag;
+    }
+  }
+
+  return null;
+}
+
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {
     return res.status(405).json({ message: 'Method not allowed' });
@@ -20,18 +69,19 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     await client.connect();
     const db = client.db();
 
-    // Get tag data - try both slug and name
-    const tagData = await db.collection('tags_new').findOne({ 
-      $or: [
-        { slug: tag },
-        { name: tag }
-      ]
-    });
+    // Get tag data using helper function
+    const tagData = await findTagBySlugOrName(db, tag as string);
 
     if (!tagData) {
-      // If tag doesn't exist in tags_new, create a basic response
+      // If tag doesn't exist in tags_new, try to find recipes with original Lithuanian tag names
+      // Search for recipes that might have this tag in their groupLabels or tags arrays
       const recipeCount = await db.collection('recipes_new').countDocuments({
-        tags: tag
+        $or: [
+          { tags: tag },
+          { groupLabels: tag },
+          { tags: { $regex: new RegExp(tag.replace(/[-]/g, '\\s'), 'i') } },
+          { groupLabels: { $regex: new RegExp(tag.replace(/[-]/g, '\\s'), 'i') } }
+        ]
       });
 
       if (recipeCount === 0) {
@@ -39,21 +89,24 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         return res.status(404).json({ message: 'Tag not found' });
       }
 
+      // Convert slug back to a more readable name
+      const displayName = tag.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
       // Return basic tag data
       await client.close();
       return res.status(200).json({
         tag: {
-          name: tag,
-          slug: tag.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-'),
+          name: displayName,
+          slug: lithuanianToSlug(displayName),
           recipeCount: recipeCount,
-          description: `Receptai su ${tag}`,
+          description: `Receptai su ${displayName}`,
           relatedTags: [],
           popularityScore: 5.0,
           trending: false,
           seo: {
-            metaTitle: `${tag} receptai (${recipeCount}) - Paragaujam.lt`,
-            metaDescription: `${recipeCount} receptai su "${tag}". Raskite geriausius receptus su nuotraukomis ir instrukcijomis.`,
-            keywords: [tag, 'receptai', 'lietuviški']
+            metaTitle: `${displayName} receptai (${recipeCount}) - Paragaujam.lt`,
+            metaDescription: `${recipeCount} receptai su "${displayName}". Raskite geriausius receptus su nuotraukomis ir instrukcijomis.`,
+            keywords: [displayName, 'receptai', 'lietuviški']
           }
         },
         relatedTags: []

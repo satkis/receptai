@@ -43,6 +43,11 @@ interface TagPageProps {
   tag: Tag;
   recipes: Recipe[];
   relatedTags: Tag[];
+  availableTimeFilters: Array<{
+    value: string;
+    label: string;
+    count: number;
+  }>;
   pagination: {
     current: number;
     total: number;
@@ -50,6 +55,7 @@ interface TagPageProps {
     hasNext: boolean;
     hasPrev: boolean;
   };
+  activeTimeFilter: string | null;
 }
 
 // Tag Header Component
@@ -256,6 +262,52 @@ function Pagination({ pagination, onPageChange }: {
   );
 }
 
+// Time Filter Component (Exclusive Selection)
+function TimeFilter({
+  availableFilters,
+  activeFilter,
+  onFilterChange
+}: {
+  availableFilters: Array<{ value: string; label: string; count: number }>;
+  activeFilter: string | null;
+  onFilterChange: (filter: string | null) => void;
+}) {
+  return (
+    <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
+      <div className="flex items-center justify-between mb-4">
+        <h3 className="text-lg font-semibold text-gray-900">Trukmė</h3>
+        {activeFilter && (
+          <button
+            onClick={() => onFilterChange(null)}
+            className="text-sm text-orange-600 hover:text-orange-700"
+          >
+            Išvalyti filtrą
+          </button>
+        )}
+      </div>
+
+      <div className="flex flex-wrap gap-2">
+        {availableFilters.map((filter) => (
+          <button
+            key={filter.value}
+            onClick={() => onFilterChange(filter.value === activeFilter ? null : filter.value)}
+            className={`inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+              activeFilter === filter.value
+                ? "bg-orange-100 text-orange-800 border border-orange-200"
+                : "bg-gray-50 text-gray-700 border border-gray-200 hover:bg-gray-100"
+            }`}
+          >
+            {filter.label}
+            <span className={`text-xs ${activeFilter === filter.value ? "text-orange-600" : "text-gray-500"}`}>
+              ({filter.count})
+            </span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 // Sort Options Component
 function SortOptions({ currentSort, onSortChange }: {
   currentSort: string;
@@ -292,7 +344,14 @@ function SortOptions({ currentSort, onSortChange }: {
   );
 }
 
-export default function TagPage({ tag, recipes, relatedTags, pagination }: TagPageProps) {
+export default function TagPage({
+  tag,
+  recipes,
+  relatedTags,
+  availableTimeFilters,
+  pagination,
+  activeTimeFilter
+}: TagPageProps) {
   const router = useRouter();
   const [sortBy, setSortBy] = useState('newest');
 
@@ -304,6 +363,21 @@ export default function TagPage({ tag, recipes, relatedTags, pagination }: TagPa
   const handleSortChange = (sort: string) => {
     setSortBy(sort);
     const query = { ...router.query, sort };
+    router.push({ pathname: router.asPath.split('?')[0], query }, undefined, { shallow: true });
+  };
+
+  const handleTimeFilterChange = (filter: string | null) => {
+    const query = { ...router.query };
+
+    if (filter) {
+      query.timeFilter = filter;
+    } else {
+      delete query.timeFilter;
+    }
+
+    // Reset to page 1 when filter changes
+    delete query.page;
+
     router.push({ pathname: router.asPath.split('?')[0], query }, undefined, { shallow: true });
   };
 
@@ -382,6 +456,13 @@ export default function TagPage({ tag, recipes, relatedTags, pagination }: TagPa
         {/* Related Tags */}
         <RelatedTags tags={relatedTags} currentTag={tag.name} />
 
+        {/* Time Filters */}
+        <TimeFilter
+          availableFilters={availableTimeFilters}
+          activeFilter={activeTimeFilter}
+          onFilterChange={handleTimeFilterChange}
+        />
+
         {/* Sort Options */}
         <SortOptions currentSort={sortBy} onSortChange={handleSortChange} />
 
@@ -415,10 +496,19 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
       return { notFound: true };
     }
 
+    // Build recipe query
+    const recipeQuery: any = { tags: tag.name };
+
+    // Add time filter if specified
+    const timeFilter = query.timeFilter as string;
+    if (timeFilter) {
+      recipeQuery.timeCategory = timeFilter;
+    }
+
     // Build sort criteria
     const sort = query.sort as string || 'newest';
     let sortCriteria: any = { publishedAt: -1 }; // Default: newest
-    
+
     switch (sort) {
       case 'rating':
         sortCriteria = { 'rating.average': -1, 'rating.count': -1 };
@@ -436,16 +526,31 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
     const limit = 12;
     const skip = (page - 1) * limit;
 
-    // Get recipes with this tag
+    // Get recipes with this tag and count
     const [recipes, totalCount] = await Promise.all([
       db.collection('recipes_new')
-        .find({ tags: tag.name })
+        .find(recipeQuery)
         .sort(sortCriteria)
         .skip(skip)
         .limit(limit)
         .toArray(),
-      db.collection('recipes_new').countDocuments({ tags: tag.name })
+      db.collection('recipes_new').countDocuments(recipeQuery)
     ]);
+
+    // Get available time filters for recipes with this tag
+    const timeFilterCounts = await Promise.all([
+      db.collection('recipes_new').countDocuments({ tags: tag.name, timeCategory: "iki-30-min" }),
+      db.collection('recipes_new').countDocuments({ tags: tag.name, timeCategory: "30-60-min" }),
+      db.collection('recipes_new').countDocuments({ tags: tag.name, timeCategory: "1-2-val" }),
+      db.collection('recipes_new').countDocuments({ tags: tag.name, timeCategory: "virs-2-val" })
+    ]);
+
+    const availableTimeFilters = [
+      { value: "iki-30-min", label: "iki 30 min.", count: timeFilterCounts[0] },
+      { value: "30-60-min", label: "30–60 min.", count: timeFilterCounts[1] },
+      { value: "1-2-val", label: "1–2 val.", count: timeFilterCounts[2] },
+      { value: "virs-2-val", label: "virš 2 val.", count: timeFilterCounts[3] }
+    ].filter(filter => filter.count > 0); // Only show filters with recipes
 
     // Get related tags
     const relatedTags = await db.collection('tags_new')
@@ -464,13 +569,15 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
         tag: JSON.parse(JSON.stringify(tag)),
         recipes: JSON.parse(JSON.stringify(recipes)),
         relatedTags: JSON.parse(JSON.stringify(relatedTags)),
+        availableTimeFilters,
         pagination: {
           current: page,
           total: totalCount,
           pages: Math.ceil(totalCount / limit),
           hasNext: page * limit < totalCount,
           hasPrev: page > 1
-        }
+        },
+        activeTimeFilter: timeFilter || null
       }
     };
   } catch (error) {

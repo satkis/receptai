@@ -49,7 +49,6 @@ interface Recipe {
 
 interface RecipePageProps {
   recipe: Recipe;
-  relatedRecipes: Recipe[];
 }
 
 // Breadcrumb Component
@@ -78,12 +77,36 @@ function Breadcrumb({ items }: { items: Array<{ title: string; url: string; curr
   );
 }
 
+// Helper function to convert Lithuanian characters to standard letters
+function lithuanianToSlug(text: string): string {
+  const lithuanianMap: Record<string, string> = {
+    'ą': 'a', 'Ą': 'A',
+    'č': 'c', 'Č': 'C',
+    'ę': 'e', 'Ę': 'E',
+    'ė': 'e', 'Ė': 'E',
+    'į': 'i', 'Į': 'I',
+    'š': 's', 'Š': 'S',
+    'ų': 'u', 'Ų': 'U',
+    'ū': 'u', 'Ū': 'U',
+    'ž': 'z', 'Ž': 'Z'
+  };
+
+  return text
+    .split('')
+    .map(char => lithuanianMap[char] || char)
+    .join('')
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s_-]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 // Tag List Component
 function TagList({ tags }: { tags: string[] }) {
   const router = useRouter();
-  
+
   const handleTagClick = (tag: string) => {
-    const tagSlug = tag.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-');
+    const tagSlug = lithuanianToSlug(tag);
     router.push(`/paieska/${tagSlug}`);
   };
 
@@ -238,49 +261,15 @@ function InstructionsSection({ instructions }: { instructions: Recipe['instructi
   );
 }
 
-// Related Recipes Component
-function RelatedRecipes({ recipes }: { recipes: Recipe[] }) {
-  if (recipes.length === 0) return null;
+// Related Recipes Component - REMOVED as requested
 
-  return (
-    <div className="mt-12">
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">Susiję receptai</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {recipes.map((recipe) => (
-          <a
-            key={recipe._id}
-            href={`/receptas/${recipe.slug}`}
-            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-          >
-            <div className="relative h-48">
-              <PlaceholderImage
-                src={recipe.image}
-                alt={recipe.title.lt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              />
-            </div>
-            <div className="p-4">
-              <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
-                {recipe.title.lt}
-              </h3>
-              <div className="flex items-center gap-4 text-sm text-gray-600">
-                <span>🕒 {recipe.totalTimeMinutes} min</span>
-                <span>👥 {recipe.servings}</span>
-              </div>
-            </div>
-          </a>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-export default function RecipePage({ recipe, relatedRecipes }: RecipePageProps) {
-  // Generate breadcrumbs
+export default function RecipePage({ recipe }: RecipePageProps) {
+  // Generate breadcrumbs (updated for new URL structure)
   const breadcrumbs = [
-    ...recipe.breadcrumbs,
+    ...recipe.breadcrumbs.map(crumb => ({
+      ...crumb,
+      url: crumb.url.replace('/receptu-tipai/', '/').replace('/receptai', '/')
+    })),
     { title: recipe.title.lt, url: `/receptas/${recipe.slug}`, current: true }
   ];
 
@@ -290,13 +279,13 @@ export default function RecipePage({ recipe, relatedRecipes }: RecipePageProps) 
         <title>{recipe.seo.metaTitle}</title>
         <meta name="description" content={recipe.seo.metaDescription} />
         <meta name="keywords" content={recipe.seo.keywords.join(', ')} />
-        <link rel="canonical" href={`https://domain.lt/receptas/${recipe.slug}`} />
-        
+        <link rel="canonical" href={`https://paragaujam.lt/receptas/${recipe.slug}`} />
+
         {/* Open Graph */}
         <meta property="og:title" content={recipe.seo.metaTitle} />
         <meta property="og:description" content={recipe.seo.metaDescription} />
-        <meta property="og:image" content={`https://domain.lt${recipe.image}`} />
-        <meta property="og:url" content={`https://domain.lt/receptas/${recipe.slug}`} />
+        <meta property="og:image" content={`https://paragaujam.lt${recipe.image}`} />
+        <meta property="og:url" content={`https://paragaujam.lt/receptas/${recipe.slug}`} />
         <meta property="og:type" content="article" />
         
         {/* Recipe Structured Data */}
@@ -308,7 +297,7 @@ export default function RecipePage({ recipe, relatedRecipes }: RecipePageProps) 
               "@type": "Recipe",
               "name": recipe.title.lt,
               "description": recipe.description.lt,
-              "image": [`https://domain.lt${recipe.image}`],
+              "image": [`https://paragaujam.lt${recipe.image}`],
               "author": { "@type": "Organization", "name": "Paragaujam.lt" },
               "datePublished": recipe.publishedAt,
               "prepTime": `PT${recipe.prepTimeMinutes}M`,
@@ -351,8 +340,7 @@ export default function RecipePage({ recipe, relatedRecipes }: RecipePageProps) 
           </div>
         </div>
 
-        {/* Related Recipes */}
-        <RelatedRecipes recipes={relatedRecipes} />
+        {/* Related Recipes section removed as requested */}
       </div>
     </Layout>
   );
@@ -378,21 +366,11 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
       return { notFound: true };
     }
 
-    // Get related recipes by tags (limit to 6)
-    const relatedRecipes = await db.collection('recipes_new')
-      .find({ 
-        tags: { $in: recipe.tags },
-        _id: { $ne: recipe._id }
-      })
-      .limit(6)
-      .toArray();
-
     await client.close();
 
     return {
       props: {
-        recipe: JSON.parse(JSON.stringify(recipe)),
-        relatedRecipes: JSON.parse(JSON.stringify(relatedRecipes))
+        recipe: JSON.parse(JSON.stringify(recipe))
       }
     };
   } catch (error) {
