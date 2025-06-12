@@ -101,13 +101,13 @@ function lithuanianToSlug(text: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-// Tag List Component
+// Tag List Component - Updated for query-based search
 function TagList({ tags }: { tags: string[] }) {
   const router = useRouter();
 
   const handleTagClick = (tag: string) => {
-    const tagSlug = lithuanianToSlug(tag);
-    router.push(`/paieska/${tagSlug}`);
+    // Navigate to search page with tag as query
+    router.push(`/paieska?q=${encodeURIComponent(tag)}`);
   };
 
   return (

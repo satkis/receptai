@@ -14,6 +14,34 @@ export default function Home({ totalRecipes }: HomeProps) {
       <Head>
         <title>Paragaujam.lt - Geriausi lietuviški receptai</title>
         <meta name="description" content="Atraskite geriausius lietuviškus receptus - nuo tradicinių patiekalų iki modernių kulinarijos sprendimų." />
+        <meta name="keywords" content="lietuviški receptai, tradiciniai patiekalai, virtuvė, maistas, receptų svetainė" />
+        <link rel="canonical" href="https://paragaujam.lt/" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Paragaujam.lt - Geriausi lietuviški receptai" />
+        <meta property="og:description" content="Atraskite geriausius lietuviškus receptus su nuotraukomis ir detaliais aprašymais." />
+        <meta property="og:url" content="https://paragaujam.lt/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://paragaujam.lt/images/og-image.jpg" />
+
+        {/* SearchAction Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "url": "https://paragaujam.lt/",
+              "name": "Paragaujam.lt",
+              "description": "Geriausi lietuviški receptai su nuotraukomis ir instrukcijomis",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://paragaujam.lt/paieska?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
       </Head>
 
       <div className="min-h-screen">
