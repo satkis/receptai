@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { ChefHat, Clock, Users, Star, TrendingUp, Search } from 'lucide-react';
+import { ChefHat, Clock, Users, Star, Search } from 'lucide-react';
 
 interface HomeProps {
   totalRecipes: number;

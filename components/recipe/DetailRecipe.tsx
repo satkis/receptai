@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import { 
-  Clock, 
-  Users, 
-  Star, 
-  Heart, 
+import {
+  Clock,
+  Users,
+  Star,
+  Heart,
   Eye,
   ChefHat,
   Timer,

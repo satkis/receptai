@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import {
-  Menu,
-  X,
-  Search,
-  ChefHat,
-  Home
-} from 'lucide-react';
+// Icons replaced with emojis
 
 export default function Header() {
   console.log('Header component rendered');
@@ -31,7 +25,7 @@ export default function Header() {
           {/* Top row - Logo and Menu */}
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center">
-              <Home className="w-6 h-6 text-orange-500" />
+              <span className="text-orange-500 text-2xl">🏠</span>
             </Link>
 
             {/* Mobile Search Bar */}
@@ -49,7 +43,7 @@ export default function Header() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"
             >
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMenuOpen ? <span className="text-xl">✕</span> : <span className="text-xl">☰</span>}
             </button>
           </div>
         </div>
@@ -60,7 +54,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
-                <ChefHat className="w-5 h-5 text-white" />
+                <span className="text-white text-lg">👨‍🍳</span>
               </div>
               <span className="text-xl font-bold text-gray-900">
                 Paragaujam.lt
@@ -78,7 +72,7 @@ export default function Header() {
                   : 'text-gray-700 hover:text-orange-500'
               } transition-colors duration-200`}
             >
-              <Home className="w-5 h-5" />
+              <span className="text-lg">🏠</span>
             </Link>
             {navigation.map((item) => (
               <Link
@@ -101,7 +95,7 @@ export default function Header() {
               className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"
               title="Ieškoti"
             >
-              <Search className="w-5 h-5" />
+              <span className="text-lg">🔍</span>
             </button>
           </div>
         </div>
@@ -119,7 +113,7 @@ export default function Header() {
                 } transition-colors duration-200`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                <Home className="w-5 h-5 mr-2" />
+                <span className="text-lg mr-2">🏠</span>
                 Pagrindinis
               </Link>
               {navigation.map((item) => (

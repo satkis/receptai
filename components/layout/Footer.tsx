@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { ChefHat, Facebook, Instagram, Mail, Phone } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -32,7 +31,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
-                <ChefHat className="w-5 h-5 text-white" />
+                <span className="text-white text-lg">👨‍🍳</span>
               </div>
               <span className="text-xl font-bold">Paragaujam.lt</span>
             </div>
@@ -47,7 +46,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
-                <Facebook className="w-5 h-5" />
+                <span className="text-xl">📘</span>
               </a>
               <a
                 href="https://instagram.com/paragaujam"
@@ -55,13 +54,13 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
-                <Instagram className="w-5 h-5" />
+                <span className="text-xl">📷</span>
               </a>
               <a
                 href="mailto:info@paragaujam.lt"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
-                <Mail className="w-5 h-5" />
+                <span className="text-xl">✉️</span>
               </a>
             </div>
           </div>
@@ -118,11 +117,11 @@ export default function Footer() {
             
             <div className="mt-6 space-y-2">
               <div className="flex items-center space-x-2 text-sm text-gray-400">
-                <Mail className="w-4 h-4" />
+                <span>✉️</span>
                 <span>info@paragaujam.lt</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-400">
-                <Phone className="w-4 h-4" />
+                <span>📞</span>
                 <span>+370 600 12345</span>
               </div>
             </div>

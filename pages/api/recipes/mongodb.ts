@@ -9,7 +9,7 @@ export default async function handler(
     // Handle ObjectID query
     if (req.query.objectId) {
       try {
-        const { ObjectId } = require('mongodb')
+        // ObjectId imported at top of file
         const client = await clientPromise
         const db = client.db(process.env.MONGODB_DB || 'receptai')
 

@@ -20,7 +20,7 @@ const useGoogleAnalytics = () => {
     if (!GA_TRACKING_ID) return;
 
     const handleRouteChange = (url: string) => {
-      // @ts-ignore
+      // @ts-expect-error gtag is loaded dynamically
       window.gtag('config', GA_TRACKING_ID, {
         page_path: url,
       });
