@@ -74,7 +74,7 @@ export function buildSearchQuery(searchTerm: string): any {
 }
 
 /**
- * Build aggregation pipeline for search with filters
+ * Build aggregation pipeline for search with filters - OPTIMIZED
  */
 export function buildSearchAggregation(
   searchTerm: string,
@@ -84,36 +84,63 @@ export function buildSearchAggregation(
   limit: number = 12
 ): any[] {
   const skip = (page - 1) * limit;
-  
-  // Base match stage
+
+  // Base match stage - optimized for compound indexes
   const matchStage: any = {};
-  
-  // Add text search
-  if (searchTerm && searchTerm.trim()) {
-    Object.assign(matchStage, buildSearchQuery(searchTerm));
+
+  // Add category filter first (most selective)
+  if (categoryFilter) {
+    matchStage.allCategories = categoryFilter;
   }
-  
-  // Add time filter
+
+  // Add time filter second (uses compound index)
   if (timeFilter) {
     matchStage.timeCategory = timeFilter;
   }
-  
-  // Add category filter
-  if (categoryFilter) {
-    matchStage.allCategories = categoryFilter;
+
+  // Add text search last
+  if (searchTerm && searchTerm.trim()) {
+    Object.assign(matchStage, buildSearchQuery(searchTerm));
   }
 
   const pipeline = [
     { $match: matchStage },
     {
       $addFields: {
-        score: searchTerm ? { $meta: "textScore" } : 1
+        // Enhanced scoring for better relevance
+        score: searchTerm ? {
+          $add: [
+            { $meta: "textScore" },
+            // Boost recipes with search term in title
+            {
+              $cond: {
+                if: { $regexMatch: { input: "$title.lt", regex: searchTerm, options: "i" } },
+                then: 2,
+                else: 0
+              }
+            },
+            // Boost highly rated recipes
+            {
+              $cond: {
+                if: { $gte: ["$rating.average", 4.5] },
+                then: 1,
+                else: 0
+              }
+            }
+          ]
+        } : {
+          // Default scoring for non-search queries
+          $add: [
+            { $multiply: ["$rating.average", 0.1] },
+            { $cond: { if: { $gte: ["$rating.count", 5] }, then: 0.5, else: 0 } }
+          ]
+        }
       }
     },
     {
-      $sort: searchTerm 
-        ? { score: { $meta: "textScore" }, publishedAt: -1 }
-        : { publishedAt: -1 }
+      $sort: searchTerm
+        ? { score: -1, publishedAt: -1 }
+        : { score: -1, publishedAt: -1 }
     },
     {
       $project: {
@@ -124,7 +151,7 @@ export function buildSearchAggregation(
         totalTimeMinutes: 1,
         servings: 1,
         tags: 1,
-        ingredients: 1,  // ← Added ingredients field
+        ingredients: 1,
         rating: 1,
         difficulty: 1,
         timeCategory: 1,
@@ -141,7 +168,7 @@ export function buildSearchAggregation(
 }
 
 /**
- * Get available filters for search results
+ * Get available filters for search results - OPTIMIZED
  */
 export async function getAvailableFilters(
   db: any,
@@ -152,48 +179,75 @@ export async function getAvailableFilters(
   timeFilters: Array<{ value: string; label: string; count: number }>;
   categoryFilters: Array<{ value: string; label: string; count: number; path: string }>;
 }> {
-  
+
   // Base query for filter counting
   const baseQuery: any = {};
   if (searchTerm && searchTerm.trim()) {
     Object.assign(baseQuery, buildSearchQuery(searchTerm));
   }
 
-  // Get time filter counts
-  const timeFilterCounts = await Promise.all([
-    db.collection('recipes_new').countDocuments({ ...baseQuery, timeCategory: "iki-30-min" }),
-    db.collection('recipes_new').countDocuments({ ...baseQuery, timeCategory: "30-60-min" }),
-    db.collection('recipes_new').countDocuments({ ...baseQuery, timeCategory: "1-2-val" }),
-    db.collection('recipes_new').countDocuments({ ...baseQuery, timeCategory: "virs-2-val" })
-  ]);
+  // Add active category filter to base query for time filter counts
+  if (activeCategoryFilter) {
+    baseQuery.allCategories = activeCategoryFilter;
+  }
+
+  // Get time filter counts using optimized aggregation
+  const timeFilterAggregation = await db.collection('recipes_new').aggregate([
+    { $match: baseQuery },
+    {
+      $group: {
+        _id: "$timeCategory",
+        count: { $sum: 1 }
+      }
+    }
+  ]).toArray();
+
+  const timeFilterMap = timeFilterAggregation.reduce((acc: any, item: any) => {
+    acc[item._id] = item.count;
+    return acc;
+  }, {});
 
   const timeFilters = [
-    { value: "iki-30-min", label: "iki 30 min.", count: timeFilterCounts[0] },
-    { value: "30-60-min", label: "30–60 min.", count: timeFilterCounts[1] },
-    { value: "1-2-val", label: "1–2 val.", count: timeFilterCounts[2] },
-    { value: "virs-2-val", label: "virš 2 val.", count: timeFilterCounts[3] }
+    { value: "iki-30-min", label: "iki 30 min.", count: timeFilterMap["iki-30-min"] || 0 },
+    { value: "30-60-min", label: "30–60 min.", count: timeFilterMap["30-60-min"] || 0 },
+    { value: "1-2-val", label: "1–2 val.", count: timeFilterMap["1-2-val"] || 0 },
+    { value: "virs-2-val", label: "virš 2 val.", count: timeFilterMap["virs-2-val"] || 0 }
   ].filter(filter => filter.count > 0);
 
-  // Get category filter counts
+  // Get category filter counts (exclude active time filter for category counts)
+  const categoryBaseQuery: any = {};
+  if (searchTerm && searchTerm.trim()) {
+    Object.assign(categoryBaseQuery, buildSearchQuery(searchTerm));
+  }
+  if (activeTimeFilter) {
+    categoryBaseQuery.timeCategory = activeTimeFilter;
+  }
+
   const categoryAggregation = await db.collection('recipes_new').aggregate([
-    { $match: baseQuery },
+    { $match: categoryBaseQuery },
     { $unwind: "$allCategories" },
     { $group: { _id: "$allCategories", count: { $sum: 1 } } },
     { $sort: { count: -1 } },
-    { $limit: 20 }
+    { $limit: 15 } // Reduced limit for better performance
   ]).toArray();
 
-  // Get category details
+  // Get category details in batch
   const categoryPaths = categoryAggregation.map(c => c._id);
   const categories = await db.collection('categories_new')
     .find({ path: { $in: categoryPaths } })
+    .project({ path: 1, title: 1 }) // Only get needed fields
     .toArray();
 
+  const categoryMap = categories.reduce((acc: any, cat: any) => {
+    acc[cat.path] = cat;
+    return acc;
+  }, {});
+
   const categoryFilters = categoryAggregation.map(agg => {
-    const category = categories.find(c => c.path === agg._id);
+    const category = categoryMap[agg._id];
     return {
       value: agg._id,
-      label: category?.title?.lt || agg._id,
+      label: category?.title?.lt || agg._id.split('/').pop() || agg._id,
       count: agg.count,
       path: agg._id
     };

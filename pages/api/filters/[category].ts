@@ -101,7 +101,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       data: {
         category: categoryInfo,
         filters: availableFilters,
-        totalRecipes: await db.collection('recipes').countDocuments(baseFilter),
+        totalRecipes: await db.collection('recipes_new').countDocuments(baseFilter),
         language: language as string
       }
     });
@@ -227,6 +227,6 @@ async function getFilterCounts(db: Db, baseFilter: any) {
     }
   ];
 
-  const [result] = await db.collection('recipes').aggregate(pipeline).toArray();
+  const [result] = await db.collection('recipes_new').aggregate(pipeline).toArray();
   return result || {};
 }

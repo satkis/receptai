@@ -1,14 +1,11 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import dbConnect from '@/lib/mongoose';
-import Recipe from '@/models/Recipe';
-import { ApiResponse, SearchFilters } from '@/types';
+import clientPromise from '@/lib/mongodb';
+import { ApiResponse } from '@/types';
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<ApiResponse>
 ) {
-  await dbConnect();
-
   switch (req.method) {
     case 'GET':
       return getRecipes(req, res);
@@ -29,44 +26,33 @@ async function getRecipes(req: NextApiRequest, res: NextApiResponse<ApiResponse>
       page = '1',
       limit = '12',
       category,
-      difficulty,
-      maxTime,
+      timeFilter,
       tags,
       sort = 'newest',
-      featured,
       search,
-      language = 'lt',
     } = req.query;
 
     const pageNum = parseInt(page as string);
     const limitNum = parseInt(limit as string);
     const skip = (pageNum - 1) * limitNum;
 
-    // Build filter object
-    const filter: any = {
-      isPublished: true,
-      language: language,
-    };
+    const client = await clientPromise;
+    const db = client.db();
+
+    // Build filter object using new schema
+    const filter: any = {};
 
     if (category) {
-      filter.category = category;
+      filter.allCategories = category;
     }
 
-    if (difficulty) {
-      filter.difficulty = difficulty;
-    }
-
-    if (maxTime) {
-      filter.totalTime = { $lte: parseInt(maxTime as string) };
+    if (timeFilter) {
+      filter.timeCategory = timeFilter;
     }
 
     if (tags) {
       const tagArray = Array.isArray(tags) ? tags : [tags];
       filter.tags = { $in: tagArray };
-    }
-
-    if (featured === 'true') {
-      filter.isFeatured = true;
     }
 
     if (search) {
@@ -77,36 +63,33 @@ async function getRecipes(req: NextApiRequest, res: NextApiResponse<ApiResponse>
     let sortObj: any = {};
     switch (sort) {
       case 'newest':
-        sortObj = { createdAt: -1 };
+        sortObj = { publishedAt: -1 };
         break;
       case 'oldest':
-        sortObj = { createdAt: 1 };
-        break;
-      case 'popular':
-        sortObj = { views: -1, saves: -1 };
+        sortObj = { publishedAt: 1 };
         break;
       case 'rating':
-        sortObj = { averageRating: -1, totalRatings: -1 };
+        sortObj = { 'rating.average': -1, 'rating.count': -1 };
         break;
       case 'time-asc':
-        sortObj = { totalTime: 1 };
+        sortObj = { totalTimeMinutes: 1 };
         break;
       case 'time-desc':
-        sortObj = { totalTime: -1 };
+        sortObj = { totalTimeMinutes: -1 };
         break;
       default:
-        sortObj = { createdAt: -1 };
+        sortObj = { publishedAt: -1 };
     }
 
     // Execute query
     const [recipes, totalCount] = await Promise.all([
-      Recipe.find(filter)
+      db.collection('recipes_new')
+        .find(filter)
         .sort(sortObj)
         .skip(skip)
         .limit(limitNum)
-        .select('-comments -structuredData')
-        .lean(),
-      Recipe.countDocuments(filter),
+        .toArray(),
+      db.collection('recipes_new').countDocuments(filter),
     ]);
 
     const totalPages = Math.ceil(totalCount / limitNum);
@@ -138,7 +121,7 @@ async function createRecipe(req: NextApiRequest, res: NextApiResponse<ApiRespons
     const recipeData = req.body;
 
     // Validate required fields
-    const requiredFields = ['title', 'description', 'ingredients', 'instructions', 'image'];
+    const requiredFields = ['title', 'description', 'ingredients', 'instructions'];
     for (const field of requiredFields) {
       if (!recipeData[field]) {
         return res.status(400).json({
@@ -148,9 +131,19 @@ async function createRecipe(req: NextApiRequest, res: NextApiResponse<ApiRespons
       }
     }
 
-    // Generate slug
-    const baseSlug = recipeData.title
+    const client = await clientPromise;
+    const db = client.db();
+
+    // Generate slug from Lithuanian title
+    const baseSlug = recipeData.title.lt
       .toLowerCase()
+      .replace(/[ąčęėįšųūž]/g, (char: string) => {
+        const map: Record<string, string> = {
+          'ą': 'a', 'č': 'c', 'ę': 'e', 'ė': 'e', 'į': 'i',
+          'š': 's', 'ų': 'u', 'ū': 'u', 'ž': 'z'
+        };
+        return map[char] || char;
+      })
       .replace(/[^\w\s-]/g, '')
       .replace(/[\s_-]+/g, '-')
       .replace(/^-+|-+$/g, '');
@@ -159,23 +152,35 @@ async function createRecipe(req: NextApiRequest, res: NextApiResponse<ApiRespons
     let counter = 1;
 
     // Ensure unique slug
-    while (await Recipe.findOne({ slug })) {
+    while (await db.collection('recipes_new').findOne({ slug })) {
       slug = `${baseSlug}-${counter}`;
       counter++;
     }
 
-    // Create recipe
-    const recipe = new Recipe({
+    // Calculate time category
+    const totalTime = recipeData.prepTimeMinutes + recipeData.cookTimeMinutes;
+    let timeCategory = 'virs-2-val';
+    if (totalTime <= 30) timeCategory = 'iki-30-min';
+    else if (totalTime <= 60) timeCategory = '30-60-min';
+    else if (totalTime <= 120) timeCategory = '1-2-val';
+
+    // Create recipe with new schema
+    const recipe = {
       ...recipeData,
       slug,
-      totalTime: recipeData.prepTime + recipeData.cookTime,
-    });
+      totalTimeMinutes: totalTime,
+      timeCategory,
+      allCategories: recipeData.allCategories || [],
+      publishedAt: new Date(),
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
 
-    await recipe.save();
+    const result = await db.collection('recipes_new').insertOne(recipe);
 
     return res.status(201).json({
       success: true,
-      data: recipe,
+      data: { ...recipe, _id: result.insertedId },
       message: 'Receptas sėkmingai sukurtas',
     });
   } catch (error) {

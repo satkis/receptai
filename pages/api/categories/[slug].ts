@@ -19,8 +19,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   try {
     await client.connect();
     const db = client.db('receptai');
-    const categoriesCollection = db.collection('categories');
-    const recipesCollection = db.collection('recipes');
+    const categoriesCollection = db.collection('categories_new');
+    const recipesCollection = db.collection('recipes_new');
 
     // Find the category in our enhanced categories collection
     let category = await categoriesCollection.findOne({

@@ -13,7 +13,7 @@ export default async function handler(
         const client = await clientPromise
         const db = client.db(process.env.MONGODB_DB || 'receptai')
 
-        const recipe = await db.collection('recipes').findOne({
+        const recipe = await db.collection('recipes_new').findOne({
           _id: new ObjectId(req.query.objectId as string)
         })
 
@@ -58,8 +58,8 @@ export default async function handler(
         sort = 'newest'
       } = req.query
 
-      // Build filter using new schema
-      const filter: any = { status: 'public' }
+      // Build filter using recipes_new schema
+      const filter: any = {}
 
       // Filter by group
       if (groupSlug && groupSlug !== 'viskas') {
@@ -69,20 +69,20 @@ export default async function handler(
         }
       }
 
-      // Filter by cuisine
+      // Filter by category path
       if (cuisine) {
-        filter['filters.cuisine'] = cuisine
+        filter.allCategories = { $regex: cuisine }
       }
 
-      // Filter by meal type
+      // Filter by meal type (using allCategories)
       if (mealType) {
-        filter['filters.mealType'] = mealType
+        filter.allCategories = { $regex: mealType }
       }
 
-      // Filter by dietary requirements
+      // Filter by dietary requirements (using allCategories)
       if (dietary) {
         const dietaryArray = Array.isArray(dietary) ? dietary : [dietary]
-        filter['filters.dietary'] = { $in: dietaryArray }
+        filter.allCategories = { $in: dietaryArray }
       }
 
       // Filter by max cooking time
@@ -111,7 +111,7 @@ export default async function handler(
 
       // Fetch recipes from MongoDB using optimized query
       const recipes = await db
-        .collection('recipes')
+        .collection('recipes_new')
         .find(filter)
         .sort(sortObj)
         .limit(parseInt(limit as string))

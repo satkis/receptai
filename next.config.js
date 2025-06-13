@@ -1,16 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false, // Temporarily disabled to fix infinite reloading
-  swcMinify: true,
-  
-  // Internationalization
+  reactStrictMode: true,
+
+  // Internationalization - Lithuanian focus
   i18n: {
-    locales: ['lt', 'en'],
+    locales: ['lt'],
     defaultLocale: 'lt',
     localeDetection: false,
   },
 
-  // Image optimization
+  // Image optimization for recipe photos
   images: {
     remotePatterns: [
       {
@@ -21,27 +20,21 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'paragaujam-cdn.s3.amazonaws.com',
       },
-      {
-        protocol: 'https',
-        hostname: 'lh3.googleusercontent.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'platform-lookaside.fbsbx.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
     ],
     formats: ['image/webp', 'image/avif'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 31536000, // 1 year cache for recipe images
   },
 
   // Performance optimizations
   experimental: {
     scrollRestoration: true,
+  },
+
+  // Compiler optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
   },
 
   // Headers for SEO and security
@@ -62,18 +55,31 @@ const nextConfig = {
             key: 'Referrer-Policy',
             value: 'origin-when-cross-origin',
           },
+          {
+            key: 'X-DNS-Prefetch-Control',
+            value: 'on',
+          },
         ],
       },
-    ];
-  },
-
-  // Redirects for SEO
-  async redirects() {
-    return [
+      // Cache static assets aggressively
       {
-        source: '/receptai',
-        destination: '/recipes',
-        permanent: true,
+        source: '/images/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      // Cache API responses
+      {
+        source: '/api/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, s-maxage=300, stale-while-revalidate=600',
+          },
+        ],
       },
     ];
   },

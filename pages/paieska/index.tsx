@@ -8,6 +8,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Layout from '../../components/layout/Layout';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
+import SearchResultsSEO from '../../components/search/SearchResultsSEO';
 import { 
   buildSearchAggregation, 
   getAvailableFilters, 
@@ -570,21 +571,12 @@ export default function SearchPage({
 
   return (
     <Layout>
-      <Head>
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageDescription} />
-        <meta name="keywords" content={`${query.searchTerm}, receptai, lietuviški, paieška`} />
-        <link rel="canonical" href={`https://paragaujam.lt/paieska${query.searchTerm ? `?q=${encodeURIComponent(query.searchTerm)}` : ''}`} />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={pageDescription} />
-        <meta property="og:url" content={`https://paragaujam.lt/paieska${query.searchTerm ? `?q=${encodeURIComponent(query.searchTerm)}` : ''}`} />
-        <meta property="og:type" content="website" />
-        
-        {/* Prevent indexing of empty search pages */}
-        {!query.searchTerm && <meta name="robots" content="noindex, follow" />}
-      </Head>
+      <SearchResultsSEO
+        query={query.searchTerm}
+        totalResults={performance.totalResults}
+        currentPage={pagination.current}
+        totalPages={pagination.pages}
+      />
 
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Search Bar */}

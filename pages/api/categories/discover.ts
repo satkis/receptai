@@ -14,12 +14,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const db = client.db(process.env.MONGODB_DB || 'receptai');
     
     // Get all active categories from database
-    const categories = await db.collection('categories').find({
-      status: "active"
+    const categories = await db.collection('categories_new').find({
+      isActive: true
     }).toArray();
-    
+
     // Get all unique categoryPaths from recipes to discover dynamic categories
-    const recipeCategoryPaths = await db.collection('recipes').distinct('categoryPath', {
+    const recipeCategoryPaths = await db.collection('recipes_new').distinct('categoryPath', {
       status: "published"
     });
     
@@ -63,7 +63,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         const [categorySlug, subcategorySlug] = parts;
         
         // Count recipes for this category/subcategory combination
-        const recipeCount = await db.collection('recipes').countDocuments({
+        const recipeCount = await db.collection('recipes_new').countDocuments({
           status: "published",
           categoryPath: categoryPath
         });
@@ -105,7 +105,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     
     // Add total recipe counts for categories
     for (const category of categoriesArray) {
-      const totalRecipes = await db.collection('recipes').countDocuments({
+      const totalRecipes = await db.collection('recipes_new').countDocuments({
         status: "published",
         categoryPath: new RegExp(`^${category.slug}/`)
       });

@@ -23,7 +23,7 @@ export default function PlaceholderImage({
   fill = false,
   priority = false,
   sizes,
-  quality = 75
+  quality = 85
 }: PlaceholderImageProps) {
   const [imageError, setImageError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);

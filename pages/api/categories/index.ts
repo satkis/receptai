@@ -14,7 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   try {
     await client.connect();
     const db = client.db('receptai');
-    const categoriesCollection = db.collection('categories');
+    const categoriesCollection = db.collection('categories_new');
 
     // Get all active categories, sorted by order
     const categories = await categoriesCollection
@@ -27,53 +27,20 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const filterCategories = categories.filter(cat => cat.type === 'filter-category');
 
     // Get recipe counts for each category
-    const recipesCollection = db.collection('recipes');
+    const recipesCollection = db.collection('recipes_new');
     
-    // Add recipe counts to main categories
-    for (const category of mainCategories) {
+    // Add recipe counts to categories using new schema
+    for (const category of categories) {
       const count = await recipesCollection.countDocuments({
-        'categories.main': category.label.lt
+        allCategories: category.path
       });
-      category.recipeCount = count;
-
-      // Add counts to subcategories
-      if (category.subcategories) {
-        for (const subcategory of category.subcategories) {
-          const subCount = await recipesCollection.countDocuments({
-            'categories.main': category.label.lt,
-            'categories.sub': subcategory.label
-          });
-          subcategory.recipeCount = subCount;
-        }
-      }
-    }
-
-    // Add recipe counts to filter categories
-    for (const category of filterCategories) {
-      let count = 0;
-      
-      if (category.slug === '15-min-patiekalai') {
-        count = await recipesCollection.countDocuments({
-          totalTimeMinutes: { $lte: 15 }
-        });
-      } else if (category.slug === 'be-glitimo') {
-        count = await recipesCollection.countDocuments({
-          'categories.dietary': 'Be glitimo'
-        });
-      } else if (category.slug === 'vegetariski') {
-        count = await recipesCollection.countDocuments({
-          'categories.dietary': 'Vegetariški patiekalai'
-        });
-      }
-      
       category.recipeCount = count;
     }
 
     res.status(200).json({
       success: true,
       data: {
-        mainCategories,
-        filterCategories,
+        categories,
         totalCategories: categories.length
       }
     });

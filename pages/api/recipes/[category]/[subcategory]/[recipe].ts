@@ -19,7 +19,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     await client.connect();
     const db = client.db('receptai');
-    const recipesCollection = db.collection('recipes');
+    const recipesCollection = db.collection('recipes_new');
 
     const query = {
       slug: recipe,

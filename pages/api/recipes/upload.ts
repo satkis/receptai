@@ -45,8 +45,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
     
     // Ensure unique slug
-    const existingRecipe = await db.collection('recipes').findOne({ 
-      slug: recipeData.slug 
+    const existingRecipe = await db.collection('recipes_new').findOne({
+      slug: recipeData.slug
     });
     
     if (existingRecipe) {
@@ -109,7 +109,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     };
     
     // Insert recipe
-    const result = await db.collection('recipes').insertOne(recipeDocument);
+    const result = await db.collection('recipes_new').insertOne(recipeDocument);
     
     // Update category recipe count
     await updateCategoryRecipeCount(db, categorySlug, subcategorySlug);
@@ -136,7 +136,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
 // Helper function to ensure category and subcategory exist
 async function ensureCategoryExists(db: any, categorySlug: string, subcategorySlug: string) {
-  const categoriesCollection = db.collection('categories');
+  const categoriesCollection = db.collection('categories_new');
   
   // Check if category exists
   let category = await categoriesCollection.findOne({ slug: categorySlug });
@@ -189,12 +189,12 @@ async function ensureCategoryExists(db: any, categorySlug: string, subcategorySl
 
 // Helper function to update recipe counts
 async function updateCategoryRecipeCount(db: any, categorySlug: string, subcategorySlug: string) {
-  const recipeCount = await db.collection('recipes').countDocuments({
+  const recipeCount = await db.collection('recipes_new').countDocuments({
     status: 'published',
     categoryPath: `${categorySlug}/${subcategorySlug}`
   });
-  
-  await db.collection('categories').updateOne(
+
+  await db.collection('categories_new').updateOne(
     { 
       slug: categorySlug,
       'subcategories.slug': subcategorySlug 

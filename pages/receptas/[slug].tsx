@@ -9,6 +9,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import Layout from '../../components/layout/Layout';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
+import RecipeSEO from '../../components/seo/RecipeSEO';
 
 interface Recipe {
   _id: string;
@@ -277,45 +278,7 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 
   return (
     <Layout>
-      <Head>
-        <title>{recipe.seo.metaTitle}</title>
-        <meta name="description" content={recipe.seo.metaDescription} />
-        <meta name="keywords" content={recipe.seo.keywords.join(', ')} />
-        <link rel="canonical" href={`https://paragaujam.lt/receptas/${recipe.slug}`} />
-
-        {/* Open Graph */}
-        <meta property="og:title" content={recipe.seo.metaTitle} />
-        <meta property="og:description" content={recipe.seo.metaDescription} />
-        <meta property="og:image" content={`https://paragaujam.lt${recipe.image}`} />
-        <meta property="og:url" content={`https://paragaujam.lt/receptas/${recipe.slug}`} />
-        <meta property="og:type" content="article" />
-        
-        {/* Recipe Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Recipe",
-              "name": recipe.title.lt,
-              "description": recipe.description.lt,
-              "image": [`https://paragaujam.lt${recipe.image}`],
-              "author": { "@type": "Organization", "name": "Paragaujam.lt" },
-              "datePublished": recipe.publishedAt,
-              "prepTime": `PT${recipe.prepTimeMinutes}M`,
-              "cookTime": `PT${recipe.cookTimeMinutes}M`,
-              "totalTime": `PT${recipe.totalTimeMinutes}M`,
-              "recipeYield": recipe.servings.toString(),
-              "recipeIngredient": recipe.ingredients.map(ing => `${ing.quantity} ${ing.name.lt}`),
-              "recipeInstructions": recipe.instructions.map(inst => ({
-                "@type": "HowToStep",
-                "text": inst.text.lt
-              })),
-              "keywords": recipe.tags.join(", ")
-            })
-          }}
-        />
-      </Head>
+      <RecipeSEO recipe={recipe} />
 
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Breadcrumbs */}

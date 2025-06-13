@@ -18,14 +18,16 @@ ${isProduction ? 'Allow: /' : 'Disallow: /'}
 # Allow all search engines to crawl the site in production
 ${isProduction ? `
 # Main content areas
-Allow: /receptai/
+Allow: /receptas/
+Allow: /paieska/
+Allow: /pagal-ingredienta/
+Allow: /patiekalo-tipas/
+Allow: /gaminimo-budas/
 Allow: /images/
 Allow: /api/sitemap
 
 # Specific recipe pages
-Allow: /receptai/*/
-Allow: /receptai/*/*/
-Allow: /receptai/*/*/*/
+Allow: /receptas/*/
 
 # Static pages
 Allow: /apie-mus
@@ -108,8 +110,11 @@ Disallow: /
 User-agent: MegaIndex
 Disallow: /
 
-# Sitemap location
+# Sitemap locations
+Sitemap: ${baseUrl}/sitemap-index.xml
 Sitemap: ${baseUrl}/sitemap.xml
+Sitemap: ${baseUrl}/sitemap-search.xml
+Sitemap: ${baseUrl}/sitemap-images.xml
 
 # Additional information
 # Website: ${baseUrl}
