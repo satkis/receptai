@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 
 import { Recipe } from '@/types';
+import Breadcrumb, { generateRecipeBreadcrumbs } from '@/components/navigation/Breadcrumb';
 
 interface DetailRecipeProps {
   recipe: Recipe;
@@ -26,6 +27,9 @@ export default function DetailRecipe({ recipe }: DetailRecipeProps) {
   const [activeTimer, setActiveTimer] = useState<number | null>(null);
 
   const servingMultiplier = servings / recipe.servings;
+
+  // Generate breadcrumb items for this recipe
+  const breadcrumbItems = generateRecipeBreadcrumbs(recipe);
 
   const toggleIngredient = (index: number) => {
     const newChecked = new Set(checkedIngredients);
@@ -123,6 +127,11 @@ export default function DetailRecipe({ recipe }: DetailRecipeProps) {
           className="object-cover"
           priority
         />
+      </div>
+
+      {/* Breadcrumb */}
+      <div className="bg-white rounded-2xl shadow-lg p-2 mb-6">
+        <Breadcrumb items={breadcrumbItems} containerless={true} />
       </div>
 
       {/* Content Grid */}

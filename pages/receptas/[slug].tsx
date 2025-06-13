@@ -10,6 +10,7 @@ import { useRouter } from 'next/router';
 import Layout from '../../components/layout/Layout';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
 import RecipeSEO from '../../components/seo/RecipeSEO';
+import Breadcrumb from '../../components/navigation/Breadcrumb';
 
 interface Recipe {
   _id: string;
@@ -52,31 +53,7 @@ interface RecipePageProps {
   recipe: Recipe;
 }
 
-// Breadcrumb Component
-function Breadcrumb({ items }: { items: Array<{ title: string; url: string; current?: boolean }> }) {
-  return (
-    <nav className="flex mb-4" aria-label="Breadcrumb">
-      <ol className="inline-flex items-center space-x-1 md:space-x-3">
-        {items.map((item, index) => (
-          <li key={index} className="inline-flex items-center">
-            {index > 0 && (
-              <svg className="w-3 h-3 text-gray-400 mx-1" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-              </svg>
-            )}
-            {item.current ? (
-              <span className="text-gray-500 text-sm font-medium">{item.title}</span>
-            ) : (
-              <a href={item.url} className="text-gray-700 hover:text-orange-600 text-sm font-medium">
-                {item.title}
-              </a>
-            )}
-          </li>
-        ))}
-      </ol>
-    </nav>
-  );
-}
+// Local Breadcrumb component removed - using shared component instead
 
 // Helper function to convert Lithuanian characters to standard letters
 function lithuanianToSlug(text: string): string {
@@ -113,9 +90,6 @@ function TagList({ tags }: { tags: string[] }) {
 
   return (
     <div className="mb-8">
-      <h3 className="text-lg font-semibold mb-3 text-gray-900">
-        Susiję žymenys
-      </h3>
       <div className="flex flex-wrap gap-2">
         {tags.map((tag, index) => (
           <button
@@ -267,13 +241,14 @@ function InstructionsSection({ instructions }: { instructions: Recipe['instructi
 // Related Recipes Component - REMOVED as requested
 
 export default function RecipePage({ recipe }: RecipePageProps) {
-  // Generate breadcrumbs (updated for new URL structure)
-  const breadcrumbs = [
+  // Generate breadcrumbs for shared component
+  const breadcrumbItems = [
+    { label: 'Receptai', href: '/receptai' },
     ...recipe.breadcrumbs.map(crumb => ({
-      ...crumb,
-      url: crumb.url.replace('/receptu-tipai/', '/').replace('/receptai', '/')
+      label: crumb.title,
+      href: crumb.url.replace('/receptu-tipai/', '/').replace('/receptai', '/')
     })),
-    { title: recipe.title.lt, url: `/receptas/${recipe.slug}`, current: true }
+    { label: recipe.title.lt, isActive: true }
   ];
 
   return (
@@ -281,16 +256,13 @@ export default function RecipePage({ recipe }: RecipePageProps) {
       <RecipeSEO recipe={recipe} />
 
       <div className="max-w-4xl mx-auto px-4 py-8">
-        {/* Breadcrumbs */}
-        <div className="bg-white rounded-2xl shadow-lg p-2 mb-6">
-          <Breadcrumb items={breadcrumbs} />
-        </div>
-
         {/* Recipe Header */}
         <RecipeHeader recipe={recipe} />
 
-        {/* Tags */}
-        <TagList tags={recipe.tags} />
+        {/* Breadcrumbs */}
+        <div className="bg-white rounded-2xl shadow-lg p-2 mb-6">
+          <Breadcrumb items={breadcrumbItems} containerless={true} />
+        </div>
 
         {/* Recipe Content Grid */}
         <div className="grid lg:grid-cols-3 gap-8 mb-8">
@@ -304,6 +276,9 @@ export default function RecipePage({ recipe }: RecipePageProps) {
             <InstructionsSection instructions={recipe.instructions} />
           </div>
         </div>
+
+        {/* Tags */}
+        <TagList tags={recipe.tags} />
 
         {/* Related Recipes section removed as requested */}
       </div>

@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 import { ChevronRight, Home } from 'lucide-react';
-import Head from 'next/head';
 
 export interface BreadcrumbItem {
   label: string;
@@ -18,17 +17,17 @@ interface BreadcrumbProps {
 }
 
 export default function Breadcrumb({ items, className = '', schemaData, containerless = false }: BreadcrumbProps) {
-  const router = useRouter();
+  const pathname = usePathname();
 
   // Show breadcrumbs on recipe pages and category pages
-  const shouldShowBreadcrumbs = router.pathname.startsWith('/receptai/') || items;
+  const shouldShowBreadcrumbs = pathname.startsWith('/receptas/') || items;
 
   if (!shouldShowBreadcrumbs) {
     return null;
   }
 
   // Generate breadcrumb items based on current route if not provided
-  const breadcrumbItems = items || generateBreadcrumbItems(router);
+  const breadcrumbItems = items || generateBreadcrumbItems(pathname);
 
   // Generate Schema.org structured data
   const generateSchemaData = () => {
@@ -57,16 +56,6 @@ export default function Breadcrumb({ items, className = '', schemaData, containe
 
   return (
     <>
-      {/* Schema.org structured data */}
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(generateSchemaData())
-          }}
-        />
-      </Head>
-
       {/* Breadcrumb navigation */}
       {containerless ? (
         // Containerless version for use inside other containers
@@ -156,43 +145,37 @@ export default function Breadcrumb({ items, className = '', schemaData, containe
   );
 }
 
-function generateBreadcrumbItems(router: any): BreadcrumbItem[] {
-  const pathSegments = router.pathname.split('/').filter(Boolean);
-  const querySegments = router.asPath.split('/').filter(Boolean);
+function generateBreadcrumbItems(pathname: string): BreadcrumbItem[] {
+  const pathSegments = pathname.split('/').filter(Boolean);
   const items: BreadcrumbItem[] = [];
 
-  if (pathSegments[0] === 'receptai') {
+  if (pathSegments[0] === 'receptas') {
     items.push({ label: 'Receptai', href: '/receptai' });
 
-    // Handle category structure: /receptai/[category]/[subcategory]/[recipe]
-    if (querySegments[1]) {
-      const categorySlug = querySegments[1];
+    // Handle recipe structure: /receptas/[slug]
+    if (pathSegments[1]) {
+      const recipeSlug = pathSegments[1];
+      const recipeTitle = formatRecipeTitle(recipeSlug);
+      items.push({ label: recipeTitle, isActive: true });
+    }
+  } else if (pathSegments[0] === 'receptai') {
+    items.push({ label: 'Receptai', href: '/receptai' });
+
+    // Handle category structure: /receptai/[category]/[subcategory]
+    if (pathSegments[1]) {
+      const categorySlug = pathSegments[1];
       const categoryTitle = formatCategoryTitle(categorySlug);
 
-      if (querySegments[2]) {
+      if (pathSegments[2]) {
         // Has subcategory
         items.push({
           label: categoryTitle,
           href: `/receptai/${categorySlug}`
         });
 
-        const subcategorySlug = querySegments[2];
+        const subcategorySlug = pathSegments[2];
         const subcategoryTitle = formatSubcategoryTitle(subcategorySlug);
-
-        if (querySegments[3]) {
-          // Has recipe
-          items.push({
-            label: subcategoryTitle,
-            href: `/receptai/${categorySlug}/${subcategorySlug}`
-          });
-
-          const recipeSlug = querySegments[3];
-          const recipeTitle = formatRecipeTitle(recipeSlug);
-          items.push({ label: recipeTitle, isActive: true });
-        } else {
-          // Subcategory page
-          items.push({ label: subcategoryTitle, isActive: true });
-        }
+        items.push({ label: subcategoryTitle, isActive: true });
       } else {
         // Category page only
         items.push({ label: categoryTitle, isActive: true });
