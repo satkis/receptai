@@ -132,6 +132,7 @@ export default function RecipeSEO({ recipe }: RecipeSEOProps) {
       <meta name="description" content={seoDescription} />
       <meta name="keywords" content={seoKeywords.join(', ')} />
       <link rel="canonical" href={recipeUrl} />
+      <meta name="robots" content="index, follow" />
 
       {/* Open Graph */}
       <meta property="og:title" content={seoTitle} />
