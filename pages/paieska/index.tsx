@@ -54,67 +54,27 @@ interface SearchPageProps {
   };
 }
 
-// Search Header Component
-function SearchHeader({ 
-  searchTerm, 
-  totalResults, 
-  searchTime 
-}: { 
-  searchTerm: string; 
-  totalResults: number; 
-  searchTime: number; 
+// Simple Search Header Component
+function SearchHeader({
+  searchTerm,
+  totalResults
+}: {
+  searchTerm: string;
+  totalResults: number;
 }) {
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
-      <div className="flex items-center justify-between mb-4">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">
-            {searchTerm ? `Paieškos rezultatai: "${searchTerm}"` : 'Visi receptai'}
-          </h1>
-          <p className="text-gray-600 mt-1">
-            Rasta {totalResults} receptų {searchTime && `(${searchTime}ms)`}
-          </p>
-        </div>
-        <div className="text-4xl">🔍</div>
-      </div>
+    <div className="mb-6">
+      <h1 className="text-2xl font-bold text-gray-900 mb-2">
+        {searchTerm ? `Paieškos rezultatai: "${searchTerm}"` : 'Visi receptai'}
+      </h1>
+      <p className="text-gray-600">
+        Rodoma {totalResults} receptų šiame puslapyje
+      </p>
     </div>
   );
 }
 
-// Search Bar Component
-function SearchBar({ initialValue }: { initialValue: string }) {
-  const router = useRouter();
-  const [searchValue, setSearchValue] = useState(initialValue);
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (searchValue.trim()) {
-      router.push(`/paieska?q=${encodeURIComponent(searchValue.trim())}`);
-    } else {
-      router.push('/paieska');
-    }
-  };
-
-  return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
-      <form onSubmit={handleSearch} className="flex gap-4">
-        <input
-          type="text"
-          value={searchValue}
-          onChange={(e) => setSearchValue(e.target.value)}
-          placeholder="Ieškoti receptų... (pvz. vištienos file, šaltibarščiai)"
-          className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-        />
-        <button
-          type="submit"
-          className="px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors font-medium"
-        >
-          Ieškoti
-        </button>
-      </form>
-    </div>
-  );
-}
+// This component is removed - search functionality moved to header
 
 // Time Filter Component (Exclusive Selection)
 function TimeFilter({ 
@@ -456,17 +416,10 @@ export const getServerSideProps: GetServerSideProps = async ({ query: urlQuery }
       .aggregate(pipeline)
       .toArray();
 
-    // Get total count
-    const countPipeline = [
-      pipeline[0], // Match stage only
-      { $count: "total" }
-    ];
-
-    const countResult = await db.collection('recipes_new')
-      .aggregate(countPipeline)
-      .toArray();
-
-    const totalCount = countResult.length > 0 ? countResult[0].total : 0;
+    // For performance with 10k+ recipes, we'll estimate count based on results
+    // This avoids expensive count queries
+    const currentResultsCount = recipes.length;
+    const estimatedTotal = currentResultsCount === limit ? (page * limit) + 1 : (page - 1) * limit + currentResultsCount;
 
     // Get available filters
     const filters = await getAvailableFilters(
@@ -485,9 +438,9 @@ export const getServerSideProps: GetServerSideProps = async ({ query: urlQuery }
         recipes: JSON.parse(JSON.stringify(recipes)),
         pagination: {
           current: page,
-          total: totalCount,
-          pages: Math.ceil(totalCount / limit),
-          hasNext: page * limit < totalCount,
+          total: estimatedTotal,
+          pages: Math.ceil(estimatedTotal / limit),
+          hasNext: currentResultsCount === limit, // More results available if we got full page
           hasPrev: page > 1
         },
         filters,
@@ -498,7 +451,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query: urlQuery }
         },
         performance: {
           searchTime,
-          totalResults: totalCount
+          totalResults: currentResultsCount
         }
       }
     };
@@ -579,14 +532,10 @@ export default function SearchPage({
       />
 
       <div className="max-w-6xl mx-auto px-4 py-8">
-        {/* Search Bar */}
-        <SearchBar initialValue={query.searchTerm} />
-
         {/* Search Header */}
-        <SearchHeader 
+        <SearchHeader
           searchTerm={query.searchTerm}
           totalResults={performance.totalResults}
-          searchTime={performance.searchTime}
         />
 
         {/* Time Filters */}

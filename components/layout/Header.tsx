@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 // Icons replaced with emojis
@@ -11,6 +11,23 @@ export default function Header() {
   const router = useRouter();
 
   console.log('Header - current route:', router.pathname);
+
+  // Pre-fill search input from URL query parameter
+  useEffect(() => {
+    if (router.query.q && typeof router.query.q === 'string') {
+      setSearchQuery(decodeURIComponent(router.query.q));
+    } else {
+      setSearchQuery('');
+    }
+  }, [router.query.q]);
+
+  // Handle search form submission
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/paieska?q=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
 
   const navigation = [
     { name: 'Receptai', href: '/receptai' }, // Updated to use Lithuanian URL
@@ -30,13 +47,15 @@ export default function Header() {
 
             {/* Mobile Search Bar */}
             <div className="flex-1 mx-4">
-              <input
-                type="text"
-                placeholder="Ieškoti receptų..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-              />
+              <form onSubmit={handleSearch}>
+                <input
+                  type="text"
+                  placeholder="Ieškoti receptų..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                />
+              </form>
             </div>
 
             <button
@@ -91,12 +110,15 @@ export default function Header() {
 
           {/* Right side - Search */}
           <div className="flex items-center space-x-4">
-            <button
-              className="p-2 text-gray-600 hover:text-orange-500 transition-colors duration-200"
-              title="Ieškoti"
-            >
-              <span className="text-lg">🔍</span>
-            </button>
+            <form onSubmit={handleSearch} className="relative">
+              <input
+                type="text"
+                placeholder="Ieškoti receptų..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-64 px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+              />
+            </form>
           </div>
         </div>
 
