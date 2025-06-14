@@ -197,17 +197,39 @@ function formatRecipeTitle(slug: string): string {
 function formatCategoryTitle(slug: string): string {
   // Convert category slug to readable title
   const categoryMap: { [key: string]: string } = {
+    // Main categories
     'karsti-patiekalai': 'Karšti patiekalai',
     'sriubos': 'Sriubos',
     'uzkandziai': 'Užkandžiai',
     'salotos': 'Salotos ir mišrainės',
+    'desertai': 'Desertai',
+    'gerimai': 'Gėrimai',
+
+    // Ingredient-based categories
+    'mesa': 'Mėsa',
     'vistiena': 'Vištiena',
     'jautiena': 'Jautiena',
+    'kiauliena': 'Kiauliena',
     'zuvis': 'Žuvis ir jūros gėrybės',
-    'desertai': 'Desertai',
+    'darzoves': 'Daržovės',
+    'grybai': 'Grybai',
+
+    // Time-based categories
     '15-min-patiekalai': '15 minučių patiekalai',
+    '30-min-patiekalai': '30 minučių patiekalai',
+    'greitai': 'Greiti patiekalai',
+
+    // Dietary categories
     'be-glitimo': 'Be glitimo',
-    'vegetariski': 'Vegetariški patiekalai'
+    'vegetariski': 'Vegetariški patiekalai',
+    'veganiski': 'Veganiški patiekalai',
+    'be-laktozes': 'Be laktozės',
+
+    // Cooking methods
+    'kepti': 'Kepti patiekalai',
+    'virinti': 'Virinti patiekalai',
+    'troskiniai': 'Troškiniai',
+    'apkepai': 'Apkepai'
   };
 
   return categoryMap[slug] || formatRecipeTitle(slug);
@@ -245,8 +267,8 @@ function formatSubcategoryTitle(slug: string): string {
   return subcategoryMap[slug] || formatRecipeTitle(slug);
 }
 
-// Utility function to generate breadcrumbs from recipe data
-export function generateRecipeBreadcrumbs(recipe: any): BreadcrumbItem[] {
+// Utility function to generate breadcrumbs from recipe data with dynamic path support
+export function generateRecipeBreadcrumbs(recipe: any, navigationPath?: string): BreadcrumbItem[] {
   const breadcrumbs: BreadcrumbItem[] = [
     {
       label: "Receptai",
@@ -254,26 +276,41 @@ export function generateRecipeBreadcrumbs(recipe: any): BreadcrumbItem[] {
     }
   ];
 
-  // Add main category if available
-  if (recipe.breadcrumb?.main) {
-    breadcrumbs.push({
-      label: recipe.breadcrumb.main.label,
-      href: `/receptai/${recipe.breadcrumb.main.slug}`
-    });
+  // Determine which category path to use for breadcrumbs
+  let categoryPath = navigationPath;
+
+  if (!categoryPath) {
+    // Fallback: use first path from array [primaryCategoryPath, ...secondaryCategories]
+    const allPaths = [
+      recipe.primaryCategoryPath,
+      ...(recipe.secondaryCategories || [])
+    ].filter(Boolean);
+
+    categoryPath = allPaths[0];
   }
 
-  // Add subcategory if available
-  if (recipe.breadcrumb?.sub) {
-    breadcrumbs.push({
-      label: recipe.breadcrumb.sub.label,
-      href: `/receptai/${recipe.breadcrumb.main.slug}/${recipe.breadcrumb.sub.slug}`
+  if (categoryPath) {
+    // Parse category path: "receptai/mesa/vistiena" -> ["receptai", "mesa", "vistiena"]
+    const pathSegments = categoryPath.split('/').filter(Boolean);
+
+    // Skip "receptai" as it's already added
+    const categorySegments = pathSegments.slice(1);
+
+    // Build breadcrumb chain
+    let currentPath = '/receptai';
+    categorySegments.forEach((segment, index) => {
+      currentPath += `/${segment}`;
+
+      breadcrumbs.push({
+        label: formatCategoryTitle(segment),
+        href: currentPath
+      });
     });
   }
 
   // Add current recipe
   breadcrumbs.push({
     label: recipe.title?.lt || recipe.title,
-    href: `/receptai/${recipe.breadcrumb?.main?.slug || 'receptas'}/${recipe.breadcrumb?.sub?.slug || 'patiekalas'}/${recipe.slug}`,
     isActive: true
   });
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import { Clock, Users, Star, Heart, Bookmark } from 'lucide-react';
 import { Recipe } from '@/types';
 import {
@@ -19,11 +20,21 @@ interface CardRecipeProps {
   recipe: Recipe;
   variant?: 'grid' | 'featured';
   className?: string;
+  currentCategoryPath?: string; // For navigation path tracking
 }
 
-export default function CardRecipe({ recipe, variant = 'grid', className = '' }: CardRecipeProps) {
+export default function CardRecipe({ recipe, variant = 'grid', className = '', currentCategoryPath }: CardRecipeProps) {
   const [isIngredientsExpanded, setIsIngredientsExpanded] = useState(false);
   const [isLiked, setIsLiked] = useState(false);
+
+  // Generate recipe URL with navigation path tracking
+  const getRecipeUrl = () => {
+    const baseUrl = `/receptas/${recipe.slug}`;
+    if (currentCategoryPath) {
+      return `${baseUrl}?from=${encodeURIComponent(currentCategoryPath)}`;
+    }
+    return baseUrl;
+  };
 
   // Get localized content
   const title = getRecipeTitle(recipe);
@@ -65,7 +76,7 @@ export default function CardRecipe({ recipe, variant = 'grid', className = '' }:
 
   if (variant === 'featured') {
     return (
-      <Link href={`/receptai/${recipe.categoryPath}/${recipe.slug}`} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 ${className}`}>
+      <Link href={getRecipeUrl()} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 ${className}`}>
         <div className="flex flex-col lg:flex-row">
           {/* Image Section */}
           <div className="relative lg:w-64 h-48 lg:h-auto">
@@ -100,7 +111,7 @@ export default function CardRecipe({ recipe, variant = 'grid', className = '' }:
           
           {/* Content Section */}
           <div className="flex-1 p-6">
-            <Link href={`/receptai/${recipe.categoryPath}/${recipe.slug}`}>
+            <Link href={getRecipeUrl()}>
               <h3 className="text-xl font-bold text-gray-900 mb-4 hover:text-orange-600 transition-colors line-clamp-2">
                 {displayTitle}
               </h3>
@@ -169,7 +180,7 @@ export default function CardRecipe({ recipe, variant = 'grid', className = '' }:
 
   // Grid variant (compact)
   return (
-    <Link href={`/receptai/${recipe.categoryPath}/${recipe.slug}`} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 group ${className}`}>
+    <Link href={getRecipeUrl()} className={`block bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 group ${className}`}>
         {/* Image Section */}
         <div className="relative h-48">
           <Image
@@ -203,7 +214,7 @@ export default function CardRecipe({ recipe, variant = 'grid', className = '' }:
         
         {/* Content Section */}
         <div className="p-4">
-          <Link href={`/receptai/${recipe.categoryPath}/${recipe.slug}`}>
+          <Link href={getRecipeUrl()}>
             <h3 className="font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-orange-600 transition-colors text-sm cursor-pointer">
               {displayTitle}
             </h3>

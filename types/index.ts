@@ -106,6 +106,11 @@ export interface Recipe {
 
   schemaOrg?: any;
 
+  // Category system
+  primaryCategoryPath: string; // e.g., "receptai/mesa/vistiena"
+  secondaryCategories?: string[]; // e.g., ["receptai/salotos/vistiena", "receptai/greitai"]
+  categoryIds?: ObjectId[]; // For efficient querying
+
   // Legacy fields for backward compatibility
   image?: string;
   images?: string[];
@@ -126,6 +131,14 @@ export interface Recipe {
   seoTitle?: string;
   seoDescription?: string;
   structuredData?: any;
+
+  // Legacy breadcrumb fields
+  categoryPath?: string;
+  breadcrumbs?: Array<{
+    title: string;
+    slug: string;
+    url: string;
+  }>;
 }
 
 export interface NewIngredient {

@@ -1,5 +1,5 @@
-// Dynamic Subcategory Page
-// /receptai/[category]/[subcategory] - e.g., /receptai/mesa/vistiena
+// Dynamic Category Page
+// /receptai/[category] - e.g., /receptai/mesa
 
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
@@ -25,50 +25,37 @@ interface Recipe {
   secondaryCategories?: string[];
 }
 
-interface SubcategoryPageProps {
+interface CategoryPageProps {
   categorySlug: string;
-  subcategorySlug: string;
   categoryName: string;
-  subcategoryName: string;
   recipes: Recipe[];
   totalRecipes: number;
 }
 
-export default function SubcategoryPage({
-  categorySlug,
-  subcategorySlug,
-  categoryName,
-  subcategoryName,
-  recipes,
-  totalRecipes
-}: SubcategoryPageProps) {
-
+export default function CategoryPage({ categorySlug, categoryName, recipes, totalRecipes }: CategoryPageProps) {
   // Generate breadcrumbs
   const breadcrumbs = [
     { label: 'Receptai', href: '/receptai' },
-    { label: categoryName, href: `/receptai/${categorySlug}` },
-    { label: subcategoryName, isActive: true }
+    { label: categoryName, isActive: true }
   ];
 
   return (
     <Layout>
       <Head>
-        <title>{subcategoryName} receptai | Paragaujam.lt</title>
-        <meta name="description" content={`Atraskite geriausius ${subcategoryName.toLowerCase()} receptus kategorijoje ${categoryName}.`} />
-        <meta name="keywords" content={`${subcategoryName}, ${categoryName}, receptai, lietuviški receptai, maistas`} />
-        <link rel="canonical" href={`https://paragaujam.lt/receptai/${categorySlug}/${subcategorySlug}`} />
+        <title>{categoryName} receptai | Paragaujam.lt</title>
+        <meta name="description" content={`Atraskite geriausius ${categoryName.toLowerCase()} receptus.`} />
+        <meta name="keywords" content={`${categoryName}, receptai, lietuviški receptai, maistas`} />
+        <link rel="canonical" href={`https://paragaujam.lt/receptai/${categorySlug}`} />
       </Head>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Breadcrumbs */}
         <Breadcrumb items={breadcrumbs} containerless={true} />
 
-        {/* Subcategory Header */}
+        {/* Category Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">{subcategoryName}</h1>
-          <p className="text-lg text-gray-600 mb-6">
-            Receptai kategorijoje: {categoryName} → {subcategoryName}
-          </p>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">{categoryName}</h1>
+          <p className="text-lg text-gray-600 mb-6">Receptai kategorijoje: {categoryName}</p>
 
           <div className="text-sm text-gray-600">
             Rasta {totalRecipes} receptų
@@ -105,7 +92,7 @@ export default function SubcategoryPage({
                     </span>
                   </div>
                   <a
-                    href={`/receptas/${recipe.slug}?from=${encodeURIComponent(`receptai/${categorySlug}/${subcategorySlug}`)}`}
+                    href={`/receptas/${recipe.slug}?from=${encodeURIComponent(`receptai/${categorySlug}`)}`}
                     className="block w-full text-center bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors"
                   >
                     Žiūrėti receptą
@@ -119,7 +106,7 @@ export default function SubcategoryPage({
             <div className="bg-gray-50 rounded-lg p-8">
               <h2 className="text-xl font-semibold text-gray-700 mb-2">Receptų nerasta</h2>
               <p className="text-gray-500">
-                Šioje subkategorijoje "{subcategoryName}" receptų dar nėra.
+                Šioje kategorijoje "{categoryName}" receptų dar nėra.
               </p>
             </div>
           </div>
@@ -131,9 +118,8 @@ export default function SubcategoryPage({
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const categorySlug = params?.category as string;
-  const subcategorySlug = params?.subcategory as string;
 
-  if (!categorySlug || !subcategorySlug) {
+  if (!categorySlug) {
     return { notFound: true };
   }
 
@@ -142,7 +128,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
     await client.connect();
     const db = client.db();
 
-    // Category name mapping
+    // Simple category name mapping for now
     const categoryNames: { [key: string]: string } = {
       'mesa': 'Mėsa',
       'vistiena': 'Vištiena',
@@ -156,32 +142,18 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
       'gerimai': 'Gėrimai'
     };
 
-    // Subcategory name mapping
-    const subcategoryNames: { [key: string]: string } = {
-      'vistiena': 'Vištiena',
-      'jautiena': 'Jautiena',
-      'kiauliena': 'Kiauliena',
-      'salotos': 'Salotos',
-      'sriubos': 'Sriubos',
-      'kepsniai': 'Kepsniai',
-      'troškinti': 'Troškinti',
-      'kepta': 'Kepta',
-      'virta': 'Virta'
-    };
-
     const categoryName = categoryNames[categorySlug] ||
       categorySlug.charAt(0).toUpperCase() + categorySlug.slice(1);
 
-    const subcategoryName = subcategoryNames[subcategorySlug] ||
-      subcategorySlug.charAt(0).toUpperCase() + subcategorySlug.slice(1);
-
-    // Build query to find recipes in this subcategory
-    const subcategoryPath = `receptai/${categorySlug}/${subcategorySlug}`;
+    // Build query to find recipes in this category
+    const categoryPath = `receptai/${categorySlug}`;
 
     const recipeQuery = {
       $or: [
-        { primaryCategoryPath: subcategoryPath },
-        { secondaryCategories: subcategoryPath }
+        { primaryCategoryPath: categoryPath },
+        { primaryCategoryPath: { $regex: `^${categoryPath}/` } }, // Include subcategories
+        { secondaryCategories: categoryPath },
+        { secondaryCategories: { $regex: `^${categoryPath}/` } }
       ]
     };
 
@@ -199,17 +171,15 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
     return {
       props: {
         categorySlug,
-        subcategorySlug,
         categoryName,
-        subcategoryName,
         recipes: JSON.parse(JSON.stringify(recipes)),
         totalRecipes
       }
     };
   } catch (error) {
-    console.error('Error fetching subcategory recipes:', error);
+    console.error('Error fetching category recipes:', error);
 
-    // Fallback to basic info if database fails
+    // Fallback to basic category info if database fails
     const categoryNames: { [key: string]: string } = {
       'mesa': 'Mėsa',
       'vistiena': 'Vištiena',
@@ -223,30 +193,13 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
       'gerimai': 'Gėrimai'
     };
 
-    const subcategoryNames: { [key: string]: string } = {
-      'vistiena': 'Vištiena',
-      'jautiena': 'Jautiena',
-      'kiauliena': 'Kiauliena',
-      'salotos': 'Salotos',
-      'sriubos': 'Sriubos',
-      'kepsniai': 'Kepsniai',
-      'troškinti': 'Troškinti',
-      'kepta': 'Kepta',
-      'virta': 'Virta'
-    };
-
     const categoryName = categoryNames[categorySlug] ||
       categorySlug.charAt(0).toUpperCase() + categorySlug.slice(1);
-
-    const subcategoryName = subcategoryNames[subcategorySlug] ||
-      subcategorySlug.charAt(0).toUpperCase() + subcategorySlug.slice(1);
 
     return {
       props: {
         categorySlug,
-        subcategorySlug,
         categoryName,
-        subcategoryName,
         recipes: [],
         totalRecipes: 0
       }

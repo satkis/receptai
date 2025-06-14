@@ -10,7 +10,7 @@ import { useRouter } from 'next/router';
 import Layout from '../../components/layout/Layout';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
 import RecipeSEO from '../../components/seo/RecipeSEO';
-import Breadcrumb from '../../components/navigation/Breadcrumb';
+import Breadcrumb, { generateRecipeBreadcrumbs } from '../../components/navigation/Breadcrumb';
 
 interface Recipe {
   _id: string;
@@ -31,12 +31,19 @@ interface Recipe {
     step: number;
     text: { lt: string; en?: string };
   }>;
-  categoryPath: string;
-  breadcrumbs: Array<{
+
+  // New category system
+  primaryCategoryPath: string;
+  secondaryCategories?: string[];
+
+  // Legacy fields for backward compatibility
+  categoryPath?: string;
+  breadcrumbs?: Array<{
     title: string;
     slug: string;
     url: string;
   }>;
+
   tags: string[];
   rating: { average: number; count: number };
   difficulty: string;
@@ -54,30 +61,6 @@ interface RecipePageProps {
 }
 
 // Local Breadcrumb component removed - using shared component instead
-
-// Helper function to convert Lithuanian characters to standard letters
-function lithuanianToSlug(text: string): string {
-  const lithuanianMap: Record<string, string> = {
-    'ą': 'a', 'Ą': 'A',
-    'č': 'c', 'Č': 'C',
-    'ę': 'e', 'Ę': 'E',
-    'ė': 'e', 'Ė': 'E',
-    'į': 'i', 'Į': 'I',
-    'š': 's', 'Š': 'S',
-    'ų': 'u', 'Ų': 'U',
-    'ū': 'u', 'Ū': 'U',
-    'ž': 'z', 'Ž': 'Z'
-  };
-
-  return text
-    .split('')
-    .map(char => lithuanianMap[char] || char)
-    .join('')
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/[\s_-]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
 
 // Tag List Component - Updated for query-based search
 function TagList({ tags }: { tags: string[] }) {
@@ -241,15 +224,22 @@ function InstructionsSection({ instructions }: { instructions: Recipe['instructi
 // Related Recipes Component - REMOVED as requested
 
 export default function RecipePage({ recipe }: RecipePageProps) {
-  // Generate breadcrumbs for shared component
-  const breadcrumbItems = [
-    { label: 'Receptai', href: '/receptai' },
-    ...recipe.breadcrumbs.map(crumb => ({
-      label: crumb.title,
-      href: crumb.url.replace('/receptu-tipai/', '/').replace('/receptai', '/')
-    })),
-    { label: recipe.title.lt, isActive: true }
-  ];
+  const router = useRouter();
+
+  // Detect navigation path from referrer or query params
+  const getNavigationPath = (): string | undefined => {
+    // Check if there's a 'from' query parameter
+    if (router.query.from && typeof router.query.from === 'string') {
+      return router.query.from;
+    }
+
+    // TODO: Could also check document.referrer for navigation path detection
+    // For now, return undefined to use fallback logic
+    return undefined;
+  };
+
+  // Generate breadcrumbs using new dynamic system
+  const breadcrumbItems = generateRecipeBreadcrumbs(recipe, getNavigationPath());
 
   return (
     <Layout>
