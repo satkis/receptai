@@ -6,7 +6,7 @@ import { GetServerSideProps } from 'next';
 import { MongoClient } from 'mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Layout from '../../components/layout/Layout';
+// Layout removed - already wrapped in _app.tsx
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
 import SearchResultsSEO from '../../components/search/SearchResultsSEO';
 import { 
@@ -523,7 +523,7 @@ export default function SearchPage({
     : 'Ieškokite receptų pagal ingredientus, patiekalo tipą ar pavadinimą. Daugiau nei 1000 patikrintų receptų.';
 
   return (
-    <Layout>
+    <>
       <SearchResultsSEO
         query={query.searchTerm}
         totalResults={performance.totalResults}
@@ -558,6 +558,6 @@ export default function SearchPage({
         {/* Pagination */}
         <Pagination pagination={pagination} onPageChange={handlePageChange} />
       </div>
-    </Layout>
+    </>
   );
 }

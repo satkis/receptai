@@ -8,7 +8,7 @@ import Head from 'next/head';
 import { MongoClient } from 'mongodb';
 
 import Breadcrumb from '../../components/navigation/Breadcrumb';
-import Layout from '../../components/layout/Layout';
+// Layout removed - already wrapped in _app.tsx
 
 interface Recipe {
   _id: string;
@@ -52,7 +52,7 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
   }, [currentPage, totalPages, router]);
 
   return (
-    <Layout>
+    <>
       <Head>
         <title>Visi receptai | Paragaujam.lt</title>
         <meta name="description" content={`Atraskite visus ${totalRecipes} receptus mūsų duomenų bazėje. Lietuviški receptai su detaliais aprašymais ir nuotraukomis.`} />
@@ -146,7 +146,7 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
           </div>
         )}
       </div>
-    </Layout>
+    </>
   );
 }
 
