@@ -9,16 +9,27 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import Layout from '../../components/layout/Layout';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
-import RecipeSEO from '../../components/seo/RecipeSEO';
+import SchemaOrgRecipe from '../../components/seo/SchemaOrgRecipe';
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../components/navigation/Breadcrumb';
 
 interface Recipe {
   _id: string;
   slug: string;
+  canonicalUrl?: string;
+  language: string;
   title: { lt: string; en?: string };
   description: { lt: string; en?: string };
-  image: string;
+  image: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+    caption?: string;
+    blurHash?: string;
+  };
   servings: number;
+  servingsUnit: string;
+  difficulty?: string;
   prepTimeMinutes: number;
   cookTimeMinutes: number;
   totalTimeMinutes: number;
@@ -26,34 +37,65 @@ interface Recipe {
     name: { lt: string; en?: string };
     quantity: string;
     vital: boolean;
+    notes?: string;
   }>;
   instructions: Array<{
     step: number;
     text: { lt: string; en?: string };
+    timeMinutes?: number;
+    image?: string;
   }>;
 
-  // New category system
-  primaryCategoryPath: string;
-  secondaryCategories?: string[];
-
-  // Legacy fields for backward compatibility
-  categoryPath?: string;
-  breadcrumbs?: Array<{
-    title: string;
-    slug: string;
-    url: string;
-  }>;
-
-  tags: string[];
-  rating: { average: number; count: number };
-  difficulty: string;
-  seo: {
+  // SEO Metadata
+  seo?: {
     metaTitle: string;
     metaDescription: string;
     keywords: string[];
+    focusKeyword: string;
   };
+
+  // Author & Publishing
+  author: {
+    userId?: string;
+    name: string;
+    profileUrl: string;
+  };
+  status: string;
+
+  // Categorization
+  primaryCategoryPath: string;
+  secondaryCategories?: string[];
+  breadcrumbs?: Array<{
+    name: string;
+    url: string;
+  }>;
+
+  // Engagement
+  rating?: { average: number; count: number };
+  engagement?: {
+    views: number;
+    saves: number;
+    shares: number;
+    commentsCount: number;
+    avgTimeOnPage: number;
+    bounceRate: number;
+  };
+
+  tags: string[];
+
+  // Schema.org
+  schemaOrg?: any;
+
+  // Technical SEO
+  sitemap?: {
+    priority: number;
+    changefreq: string;
+    lastmod: Date;
+  };
+
   createdAt: string;
   publishedAt: string;
+  updatedAt: string;
 }
 
 interface RecipePageProps {
@@ -95,8 +137,8 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
       {/* Image Section - Fixed height container */}
       <div className="relative w-full h-64 md:h-80 flex-shrink-0 overflow-hidden">
         <PlaceholderImage
-          src={recipe.image}
-          alt={recipe.title.lt}
+          src={typeof recipe.image === 'string' ? recipe.image : recipe.image.src}
+          alt={typeof recipe.image === 'string' ? recipe.title.lt : recipe.image.alt}
           fill
           className="object-cover"
           priority
@@ -128,7 +170,7 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
             <span>📊</span>
             <span className="capitalize">{recipe.difficulty}</span>
           </div>
-          {recipe.rating.count > 0 && (
+          {recipe.rating && recipe.rating.count > 0 && (
             <div className="flex items-center gap-1">
               <span>⭐</span>
               <span>{recipe.rating.average.toFixed(1)} ({recipe.rating.count})</span>
@@ -243,7 +285,7 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 
   return (
     <Layout>
-      <RecipeSEO recipe={recipe} />
+      <SchemaOrgRecipe recipe={recipe} />
 
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Recipe Header */}

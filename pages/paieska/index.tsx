@@ -182,6 +182,14 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
     setIsIngredientsExpanded(!isIngredientsExpanded);
   };
 
+  const handleIngredientsContainerClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (isIngredientsExpanded) {
+      setIsIngredientsExpanded(false);
+    }
+  };
+
   // Format time display
   const displayTime = recipe.totalTimeMinutes > 0 ? `${recipe.totalTimeMinutes} min` : 'apie 2 val';
   const servings = recipe.servings || 4;
@@ -202,19 +210,22 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
         {/* Image Section - Fixed height */}
         <div className="relative w-full h-40 flex-shrink-0 overflow-hidden">
           <PlaceholderImage
-            src={recipe.image}
-            alt={recipe.title.lt}
+            src={(recipe.image as any)?.src || recipe.image || '/placeholder-recipe.jpg'}
+            alt={(recipe.image as any)?.alt || recipe.title.lt}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
           />
 
-          {/* Time and Servings on top-left of image */}
-          <div className="absolute top-2 left-2 z-10">
-            <div className="flex items-center gap-1 bg-black/80 backdrop-blur-sm rounded-full px-2 py-1">
-              <span className="text-xs text-white font-medium">🕒 {displayTime}</span>
-              <span className="text-xs text-white">•</span>
-              <span className="text-xs text-white font-medium">👥 {servings}</span>
+          {/* Enhanced Time/Servings Overlay */}
+          <div className="absolute top-2 left-2 z-10 flex flex-col gap-1">
+            {/* Time - High contrast for visibility */}
+            <div className="bg-orange-500 text-white px-2 py-1 rounded-md text-xs font-semibold shadow-lg">
+              ⏱️ {displayTime}
+            </div>
+            {/* Servings - More blended */}
+            <div className="bg-black/60 backdrop-blur-sm text-white/90 px-2 py-1 rounded-md text-xs">
+              👥 {servings} porcijos
             </div>
           </div>
         </div>
@@ -228,7 +239,10 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
 
           {/* Ingredients */}
           {ingredients.length > 0 && (
-            <div className="mt-auto">
+            <div
+              className="mt-auto"
+              onClick={handleIngredientsContainerClick}
+            >
               <div className="flex flex-wrap gap-1">
                 {!isIngredientsExpanded ? (
                   <>
@@ -246,14 +260,14 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
                       }
 
                       return (
-                        <span key={index} className="inline-block text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">
+                        <span key={index} className="inline-block text-xs bg-orange-50 text-orange-700 px-2 py-1 rounded-full border border-orange-100 font-medium">
                           {name}
                         </span>
                       );
                     })}
                     {ingredients.length > 3 && (
                       <button
-                        className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded-full hover:bg-gray-300 transition-colors"
+                        className="inline-block text-xs bg-orange-100 text-orange-600 px-2 py-1 rounded-full hover:bg-orange-200 transition-colors font-medium border border-orange-200"
                         onClick={handleIngredientsClick}
                       >
                         +{ingredients.length - 3}
@@ -278,7 +292,7 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
                       return (
                         <span
                           key={index}
-                          className="inline-block text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full"
+                          className="inline-block text-xs bg-orange-50 text-orange-700 px-2 py-1 rounded-full border border-orange-100 font-medium"
                         >
                           {name}
                         </span>

@@ -34,6 +34,94 @@ interface ReceptaiPageProps {
   totalPages: number;
 }
 
+// Enhanced Recipe Card Component
+function RecipeCard({ recipe }: { recipe: Recipe }) {
+  const [showAllIngredients, setShowAllIngredients] = useState(false);
+
+  // Get vital ingredients (first 3 most important ones)
+  const vitalIngredients = recipe.ingredients?.filter(ing => ing.vital) || [];
+  const allIngredients = recipe.ingredients || [];
+  const displayIngredients = vitalIngredients.length > 0 ? vitalIngredients : allIngredients;
+  const ingredientsToShow = showAllIngredients ? allIngredients : displayIngredients.slice(0, 3);
+  const remainingCount = allIngredients.length - ingredientsToShow.length;
+
+  const handleIngredientsClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setShowAllIngredients(!showAllIngredients);
+  };
+
+  const handleIngredientsContainerClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (showAllIngredients) {
+      setShowAllIngredients(false);
+    }
+  };
+
+  return (
+    <a
+      href={`/receptas/${recipe.slug}`}
+      className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 block group"
+    >
+      <div className="relative h-48">
+        <img
+          src={(recipe.image as any)?.src || recipe.image || '/placeholder-recipe.jpg'}
+          alt={(recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+
+        {/* Enhanced Time/Servings Overlay */}
+        <div className="absolute top-3 left-3 flex flex-col gap-1">
+          {/* Time - High contrast for visibility */}
+          <div className="bg-orange-500 text-white px-2 py-1 rounded-md text-xs font-semibold shadow-lg">
+            ⏱️ {recipe.totalTimeMinutes} min
+          </div>
+          {/* Servings - More blended */}
+          <div className="bg-black/60 backdrop-blur-sm text-white/90 px-2 py-1 rounded-md text-xs">
+            👥 {recipe.servings} porcijos
+          </div>
+        </div>
+      </div>
+
+      <div className="p-4">
+        <h3 className="font-semibold text-gray-900 mb-3 line-clamp-2 group-hover:text-orange-600 transition-colors">
+          {typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas'}
+        </h3>
+
+        {/* Ingredients Section - Replaces Description */}
+        {allIngredients.length > 0 && (
+          <div
+            className="mb-3"
+            onClick={handleIngredientsContainerClick}
+          >
+            <div className="flex flex-wrap gap-1.5">
+              {ingredientsToShow.map((ingredient, index) => (
+                <span
+                  key={index}
+                  className="text-xs bg-orange-50 text-orange-700 px-2.5 py-1.5 rounded-full border border-orange-100 font-medium"
+                >
+                  {typeof ingredient.name === 'string' ? ingredient.name : ingredient.name?.lt || 'Ingredientas'}
+                </span>
+              ))}
+              {remainingCount > 0 && (
+                <button
+                  onClick={handleIngredientsClick}
+                  className="text-xs bg-orange-100 text-orange-600 px-2.5 py-1.5 rounded-full hover:bg-orange-200 transition-colors font-medium border border-orange-200"
+                >
+                  +{remainingCount}
+                </button>
+              )}
+            </div>
+          </div>
+        )}
+
+
+      </div>
+    </a>
+  );
+}
+
 export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, totalPages }: ReceptaiPageProps) {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
@@ -76,43 +164,11 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
           </div>
         </div>
 
-        {/* Recipe Grid */}
+        {/* Enhanced Recipe Grid */}
         {recipes.length > 0 ? (
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {recipes.map((recipe) => (
-              <div key={recipe._id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                {recipe.image && (
-                  <div className="aspect-video bg-gray-200">
-                    <img
-                      src={recipe.image}
-                      alt={typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas'}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                )}
-                <div className="p-4">
-                  <h3 className="font-bold text-lg mb-2 line-clamp-2">
-                    {typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas'}
-                  </h3>
-                  <p className="text-gray-600 text-sm mb-3 line-clamp-2">
-                    {typeof recipe.description === 'string' ? recipe.description : recipe.description?.lt || ''}
-                  </p>
-                  <div className="flex items-center justify-between text-sm text-gray-500 mb-3">
-                    <span className="flex items-center">
-                      ⏱️ {recipe.totalTimeMinutes} min
-                    </span>
-                    <span className="flex items-center">
-                      👥 {recipe.servings} porcijos
-                    </span>
-                  </div>
-                  <a
-                    href={`/receptas/${recipe.slug}`}
-                    className="block w-full text-center bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors"
-                  >
-                    Žiūrėti receptą
-                  </a>
-                </div>
-              </div>
+              <RecipeCard key={recipe._id} recipe={recipe} />
             ))}
           </div>
         ) : (

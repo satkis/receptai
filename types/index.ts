@@ -32,19 +32,29 @@ export interface ShoppingListItem {
   addedAt: Date;
 }
 
-// Recipe Types
+// Recipe Types - SEO Optimized
 export interface Recipe {
   _id?: ObjectId | string;
   slug: string;
+  canonicalUrl?: string;
+  language?: string;
 
   title: {
     lt: string;
-    en: string;
+    en?: string;
   };
 
   description: {
     lt: string;
-    en: string;
+    en?: string;
+  };
+
+  // SEO Metadata
+  seo?: {
+    metaTitle: string;
+    metaDescription: string;
+    keywords: string[];
+    focusKeyword: string;
   };
 
   author: {
@@ -53,27 +63,63 @@ export interface Recipe {
     profileUrl: string;
   };
 
-  status: 'public' | 'draft';
+  status: 'published' | 'draft' | 'archived';
   language: string;
-  translations: string[];
+  translations?: string[];
 
   servings: number;
   servingsUnit: string;
+  difficulty?: 'lengvas' | 'vidutinis' | 'sunkus';
 
   ingredients: NewIngredient[];
   instructions: NewInstruction[];
 
-  nutrition: {
-    calories: number;
-    carbs: number;
-    protein: number;
-    fat: number;
+  // Enhanced Image Schema
+  image: RecipeImage;
+
+  // Engagement Metrics
+  rating?: {
+    average: number;
+    count: number;
   };
 
-  swapSuggestions?: Array<{
-    original: string;
-    alternatives: string[];
+  engagement?: {
+    views: number;
+    saves: number;
+    shares: number;
+    commentsCount: number;
+    avgTimeOnPage: number;
+    bounceRate: number;
+  };
+
+  // Enhanced Tags
+  tags: string[];
+
+  // Schema.org Structured Data
+  schemaOrg?: RecipeSchemaOrg;
+
+  // Enhanced Categorization
+  breadcrumbs?: Array<{
+    name: string;
+    url: string;
   }>;
+
+  // Publishing & SEO
+  featured?: boolean;
+  trending?: boolean;
+  seasonal?: string[];
+
+  // Technical SEO
+  sitemap?: {
+    priority: number;
+    changefreq: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
+    lastmod: Date | string;
+  };
+
+  // Timestamps
+  createdAt?: Date | string;
+  updatedAt?: Date | string;
+  publishedAt?: Date | string;
 
   categories: {
     cuisine: string;
@@ -144,25 +190,21 @@ export interface Recipe {
 export interface NewIngredient {
   name: {
     lt: string;
-    en: string;
+    en?: string;
   };
   quantity: string;
   vital: boolean;
+  notes?: string; // Additional context like "70% kakavos"
 }
 
 export interface NewInstruction {
-  stepNumber: number;
+  step: number;
   text: {
     lt: string;
-    en: string;
+    en?: string;
   };
-  image?: {
-    url: string;
-    alt: {
-      lt: string;
-      en: string;
-    };
-  };
+  timeMinutes?: number; // Time for this specific step
+  image?: string; // Optional step image URL
 }
 
 // Legacy interfaces for backward compatibility
@@ -281,10 +323,58 @@ export interface InstructionListProps {
   onStepComplete?: (step: number) => void;
 }
 
+// Schema.org Recipe Structured Data
+export interface RecipeSchemaOrg {
+  '@context': string;
+  '@type': string;
+  name: string;
+  description: string;
+  image: string[];
+  author: {
+    '@type': string;
+    name: string;
+    url: string;
+  };
+  publisher: {
+    '@type': string;
+    name: string;
+    url: string;
+    logo: {
+      '@type': string;
+      url: string;
+      width: number;
+      height: number;
+    };
+  };
+  datePublished: string;
+  dateModified: string;
+  prepTime: string;
+  cookTime: string;
+  totalTime: string;
+  recipeYield: string;
+  recipeCategory: string;
+  recipeCuisine: string;
+  keywords: string;
+  recipeIngredient: string[];
+  recipeInstructions: Array<{
+    '@type': string;
+    name: string;
+    text: string;
+    url: string;
+  }>;
+  aggregateRating?: {
+    '@type': string;
+    ratingValue: string;
+    reviewCount: string;
+    bestRating: string;
+    worstRating: string;
+  };
+}
+
 // Utility Types
 export type Locale = 'lt' | 'en';
 
 export interface LocalizedContent {
   lt: string;
-  en: string;
+  en?: string;
 }

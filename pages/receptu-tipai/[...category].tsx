@@ -226,51 +226,92 @@ function FilterBar({
   );
 }
 
-// Recipe Card Component
+// Enhanced Recipe Card Component
 function RecipeCard({ recipe }: { recipe: Recipe }) {
+  const [showAllIngredients, setShowAllIngredients] = useState(false);
+
+  // Get vital ingredients (first 3 most important ones)
+  const vitalIngredients = recipe.ingredients?.filter(ing => ing.vital) || [];
+  const allIngredients = recipe.ingredients || [];
+  const displayIngredients = vitalIngredients.length > 0 ? vitalIngredients : allIngredients;
+  const ingredientsToShow = showAllIngredients ? allIngredients : displayIngredients.slice(0, 3);
+  const remainingCount = allIngredients.length - ingredientsToShow.length;
+
+  const handleIngredientsClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setShowAllIngredients(!showAllIngredients);
+  };
+
+  const handleIngredientsContainerClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (showAllIngredients) {
+      setShowAllIngredients(false);
+    }
+  };
+
   return (
     <a
       href={`/receptas/${recipe.slug}`}
-      className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+      className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 block group"
     >
       <div className="relative h-48">
         <PlaceholderImage
-          src={recipe.image}
-          alt={recipe.title.lt}
+          src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.src || '/placeholder-recipe.jpg'}
+          alt={typeof recipe.image === 'string' ? recipe.title.lt : recipe.image?.alt || recipe.title.lt}
           fill
-          className="object-cover"
+          className="object-cover group-hover:scale-105 transition-transform duration-300"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
+
+        {/* Enhanced Time/Servings Overlay */}
+        <div className="absolute top-3 left-3 flex flex-col gap-1">
+          {/* Time - High contrast for visibility */}
+          <div className="bg-orange-500 text-white px-2 py-1 rounded-md text-xs font-semibold shadow-lg">
+            ⏱️ {recipe.totalTimeMinutes} min
+          </div>
+          {/* Servings - More blended */}
+          <div className="bg-black/60 backdrop-blur-sm text-white/90 px-2 py-1 rounded-md text-xs">
+            👥 {recipe.servings} {recipe.servingsUnit || 'porcijos'}
+          </div>
+        </div>
       </div>
+
       <div className="p-4">
-        <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
+        <h3 className="font-semibold text-gray-900 mb-3 line-clamp-2 group-hover:text-orange-600 transition-colors">
           {recipe.title.lt}
         </h3>
-        <p className="text-gray-600 text-sm mb-3 line-clamp-2">
-          {recipe.description.lt}
-        </p>
-        <div className="flex items-center justify-between text-sm text-gray-600">
-          <div className="flex items-center gap-4">
-            <span>🕒 {recipe.totalTimeMinutes} min</span>
-            <span>👥 {recipe.servings}</span>
+
+        {/* Ingredients Section - Replaces Description */}
+        {allIngredients.length > 0 && (
+          <div
+            className="mb-3"
+            onClick={handleIngredientsContainerClick}
+          >
+            <div className="flex flex-wrap gap-1.5">
+              {ingredientsToShow.map((ingredient, index) => (
+                <span
+                  key={index}
+                  className="text-xs bg-orange-50 text-orange-700 px-2.5 py-1.5 rounded-full border border-orange-100 font-medium"
+                >
+                  {ingredient.name.lt}
+                </span>
+              ))}
+              {remainingCount > 0 && (
+                <button
+                  onClick={handleIngredientsClick}
+                  className="text-xs bg-orange-100 text-orange-600 px-2.5 py-1.5 rounded-full hover:bg-orange-200 transition-colors font-medium border border-orange-200"
+                >
+                  +{remainingCount}
+                </button>
+              )}
+            </div>
           </div>
-          {recipe.rating.count > 0 && (
-            <span>⭐ {recipe.rating.average.toFixed(1)}</span>
-          )}
-        </div>
-        <div className="flex flex-wrap gap-1 mt-3">
-          {recipe.tags.slice(0, 3).map((tag, index) => (
-            <span
-              key={index}
-              className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded"
-            >
-              {tag}
-            </span>
-          ))}
-          {recipe.tags.length > 3 && (
-            <span className="text-xs text-gray-500">+{recipe.tags.length - 3}</span>
-          )}
-        </div>
+        )}
+
+
+
       </div>
     </a>
   );

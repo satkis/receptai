@@ -83,8 +83,8 @@ export default function SubcategoryPage({
                 {recipe.image && (
                   <div className="aspect-video bg-gray-200">
                     <img
-                      src={recipe.image}
-                      alt={typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas'}
+                      src={(recipe.image as any)?.src || recipe.image || '/placeholder-recipe.jpg'}
+                      alt={(recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')}
                       className="w-full h-full object-cover"
                     />
                   </div>
