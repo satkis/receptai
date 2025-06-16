@@ -20,6 +20,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'paragaujam-cdn.s3.amazonaws.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'receptu-images.s3.eu-north-1.amazonaws.com',
+      },
     ],
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],

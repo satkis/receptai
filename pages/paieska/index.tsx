@@ -189,23 +189,11 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
   // Get actual ingredients - prioritize real ingredients over tags
   let ingredients: any[] = [];
 
-  console.log('Recipe data:', {
-    slug: recipe.slug,
-    hasIngredients: !!recipe.ingredients,
-    ingredientsLength: recipe.ingredients?.length,
-    hasTags: !!recipe.tags,
-    tagsLength: recipe.tags?.length,
-    ingredients: recipe.ingredients,
-    tags: recipe.tags
-  });
-
   if (recipe.ingredients && Array.isArray(recipe.ingredients) && recipe.ingredients.length > 0) {
     ingredients = recipe.ingredients;
-    console.log('✅ Using ingredients:', ingredients);
   } else if (recipe.tags && Array.isArray(recipe.tags)) {
     // Only use tags as fallback if no ingredients
     ingredients = recipe.tags.map(tag => ({ name: { lt: tag } }));
-    console.log('⚠️ Using tags as fallback:', ingredients);
   }
 
   return (

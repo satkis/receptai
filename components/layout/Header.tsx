@@ -4,13 +4,9 @@ import { useRouter } from 'next/router';
 // Icons replaced with emojis
 
 export default function Header() {
-  console.log('Header component rendered');
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
-
-  console.log('Header - current route:', router.pathname);
 
   // Pre-fill search input from URL query parameter
   useEffect(() => {

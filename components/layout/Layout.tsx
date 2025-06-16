@@ -7,8 +7,6 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  console.log('Layout component rendered');
-
   return (
     <div className="min-h-screen flex flex-col">
       <Header />

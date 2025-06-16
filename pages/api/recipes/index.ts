@@ -178,6 +178,9 @@ async function createRecipe(req: NextApiRequest, res: NextApiResponse<ApiRespons
 
     const result = await db.collection('recipes_new').insertOne(recipe);
 
+    // Set cache headers for better performance
+    res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=600');
+
     return res.status(201).json({
       success: true,
       data: { ...recipe, _id: result.insertedId },

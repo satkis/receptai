@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ChevronRight, Home } from 'lucide-react';
 
 export interface BreadcrumbItem {
   label: string;
@@ -68,14 +67,14 @@ export default function Breadcrumb({ items, className = '', schemaData, containe
                   href="/"
                   className="text-gray-500 hover:text-orange-600 transition-colors flex items-center"
                 >
-                  <Home className="w-4 h-4" />
+                  <span className="text-sm">🏠</span>
                   <span className="sr-only">Pagrindinis</span>
                 </Link>
               </li>
 
               {breadcrumbItems.map((item, index) => (
                 <li key={index} className="flex items-center flex-shrink-0">
-                  <ChevronRight className="w-4 h-4 text-gray-400 mx-2 flex-shrink-0" />
+                  <span className="text-gray-400 mx-2 flex-shrink-0 text-sm">›</span>
                   {item.href && !item.isActive && index < breadcrumbItems.length - 1 ? (
                     <Link
                       href={item.href}
@@ -110,14 +109,14 @@ export default function Breadcrumb({ items, className = '', schemaData, containe
                       href="/"
                       className="text-gray-500 hover:text-orange-600 transition-colors flex items-center"
                     >
-                      <Home className="w-4 h-4" />
+                      <span className="text-sm">🏠</span>
                       <span className="sr-only">Pagrindinis</span>
                     </Link>
                   </li>
 
                   {breadcrumbItems.map((item, index) => (
                     <li key={index} className="flex items-center flex-shrink-0">
-                      <ChevronRight className="w-4 h-4 text-gray-400 mx-2 flex-shrink-0" />
+                      <span className="text-gray-400 mx-2 flex-shrink-0 text-sm">›</span>
                       {item.href && !item.isActive && index < breadcrumbItems.length - 1 ? (
                         <Link
                           href={item.href}

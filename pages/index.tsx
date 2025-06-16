@@ -1,13 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { ChefHat, Clock, Users, Star, Search } from 'lucide-react';
 
 interface HomeProps {
   totalRecipes: number;
 }
 
 export default function Home({ totalRecipes }: HomeProps) {
-  console.log('Home page rendered with totalRecipes:', totalRecipes);
 
   return (
     <>
@@ -64,22 +62,22 @@ export default function Home({ totalRecipes }: HomeProps) {
 
                 <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                   <div className="flex items-center gap-2">
-                    <ChefHat className="w-5 h-5 text-orange-500" />
+                    <span className="text-orange-500 text-lg">👨‍🍳</span>
                     <span>100+ receptų</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Clock className="w-5 h-5 text-orange-500" />
+                    <span className="text-orange-500 text-lg">⏱️</span>
                     <span>Žingsnis po žingsnio</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Users className="w-5 h-5 text-orange-500" />
+                    <span className="text-orange-500 text-lg">👥</span>
                     <span>Bendruomenės vertinimai</span>
                   </div>
                 </div>
 
                 <div className="space-y-4">
                   <div className="relative">
-                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                    <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 text-lg">🔍</span>
                     <input
                       type="text"
                       placeholder="Ieškoti receptų..."
@@ -103,7 +101,7 @@ export default function Home({ totalRecipes }: HomeProps) {
               <div className="relative">
                 <div className="relative w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl bg-orange-100 flex items-center justify-center">
                   <div className="text-center">
-                    <ChefHat className="w-24 h-24 text-orange-500 mx-auto mb-4" />
+                    <span className="text-6xl text-orange-500 block mb-4">👨‍🍳</span>
                     <p className="text-orange-700 font-medium">Lietuviški patiekalai</p>
                   </div>
                 </div>
@@ -112,7 +110,7 @@ export default function Home({ totalRecipes }: HomeProps) {
                 <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-lg p-4 border border-gray-100">
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
-                      <Star className="w-6 h-6 text-orange-500" />
+                      <span className="text-2xl text-orange-500">⭐</span>
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">4.8/5</div>
@@ -145,7 +143,7 @@ export default function Home({ totalRecipes }: HomeProps) {
                 >
                   <div className="flex flex-col items-center space-y-3">
                     <div className="p-3 bg-white/50 rounded-lg group-hover:bg-white/80 transition-colors duration-200">
-                      <ChefHat className="w-8 h-8" />
+                      <span className="text-3xl">👨‍🍳</span>
                     </div>
                     <span className="font-medium text-sm">{category}</span>
                   </div>

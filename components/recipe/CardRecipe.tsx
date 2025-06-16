@@ -81,7 +81,7 @@ export default function CardRecipe({ recipe, variant = 'grid', className = '', c
           {/* Image Section */}
           <div className="relative lg:w-64 h-48 lg:h-auto">
             <Image
-              src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.url || '/placeholder-recipe.jpg'}
+              src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.src || recipe.image?.url || '/placeholder-recipe.jpg'}
               alt={title}
               fill
               className="object-cover"
@@ -184,7 +184,7 @@ export default function CardRecipe({ recipe, variant = 'grid', className = '', c
         {/* Image Section */}
         <div className="relative h-48">
           <Image
-            src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.url || '/placeholder-recipe.jpg'}
+            src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.src || recipe.image?.url || '/placeholder-recipe.jpg'}
             alt={title}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"

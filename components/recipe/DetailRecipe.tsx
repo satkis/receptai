@@ -121,8 +121,8 @@ export default function DetailRecipe({ recipe }: DetailRecipeProps) {
       {/* Main Image */}
       <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
         <Image
-          src={recipe.image}
-          alt={recipe.title}
+          src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.src || recipe.image?.url || '/placeholder-recipe.jpg'}
+          alt={typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Recipe image'}
           fill
           className="object-cover"
           priority

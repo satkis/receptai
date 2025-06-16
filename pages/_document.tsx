@@ -17,29 +17,29 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
-        {/* Preload critical fonts */}
+        {/* Optimized font loading - preload most critical weights only */}
         <link
           rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
           as="style"
           onLoad="this.onload=null;this.rel='stylesheet'"
         />
         <noscript>
           <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
             rel="stylesheet"
           />
         </noscript>
 
         <link
           rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
           as="style"
           onLoad="this.onload=null;this.rel='stylesheet'"
         />
         <noscript>
           <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
             rel="stylesheet"
           />
         </noscript>

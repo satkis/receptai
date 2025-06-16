@@ -169,6 +169,17 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
     const [recipes, totalRecipes] = await Promise.all([
       db.collection('recipes_new')
         .find(recipeQuery)
+        .project({
+          slug: 1,
+          title: 1,
+          description: 1,
+          image: 1,
+          totalTimeMinutes: 1,
+          servings: 1,
+          ingredients: 1,
+          primaryCategoryPath: 1,
+          secondaryCategories: 1
+        })
         .sort({ featured: -1, createdAt: -1 }) // Featured first, then newest
         .skip(skip)
         .limit(limit)

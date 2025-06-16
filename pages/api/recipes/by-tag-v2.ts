@@ -1,5 +1,5 @@
-// Updated API endpoint for tag-based recipe filtering with time filters
-// Optimized for performance with compound indexes
+// Optimized API endpoint for tag-based recipe filtering with time filters
+// Performance-optimized for 10k+ recipes with compound indexes and caching
 
 import { NextApiRequest, NextApiResponse } from 'next';
 import { MongoClient } from 'mongodb';
