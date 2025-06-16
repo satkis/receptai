@@ -50,17 +50,13 @@ async function updateRecipeImage(db, slug) {
   console.log('\n📝 Found recipe:', recipe.title?.lt || recipe.title);
   console.log('📸 Current image:', typeof recipe.image === 'object' ? recipe.image?.src || recipe.image?.url : recipe.image || 'No image');
 
-  // Update with S3 image using new schema
+  // Update with S3 image using simplified schema (Next.js will handle formats)
   const updatedImage = {
     src: "https://receptu-images.s3.eu-north-1.amazonaws.com/image-test.png",
     alt: recipe.title?.lt || recipe.title || "Recipe image",
     width: 1200,
     height: 800,
-    blurHash: "LKO2?U%2Tw=w]~RBVZRi};RPxuwH", // Optional blur placeholder
-    formats: {
-      webp: "https://receptu-images.s3.eu-north-1.amazonaws.com/image-test.webp",
-      avif: "https://receptu-images.s3.eu-north-1.amazonaws.com/image-test.avif"
-    }
+    blurHash: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEiLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2IiBmaWx0ZXI9InVybCgjYmx1cikiLz48L3N2Zz4=" // Simple blur placeholder
   };
 
   const result = await db.collection('recipes_new').updateOne(
@@ -78,7 +74,8 @@ async function updateRecipeImage(db, slug) {
   console.log('   - src:', updatedImage.src);
   console.log('   - alt:', updatedImage.alt);
   console.log('   - dimensions:', `${updatedImage.width}x${updatedImage.height}`);
-  console.log('   - formats:', Object.keys(updatedImage.formats).join(', '));
+  console.log('   - blurHash:', updatedImage.blurHash ? 'Generated' : 'None');
+  console.log('   - formats: Next.js will auto-generate WebP/AVIF');
 
   if (result.modifiedCount > 0) {
     console.log('\n🎉 Recipe successfully updated with S3 image!');

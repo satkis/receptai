@@ -14,6 +14,7 @@
     "migrate:help": "node scripts/migration/run-migration.js help"
   },
   "dependencies": {
+    "blurhash": "^2.0.5",
     "mongodb": "^6.3.0",
     "next": "^15.3.3",
     "react": "^18.2.0",

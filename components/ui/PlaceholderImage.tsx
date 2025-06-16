@@ -2,7 +2,7 @@
 // Prevents infinite loops, provides fallbacks, optimizes loading
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { RecipeImage, getOptimizedImageProps, convertLegacyImageToS3, generateBlurPlaceholder } from '../../utils/s3-images';
+import { RecipeImage, getOptimizedImageProps, convertToRecipeImage, generateBlurPlaceholder } from '../../utils/s3-images';
 
 interface PlaceholderImageProps {
   src: string | RecipeImage;
@@ -31,10 +31,10 @@ export default function PlaceholderImage({
   loading = 'lazy',
   blurDataURL
 }: PlaceholderImageProps) {
-  // Handle both string URLs and RecipeImage objects
+  // Convert any image format to standardized RecipeImage
   const imageData = typeof src === 'string'
-    ? convertLegacyImageToS3({ url: src, alt, width, height })
-    : src;
+    ? convertToRecipeImage(src)
+    : convertToRecipeImage(src);
 
   const [imageError, setImageError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -99,7 +99,7 @@ export default function PlaceholderImage({
         sizes={sizes}
         quality={quality}
         loading={priority ? 'eager' : loading}
-        placeholder={finalBlurDataURL ? 'blur' : 'empty'}
+        placeholder="blur"
         blurDataURL={finalBlurDataURL}
         className={`${className} ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
         onLoad={() => setIsLoading(false)}
