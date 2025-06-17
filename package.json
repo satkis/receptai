@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm run postbuild",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "migrate": "node scripts/migration/run-migration.js migrate",
     "migrate:verify": "node scripts/migration/run-migration.js verify",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
     "migrate:cleanup": "node scripts/migration/run-migration.js cleanup",
     "migrate:help": "node scripts/migration/run-migration.js help"
   },

@@ -75,13 +75,13 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     );
 
     // 2. Get all categories and discover dynamic ones
-    const categories = await db.collection('categories').find({
-      status: 'active'
+    const categories = await db.collection('categories_new').find({
+      isActive: true
     }).toArray();
 
     // Get all unique categoryPaths from recipes for dynamic discovery
-    const recipeCategoryPaths = await db.collection('recipes').distinct('categoryPath', {
-      status: 'published'
+    const recipeCategoryPaths = await db.collection('recipes_new').distinct('primaryCategoryPath', {
+      publishedAt: { $exists: true }
     });
 
     // Track all category/subcategory combinations
@@ -147,22 +147,21 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     }
 
     // 3. Get all published recipes
-    const recipes = await db.collection('recipes').find({
-      status: 'published',
-      categoryPath: { $exists: true },
+    const recipes = await db.collection('recipes_new').find({
+      publishedAt: { $exists: true },
       slug: { $exists: true }
     }).project({
       slug: 1,
-      categoryPath: 1,
+      primaryCategoryPath: 1,
       updatedAt: 1,
       createdAt: 1,
       publishedAt: 1
     }).toArray();
 
     for (const recipe of recipes) {
-      if (recipe.categoryPath && recipe.slug) {
+      if (recipe.slug) {
         urls.push({
-          loc: `${baseUrl}/receptai/${recipe.categoryPath}/${recipe.slug}`,
+          loc: `${baseUrl}/receptas/${recipe.slug}`,
           lastmod: recipe.updatedAt || recipe.publishedAt || recipe.createdAt || currentDate,
           changefreq: 'monthly',
           priority: '0.9'

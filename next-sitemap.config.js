@@ -13,22 +13,51 @@ module.exports = {
   additionalPaths: async (config) => {
     const result = [];
 
-    // Add dynamic recipe pages
-    // In production, you would fetch actual recipe slugs from your database
-    const recipePages = [
-      '/recipes/cepelinai-su-mesa',
-      '/recipes/saltibarsciai-su-bulvemis',
-      '/recipes/kugelis-tradicinis',
-    ];
+    try {
+      // Connect to MongoDB and fetch real data
+      const { MongoClient } = require('mongodb');
+      const client = new MongoClient(process.env.MONGODB_URI);
+      await client.connect();
+      const db = client.db();
 
-    recipePages.forEach((page) => {
-      result.push({
-        loc: page,
-        changefreq: 'weekly',
-        priority: 0.8,
-        lastmod: new Date().toISOString(),
+      // Add real recipe pages
+      const recipes = await db.collection('recipes_new')
+        .find({
+          slug: { $exists: true, $ne: null },
+          publishedAt: { $exists: true }
+        })
+        .project({ slug: 1, updatedAt: 1, publishedAt: 1 })
+        .limit(1000) // Limit for performance
+        .toArray();
+
+      recipes.forEach((recipe) => {
+        result.push({
+          loc: `/receptas/${recipe.slug}`,
+          changefreq: 'weekly',
+          priority: 0.8,
+          lastmod: recipe.updatedAt || recipe.publishedAt || new Date().toISOString(),
+        });
       });
-    });
+
+      // Add real category pages
+      const categories = await db.collection('categories_new')
+        .find({ isActive: true })
+        .project({ path: 1, updatedAt: 1 })
+        .toArray();
+
+      categories.forEach((category) => {
+        result.push({
+          loc: `/receptai/${category.path}`,
+          changefreq: 'weekly',
+          priority: 0.7,
+          lastmod: category.updatedAt || new Date().toISOString(),
+        });
+      });
+
+      await client.close();
+    } catch (error) {
+      console.error('Error generating additional sitemap paths:', error);
+    }
 
     return result;
   },
@@ -55,7 +84,7 @@ module.exports = {
       };
     }
 
-    if (path.startsWith('/recipes/')) {
+    if (path.startsWith('/receptas/')) {
       return {
         loc: path,
         changefreq: 'weekly',
@@ -64,7 +93,7 @@ module.exports = {
       };
     }
 
-    if (path.startsWith('/categories/')) {
+    if (path.startsWith('/receptai/')) {
       return {
         loc: path,
         changefreq: 'weekly',

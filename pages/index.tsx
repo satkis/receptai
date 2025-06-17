@@ -187,6 +187,16 @@ export default function Home({ totalRecipes }: HomeProps) {
   );
 }
 
+// Option 2: Server-side redirect (uncomment if you want to use this instead of next.config.js)
+// export async function getServerSideProps() {
+//   return {
+//     redirect: {
+//       destination: '/receptai',
+//       permanent: true, // 301 redirect
+//     },
+//   };
+// }
+
 export async function getStaticProps() {
   return {
     props: {

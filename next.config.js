@@ -36,6 +36,17 @@ const nextConfig = {
     scrollRestoration: true,
   },
 
+  // Redirects - Server-side, no performance impact
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/receptai',
+        permanent: true, // 301 redirect for SEO
+      },
+    ];
+  },
+
   // Compiler optimizations
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
