@@ -15,28 +15,27 @@ interface Category {
   slug: string;
   path: string;
   level: number;
-  parentCategory: string;
-  parentSlug: string;
-  description: { lt: string; en?: string };
-  icon: string;
-  recipeCount: number;
-  ancestors: Array<{
-    _id: string;
-    title: string;
-    slug: string;
-    path: string;
-    level: number;
-  }>;
-  availableTimeFilters: Array<{
-    value: string;
-    label: string;
-    count: number;
-  }>;
+  parentPath: string | null;
+  filters: {
+    manual: Array<{
+      value: string;
+      label: string;
+      priority: number;
+    }>;
+    auto: Array<{
+      value: string;
+      label: string;
+    }>;
+    timeFilters: string[];
+  };
   seo: {
     metaTitle: string;
     metaDescription: string;
     keywords: string[];
+    canonicalUrl: string;
   };
+  isActive: boolean;
+  recipeCount?: number;
 }
 
 interface Recipe {
@@ -44,13 +43,21 @@ interface Recipe {
   slug: string;
   title: { lt: string; en?: string };
   description: { lt: string; en?: string };
-  image: string;
+  image: {
+    url: string;
+    alt: string;
+    width: number;
+    height: number;
+    blurHash?: string;
+  };
   totalTimeMinutes: number;
   servings: number;
+  servingsUnit?: string;
   tags: string[];
-  rating: { average: number; count: number };
-  difficulty: string;
-  timeCategory: string;
+  ingredients?: Array<{
+    name: { lt: string };
+    vital?: boolean;
+  }>;
 }
 
 interface CategoryPageProps {
@@ -64,6 +71,8 @@ interface CategoryPageProps {
     hasPrev: boolean;
   };
   activeTimeFilter: string | null;
+  activeFilter: string | null;
+  recipeCount: number;
 }
 
 // Breadcrumb Component
@@ -93,19 +102,19 @@ function Breadcrumb({ items }: { items: Array<{ title: string; url: string; curr
 }
 
 // Category Header
-function CategoryHeader({ category }: { category: Category }) {
-  const countText = category.recipeCount > 100 ? "100+" : category.recipeCount.toString();
-  
+function CategoryHeader({ category, recipeCount }: { category: Category; recipeCount: number }) {
+  const countText = recipeCount > 100 ? "100+" : recipeCount.toString();
+
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
       <div className="flex items-center gap-4 mb-4">
-        <span className="text-4xl">{category.icon}</span>
+        <span className="text-4xl">🍽️</span>
         <div>
           <h1 className="text-3xl font-bold text-gray-900">
             {category.title.lt}
           </h1>
           <p className="text-gray-600 mt-2">
-            {category.description.lt}
+            {category.seo.metaDescription}
           </p>
         </div>
       </div>
@@ -119,16 +128,76 @@ function CategoryHeader({ category }: { category: Category }) {
   );
 }
 
-// Time Filter Component (Exclusive Selection)
-function TimeFilter({ 
-  availableFilters, 
-  activeFilter, 
-  onFilterChange 
-}: { 
-  availableFilters: Category['availableTimeFilters'];
+// Category Filters Component (Manual + Auto filters)
+function CategoryFilters({
+  category,
+  activeFilter,
+  onFilterChange
+}: {
+  category: Category;
   activeFilter: string | null;
   onFilterChange: (filter: string | null) => void;
 }) {
+  // Combine manual and auto filters, sort by priority
+  const allFilters = [
+    ...category.filters.manual.sort((a, b) => a.priority - b.priority),
+    ...category.filters.auto
+  ];
+
+  if (allFilters.length === 0) return null;
+
+  return (
+    <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
+      <div className="flex items-center justify-between mb-4">
+        <h3 className="text-lg font-semibold text-gray-900">Filtrai</h3>
+        {activeFilter && (
+          <button
+            onClick={() => onFilterChange(null)}
+            className="text-sm text-orange-600 hover:text-orange-700"
+          >
+            Išvalyti filtrą
+          </button>
+        )}
+      </div>
+
+      <div className="flex flex-wrap gap-2">
+        {allFilters.map((filter) => (
+          <button
+            key={filter.value}
+            onClick={() => onFilterChange(filter.value === activeFilter ? null : filter.value)}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+              activeFilter === filter.value
+                ? "bg-orange-100 text-orange-800 border border-orange-200"
+                : "bg-gray-50 text-gray-700 border border-gray-200 hover:bg-gray-100"
+            }`}
+          >
+            {filter.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// Time Filter Component (Exclusive Selection)
+function TimeFilter({
+  timeFilters,
+  activeFilter,
+  onFilterChange
+}: {
+  timeFilters: string[];
+  activeFilter: string | null;
+  onFilterChange: (filter: string | null) => void;
+}) {
+  if (timeFilters.length === 0) return null;
+
+  const timeFilterLabels: Record<string, string> = {
+    "iki-30-min": "Iki 30 min",
+    "30-60-min": "30-60 min",
+    "1-2-val": "1-2 val",
+    "virs-2-val": "Virš 2 val"
+  };
+
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
       <div className="flex items-center justify-between mb-4">
@@ -142,22 +211,19 @@ function TimeFilter({
           </button>
         )}
       </div>
-      
+
       <div className="flex flex-wrap gap-2">
-        {availableFilters.map((filter) => (
+        {timeFilters.map((filter) => (
           <button
-            key={filter.value}
-            onClick={() => onFilterChange(filter.value === activeFilter ? null : filter.value)}
-            className={`inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-              activeFilter === filter.value
+            key={filter}
+            onClick={() => onFilterChange(filter === activeFilter ? null : filter)}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+              activeFilter === filter
                 ? "bg-orange-100 text-orange-800 border border-orange-200"
                 : "bg-gray-50 text-gray-700 border border-gray-200 hover:bg-gray-100"
             }`}
           >
-            {filter.label}
-            <span className={`text-xs ${activeFilter === filter.value ? "text-orange-600" : "text-gray-500"}`}>
-              ({filter.count})
-            </span>
+            {timeFilterLabels[filter] || filter}
           </button>
         ))}
       </div>
@@ -197,8 +263,8 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
     >
       <div className="relative h-48">
         <PlaceholderImage
-          src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.src || '/placeholder-recipe.jpg'}
-          alt={typeof recipe.image === 'string' ? recipe.title.lt : recipe.image?.alt || recipe.title.lt}
+          src={recipe.image?.url || '/placeholder-recipe.jpg'}
+          alt={recipe.image?.alt || recipe.title.lt}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -334,7 +400,9 @@ export default function CategoryPage({
   category,
   recipes,
   pagination,
-  activeTimeFilter
+  activeTimeFilter,
+  activeFilter,
+  recipeCount
 }: CategoryPageProps) {
   const router = useRouter();
 
@@ -353,19 +421,30 @@ export default function CategoryPage({
     router.push({ pathname: router.asPath.split('?')[0], query }, undefined, { shallow: true });
   };
 
+  const handleFilterChange = (filter: string | null) => {
+    const query = { ...router.query };
+
+    if (filter) {
+      query.filter = filter;
+    } else {
+      delete query.filter;
+    }
+
+    // Reset to page 1 when filter changes
+    delete query.page;
+
+    router.push({ pathname: router.asPath.split('?')[0], query }, undefined, { shallow: true });
+  };
+
   const handlePageChange = (page: number) => {
     const query = { ...router.query, page: page.toString() };
     router.push({ pathname: router.asPath.split('?')[0], query }, undefined, { shallow: true });
   };
 
-  // Generate breadcrumbs
+  // Generate breadcrumbs (simplified for now)
   const breadcrumbs = [
-    { title: "Pagrindinis", url: "/" },
-    ...category.ancestors.map(ancestor => ({
-      title: ancestor.title,
-      url: `/${ancestor.path}`
-    })),
-    { title: category.title.lt, url: `/${category.path}`, current: true }
+    { title: "Receptai", url: "/receptai" },
+    { title: category.title.lt, url: `/receptai/${category.path}`, current: true }
   ];
 
   return (
@@ -405,11 +484,18 @@ export default function CategoryPage({
         <Breadcrumb items={breadcrumbs} />
 
         {/* Category Header */}
-        <CategoryHeader category={category} />
+        <CategoryHeader category={category} recipeCount={recipeCount} />
+
+        {/* Category Filters */}
+        <CategoryFilters
+          category={category}
+          activeFilter={activeFilter}
+          onFilterChange={handleFilterChange}
+        />
 
         {/* Time Filters */}
         <TimeFilter
-          availableFilters={category.availableTimeFilters}
+          timeFilters={category.filters.timeFilters}
           activeFilter={activeTimeFilter}
           onFilterChange={handleTimeFilterChange}
         />
@@ -438,6 +524,11 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
 
     // Get category
     const category = await db.collection('categories_new').findOne({ path: categoryPath });
+    console.log('🔍 Category lookup:', { categoryPath, found: !!category });
+
+    if (category) {
+      console.log('📋 Category filters:', category.filters);
+    }
 
     if (!category) {
       await client.close();
@@ -446,21 +537,42 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
 
     // Build recipe query
     const recipeQuery: any = {
-      allCategories: categoryPath
+      categoryPath: categoryPath
     };
+
+    // Add manual filter if specified
+    const filter = query.filter as string;
+    if (filter) {
+      recipeQuery.tags = filter;
+    }
 
     // Add time filter if specified
     const timeFilter = query.timeFilter as string;
     if (timeFilter) {
-      recipeQuery.timeCategory = timeFilter;
+      // Convert time filter to minutes range
+      switch (timeFilter) {
+        case 'iki-30-min':
+          recipeQuery.totalTimeMinutes = { $lte: 30 };
+          break;
+        case '30-60-min':
+          recipeQuery.totalTimeMinutes = { $gt: 30, $lte: 60 };
+          break;
+        case '1-2-val':
+          recipeQuery.totalTimeMinutes = { $gt: 60, $lte: 120 };
+          break;
+        case 'virs-2-val':
+          recipeQuery.totalTimeMinutes = { $gt: 120 };
+          break;
+      }
     }
 
     // Pagination
     const page = parseInt(query.page as string) || 1;
-    const limit = 12;
+    const limit = 16; // Show 16 recipes per page
     const skip = (page - 1) * limit;
 
     // Get recipes and count
+    console.log('🔍 Recipe query:', recipeQuery);
     const [recipes, totalCount] = await Promise.all([
       db.collection('recipes_new')
         .find(recipeQuery)
@@ -470,6 +582,8 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
         .toArray(),
       db.collection('recipes_new').countDocuments(recipeQuery)
     ]);
+
+    console.log('📊 Found recipes:', { count: totalCount, recipeTitles: recipes.map(r => r.title?.lt) });
 
     await client.close();
 
@@ -484,7 +598,9 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
           hasNext: page * limit < totalCount,
           hasPrev: page > 1
         },
-        activeTimeFilter: timeFilter || null
+        activeTimeFilter: timeFilter || null,
+        activeFilter: filter || null,
+        recipeCount: totalCount
       }
     };
   } catch (error) {

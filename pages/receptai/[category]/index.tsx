@@ -1,40 +1,186 @@
 // Dynamic Category Page
-// /receptai/[category] - e.g., /receptai/mesa
+// /receptai/[category] - e.g., /receptai/karsti-patiekalai
 
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import { MongoClient } from 'mongodb';
+import { useRouter } from 'next/router';
 
 import Breadcrumb from '../../../components/navigation/Breadcrumb';
 import Layout from '../../../components/layout/Layout';
+
+interface Category {
+  _id: string;
+  title: { lt: string; en?: string };
+  slug: string;
+  path: string;
+  level: number;
+  parentPath: string | null;
+  filters: {
+    manual: Array<{
+      value: string;
+      label: string;
+      priority: number;
+    }>;
+    auto: Array<{
+      value: string;
+      label: string;
+    }>;
+    timeFilters: string[];
+  };
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+    keywords: string[];
+    canonicalUrl: string;
+  };
+  isActive: boolean;
+}
 
 interface Recipe {
   _id: string;
   title: string | { lt: string; en?: string };
   slug: string;
   description: string | { lt: string; en?: string };
-  image: string;
+  image: {
+    url: string;
+    alt: string;
+    width: number;
+    height: number;
+    blurHash?: string;
+  };
   totalTimeMinutes: number;
   servings: number;
+  servingsUnit?: string;
   ingredients: Array<{
     name: string | { lt: string; en?: string };
     quantity: string;
     vital?: boolean;
   }>;
-  primaryCategoryPath: string;
-  secondaryCategories?: string[];
+  categoryPath: string;
+  tags: string[];
 }
 
 interface CategoryPageProps {
-  categorySlug: string;
-  categoryName: string;
+  category: Category;
   recipes: Recipe[];
   totalRecipes: number;
+  activeTimeFilter: string | null;
+  activeFilter: string | null;
+}
+
+// Category Filters Component (Manual + Auto filters)
+function CategoryFilters({
+  category,
+  activeFilter,
+  onFilterChange
+}: {
+  category: Category;
+  activeFilter: string | null;
+  onFilterChange: (filter: string | null) => void;
+}) {
+  // Combine manual and auto filters, sort by priority
+  const allFilters = [
+    ...category.filters.manual.sort((a, b) => a.priority - b.priority),
+    ...category.filters.auto
+  ];
+
+  if (allFilters.length === 0) return null;
+
+  return (
+    <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
+      <div className="flex items-center justify-between mb-4">
+        <h3 className="text-lg font-semibold text-gray-900">Filtrai</h3>
+        {activeFilter && (
+          <button
+            onClick={() => onFilterChange(null)}
+            className="text-sm text-orange-600 hover:text-orange-700"
+          >
+            Išvalyti filtrą
+          </button>
+        )}
+      </div>
+
+      <div className="flex flex-wrap gap-2">
+        {allFilters.map((filter) => {
+          const isActive = activeFilter === filter.value;
+          return (
+            <button
+              key={filter.value}
+              onClick={() => onFilterChange(filter.value === activeFilter ? null : filter.value)}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors border ${
+                isActive
+                  ? "bg-orange-500 text-white border-orange-500 shadow-md"
+                  : "bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100 hover:border-gray-300"
+              }`}
+            >
+              {filter.label}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// Time Filter Component (Exclusive Selection)
+function TimeFilter({
+  timeFilters,
+  activeFilter,
+  onFilterChange
+}: {
+  timeFilters: string[];
+  activeFilter: string | null;
+  onFilterChange: (filter: string | null) => void;
+}) {
+  if (timeFilters.length === 0) return null;
+
+  const timeFilterLabels: Record<string, string> = {
+    "iki-30-min": "Iki 30 min",
+    "30-60-min": "30-60 min",
+    "1-2-val": "1-2 val",
+    "virs-2-val": "Virš 2 val"
+  };
+
+  return (
+    <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
+      <div className="flex items-center justify-between mb-4">
+        <h3 className="text-lg font-semibold text-gray-900">Trukmė</h3>
+        {activeFilter && (
+          <button
+            onClick={() => onFilterChange(null)}
+            className="text-sm text-orange-600 hover:text-orange-700"
+          >
+            Išvalyti filtrą
+          </button>
+        )}
+      </div>
+
+      <div className="flex flex-wrap gap-2">
+        {timeFilters.map((filter) => {
+          const isActive = activeFilter === filter;
+          return (
+            <button
+              key={filter}
+              onClick={() => onFilterChange(filter === activeFilter ? null : filter)}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors border ${
+                isActive
+                  ? "bg-orange-500 text-white border-orange-500 shadow-md"
+                  : "bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100 hover:border-gray-300"
+              }`}
+            >
+              {timeFilterLabels[filter] || filter}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
 // Enhanced Recipe Card Component
-function RecipeCard({ recipe, categorySlug }: { recipe: Recipe; categorySlug: string }) {
+function RecipeCard({ recipe, category }: { recipe: Recipe; category: Category }) {
   const [showAllIngredients, setShowAllIngredients] = useState(false);
 
   // Get vital ingredients (first 3 most important ones)
@@ -60,13 +206,21 @@ function RecipeCard({ recipe, categorySlug }: { recipe: Recipe; categorySlug: st
 
   return (
     <a
-      href={`/receptas/${recipe.slug}?from=${encodeURIComponent(`receptai/${categorySlug}`)}`}
+      href={`/receptas/${recipe.slug}?from=${encodeURIComponent(`receptai/${category.path}`)}`}
       className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 block group"
     >
       <div className="relative h-48">
         <img
-          src={(recipe.image as any)?.src || recipe.image || '/placeholder-recipe.jpg'}
-          alt={(recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')}
+          src={
+            typeof recipe.image === 'string'
+              ? recipe.image
+              : (recipe.image as any)?.src || (recipe.image as any)?.url || '/placeholder-recipe.jpg'
+          }
+          alt={
+            typeof recipe.image === 'string'
+              ? (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')
+              : (recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')
+          }
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
 
@@ -121,20 +275,96 @@ function RecipeCard({ recipe, categorySlug }: { recipe: Recipe; categorySlug: st
   );
 }
 
-export default function CategoryPage({ categorySlug, categoryName, recipes, totalRecipes }: CategoryPageProps) {
+export default function CategoryPage({
+  category,
+  recipes: initialRecipes,
+  totalRecipes,
+  activeTimeFilter,
+  activeFilter
+}: CategoryPageProps) {
+  const router = useRouter();
+  const [filteredRecipes, setFilteredRecipes] = useState(initialRecipes);
+  const [currentTimeFilter, setCurrentTimeFilter] = useState(activeTimeFilter);
+  const [currentFilter, setCurrentFilter] = useState(activeFilter);
+
+  // Client-side filtering function
+  const applyFilters = (recipes: Recipe[], timeFilter: string | null, tagFilter: string | null) => {
+    let filtered = [...recipes];
+
+    // Apply tag filter
+    if (tagFilter) {
+      filtered = filtered.filter(recipe =>
+        recipe.tags && recipe.tags.includes(tagFilter)
+      );
+    }
+
+    // Apply time filter
+    if (timeFilter) {
+      filtered = filtered.filter(recipe => {
+        const time = recipe.totalTimeMinutes;
+        switch (timeFilter) {
+          case 'iki-30-min':
+            return time <= 30;
+          case '30-60-min':
+            return time > 30 && time <= 60;
+          case '1-2-val':
+            return time > 60 && time <= 120;
+          case 'virs-2-val':
+            return time > 120;
+          default:
+            return true;
+        }
+      });
+    }
+
+    return filtered;
+  };
+
+  const handleTimeFilterChange = (filter: string | null) => {
+    setCurrentTimeFilter(filter);
+    const newFiltered = applyFilters(initialRecipes, filter, currentFilter);
+    setFilteredRecipes(newFiltered);
+
+    // Update URL without page reload
+    const query = { ...router.query };
+    if (filter) {
+      query.timeFilter = filter;
+    } else {
+      delete query.timeFilter;
+    }
+    delete query.page;
+    router.push({ pathname: router.asPath.split('?')[0], query }, undefined, { shallow: true });
+  };
+
+  const handleFilterChange = (filter: string | null) => {
+    setCurrentFilter(filter);
+    const newFiltered = applyFilters(initialRecipes, currentTimeFilter, filter);
+    setFilteredRecipes(newFiltered);
+
+    // Update URL without page reload
+    const query = { ...router.query };
+    if (filter) {
+      query.filter = filter;
+    } else {
+      delete query.filter;
+    }
+    delete query.page;
+    router.push({ pathname: router.asPath.split('?')[0], query }, undefined, { shallow: true });
+  };
+
   // Generate breadcrumbs
   const breadcrumbs = [
     { label: 'Receptai', href: '/receptai' },
-    { label: categoryName, isActive: true }
+    { label: category.title.lt, isActive: true }
   ];
 
   return (
     <Layout>
       <Head>
-        <title>{categoryName} receptai | Paragaujam.lt</title>
-        <meta name="description" content={`Atraskite geriausius ${categoryName.toLowerCase()} receptus.`} />
-        <meta name="keywords" content={`${categoryName}, receptai, lietuviški receptai, maistas`} />
-        <link rel="canonical" href={`https://paragaujam.lt/receptai/${categorySlug}`} />
+        <title>{category.seo.metaTitle}</title>
+        <meta name="description" content={category.seo.metaDescription} />
+        <meta name="keywords" content={category.seo.keywords.join(', ')} />
+        <link rel="canonical" href={category.seo.canonicalUrl} />
       </Head>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
@@ -142,20 +372,45 @@ export default function CategoryPage({ categorySlug, categoryName, recipes, tota
         <Breadcrumb items={breadcrumbs} containerless={true} />
 
         {/* Category Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">{categoryName}</h1>
-          <p className="text-lg text-gray-600 mb-6">Receptai kategorijoje: {categoryName}</p>
-
-          <div className="text-sm text-gray-600">
-            Rasta {totalRecipes} receptų
+        <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
+          <div className="flex items-center gap-4 mb-4">
+            <span className="text-4xl">🍽️</span>
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900">
+                {category.title.lt}
+              </h1>
+              <p className="text-gray-600 mt-2">
+                {category.seo.metaDescription}
+              </p>
+            </div>
+          </div>
+          <div className="flex items-center gap-4 text-sm text-gray-600">
+            <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full font-medium">
+              {filteredRecipes.length} {filteredRecipes.length !== totalRecipes ? `iš ${totalRecipes}` : ''} receptai
+            </span>
+            <span>Kategorija: {category.level} lygis</span>
           </div>
         </div>
 
+        {/* Category Filters */}
+        <CategoryFilters
+          category={category}
+          activeFilter={currentFilter}
+          onFilterChange={handleFilterChange}
+        />
+
+        {/* Time Filters */}
+        <TimeFilter
+          timeFilters={category.filters.timeFilters}
+          activeFilter={currentTimeFilter}
+          onFilterChange={handleTimeFilterChange}
+        />
+
         {/* Enhanced Recipe Grid */}
-        {recipes.length > 0 ? (
+        {filteredRecipes.length > 0 ? (
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            {recipes.map((recipe) => (
-              <RecipeCard key={recipe._id} recipe={recipe} categorySlug={categorySlug} />
+            {filteredRecipes.map((recipe) => (
+              <RecipeCard key={recipe._id} recipe={recipe} category={category} />
             ))}
           </div>
         ) : (
@@ -163,7 +418,10 @@ export default function CategoryPage({ categorySlug, categoryName, recipes, tota
             <div className="bg-gray-50 rounded-lg p-8">
               <h2 className="text-xl font-semibold text-gray-700 mb-2">Receptų nerasta</h2>
               <p className="text-gray-500">
-                Šioje kategorijoje "{categoryName}" receptų dar nėra.
+                {currentFilter || currentTimeFilter
+                  ? "Su pasirinktais filtrais receptų nerasta. Pabandykite pakeisti filtrus."
+                  : `Šioje kategorijoje "${category.title.lt}" receptų dar nėra.`
+                }
               </p>
             </div>
           </div>
@@ -173,7 +431,7 @@ export default function CategoryPage({ categorySlug, categoryName, recipes, tota
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+export const getServerSideProps: GetServerSideProps = async ({ params, query }) => {
   const categorySlug = params?.category as string;
 
   if (!categorySlug) {
@@ -185,34 +443,52 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
     await client.connect();
     const db = client.db();
 
-    // Simple category name mapping for now
-    const categoryNames: { [key: string]: string } = {
-      'mesa': 'Mėsa',
-      'vistiena': 'Vištiena',
-      'jautiena': 'Jautiena',
-      'kiauliena': 'Kiauliena',
-      'zuvis': 'Žuvis',
-      'darzoves': 'Daržovės',
-      'salotos': 'Salotos',
-      'sriubos': 'Sriubos',
-      'desertai': 'Desertai',
-      'gerimai': 'Gėrimai'
+    // Get category from categories_new collection
+    const category = await db.collection('categories_new').findOne({ path: categorySlug });
+    console.log('🔍 Category lookup:', { categorySlug, found: !!category });
+
+    if (category) {
+      console.log('📋 Category filters:', category.filters);
+    }
+
+    if (!category) {
+      await client.close();
+      return { notFound: true };
+    }
+
+    // Build recipe query using primaryCategoryPath
+    const recipeQuery: any = {
+      primaryCategoryPath: `receptai/${categorySlug}`
     };
 
-    const categoryName = categoryNames[categorySlug] ||
-      categorySlug.charAt(0).toUpperCase() + categorySlug.slice(1);
+    // Add manual filter if specified
+    const filter = query.filter as string;
+    if (filter) {
+      recipeQuery.tags = { $in: [filter] }; // Use $in to match array elements
+    }
 
-    // Build query to find recipes in this category
-    const categoryPath = `receptai/${categorySlug}`;
+    // Add time filter if specified
+    const timeFilter = query.timeFilter as string;
+    if (timeFilter) {
+      // Convert time filter to minutes range
+      switch (timeFilter) {
+        case 'iki-30-min':
+          recipeQuery.totalTimeMinutes = { $lte: 30 };
+          break;
+        case '30-60-min':
+          recipeQuery.totalTimeMinutes = { $gt: 30, $lte: 60 };
+          break;
+        case '1-2-val':
+          recipeQuery.totalTimeMinutes = { $gt: 60, $lte: 120 };
+          break;
+        case 'virs-2-val':
+          recipeQuery.totalTimeMinutes = { $gt: 120 };
+          break;
+      }
+    }
 
-    const recipeQuery = {
-      $or: [
-        { primaryCategoryPath: categoryPath },
-        { primaryCategoryPath: { $regex: `^${categoryPath}/` } }, // Include subcategories
-        { secondaryCategories: categoryPath },
-        { secondaryCategories: { $regex: `^${categoryPath}/` } }
-      ]
-    };
+    console.log('🔍 Recipe query:', recipeQuery);
+    console.log('🔍 Looking for primaryCategoryPath:', `receptai/${categorySlug}`);
 
     // Get recipes
     const recipes = await db.collection('recipes_new')
@@ -223,43 +499,21 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
 
     const totalRecipes = await db.collection('recipes_new').countDocuments(recipeQuery);
 
+    console.log('📊 Found recipes:', { count: totalRecipes, recipeTitles: recipes.map(r => r.title?.lt) });
+
     await client.close();
 
     return {
       props: {
-        categorySlug,
-        categoryName,
+        category: JSON.parse(JSON.stringify(category)),
         recipes: JSON.parse(JSON.stringify(recipes)),
-        totalRecipes
+        totalRecipes,
+        activeTimeFilter: timeFilter || null,
+        activeFilter: filter || null
       }
     };
   } catch (error) {
     console.error('Error fetching category recipes:', error);
-
-    // Fallback to basic category info if database fails
-    const categoryNames: { [key: string]: string } = {
-      'mesa': 'Mėsa',
-      'vistiena': 'Vištiena',
-      'jautiena': 'Jautiena',
-      'kiauliena': 'Kiauliena',
-      'zuvis': 'Žuvis',
-      'darzoves': 'Daržovės',
-      'salotos': 'Salotos',
-      'sriubos': 'Sriubos',
-      'desertai': 'Desertai',
-      'gerimai': 'Gėrimai'
-    };
-
-    const categoryName = categoryNames[categorySlug] ||
-      categorySlug.charAt(0).toUpperCase() + categorySlug.slice(1);
-
-    return {
-      props: {
-        categorySlug,
-        categoryName,
-        recipes: [],
-        totalRecipes: 0
-      }
-    };
+    return { notFound: true };
   }
 };
