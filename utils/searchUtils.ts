@@ -119,20 +119,51 @@ export function buildSearchAggregation(
                 else: 0
               }
             },
-            // Boost highly rated recipes
+            // Boost highly rated recipes (check both rating field and schemaOrg)
             {
               $cond: {
-                if: { $gte: ["$rating.average", 4.5] },
+                if: {
+                  $or: [
+                    { $gte: ["$rating.average", 4.5] },
+                    { $gte: [{ $toDouble: "$schemaOrg.aggregateRating.ratingValue" }, 4.5] }
+                  ]
+                },
                 then: 1,
                 else: 0
               }
             }
           ]
         } : {
-          // Default scoring for non-search queries
+          // Default scoring for non-search queries (handle both rating formats)
           $add: [
-            { $multiply: ["$rating.average", 0.1] },
-            { $cond: { if: { $gte: ["$rating.count", 5] }, then: 0.5, else: 0 } }
+            {
+              $multiply: [
+                {
+                  $ifNull: [
+                    "$rating.average",
+                    { $toDouble: { $ifNull: ["$schemaOrg.aggregateRating.ratingValue", 0] } }
+                  ]
+                },
+                0.1
+              ]
+            },
+            {
+              $cond: {
+                if: {
+                  $gte: [
+                    {
+                      $ifNull: [
+                        "$rating.count",
+                        { $toInt: { $ifNull: ["$schemaOrg.aggregateRating.reviewCount", 0] } }
+                      ]
+                    },
+                    5
+                  ]
+                },
+                then: 0.5,
+                else: 0
+              }
+            }
           ]
         }
       }

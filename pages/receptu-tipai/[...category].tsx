@@ -1,12 +1,11 @@
 // Category Pages with Filtering
 // URL: domain.lt/receptu-tipai/category/subcategory
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { GetServerSideProps } from 'next';
 import { MongoClient } from 'mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Layout from '../../components/layout/Layout';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
 
 interface Category {
@@ -334,7 +333,7 @@ function RecipeGrid({ recipes }: { recipes: Recipe[] }) {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
       {recipes.map((recipe) => (
         <RecipeCard key={recipe._id} recipe={recipe} />
       ))}
@@ -445,13 +444,13 @@ export default function CategoryPage({
   ];
 
   return (
-    <Layout>
+    <>
       <Head>
         <title>{category.seo.metaTitle}</title>
         <meta name="description" content={category.seo.metaDescription} />
         <meta name="keywords" content={category.seo.keywords.join(', ')} />
         <link rel="canonical" href={`https://domain.lt/receptu-tipai/${category.path}`} />
-        
+
         {/* Open Graph */}
         <meta property="og:title" content={category.seo.metaTitle} />
         <meta property="og:description" content={category.seo.metaDescription} />
@@ -496,7 +495,7 @@ export default function CategoryPage({
         {/* Pagination */}
         <Pagination pagination={pagination} onPageChange={handlePageChange} />
       </div>
-    </Layout>
+    </>
   );
 }
 

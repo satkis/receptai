@@ -6,7 +6,6 @@ import Head from 'next/head';
 import { MongoClient } from 'mongodb';
 
 import Breadcrumb from '../../../components/navigation/Breadcrumb';
-import Layout from '../../../components/layout/Layout';
 
 interface Recipe {
   _id: string;
@@ -51,7 +50,7 @@ export default function SubcategoryPage({
   ];
 
   return (
-    <Layout>
+    <>
       <Head>
         <title>{subcategoryName} receptai | Paragaujam.lt</title>
         <meta name="description" content={`Atraskite geriausius ${subcategoryName.toLowerCase()} receptus kategorijoje ${categoryName}.`} />
@@ -77,7 +76,7 @@ export default function SubcategoryPage({
 
         {/* Recipe Grid */}
         {recipes.length > 0 ? (
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
             {recipes.map((recipe) => (
               <div key={recipe._id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                 {recipe.image && (
@@ -125,7 +124,7 @@ export default function SubcategoryPage({
           </div>
         )}
       </div>
-    </Layout>
+    </>
   );
 }
 

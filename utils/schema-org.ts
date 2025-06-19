@@ -95,7 +95,7 @@ export function generateRecipeSchemaOrg(recipe: Recipe): RecipeSchemaOrg {
     recipeInstructions: recipeInstructions
   };
 
-  // Add rating if available
+  // Add rating if available (check both rating field and schemaOrg.aggregateRating)
   if (recipe.rating && recipe.rating.count > 0) {
     schemaOrg.aggregateRating = {
       '@type': 'AggregateRating',
@@ -104,6 +104,9 @@ export function generateRecipeSchemaOrg(recipe: Recipe): RecipeSchemaOrg {
       bestRating: '5',
       worstRating: '1'
     };
+  } else if (recipe.schemaOrg?.aggregateRating) {
+    // Use existing schemaOrg rating if no separate rating field
+    schemaOrg.aggregateRating = recipe.schemaOrg.aggregateRating;
   }
 
   return schemaOrg;
@@ -126,14 +129,10 @@ export function generateRecipeSEO(recipe: Recipe) {
   // Generate keywords if not provided
   const keywords = recipe.seo?.keywords || recipe.tags;
 
-  // Generate focus keyword if not provided
-  const focusKeyword = recipe.seo?.focusKeyword || recipe.tags[0] || recipe.title.lt;
-
   return {
     metaTitle,
     metaDescription,
     keywords,
-    focusKeyword,
     canonicalUrl: recipe.canonicalUrl || `${baseUrl}/receptas/${recipe.slug}`,
     ogImage: recipe.image.src,
     ogImageAlt: recipe.image.alt

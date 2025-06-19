@@ -1,12 +1,23 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import CategoryMenu from '../navigation/CategoryMenu';
 // Icons replaced with emojis
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
+
+  // Check if we should show the sidebar (category/subcategory pages, not recipe pages)
+  const shouldShowSidebar = () => {
+    const path = router.pathname;
+    return (
+      path.startsWith('/receptai/') &&
+      !path.startsWith('/receptas/') && // Not individual recipe pages
+      path !== '/receptai' // Not main recipes page
+    );
+  };
 
   // Pre-fill search input from URL query parameter
   useEffect(() => {
@@ -37,7 +48,7 @@ export default function Header() {
         <div className="block md:hidden">
           {/* Top row - Logo and Menu */}
           <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center">
+            <Link href="/receptai" className="flex items-center">
               <span className="text-orange-500 text-2xl">🏠</span>
             </Link>
 
@@ -67,7 +78,7 @@ export default function Header() {
         <div className="hidden md:flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href="/receptai" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
                 <span className="text-white text-lg">👨‍🍳</span>
               </div>
@@ -80,9 +91,9 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="flex items-center space-x-8">
             <Link
-              href="/"
+              href="/receptai"
               className={`flex items-center ${
-                router.pathname === '/'
+                router.pathname === '/receptai' || router.pathname === '/'
                   ? 'text-orange-500 font-medium'
                   : 'text-gray-700 hover:text-orange-500'
               } transition-colors duration-200`}
@@ -123,16 +134,16 @@ export default function Header() {
           <div className="md:hidden border-t border-gray-200 py-4 bg-gray-50">
             <div className="space-y-2">
               <Link
-                href="/"
+                href="/receptai"
                 className={`flex items-center px-3 py-2 rounded-md text-base font-medium ${
-                  router.pathname === '/'
+                  router.pathname === '/receptai' || router.pathname === '/'
                     ? 'text-orange-500 bg-orange-50'
                     : 'text-gray-700 hover:text-orange-500 hover:bg-gray-50'
                 } transition-colors duration-200`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 <span className="text-lg mr-2">🏠</span>
-                Pagrindinis
+                Receptai
               </Link>
               {navigation.map((item) => (
                 <Link
@@ -149,8 +160,21 @@ export default function Header() {
                 </Link>
               ))}
             </div>
+
+            {/* Mobile Category Menu */}
+            <CategoryMenu
+              isVisible={true}
+              isMobile={true}
+              onCategoryClick={() => setIsMenuOpen(false)}
+            />
           </div>
         )}
+
+        {/* Desktop Sidebar Category Menu */}
+        <CategoryMenu
+          isVisible={shouldShowSidebar()}
+          isMobile={false}
+        />
       </div>
     </header>
   );

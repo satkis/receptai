@@ -5,8 +5,6 @@ import { useState } from 'react';
 import { GetServerSideProps } from 'next';
 import { MongoClient } from 'mongodb';
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../../../components/navigation/Breadcrumb';
-import SEOHead, { RecipeSEOHead } from '../../../../components/seo/SEOHead';
-import { generateRecipeSEO } from '../../../../utils/seo-enhanced';
 import PlaceholderImage from '../../../../components/ui/PlaceholderImage';
 
 
@@ -116,16 +114,61 @@ export default function RecipePage({ recipe }: RecipePageProps) {
     setCheckedIngredients(newChecked);
   };
 
-  // Generate enhanced SEO data
-  const seoData = generateRecipeSEO(recipe);
+  // Instructions Section Component
+  function InstructionsSection({ instructions }: { instructions: Recipe['instructions'] }) {
+    const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());
+
+    const toggleStep = (stepNumber: number) => {
+      const newCompleted = new Set(completedSteps);
+      if (newCompleted.has(stepNumber)) {
+        newCompleted.delete(stepNumber);
+      } else {
+        newCompleted.add(stepNumber);
+      }
+      setCompletedSteps(newCompleted);
+    };
+
+    return (
+      <div className="bg-white rounded-2xl shadow-lg p-6">
+        <h2 className="text-xl font-bold text-gray-900 mb-6">
+          Gaminimo instrukcijos
+        </h2>
+        {instructions && instructions.length > 0 ? (
+          <ol className="space-y-4">
+            {instructions.map((instruction, index) => (
+              <li
+                key={index}
+                className="flex gap-4 cursor-pointer group"
+                onClick={() => toggleStep(instruction.step || index + 1)}
+              >
+                <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-sm transition-colors ${
+                  completedSteps.has(instruction.step || index + 1)
+                    ? 'bg-green-500 text-white'
+                    : 'bg-orange-500 text-white group-hover:bg-orange-600'
+                }`}>
+                  {completedSteps.has(instruction.step || index + 1) ? '✓' : (instruction.step || index + 1)}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className={`leading-relaxed transition-all ${
+                    completedSteps.has(instruction.step || index + 1)
+                      ? 'text-gray-400 line-through'
+                      : 'text-gray-700 group-hover:text-gray-900'
+                  }`}>
+                    {instruction.description?.lt || 'Instrukcija'}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <p className="text-gray-500">Gaminimo instrukcijos nepateiktos</p>
+        )}
+      </div>
+    );
+  }
 
   return (
-    <>
-      <SEOHead seo={seoData}>
-        <RecipeSEOHead recipe={recipe} />
-      </SEOHead>
-
-      <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-gray-100 via-orange-50 to-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="max-w-4xl mx-auto">
             {/* Recipe Header */}
@@ -270,68 +313,46 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 
               {/* Instructions */}
               <div className="lg:col-span-2">
-                <div className="bg-white rounded-2xl shadow-lg p-6">
-                  <h2 className="text-xl font-bold text-gray-900 mb-6">
-                    Gaminimo instrukcijos
-                  </h2>
-                  {recipe.instructions && recipe.instructions.length > 0 ? (
-                    <ol className="space-y-4">
-                      {recipe.instructions.map((instruction, index) => (
-                        <li key={index} className="flex gap-4">
-                          <div className="flex-shrink-0 w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center font-semibold text-sm">
-                            {instruction.step || index + 1}
-                          </div>
-                          <div className="flex-1 min-w-0">
-                            <p className="text-gray-700 leading-relaxed">
-                              {instruction.description?.lt || 'Instrukcija'}
-                            </p>
-                          </div>
-                        </li>
-                      ))}
-                    </ol>
-                  ) : (
-                    <p className="text-gray-500">Gaminimo instrukcijos nepateiktos</p>
-                  )}
-                </div>
-
-                {/* Nutrition Info */}
-                {recipe.nutrition && (
-                  <div className="mt-6 pt-6 border-t border-gray-100">
-                    <h3 className="font-semibold text-gray-900 mb-4">Maistinė vertė</h3>
-                    <div className="space-y-3">
-                      {recipe.nutrition.calories && (
-                        <div className="flex justify-between items-center py-2 bg-gray-50 rounded-lg px-3">
-                          <span className="text-gray-700 font-medium">Kalorijos</span>
-                          <span className="font-bold text-orange-600">{recipe.nutrition.calories} kcal</span>
-                        </div>
-                      )}
-                      {recipe.nutrition.protein && (
-                        <div className="flex justify-between items-center py-2">
-                          <span className="text-gray-600">Baltymai</span>
-                          <span className="font-medium text-gray-900">{recipe.nutrition.protein}g</span>
-                        </div>
-                      )}
-                      {recipe.nutrition.carbs && (
-                        <div className="flex justify-between items-center py-2">
-                          <span className="text-gray-600">Angliavandeniai</span>
-                          <span className="font-medium text-gray-900">{recipe.nutrition.carbs}g</span>
-                        </div>
-                      )}
-                      {recipe.nutrition.fat && (
-                        <div className="flex justify-between items-center py-2">
-                          <span className="text-gray-600">Riebalai</span>
-                          <span className="font-medium text-gray-900">{recipe.nutrition.fat}g</span>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                )}
+                <InstructionsSection instructions={recipe.instructions} />
               </div>
             </div>
+
+            {/* Nutrition Info */}
+            {recipe.nutrition && (
+              <div className="mt-6 pt-6 border-t border-gray-100 bg-white rounded-2xl shadow-lg p-6">
+                <h3 className="font-semibold text-gray-900 mb-4">Maistinė vertė</h3>
+                <div className="space-y-3">
+                  {recipe.nutrition.calories && (
+                    <div className="flex justify-between items-center py-2 bg-gray-50 rounded-lg px-3">
+                      <span className="text-gray-700 font-medium">Kalorijos</span>
+                      <span className="font-bold text-orange-600">{recipe.nutrition.calories} kcal</span>
+                    </div>
+                  )}
+                  {recipe.nutrition.protein && (
+                    <div className="flex justify-between items-center py-2">
+                      <span className="text-gray-600">Baltymai</span>
+                      <span className="font-medium text-gray-900">{recipe.nutrition.protein}g</span>
+                    </div>
+                  )}
+                  {recipe.nutrition.carbs && (
+                    <div className="flex justify-between items-center py-2">
+                      <span className="text-gray-600">Angliavandeniai</span>
+                      <span className="font-medium text-gray-900">{recipe.nutrition.carbs}g</span>
+                    </div>
+                  )}
+                  {recipe.nutrition.fat && (
+                    <div className="flex justify-between items-center py-2">
+                      <span className="text-gray-600">Riebalai</span>
+                      <span className="font-medium text-gray-900">{recipe.nutrition.fat}g</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

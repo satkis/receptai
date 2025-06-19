@@ -8,7 +8,6 @@ import { MongoClient } from 'mongodb';
 import { useRouter } from 'next/router';
 
 import Breadcrumb from '../../../components/navigation/Breadcrumb';
-import Layout from '../../../components/layout/Layout';
 
 interface Category {
   _id: string;
@@ -359,7 +358,7 @@ export default function CategoryPage({
   ];
 
   return (
-    <Layout>
+    <>
       <Head>
         <title>{category.seo.metaTitle}</title>
         <meta name="description" content={category.seo.metaDescription} />
@@ -408,7 +407,7 @@ export default function CategoryPage({
 
         {/* Enhanced Recipe Grid */}
         {filteredRecipes.length > 0 ? (
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
             {filteredRecipes.map((recipe) => (
               <RecipeCard key={recipe._id} recipe={recipe} category={category} />
             ))}
@@ -427,7 +426,7 @@ export default function CategoryPage({
           </div>
         )}
       </div>
-    </Layout>
+    </>
   );
 }
 
@@ -456,9 +455,13 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
       return { notFound: true };
     }
 
-    // Build recipe query using primaryCategoryPath
+    // Build recipe query using both primaryCategoryPath and secondaryCategories
+    const categoryPath = `receptai/${categorySlug}`;
     const recipeQuery: any = {
-      primaryCategoryPath: `receptai/${categorySlug}`
+      $or: [
+        { primaryCategoryPath: categoryPath },
+        { secondaryCategories: categoryPath }
+      ]
     };
 
     // Add manual filter if specified
@@ -488,7 +491,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
     }
 
     console.log('🔍 Recipe query:', recipeQuery);
-    console.log('🔍 Looking for primaryCategoryPath:', `receptai/${categorySlug}`);
+    console.log('🔍 Looking for categoryPath in primaryCategoryPath OR secondaryCategories:', categoryPath);
 
     // Get recipes
     const recipes = await db.collection('recipes_new')

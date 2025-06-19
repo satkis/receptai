@@ -87,12 +87,13 @@ export default function Home({ totalRecipes }: HomeProps) {
                   <div className="flex flex-wrap gap-2">
                     <span className="text-sm text-gray-500">Populiaru:</span>
                     {['Cepelinai', 'Šaltibarščiai', 'Kugelis', 'Kibinai'].map((tag) => (
-                      <span
+                      <Link
                         key={tag}
+                        href={`/paieska?q=${encodeURIComponent(tag)}`}
                         className="bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs font-medium hover:bg-orange-100 hover:text-orange-700 transition-colors duration-200 cursor-pointer"
                       >
                         {tag}
-                      </span>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -137,9 +138,10 @@ export default function Home({ totalRecipes }: HomeProps) {
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
               {['Pirmieji patiekalai', 'Antrieji patiekalai', 'Saldumynai', 'Užkandžiai', 'Gėrimai', 'Salotos'].map((category) => (
-                <div
+                <Link
                   key={category}
-                  className="bg-orange-100 text-orange-800 hover:bg-orange-200 p-6 rounded-xl text-center transition-all duration-200 hover:scale-105 hover:shadow-md group cursor-pointer"
+                  href="/receptai"
+                  className="bg-orange-100 text-orange-800 hover:bg-orange-200 p-6 rounded-xl text-center transition-all duration-200 hover:scale-105 hover:shadow-md group cursor-pointer block"
                 >
                   <div className="flex flex-col items-center space-y-3">
                     <div className="p-3 bg-white/50 rounded-lg group-hover:bg-white/80 transition-colors duration-200">
@@ -147,7 +149,7 @@ export default function Home({ totalRecipes }: HomeProps) {
                     </div>
                     <span className="font-medium text-sm">{category}</span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -173,7 +175,7 @@ export default function Home({ totalRecipes }: HomeProps) {
                   Registruotis nemokamai
                 </Link>
                 <Link
-                  href="/recipes"
+                  href="/receptai"
                   className="border-2 border-white text-white hover:bg-white hover:text-orange-500 font-medium px-8 py-3 rounded-lg transition-colors duration-200"
                 >
                   Naršyti receptus

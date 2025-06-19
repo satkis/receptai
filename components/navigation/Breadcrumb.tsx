@@ -64,11 +64,11 @@ export default function Breadcrumb({ items, className = '', schemaData, containe
               {/* Home */}
               <li className="flex-shrink-0">
                 <Link
-                  href="/"
+                  href="/receptai"
                   className="text-gray-500 hover:text-orange-600 transition-colors flex items-center"
                 >
                   <span className="text-sm">🏠</span>
-                  <span className="sr-only">Pagrindinis</span>
+                  <span className="sr-only">Receptai</span>
                 </Link>
               </li>
 
@@ -106,11 +106,11 @@ export default function Breadcrumb({ items, className = '', schemaData, containe
                   {/* Home */}
                   <li className="flex-shrink-0">
                     <Link
-                      href="/"
+                      href="/receptai"
                       className="text-gray-500 hover:text-orange-600 transition-colors flex items-center"
                     >
                       <span className="text-sm">🏠</span>
-                      <span className="sr-only">Pagrindinis</span>
+                      <span className="sr-only">Receptai</span>
                     </Link>
                   </li>
 

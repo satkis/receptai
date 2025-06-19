@@ -3,11 +3,8 @@
 
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
-import { MongoClient, ObjectId } from 'mongodb';
-import Head from 'next/head';
-import Image from 'next/image';
+import { MongoClient } from 'mongodb';
 import { useRouter } from 'next/router';
-import Layout from '../../components/layout/Layout';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
 import SchemaOrgRecipe from '../../components/seo/SchemaOrgRecipe';
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../components/navigation/Breadcrumb';
@@ -42,7 +39,6 @@ interface Recipe {
   instructions: Array<{
     step: number;
     text: { lt: string; en?: string };
-    timeMinutes?: number;
     image?: string;
   }>;
 
@@ -51,7 +47,6 @@ interface Recipe {
     metaTitle: string;
     metaDescription: string;
     keywords: string[];
-    focusKeyword: string;
   };
 
   // Author & Publishing
@@ -244,16 +239,40 @@ function IngredientsSection({ ingredients }: { ingredients: Recipe['ingredients'
 
 // Instructions Section
 function InstructionsSection({ instructions }: { instructions: Recipe['instructions'] }) {
+  const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());
+
+  const toggleStep = (stepNumber: number) => {
+    const newCompleted = new Set(completedSteps);
+    if (newCompleted.has(stepNumber)) {
+      newCompleted.delete(stepNumber);
+    } else {
+      newCompleted.add(stepNumber);
+    }
+    setCompletedSteps(newCompleted);
+  };
+
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
       <h2 className="text-xl font-semibold text-gray-900 mb-6">Gaminimo instrukcijos</h2>
       <ol className="space-y-4">
         {instructions.map((instruction) => (
-          <li key={instruction.step} className="flex gap-4">
-            <span className="flex-shrink-0 w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm">
-              {instruction.step}
+          <li
+            key={instruction.step}
+            className="flex gap-4 cursor-pointer group"
+            onClick={() => toggleStep(instruction.step)}
+          >
+            <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm transition-colors ${
+              completedSteps.has(instruction.step)
+                ? 'bg-green-500 text-white'
+                : 'bg-orange-500 text-white group-hover:bg-orange-600'
+            }`}>
+              {completedSteps.has(instruction.step) ? '✓' : instruction.step}
             </span>
-            <p className="text-gray-700 leading-relaxed pt-1">
+            <p className={`leading-relaxed pt-1 transition-all ${
+              completedSteps.has(instruction.step)
+                ? 'text-gray-400 line-through'
+                : 'text-gray-700 group-hover:text-gray-900'
+            }`}>
               {instruction.text.lt}
             </p>
           </li>
@@ -284,7 +303,7 @@ export default function RecipePage({ recipe }: RecipePageProps) {
   const breadcrumbItems = generateRecipeBreadcrumbs(recipe, getNavigationPath());
 
   return (
-    <Layout>
+    <>
       <SchemaOrgRecipe recipe={recipe} />
 
       <div className="max-w-4xl mx-auto px-4 py-8">
@@ -314,7 +333,7 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 
         {/* Related Recipes section removed as requested */}
       </div>
-    </Layout>
+    </>
   );
 }
 
