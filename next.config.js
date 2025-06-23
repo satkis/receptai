@@ -52,12 +52,13 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
 
-  // Headers for SEO and security
+  // Enhanced security headers
   async headers() {
     return [
       {
         source: '/(.*)',
         headers: [
+          // Security Headers
           {
             key: 'X-Frame-Options',
             value: 'DENY',
@@ -67,12 +68,45 @@ const nextConfig = {
             value: 'nosniff',
           },
           {
+            key: 'X-XSS-Protection',
+            value: '1; mode=block',
+          },
+          {
             key: 'Referrer-Policy',
-            value: 'origin-when-cross-origin',
+            value: 'strict-origin-when-cross-origin',
           },
           {
             key: 'X-DNS-Prefetch-Control',
             value: 'on',
+          },
+          // HSTS (HTTP Strict Transport Security)
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=31536000; includeSubDomains; preload',
+          },
+          // Content Security Policy
+          {
+            key: 'Content-Security-Policy',
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' https://fonts.gstatic.com",
+              "img-src 'self' data: https: blob:",
+              "media-src 'self' https:",
+              "connect-src 'self' https://www.google-analytics.com https://ragaujam-images.s3.eu-north-1.amazonaws.com https://receptu-images.s3.eu-north-1.amazonaws.com",
+              "frame-src 'none'",
+              "object-src 'none'",
+              "base-uri 'self'",
+              "form-action 'self'",
+              "frame-ancestors 'none'",
+              "upgrade-insecure-requests"
+            ].join('; '),
+          },
+          // Permissions Policy (Feature Policy)
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()',
           },
         ],
       },

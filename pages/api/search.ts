@@ -3,6 +3,7 @@
 
 import { NextApiRequest, NextApiResponse } from 'next';
 import { MongoClient } from 'mongodb';
+import { searchApiSecurity } from '../../lib/security';
 import { 
   buildSearchAggregation, 
   getAvailableFilters, 
@@ -43,13 +44,10 @@ interface SearchResponse {
   };
 }
 
-export default async function handler(
-  req: NextApiRequest, 
+async function searchHandler(
+  req: NextApiRequest,
   res: NextApiResponse<SearchResponse | { error: string }>
 ) {
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
 
   const startTime = Date.now();
 
@@ -193,3 +191,6 @@ function validateSearchParams(query: SearchQuery): { isValid: boolean; errors: s
     errors
   };
 }
+
+// Export the secured handler
+export default searchApiSecurity(searchHandler);

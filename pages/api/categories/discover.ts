@@ -3,11 +3,9 @@
 
 import { NextApiRequest, NextApiResponse } from 'next';
 import clientPromise from '@/lib/mongodb';
+import { publicApiSecurity } from '../../../lib/security';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
+async function discoverHandler(req: NextApiRequest, res: NextApiResponse) {
 
   try {
     const client = await clientPromise;
@@ -176,3 +174,6 @@ function formatSlugToTitle(slug: string): string {
 function generateCategoryDescription(categoryTitle: string, recipeCount: number): string {
   return `Atraskite ${recipeCount} ${categoryTitle.toLowerCase()} receptų. Skanūs ir lengvi receptai su detaliais gaminimo instrukcijomis.`;
 }
+
+// Export the secured handler
+export default publicApiSecurity(discoverHandler);

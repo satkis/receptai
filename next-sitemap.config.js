@@ -6,8 +6,6 @@ module.exports = {
   exclude: [
     '/admin/*',
     '/api/*',
-    '/auth/*',
-    '/profile/*',
     '/server-sitemap-index.xml',
   ],
   additionalPaths: async (config) => {
@@ -66,7 +64,7 @@ module.exports = {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/admin/', '/api/', '/auth/', '/profile/'],
+        disallow: ['/admin/', '/api/'],
       },
     ],
     additionalSitemaps: [

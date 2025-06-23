@@ -3,11 +3,9 @@
 
 import { NextApiRequest, NextApiResponse } from 'next';
 import { MongoClient } from 'mongodb';
+import { recipeApiSecurity } from '../../../lib/security';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method !== 'GET') {
-    return res.status(405).json({ message: 'Method not allowed' });
-  }
+async function recipeHandler(req: NextApiRequest, res: NextApiResponse) {
 
   try {
     const { slug } = req.query;
@@ -49,3 +47,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     res.status(500).json({ message: 'Internal server error' });
   }
 }
+
+// Export the secured handler
+export default recipeApiSecurity(recipeHandler);
