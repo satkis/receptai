@@ -2,7 +2,7 @@
 
 ## 📋 **Overview**
 
-Complete implementation of query-based search system for Paragaujam.lt that replaces tag collections with direct search functionality, just like Lamaistas.lt.
+Complete implementation of query-based search system for Ragaujam.lt that replaces tag collections with direct search functionality, just like Lamaistas.lt.
 
 ## ✅ **What's Been Implemented**
 

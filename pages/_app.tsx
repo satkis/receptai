@@ -59,12 +59,12 @@ export default function App({ Component, pageProps }: AppProps) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "url": "https://paragaujam.lt/",
-              "name": "Paragaujam.lt",
+              "url": "https://ragaujam.lt/",
+              "name": "Ragaujam.lt",
               "description": "Geriausi lietuviški receptai su nuotraukomis ir instrukcijomis",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://paragaujam.lt/paieska?q={search_term_string}",
+                "target": "https://ragaujam.lt/paieska?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             })

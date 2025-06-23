@@ -3,22 +3,22 @@
 
 export const SEO_CONFIG = {
   // Site Information
-  siteName: 'Paragaujam.lt',
+  siteName: 'Ragaujam.lt',
   siteDescription: 'Geriausi lietuviški receptai su interaktyviomis funkcijomis. Ruoškite skaniai ir lengvai kartu su mumis!',
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt',
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt',
   defaultLanguage: 'lt',
   supportedLanguages: ['lt', 'en'],
   
   // Social Media
   social: {
-    facebook: 'https://facebook.com/paragaujam',
-    instagram: 'https://instagram.com/paragaujam',
-    twitter: '@paragaujam',
+    facebook: 'https://facebook.com/ragaujam',
+    instagram: 'https://instagram.com/ragaujam',
+    twitter: '@ragaujam',
   },
-  
+
   // Contact Information
   contact: {
-    email: 'info@paragaujam.lt',
+    email: 'info@ragaujam.lt',
     phone: '+370 600 12345',
   },
   
@@ -43,7 +43,7 @@ export const SEO_CONFIG = {
   
   // Default Meta Tags
   defaultMeta: {
-    title: 'Paragaujam.lt - Lietuviški receptai',
+    title: 'Ragaujam.lt - Lietuviški receptai',
     description: 'Geriausi lietuviški receptai su interaktyviomis funkcijomis. Ruoškite skaniai ir lengvai kartu su mumis!',
     keywords: [
       'lietuviški receptai',
@@ -57,7 +57,7 @@ export const SEO_CONFIG = {
       'kepsniai',
       'tradiciniai patiekalai'
     ],
-    author: 'Paragaujam.lt',
+    author: 'Ragaujam.lt',
     robots: 'index, follow',
     viewport: 'width=device-width, initial-scale=1',
     charset: 'utf-8'
@@ -67,13 +67,13 @@ export const SEO_CONFIG = {
   openGraph: {
     type: 'website',
     locale: 'lt_LT',
-    siteName: 'Paragaujam.lt',
+    siteName: 'Ragaujam.lt',
     images: [
       {
         url: '/images/og-default.jpg',
         width: 1200,
         height: 630,
-        alt: 'Paragaujam.lt - Lietuviški receptai'
+        alt: 'Ragaujam.lt - Lietuviški receptai'
       }
     ]
   },
@@ -81,8 +81,8 @@ export const SEO_CONFIG = {
   // Twitter Card Defaults
   twitter: {
     card: 'summary_large_image',
-    site: '@paragaujam',
-    creator: '@paragaujam'
+    site: '@ragaujam',
+    creator: '@ragaujam'
   },
   
   // Structured Data Templates
@@ -90,15 +90,15 @@ export const SEO_CONFIG = {
     website: {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: 'Paragaujam.lt',
-      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt',
+      name: 'Ragaujam.lt',
+      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt',
       description: 'Lietuviškų receptų svetainė su interaktyviomis funkcijomis',
       inLanguage: 'lt',
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt'}/receptai?search={search_term_string}`
+          urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt'}/receptai?search={search_term_string}`
         },
         'query-input': 'required name=search_term_string'
       }
@@ -114,13 +114,13 @@ export const SEO_CONFIG = {
       changefreq: 'daily'
     },
     category: {
-      titleTemplate: '%s receptai - Paragaujam.lt',
+      titleTemplate: '%s receptai - Ragaujam.lt',
       descriptionTemplate: 'Atraskite geriausius %s receptus. Paprasti ir skanūs patiekalai su detaliais gaminimo instrukcijomis.',
       priority: 0.8,
       changefreq: 'weekly'
     },
     subcategory: {
-      titleTemplate: '%s - %s receptai | Paragaujam.lt',
+      titleTemplate: '%s - %s receptai | Ragaujam.lt',
       descriptionTemplate: '%s receptai kategorijoje %s. Išsamūs gaminimo instrukcijos ir ingredientų sąrašai.',
       priority: 0.7,
       changefreq: 'weekly'

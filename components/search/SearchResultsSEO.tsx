@@ -13,7 +13,7 @@ export default function SearchResultsSEO({
   currentPage = 1, 
   totalPages = 1 
 }: SearchResultsSEOProps) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   const searchUrl = `${baseUrl}/paieska?q=${encodeURIComponent(query)}`;
   
   // Clean query for display
@@ -22,8 +22,8 @@ export default function SearchResultsSEO({
   
   // Generate title and description
   const title = isValidQuery 
-    ? `"${cleanQuery}" receptų paieška - ${totalResults} rezultatai | Paragaujam.lt`
-    : 'Receptų paieška | Paragaujam.lt';
+    ? `"${cleanQuery}" receptų paieška - ${totalResults} rezultatai | Ragaujam.lt`
+    : 'Receptų paieška | Ragaujam.lt';
     
   const description = isValidQuery
     ? `Rasta ${totalResults} receptų pagal "${cleanQuery}". Atraskite geriausius lietuviškus receptus su nuotraukomis ir instrukcijomis.`
@@ -87,7 +87,7 @@ export default function SearchResultsSEO({
       <meta property="og:description" content={description} />
       <meta property="og:url" content={searchUrl} />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Paragaujam.lt" />
+      <meta property="og:site_name" content="Ragaujam.lt" />
       <meta property="og:locale" content="lt_LT" />
       <meta property="og:image" content={`${baseUrl}/og-search-image.jpg`} />
 

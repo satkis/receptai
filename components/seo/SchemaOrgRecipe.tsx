@@ -33,7 +33,7 @@ export default function SchemaOrgRecipe({ recipe, includeBreadcrumbs = true }: S
       <meta property="og:image:alt" content={seoData.ogImageAlt} />
       <meta property="og:url" content={seoData.canonicalUrl} />
       <meta property="og:type" content="article" />
-      <meta property="og:site_name" content="Paragaujam.lt" />
+      <meta property="og:site_name" content="Ragaujam.lt" />
       <meta property="og:locale" content="lt_LT" />
 
       {/* Twitter Card Tags */}
@@ -63,7 +63,7 @@ export default function SchemaOrgRecipe({ recipe, includeBreadcrumbs = true }: S
 
       {/* Additional SEO Meta Tags */}
       <meta name="robots" content="index, follow" />
-      <meta name="author" content="Paragaujam.lt" />
+      <meta name="author" content="Ragaujam.lt" />
       <meta name="language" content="lt" />
     </Head>
   );

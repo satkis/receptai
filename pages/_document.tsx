@@ -66,7 +66,7 @@ export default function Document() {
         {/* Apple-specific meta tags */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Paragaujam.lt" />
+        <meta name="apple-mobile-web-app-title" content="Ragaujam.lt" />
 
         {/* Microsoft-specific meta tags */}
         <meta name="msapplication-config" content="/browserconfig.xml" />
@@ -78,9 +78,9 @@ export default function Document() {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'Paragaujam.lt',
-              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt',
-              logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt'}/images/logo.png`,
+              name: 'Ragaujam.lt',
+              url: process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt',
+              logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt'}/images/logo.png`,
               description: 'Lietuviškų receptų svetainė su interaktyviomis funkcijomis',
               contactPoint: {
                 '@type': 'ContactPoint',
@@ -89,8 +89,8 @@ export default function Document() {
                 availableLanguage: ['Lithuanian', 'English']
               },
               sameAs: [
-                'https://facebook.com/paragaujam',
-                'https://instagram.com/paragaujam'
+                'https://facebook.com/ragaujam',
+                'https://instagram.com/ragaujam'
               ]
             })
           }}

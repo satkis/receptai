@@ -160,7 +160,7 @@ recipesNeedingSEO.forEach(recipe => {
   const servings = recipe.servings || 4;
   
   // Generate SEO-optimized meta title (max 60 characters)
-  const metaTitle = `${title} - Receptas | Paragaujam.lt`.substring(0, 60);
+  const metaTitle = `${title} - Receptas | Ragaujam.lt`.substring(0, 60);
   
   // Generate SEO-optimized meta description (max 155 characters)
   const metaDescription = `${description} Gaminimo laikas: ${totalTime} min. Porcijų: ${servings}.`.substring(0, 155);

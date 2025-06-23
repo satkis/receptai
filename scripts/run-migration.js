@@ -251,7 +251,7 @@ async function runDataValidation(db) {
       const totalTime = recipe.totalTimeMinutes || 30;
       const servings = recipe.servings || 4;
       
-      const metaTitle = `${title} - Receptas | Paragaujam.lt`.substring(0, 60);
+      const metaTitle = `${title} - Receptas | Ragaujam.lt`.substring(0, 60);
       const metaDescription = `${description} Gaminimo laikas: ${totalTime} min. Porcijų: ${servings}.`.substring(0, 155);
       const canonicalUrl = `/receptai/${recipe.categoryPath}/${recipe.slug}`;
       

@@ -16,10 +16,10 @@ async function addMissingCategories() {
       title: { lt: "Sriubos" },
       slug: "sriubos",
       seo: {
-        metaTitle: "Sriubos - receptai | Paragaujam.lt",
+        metaTitle: "Sriubos - receptai | Ragaujam.lt",
         metaDescription: "Geriausi sriubų receptai. Šiltos ir šaltos sriubos, vegetariškos ir mėsiškos.",
         keywords: ["sriubos", "vegetariška sriuba", "pupelių sriuba", "žiemos sriubos"],
-        canonicalUrl: "https://paragaujam.lt/receptai/sriubos"
+        canonicalUrl: "https://ragaujam.lt/receptai/sriubos"
       },
       filters: {
         manual: [

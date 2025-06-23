@@ -169,7 +169,7 @@ Content-focused recipe website with advanced filtering and search capabilities
 ```javascript
 {
   slug: "unique-recipe-identifier",
-  canonicalUrl: "https://paragaujam.lt/receptas/[slug]",
+  canonicalUrl: "https://ragaujam.lt/receptas/[slug]",
   title: { lt: "Lithuanian title" },
   description: { lt: "Recipe description" },
   primaryCategoryPath: "receptai/category-name",

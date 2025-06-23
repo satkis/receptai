@@ -53,10 +53,10 @@ export default function SubcategoryPage({
   return (
     <>
       <Head>
-        <title>{subcategoryName} receptai | Paragaujam.lt</title>
+        <title>{subcategoryName} receptai | Ragaujam.lt</title>
         <meta name="description" content={`Atraskite geriausius ${subcategoryName.toLowerCase()} receptus kategorijoje ${categoryName}.`} />
         <meta name="keywords" content={`${subcategoryName}, ${categoryName}, receptai, lietuviški receptai, maistas`} />
-        <link rel="canonical" href={`https://paragaujam.lt/receptai/${categorySlug}/${subcategorySlug}`} />
+        <link rel="canonical" href={`https://ragaujam.lt/receptai/${categorySlug}/${subcategorySlug}`} />
       </Head>
 
       <div className="max-w-7xl mx-auto px-4 py-8">

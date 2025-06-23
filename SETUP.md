@@ -1,4 +1,4 @@
-# 🚀 Paragaujam.lt Setup Guide
+# 🚀 Ragaujam.lt Setup Guide
 
 Welcome to your Lithuanian recipe website! Follow these steps to get your website up and running.
 
@@ -27,7 +27,7 @@ Edit `.env.local` with your actual values:
 #### Required for basic functionality:
 ```env
 # Database (MongoDB Atlas - free tier available)
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/paragaujam?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/ragaujam?retryWrites=true&w=majority
 
 # NextAuth (generate a random secret)
 NEXTAUTH_URL=http://localhost:3000

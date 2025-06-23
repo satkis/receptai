@@ -82,7 +82,7 @@ export default function Header() {
                 <span className="text-white text-lg">👨‍🍳</span>
               </div>
               <span className="text-xl font-bold text-gray-900">
-                Paragaujam.lt
+                Ragaujam.lt
               </span>
             </Link>
           </div>

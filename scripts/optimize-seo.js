@@ -27,9 +27,9 @@ async function optimizeSEO() {
       const servingsText = recipe.servings ? `${recipe.servings} porcijos` : '';
       
       // Generate optimized meta title (max 60 chars)
-      let metaTitle = `${title} - Paragaujam.lt`;
+      let metaTitle = `${title} - Ragaujam.lt`;
       if (metaTitle.length > 60) {
-        metaTitle = `${title.substring(0, 50)}... - Paragaujam.lt`;
+        metaTitle = `${title.substring(0, 50)}... - Ragaujam.lt`;
       }
       
       // Generate optimized meta description (max 160 chars)
@@ -58,7 +58,7 @@ async function optimizeSEO() {
         "image": recipe.image || "/images/placeholder-recipe.jpg",
         "author": {
           "@type": "Organization",
-          "name": "Paragaujam.lt"
+          "name": "Ragaujam.lt"
         },
         "datePublished": recipe.publishedAt || recipe.createdAt,
         "prepTime": `PT${recipe.prepTimeMinutes || 15}M`,

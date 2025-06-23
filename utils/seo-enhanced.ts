@@ -39,7 +39,7 @@ export interface SEOData {
 // Generate SEO data for homepage
 export function generateHomepageSEO(): SEOData {
   const seo = generatePageSEO('homepage', {
-    title: 'Paragaujam.lt',
+    title: 'Ragaujam.lt',
     description: SEO_CONFIG.siteDescription,
     url: '/',
     keywords: ['lietuviški receptai', 'receptų svetainė', 'gaminimas', 'virtuvė']

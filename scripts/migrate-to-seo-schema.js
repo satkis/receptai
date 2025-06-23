@@ -13,7 +13,7 @@ function generateSEOMetadata(recipe) {
   const description = recipe.description?.lt || recipe.description || '';
   
   // Generate meta title
-  const metaTitle = `${title} - Paragaujam.lt`;
+  const metaTitle = `${title} - Ragaujam.lt`;
   
   // Generate meta description
   const metaDescription = `${description} Receptas su nuotraukomis ir instrukcijomis. Idealus šeimai!`.substring(0, 160);
@@ -41,7 +41,7 @@ function generateSEOMetadata(recipe) {
 function generateSchemaOrg(recipe) {
   const title = recipe.title?.lt || recipe.title || 'Receptas';
   const description = recipe.description?.lt || recipe.description || '';
-  const baseUrl = 'https://paragaujam.lt';
+  const baseUrl = 'https://ragaujam.lt';
   
   // Format duration (PT15M format)
   const formatDuration = (minutes) => {
@@ -72,12 +72,12 @@ function generateSchemaOrg(recipe) {
     image: [recipe.image?.src || recipe.image?.url || recipe.image || ''],
     author: {
       '@type': 'Organization',
-      name: 'Paragaujam.lt',
+      name: 'Ragaujam.lt',
       url: baseUrl
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Paragaujam.lt',
+      name: 'Ragaujam.lt',
       url: baseUrl,
       logo: {
         '@type': 'ImageObject',
@@ -155,7 +155,7 @@ async function migrateRecipesToSEOSchema() {
       // Prepare update
       const updateData = {
         // Add canonical URL
-        canonicalUrl: `https://paragaujam.lt/receptas/${recipe.slug}`,
+        canonicalUrl: `https://ragaujam.lt/receptas/${recipe.slug}`,
         
         // Add SEO metadata
         seo,

@@ -21,7 +21,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
                 <span className="text-white text-lg">👨‍🍳</span>
               </div>
-              <span className="text-xl font-bold">Paragaujam.lt</span>
+              <span className="text-xl font-bold">Ragaujam.lt</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Geriausi lietuviški receptai. Ruoškite skaniai ir lengvai kartu su mumis!
@@ -30,7 +30,7 @@ export default function Footer() {
 
           {/* Footer Links */}
           <div>
-            <h3 className="text-sm font-semibold mb-4">Paragaujam.lt © {currentYear}</h3>
+            <h3 className="text-sm font-semibold mb-4">Ragaujam.lt © {currentYear}</h3>
             <ul className="space-y-2">
               {footerLinks.recipes.map((link) => (
                 <li key={link.name}>

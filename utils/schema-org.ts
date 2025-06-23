@@ -8,7 +8,7 @@ import { Recipe, RecipeSchemaOrg } from '@/types';
  * Based on Google's Recipe guidelines: https://developers.google.com/search/docs/appearance/structured-data/recipe
  */
 export function generateRecipeSchemaOrg(recipe: Recipe): RecipeSchemaOrg {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   
   // Convert time to ISO 8601 duration format (PT15M = 15 minutes)
   const formatDuration = (minutes: number): string => {
@@ -73,7 +73,7 @@ export function generateRecipeSchemaOrg(recipe: Recipe): RecipeSchemaOrg {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Paragaujam.lt',
+      name: 'Ragaujam.lt',
       url: baseUrl,
       logo: {
         '@type': 'ImageObject',
@@ -116,11 +116,11 @@ export function generateRecipeSchemaOrg(recipe: Recipe): RecipeSchemaOrg {
  * Generate SEO metadata for recipe
  */
 export function generateRecipeSEO(recipe: Recipe) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   
   // Generate meta title if not provided
   const metaTitle = recipe.seo?.metaTitle || 
-    `${recipe.title.lt} - Paragaujam.lt`;
+    `${recipe.title.lt} - Ragaujam.lt`;
 
   // Generate meta description if not provided
   const metaDescription = recipe.seo?.metaDescription || 
@@ -156,7 +156,7 @@ export function generateRecipeSitemapData(recipe: Recipe) {
  * Generate breadcrumb structured data
  */
 export function generateBreadcrumbSchema(breadcrumbs: Array<{ name: string; url: string }>) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   
   return {
     '@context': 'https://schema.org',

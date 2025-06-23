@@ -36,13 +36,13 @@ function generateSEO(title, isSubcategory = false, parentTitle = '') {
   let metaTitle, metaDescription, keywords, canonicalUrl;
   
   if (isSubcategory) {
-    metaTitle = `${title} receptai - ${parentTitle} | Paragaujam.lt`;
+    metaTitle = `${title} receptai - ${parentTitle} | Ragaujam.lt`;
     metaDescription = `Geriausi ${lowerTitle} receptai su nuotraukomis ir detaliais gaminimo instrukcijomis. Autentiški lietuviški ir tarptautiniai ${lowerTitle} patiekalai.`;
-    canonicalUrl = `https://paragaujam.lt/receptai/${createSlug(parentTitle)}/${slug}`;
+    canonicalUrl = `https://ragaujam.lt/receptai/${createSlug(parentTitle)}/${slug}`;
   } else {
-    metaTitle = `${title} receptai - Paragaujam.lt`;
+    metaTitle = `${title} receptai - Ragaujam.lt`;
     metaDescription = `Atraskite geriausius ${lowerTitle} receptus. Lengvi ir skanūs ${lowerTitle} patiekalai su nuotraukomis ir instrukcijomis kiekvienai dienai.`;
-    canonicalUrl = `https://paragaujam.lt/receptai/${slug}`;
+    canonicalUrl = `https://ragaujam.lt/receptai/${slug}`;
   }
   
   keywords = [lowerTitle, `${lowerTitle} receptai`, 'lietuviški receptai', 'maistas', 'gaminimas'];

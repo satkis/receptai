@@ -8,11 +8,11 @@
 const recipes = [
   {
     slug: "cepelinai-su-mesa",
-    canonicalUrl: "https://paragaujam.lt/receptas/cepelinai-su-mesa",
+    canonicalUrl: "https://ragaujam.lt/receptas/cepelinai-su-mesa",
     title: { lt: "Cepelinai su mėsa" },
     description: { lt: "Tradiciniai lietuviški cepelinai su mėsos įdaru. Sotus ir skanus nacionalinis patiekalas." },
     seo: {
-      metaTitle: "Cepelinai su mėsa - Tradicinis lietuviškas receptas | Paragaujam.lt",
+      metaTitle: "Cepelinai su mėsa - Tradicinis lietuviškas receptas | Ragaujam.lt",
       metaDescription: "Autentiškas cepelinų su mėsa receptas. Tradicinis lietuviškas patiekalas su bulvių tešla ir mėsos įdaru.",
       keywords: ["cepelinai", "lietuviškas receptas", "mėsos įdaras", "bulvės", "tradicinis"],
       focusKeyword: "cepelinai su mėsa"
@@ -55,7 +55,7 @@ const recipes = [
     rating: { average: 4.9, count: 45 },
     engagement: { views: 0, saves: 0, shares: 0, commentsCount: 0, avgTimeOnPage: 240, bounceRate: 0.15 },
     tags: ["cepelinai", "lietuviškas", "tradicinis", "mėsa", "bulvės", "karsti-patiekalai"],
-    author: { userId: null, name: "Paragaujam.lt", profileUrl: "https://paragaujam.lt" },
+    author: { userId: null, name: "Ragaujam.lt", profileUrl: "https://ragaujam.lt" },
     status: "published",
     featured: true,
     trending: true,
@@ -68,11 +68,11 @@ const recipes = [
 
   {
     slug: "saltibarsciai-su-bulvemis",
-    canonicalUrl: "https://paragaujam.lt/receptas/saltibarsciai-su-bulvemis",
+    canonicalUrl: "https://ragaujam.lt/receptas/saltibarsciai-su-bulvemis",
     title: { lt: "Šaltibarščiai su bulvėmis" },
     description: { lt: "Gaivūs lietuviški šaltibarščiai su bulvėmis ir kiaušiniais. Puikus vasaros pietų pasirinkimas." },
     seo: {
-      metaTitle: "Šaltibarščiai su bulvėmis - Vasaros sriuba | Paragaujam.lt",
+      metaTitle: "Šaltibarščiai su bulvėmis - Vasaros sriuba | Ragaujam.lt",
       metaDescription: "Tradiciniai lietuviški šaltibarščiai su bulvėmis. Gaivi ir sveika vasaros sriuba su burokėliais.",
       keywords: ["šaltibarščiai", "vasaros sriuba", "burokėliai", "bulvės", "gaivus"],
       focusKeyword: "šaltibarščiai"
@@ -115,7 +115,7 @@ const recipes = [
     rating: { average: 4.7, count: 32 },
     engagement: { views: 0, saves: 0, shares: 0, commentsCount: 0, avgTimeOnPage: 150, bounceRate: 0.25 },
     tags: ["šaltibarščiai", "sriuba", "vasara", "gaivus", "lietuviškas", "burokėliai"],
-    author: { userId: null, name: "Paragaujam.lt", profileUrl: "https://paragaujam.lt" },
+    author: { userId: null, name: "Ragaujam.lt", profileUrl: "https://ragaujam.lt" },
     status: "published",
     featured: false,
     trending: false,
@@ -124,16 +124,15 @@ const recipes = [
     publishedAt: new Date("2024-01-12T14:00:00+02:00"),
     createdAt: new Date("2024-01-12T13:30:00+02:00"),
     updatedAt: new Date()
-  }
-];
+  },
 
   {
     slug: "bulviu-kugelis-tradicinis",
-    canonicalUrl: "https://paragaujam.lt/receptas/bulviu-kugelis-tradicinis",
+    canonicalUrl: "https://ragaujam.lt/receptas/bulviu-kugelis-tradicinis",
     title: { lt: "Bulvių kugelis tradicinis" },
     description: { lt: "Tradicinis lietuviškas bulvių kugelis su šonine. Keptas orkaitėje auksinės spalvos patiekalas." },
     seo: {
-      metaTitle: "Bulvių kugelis - Tradicinis lietuviškas receptas | Paragaujam.lt",
+      metaTitle: "Bulvių kugelis - Tradicinis lietuviškas receptas | Ragaujam.lt",
       metaDescription: "Autentiškas bulvių kugelio receptas su šonine. Tradicinis lietuviškas keptas patiekalas.",
       keywords: ["bulvių kugelis", "kugelis", "lietuviškas", "šoninė", "keptas"],
       focusKeyword: "bulvių kugelis"
@@ -175,7 +174,7 @@ const recipes = [
     rating: { average: 4.8, count: 38 },
     engagement: { views: 0, saves: 0, shares: 0, commentsCount: 0, avgTimeOnPage: 200, bounceRate: 0.18 },
     tags: ["kugelis", "bulvės", "lietuviškas", "tradicinis", "keptas", "šoninė"],
-    author: { userId: null, name: "Paragaujam.lt", profileUrl: "https://paragaujam.lt" },
+    author: { userId: null, name: "Ragaujam.lt", profileUrl: "https://ragaujam.lt" },
     status: "published",
     featured: true,
     trending: false,
@@ -188,11 +187,11 @@ const recipes = [
 
   {
     slug: "kibinai-su-mesa",
-    canonicalUrl: "https://paragaujam.lt/receptas/kibinai-su-mesa",
+    canonicalUrl: "https://ragaujam.lt/receptas/kibinai-su-mesa",
     title: { lt: "Kibinai su mėsa" },
     description: { lt: "Tradiciniai Trakų kibinai su mėsos įdaru. Traškūs ir skanūs kepiniai su istorija." },
     seo: {
-      metaTitle: "Kibinai su mėsa - Trakų specialybė | Paragaujam.lt",
+      metaTitle: "Kibinai su mėsa - Trakų specialybė | Ragaujam.lt",
       metaDescription: "Autentiški Trakų kibinai su mėsos įdaru. Tradicinis karaimų patiekalas su traškia tešla.",
       keywords: ["kibinai", "Trakai", "karaimai", "mėsa", "kepiniai"],
       focusKeyword: "kibinai"
@@ -235,7 +234,7 @@ const recipes = [
     rating: { average: 4.9, count: 52 },
     engagement: { views: 0, saves: 0, shares: 0, commentsCount: 0, avgTimeOnPage: 220, bounceRate: 0.12 },
     tags: ["kibinai", "Trakai", "karaimai", "mėsa", "kepiniai", "tradicinis"],
-    author: { userId: null, name: "Paragaujam.lt", profileUrl: "https://paragaujam.lt" },
+    author: { userId: null, name: "Ragaujam.lt", profileUrl: "https://ragaujam.lt" },
     status: "published",
     featured: true,
     trending: true,
@@ -248,11 +247,11 @@ const recipes = [
 
   {
     slug: "balandėliai-su-mėsa",
-    canonicalUrl: "https://paragaujam.lt/receptas/balandėliai-su-mėsa",
+    canonicalUrl: "https://ragaujam.lt/receptas/balandėliai-su-mėsa",
     title: { lt: "Balandėliai su mėsa ir ryžiais" },
     description: { lt: "Tradiciniai lietuviški balandėliai su mėsos ir ryžių įdaru. Trošti pomidorų padaže." },
     seo: {
-      metaTitle: "Balandėliai su mėsa - Lietuviškas receptas | Paragaujam.lt",
+      metaTitle: "Balandėliai su mėsa - Lietuviškas receptas | Ragaujam.lt",
       metaDescription: "Tradiciniai balandėliai su mėsa ir ryžiais. Trošti pomidorų padaže lietuviškas patiekalas.",
       keywords: ["balandėliai", "mėsa", "ryžiai", "kopūstai", "troškinys"],
       focusKeyword: "balandėliai"
@@ -295,7 +294,7 @@ const recipes = [
     rating: { average: 4.6, count: 29 },
     engagement: { views: 0, saves: 0, shares: 0, commentsCount: 0, avgTimeOnPage: 190, bounceRate: 0.22 },
     tags: ["balandėliai", "mėsa", "ryžiai", "kopūstai", "troškinys", "lietuviškas"],
-    author: { userId: null, name: "Paragaujam.lt", profileUrl: "https://paragaujam.lt" },
+    author: { userId: null, name: "Ragaujam.lt", profileUrl: "https://ragaujam.lt" },
     status: "published",
     featured: false,
     trending: false,
@@ -308,11 +307,11 @@ const recipes = [
 
   {
     slug: "skilandis-naminis",
-    canonicalUrl: "https://paragaujam.lt/receptas/skilandis-naminis",
+    canonicalUrl: "https://ragaujam.lt/receptas/skilandis-naminis",
     title: { lt: "Naminis skilandis" },
     description: { lt: "Tradicinis lietuviškas naminis skilandis. Rūkytas ir džiovintas mėsos gaminys su prieskoniais." },
     seo: {
-      metaTitle: "Naminis skilandis - Tradicinis receptas | Paragaujam.lt",
+      metaTitle: "Naminis skilandis - Tradicinis receptas | Ragaujam.lt",
       metaDescription: "Autentiškas naminio skilandžio receptas. Tradicinis lietuviškas rūkytas mėsos gaminys.",
       keywords: ["skilandis", "naminis", "rūkytas", "mėsa", "tradicinis"],
       focusKeyword: "naminis skilandis"
@@ -354,7 +353,7 @@ const recipes = [
     rating: { average: 4.9, count: 18 },
     engagement: { views: 0, saves: 0, shares: 0, commentsCount: 0, avgTimeOnPage: 300, bounceRate: 0.08 },
     tags: ["skilandis", "naminis", "rūkytas", "mėsa", "tradicinis", "užkandis"],
-    author: { userId: null, name: "Paragaujam.lt", profileUrl: "https://paragaujam.lt" },
+    author: { userId: null, name: "Ragaujam.lt", profileUrl: "https://ragaujam.lt" },
     status: "published",
     featured: true,
     trending: false,
@@ -376,16 +375,16 @@ recipes.forEach(recipe => {
     "image": [recipe.image.src],
     "author": {
       "@type": "Organization",
-      "name": "Paragaujam.lt",
-      "url": "https://paragaujam.lt"
+      "name": "Ragaujam.lt",
+      "url": "https://ragaujam.lt"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Paragaujam.lt",
-      "url": "https://paragaujam.lt",
+      "name": "Ragaujam.lt",
+      "url": "https://ragaujam.lt",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://paragaujam.lt/logo.png",
+        "url": "https://ragaujam.lt/logo.png",
         "width": 600,
         "height": 60
       }

@@ -143,10 +143,10 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
   return (
     <>
       <Head>
-        <title>Visi receptai | Paragaujam.lt</title>
+        <title>Visi receptai | Ragaujam.lt</title>
         <meta name="description" content={`Atraskite visus ${totalRecipes} receptus mūsų duomenų bazėje. Lietuviški receptai su detaliais aprašymais ir nuotraukomis.`} />
         <meta name="keywords" content="receptai, lietuviški receptai, maistas, gaminimas, virtuvė" />
-        <link rel="canonical" href="https://paragaujam.lt/receptai" />
+        <link rel="canonical" href="https://ragaujam.lt/receptai" />
       </Head>
 
       <div className="max-w-7xl mx-auto px-4 py-8">

@@ -60,7 +60,7 @@ interface HomepageSEOProps extends BaseSEOProps {
 type UnifiedSEOProps = RecipeSEOProps | CategorySEOProps | SearchSEOProps | HomepageSEOProps;
 
 export default function UnifiedSEO(props: UnifiedSEOProps) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   const canonical = props.canonical || `${baseUrl}${getCanonicalPath(props)}`;
   const imageUrl = props.image || `${baseUrl}/og-image.jpg`;
 
@@ -180,7 +180,7 @@ function generateRecipeStructuredData(recipe: any, baseUrl: string): any {
     "url": `${baseUrl}/receptas/${recipe.slug}`,
     "author": {
       "@type": "Organization",
-      "name": "Paragaujam.lt"
+      "name": "Ragaujam.lt"
     },
     "datePublished": recipe.publishedAt || new Date().toISOString(),
     "totalTime": `PT${recipe.totalTimeMinutes || 30}M`,

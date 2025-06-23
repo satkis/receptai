@@ -1,5 +1,5 @@
 # 📋 Product Requirements Document (PRD)
-# Paragaujam.lt - Lithuanian Recipe Website
+# Ragaujam.lt - Lithuanian Recipe Website
 
 **Version**: 2.0  
 **Date**: January 2025  
@@ -387,13 +387,13 @@ const nextConfig = {
   <title>{recipe.seo.metaTitle}</title>
   <meta name="description" content={recipe.seo.metaDescription} />
   <meta name="keywords" content={recipe.seo.keywords.join(', ')} />
-  <link rel="canonical" href={`https://paragaujam.lt/receptas/${recipe.slug}`} />
+  <link rel="canonical" href={`https://ragaujam.lt/receptas/${recipe.slug}`} />
 
   {/* Open Graph */}
   <meta property="og:title" content={recipe.seo.metaTitle} />
   <meta property="og:description" content={recipe.seo.metaDescription} />
-  <meta property="og:image" content={`https://paragaujam.lt${recipe.image}`} />
-  <meta property="og:url" content={`https://paragaujam.lt/receptas/${recipe.slug}`} />
+  <meta property="og:image" content={`https://ragaujam.lt${recipe.image}`} />
+  <meta property="og:url" content={`https://ragaujam.lt/receptas/${recipe.slug}`} />
   <meta property="og:type" content="article" />
 
   {/* Recipe Structured Data */}

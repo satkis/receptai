@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://paragaujam.lt',
+  siteUrl: process.env.SITE_URL || 'https://ragaujam.lt',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: [
@@ -70,7 +70,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      `${process.env.SITE_URL || 'https://paragaujam.lt'}/server-sitemap-index.xml`,
+      `${process.env.SITE_URL || 'https://ragaujam.lt'}/server-sitemap-index.xml`,
     ],
   },
   transform: async (config, path) => {

@@ -339,7 +339,7 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const slug = params?.slug as string;
-  
+
   if (!slug) {
     return { notFound: true };
   }
@@ -347,11 +347,11 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   try {
     const client = new MongoClient(process.env.MONGODB_URI!);
     await client.connect();
-    const db = client.db();
+    const db = client.db('receptai');
 
-    // Get recipe
+    // Get recipe from recipes_new collection
     const recipe = await db.collection('recipes_new').findOne({ slug });
-    
+
     if (!recipe) {
       await client.close();
       return { notFound: true };

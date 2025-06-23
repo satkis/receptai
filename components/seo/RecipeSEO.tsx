@@ -43,12 +43,12 @@ interface RecipeSEOProps {
 }
 
 export default function RecipeSEO({ recipe }: RecipeSEOProps) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   const recipeUrl = `${baseUrl}/receptas/${recipe.slug}`;
   const imageUrl = `${baseUrl}${recipe.image}`;
 
   // Generate fallback SEO data if missing
-  const seoTitle = recipe.seo?.metaTitle || `${recipe.title.lt} - Paragaujam.lt`;
+  const seoTitle = recipe.seo?.metaTitle || `${recipe.title.lt} - Ragaujam.lt`;
   const seoDescription = recipe.seo?.metaDescription || recipe.description.lt;
   const seoKeywords = recipe.seo?.keywords || recipe.tags;
 
@@ -61,7 +61,7 @@ export default function RecipeSEO({ recipe }: RecipeSEOProps) {
     "image": [imageUrl],
     "author": {
       "@type": "Organization",
-      "name": "Paragaujam.lt"
+      "name": "Ragaujam.lt"
     },
     "datePublished": recipe.publishedAt || new Date().toISOString(),
     "prepTime": recipe.prepTimeMinutes ? `PT${recipe.prepTimeMinutes}M` : undefined,
@@ -142,7 +142,7 @@ export default function RecipeSEO({ recipe }: RecipeSEOProps) {
       <meta property="og:image:height" content="630" />
       <meta property="og:url" content={recipeUrl} />
       <meta property="og:type" content="article" />
-      <meta property="og:site_name" content="Paragaujam.lt" />
+      <meta property="og:site_name" content="Ragaujam.lt" />
       <meta property="og:locale" content="lt_LT" />
 
       {/* Twitter Card */}

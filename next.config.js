@@ -14,11 +14,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'paragaujam.s3.amazonaws.com',
+        hostname: 'ragaujam.s3.amazonaws.com',
       },
       {
         protocol: 'https',
-        hostname: 'paragaujam-cdn.s3.amazonaws.com',
+        hostname: 'ragaujam-cdn.s3.amazonaws.com',
       },
       {
         protocol: 'https',
@@ -101,8 +101,8 @@ const nextConfig = {
 
   // Environment variables
   env: {
-    SITE_URL: process.env.SITE_URL || 'https://paragaujam.lt',
-    SITE_NAME: 'Paragaujam.lt',
+    SITE_URL: process.env.SITE_URL || 'https://ragaujam.lt',
+    SITE_NAME: 'Ragaujam.lt',
   },
 };
 

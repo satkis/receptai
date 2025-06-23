@@ -7,7 +7,7 @@ function SearchSitemap() {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   
   try {
     const client = new MongoClient(process.env.MONGODB_URI!);
