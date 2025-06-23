@@ -8,6 +8,7 @@ import Head from 'next/head';
 import { MongoClient } from 'mongodb';
 
 import Breadcrumb from '../../components/navigation/Breadcrumb';
+import CategoryMenu from '../../components/navigation/CategoryMenu';
 // Layout removed - already wrapped in _app.tsx
 
 interface Recipe {
@@ -148,59 +149,72 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
         <link rel="canonical" href="https://paragaujam.lt/receptai" />
       </Head>
 
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        {/* Breadcrumbs */}
-        <Breadcrumb items={breadcrumbs} containerless={true} />
-
-        {/* Page Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Visi receptai</h1>
-          <p className="text-lg text-gray-600 mb-6">
-            Atraskite visus mūsų receptus - nuo greitų užkandžių iki iškilmingų patiekalų
-          </p>
-
-          <div className="text-sm text-gray-600">
-            Rasta {totalRecipes} receptų
-          </div>
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        {/* Breadcrumbs - Full Width */}
+        <div className="mb-6">
+          <Breadcrumb items={breadcrumbs} containerless={true} />
         </div>
 
-        {/* Enhanced Recipe Grid */}
-        {recipes.length > 0 ? (
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
-            {recipes.map((recipe) => (
-              <RecipeCard key={recipe._id} recipe={recipe} />
-            ))}
+        {/* Main Layout: Sidebar + Content */}
+        <div className="flex gap-8">
+          {/* Categories Sidebar - Medium screens and up */}
+          <div className="hidden md:block">
+            <CategoryMenu isVisible={true} isMobile={false} />
           </div>
-        ) : (
-          <div className="text-center py-12">
-            <div className="bg-gray-50 rounded-lg p-8">
-              <h2 className="text-xl font-semibold text-gray-700 mb-2">Receptų nerasta</h2>
-              <p className="text-gray-500">
-                Duomenų bazėje receptų dar nėra.
+
+          {/* Main Content Area */}
+          <div className="flex-1 min-w-0">
+            {/* Page Header */}
+            <div className="mb-8">
+              <h1 className="text-3xl font-bold text-gray-900 mb-4">Visi receptai</h1>
+              <p className="text-lg text-gray-600 mb-6">
+                Atraskite visus mūsų receptus - nuo greitų užkandžių iki iškilmingų patiekalų
               </p>
+
+              <div className="text-sm text-gray-600">
+                Rasta {totalRecipes} receptų
+              </div>
             </div>
-          </div>
-        )}
 
-        {/* Load More Button */}
-        {currentPage < totalPages && (
-          <div className="text-center">
-            <button
-              onClick={handleLoadMore}
-              disabled={isLoading}
-              className="px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 disabled:opacity-50 transition-colors"
-            >
-              {isLoading ? 'Kraunama...' : 'Rodyti daugiau'}
-            </button>
-          </div>
-        )}
+            {/* Enhanced Recipe Grid */}
+            {recipes.length > 0 ? (
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-8">
+                {recipes.map((recipe) => (
+                  <RecipeCard key={recipe._id} recipe={recipe} />
+                ))}
+              </div>
+            ) : (
+              <div className="text-center py-12">
+                <div className="bg-gray-50 rounded-lg p-8">
+                  <h2 className="text-xl font-semibold text-gray-700 mb-2">Receptų nerasta</h2>
+                  <p className="text-gray-500">
+                    Duomenų bazėje receptų dar nėra.
+                  </p>
+                </div>
+              </div>
+            )}
 
-        {/* Pagination Info */}
-        {totalPages > 1 && (
-          <div className="text-center mt-6 text-sm text-gray-600">
-            Puslapis {currentPage} iš {totalPages}
+            {/* Load More Button */}
+            {currentPage < totalPages && (
+              <div className="text-center">
+                <button
+                  onClick={handleLoadMore}
+                  disabled={isLoading}
+                  className="px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 disabled:opacity-50 transition-colors"
+                >
+                  {isLoading ? 'Kraunama...' : 'Rodyti daugiau'}
+                </button>
+              </div>
+            )}
+
+            {/* Pagination Info */}
+            {totalPages > 1 && (
+              <div className="text-center mt-6 text-sm text-gray-600">
+                Puslapis {currentPage} iš {totalPages}
+              </div>
+            )}
           </div>
-        )}
+        </div>
       </div>
     </>
   );

@@ -7,6 +7,7 @@ import { MongoClient } from 'mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../components/ui/PlaceholderImage';
+import CategoryMenu from '../components/navigation/CategoryMenu';
 
 interface Category {
   _id: string;
@@ -337,7 +338,7 @@ function RecipeGrid({ recipes }: { recipes: Recipe[] }) {
   }
 
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
       {recipes.map((recipe) => (
         <RecipeCard key={recipe._id} recipe={recipe} />
       ))}
@@ -478,32 +479,45 @@ export default function CategoryPage({
         />
       </Head>
 
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        {/* Breadcrumbs */}
-        <Breadcrumb items={breadcrumbs} />
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        {/* Breadcrumbs - Full Width */}
+        <div className="mb-6">
+          <Breadcrumb items={breadcrumbs} />
+        </div>
 
-        {/* Category Header */}
-        <CategoryHeader category={category} recipeCount={recipeCount} />
+        {/* Main Layout: Sidebar + Content */}
+        <div className="flex gap-8">
+          {/* Categories Sidebar - Medium screens and up */}
+          <div className="hidden md:block">
+            <CategoryMenu isVisible={true} isMobile={false} />
+          </div>
 
-        {/* Category Filters */}
-        <CategoryFilters
-          category={category}
-          activeFilter={activeFilter}
-          onFilterChange={handleFilterChange}
-        />
+          {/* Main Content Area */}
+          <div className="flex-1 min-w-0">
+            {/* Category Header */}
+            <CategoryHeader category={category} recipeCount={recipeCount} />
 
-        {/* Time Filters */}
-        <TimeFilter
-          timeFilters={category.filters.timeFilters}
-          activeFilter={activeTimeFilter}
-          onFilterChange={handleTimeFilterChange}
-        />
+            {/* Category Filters */}
+            <CategoryFilters
+              category={category}
+              activeFilter={activeFilter}
+              onFilterChange={handleFilterChange}
+            />
 
-        {/* Recipe Grid */}
-        <RecipeGrid recipes={recipes} />
+            {/* Time Filters */}
+            <TimeFilter
+              timeFilters={category.filters.timeFilters}
+              activeFilter={activeTimeFilter}
+              onFilterChange={handleTimeFilterChange}
+            />
 
-        {/* Pagination */}
-        <Pagination pagination={pagination} onPageChange={handlePageChange} />
+            {/* Recipe Grid */}
+            <RecipeGrid recipes={recipes} />
+
+            {/* Pagination */}
+            <Pagination pagination={pagination} onPageChange={handlePageChange} />
+          </div>
+        </div>
       </div>
     </>
   );

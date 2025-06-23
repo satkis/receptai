@@ -37,8 +37,7 @@ export default function Header() {
   };
 
   const navigation = [
-    { name: 'Receptai', href: '/receptai' }, // Updated to use Lithuanian URL
-    { name: 'Kategorijos', href: '/receptai' }, // Updated to use Lithuanian URL
+    // Removed navigation items as requested
   ];
 
   return (
@@ -88,35 +87,8 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="flex items-center space-x-8">
-            <Link
-              href="/receptai"
-              className={`flex items-center ${
-                router.pathname === '/receptai' || router.pathname === '/'
-                  ? 'text-orange-500 font-medium'
-                  : 'text-gray-700 hover:text-orange-500'
-              } transition-colors duration-200`}
-            >
-              <span className="text-lg">🏠</span>
-            </Link>
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className={`${
-                  router.pathname.startsWith(item.href)
-                    ? 'text-orange-500 font-medium'
-                    : 'text-gray-700 hover:text-orange-500'
-                } transition-colors duration-200`}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </nav>
-
-          {/* Right side - Search */}
-          <div className="flex items-center space-x-4">
+          {/* Centered Search Bar */}
+          <div className="flex-1 flex justify-center">
             <form onSubmit={handleSearch} className="relative">
               <input
                 type="text"
@@ -127,40 +99,16 @@ export default function Header() {
               />
             </form>
           </div>
+
+          {/* Right side - Empty for balance */}
+          <div className="flex items-center">
+            {/* Empty space for layout balance */}
+          </div>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden border-t border-gray-200 py-4 bg-gray-50">
-            <div className="space-y-2">
-              <Link
-                href="/receptai"
-                className={`flex items-center px-3 py-2 rounded-md text-base font-medium ${
-                  router.pathname === '/receptai' || router.pathname === '/'
-                    ? 'text-orange-500 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-500 hover:bg-gray-50'
-                } transition-colors duration-200`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <span className="text-lg mr-2">🏠</span>
-                Receptai
-              </Link>
-              {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={`block px-3 py-2 rounded-md text-base font-medium ${
-                    router.pathname.startsWith(item.href)
-                      ? 'text-orange-500 bg-orange-50'
-                      : 'text-gray-700 hover:text-orange-500 hover:bg-gray-50'
-                  } transition-colors duration-200`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
-
             {/* Mobile Category Menu */}
             <CategoryMenu
               isVisible={true}
@@ -170,11 +118,7 @@ export default function Header() {
           </div>
         )}
 
-        {/* Desktop Sidebar Category Menu */}
-        <CategoryMenu
-          isVisible={shouldShowSidebar()}
-          isMobile={false}
-        />
+
       </div>
     </header>
   );

@@ -110,14 +110,14 @@ export default function CategoryMenu({ isVisible, isMobile = false, onCategoryCl
 
   if (!isVisible) return null;
 
-  const menuClasses = isMobile 
+  const menuClasses = isMobile
     ? "w-full bg-white border-t border-gray-200 py-4"
-    : "fixed left-0 top-16 h-[calc(100vh-4rem)] w-64 bg-white border-r border-gray-200 overflow-y-auto z-40";
+    : "w-48 bg-white border-r border-gray-200 overflow-y-auto sticky top-4 h-fit max-h-[calc(100vh-6rem)]";
 
   return (
     <div className={menuClasses}>
       <div className={isMobile ? "px-4" : "p-4"}>
-        <h2 className="text-lg font-semibold text-gray-900 mb-4">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">
           Kategorijos
         </h2>
         

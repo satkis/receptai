@@ -8,6 +8,7 @@ import { MongoClient } from 'mongodb';
 import { useRouter } from 'next/router';
 
 import Breadcrumb from '../../../components/navigation/Breadcrumb';
+import CategoryMenu from '../../../components/navigation/CategoryMenu';
 
 interface Category {
   _id: string;
@@ -366,65 +367,78 @@ export default function CategoryPage({
         <link rel="canonical" href={category.seo.canonicalUrl} />
       </Head>
 
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        {/* Breadcrumbs */}
-        <Breadcrumb items={breadcrumbs} containerless={true} />
-
-        {/* Category Header */}
-        <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-4xl">🍽️</span>
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900">
-                {category.title.lt}
-              </h1>
-              <p className="text-gray-600 mt-2">
-                {category.seo.metaDescription}
-              </p>
-            </div>
-          </div>
-          <div className="flex items-center gap-4 text-sm text-gray-600">
-            <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full font-medium">
-              {filteredRecipes.length} {filteredRecipes.length !== totalRecipes ? `iš ${totalRecipes}` : ''} receptai
-            </span>
-            <span>Kategorija: {category.level} lygis</span>
-          </div>
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        {/* Breadcrumbs - Full Width */}
+        <div className="mb-6">
+          <Breadcrumb items={breadcrumbs} containerless={true} />
         </div>
 
-        {/* Category Filters */}
-        <CategoryFilters
-          category={category}
-          activeFilter={currentFilter}
-          onFilterChange={handleFilterChange}
-        />
-
-        {/* Time Filters */}
-        <TimeFilter
-          timeFilters={category.filters.timeFilters}
-          activeFilter={currentTimeFilter}
-          onFilterChange={handleTimeFilterChange}
-        />
-
-        {/* Enhanced Recipe Grid */}
-        {filteredRecipes.length > 0 ? (
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-8">
-            {filteredRecipes.map((recipe) => (
-              <RecipeCard key={recipe._id} recipe={recipe} category={category} />
-            ))}
+        {/* Main Layout: Sidebar + Content */}
+        <div className="flex gap-8">
+          {/* Categories Sidebar - Medium screens and up */}
+          <div className="hidden md:block">
+            <CategoryMenu isVisible={true} isMobile={false} />
           </div>
-        ) : (
-          <div className="text-center py-12">
-            <div className="bg-gray-50 rounded-lg p-8">
-              <h2 className="text-xl font-semibold text-gray-700 mb-2">Receptų nerasta</h2>
-              <p className="text-gray-500">
-                {currentFilter || currentTimeFilter
-                  ? "Su pasirinktais filtrais receptų nerasta. Pabandykite pakeisti filtrus."
-                  : `Šioje kategorijoje "${category.title.lt}" receptų dar nėra.`
-                }
-              </p>
+
+          {/* Main Content Area */}
+          <div className="flex-1 min-w-0">
+            {/* Category Header */}
+            <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
+              <div className="flex items-center gap-4 mb-4">
+                <span className="text-4xl">🍽️</span>
+                <div>
+                  <h1 className="text-3xl font-bold text-gray-900">
+                    {category.title.lt}
+                  </h1>
+                  <p className="text-gray-600 mt-2">
+                    {category.seo.metaDescription}
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4 text-sm text-gray-600">
+                <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full font-medium">
+                  {filteredRecipes.length} {filteredRecipes.length !== totalRecipes ? `iš ${totalRecipes}` : ''} receptai
+                </span>
+                <span>Kategorija: {category.level} lygis</span>
+              </div>
             </div>
+
+            {/* Category Filters */}
+            <CategoryFilters
+              category={category}
+              activeFilter={currentFilter}
+              onFilterChange={handleFilterChange}
+            />
+
+            {/* Time Filters */}
+            <TimeFilter
+              timeFilters={category.filters.timeFilters}
+              activeFilter={currentTimeFilter}
+              onFilterChange={handleTimeFilterChange}
+            />
+
+            {/* Enhanced Recipe Grid */}
+            {filteredRecipes.length > 0 ? (
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-8">
+                {filteredRecipes.map((recipe) => (
+                  <RecipeCard key={recipe._id} recipe={recipe} category={category} />
+                ))}
+              </div>
+            ) : (
+              <div className="text-center py-12">
+                <div className="bg-gray-50 rounded-lg p-8">
+                  <h2 className="text-xl font-semibold text-gray-700 mb-2">Receptų nerasta</h2>
+                  <p className="text-gray-500">
+                    {currentFilter || currentTimeFilter
+                      ? "Su pasirinktais filtrais receptų nerasta. Pabandykite pakeisti filtrus."
+                      : `Šioje kategorijoje "${category.title.lt}" receptų dar nėra.`
+                    }
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
-        )}
+        </div>
       </div>
     </>
   );
