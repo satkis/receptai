@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Clock, Utensils, Leaf, Globe } from 'lucide-react';
 
 interface FilterOptions {
   dietary: string[];
@@ -81,7 +80,7 @@ export default function FilterAdvanced({ filters, onFiltersChange, className = '
             onClick={() => setIsExpanded(!isExpanded)}
             className="flex items-center gap-2 text-gray-700 hover:text-orange-600 transition-colors"
           >
-            <Utensils className="w-4 h-4" />
+            <span className="text-lg">🔍</span>
             <span className="font-medium">Filtrai</span>
             <span className={`transform transition-transform ${isExpanded ? 'rotate-180' : ''}`}>
               ▼
@@ -105,7 +104,7 @@ export default function FilterAdvanced({ filters, onFiltersChange, className = '
           {/* Language Selector */}
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <Globe className="w-4 h-4 text-gray-500" />
+              <span className="text-lg">🌐</span>
               <span className="text-sm font-medium text-gray-700">Kalba</span>
             </div>
             <div className="flex gap-2">
@@ -131,7 +130,7 @@ export default function FilterAdvanced({ filters, onFiltersChange, className = '
           {/* Dietary Filters */}
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <Leaf className="w-4 h-4 text-gray-500" />
+              <span className="text-lg">🌱</span>
               <span className="text-sm font-medium text-gray-700">Mityba</span>
             </div>
             <div className="flex flex-wrap gap-2">
@@ -155,7 +154,7 @@ export default function FilterAdvanced({ filters, onFiltersChange, className = '
           {/* Cuisine Filters */}
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <Utensils className="w-4 h-4 text-gray-500" />
+              <span className="text-lg">🍽️</span>
               <span className="text-sm font-medium text-gray-700">Virtuvė</span>
             </div>
             <div className="flex flex-wrap gap-2">
@@ -179,7 +178,7 @@ export default function FilterAdvanced({ filters, onFiltersChange, className = '
           {/* Time Filters */}
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <Clock className="w-4 h-4 text-gray-500" />
+              <span className="text-lg">⏰</span>
               <span className="text-sm font-medium text-gray-700">Laikas</span>
             </div>
             <div className="flex flex-wrap gap-2">

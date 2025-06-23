@@ -112,7 +112,7 @@ export function validateQueryParams(req: NextApiRequest, schema: Record<string, 
           continue;
         }
         
-        let sanitizedValue = sanitizeString(stringValue, rules.maxLength || 1000);
+        const sanitizedValue = sanitizeString(stringValue, rules.maxLength || 1000);
         
         if (rules.pattern && !rules.pattern.test(sanitizedValue)) {
           errors.push(`${key} has invalid format`);

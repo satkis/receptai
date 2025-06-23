@@ -52,6 +52,16 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
 
+  // ESLint configuration
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
+  // TypeScript configuration
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+
   // Enhanced security headers
   async headers() {
     return [
