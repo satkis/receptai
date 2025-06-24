@@ -2,7 +2,7 @@
 // GET /api/recipe/[slug]
 
 import { NextApiRequest, NextApiResponse } from 'next';
-import { MongoClient } from 'mongodb';
+import clientPromise from '../../../lib/mongodb';
 import { recipeApiSecurity } from '../../../lib/security';
 
 async function recipeHandler(req: NextApiRequest, res: NextApiResponse) {
@@ -14,15 +14,14 @@ async function recipeHandler(req: NextApiRequest, res: NextApiResponse) {
       return res.status(400).json({ message: 'Recipe slug is required' });
     }
 
-    const client = new MongoClient(process.env.MONGODB_URI!);
-    await client.connect();
+    // 🚀 Use shared MongoDB client for better performance
+    const client = await clientPromise;
     const db = client.db();
 
     // Get recipe by slug
     const recipe = await db.collection('recipes_new').findOne({ slug });
 
     if (!recipe) {
-      await client.close();
       return res.status(404).json({ message: 'Recipe not found' });
     }
 
@@ -35,7 +34,7 @@ async function recipeHandler(req: NextApiRequest, res: NextApiResponse) {
       .limit(6)
       .toArray();
 
-    await client.close();
+    // ✅ Don't close shared client - it's managed by the connection pool
 
     res.status(200).json({
       recipe,

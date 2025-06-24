@@ -2,28 +2,7 @@
 // GET /api/filters/[category] - Returns available filters for a specific category page
 
 import { NextApiRequest, NextApiResponse } from 'next';
-import { MongoClient, Db } from 'mongodb';
-
-const MONGODB_URI = process.env.MONGODB_URI!;
-const MONGODB_DB = process.env.MONGODB_DB || 'receptai';
-
-let cachedClient: MongoClient | null = null;
-let cachedDb: Db | null = null;
-
-async function connectToDatabase() {
-  if (cachedClient && cachedDb) {
-    return { client: cachedClient, db: cachedDb };
-  }
-
-  const client = new MongoClient(MONGODB_URI);
-  await client.connect();
-  const db = client.db(MONGODB_DB);
-
-  cachedClient = client;
-  cachedDb = db;
-
-  return { client, db };
-}
+import clientPromise from '../../../lib/mongodb';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {
@@ -31,7 +10,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    const { db } = await connectToDatabase();
+    // 🚀 Use shared MongoDB client for better performance
+    const client = await clientPromise;
+    const db = client.db();
     
     const { category, language = 'lt' } = req.query;
 

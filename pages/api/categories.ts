@@ -1,15 +1,14 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { MongoClient } from 'mongodb';
+import clientPromise from '../../lib/mongodb';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {
     return res.status(405).json({ message: 'Method not allowed' });
   }
 
-  const client = new MongoClient(process.env.MONGODB_URI!);
-
   try {
-    await client.connect();
+    // 🚀 Use shared MongoDB client for better performance
+    const client = await clientPromise;
     const db = client.db();
     
     // Fetch all active categories, sorted by level and title
@@ -38,7 +37,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   } catch (error) {
     console.error('Error fetching categories:', error);
     res.status(500).json({ message: 'Internal server error' });
-  } finally {
-    await client.close();
   }
+  // ✅ Don't close shared client - it's managed by the connection pool
 }
