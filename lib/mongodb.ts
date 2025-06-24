@@ -22,6 +22,12 @@ const options: MongoClientOptions = {
   retryWrites: true,                 // Retry failed writes
   retryReads: true,                  // Retry failed reads
 
+  // SSL/TLS Configuration (fix for production SSL issues)
+  tls: true,                         // Enable TLS
+  tlsAllowInvalidCertificates: false, // Validate certificates
+  tlsAllowInvalidHostnames: false,   // Validate hostnames
+  tlsInsecure: false,                // Use secure TLS
+
   // Performance optimizations
   compressors: ['zlib'],             // Compress network traffic
   zlibCompressionLevel: 6,           // Balanced compression
@@ -41,6 +47,10 @@ const options: MongoClientOptions = {
 
   // Additional production settings
   heartbeatFrequencyMS: 10000,       // Check server health every 10s
+
+  // Additional SSL options for Atlas compatibility
+  authSource: 'admin',               // Authentication database
+  authMechanism: 'SCRAM-SHA-1',      // Authentication mechanism
 };
 
 let client: MongoClient;
