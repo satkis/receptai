@@ -26,7 +26,6 @@ const options: MongoClientOptions = {
   tls: true,                         // Enable TLS
   tlsAllowInvalidCertificates: false, // Validate certificates
   tlsAllowInvalidHostnames: false,   // Validate hostnames
-  tlsInsecure: false,                // Use secure TLS
 
   // Performance optimizations
   compressors: ['zlib'],             // Compress network traffic
