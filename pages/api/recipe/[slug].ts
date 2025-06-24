@@ -16,7 +16,7 @@ async function recipeHandler(req: NextApiRequest, res: NextApiResponse) {
 
     // 🚀 Use shared MongoDB client for better performance
     const client = await clientPromise;
-    const db = client.db();
+    const db = client.db(process.env.MONGODB_DB || 'receptai');
 
     // Get recipe by slug
     const recipe = await db.collection('recipes_new').findOne({ slug });

@@ -8,8 +8,19 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     // 🚀 Use shared MongoDB client for better performance
+    console.log('🔍 Environment check:', {
+      NODE_ENV: process.env.NODE_ENV,
+      MONGODB_URI: process.env.MONGODB_URI ? 'SET' : 'NOT SET',
+      MONGODB_DB: process.env.MONGODB_DB || 'NOT SET'
+    });
+
     const client = await clientPromise;
-    const db = client.db();
+    const db = client.db(process.env.MONGODB_DB || 'receptai');
+
+    console.log('🔍 Database info:', {
+      dbName: db.databaseName,
+      namespace: db.namespace
+    });
 
     console.log('🔍 Fetching categories from categories_new collection...');
 
