@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: process.env.SITE_URL || 'https://ragaujam.lt',
-  generateRobotsTxt: true,
+  generateRobotsTxt: false,  // ✅ Disabled - using dynamic pages/robots.txt.tsx instead
   generateIndexSitemap: false,
   exclude: [
     '/admin/*',
@@ -12,10 +12,9 @@ module.exports = {
     const result = [];
 
     try {
-      // Connect to MongoDB and fetch real data
-      const { MongoClient } = require('mongodb');
-      const client = new MongoClient(process.env.MONGODB_URI);
-      await client.connect();
+      // 🚀 Use shared MongoDB client for better performance
+      const clientPromise = require('./lib/mongodb.js').default;
+      const client = await clientPromise;
       const db = client.db();
 
       // Add real recipe pages
@@ -52,7 +51,7 @@ module.exports = {
         });
       });
 
-      await client.close();
+      // ✅ Don't close shared client - it's managed by the connection pool
     } catch (error) {
       console.error('Error generating additional sitemap paths:', error);
     }
