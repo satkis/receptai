@@ -5,6 +5,14 @@
   "env": {
     "NODE_ENV": "production"
   },
+  "functions": {
+    "pages/api/**/*.ts": {
+      "maxDuration": 10
+    },
+    "pages/sitemap*.tsx": {
+      "maxDuration": 30
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",

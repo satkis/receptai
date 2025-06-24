@@ -6,10 +6,10 @@ function RobotsTxt() {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   const isProduction = process.env.NODE_ENV === 'production';
   
-  const robotsTxt = `# Robots.txt for Paragaujam.lt - Lithuanian Recipe Website
+  const robotsTxt = `# Robots.txt for Ragaujam.lt - Lithuanian Recipe Website
 # Generated automatically on ${new Date().toISOString()}
 
 User-agent: *
@@ -118,7 +118,7 @@ Sitemap: ${baseUrl}/sitemap-images.xml
 
 # Additional information
 # Website: ${baseUrl}
-# Contact: info@paragaujam.lt
+# Contact: info@ragaujam.lt
 # Language: Lithuanian (lt)
 # Content: Recipe website with interactive features
 # Last updated: ${new Date().toISOString()}
