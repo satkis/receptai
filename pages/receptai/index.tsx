@@ -5,7 +5,7 @@ import { useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
-import { MongoClient } from 'mongodb';
+import clientPromise from '../../lib/mongodb';
 
 import Breadcrumb from '../../components/navigation/Breadcrumb';
 import CategoryMenu from '../../components/navigation/CategoryMenu';
@@ -222,8 +222,8 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   try {
-    const client = new MongoClient(process.env.MONGODB_URI!);
-    await client.connect();
+    // 🚀 Use shared MongoDB client for better performance
+    const client = await clientPromise;
     const db = client.db();
 
     // Pagination
@@ -257,7 +257,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
       db.collection('recipes_new').countDocuments(recipeQuery)
     ]);
 
-    await client.close();
+    // ✅ Don't close shared client - it's managed by the connection pool
 
     return {
       props: {
