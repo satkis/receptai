@@ -41,7 +41,6 @@ const options: MongoClientOptions = {
 
   // Additional production settings
   heartbeatFrequencyMS: 10000,       // Check server health every 10s
-  serverSelectionRetryDelayMS: 2000, // Wait 2s between server selection retries
 };
 
 let client: MongoClient;
