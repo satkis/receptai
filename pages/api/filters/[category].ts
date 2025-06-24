@@ -4,6 +4,18 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import clientPromise from '../../../lib/mongodb';
 
+// Helper function to get time filter labels
+function getTimeFilterLabel(timeFilter: string, language: string): string {
+  const labels: { [key: string]: { lt: string; en: string } } = {
+    'iki-30-min': { lt: 'Iki 30 min', en: 'Up to 30 min' },
+    '30-60-min': { lt: '30-60 min', en: '30-60 min' },
+    '1-2-val': { lt: '1-2 val', en: '1-2 hours' },
+    'virs-2-val': { lt: 'Virš 2 val', en: 'Over 2 hours' }
+  };
+
+  return labels[timeFilter]?.[language as 'lt' | 'en'] || timeFilter;
+}
+
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {
     return res.status(405).json({ error: 'Method not allowed' });
@@ -16,65 +28,49 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     
     const { category, language = 'lt' } = req.query;
 
-    // Get page configuration for this category
-    const pageConfig = await db.collection('page_configs').findOne({ 
+    // Get category configuration from categories_new collection
+    const categoryConfig = await db.collection('categories_new').findOne({
       slug: category as string,
-      active: true 
+      isActive: true
     });
 
-    if (!pageConfig) {
+    if (!categoryConfig) {
       return res.status(404).json({ error: 'Category not found' });
     }
 
-    // Get base filter for this category
-    const baseFilter = {
-      status: 'public',
-      [`categories.${pageConfig.category}`]: pageConfig.categoryValue
+    // Build response with available filters for this category using your schema
+    const availableFilters: any = {
+      // Time filters from your category schema
+      timeFilters: categoryConfig.filters.timeFilters.map((timeFilter: string) => ({
+        value: timeFilter,
+        label: getTimeFilterLabel(timeFilter, language as string),
+        count: 0 // You can implement count logic later
+      })),
+
+      // Manual filters from your category schema
+      manual: categoryConfig.filters.manual.map((filter: any) => ({
+        value: filter.value,
+        label: filter.label,
+        priority: filter.priority,
+        count: 0 // You can implement count logic later
+      })),
+
+      // Auto filters from your category schema
+      auto: categoryConfig.filters.auto.map((filter: any) => ({
+        value: filter.value,
+        label: filter.label,
+        count: 0 // You can implement count logic later
+      }))
     };
 
-    // Get filter counts for recipes in this category
-    const filterCounts = await getFilterCounts(db, baseFilter);
-
-    // Get filter definitions with labels and styling
-    const filterDefinitions = await db.collection('filter_definitions')
-      .find({ active: true })
-      .sort({ type: 1, order: 1 })
-      .toArray();
-
-    // Build response with available filters for this category
-    const availableFilters: any = {};
-
-    pageConfig.quickFilters.forEach((quickFilter: any) => {
-      const filterType = quickFilter.type;
-      const counts = filterCounts[filterType] || [];
-      
-      availableFilters[filterType] = {
-        label: quickFilter.label,
-        order: quickFilter.order,
-        options: quickFilter.values.map((value: string) => {
-          const definition = filterDefinitions.find(def => def.key === value);
-          const countData = counts.find((c: any) => c._id === value);
-          
-          return {
-            key: value,
-            label: definition?.label?.[language as string] || definition?.label?.lt || value,
-            icon: definition?.icon,
-            color: definition?.color,
-            count: countData?.count || 0,
-            active: true
-          };
-        }).filter((option: any) => option.count > 0) // Only show options with results
-      };
-    });
-
-    // Add category metadata
+    // Add category metadata using your schema
     const categoryInfo = {
-      slug: pageConfig.slug,
-      title: pageConfig.seo.title,
-      description: pageConfig.seo.description,
-      category: pageConfig.category,
-      categoryValue: pageConfig.categoryValue,
-      canonicalUrl: pageConfig.seo.canonicalUrl
+      slug: categoryConfig.slug,
+      title: categoryConfig.seo.metaTitle,
+      description: categoryConfig.seo.metaDescription,
+      path: categoryConfig.path,
+      level: categoryConfig.level,
+      canonicalUrl: categoryConfig.seo.canonicalUrl
     };
 
     return res.status(200).json({
@@ -82,132 +78,19 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       data: {
         category: categoryInfo,
         filters: availableFilters,
-        totalRecipes: await db.collection('recipes_new').countDocuments(baseFilter),
+        totalRecipes: 0, // You can implement recipe counting later
         language: language as string
       }
     });
 
   } catch (error) {
     console.error('Filters API Error:', error);
-    return res.status(500).json({ 
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    return res.status(500).json({
       error: 'Internal server error',
-      message: process.env.NODE_ENV === 'development' ? error.message : undefined
+      message: process.env.NODE_ENV === 'development' ? errorMessage : undefined
     });
   }
 }
 
-async function getFilterCounts(db: Db, baseFilter: any) {
-  const pipeline = [
-    { $match: baseFilter },
-    {
-      $facet: {
-        timeRequired: [
-          { 
-            $group: { 
-              _id: '$categories.timeRequired', 
-              count: { $sum: 1 } 
-            } 
-          }
-        ],
-        dietary: [
-          { 
-            $unwind: { 
-              path: '$categories.dietary', 
-              preserveNullAndEmptyArrays: true 
-            } 
-          },
-          { 
-            $match: { 
-              'categories.dietary': { $ne: null } 
-            } 
-          },
-          { 
-            $group: { 
-              _id: '$categories.dietary', 
-              count: { $sum: 1 } 
-            } 
-          }
-        ],
-        cuisine: [
-          { 
-            $unwind: { 
-              path: '$categories.cuisine', 
-              preserveNullAndEmptyArrays: true 
-            } 
-          },
-          { 
-            $match: { 
-              'categories.cuisine': { $ne: null } 
-            } 
-          },
-          { 
-            $group: { 
-              _id: '$categories.cuisine', 
-              count: { $sum: 1 } 
-            } 
-          }
-        ],
-        mainIngredient: [
-          { 
-            $unwind: { 
-              path: '$categories.mainIngredient', 
-              preserveNullAndEmptyArrays: true 
-            } 
-          },
-          { 
-            $match: { 
-              'categories.mainIngredient': { $ne: null } 
-            } 
-          },
-          { 
-            $group: { 
-              _id: '$categories.mainIngredient', 
-              count: { $sum: 1 } 
-            } 
-          }
-        ],
-        mealType: [
-          { 
-            $unwind: { 
-              path: '$categories.mealType', 
-              preserveNullAndEmptyArrays: true 
-            } 
-          },
-          { 
-            $match: { 
-              'categories.mealType': { $ne: null } 
-            } 
-          },
-          { 
-            $group: { 
-              _id: '$categories.mealType', 
-              count: { $sum: 1 } 
-            } 
-          }
-        ],
-        customTags: [
-          { 
-            $unwind: { 
-              path: '$categories.customTags', 
-              preserveNullAndEmptyArrays: true 
-            } 
-          },
-          { 
-            $match: { 
-              'categories.customTags': { $ne: null } 
-            } 
-          },
-          { 
-            $group: { 
-              _id: '$categories.customTags', 
-              count: { $sum: 1 } 
-            } 
-          }
-        ]
-      }
-    }
-  ];
 
-  const [result] = await db.collection('recipes_new').aggregate(pipeline).toArray();
-  return result || {};
-}
