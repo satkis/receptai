@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
-import { MongoClient } from 'mongodb';
+import clientPromise from '../lib/mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../components/ui/PlaceholderImage';
@@ -531,8 +531,8 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
   }
 
   try {
-    const client = new MongoClient(process.env.MONGODB_URI!);
-    await client.connect();
+    // 🚀 Use shared MongoDB client for better performance
+    const client = await clientPromise;
     const db = client.db();
 
     // Get category
@@ -544,7 +544,6 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
     }
 
     if (!category) {
-      await client.close();
       return { notFound: true };
     }
 
@@ -598,7 +597,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
 
     console.log('📊 Found recipes:', { count: totalCount, recipeTitles: recipes.map(r => r.title?.lt) });
 
-    await client.close();
+    // ✅ Don't close shared client - it's managed by the connection pool
 
     return {
       props: {

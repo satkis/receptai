@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import { GetServerSideProps } from 'next';
-import { MongoClient } from 'mongodb';
+import clientPromise from '../../lib/mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 // Layout removed - already wrapped in _app.tsx
@@ -398,8 +398,8 @@ export const getServerSideProps: GetServerSideProps = async ({ query: urlQuery }
     const page = parseInt(urlQuery.page as string) || 1;
     const limit = 12;
 
-    const client = new MongoClient(process.env.MONGODB_URI!);
-    await client.connect();
+    // 🚀 Use shared MongoDB client for better performance
+    const client = await clientPromise;
     const db = client.db();
 
     // Build search aggregation
@@ -431,7 +431,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query: urlQuery }
       categoryFilter
     );
 
-    await client.close();
+    // ✅ Don't close shared client - it's managed by the connection pool
 
     const searchTime = Date.now() - startTime;
 

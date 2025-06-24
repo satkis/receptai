@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
-import { MongoClient } from 'mongodb';
+import clientPromise from '../../lib/mongodb';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
 import SchemaOrgRecipe from '../../components/seo/SchemaOrgRecipe';
@@ -345,19 +345,18 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   }
 
   try {
-    const client = new MongoClient(process.env.MONGODB_URI!);
-    await client.connect();
-    const db = client.db('receptai');
+    // 🚀 Use shared MongoDB client for better performance
+    const client = await clientPromise;
+    const db = client.db();
 
     // Get recipe from recipes_new collection
     const recipe = await db.collection('recipes_new').findOne({ slug });
 
     if (!recipe) {
-      await client.close();
       return { notFound: true };
     }
 
-    await client.close();
+    // ✅ Don't close shared client - it's managed by the connection pool
 
     return {
       props: {
