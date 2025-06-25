@@ -4,33 +4,39 @@ if (!process.env.MONGODB_URI) {
   throw new Error('Invalid/Missing environment variable: "MONGODB_URI"');
 }
 
-// Ensure SSL is enabled for MongoDB Atlas
+// MongoDB Atlas connection string with proper SSL configuration
 let uri = process.env.MONGODB_URI;
 
-// For MongoDB Atlas, ensure SSL is enabled in the connection string
-if (uri && !uri.includes('ssl=') && !uri.includes('tls=')) {
-  const separator = uri.includes('?') ? '&' : '?';
-  uri = `${uri}${separator}ssl=true`;
+// For MongoDB Atlas, ensure proper SSL/TLS parameters
+if (uri && uri.includes('mongodb.net')) {
+  // This is MongoDB Atlas - ensure proper SSL configuration
+  const url = new URL(uri);
+
+  // Set required Atlas parameters
+  url.searchParams.set('ssl', 'true');
+  url.searchParams.set('authSource', 'admin');
+
+  // Ensure retryWrites and w=majority for Atlas
+  if (!url.searchParams.has('retryWrites')) {
+    url.searchParams.set('retryWrites', 'true');
+  }
+  if (!url.searchParams.has('w')) {
+    url.searchParams.set('w', 'majority');
+  }
+
+  uri = url.toString();
+  console.log('🔧 MongoDB Atlas URI configured with SSL parameters');
 }
 
-// 🚀 MongoDB Atlas compatible connection options
+// 🚀 Minimal MongoDB Atlas compatible options (SSL handled in connection string)
 const options: MongoClientOptions = {
-  // Basic timeouts for production reliability
+  // Basic timeouts
   serverSelectionTimeoutMS: 5000,
   connectTimeoutMS: 10000,
-  socketTimeoutMS: 45000,
 
-  // Connection pool settings
+  // Connection pool
   maxPoolSize: 10,
   minPoolSize: 2,
-  maxIdleTimeMS: 30000,
-
-  // Retry settings for reliability
-  retryWrites: true,
-  retryReads: true,
-
-  // Performance optimizations
-  compressors: ['zlib'],
 };
 
 let client: MongoClient;
