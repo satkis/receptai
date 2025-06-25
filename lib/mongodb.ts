@@ -55,53 +55,72 @@ if (uri && uri.includes('mongodb.net')) {
   }
 }
 
-// 🚀 MongoDB Atlas compatible options with enhanced SSL/TLS configuration
+// 🚀 MongoDB Atlas compatible options optimized for Vercel serverless
 const options: MongoClientOptions = {
-  // Connection timeouts
-  serverSelectionTimeoutMS: 10000, // Increased for production
-  connectTimeoutMS: 15000, // Increased for production
-  socketTimeoutMS: 45000,
+  // Aggressive timeouts for serverless environment
+  serverSelectionTimeoutMS: 5000,  // Reduced for faster failures
+  connectTimeoutMS: 8000,          // Reduced for faster connection
+  socketTimeoutMS: 30000,          // Reduced socket timeout
 
-  // Connection pool
-  maxPoolSize: 10,
-  minPoolSize: 2,
-  maxIdleTimeMS: 30000,
+  // Minimal connection pool for serverless
+  maxPoolSize: 5,                  // Reduced for serverless
+  minPoolSize: 1,                  // Minimal pool
+  maxIdleTimeMS: 10000,            // Shorter idle time
 
-  // SSL/TLS configuration for Atlas
-  ssl: true,
-  tls: true,
-  tlsAllowInvalidCertificates: false,
-  tlsAllowInvalidHostnames: false,
+  // Let MongoDB Atlas handle SSL automatically
+  // (Don't override SSL settings - let the connection string handle it)
 };
 
 let clientPromise: Promise<MongoClient>;
 
-// Enhanced connection with better error handling
+// Enhanced connection with retry logic for Vercel serverless
 async function createConnection(): Promise<MongoClient> {
-  try {
-    console.log('🔄 Attempting MongoDB connection...');
-    const mongoClient = new MongoClient(uri, options);
-    const connectedClient = await mongoClient.connect();
+  const maxRetries = 3;
+  let lastError: Error = new Error('Connection failed');
 
-    // Test the connection
-    await connectedClient.db().admin().ping();
-    console.log('✅ MongoDB connection successful');
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      console.log(`🔄 MongoDB connection attempt ${attempt}/${maxRetries}...`);
 
-    return connectedClient;
-  } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : 'Unknown connection error';
-    console.error('❌ MongoDB connection failed:', errorMessage);
+      const mongoClient = new MongoClient(uri, options);
+      const connectedClient = await mongoClient.connect();
 
-    // Provide specific guidance for common SSL/TLS errors
-    if (errorMessage.includes('ssl') || errorMessage.includes('tls') || errorMessage.includes('SSL')) {
-      console.error('💡 SSL/TLS Error - Check if:');
-      console.error('   1. MongoDB Atlas cluster allows connections from your IP');
-      console.error('   2. Connection string includes proper SSL parameters');
-      console.error('   3. Network allows outbound connections on port 27017');
+      // Quick ping test with timeout
+      const dbName = process.env.MONGODB_DB || 'receptai';
+      const pingPromise = connectedClient.db(dbName).admin().ping();
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error('Ping timeout')), 3000)
+      );
+
+      await Promise.race([pingPromise, timeoutPromise]);
+      console.log(`✅ MongoDB connection successful on attempt ${attempt}`);
+
+      return connectedClient;
+    } catch (error) {
+      lastError = error instanceof Error ? error : new Error('Unknown connection error');
+      console.error(`❌ MongoDB connection attempt ${attempt} failed:`, lastError.message);
+
+      // Wait before retry (except on last attempt)
+      if (attempt < maxRetries) {
+        const delay = attempt * 1000; // Progressive delay
+        console.log(`⏳ Retrying in ${delay}ms...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+      }
     }
-
-    throw error;
   }
+
+  // All attempts failed
+  console.error('❌ All MongoDB connection attempts failed');
+
+  // Provide specific guidance for common errors
+  if (lastError.message.includes('timeout') || lastError.message.includes('ETIMEDOUT')) {
+    console.error('💡 Timeout Error - Possible causes:');
+    console.error('   1. MongoDB Atlas network access not configured for 0.0.0.0/0');
+    console.error('   2. MongoDB Atlas cluster is paused or unreachable');
+    console.error('   3. Connection string is incorrect');
+  }
+
+  throw lastError;
 }
 
 if (process.env.NODE_ENV === 'development') {

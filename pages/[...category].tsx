@@ -547,15 +547,37 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
       return { notFound: true };
     }
 
-    // Build recipe query
+    // Build recipe query using correct category fields
+    const categoryPathForQuery = `receptai/${categoryPath}`;
     const recipeQuery: any = {
-      categoryPath: categoryPath
+      $or: [
+        { primaryCategoryPath: categoryPathForQuery },
+        { secondaryCategories: { $in: [categoryPathForQuery] } }
+      ]
     };
 
-    // Add manual filter if specified
+    // Add manual filter if specified (comprehensive tag matching)
     const filter = query.filter as string;
     if (filter) {
-      recipeQuery.tags = filter;
+      // Create all possible tag variations for matching
+      const reverseMap: Record<string, string> = {
+        'a': 'ą', 'c': 'č', 'e': 'ę', 'i': 'į', 's': 'š', 'u': 'ų', 'z': 'ž'
+      };
+
+      const filterVariations = [
+        filter,                                           // Exact match: "darzoves"
+        filter.toLowerCase(),                             // Lowercase: "darzoves"
+        filter.charAt(0).toUpperCase() + filter.slice(1), // Capitalized: "Darzoves"
+        // Convert back to Lithuanian characters for display tags
+        filter.replace(/[a-z]/g, (char: string) => reverseMap[char] || char),
+        // Capitalized Lithuanian version
+        (filter.charAt(0).toUpperCase() + filter.slice(1)).replace(/[a-z]/g, (char: string) => reverseMap[char] || char)
+      ];
+
+      // Remove duplicates and empty values
+      const uniqueVariations = Array.from(new Set(filterVariations)).filter(v => v && v.length > 0);
+
+      recipeQuery.tags = { $in: uniqueVariations };
     }
 
     // Add time filter if specified

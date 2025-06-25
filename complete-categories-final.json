@@ -1,0 +1,3082 @@
+[
+  {
+    "path": "garnyrai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Garnyrai"
+    },
+    "slug": "garnyrai",
+    "seo": {
+      "metaTitle": "Garnyrai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius garnyrai receptus. Skanūs ir lengvi garnyrai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "garnyrai",
+        "garnyrai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/garnyrai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 1,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kepsniai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kepsniai"
+    },
+    "slug": "kepsniai",
+    "seo": {
+      "metaTitle": "Kepsniai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kepsniai receptus. Skanūs ir lengvi kepsniai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kepsniai",
+        "kepsniai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kepsniai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 2,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "makaronu-receptai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Makaronų receptai"
+    },
+    "slug": "makaronu-receptai",
+    "seo": {
+      "metaTitle": "Makaronų receptai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius makaronų receptai receptus. Skanūs ir lengvi makaronų receptai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "makaronų receptai",
+        "makaronų receptai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/makaronu-receptai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 3,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "nevalgiukams",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Nevalgiukams"
+    },
+    "slug": "nevalgiukams",
+    "seo": {
+      "metaTitle": "Nevalgiukams receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius nevalgiukams receptus. Skanūs ir lengvi nevalgiukams patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "nevalgiukams",
+        "nevalgiukams receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/nevalgiukams"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 4,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "pietus",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Pietūs"
+    },
+    "slug": "pietus",
+    "seo": {
+      "metaTitle": "Pietūs receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius pietūs receptus. Skanūs ir lengvi pietūs patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "pietūs",
+        "pietūs receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/pietus"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 5,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "pusryciai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Pusryčiai"
+    },
+    "slug": "pusryciai",
+    "seo": {
+      "metaTitle": "Pusryčiai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius pusryčiai receptus. Skanūs ir lengvi pusryčiai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "pusryčiai",
+        "pusryčiai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/pusryciai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 6,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "salotos",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Salotos"
+    },
+    "slug": "salotos",
+    "seo": {
+      "metaTitle": "Salotos receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius salotos receptus. Skanūs ir lengvi salotos patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "salotos",
+        "salotos receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/salotos"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 7,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "sriubos",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Sriubos"
+    },
+    "slug": "sriubos",
+    "seo": {
+      "metaTitle": "Sriubos receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius sriubos receptus. Skanūs ir lengvi sriubos patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "sriubos",
+        "sriubos receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/sriubos"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 8,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "seimai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Šeimai"
+    },
+    "slug": "seimai",
+    "seo": {
+      "metaTitle": "Šeimai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius šeimai receptus. Skanūs ir lengvi šeimai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "šeimai",
+        "šeimai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/seimai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 9,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "troskiniai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Troškiniai"
+    },
+    "slug": "troskiniai",
+    "seo": {
+      "metaTitle": "Troškiniai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius troškiniai receptus. Skanūs ir lengvi troškiniai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "troškiniai",
+        "troškiniai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/troskiniai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 10,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "uzkandziai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Užkandžiai"
+    },
+    "slug": "uzkandziai",
+    "seo": {
+      "metaTitle": "Užkandžiai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius užkandžiai receptus. Skanūs ir lengvi užkandžiai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "užkandžiai",
+        "užkandžiai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/uzkandziai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 11,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "vaikams",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Vaikams"
+    },
+    "slug": "vaikams",
+    "seo": {
+      "metaTitle": "Vaikams receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius vaikams receptus. Skanūs ir lengvi vaikams patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "vaikams",
+        "vaikams receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/vaikams"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 12,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "vakariene",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Vakarienė"
+    },
+    "slug": "vakariene",
+    "seo": {
+      "metaTitle": "Vakarienė receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius vakarienė receptus. Skanūs ir lengvi vakarienė patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "vakarienė",
+        "vakarienė receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/vakariene"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 13,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "vieno-puodo-receptai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Vieno puodo receptai"
+    },
+    "slug": "vieno-puodo-receptai",
+    "seo": {
+      "metaTitle": "Vieno puodo receptai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius vieno puodo receptai receptus. Skanūs ir lengvi vieno puodo receptai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "vieno puodo receptai",
+        "vieno puodo receptai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "receptai pagal tipą"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/vieno-puodo-receptai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 14,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "avokadas",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Avokadas"
+    },
+    "slug": "avokadas",
+    "seo": {
+      "metaTitle": "Avokadas receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius avokadas receptus. Skanūs ir lengvi avokadas patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "avokadas",
+        "avokadas receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/avokadas"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 15,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "bulves",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Bulvės"
+    },
+    "slug": "bulves",
+    "seo": {
+      "metaTitle": "Bulvės receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius bulvės receptus. Skanūs ir lengvi bulvės patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "bulvės",
+        "bulvės receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/bulves"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 16,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "darzoves",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Daržovės"
+    },
+    "slug": "darzoves",
+    "seo": {
+      "metaTitle": "Daržovės receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius daržovės receptus. Skanūs ir lengvi daržovės patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "daržovės",
+        "daržovės receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/darzoves"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 17,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "duona",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Duona"
+    },
+    "slug": "duona",
+    "seo": {
+      "metaTitle": "Duona receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius duona receptus. Skanūs ir lengvi duona patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "duona",
+        "duona receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/duona"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 18,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "elniena",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Elniena"
+    },
+    "slug": "elniena",
+    "seo": {
+      "metaTitle": "Elniena receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius elniena receptus. Skanūs ir lengvi elniena patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "elniena",
+        "elniena receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/elniena"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 19,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "farsas",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Faršas"
+    },
+    "slug": "farsas",
+    "seo": {
+      "metaTitle": "Faršas receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius faršas receptus. Skanūs ir lengvi faršas patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "faršas",
+        "faršas receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/farsas"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 20,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "grybai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Grybai"
+    },
+    "slug": "grybai",
+    "seo": {
+      "metaTitle": "Grybai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius grybai receptus. Skanūs ir lengvi grybai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "grybai",
+        "grybai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/grybai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 21,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "jautiena",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Jautiena"
+    },
+    "slug": "jautiena",
+    "seo": {
+      "metaTitle": "Jautiena receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius jautiena receptus. Skanūs ir lengvi jautiena patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "jautiena",
+        "jautiena receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/jautiena"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 22,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "juros-gerybes",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Jūros gėrybės"
+    },
+    "slug": "juros-gerybes",
+    "seo": {
+      "metaTitle": "Jūros gėrybės receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius jūros gėrybės receptus. Skanūs ir lengvi jūros gėrybės patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "jūros gėrybės",
+        "jūros gėrybės receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/juros-gerybes"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 23,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kalakutiena",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kalakutiena"
+    },
+    "slug": "kalakutiena",
+    "seo": {
+      "metaTitle": "Kalakutiena receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kalakutiena receptus. Skanūs ir lengvi kalakutiena patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kalakutiena",
+        "kalakutiena receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kalakutiena"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 24,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kiauliena",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kiauliena"
+    },
+    "slug": "kiauliena",
+    "seo": {
+      "metaTitle": "Kiauliena receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kiauliena receptus. Skanūs ir lengvi kiauliena patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kiauliena",
+        "kiauliena receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kiauliena"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 25,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kiausiniai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kiaušiniai"
+    },
+    "slug": "kiausiniai",
+    "seo": {
+      "metaTitle": "Kiaušiniai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kiaušiniai receptus. Skanūs ir lengvi kiaušiniai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kiaušiniai",
+        "kiaušiniai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kiausiniai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 26,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "lesiai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Lęšiai"
+    },
+    "slug": "lesiai",
+    "seo": {
+      "metaTitle": "Lęšiai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius lęšiai receptus. Skanūs ir lengvi lęšiai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "lęšiai",
+        "lęšiai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/lesiai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 27,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "makaronai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Makaronai"
+    },
+    "slug": "makaronai",
+    "seo": {
+      "metaTitle": "Makaronai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius makaronai receptus. Skanūs ir lengvi makaronai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "makaronai",
+        "makaronai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/makaronai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 28,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "miltiniai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Miltiniai"
+    },
+    "slug": "miltiniai",
+    "seo": {
+      "metaTitle": "Miltiniai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius miltiniai receptus. Skanūs ir lengvi miltiniai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "miltiniai",
+        "miltiniai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/miltiniai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 29,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "pienas-ir-pieno-produktai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Pienas ir pieno produktai"
+    },
+    "slug": "pienas-ir-pieno-produktai",
+    "seo": {
+      "metaTitle": "Pienas ir pieno produktai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius pienas ir pieno produktai receptus. Skanūs ir lengvi pienas ir pieno produktai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "pienas ir pieno produktai",
+        "pienas ir pieno produktai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/pienas-ir-pieno-produktai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 30,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "pupeles",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Pupelės"
+    },
+    "slug": "pupeles",
+    "seo": {
+      "metaTitle": "Pupelės receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius pupelės receptus. Skanūs ir lengvi pupelės patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "pupelės",
+        "pupelės receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/pupeles"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 31,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "ryziai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Ryžiai"
+    },
+    "slug": "ryziai",
+    "seo": {
+      "metaTitle": "Ryžiai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius ryžiai receptus. Skanūs ir lengvi ryžiai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "ryžiai",
+        "ryžiai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/ryziai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 32,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "suris",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Sūris"
+    },
+    "slug": "suris",
+    "seo": {
+      "metaTitle": "Sūris receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius sūris receptus. Skanūs ir lengvi sūris patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "sūris",
+        "sūris receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/suris"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 33,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "tofu",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Tofu"
+    },
+    "slug": "tofu",
+    "seo": {
+      "metaTitle": "Tofu receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius tofu receptus. Skanūs ir lengvi tofu patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "tofu",
+        "tofu receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/tofu"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 34,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "triusiena",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Triušiena"
+    },
+    "slug": "triusiena",
+    "seo": {
+      "metaTitle": "Triušiena receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius triušiena receptus. Skanūs ir lengvi triušiena patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "triušiena",
+        "triušiena receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/triusiena"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 35,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "uogos",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Uogos"
+    },
+    "slug": "uogos",
+    "seo": {
+      "metaTitle": "Uogos receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius uogos receptus. Skanūs ir lengvi uogos patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "uogos",
+        "uogos receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/uogos"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 36,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "vaisiai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Vaisiai"
+    },
+    "slug": "vaisiai",
+    "seo": {
+      "metaTitle": "Vaisiai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius vaisiai receptus. Skanūs ir lengvi vaisiai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "vaisiai",
+        "vaisiai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/vaisiai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 37,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "varske",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Varškė"
+    },
+    "slug": "varske",
+    "seo": {
+      "metaTitle": "Varškė receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius varškė receptus. Skanūs ir lengvi varškė patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "varškė",
+        "varškė receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/varske"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 38,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "vistiena",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Vištiena"
+    },
+    "slug": "vistiena",
+    "seo": {
+      "metaTitle": "Vištiena receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius vištiena receptus. Skanūs ir lengvi vištiena patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "vištiena",
+        "vištiena receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/vistiena"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 39,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "zuvis",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Žuvis"
+    },
+    "slug": "zuvis",
+    "seo": {
+      "metaTitle": "Žuvis receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius žuvis receptus. Skanūs ir lengvi žuvis patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "žuvis",
+        "žuvis receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/zuvis"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 40,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "zveriena",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Žvėriena"
+    },
+    "slug": "zveriena",
+    "seo": {
+      "metaTitle": "Žvėriena receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius žvėriena receptus. Skanūs ir lengvi žvėriena patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "žvėriena",
+        "žvėriena receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagrindinis ingredientas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/zveriena"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 41,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "ant-grilio",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Ant grilio"
+    },
+    "slug": "ant-grilio",
+    "seo": {
+      "metaTitle": "Ant grilio receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius ant grilio receptus. Skanūs ir lengvi ant grilio patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "ant grilio",
+        "ant grilio receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/ant-grilio"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 42,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "ant-lauzo",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Ant laužo"
+    },
+    "slug": "ant-lauzo",
+    "seo": {
+      "metaTitle": "Ant laužo receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius ant laužo receptus. Skanūs ir lengvi ant laužo patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "ant laužo",
+        "ant laužo receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/ant-lauzo"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 43,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "be-kepimo",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Be kepimo"
+    },
+    "slug": "be-kepimo",
+    "seo": {
+      "metaTitle": "Be kepimo receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius be kepimo receptus. Skanūs ir lengvi be kepimo patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "be kepimo",
+        "be kepimo receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/be-kepimo"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 44,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "duonkepeje",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Duonkepėje"
+    },
+    "slug": "duonkepeje",
+    "seo": {
+      "metaTitle": "Duonkepėje receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius duonkepėje receptus. Skanūs ir lengvi duonkepėje patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "duonkepėje",
+        "duonkepėje receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/duonkepeje"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 45,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "garu-puode",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Garų puode"
+    },
+    "slug": "garu-puode",
+    "seo": {
+      "metaTitle": "Garų puode receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius garų puode receptus. Skanūs ir lengvi garų puode patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "garų puode",
+        "garų puode receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/garu-puode"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 46,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "greitpuodyje",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Greitpuodyje"
+    },
+    "slug": "greitpuodyje",
+    "seo": {
+      "metaTitle": "Greitpuodyje receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius greitpuodyje receptus. Skanūs ir lengvi greitpuodyje patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "greitpuodyje",
+        "greitpuodyje receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/greitpuodyje"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 47,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kazane",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kazane"
+    },
+    "slug": "kazane",
+    "seo": {
+      "metaTitle": "Kazane receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kazane receptus. Skanūs ir lengvi kazane patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kazane",
+        "kazane receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kazane"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 48,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kepta-keptuveje",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kepta keptuvėje"
+    },
+    "slug": "kepta-keptuveje",
+    "seo": {
+      "metaTitle": "Kepta keptuvėje receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kepta keptuvėje receptus. Skanūs ir lengvi kepta keptuvėje patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kepta keptuvėje",
+        "kepta keptuvėje receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kepta-keptuveje"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 49,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kepta-orkaiteje",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kepta orkaitėje"
+    },
+    "slug": "kepta-orkaiteje",
+    "seo": {
+      "metaTitle": "Kepta orkaitėje receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kepta orkaitėje receptus. Skanūs ir lengvi kepta orkaitėje patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kepta orkaitėje",
+        "kepta orkaitėje receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kepta-orkaiteje"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 50,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "oro-gruzdintuveje",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Oro gruzdintuvėje"
+    },
+    "slug": "oro-gruzdintuveje",
+    "seo": {
+      "metaTitle": "Oro gruzdintuvėje receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius oro gruzdintuvėje receptus. Skanūs ir lengvi oro gruzdintuvėje patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "oro gruzdintuvėje",
+        "oro gruzdintuvėje receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/oro-gruzdintuveje"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 51,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "troskinta",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Troškinta"
+    },
+    "slug": "troskinta",
+    "seo": {
+      "metaTitle": "Troškinta receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius troškinta receptus. Skanūs ir lengvi troškinta patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "troškinta",
+        "troškinta receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/troskinta"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 52,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "zaliavalgiams",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Žaliavalgiams"
+    },
+    "slug": "zaliavalgiams",
+    "seo": {
+      "metaTitle": "Žaliavalgiams receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius žaliavalgiams receptus. Skanūs ir lengvi žaliavalgiams patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "žaliavalgiams",
+        "žaliavalgiams receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "gaminimo būdas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/zaliavalgiams"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 53,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "gimtadienio-stalui",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Gimtadienio stalui"
+    },
+    "slug": "gimtadienio-stalui",
+    "seo": {
+      "metaTitle": "Gimtadienio stalui receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius gimtadienio stalui receptus. Skanūs ir lengvi gimtadienio stalui patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "gimtadienio stalui",
+        "gimtadienio stalui receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/gimtadienio-stalui"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 54,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "helovinui",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Helovinui"
+    },
+    "slug": "helovinui",
+    "seo": {
+      "metaTitle": "Helovinui receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius helovinui receptus. Skanūs ir lengvi helovinui patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "helovinui",
+        "helovinui receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/helovinui"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 55,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kaledoms",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kalėdoms"
+    },
+    "slug": "kaledoms",
+    "seo": {
+      "metaTitle": "Kalėdoms receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kalėdoms receptus. Skanūs ir lengvi kalėdoms patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kalėdoms",
+        "kalėdoms receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kaledoms"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 56,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "kucioms",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Kūčioms"
+    },
+    "slug": "kucioms",
+    "seo": {
+      "metaTitle": "Kūčioms receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius kūčioms receptus. Skanūs ir lengvi kūčioms patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "kūčioms",
+        "kūčioms receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/kucioms"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 57,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "naujuju-metu-stalui",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Naujųjų metų stalui"
+    },
+    "slug": "naujuju-metu-stalui",
+    "seo": {
+      "metaTitle": "Naujųjų metų stalui receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius naujųjų metų stalui receptus. Skanūs ir lengvi naujųjų metų stalui patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "naujųjų metų stalui",
+        "naujųjų metų stalui receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/naujuju-metu-stalui"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 58,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "paskutines-minutes",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Paskutinės minutės"
+    },
+    "slug": "paskutines-minutes",
+    "seo": {
+      "metaTitle": "Paskutinės minutės receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius paskutinės minutės receptus. Skanūs ir lengvi paskutinės minutės patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "paskutinės minutės",
+        "paskutinės minutės receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/paskutines-minutes"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 59,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "seimos-pietums",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Šeimos pietums"
+    },
+    "slug": "seimos-pietums",
+    "seo": {
+      "metaTitle": "Šeimos pietums receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius šeimos pietums receptus. Skanūs ir lengvi šeimos pietums patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "šeimos pietums",
+        "šeimos pietums receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/seimos-pietums"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 60,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "vaiku-gimtadieniui",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Vaikų gimtadieniui"
+    },
+    "slug": "vaiku-gimtadieniui",
+    "seo": {
+      "metaTitle": "Vaikų gimtadieniui receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius vaikų gimtadieniui receptus. Skanūs ir lengvi vaikų gimtadieniui patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "vaikų gimtadieniui",
+        "vaikų gimtadieniui receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/vaiku-gimtadieniui"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 61,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "vasarai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Vasarai"
+    },
+    "slug": "vasarai",
+    "seo": {
+      "metaTitle": "Vasarai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius vasarai receptus. Skanūs ir lengvi vasarai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "vasarai",
+        "vasarai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/vasarai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 62,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "velykoms",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Velykoms"
+    },
+    "slug": "velykoms",
+    "seo": {
+      "metaTitle": "Velykoms receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius velykoms receptus. Skanūs ir lengvi velykoms patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "velykoms",
+        "velykoms receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/velykoms"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 63,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "ziemai",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Žiemai"
+    },
+    "slug": "ziemai",
+    "seo": {
+      "metaTitle": "Žiemai receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius žiemai receptus. Skanūs ir lengvi žiemai patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "žiemai",
+        "žiemai receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "proga / tema / sezonas"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/ziemai"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 64,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "be-angliavandeniu",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Be angliavandenių"
+    },
+    "slug": "be-angliavandeniu",
+    "seo": {
+      "metaTitle": "Be angliavandenių receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius be angliavandenių receptus. Skanūs ir lengvi be angliavandenių patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "be angliavandenių",
+        "be angliavandenių receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/be-angliavandeniu"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 65,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "be-glitimo",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Be glitimo"
+    },
+    "slug": "be-glitimo",
+    "seo": {
+      "metaTitle": "Be glitimo receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius be glitimo receptus. Skanūs ir lengvi be glitimo patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "be glitimo",
+        "be glitimo receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/be-glitimo"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 66,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "be-kiausiniu",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Be kiaušinių"
+    },
+    "slug": "be-kiausiniu",
+    "seo": {
+      "metaTitle": "Be kiaušinių receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius be kiaušinių receptus. Skanūs ir lengvi be kiaušinių patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "be kiaušinių",
+        "be kiaušinių receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/be-kiausiniu"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 67,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "be-laktozes",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Be laktozės"
+    },
+    "slug": "be-laktozes",
+    "seo": {
+      "metaTitle": "Be laktozės receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius be laktozės receptus. Skanūs ir lengvi be laktozės patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "be laktozės",
+        "be laktozės receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/be-laktozes"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 68,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "be-mesos",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Be mėsos"
+    },
+    "slug": "be-mesos",
+    "seo": {
+      "metaTitle": "Be mėsos receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius be mėsos receptus. Skanūs ir lengvi be mėsos patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "be mėsos",
+        "be mėsos receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/be-mesos"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 69,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "be-pieno-produktu",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Be pieno produktų"
+    },
+    "slug": "be-pieno-produktu",
+    "seo": {
+      "metaTitle": "Be pieno produktų receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius be pieno produktų receptus. Skanūs ir lengvi be pieno produktų patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "be pieno produktų",
+        "be pieno produktų receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/be-pieno-produktu"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 70,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "be-riebalu",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Be riebalų"
+    },
+    "slug": "be-riebalu",
+    "seo": {
+      "metaTitle": "Be riebalų receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius be riebalų receptus. Skanūs ir lengvi be riebalų patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "be riebalų",
+        "be riebalų receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/be-riebalu"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 71,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "cholesteroliui-mazinti",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Cholesteroliui mažinti"
+    },
+    "slug": "cholesteroliui-mazinti",
+    "seo": {
+      "metaTitle": "Cholesteroliui mažinti receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius cholesteroliui mažinti receptus. Skanūs ir lengvi cholesteroliui mažinti patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "cholesteroliui mažinti",
+        "cholesteroliui mažinti receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/cholesteroliui-mazinti"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 72,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "diabetikams",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Diabetikams"
+    },
+    "slug": "diabetikams",
+    "seo": {
+      "metaTitle": "Diabetikams receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius diabetikams receptus. Skanūs ir lengvi diabetikams patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "diabetikams",
+        "diabetikams receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/diabetikams"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 73,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "greitai-pagaminami",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Greitai pagaminami"
+    },
+    "slug": "greitai-pagaminami",
+    "seo": {
+      "metaTitle": "Greitai pagaminami receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius greitai pagaminami receptus. Skanūs ir lengvi greitai pagaminami patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "greitai pagaminami",
+        "greitai pagaminami receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/greitai-pagaminami"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 74,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "lengvai-pagaminami",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Lengvai pagaminami"
+    },
+    "slug": "lengvai-pagaminami",
+    "seo": {
+      "metaTitle": "Lengvai pagaminami receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius lengvai pagaminami receptus. Skanūs ir lengvi lengvai pagaminami patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "lengvai pagaminami",
+        "lengvai pagaminami receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/lengvai-pagaminami"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 75,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "pigiai-pagaminami",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Pigiai pagaminami"
+    },
+    "slug": "pigiai-pagaminami",
+    "seo": {
+      "metaTitle": "Pigiai pagaminami receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius pigiai pagaminami receptus. Skanūs ir lengvi pigiai pagaminami patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "pigiai pagaminami",
+        "pigiai pagaminami receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/pigiai-pagaminami"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 76,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  },
+  {
+    "path": "pietus-i-darba",
+    "parentPath": null,
+    "level": 1,
+    "title": {
+      "lt": "Pietūs į darbą"
+    },
+    "slug": "pietus-i-darba",
+    "seo": {
+      "metaTitle": "Pietūs į darbą receptai - Ragaujam.lt",
+      "metaDescription": "Atraskite geriausius pietūs į darbą receptus. Skanūs ir lengvi pietūs į darbą patiekalai su nuotraukomis ir detaliais gaminimo instrukcijomis.",
+      "keywords": [
+        "pietūs į darbą",
+        "pietūs į darbą receptai",
+        "lietuviški receptai",
+        "maistas",
+        "gaminimas",
+        "pagal ypatybę"
+      ],
+      "canonicalUrl": "https://ragaujam.lt/receptai/pietus-i-darba"
+    },
+    "filters": {
+      "manual": [],
+      "auto": [],
+      "timeFilters": [
+        "iki-30-min",
+        "30-60-min",
+        "1-2-val",
+        "virs-2-val"
+      ]
+    },
+    "isActive": true,
+    "sortOrder": 77,
+    "createdAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-25T12:00:00.000Z"
+    }
+  }
+]
