@@ -5,7 +5,7 @@ import { useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
-import clientPromise from '../../lib/mongodb';
+import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 
 import Breadcrumb from '../../components/navigation/Breadcrumb';
 import CategoryMenu from '../../components/navigation/CategoryMenu';
@@ -224,7 +224,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   try {
     // 🚀 Use shared MongoDB client for better performance
     const client = await clientPromise;
-    const db = client.db();
+    const db = client.db(DATABASE_NAME);
 
     // Pagination
     const page = parseInt(query.page as string) || 1;

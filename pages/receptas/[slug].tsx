@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
-import clientPromise from '../../lib/mongodb';
+import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
 import SchemaOrgRecipe from '../../components/seo/SchemaOrgRecipe';
@@ -347,7 +347,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   try {
     // 🚀 Use shared MongoDB client for better performance
     const client = await clientPromise;
-    const db = client.db();
+    const db = client.db(DATABASE_NAME);
 
     // Get recipe from recipes_new collection
     const recipe = await db.collection('recipes_new').findOne({ slug });

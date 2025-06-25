@@ -2,7 +2,7 @@
 // Handles query-based search with filters and performance optimization
 
 import { NextApiRequest, NextApiResponse } from 'next';
-import { MongoClient } from 'mongodb';
+import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 import { searchApiSecurity } from '../../lib/security';
 import { 
   buildSearchAggregation, 
@@ -68,9 +68,8 @@ async function searchHandler(
     const pageNum = Math.max(1, parseInt(page));
     const limitNum = Math.min(50, Math.max(1, parseInt(limit))); // Max 50 results per page
 
-    const client = new MongoClient(process.env.MONGODB_URI!);
-    await client.connect();
-    const db = client.db();
+    const client = await clientPromise;
+    const db = client.db(DATABASE_NAME);
 
     // Build search aggregation pipeline
     const pipeline = buildSearchAggregation(
@@ -106,7 +105,7 @@ async function searchHandler(
       categoryFilter
     );
 
-    await client.close();
+    // ✅ Don't close shared client - it's managed by the connection pool
 
     // Calculate performance metrics
     const searchTime = Date.now() - startTime;

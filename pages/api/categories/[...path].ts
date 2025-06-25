@@ -2,7 +2,7 @@
 // GET /api/categories/path/to/category
 
 import { NextApiRequest, NextApiResponse } from 'next';
-import { MongoClient } from 'mongodb';
+import clientPromise, { DATABASE_NAME } from '../../../lib/mongodb';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {
@@ -18,15 +18,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const categoryPath = path.join('/');
 
-    const client = new MongoClient(process.env.MONGODB_URI!);
-    await client.connect();
-    const db = client.db();
+    const client = await clientPromise;
+    const db = client.db(DATABASE_NAME);
 
     // Get category data
     const category = await db.collection('categories_new').findOne({ path: categoryPath });
 
     if (!category) {
-      await client.close();
       return res.status(404).json({ message: 'Category not found' });
     }
 
@@ -66,7 +64,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       .limit(6)
       .toArray();
 
-    await client.close();
+    // ✅ Don't close shared client - it's managed by the connection pool
 
     res.status(200).json({
       category,

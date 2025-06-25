@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
-import clientPromise from '../lib/mongodb';
+import clientPromise, { DATABASE_NAME } from '../lib/mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../components/ui/PlaceholderImage';
@@ -533,7 +533,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
   try {
     // 🚀 Use shared MongoDB client for better performance
     const client = await clientPromise;
-    const db = client.db();
+    const db = client.db(DATABASE_NAME);
 
     // Get category
     const category = await db.collection('categories_new').findOne({ path: categoryPath });

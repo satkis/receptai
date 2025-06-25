@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import clientPromise from '@/lib/mongodb';
+import clientPromise, { DATABASE_NAME } from '@/lib/mongodb';
 import { ApiResponse } from '@/types';
 
 export default async function handler(
@@ -37,7 +37,7 @@ async function getRecipes(req: NextApiRequest, res: NextApiResponse<ApiResponse>
     const skip = (pageNum - 1) * limitNum;
 
     const client = await clientPromise;
-    const db = client.db();
+    const db = client.db(DATABASE_NAME);
 
     // Build filter object using new schema
     const filter: any = {};
@@ -132,7 +132,7 @@ async function createRecipe(req: NextApiRequest, res: NextApiResponse<ApiRespons
     }
 
     const client = await clientPromise;
-    const db = client.db();
+    const db = client.db(DATABASE_NAME);
 
     // Generate slug from Lithuanian title
     const baseSlug = recipeData.title.lt
