@@ -73,6 +73,13 @@ export interface Recipe {
 
   ingredients: NewIngredient[];
   instructions: NewInstruction[];
+  notes?: Array<{
+    text: {
+      lt: string;
+      en?: string;
+    };
+    priority: number;
+  }>;
 
   // Enhanced Image Schema
   image: RecipeImage;

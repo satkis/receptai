@@ -75,6 +75,31 @@ const recipeSchema = {
     }
   ],
 
+  // === NOTES/TIPS (Patarimai) ===
+  notes: [
+    {
+      text: {
+        lt: "Galite naudoti bet kokius grybų tipus - pievagrybius, šampinjonus ar mišrainius",
+        en: "You can use any type of mushrooms - chanterelles, champignons or mixed" // Optional
+      },
+      priority: 1
+    },
+    {
+      text: {
+        lt: "Patiekalas skaniausia šiltas, bet galima valgyti ir atvėsusį",
+        en: "The dish is best served warm, but can also be eaten cold"
+      },
+      priority: 2
+    },
+    {
+      text: {
+        lt: "Laikykite šaldytuve iki 3 dienų, prieš valgant pašildykite mikrobangų krosnelėje",
+        en: "Store in refrigerator for up to 3 days, reheat in microwave before eating"
+      },
+      priority: 3
+    }
+  ],
+
   // === IMAGE (S3 Integration - Next.js Optimized) ===
   image: {
     src: "https://receptu-images.s3.eu-north-1.amazonaws.com/vistienos-kepsnys.jpg",

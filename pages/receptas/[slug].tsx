@@ -41,6 +41,10 @@ interface Recipe {
     text: { lt: string; en?: string };
     image?: string;
   }>;
+  notes?: Array<{
+    text: { lt: string; en?: string };
+    priority: number;
+  }>;
 
   // SEO Metadata
   seo?: {
@@ -237,6 +241,32 @@ function IngredientsSection({ ingredients }: { ingredients: Recipe['ingredients'
   );
 }
 
+// Patarimai Section Component
+function PatarimiSection({ notes }: { notes: Recipe['notes'] }) {
+  if (!notes || notes.length === 0) {
+    return null; // Hide container if no notes
+  }
+
+  // Sort notes by priority
+  const sortedNotes = [...notes].sort((a, b) => a.priority - b.priority);
+
+  return (
+    <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+      <h2 className="text-xl font-semibold text-gray-900 mb-6">Patarimai</h2>
+      <ul className="space-y-3">
+        {sortedNotes.map((note, index) => (
+          <li key={index} className="flex gap-3">
+            <span className="flex-shrink-0 w-2 h-2 bg-orange-400 rounded-full mt-2"></span>
+            <p className="text-gray-700 leading-relaxed">
+              {note.text.lt}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 // Instructions Section
 function InstructionsSection({ instructions }: { instructions: Recipe['instructions'] }) {
   const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());
@@ -322,8 +352,19 @@ export default function RecipePage({ recipe }: RecipePageProps) {
             <IngredientsSection ingredients={recipe.ingredients} />
           </div>
 
-          {/* Instructions */}
-          <div className="lg:col-span-2">
+          {/* Right Column: Patarimai + Instructions */}
+          <div className="lg:col-span-2 space-y-8">
+            {/* Patarimai - Hidden on mobile, shown above instructions on desktop */}
+            <div className="hidden lg:block">
+              <PatarimiSection notes={recipe.notes} />
+            </div>
+
+            {/* Patarimai - Shown on mobile below ingredients */}
+            <div className="lg:hidden">
+              <PatarimiSection notes={recipe.notes} />
+            </div>
+
+            {/* Instructions */}
             <InstructionsSection instructions={recipe.instructions} />
           </div>
         </div>
