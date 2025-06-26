@@ -67,7 +67,8 @@ export function generateEnhancedRecipeSchema(recipe: any) {
     // ENHANCED INSTRUCTIONS with HowToStep (Google requirement)
     recipeInstructions: recipe.instructions.map((instruction: any) => ({
       '@type': 'HowToStep',
-      name: `Žingsnis ${instruction.step}`,
+      // name: `Žingsnis ${instruction.step}`,
+       name: instruction.name.lt,
       text: instruction.text.lt,
       url: `${baseUrl}/receptas/${recipe.slug}#step${instruction.step}`,
       // Only add image if it exists in DB
@@ -171,8 +172,8 @@ function getRecipeCuisine(tags: string[], _categoryPath?: string): string {
     }
   }
 
-  // Default to Lithuanian if no specific cuisine found
-  return 'Lietuviška';
+  // Default to European if no specific cuisine found
+  return 'European';
 }
 
 // Enhanced breadcrumb schema
