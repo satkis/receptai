@@ -6,8 +6,10 @@ import { GetServerSideProps } from 'next';
 import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
-import SchemaOrgRecipe from '../../components/seo/SchemaOrgRecipe';
+
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../components/navigation/Breadcrumb';
+import StarRating from '../../components/StarRating';
+import { generateEnhancedRecipeSchema } from '../../utils/enhanced-recipe-schema';
 
 interface Recipe {
   _id: string;
@@ -155,6 +157,19 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
         <p className="text-gray-600 text-lg mb-6">
           {recipe.description.lt}
         </p>
+
+        {/* Star Rating Section */}
+        <div className="mb-6">
+          <StarRating
+            initialRating={0}
+            size="lg"
+            showRatingText={true}
+            onRatingChange={(rating) => {
+              console.log('User rated:', rating);
+              // TODO: Save rating to database when backend is ready
+            }}
+          />
+        </div>
 
         <div className="flex flex-wrap gap-4 text-sm text-gray-600">
           <div className="flex items-center gap-1">
@@ -332,9 +347,18 @@ export default function RecipePage({ recipe }: RecipePageProps) {
   // Generate breadcrumbs using new dynamic system
   const breadcrumbItems = generateRecipeBreadcrumbs(recipe, getNavigationPath());
 
+  // Generate enhanced schema for better SEO
+  const enhancedSchema = generateEnhancedRecipeSchema(recipe);
+
   return (
     <>
-      <SchemaOrgRecipe recipe={recipe} />
+      {/* Enhanced Recipe Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(enhancedSchema)
+        }}
+      />
 
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Recipe Header */}

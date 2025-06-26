@@ -1,0 +1,242 @@
+{
+  "_id": {
+    "$oid": "685c07b1fff835ea239f12f3"
+  },
+  "slug": "toskanietiska-pupeliu-sriuba",
+  "canonicalUrl": "https://ragaujam.lt/receptas/toskanietiska-pupeliu-sriuba",
+  "title": {
+    "lt": "Toskanietiška pupelių sriuba su daržovėmis ir čiobreliais"
+  },
+  "description": {
+    "lt": "Sotus, šildantis ir kvapnus Toskanietiškos pupelių sriubos receptas, kupinas daržovių, žolelių ir itališko skonio. Puikiai tinka šaltai žiemos dienai."
+  },
+  "seo": {
+    "metaTitle": "Toskanietiška pupelių sriuba - Ragaujam.lt",
+    "metaDescription": "Autentiška Toskanietiška pupelių sriuba su daržovėmis, čiobreliais ir alyvuogių aliejumi. Sveikas, sotus ir paprastas receptas žiemos pietums.",
+    "keywords": [
+      "pupelių sriuba",
+      "toskanietiška",
+      "daržovės",
+      "itališkas receptas",
+      "jautiena"
+    ]
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "30-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutinis",
+  "primaryCategoryPath": "receptai/jautiena",
+  "secondaryCategories": [
+    "receptai/be-angliavandeniu",
+    "receptai/ant-lauzo"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baltosios pupelės (virtos arba konservuotos)"
+      },
+      "quantity": "500 g",
+      "vital": true,
+      "notes": "Jeigu naudojate sausas, pamirkykite ir išvirkite iš anksto"
+    },
+    {
+      "name": {
+        "lt": "Morka"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saliero stiebas"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 didelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnako skiltelės"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Konservuoti smulkinti pomidorai"
+      },
+      "quantity": "400 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Daržovių sultinys"
+      },
+      "quantity": "1 l",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "3 šaukštai",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Džiovintas čiobrelis"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Rozmarinas"
+      },
+      "quantity": "1/2 arbatinio šaukštelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska ir pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapas"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Šviežios petražolės"
+      },
+      "quantity": "1 sauja",
+      "vital": false,
+      "notes": "Pabarstymui"
+    },
+    {
+      "name": {
+        "lt": "Rustinė duona"
+      },
+      "quantity": "6 riekės",
+      "vital": false,
+      "notes": "Patiekti su sriuba"
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti bet kokius grybų tipus - pievagrybius, šampinjonus ar mišrainius"
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekalas skaniausia šiltas, bet galima valgyti ir atvėsusį"
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Laikykite šaldytuve iki 3 dienų, prieš valgant pašildykite mikrobangų krosnelėje"
+      },
+      "priority": 3
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": {
+        "lt": "Įkaitinkite puodą su alyvuogių aliejumi, suberkite smulkintą svogūną, morkas, salierą ir česnaką. Kepkite 7–10 min, kol daržovės suminkštės."
+      }
+    },
+    {
+      "step": 2,
+      "text": {
+        "lt": "Įpilkite pomidorus, sultinį, pupeles, lauro lapą, čiobrelius, rozmariną, druską ir pipirus. Išmaišykite ir užvirinkite."
+      }
+    },
+    {
+      "step": 3,
+      "text": {
+        "lt": "Sumažinkite ugnį ir virkite 25–30 min., kol skoniai susijungs. Esant poreikiui, dalį sriubos sutrinkite trintuvu, kad būtų tirštesnė konsistencija."
+      }
+    },
+    {
+      "step": 4,
+      "text": {
+        "lt": "Patiekite karštą su petražolėmis ir skrudinta rustine duona šone."
+      }
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/toskanietiska-sriuba.jpg",
+    "alt": "Toskanietiška pupelių sriuba dubenyje su daržovėmis",
+    "width": 1200,
+    "height": 800
+  },
+  "tags": [
+    "ant-lauzo",
+    "be-angliavandeniu",
+    "darzoves",
+    "daržovės",
+    "italija",
+    "jautiena",
+    "pupeles",
+    "pupelės",
+    "sriuba",
+    "vegetariska",
+    "vegetariška",
+    "ziemai",
+    "žiemai"
+  ],
+  "author": {
+    "name": "ragaujam.lt",
+    "profileUrl": "https://ragaujam.lt"
+  },
+  "status": "published",
+  "featured": true,
+  "trending": false,
+  "seasonal": [
+    "žiema"
+  ],
+  "sitemap": {
+    "priority": 0.8,
+    "changefreq": "monthly",
+    "lastmod": "2024-01-15T12:00:00+02:00"
+  },
+  "publishedAt": "2024-01-15T12:00:00+02:00",
+  "createdAt": "2024-01-15T11:45:00+02:00",
+  "updatedAt": {
+    "$date": "2025-06-25T14:53:36.009Z"
+  },
+  "nutrition": {
+    "calories": 320,
+    "servingSize": "1 porcija",
+    "fatContent": "12g",
+    "proteinContent": "25g",
+    "carbohydrateContent": "15g",
+    "fiberContent": "8g",
+    "sugarContent": "6g",
+    "sodiumContent": "850mg"
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 23,
+    "bestRating": 5,
+    "worstRating": 1
+  }
+}
