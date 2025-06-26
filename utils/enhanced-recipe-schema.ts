@@ -74,9 +74,9 @@ export function generateEnhancedRecipeSchema(recipe: any) {
       ...(instruction.image && { image: instruction.image })
     })),
     
-    // CATEGORY AND CUISINE (Google requirement)
-    recipeCategory: getRecipeCategory(recipe.primaryCategoryPath),
-    recipeCuisine: 'Lietuviška',
+    // CATEGORY AND CUISINE (Google requirement - dynamic)
+    recipeCategory: recipe.recipeCategory || getRecipeCategory(recipe.primaryCategoryPath),
+    recipeCuisine: recipe.recipeCuisine || getRecipeCuisine(recipe.tags, recipe.primaryCategoryPath),
 
     // KEYWORDS for better discovery (Google recommendation)
     keywords: recipe.tags.join(', '),
@@ -133,8 +133,46 @@ function getRecipeCategory(categoryPath: string): string {
     'receptai/desertas': 'Desertas',
     'receptai/gerimai': 'Gėrimas'
   };
-  
+
   return categoryMap[categoryPath] || 'Pagrindinis patiekalas';
+}
+
+// Smart cuisine detection from tags and category
+function getRecipeCuisine(tags: string[], _categoryPath?: string): string {
+  // Check tags for cuisine indicators
+  const cuisineMap: Record<string, string> = {
+    'italija': 'Itališka',
+    'italiska': 'Itališka',
+    'prancuzija': 'Prancūziška',
+    'prancuziska': 'Prancūziška',
+    'kinija': 'Kiniška',
+    'kiniska': 'Kiniška',
+    'indija': 'Indiška',
+    'indiska': 'Indiška',
+    'meksika': 'Meksikonų',
+    'meksikietiska': 'Meksikonų',
+    'graikija': 'Graikų',
+    'graikiska': 'Graikų',
+    'japonija': 'Japoniška',
+    'japoniska': 'Japoniška',
+    'tailandas': 'Tailandiečių',
+    'tailandietiska': 'Tailandiečių',
+    'vokietija': 'Vokiška',
+    'vokiska': 'Vokiška',
+    'ispanija': 'Ispaniška',
+    'ispaniska': 'Ispaniška'
+  };
+
+  // Check each tag for cuisine match
+  for (const tag of tags) {
+    const normalizedTag = tag.toLowerCase();
+    if (cuisineMap[normalizedTag]) {
+      return cuisineMap[normalizedTag];
+    }
+  }
+
+  // Default to Lithuanian if no specific cuisine found
+  return 'Lietuviška';
 }
 
 // Enhanced breadcrumb schema
