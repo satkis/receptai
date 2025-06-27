@@ -1,7 +1,7 @@
 {
   "version": 2,
   "alias": ["ragaujam.lt", "www.ragaujam.lt"],
-  "regions": ["fra1"],
+
   "env": {
     "NODE_ENV": "production"
   },
@@ -10,19 +10,12 @@
       "NEXT_PUBLIC_SITE_URL": "https://ragaujam.lt"
     }
   },
-  "preview": {
-    "env": {
-      "NEXT_PUBLIC_SITE_URL": "https://staging-ragaujam.vercel.app"
-    }
-  },
   "functions": {
     "pages/api/**/*.ts": {
-      "maxDuration": 30,
-      "regions": ["fra1"]
+      "maxDuration": 30
     },
     "pages/sitemap*.tsx": {
-      "maxDuration": 30,
-      "regions": ["fra1"]
+      "maxDuration": 30
     }
   },
   "headers": [

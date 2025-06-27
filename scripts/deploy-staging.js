@@ -33,12 +33,11 @@ function hasUncommittedChanges() {
 
 console.log('🚀 Starting staging deployment...');
 
-// Check if we're on develop branch
+// Check if we're on develop branch, switch if needed
 const currentBranch = getCurrentBranch();
 if (currentBranch !== 'develop') {
-  console.error('❌ Error: Must be on \'develop\' branch to deploy to staging');
-  console.error(`Current branch: ${currentBranch}`);
-  process.exit(1);
+  console.log(`🔄 Currently on '${currentBranch}' branch, switching to 'develop'...`);
+  runCommand('git checkout develop');
 }
 
 // Check for uncommitted changes
@@ -69,10 +68,10 @@ runCommand('git push origin staging');
 
 // Deploy to Vercel staging
 console.log('🚀 Deploying to Vercel staging environment...');
-runCommand('vercel --target preview --yes');
+runCommand('vercel --yes');
 
 console.log('✅ Staging deployment complete!');
-console.log('🌐 Staging URL: https://staging-ragaujam.vercel.app');
+console.log('🌐 Check the Preview URL above for your staging site');
 console.log('');
 console.log('📋 Next steps:');
 console.log('1. Test the staging environment thoroughly');

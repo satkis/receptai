@@ -6,6 +6,8 @@ import { useEffect } from 'react';
 
 import '@/styles/globals.css';
 import Layout from '@/components/layout/Layout';
+import StagingBanner from '@/components/StagingBanner';
+import ISRDebugger from '@/components/ISRDebugger';
 
 
 
@@ -94,9 +96,13 @@ export default function App({ Component, pageProps }: AppProps) {
         )}
       </Head>
 
+      <StagingBanner />
+
       <Layout>
         <Component {...pageProps} />
       </Layout>
+
+      <ISRDebugger />
 
       {/* Toast notifications */}
       <Toaster
