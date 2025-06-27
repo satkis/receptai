@@ -8,25 +8,25 @@ const fs = require('fs');
 
 function runCommand(command, options = {}) {
   try {
-    return execSync(command, { 
+    return execSync(command, {
       stdio: options.silent ? 'pipe' : 'inherit',
       encoding: 'utf8',
-      ...options 
+      ...options
     });
   } catch (error) {
-    if (!options.allowFailure) {
-      console.error(`❌ Error running command: ${command}`);
-      console.error(error.message);
-      process.exit(1);
+    if (options.allowFailure) {
+      return null;
     }
-    return null;
+    console.error(`❌ Error running command: ${command}`);
+    console.error(error.message);
+    process.exit(1);
   }
 }
 
 function branchExists(branchName) {
   try {
-    runCommand(`git show-ref --verify --quiet refs/heads/${branchName}`, { silent: true });
-    return true;
+    const branches = runCommand('git branch', { silent: true });
+    return branches.includes(branchName);
   } catch {
     return false;
   }
@@ -72,23 +72,33 @@ console.log('📥 Pulling latest main branch...');
 runCommand('git pull origin main');
 
 // Create develop branch if it doesn't exist
+console.log('🔍 Checking if develop branch exists...');
 if (branchExists('develop')) {
   console.log('✅ develop branch already exists');
 } else {
   console.log('🌿 Creating develop branch...');
-  runCommand('git checkout -b develop');
-  runCommand('git push origin develop');
-  console.log('✅ develop branch created and pushed');
+  try {
+    runCommand('git checkout -b develop');
+    runCommand('git push origin develop');
+    console.log('✅ develop branch created and pushed');
+  } catch (error) {
+    console.log('⚠️  Error creating develop branch, but continuing...');
+  }
 }
 
 // Create staging branch if it doesn't exist
+console.log('🔍 Checking if staging branch exists...');
 if (branchExists('staging')) {
   console.log('✅ staging branch already exists');
 } else {
   console.log('🌿 Creating staging branch...');
-  runCommand('git checkout -b staging');
-  runCommand('git push origin staging');
-  console.log('✅ staging branch created and pushed');
+  try {
+    runCommand('git checkout -b staging');
+    runCommand('git push origin staging');
+    console.log('✅ staging branch created and pushed');
+  } catch (error) {
+    console.log('⚠️  Error creating staging branch, but continuing...');
+  }
 }
 
 // Switch back to develop for development
