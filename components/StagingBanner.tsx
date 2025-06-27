@@ -6,10 +6,9 @@ export default function StagingBanner() {
   useEffect(() => {
     // Check if we're on a staging/preview URL
     const hostname = window.location.hostname;
-    const isPreview = hostname.includes('vercel.app') || 
-                     hostname.includes('staging') ||
-                     hostname !== 'ragaujam.lt';
-    setIsStaging(isPreview);
+    const isProduction = hostname === 'ragaujam.lt' ||
+                        hostname === 'www.ragaujam.lt';
+    setIsStaging(!isProduction);
   }, []);
 
   if (!isStaging) return null;
