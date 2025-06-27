@@ -333,6 +333,14 @@ function InstructionsSection({ instructions }: { instructions: Recipe['instructi
 export default function RecipePage({ recipe }: RecipePageProps) {
   const router = useRouter();
 
+  // Debug logging
+  console.log('Recipe data:', {
+    slug: recipe?.slug,
+    title: recipe?.title?.lt,
+    image: recipe?.image,
+    hasImage: !!recipe?.image?.src
+  });
+
   // Validate recipe data to prevent build errors
   if (!recipe || !recipe.title || !recipe.title.lt) {
     return (
