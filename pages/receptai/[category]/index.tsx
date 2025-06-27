@@ -181,7 +181,7 @@ function TimeFilter({
 }
 
 // Enhanced Recipe Card Component
-function RecipeCard({ recipe, category }: { recipe: Recipe; category: Category }) {
+function RecipeCard({ recipe, category, priority = false }: { recipe: Recipe; category: Category; priority?: boolean }) {
   const [showAllIngredients, setShowAllIngredients] = useState(false);
 
   // Get vital ingredients (first 3 most important ones)
@@ -224,8 +224,9 @@ function RecipeCard({ recipe, category }: { recipe: Recipe; category: Category }
           }
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
-          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 300px"
           quality={85}
+          priority={priority}
         />
 
         {/* Enhanced Time/Servings Overlay */}
@@ -424,8 +425,8 @@ export default function CategoryPage({
             {/* Enhanced Recipe Grid */}
             {filteredRecipes.length > 0 ? (
               <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-8">
-                {filteredRecipes.map((recipe) => (
-                  <RecipeCard key={recipe._id} recipe={recipe} category={category} />
+                {filteredRecipes.map((recipe, index) => (
+                  <RecipeCard key={recipe._id} recipe={recipe} category={category} priority={index < 3} />
                 ))}
               </div>
             ) : (

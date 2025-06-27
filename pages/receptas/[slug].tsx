@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
+import Head from 'next/head';
 import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
@@ -143,7 +144,7 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
           fill
           className="object-cover"
           priority
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1000px"
           quality={85}
         />
       </div>
@@ -364,6 +365,20 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 
   return (
     <>
+      <Head>
+        <title>{recipe.title.lt}</title>
+        <meta name="description" content={recipe.seo?.metaDescription || recipe.description.lt} />
+        <meta name="keywords" content={recipe.seo?.keywords?.join(', ') || recipe.tags?.join(', ') || ''} />
+        <meta property="og:title" content={recipe.title.lt} />
+        <meta property="og:description" content={recipe.seo?.metaDescription || recipe.description.lt} />
+        <meta property="og:image" content={typeof recipe.image === 'string' ? recipe.image : recipe.image.src} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={recipe.title.lt} />
+        <meta name="twitter:description" content={recipe.seo?.metaDescription || recipe.description.lt} />
+        <meta name="twitter:image" content={typeof recipe.image === 'string' ? recipe.image : recipe.image.src} />
+      </Head>
+
       {/* Enhanced Recipe Schema */}
       <script
         type="application/ld+json"

@@ -37,7 +37,7 @@ interface ReceptaiPageProps {
 }
 
 // Enhanced Recipe Card Component
-function RecipeCard({ recipe }: { recipe: Recipe }) {
+function RecipeCard({ recipe, priority = false }: { recipe: Recipe; priority?: boolean }) {
   const [showAllIngredients, setShowAllIngredients] = useState(false);
 
   // Get vital ingredients (first 3 most important ones)
@@ -72,8 +72,9 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
           alt={(recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
-          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 300px"
           quality={85}
+          priority={priority}
         />
 
         {/* Enhanced Time/Servings Overlay */}
@@ -183,8 +184,8 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
             {/* Enhanced Recipe Grid */}
             {recipes.length > 0 ? (
               <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-8">
-                {recipes.map((recipe) => (
-                  <RecipeCard key={recipe._id} recipe={recipe} />
+                {recipes.map((recipe, index) => (
+                  <RecipeCard key={recipe._id} recipe={recipe} priority={index < 3} />
                 ))}
               </div>
             ) : (
