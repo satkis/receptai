@@ -231,7 +231,7 @@ function IngredientsSection({ ingredients }: { ingredients: Recipe['ingredients'
                   ? 'line-through text-gray-400'
                   : 'text-gray-900'
               }`}>
-                {ingredient.name.lt}
+                {ingredient.name?.lt || 'Nenurodyta'}
               </span>
               {ingredient.vital && (
                 <span className="text-orange-500 ml-1">*</span>
@@ -273,7 +273,7 @@ function PatarimiSection({ notes }: { notes: Recipe['notes'] }) {
           <li key={index} className="flex gap-3">
             <span className="flex-shrink-0 w-2 h-2 bg-orange-400 rounded-full mt-2"></span>
             <p className="text-gray-700 leading-relaxed">
-              {note.text.lt}
+              {note.text?.lt || 'Nenurodyta'}
             </p>
           </li>
         ))}
@@ -318,7 +318,7 @@ function InstructionsSection({ instructions }: { instructions: Recipe['instructi
                 ? 'text-gray-400 line-through'
                 : 'text-gray-700 group-hover:text-gray-900'
             }`}>
-              {instruction.text.lt}
+              {instruction.text?.lt || 'Nenurodyta'}
             </p>
           </li>
         ))}
@@ -331,6 +331,18 @@ function InstructionsSection({ instructions }: { instructions: Recipe['instructi
 
 export default function RecipePage({ recipe }: RecipePageProps) {
   const router = useRouter();
+
+  // Validate recipe data to prevent build errors
+  if (!recipe || !recipe.title || !recipe.title.lt) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900 mb-4">Receptas nerastas</h1>
+          <p className="text-gray-600">Atsiprašome, šis receptas neegzistuoja arba buvo pašalintas.</p>
+        </div>
+      </div>
+    );
+  }
 
   // Detect navigation path from referrer or query params
   const getNavigationPath = (): string | undefined => {
@@ -422,6 +434,17 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       return { notFound: true };
     }
 
+    // Validate recipe has required fields
+    if (!recipe.title || !recipe.title.lt || !recipe.description || !recipe.description.lt) {
+      console.error(`Recipe ${slug} missing required fields:`, {
+        hasTitle: !!recipe.title,
+        hasTitleLt: !!recipe.title?.lt,
+        hasDescription: !!recipe.description,
+        hasDescriptionLt: !!recipe.description?.lt
+      });
+      return { notFound: true };
+    }
+
     // ✅ Don't close shared client - it's managed by the connection pool
 
     return {
@@ -449,15 +472,20 @@ export const getStaticPaths: GetStaticPaths = async () => {
         $or: [
           { featured: true },
           { trending: true }
-        ]
+        ],
+        // Ensure recipe has required fields
+        'title.lt': { $exists: true, $ne: null },
+        'slug': { $exists: true, $ne: null }
       })
       .project({ slug: 1 })
       .limit(50) // Pre-generate top 50 recipes
       .toArray();
 
-    const paths = popularRecipes.map((recipe) => ({
-      params: { slug: recipe.slug }
-    }));
+    const paths = popularRecipes
+      .filter(recipe => recipe.slug && typeof recipe.slug === 'string')
+      .map((recipe) => ({
+        params: { slug: recipe.slug }
+      }));
 
     return {
       paths,
