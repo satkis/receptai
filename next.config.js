@@ -37,7 +37,11 @@ const nextConfig = {
   // Performance optimizations
   experimental: {
     scrollRestoration: true,
+    optimizePackageImports: ['lucide-react'],
   },
+
+  // Optimize bundle size while keeping legacy support
+  swcMinify: true,
 
   // Redirects - Server-side, no performance impact
   async redirects() {

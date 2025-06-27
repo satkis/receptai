@@ -99,7 +99,7 @@ export default function SubcategoryPage({
                           alt={(recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')}
                           fill
                           className="object-cover"
-                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 300px"
                           quality={85}
                         />
                       </div>
