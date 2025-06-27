@@ -68,7 +68,23 @@ runCommand('git push origin staging');
 
 // Deploy to Vercel staging environment
 console.log('🚀 Deploying to Vercel staging environment...');
-runCommand('vercel --yes');
+const deployOutput = runCommand('vercel --yes', { silent: true });
+
+// Extract deployment URL from output
+const deploymentUrl = deployOutput.match(/https:\/\/[^\s]+\.vercel\.app/)?.[0];
+
+if (deploymentUrl) {
+  console.log(`📦 Deployment created: ${deploymentUrl}`);
+
+  // Set custom alias for staging
+  console.log('🔗 Setting up custom staging alias...');
+  try {
+    runCommand(`vercel alias set ${deploymentUrl} staging-ragaujam.vercel.app`);
+    console.log('✅ Custom alias set successfully!');
+  } catch (error) {
+    console.log('⚠️  Could not set custom alias, but deployment succeeded');
+  }
+}
 
 console.log('✅ Staging deployment complete!');
 console.log('🌐 Staging URL: https://staging-ragaujam.vercel.app');
