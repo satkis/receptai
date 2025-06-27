@@ -236,5 +236,5 @@ export const config = {
     '/((?!api|_next/static|_next/image|favicon.ico).*)',
   ],
   // Run on Edge Runtime for Lithuanian users
-  runtime: 'edge',
+  runtime: 'experimental-edge',
 };
