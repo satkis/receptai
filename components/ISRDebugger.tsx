@@ -10,11 +10,10 @@ export default function ISRDebugger() {
   useEffect(() => {
     // Only show in staging/development
     const hostname = window.location.hostname;
-    const isStaging = hostname.includes('vercel.app') || 
-                     hostname.includes('staging') ||
-                     hostname !== 'ragaujam.lt';
-    
-    if (!isStaging) return;
+    const isProduction = hostname === 'ragaujam.lt' ||
+                        hostname === 'www.ragaujam.lt';
+
+    if (isProduction) return;
 
     // Calculate page load time
     const loadTime = performance.now();
