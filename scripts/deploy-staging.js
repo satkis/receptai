@@ -71,7 +71,7 @@ console.log('🚀 Deploying to Vercel staging environment...');
 runCommand('vercel --yes');
 
 console.log('✅ Staging deployment complete!');
-console.log('🌐 Staging URL: https://staging-ragaujam.vercel.app');
+console.log('🌐 Check the Preview URL above for your staging site');
 console.log('');
 console.log('📋 Next steps:');
 console.log('1. Test the staging environment thoroughly');
