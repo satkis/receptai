@@ -4,6 +4,7 @@
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import { MongoClient } from 'mongodb';
 import { useRouter } from 'next/router';
 
@@ -210,7 +211,7 @@ function RecipeCard({ recipe, category }: { recipe: Recipe; category: Category }
       className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 block group"
     >
       <div className="relative h-48">
-        <img
+        <Image
           src={
             typeof recipe.image === 'string'
               ? recipe.image
@@ -221,7 +222,10 @@ function RecipeCard({ recipe, category }: { recipe: Recipe; category: Category }
               ? (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')
               : (recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')
           }
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-300"
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+          quality={85}
         />
 
         {/* Enhanced Time/Servings Overlay */}
