@@ -66,12 +66,12 @@ runCommand('git merge develop --no-ff -m "chore: merge develop for staging deplo
 console.log('📤 Pushing staging branch...');
 runCommand('git push origin staging');
 
-// Deploy to Vercel staging
+// Deploy to Vercel staging environment
 console.log('🚀 Deploying to Vercel staging environment...');
 runCommand('vercel --yes');
 
 console.log('✅ Staging deployment complete!');
-console.log('🌐 Check the Preview URL above for your staging site');
+console.log('🌐 Staging URL: https://staging-ragaujam.vercel.app');
 console.log('');
 console.log('📋 Next steps:');
 console.log('1. Test the staging environment thoroughly');
