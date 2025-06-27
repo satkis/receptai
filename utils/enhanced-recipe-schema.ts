@@ -10,13 +10,7 @@ export function generateEnhancedRecipeSchema(recipe: any) {
 
     // REQUIRED FIELDS
     name: recipe.title.lt,
-    image: [
-      recipe.image.src,
-      // Multiple aspect ratios for better rich results (Google requirement)
-      recipe.image.src.replace('.jpg', '_16x9.jpg').replace('.png', '_16x9.png'),
-      recipe.image.src.replace('.jpg', '_4x3.jpg').replace('.png', '_4x3.png'),
-      recipe.image.src.replace('.jpg', '_1x1.jpg').replace('.png', '_1x1.png')
-    ],
+    image: [recipe.image.src], // Phase 1: Single image (prevents 404 errors)
 
     // CRITICAL FOR RICH SNIPPETS
     author: {
