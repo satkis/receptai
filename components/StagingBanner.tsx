@@ -8,7 +8,10 @@ export default function StagingBanner() {
     const hostname = window.location.hostname;
     const isProduction = hostname === 'ragaujam.lt' ||
                         hostname === 'www.ragaujam.lt';
-    setIsStaging(!isProduction);
+    const isStaging = hostname === 'staging-ragaujam.vercel.app' ||
+                     hostname.includes('vercel.app') ||
+                     !isProduction;
+    setIsStaging(isStaging);
   }, []);
 
   if (!isStaging) return null;

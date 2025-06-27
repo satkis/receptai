@@ -1,6 +1,9 @@
 {
   "version": 2,
   "alias": ["ragaujam.lt", "www.ragaujam.lt"],
+  "github": {
+    "autoAlias": false
+  },
   "env": {
     "NODE_ENV": "production"
   },
