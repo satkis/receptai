@@ -10,11 +10,6 @@
       "NEXT_PUBLIC_SITE_URL": "https://ragaujam.lt"
     }
   },
-  "preview": {
-    "env": {
-      "NEXT_PUBLIC_SITE_URL": "https://staging-ragaujam.vercel.app"
-    }
-  },
   "functions": {
     "pages/api/**/*.ts": {
       "maxDuration": 30,
