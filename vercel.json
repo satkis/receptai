@@ -1,6 +1,7 @@
 {
   "version": 2,
   "alias": ["ragaujam.lt", "www.ragaujam.lt"],
+  "regions": ["fra1"],
   "env": {
     "NODE_ENV": "production"
   },
