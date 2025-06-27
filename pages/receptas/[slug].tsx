@@ -4,9 +4,9 @@
 import { useState } from 'react';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 import { useRouter } from 'next/router';
-import PlaceholderImage from '../../components/ui/PlaceholderImage';
 
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../components/navigation/Breadcrumb';
 import StarRating from '../../components/StarRating';
@@ -138,7 +138,7 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-8 flex flex-col">
       {/* Image Section - Fixed height container */}
       <div className="relative w-full h-64 md:h-80 flex-shrink-0 overflow-hidden">
-        <PlaceholderImage
+        <Image
           src={typeof recipe.image === 'string' ? recipe.image : recipe.image.src}
           alt={typeof recipe.image === 'string' ? recipe.title.lt : recipe.image.alt}
           fill
@@ -332,6 +332,14 @@ function InstructionsSection({ instructions }: { instructions: Recipe['instructi
 
 export default function RecipePage({ recipe }: RecipePageProps) {
   const router = useRouter();
+
+  // Debug logging
+  console.log('Recipe data:', {
+    slug: recipe?.slug,
+    title: recipe?.title?.lt,
+    image: recipe?.image,
+    hasImage: !!recipe?.image?.src
+  });
 
   // Validate recipe data to prevent build errors
   if (!recipe || !recipe.title || !recipe.title.lt) {
