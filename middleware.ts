@@ -21,7 +21,7 @@ function getClientIP(request: NextRequest): string {
     return cfConnectingIP;
   }
   
-  return request.ip || '127.0.0.1';
+  return request.headers.get('x-forwarded-for')?.split(',')[0] || '127.0.0.1';
 }
 
 // Check if IP is whitelisted
@@ -235,4 +235,6 @@ export const config = {
      */
     '/((?!api|_next/static|_next/image|favicon.ico).*)',
   ],
+  // Run on Edge Runtime for Lithuanian users
+  runtime: 'edge',
 };

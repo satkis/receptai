@@ -1,7 +1,7 @@
 // Dynamic sitemap generation that updates automatically
 // when new recipes, categories, or subcategories are added
 
-import { GetServerSideProps } from 'next';
+import { GetStaticProps } from 'next';
 import clientPromise from '@/lib/mongodb';
 
 interface SitemapUrl {
@@ -46,7 +46,7 @@ function Sitemap() {
   return null;
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ res }) => {
+export const getStaticProps: GetStaticProps = async ({ res }) => {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
   const currentDate = new Date().toISOString();
 
@@ -242,7 +242,9 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     res.end();
 
     return {
-      props: {}
+      props: {},
+      // ISR: Revalidate sitemap every 24 hours
+      revalidate: 86400
     };
   }
 };

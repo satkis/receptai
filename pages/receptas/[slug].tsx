@@ -2,7 +2,7 @@
 // URL: domain.lt/receptas/recipe-slug
 
 import { useState } from 'react';
-import { GetServerSideProps } from 'next';
+import { GetStaticProps, GetStaticPaths } from 'next';
 import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
@@ -402,7 +402,8 @@ export default function RecipePage({ recipe }: RecipePageProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+// ISR for Lithuanian users - pages cached at CDN edge
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   const slug = params?.slug as string;
 
   if (!slug) {
@@ -426,10 +427,48 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
     return {
       props: {
         recipe: JSON.parse(JSON.stringify(recipe))
-      }
+      },
+      // ISR: Regenerate page every 1 hour, serve stale while revalidating
+      revalidate: 3600
     };
   } catch (error) {
     console.error('Error fetching recipe:', error);
     return { notFound: true };
+  }
+};
+
+// Generate static paths for popular recipes
+export const getStaticPaths: GetStaticPaths = async () => {
+  try {
+    const client = await clientPromise;
+    const db = client.db(DATABASE_NAME);
+
+    // Pre-generate paths for featured/popular recipes only
+    const popularRecipes = await db.collection('recipes_new')
+      .find({
+        $or: [
+          { featured: true },
+          { trending: true }
+        ]
+      })
+      .project({ slug: 1 })
+      .limit(50) // Pre-generate top 50 recipes
+      .toArray();
+
+    const paths = popularRecipes.map((recipe) => ({
+      params: { slug: recipe.slug }
+    }));
+
+    return {
+      paths,
+      // Enable ISR for all other recipes
+      fallback: 'blocking'
+    };
+  } catch (error) {
+    console.error('Error generating static paths:', error);
+    return {
+      paths: [],
+      fallback: 'blocking'
+    };
   }
 };

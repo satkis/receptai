@@ -2,7 +2,7 @@
 // URL: domain.lt/patiekalo-tipas/karsti-patiekalai
 
 import { useState } from 'react';
-import { GetServerSideProps } from 'next';
+import { GetStaticProps, GetStaticPaths } from 'next';
 import clientPromise, { DATABASE_NAME } from '../lib/mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -523,7 +523,8 @@ export default function CategoryPage({
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ params, query }) => {
+// ISR for category pages - 2 hour revalidation for daily recipe additions
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   const categoryPath = (params?.category as string[])?.join('/');
 
   if (!categoryPath) {
@@ -547,7 +548,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
       return { notFound: true };
     }
 
-    // Build recipe query using correct category fields
+    // Build recipe query using correct category fields (ISR - no dynamic filters)
     const categoryPathForQuery = `receptai/${categoryPath}`;
     const recipeQuery: any = {
       $or: [
@@ -556,52 +557,8 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
       ]
     };
 
-    // Add manual filter if specified (comprehensive tag matching)
-    const filter = query.filter as string;
-    if (filter) {
-      // Create all possible tag variations for matching
-      const reverseMap: Record<string, string> = {
-        'a': 'ą', 'c': 'č', 'e': 'ę', 'i': 'į', 's': 'š', 'u': 'ų', 'z': 'ž'
-      };
-
-      const filterVariations = [
-        filter,                                           // Exact match: "darzoves"
-        filter.toLowerCase(),                             // Lowercase: "darzoves"
-        filter.charAt(0).toUpperCase() + filter.slice(1), // Capitalized: "Darzoves"
-        // Convert back to Lithuanian characters for display tags
-        filter.replace(/[a-z]/g, (char: string) => reverseMap[char] || char),
-        // Capitalized Lithuanian version
-        (filter.charAt(0).toUpperCase() + filter.slice(1)).replace(/[a-z]/g, (char: string) => reverseMap[char] || char)
-      ];
-
-      // Remove duplicates and empty values
-      const uniqueVariations = Array.from(new Set(filterVariations)).filter(v => v && v.length > 0);
-
-      recipeQuery.tags = { $in: uniqueVariations };
-    }
-
-    // Add time filter if specified
-    const timeFilter = query.timeFilter as string;
-    if (timeFilter) {
-      // Convert time filter to minutes range
-      switch (timeFilter) {
-        case 'iki-30-min':
-          recipeQuery.totalTimeMinutes = { $lte: 30 };
-          break;
-        case '30-60-min':
-          recipeQuery.totalTimeMinutes = { $gt: 30, $lte: 60 };
-          break;
-        case '1-2-val':
-          recipeQuery.totalTimeMinutes = { $gt: 60, $lte: 120 };
-          break;
-        case 'virs-2-val':
-          recipeQuery.totalTimeMinutes = { $gt: 120 };
-          break;
-      }
-    }
-
-    // Pagination
-    const page = parseInt(query.page as string) || 1;
+    // For ISR: Show first page without filters (filters will be client-side)
+    const page = 1;
     const limit = 16; // Show 16 recipes per page
     const skip = (page - 1) * limit;
 
@@ -632,13 +589,46 @@ export const getServerSideProps: GetServerSideProps = async ({ params, query }) 
           hasNext: page * limit < totalCount,
           hasPrev: page > 1
         },
-        activeTimeFilter: timeFilter || null,
-        activeFilter: filter || null,
+        activeTimeFilter: null, // No filters in ISR
+        activeFilter: null, // No filters in ISR
         recipeCount: totalCount
-      }
+      },
+      // ISR: Revalidate every 2 hours for daily recipe additions
+      revalidate: 7200
     };
   } catch (error) {
     console.error('Error fetching category page:', error);
     return { notFound: true };
+  }
+};
+
+// Generate static paths for popular categories
+export const getStaticPaths: GetStaticPaths = async () => {
+  try {
+    const client = await clientPromise;
+    const db = client.db(DATABASE_NAME);
+
+    // Pre-generate paths for active categories
+    const categories = await db.collection('categories_new')
+      .find({ isActive: true })
+      .project({ path: 1 })
+      .limit(20) // Pre-generate top 20 categories
+      .toArray();
+
+    const paths = categories.map((category) => ({
+      params: { category: category.path.split('/') }
+    }));
+
+    return {
+      paths,
+      // Enable ISR for all other categories
+      fallback: 'blocking'
+    };
+  } catch (error) {
+    console.error('Error generating static paths:', error);
+    return {
+      paths: [],
+      fallback: 'blocking'
+    };
   }
 };

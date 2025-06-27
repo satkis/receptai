@@ -3,7 +3,7 @@
 
 import { useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
-import { GetServerSideProps } from 'next';
+import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 
@@ -220,14 +220,15 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ query }) => {
+// ISR for all recipes page - 1 hour revalidation for daily additions
+export const getStaticProps: GetStaticProps = async () => {
   try {
     // 🚀 Use shared MongoDB client for better performance
     const client = await clientPromise;
     const db = client.db(DATABASE_NAME);
 
-    // Pagination
-    const page = parseInt(query.page as string) || 1;
+    // For ISR: Show first page only (pagination will be client-side)
+    const page = 1;
     const limit = 16;
     const skip = (page - 1) * limit;
 
@@ -265,7 +266,9 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
         totalRecipes,
         currentPage: page,
         totalPages: Math.ceil(totalRecipes / limit)
-      }
+      },
+      // ISR: Revalidate every 1 hour for daily recipe additions
+      revalidate: 3600
     };
   } catch (error) {
     console.error('Error fetching all recipes:', error);
@@ -277,7 +280,8 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
         totalRecipes: 0,
         currentPage: 1,
         totalPages: 0
-      }
+      },
+      revalidate: 3600
     };
   }
 };

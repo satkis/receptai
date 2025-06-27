@@ -2,7 +2,7 @@
 // URL: domain.lt/paieska?q=search-term
 
 import { useState, useEffect } from 'react';
-import { GetServerSideProps } from 'next';
+import { GetStaticProps } from 'next';
 import clientPromise from '../../lib/mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -390,72 +390,44 @@ function Pagination({ pagination, onPageChange }: {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ query: urlQuery }) => {
+// Hybrid search: Static page + client-side search for fresh results
+export const getStaticProps: GetStaticProps = async () => {
   try {
-    const searchTerm = cleanSearchQuery(urlQuery.q as string || '');
-    const timeFilter = urlQuery.timeFilter as string;
-    const categoryFilter = urlQuery.categoryFilter as string;
-    const page = parseInt(urlQuery.page as string) || 1;
-    const limit = 12;
-
     // 🚀 Use shared MongoDB client for better performance
     const client = await clientPromise;
     const db = client.db();
 
-    // Build search aggregation
-    const pipeline = buildSearchAggregation(
-      searchTerm,
-      timeFilter,
-      categoryFilter,
-      page,
-      limit
-    );
+    // Get available filters for static generation
+    const filters = await getAvailableFilters(db);
 
     const startTime = Date.now();
 
-    // Execute search
-    const recipes = await db.collection('recipes_new')
-      .aggregate(pipeline)
-      .toArray();
-
-    // For performance with 10k+ recipes, we'll estimate count based on results
-    // This avoids expensive count queries
-    const currentResultsCount = recipes.length;
-    const estimatedTotal = currentResultsCount === limit ? (page * limit) + 1 : (page - 1) * limit + currentResultsCount;
-
-    // Get available filters
-    const filters = await getAvailableFilters(
-      db,
-      searchTerm,
-      timeFilter,
-      categoryFilter
-    );
-
-    // ✅ Don't close shared client - it's managed by the connection pool
-
+    // For static generation: empty search results (will be populated client-side)
     const searchTime = Date.now() - startTime;
 
     return {
       props: {
-        recipes: JSON.parse(JSON.stringify(recipes)),
+        recipes: [], // Empty - will be populated via client-side search
         pagination: {
-          current: page,
-          total: estimatedTotal,
-          pages: Math.ceil(estimatedTotal / limit),
-          hasNext: currentResultsCount === limit, // More results available if we got full page
-          hasPrev: page > 1
+          current: 1,
+          total: 0,
+          pages: 0,
+          hasNext: false,
+          hasPrev: false
         },
         filters,
         query: {
-          searchTerm,
-          timeFilter: timeFilter || null,
-          categoryFilter: categoryFilter || null
+          searchTerm: '',
+          timeFilter: null,
+          categoryFilter: null
         },
         performance: {
           searchTime,
-          totalResults: currentResultsCount
+          totalResults: 0
         }
-      }
+      },
+      // ISR: Revalidate every 2 hours for filter updates
+      revalidate: 7200
     };
   } catch (error) {
     console.error('Search page error:', error);

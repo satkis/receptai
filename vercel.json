@@ -5,12 +5,24 @@
   "env": {
     "NODE_ENV": "production"
   },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_SITE_URL": "https://ragaujam.lt"
+    }
+  },
+  "preview": {
+    "env": {
+      "NEXT_PUBLIC_SITE_URL": "https://staging-ragaujam.vercel.app"
+    }
+  },
   "functions": {
     "pages/api/**/*.ts": {
-      "maxDuration": 30
+      "maxDuration": 30,
+      "regions": ["fra1"]
     },
     "pages/sitemap*.tsx": {
-      "maxDuration": 30
+      "maxDuration": 30,
+      "regions": ["fra1"]
     }
   },
   "headers": [
