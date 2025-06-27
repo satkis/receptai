@@ -3,6 +3,7 @@
 
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import { MongoClient } from 'mongodb';
 
 import Breadcrumb from '../../../components/navigation/Breadcrumb';
@@ -92,11 +93,14 @@ export default function SubcategoryPage({
                 {recipes.map((recipe) => (
                   <div key={recipe._id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                     {recipe.image && (
-                      <div className="aspect-video bg-gray-200">
-                        <img
+                      <div className="aspect-video bg-gray-200 relative">
+                        <Image
                           src={(recipe.image as any)?.src || recipe.image || '/placeholder-recipe.jpg'}
                           alt={(recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')}
-                          className="w-full h-full object-cover"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+                          quality={85}
                         />
                       </div>
                     )}
