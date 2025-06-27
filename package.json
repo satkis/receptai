@@ -19,6 +19,7 @@
     "env:prod": "node scripts/env-manager.js switch production",
     "env:show": "node scripts/env-manager.js show",
     "setup:branches": "node scripts/setup-branches.js",
+    "setup:vercel": "node scripts/setup-vercel-env.js",
     "feature:new": "node scripts/new-feature.js",
     "feature:merge": "node scripts/merge-feature.js",
     "deploy:staging": "node scripts/deploy-staging.js",
