@@ -20,11 +20,21 @@ interface Recipe {
   image: string;
   totalTimeMinutes: number;
   servings: number;
-  ingredients: Array<{
-    name: string | { lt: string; en?: string };
-    quantity: string;
-    vital?: boolean;
-  }>;
+  ingredients: {
+    main: Array<{
+      name: string | { lt: string; en?: string };
+      quantity: string;
+      vital?: boolean;
+    }>;
+    sides?: {
+      category: string;
+      items: Array<{
+        name: string | { lt: string; en?: string };
+        quantity: string;
+        vital?: boolean;
+      }>;
+    };
+  };
   primaryCategoryPath: string;
   secondaryCategories?: string[];
 }

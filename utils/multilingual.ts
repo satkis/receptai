@@ -44,57 +44,98 @@ export function getRecipeRating(recipe: Recipe): { average: number; count: numbe
 // Helper function to get vital ingredients
 export function getVitalIngredients(recipe: Recipe): Array<{ name: string; quantity?: string }> {
   if (!recipe.ingredients) return [];
-  
-  return recipe.ingredients
-    .filter(ingredient => {
-      // Handle both old and new ingredient structures
-      if (typeof ingredient === 'object' && 'vital' in ingredient) {
-        return ingredient.vital;
-      }
-      return true; // If no vital field, consider all as vital
-    })
-    .map(ingredient => {
-      let name = '';
-      let quantity = '';
-      
-      if (typeof ingredient === 'object') {
-        // Handle multilingual name structure
-        if (typeof ingredient.name === 'string') {
-          name = ingredient.name;
-        } else if (ingredient.name?.lt) {
-          name = ingredient.name.lt;
-        } else if (ingredient.name?.en) {
-          name = ingredient.name.en;
+
+  // Handle new structure with main and sides
+  if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
+    return recipe.ingredients.main
+      .filter(ingredient => ingredient.vital)
+      .map(ingredient => ({
+        name: typeof ingredient.name === 'string' ? ingredient.name : ingredient.name?.lt || '',
+        quantity: ingredient.quantity
+      }))
+      .filter(ingredient => ingredient.name);
+  }
+
+  // Legacy support for old flat array structure
+  if (Array.isArray(recipe.ingredients)) {
+    return recipe.ingredients
+      .filter(ingredient => {
+        if (typeof ingredient === 'object' && 'vital' in ingredient) {
+          return ingredient.vital;
         }
-        
-        // Handle quantity
-        if ('quantity' in ingredient) {
-          quantity = ingredient.quantity || '';
-        } else if ('amount' in ingredient && 'unit' in ingredient) {
-          quantity = `${ingredient.amount} ${ingredient.unit}`;
+        return true; // If no vital field, consider all as vital
+      })
+      .map(ingredient => {
+        let name = '';
+        let quantity = '';
+
+        if (typeof ingredient === 'object') {
+          // Handle multilingual name structure
+          if (typeof ingredient.name === 'string') {
+            name = ingredient.name;
+          } else if (ingredient.name?.lt) {
+            name = ingredient.name.lt;
+          } else if (ingredient.name?.en) {
+            name = ingredient.name.en;
+          }
+
+          // Handle quantity
+          if ('quantity' in ingredient) {
+            quantity = ingredient.quantity || '';
+          } else if ('amount' in ingredient && 'unit' in ingredient) {
+            quantity = `${ingredient.amount} ${ingredient.unit}`;
+          }
         }
-      }
-      
-      return { name, quantity };
-    })
-    .filter(ingredient => ingredient.name); // Filter out empty names
+
+        return { name, quantity };
+      })
+      .filter(ingredient => ingredient.name);
+  }
+
+  return [];
 }
 
 // Helper function to get total ingredients count
 export function getTotalIngredientsCount(recipe: Recipe): number {
-  return recipe.ingredients?.length || 0;
+  if (!recipe.ingredients) return 0;
+
+  // Handle new structure with main and sides
+  if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
+    const mainCount = recipe.ingredients.main.length;
+    const sidesCount = recipe.ingredients.sides?.items.length || 0;
+    return mainCount + sidesCount;
+  }
+
+  // Legacy support for old flat array structure
+  if (Array.isArray(recipe.ingredients)) {
+    return recipe.ingredients.length;
+  }
+
+  return 0;
 }
 
 // Helper function to get vital ingredients count
 export function getVitalIngredientsCount(recipe: Recipe): number {
   if (!recipe.ingredients) return 0;
-  
-  return recipe.ingredients.filter(ingredient => {
-    if (typeof ingredient === 'object' && 'vital' in ingredient) {
-      return ingredient.vital;
-    }
-    return true; // If no vital field, consider all as vital
-  }).length;
+
+  // Handle new structure with main and sides
+  if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
+    const mainVitalCount = recipe.ingredients.main.filter(ingredient => ingredient.vital).length;
+    const sidesVitalCount = recipe.ingredients.sides?.items.filter(ingredient => ingredient.vital).length || 0;
+    return mainVitalCount + sidesVitalCount;
+  }
+
+  // Legacy support for old flat array structure
+  if (Array.isArray(recipe.ingredients)) {
+    return recipe.ingredients.filter(ingredient => {
+      if (typeof ingredient === 'object' && 'vital' in ingredient) {
+        return ingredient.vital;
+      }
+      return true; // If no vital field, consider all as vital
+    }).length;
+  }
+
+  return 0;
 }
 
 // Helper function to format time in minutes to readable format

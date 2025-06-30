@@ -54,9 +54,31 @@ export function generateEnhancedRecipeSchema(recipe: any) {
     },
     
     // ENHANCED INGREDIENTS with measurements
-    recipeIngredient: recipe.ingredients.map((ingredient: any) =>
-      `${ingredient.quantity} ${ingredient.name.lt}`
-    ),
+    recipeIngredient: (() => {
+      if (!recipe.ingredients) return [];
+
+      // Handle new structure with main and sides
+      if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
+        const mainIngredients = recipe.ingredients.main.map((ingredient: any) =>
+          `${ingredient.quantity} ${ingredient.name.lt}`
+        );
+
+        const sideIngredients = recipe.ingredients.sides?.items.map((ingredient: any) =>
+          `${ingredient.quantity} ${ingredient.name.lt}`
+        ) || [];
+
+        return [...mainIngredients, ...sideIngredients];
+      }
+
+      // Legacy support for old flat array structure
+      if (Array.isArray(recipe.ingredients)) {
+        return recipe.ingredients.map((ingredient: any) =>
+          `${ingredient.quantity} ${ingredient.name.lt}`
+        );
+      }
+
+      return [];
+    })(),
     
     // ENHANCED INSTRUCTIONS with HowToStep (Google requirement)
     recipeInstructions: recipe.instructions.map((instruction: any) => ({
