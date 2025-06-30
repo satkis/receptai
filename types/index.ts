@@ -71,13 +71,8 @@ export interface Recipe {
   servingsUnit: string;
   difficulty?: 'lengvas' | 'vidutinis' | 'sunkus';
 
-  ingredients: {
-    main: NewIngredient[];
-    sides?: {
-      category: string; // e.g., "Padažui", "Garnyrui", "Užpilui"
-      items: NewIngredient[];
-    };
-  };
+  ingredients: NewIngredient[];
+  sideIngredients?: SideIngredient[];
   instructions: NewInstruction[];
   notes?: Array<{
     text: {
@@ -201,6 +196,16 @@ export interface Recipe {
 }
 
 export interface NewIngredient {
+  name: {
+    lt: string;
+    en?: string;
+  };
+  quantity: string;
+  vital: boolean;
+}
+
+export interface SideIngredient {
+  category: string; // e.g., "Padažui", "Garnyrui", "Užpilui"
   name: {
     lt: string;
     en?: string;

@@ -21,35 +21,18 @@ export function generateRecipeSchemaOrg(recipe: Recipe): RecipeSchemaOrg {
   };
 
   // Generate recipe ingredients list
-  const recipeIngredients = (() => {
-    if (!recipe.ingredients) return [];
-
-    // Handle new structure with main and sides
-    if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
-      const mainIngredients = recipe.ingredients.main.map(ingredient => {
-        const name = ingredient.name.lt;
-        return `${ingredient.quantity} ${name}`;
-      });
-
-      const sideIngredients = recipe.ingredients.sides?.items.map(ingredient => {
-        const name = ingredient.name.lt;
-        return `${ingredient.quantity} ${name}`;
-      }) || [];
-
-      return [...mainIngredients, ...sideIngredients];
-    }
-
-    // Legacy support for old flat array structure
-    if (Array.isArray(recipe.ingredients)) {
-      return recipe.ingredients.map(ingredient => {
-        const name = ingredient.name.lt;
-        const notes = ingredient.notes ? ` (${ingredient.notes})` : '';
-        return `${ingredient.quantity} ${name}${notes}`;
-      });
-    }
-
-    return [];
-  })();
+  const recipeIngredients = [
+    // Main ingredients
+    ...(recipe.ingredients || []).map(ingredient => {
+      const name = ingredient.name.lt;
+      return `${ingredient.quantity} ${name}`;
+    }),
+    // Side ingredients
+    ...(recipe.sideIngredients || []).map(ingredient => {
+      const name = ingredient.name.lt;
+      return `${ingredient.quantity} ${name}`;
+    })
+  ];
 
   // Generate recipe instructions
   const recipeInstructions = recipe.instructions.map(instruction => ({

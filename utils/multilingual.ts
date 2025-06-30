@@ -45,20 +45,11 @@ export function getRecipeRating(recipe: Recipe): { average: number; count: numbe
 export function getVitalIngredients(recipe: Recipe): Array<{ name: string; quantity?: string }> {
   if (!recipe.ingredients) return [];
 
-  // Handle new structure with main and sides
-  if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
-    return recipe.ingredients.main
-      .filter(ingredient => ingredient.vital)
-      .map(ingredient => ({
-        name: typeof ingredient.name === 'string' ? ingredient.name : ingredient.name?.lt || '',
-        quantity: ingredient.quantity
-      }))
-      .filter(ingredient => ingredient.name);
-  }
+  const vitalIngredients: Array<{ name: string; quantity?: string }> = [];
 
-  // Legacy support for old flat array structure
+  // Get vital main ingredients
   if (Array.isArray(recipe.ingredients)) {
-    return recipe.ingredients
+    const mainVital = recipe.ingredients
       .filter(ingredient => {
         if (typeof ingredient === 'object' && 'vital' in ingredient) {
           return ingredient.vital;
@@ -90,44 +81,40 @@ export function getVitalIngredients(recipe: Recipe): Array<{ name: string; quant
         return { name, quantity };
       })
       .filter(ingredient => ingredient.name);
+
+    vitalIngredients.push(...mainVital);
   }
 
-  return [];
+  // Get vital side ingredients
+  if (recipe.sideIngredients) {
+    const sideVital = recipe.sideIngredients
+      .filter(ingredient => ingredient.vital)
+      .map(ingredient => ({
+        name: typeof ingredient.name === 'string' ? ingredient.name : ingredient.name?.lt || '',
+        quantity: ingredient.quantity
+      }))
+      .filter(ingredient => ingredient.name);
+
+    vitalIngredients.push(...sideVital);
+  }
+
+  return vitalIngredients;
 }
 
 // Helper function to get total ingredients count
 export function getTotalIngredientsCount(recipe: Recipe): number {
-  if (!recipe.ingredients) return 0;
-
-  // Handle new structure with main and sides
-  if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
-    const mainCount = recipe.ingredients.main.length;
-    const sidesCount = recipe.ingredients.sides?.items.length || 0;
-    return mainCount + sidesCount;
-  }
-
-  // Legacy support for old flat array structure
-  if (Array.isArray(recipe.ingredients)) {
-    return recipe.ingredients.length;
-  }
-
-  return 0;
+  const mainCount = recipe.ingredients?.length || 0;
+  const sideCount = recipe.sideIngredients?.length || 0;
+  return mainCount + sideCount;
 }
 
 // Helper function to get vital ingredients count
 export function getVitalIngredientsCount(recipe: Recipe): number {
-  if (!recipe.ingredients) return 0;
+  let vitalCount = 0;
 
-  // Handle new structure with main and sides
-  if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
-    const mainVitalCount = recipe.ingredients.main.filter(ingredient => ingredient.vital).length;
-    const sidesVitalCount = recipe.ingredients.sides?.items.filter(ingredient => ingredient.vital).length || 0;
-    return mainVitalCount + sidesVitalCount;
-  }
-
-  // Legacy support for old flat array structure
-  if (Array.isArray(recipe.ingredients)) {
-    return recipe.ingredients.filter(ingredient => {
+  // Count vital main ingredients
+  if (recipe.ingredients) {
+    vitalCount += recipe.ingredients.filter(ingredient => {
       if (typeof ingredient === 'object' && 'vital' in ingredient) {
         return ingredient.vital;
       }
@@ -135,7 +122,12 @@ export function getVitalIngredientsCount(recipe: Recipe): number {
     }).length;
   }
 
-  return 0;
+  // Count vital side ingredients
+  if (recipe.sideIngredients) {
+    vitalCount += recipe.sideIngredients.filter(ingredient => ingredient.vital).length;
+  }
+
+  return vitalCount;
 }
 
 // Helper function to format time in minutes to readable format
