@@ -54,9 +54,16 @@ export function generateEnhancedRecipeSchema(recipe: any) {
     },
     
     // ENHANCED INGREDIENTS with measurements
-    recipeIngredient: recipe.ingredients.map((ingredient: any) =>
-      `${ingredient.quantity} ${ingredient.name.lt}`
-    ),
+    recipeIngredient: [
+      // Main ingredients
+      ...(recipe.ingredients || []).map((ingredient: any) =>
+        `${ingredient.quantity} ${ingredient.name.lt}`
+      ),
+      // Side ingredients
+      ...(recipe.sideIngredients || []).map((ingredient: any) =>
+        `${ingredient.quantity} ${ingredient.name.lt}`
+      )
+    ],
     
     // ENHANCED INSTRUCTIONS with HowToStep (Google requirement)
     recipeInstructions: recipe.instructions.map((instruction: any) => ({

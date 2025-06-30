@@ -25,6 +25,12 @@ interface Recipe {
     quantity: string;
     vital?: boolean;
   }>;
+  sideIngredients?: Array<{
+    category: string;
+    name: string | { lt: string; en?: string };
+    quantity: string;
+    vital?: boolean;
+  }>;
   primaryCategoryPath: string;
   secondaryCategories?: string[];
 }

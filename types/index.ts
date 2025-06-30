@@ -72,6 +72,7 @@ export interface Recipe {
   difficulty?: 'lengvas' | 'vidutinis' | 'sunkus';
 
   ingredients: NewIngredient[];
+  sideIngredients?: SideIngredient[];
   instructions: NewInstruction[];
   notes?: Array<{
     text: {
@@ -201,7 +202,16 @@ export interface NewIngredient {
   };
   quantity: string;
   vital: boolean;
-  notes?: string; // Additional context like "70% kakavos"
+}
+
+export interface SideIngredient {
+  category: string; // e.g., "Padažui", "Garnyrui", "Užpilui"
+  name: {
+    lt: string;
+    en?: string;
+  };
+  quantity: string;
+  vital: boolean;
 }
 
 export interface NewInstruction {

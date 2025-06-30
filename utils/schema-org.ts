@@ -21,11 +21,18 @@ export function generateRecipeSchemaOrg(recipe: Recipe): RecipeSchemaOrg {
   };
 
   // Generate recipe ingredients list
-  const recipeIngredients = recipe.ingredients.map(ingredient => {
-    const name = ingredient.name.lt;
-    const notes = ingredient.notes ? ` (${ingredient.notes})` : '';
-    return `${ingredient.quantity} ${name}${notes}`;
-  });
+  const recipeIngredients = [
+    // Main ingredients
+    ...(recipe.ingredients || []).map(ingredient => {
+      const name = ingredient.name.lt;
+      return `${ingredient.quantity} ${name}`;
+    }),
+    // Side ingredients
+    ...(recipe.sideIngredients || []).map(ingredient => {
+      const name = ingredient.name.lt;
+      return `${ingredient.quantity} ${name}`;
+    })
+  ];
 
   // Generate recipe instructions
   const recipeInstructions = recipe.instructions.map(instruction => ({
