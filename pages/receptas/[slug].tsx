@@ -33,12 +33,21 @@ interface Recipe {
   prepTimeMinutes: number;
   cookTimeMinutes: number;
   totalTimeMinutes: number;
-  ingredients: Array<{
-    name: { lt: string; en?: string };
-    quantity: string;
-    vital: boolean;
-    notes?: string;
-  }>;
+  ingredients: {
+    main: Array<{
+      name: { lt: string; en?: string };
+      quantity: string;
+      vital: boolean;
+    }>;
+    sides?: {
+      category: string;
+      items: Array<{
+        name: { lt: string; en?: string };
+        quantity: string;
+        vital: boolean;
+      }>;
+    };
+  };
   instructions: Array<{
     step: number;
     text: { lt: string; en?: string };
@@ -199,59 +208,120 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
 
 // Ingredients Section
 function IngredientsSection({ ingredients }: { ingredients: Recipe['ingredients'] }) {
-  const [checkedIngredients, setCheckedIngredients] = useState<Set<number>>(new Set());
+  const [checkedIngredients, setCheckedIngredients] = useState<Set<string>>(new Set());
 
-  const toggleIngredient = (index: number) => {
+  const toggleIngredient = (id: string) => {
     const newChecked = new Set(checkedIngredients);
-    if (newChecked.has(index)) {
-      newChecked.delete(index);
+    if (newChecked.has(id)) {
+      newChecked.delete(id);
     } else {
-      newChecked.add(index);
+      newChecked.add(id);
     }
     setCheckedIngredients(newChecked);
   };
+
+  // Handle backward compatibility - if ingredients is an array, treat as legacy format
+  const isLegacyFormat = Array.isArray(ingredients);
+  const mainIngredients = isLegacyFormat ? ingredients : (ingredients?.main || []);
+  const sideIngredients = isLegacyFormat ? [] : (ingredients?.sides?.items || []);
+  const sidesCategory = isLegacyFormat ? '' : (ingredients?.sides?.category || '');
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sticky top-4">
       <h2 className="text-xl font-semibold text-gray-900 mb-6">Ingredientai</h2>
 
+      {/* Main Ingredients */}
       <div className="space-y-4">
-        {ingredients.map((ingredient, index) => (
-          <div
-            key={index}
-            className="flex items-center gap-3 cursor-pointer group"
-            onClick={() => toggleIngredient(index)}
-          >
-            {/* Orange circle icon */}
-            <div className="w-3 h-3 bg-orange-400 rounded-full flex-shrink-0"></div>
+        {mainIngredients.map((ingredient, index) => {
+          const id = `main-${index}`;
+          return (
+            <div
+              key={id}
+              className="flex items-center gap-3 cursor-pointer group"
+              onClick={() => toggleIngredient(id)}
+            >
+              {/* Orange circle icon */}
+              <div className="w-3 h-3 bg-orange-400 rounded-full flex-shrink-0"></div>
 
-            {/* Ingredient text */}
-            <div className="flex-1">
-              <span className={`${
-                checkedIngredients.has(index)
-                  ? 'line-through text-gray-400'
-                  : 'text-gray-900'
+              {/* Ingredient text */}
+              <div className="flex-1">
+                <span className={`${
+                  checkedIngredients.has(id)
+                    ? 'line-through text-gray-400'
+                    : 'text-gray-900'
+                }`}>
+                  {ingredient.name?.lt || 'Nenurodyta'}
+                </span>
+                {ingredient.vital && (
+                  <span className="text-orange-500 ml-1">*</span>
+                )}
+              </div>
+
+              {/* Quantity */}
+              <div className={`text-orange-500 font-medium ${
+                checkedIngredients.has(id) ? 'line-through text-gray-400' : ''
               }`}>
-                {ingredient.name?.lt || 'Nenurodyta'}
-              </span>
-              {ingredient.vital && (
-                <span className="text-orange-500 ml-1">*</span>
-              )}
+                {ingredient.quantity}
+              </div>
             </div>
-
-            {/* Quantity */}
-            <div className={`text-orange-500 font-medium ${
-              checkedIngredients.has(index) ? 'line-through text-gray-400' : ''
-            }`}>
-              {ingredient.quantity}
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
+
+      {/* Side Ingredients */}
+      {!isLegacyFormat && sideIngredients.length > 0 && (
+        <div className="mt-8">
+          <h3 className="text-lg font-medium text-gray-900 mb-4">{sidesCategory}</h3>
+          <div className="space-y-4">
+            {sideIngredients.map((ingredient, index) => {
+              const id = `side-${index}`;
+              return (
+                <div
+                  key={id}
+                  className="flex items-center gap-3 cursor-pointer group"
+                  onClick={() => toggleIngredient(id)}
+                >
+                  {/* Blue circle icon for side ingredients */}
+                  <div className="w-3 h-3 bg-blue-400 rounded-full flex-shrink-0"></div>
+
+                  {/* Ingredient text */}
+                  <div className="flex-1">
+                    <span className={`${
+                      checkedIngredients.has(id)
+                        ? 'line-through text-gray-400'
+                        : 'text-gray-900'
+                    }`}>
+                      {ingredient.name?.lt || 'Nenurodyta'}
+                    </span>
+                    {ingredient.vital && (
+                      <span className="text-blue-500 ml-1">*</span>
+                    )}
+                  </div>
+
+                  {/* Quantity */}
+                  <div className={`text-blue-500 font-medium ${
+                    checkedIngredients.has(id) ? 'line-through text-gray-400' : ''
+                  }`}>
+                    {ingredient.quantity}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Footer note */}
       <div className="mt-6 pt-4 border-t border-gray-100">
-        <p className="text-sm text-gray-500">* Pagrindiniai ingredientai</p>
+        <p className="text-sm text-gray-500">
+          <span className="text-orange-500">*</span> Pagrindiniai ingredientai
+          {!isLegacyFormat && sideIngredients.length > 0 && (
+            <>
+              <br />
+              <span className="text-blue-500">*</span> {sidesCategory}
+            </>
+          )}
+        </p>
       </div>
     </div>
   );

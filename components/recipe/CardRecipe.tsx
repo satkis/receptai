@@ -41,7 +41,24 @@ export default function CardRecipe({ recipe, variant = 'grid', className = '', c
   const description = getRecipeDescription(recipe);
   const displayTitle = title; // Use actual title as the main title
   const vitalIngredients = getVitalIngredients(recipe);
-  const allIngredients = recipe.ingredients || [];
+  // Get all ingredients (main + sides) for the new structure
+  const allIngredients = (() => {
+    if (!recipe.ingredients) return [];
+
+    // Handle new structure with main and sides
+    if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
+      const mainIngredients = recipe.ingredients.main || [];
+      const sideIngredients = recipe.ingredients.sides?.items || [];
+      return [...mainIngredients, ...sideIngredients];
+    }
+
+    // Legacy support for old flat array structure
+    if (Array.isArray(recipe.ingredients)) {
+      return recipe.ingredients;
+    }
+
+    return [];
+  })();
   const totalIngredients = getTotalIngredientsCount(recipe);
   const vitalCount = getVitalIngredientsCount(recipe);
   const timing = getRecipeTiming(recipe);
