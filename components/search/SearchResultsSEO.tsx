@@ -20,14 +20,14 @@ export default function SearchResultsSEO({
   const cleanQuery = query.trim();
   const isValidQuery = cleanQuery.length > 0;
   
-  // Generate title and description
-  const title = isValidQuery 
-    ? `"${cleanQuery}" receptų paieška - ${totalResults} rezultatai | Ragaujam.lt`
+  // Generate title and description optimized for Google search integration
+  const title = isValidQuery
+    ? `${cleanQuery} receptai - ${totalResults} rezultatų | Ragaujam.lt`
     : 'Receptų paieška | Ragaujam.lt';
-    
+
   const description = isValidQuery
-    ? `Rasta ${totalResults} receptų pagal "${cleanQuery}". Atraskite geriausius lietuviškus receptus su nuotraukomis ir instrukcijomis.`
-    : 'Ieškokite receptų pagal ingredientus, pavadinimus ar kategorijas. Daugiau nei 1000 lietuviškų receptų.';
+    ? `Rasta ${totalResults} ${cleanQuery} receptų. Geriausi lietuviški receptai su nuotraukomis, ingredientais ir žingsnis po žingsnio instrukcijomis. Išbandykite šiandien!`
+    : 'Ieškokite receptų pagal ingredientus, pavadinimus ar kategorijas. Daugiau nei 1000 lietuviškų receptų su nuotraukomis ir instrukcijomis.';
 
   // Generate structured data for search results
   const searchResultsStructuredData = {
@@ -79,7 +79,10 @@ export default function SearchResultsSEO({
       {/* Basic Meta Tags */}
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="keywords" content={`receptai, paieška, ${cleanQuery}, lietuviški receptai, gaminimas`} />
+      <meta name="keywords" content={isValidQuery
+        ? `${cleanQuery} receptai, ${cleanQuery} gaminimas, lietuviški ${cleanQuery} receptai, ${cleanQuery} patiekalai, kaip gaminti ${cleanQuery}, ${cleanQuery} receptas, receptai, lietuviški receptai, gaminimas`
+        : 'receptai, lietuviški receptai, gaminimas, patiekalai, virtuvė, maistas, receptų paieška'
+      } />
       <link rel="canonical" href={searchUrl} />
 
       {/* Open Graph */}

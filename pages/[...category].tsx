@@ -593,8 +593,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         activeFilter: null, // No filters in ISR
         recipeCount: totalCount
       },
-      // ISR: Revalidate every 2 hours for daily recipe additions
-      revalidate: 7200
+      // ISR: TESTING MODE - Instant revalidation (change back to 7200 for production)
+      revalidate: process.env.NODE_ENV === 'development' ? 1 : 7200
     };
   } catch (error) {
     console.error('Error fetching category page:', error);

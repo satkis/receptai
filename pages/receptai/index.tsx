@@ -272,8 +272,8 @@ export const getStaticProps: GetStaticProps = async () => {
         currentPage: page,
         totalPages: Math.ceil(totalRecipes / limit)
       },
-      // ISR: Revalidate every 1 hour for daily recipe additions
-      revalidate: 3600
+      // ISR: TESTING MODE - Instant revalidation (change back to 3600 for production)
+      revalidate: process.env.NODE_ENV === 'development' ? 1 : 3600
     };
   } catch (error) {
     console.error('Error fetching all recipes:', error);

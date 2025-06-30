@@ -7,6 +7,7 @@ import CategoryMenu from '../navigation/CategoryMenu';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isSearching, setIsSearching] = useState(false);
   const router = useRouter();
 
   // Check if we should show the sidebar (category/subcategory pages, not recipe pages)
@@ -28,11 +29,17 @@ export default function Header() {
     }
   }, [router.query.q]);
 
-  // Handle search form submission
-  const handleSearch = (e: React.FormEvent) => {
+  // Handle search form submission with loading state
+  const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (searchQuery.trim()) {
-      router.push(`/paieska?q=${encodeURIComponent(searchQuery.trim())}`);
+    if (searchQuery.trim() && !isSearching) {
+      setIsSearching(true);
+      try {
+        await router.push(`/paieska?q=${encodeURIComponent(searchQuery.trim())}`);
+      } finally {
+        // Reset loading state after navigation
+        setTimeout(() => setIsSearching(false), 500);
+      }
     }
   };
 
@@ -54,13 +61,23 @@ export default function Header() {
             {/* Mobile Search Bar */}
             <div className="flex-1 mx-4">
               <form onSubmit={handleSearch}>
-                <input
-                  type="text"
-                  placeholder="Ieškoti receptų..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-                />
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder={isSearching ? "Ieškoma..." : "Ieškoti receptų..."}
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    disabled={isSearching}
+                    className={`w-full px-3 py-2 pr-8 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-200 ${
+                      isSearching ? 'bg-gray-50 text-gray-500' : 'bg-white'
+                    }`}
+                  />
+                  {isSearching && (
+                    <div className="absolute right-2 top-1/2 transform -translate-y-1/2">
+                      <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-orange-500"></div>
+                    </div>
+                  )}
+                </div>
               </form>
             </div>
 
@@ -90,13 +107,23 @@ export default function Header() {
           {/* Centered Search Bar */}
           <div className="flex-1 flex justify-center">
             <form onSubmit={handleSearch} className="relative">
-              <input
-                type="text"
-                placeholder="Ieškoti receptų..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-64 px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-              />
+              <div className="relative">
+                <input
+                  type="text"
+                  placeholder={isSearching ? "Ieškoma..." : "Ieškoti receptų..."}
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  disabled={isSearching}
+                  className={`w-64 px-3 py-2 pr-8 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-200 ${
+                    isSearching ? 'bg-gray-50 text-gray-500' : 'bg-white'
+                  }`}
+                />
+                {isSearching && (
+                  <div className="absolute right-2 top-1/2 transform -translate-y-1/2">
+                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-orange-500"></div>
+                  </div>
+                )}
+              </div>
             </form>
           </div>
 
