@@ -474,8 +474,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       props: {
         recipe: JSON.parse(JSON.stringify(recipe))
       },
-      // ISR: Regenerate page every 1 hour, serve stale while revalidating
-      revalidate: 3600
+      // ISR: TESTING MODE - Instant revalidation (change back to 3600 for production)
+      revalidate: process.env.NODE_ENV === 'development' ? 1 : 3600
     };
   } catch (error) {
     console.error('Error fetching recipe:', error);
