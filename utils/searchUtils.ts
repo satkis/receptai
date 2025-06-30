@@ -34,19 +34,150 @@ export function normalizeLithuanian(text: string): string {
 }
 
 /**
- * Create search variants for both Lithuanian and normalized text
+ * Calculate Levenshtein distance for typo tolerance
+ */
+function levenshteinDistance(str1: string, str2: string): number {
+  const matrix = Array(str2.length + 1).fill(null).map(() => Array(str1.length + 1).fill(null));
+
+  for (let i = 0; i <= str1.length; i++) matrix[0][i] = i;
+  for (let j = 0; j <= str2.length; j++) matrix[j][0] = j;
+
+  for (let j = 1; j <= str2.length; j++) {
+    for (let i = 1; i <= str1.length; i++) {
+      const indicator = str1[i - 1] === str2[j - 1] ? 0 : 1;
+      matrix[j][i] = Math.min(
+        matrix[j][i - 1] + 1,     // deletion
+        matrix[j - 1][i] + 1,     // insertion
+        matrix[j - 1][i - 1] + indicator // substitution
+      );
+    }
+  }
+
+  return matrix[str2.length][str1.length];
+}
+
+/**
+ * Generate Lithuanian word ending variants for better search matching
+ */
+function generateLithuanianWordEndings(word: string): string[] {
+  if (word.length < 4) return []; // Skip short words
+
+  const variants: string[] = [];
+  const lowerWord = word.toLowerCase();
+
+  // Lithuanian word ending patterns for common ingredients and food terms
+  const endingPatterns: Record<string, string[]> = {
+    // Nominative -> other cases
+    'a': ['os', 'ą', 'ai', 'ų', 'oms', 'as'], // morka -> morkos, morką, etc.
+    'as': ['o', 'ą', 'ai', 'ų', 'ams', 'uose'], // salieras -> saliero, etc.
+    'is': ['io', 'į', 'iai', 'ių', 'iams'], // agurkas -> agurko, etc.
+    'ė': ['ės', 'ę', 'ėms', 'ėse'], // bulvė -> bulvės, etc.
+    'ys': ['io', 'į', 'iai', 'ių', 'iams'], // vyšnys -> vyšnio, etc.
+    'us': ['aus', 'ų', 'ums'], // svogūnas -> svogūno, etc.
+
+    // Reverse patterns - search term -> base form
+    'os': ['a'], // morkos -> morka
+    'ų': ['a', 'ė', 'is'], // morkų -> morka, bulvių -> bulvė
+    'ams': ['as'], // salieroms -> salieras
+    'io': ['as', 'is'], // saliero -> salieras
+    'ės': ['ė'], // bulvės -> bulvė
+    'ių': ['is', 'ė'], // agurklių -> agurkas
+    'ą': ['a', 'as'], // morką -> morka
+    'ę': ['ė'], // bulvę -> bulvė
+    'į': ['is', 'as'], // agurką -> agurkas
+  };
+
+  // Try to find matching ending patterns
+  Object.entries(endingPatterns).forEach(([ending, alternatives]) => {
+    if (lowerWord.endsWith(ending)) {
+      const stem = lowerWord.slice(0, -ending.length);
+      alternatives.forEach(alt => {
+        variants.push(stem + alt);
+      });
+    }
+  });
+
+  // Add common ingredient-specific patterns
+  const ingredientPatterns: Record<string, string[]> = {
+    'morkos': ['morka', 'morką', 'morkų'],
+    'morka': ['morkos', 'morką', 'morkų'],
+    'salieras': ['saliero', 'salierą', 'salierų'],
+    'saliero': ['salieras', 'salierą', 'salierų'],
+    'jautiena': ['jautienos', 'jautieną', 'jautienai'],
+    'jautienos': ['jautiena', 'jautieną', 'jautienai'],
+    'jautinea': ['jautiena', 'jautienos'], // common typo
+    'bulvės': ['bulvė', 'bulvę', 'bulvių'],
+    'bulvė': ['bulvės', 'bulvę', 'bulvių'],
+    'svogūnas': ['svogūno', 'svogūną', 'svogūnų'],
+    'svogūno': ['svogūnas', 'svogūną', 'svogūnų'],
+  };
+
+  // Check for specific ingredient patterns
+  if (ingredientPatterns[lowerWord]) {
+    variants.push(...ingredientPatterns[lowerWord]);
+  }
+
+  return variants;
+}
+
+/**
+ * Generate typo variants for a word (max 1-2 character differences)
+ */
+function generateTypoVariants(word: string): string[] {
+  if (word.length < 4) return []; // Skip short words
+
+  const variants: string[] = [];
+
+  // Common Lithuanian typo patterns
+  const commonTypos: Record<string, string[]> = {
+    'ie': ['ei'], 'ei': ['ie'], 'ai': ['ia'], 'ia': ['ai'],
+    'uo': ['ou'], 'ou': ['uo'], 'au': ['ua'], 'ua': ['au'],
+    'š': ['s'], 's': ['š'], 'č': ['c'], 'c': ['č'],
+    'ž': ['z'], 'z': ['ž'], 'ų': ['u'], 'u': ['ų'],
+    'ė': ['e'], 'e': ['ė'], 'ą': ['a'], 'a': ['ą'],
+    'į': ['i'], 'i': ['į'], 'ū': ['u'], 'ę': ['e']
+  };
+
+  // Apply common typo patterns
+  Object.entries(commonTypos).forEach(([correct, typos]) => {
+    typos.forEach(typo => {
+      if (word.includes(correct)) {
+        variants.push(word.replace(new RegExp(correct, 'g'), typo));
+      }
+    });
+  });
+
+  return variants;
+}
+
+/**
+ * Create search variants for both Lithuanian and normalized text with typo tolerance and word endings
  */
 export function createSearchVariants(query: string): string[] {
   const normalized = normalizeLithuanian(query);
   const variants = new Set([query.toLowerCase(), normalized.toLowerCase()]);
-  
+
   // Add variants with different character combinations
   const words = query.toLowerCase().split(/\s+/);
   words.forEach(word => {
     variants.add(word);
     variants.add(normalizeLithuanian(word));
+
+    // Add Lithuanian word ending variants
+    const endingVariants = generateLithuanianWordEndings(word);
+    endingVariants.forEach(variant => {
+      variants.add(variant);
+      variants.add(normalizeLithuanian(variant));
+    });
+
+    // Add typo variants for each word
+    const typoVariants = generateTypoVariants(word);
+    typoVariants.forEach(variant => {
+      variants.add(variant);
+      variants.add(normalizeLithuanian(variant));
+    });
   });
-  
+
   return Array.from(variants).filter(v => v.length > 0);
 }
 
@@ -263,7 +394,7 @@ export async function getAvailableFilters(
   ]).toArray();
 
   // Get category details in batch
-  const categoryPaths = categoryAggregation.map(c => c._id);
+  const categoryPaths = categoryAggregation.map((c: any) => c._id);
   const categories = await db.collection('categories_new')
     .find({ path: { $in: categoryPaths } })
     .project({ path: 1, title: 1 }) // Only get needed fields
@@ -274,7 +405,7 @@ export async function getAvailableFilters(
     return acc;
   }, {});
 
-  const categoryFilters = categoryAggregation.map(agg => {
+  const categoryFilters = categoryAggregation.map((agg: any) => {
     const category = categoryMap[agg._id];
     return {
       value: agg._id,
@@ -282,7 +413,7 @@ export async function getAvailableFilters(
       count: agg.count,
       path: agg._id
     };
-  }).filter(filter => filter.count > 0);
+  }).filter((filter: any) => filter.count > 0);
 
   return { timeFilters, categoryFilters };
 }
@@ -325,8 +456,8 @@ export async function extractPopularSearchTerms(db: any, limit: number = 200): P
   ]).toArray();
 
   const popularTerms = [
-    ...tagAggregation.map(t => t._id),
-    ...titleAggregation.map(t => t._id)
+    ...tagAggregation.map((t: any) => t._id),
+    ...titleAggregation.map((t: any) => t._id)
   ];
 
   // Remove duplicates and filter out short words

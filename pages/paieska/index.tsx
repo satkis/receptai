@@ -2,13 +2,14 @@
 // URL: domain.lt/paieska?q=search-term
 
 import { useState, useEffect } from 'react';
-import { GetStaticProps } from 'next';
-import clientPromise from '../../lib/mongodb';
+import { GetServerSideProps } from 'next';
+import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 // Layout removed - already wrapped in _app.tsx
 import PlaceholderImage from '../../components/ui/PlaceholderImage';
 import SearchResultsSEO from '../../components/search/SearchResultsSEO';
+import RecipeCardSkeleton, { SearchLoadingSkeleton } from '../../components/ui/RecipeCardSkeleton';
 import { 
   buildSearchAggregation, 
   getAvailableFilters, 
@@ -390,54 +391,102 @@ function Pagination({ pagination, onPageChange }: {
   );
 }
 
-// Hybrid search: Static page + client-side search for fresh results
-export const getStaticProps: GetStaticProps = async () => {
+// Server-side search: Real-time search results with SEO optimization
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const startTime = Date.now();
+
   try {
-    // 🚀 Use shared MongoDB client for better performance
+    // Extract search parameters from URL
+    const {
+      q: searchQuery = '',
+      timeFilter = '',
+      categoryFilter = '',
+      page = '1'
+    } = context.query;
+
+    // Clean and validate search query
+    const searchTerm = cleanSearchQuery(Array.isArray(searchQuery) ? searchQuery[0] : searchQuery);
+    const timeFilterValue = Array.isArray(timeFilter) ? timeFilter[0] : timeFilter;
+    const categoryFilterValue = Array.isArray(categoryFilter) ? categoryFilter[0] : categoryFilter;
+    const pageNum = Math.max(1, parseInt(Array.isArray(page) ? page[0] : page));
+    const limitNum = 12; // Results per page
+
+    console.log(`🔍 Search request: "${searchTerm}" (time: ${timeFilterValue}, category: ${categoryFilterValue}, page: ${pageNum})`);
+
+    // Connect to database
     const client = await clientPromise;
-    const db = client.db();
+    const db = client.db(DATABASE_NAME);
 
-    // Get available filters for static generation
-    const filters = await getAvailableFilters(db);
+    // Build search aggregation pipeline
+    const pipeline = buildSearchAggregation(
+      searchTerm,
+      timeFilterValue || undefined,
+      categoryFilterValue || undefined,
+      pageNum,
+      limitNum
+    );
 
-    const startTime = Date.now();
+    // Execute search
+    const recipes = await db.collection('recipes_new')
+      .aggregate(pipeline)
+      .toArray();
 
-    // For static generation: empty search results (will be populated client-side)
+    // Get total count for pagination
+    const countPipeline = [
+      pipeline[0], // Match stage only
+      { $count: "total" }
+    ];
+
+    const countResult = await db.collection('recipes_new')
+      .aggregate(countPipeline)
+      .toArray();
+
+    const totalCount = countResult.length > 0 ? countResult[0].total : 0;
+
+    // Get available filters based on search results
+    const filters = await getAvailableFilters(
+      db,
+      searchTerm,
+      timeFilterValue || undefined,
+      categoryFilterValue || undefined
+    );
+
     const searchTime = Date.now() - startTime;
+    console.log(`✅ Search completed: ${totalCount} results in ${searchTime}ms`);
 
     return {
       props: {
-        recipes: [], // Empty - will be populated via client-side search
+        recipes: JSON.parse(JSON.stringify(recipes)), // Serialize MongoDB objects
         pagination: {
-          current: 1,
-          total: 0,
-          pages: 0,
-          hasNext: false,
-          hasPrev: false
+          current: pageNum,
+          total: totalCount,
+          pages: Math.ceil(totalCount / limitNum),
+          hasNext: pageNum * limitNum < totalCount,
+          hasPrev: pageNum > 1
         },
         filters,
         query: {
-          searchTerm: '',
-          timeFilter: null,
-          categoryFilter: null
+          searchTerm,
+          timeFilter: timeFilterValue || null,
+          categoryFilter: categoryFilterValue || null
         },
         performance: {
           searchTime,
-          totalResults: 0
+          totalResults: totalCount
         }
-      },
-      // ISR: Revalidate every 2 hours for filter updates
-      revalidate: 7200
+      }
     };
   } catch (error) {
-    console.error('Search page error:', error);
+    console.error('❌ Search page error:', error);
+
+    // Return empty results on error
     return {
       props: {
         recipes: [],
         pagination: { current: 1, total: 0, pages: 0, hasNext: false, hasPrev: false },
         filters: { timeFilters: [], categoryFilters: [] },
         query: { searchTerm: '', timeFilter: null, categoryFilter: null },
-        performance: { searchTime: 0, totalResults: 0 }
+        performance: { searchTime: Date.now() - startTime, totalResults: 0 }
       }
     };
   }
@@ -451,38 +500,59 @@ export default function SearchPage({
   performance
 }: SearchPageProps) {
   const router = useRouter();
+  const [isLoading, setIsLoading] = useState(false);
+
+  // Show loading state when navigating to new search
+  useEffect(() => {
+    const handleRouteChangeStart = () => setIsLoading(true);
+    const handleRouteChangeComplete = () => setIsLoading(false);
+    const handleRouteChangeError = () => setIsLoading(false);
+
+    router.events.on('routeChangeStart', handleRouteChangeStart);
+    router.events.on('routeChangeComplete', handleRouteChangeComplete);
+    router.events.on('routeChangeError', handleRouteChangeError);
+
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChangeStart);
+      router.events.off('routeChangeComplete', handleRouteChangeComplete);
+      router.events.off('routeChangeError', handleRouteChangeError);
+    };
+  }, [router]);
 
   const handleTimeFilterChange = (filter: string | null) => {
+    setIsLoading(true);
     const newQuery = { ...router.query };
-    
+
     if (filter) {
       newQuery.timeFilter = filter;
     } else {
       delete newQuery.timeFilter;
     }
-    
+
     // Reset to page 1 when filter changes
     delete newQuery.page;
-    
+
     router.push({ pathname: '/paieska', query: newQuery }, undefined, { shallow: true });
   };
 
   const handleCategoryFilterChange = (filter: string | null) => {
+    setIsLoading(true);
     const newQuery = { ...router.query };
-    
+
     if (filter) {
       newQuery.categoryFilter = filter;
     } else {
       delete newQuery.categoryFilter;
     }
-    
+
     // Reset to page 1 when filter changes
     delete newQuery.page;
-    
+
     router.push({ pathname: '/paieska', query: newQuery }, undefined, { shallow: true });
   };
 
   const handlePageChange = (page: number) => {
+    setIsLoading(true);
     const newQuery = { ...router.query, page: page.toString() };
     router.push({ pathname: '/paieska', query: newQuery }, undefined, { shallow: true });
   };
@@ -526,11 +596,16 @@ export default function SearchPage({
           onFilterChange={handleCategoryFilterChange}
         />
 
-        {/* Recipe Grid */}
-        <RecipeGrid recipes={recipes} />
-
-        {/* Pagination */}
-        <Pagination pagination={pagination} onPageChange={handlePageChange} />
+        {/* Recipe Grid with Loading State */}
+        {isLoading ? (
+          <SearchLoadingSkeleton searchTerm={query.searchTerm} />
+        ) : (
+          <>
+            <RecipeGrid recipes={recipes} />
+            {/* Pagination */}
+            <Pagination pagination={pagination} onPageChange={handlePageChange} />
+          </>
+        )}
       </div>
     </>
   );
