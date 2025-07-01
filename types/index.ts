@@ -120,14 +120,6 @@ export interface Recipe {
   // Publishing & SEO
   featured?: boolean;
   trending?: boolean;
-  seasonal?: string[];
-
-  // Technical SEO
-  sitemap?: {
-    priority: number;
-    changefreq: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
-    lastmod: Date | string;
-  };
 
   // Timestamps
   createdAt?: Date | string;
@@ -142,7 +134,7 @@ export interface Recipe {
     cookTimeMinutes: number;
     totalTimeMinutes: number;
     dietary: string[];
-    seasonal: string[];
+
     occasion: string[];
     nutritionFocus: string[];
     tags: string[];
@@ -200,6 +192,98 @@ export interface Recipe {
   }>;
 }
 
+// Current Recipe Schema Interface (matches your database structure)
+export interface CurrentRecipe {
+  _id?: ObjectId | string;
+  slug: string;
+  canonicalUrl: string;
+
+  title: {
+    lt: string;
+  };
+
+  description: {
+    lt: string;
+  };
+
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+    keywords: string[];
+    recipeCategory: string;
+    recipeCuisine: string;
+    aggregateRating: {
+      ratingValue: number;
+      reviewCount: number;
+      bestRating: number;
+      worstRating: number;
+    };
+    nutrition: {
+      calories: number;
+      proteinContent: string;
+      fatContent: string;
+      fiberContent: string;
+    };
+  };
+
+  prepTimeMinutes: number;
+  cookTimeMinutes: number;
+  totalTimeMinutes: number;
+  timeCategory: string;
+  servings: number;
+  servingsUnit: string;
+  difficulty: string;
+
+  primaryCategoryPath: string;
+  secondaryCategories: string[];
+
+  ingredients: Array<{
+    name: { lt: string };
+    quantity: string;
+    vital: boolean;
+  }>;
+
+  sideIngredients: Array<{
+    category: string;
+    name: { lt: string };
+    quantity: string;
+    vital: boolean;
+  }>;
+
+  notes: Array<{
+    text: { lt: string };
+    priority: number;
+  }>;
+
+  instructions: Array<{
+    step: number;
+    name: { lt: string };
+    text: { lt: string };
+  }>;
+
+  image: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  };
+
+  tags: string[];
+
+  author: {
+    name: string;
+    profileUrl: string;
+  };
+
+  status: string;
+  featured: boolean;
+  trending: boolean;
+
+  publishedAt: Date | string;
+  createdAt: Date | string;
+  updatedAt: Date | string;
+}
+
 export interface NewIngredient {
   name: {
     lt: string;
@@ -237,12 +321,9 @@ export interface Instruction {
 
 export interface NutritionInfo {
   calories: number;
-  protein: number; // grams
-  carbs: number; // grams
-  fat: number; // grams
-  fiber: number; // grams
-  sugar: number; // grams
-  sodium: number; // mg
+  proteinContent: string; // e.g., "25g"
+  fatContent: string; // e.g., "12g"
+  fiberContent: string; // e.g., "8g"
 }
 
 export interface Rating {

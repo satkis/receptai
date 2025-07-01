@@ -1,6 +1,8 @@
 // Enhanced Recipe Schema.org implementation following Google's latest guidelines
 
-export function generateEnhancedRecipeSchema(recipe: any) {
+import { CurrentRecipe } from '@/types';
+
+export function generateEnhancedRecipeSchema(recipe: CurrentRecipe) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
 
   // Enhanced recipe schema with all Google-recommended fields
@@ -10,7 +12,15 @@ export function generateEnhancedRecipeSchema(recipe: any) {
 
     // REQUIRED FIELDS
     name: recipe.title.lt,
-    image: [recipe.image.src], // Phase 1: Single image (prevents 404 errors)
+    image: {
+      '@type': 'ImageObject',
+      url: recipe.image.src,
+      width: recipe.image.width,
+      height: recipe.image.height,
+      caption: recipe.image.alt,
+      inLanguage: 'lt',
+      representativeOfPage: true
+    },
 
     // CRITICAL FOR RICH SNIPPETS
     author: {
@@ -25,8 +35,14 @@ export function generateEnhancedRecipeSchema(recipe: any) {
       }
     },
 
-    // REQUIRED FOR RECIPE CARDS - Using placeholder ratings
-    aggregateRating: {
+    // REQUIRED FOR RECIPE CARDS - Use seo.aggregateRating if available
+    aggregateRating: recipe.seo?.aggregateRating ? {
+      '@type': 'AggregateRating',
+      ratingValue: recipe.seo.aggregateRating.ratingValue,
+      reviewCount: recipe.seo.aggregateRating.reviewCount,
+      bestRating: recipe.seo.aggregateRating.bestRating,
+      worstRating: recipe.seo.aggregateRating.worstRating
+    } : {
       '@type': 'AggregateRating',
       ratingValue: 4.8,
       reviewCount: Math.floor(Math.random() * 50) + 15, // Random 15-65 reviews
@@ -46,39 +62,50 @@ export function generateEnhancedRecipeSchema(recipe: any) {
     // SERVING INFORMATION
     recipeYield: [`${recipe.servings}`, `${recipe.servings} ${recipe.servingsUnit}`],
     
-    // NUTRITION (Structure ready for future use)
-    nutrition: {
-      '@type': 'NutritionInformation',
-      calories: '320 calories', // Placeholder - will be updated from DB
-      servingSize: '1 porcija'
-    },
-    
-    // ENHANCED INGREDIENTS with measurements
-    recipeIngredient: (() => {
-      if (!recipe.ingredients) return [];
+    // NUTRITION (always include servingSize, conditionally include nutrition values)
+    nutrition: (() => {
+      // Always include nutrition object with servingSize from DB
+      const nutritionInfo: any = {
+        '@type': 'NutritionInformation',
+        servingSize: `1 ${recipe.servingsUnit || 'porcija'}`
+      };
 
-      // Handle new structure with main and sides
-      if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
-        const mainIngredients = recipe.ingredients.main.map((ingredient: any) =>
-          `${ingredient.quantity} ${ingredient.name.lt}`
-        );
+      // If seo.nutrition exists, add valid nutrition values
+      if (recipe.seo?.nutrition) {
+        const nutrition = recipe.seo.nutrition;
 
-        const sideIngredients = recipe.ingredients.sides?.items.map((ingredient: any) =>
-          `${ingredient.quantity} ${ingredient.name.lt}`
-        ) || [];
+        // Only add valid nutrition values (not zero, not empty, not missing)
+        const hasValidCalories = nutrition.calories && nutrition.calories > 0;
+        const hasValidProtein = nutrition.proteinContent && nutrition.proteinContent !== "0" && nutrition.proteinContent.trim() !== "";
+        const hasValidFat = nutrition.fatContent && nutrition.fatContent !== "0" && nutrition.fatContent.trim() !== "";
+        const hasValidFiber = nutrition.fiberContent && nutrition.fiberContent !== "0" && nutrition.fiberContent.trim() !== "";
 
-        return [...mainIngredients, ...sideIngredients];
+        if (hasValidCalories) {
+          nutritionInfo.calories = `${nutrition.calories} calories`;
+        }
+        if (hasValidProtein) {
+          nutritionInfo.proteinContent = nutrition.proteinContent;
+        }
+        if (hasValidFat) {
+          nutritionInfo.fatContent = nutrition.fatContent;
+        }
+        if (hasValidFiber) {
+          nutritionInfo.fiberContent = nutrition.fiberContent;
+        }
       }
 
-      // Legacy support for old flat array structure
-      if (Array.isArray(recipe.ingredients)) {
-        return recipe.ingredients.map((ingredient: any) =>
-          `${ingredient.quantity} ${ingredient.name.lt}`
-        );
-      }
-
-      return [];
+      return nutritionInfo;
     })(),
+
+    // ENHANCED INGREDIENTS with measurements (main + side ingredients)
+    recipeIngredient: [
+      ...recipe.ingredients.map(ingredient =>
+        `${ingredient.quantity} ${ingredient.name.lt}`
+      ),
+      ...recipe.sideIngredients.map(ingredient =>
+        `${ingredient.quantity} ${ingredient.name.lt}`
+      )
+    ],
     
     // ENHANCED INSTRUCTIONS with HowToStep (Google requirement)
     recipeInstructions: recipe.instructions.map((instruction: any) => ({
@@ -91,26 +118,12 @@ export function generateEnhancedRecipeSchema(recipe: any) {
       ...(instruction.image && { image: instruction.image })
     })),
     
-    // CATEGORY AND CUISINE (Google requirement - dynamic)
-    recipeCategory: recipe.recipeCategory || getRecipeCategory(recipe.primaryCategoryPath),
-    recipeCuisine: recipe.recipeCuisine || getRecipeCuisine(recipe.tags, recipe.primaryCategoryPath),
+    // CATEGORY AND CUISINE (from seo object or fallback)
+    recipeCategory: recipe.seo?.recipeCategory || 'Pagrindinis patiekalas',
+    recipeCuisine: recipe.seo?.recipeCuisine || 'Lietuviška',
 
     // KEYWORDS for better discovery (Google recommendation)
     keywords: recipe.tags.join(', '),
-
-    // VIDEO SUPPORT (structure ready for future use)
-    ...(recipe.video && {
-      video: {
-        '@type': 'VideoObject',
-        name: `Kaip gaminti: ${recipe.title.lt}`,
-        description: `Video instrukcijos: ${recipe.description.lt}`,
-        thumbnailUrl: recipe.image.src,
-        contentUrl: recipe.video.url,
-        embedUrl: recipe.video.embedUrl,
-        uploadDate: recipe.publishedAt || new Date().toISOString(),
-        duration: recipe.video.duration || 'PT5M'
-      }
-    }),
     
 
     
@@ -138,94 +151,6 @@ export function generateEnhancedRecipeSchema(recipe: any) {
   };
   
   return enhancedSchema;
-}
-
-function getRecipeCategory(categoryPath: string): string {
-  const categoryMap: Record<string, string> = {
-    'receptai/jautiena': 'Pagrindinis patiekalas',
-    'receptai/vistiena': 'Pagrindinis patiekalas',
-    'receptai/zuvis': 'Pagrindinis patiekalas',
-    'receptai/sriubos': 'Sriuba',
-    'receptai/salotos': 'Užkandis',
-    'receptai/desertas': 'Desertas',
-    'receptai/gerimai': 'Gėrimas'
-  };
-
-  return categoryMap[categoryPath] || 'Pagrindinis patiekalas';
-}
-
-// Smart cuisine detection from tags and category
-function getRecipeCuisine(tags: string[], _categoryPath?: string): string {
-  // Check tags for cuisine indicators
-  const cuisineMap: Record<string, string> = {
-    'italija': 'Itališka',
-    'italiska': 'Itališka',
-    'prancuzija': 'Prancūziška',
-    'prancuziska': 'Prancūziška',
-    'kinija': 'Kiniška',
-    'kiniska': 'Kiniška',
-    'indija': 'Indiška',
-    'indiska': 'Indiška',
-    'meksika': 'Meksikonų',
-    'meksikietiska': 'Meksikonų',
-    'graikija': 'Graikų',
-    'graikiska': 'Graikų',
-    'japonija': 'Japoniška',
-    'japoniska': 'Japoniška',
-    'tailandas': 'Tailandiečių',
-    'tailandietiska': 'Tailandiečių',
-    'vokietija': 'Vokiška',
-    'vokiska': 'Vokiška',
-    'ispanija': 'Ispaniška',
-    'ispaniska': 'Ispaniška'
-  };
-
-  // Check each tag for cuisine match
-  for (const tag of tags) {
-    const normalizedTag = tag.toLowerCase();
-    if (cuisineMap[normalizedTag]) {
-      return cuisineMap[normalizedTag];
-    }
-  }
-
-  // Default to European if no specific cuisine found
-  return 'European';
-}
-
-// Enhanced breadcrumb schema
-export function generateEnhancedBreadcrumbSchema(recipe: any) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
-  
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Pagrindinis',
-        item: baseUrl
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Receptai',
-        item: `${baseUrl}/receptai`
-      },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: getRecipeCategory(recipe.primaryCategoryPath),
-        item: `${baseUrl}/${recipe.primaryCategoryPath}`
-      },
-      {
-        '@type': 'ListItem',
-        position: 4,
-        name: recipe.title.lt,
-        item: `${baseUrl}/receptas/${recipe.slug}`
-      }
-    ]
-  };
 }
 
 // Website schema for homepage

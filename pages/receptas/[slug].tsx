@@ -33,36 +33,53 @@ interface Recipe {
   prepTimeMinutes: number;
   cookTimeMinutes: number;
   totalTimeMinutes: number;
-  ingredients: {
-    main: Array<{
-      name: { lt: string; en?: string };
-      quantity: string;
-      vital: boolean;
-    }>;
-    sides?: {
-      category: string;
-      items: Array<{
-        name: { lt: string; en?: string };
-        quantity: string;
-        vital: boolean;
-      }>;
-    };
-  };
+  timeCategory?: string;
+
+  // Updated ingredient structure to match CurrentRecipe
+  ingredients: Array<{
+    name: { lt: string; en?: string };
+    quantity: string;
+    vital: boolean;
+  }>;
+
+  sideIngredients?: Array<{
+    category: string;
+    name: { lt: string; en?: string };
+    quantity: string;
+    vital: boolean;
+  }>;
+
   instructions: Array<{
     step: number;
+    name?: { lt: string; en?: string };
     text: { lt: string; en?: string };
     image?: string;
   }>;
+
   notes?: Array<{
     text: { lt: string; en?: string };
     priority: number;
   }>;
 
-  // SEO Metadata
+  // Updated SEO structure to match CurrentRecipe
   seo?: {
     metaTitle: string;
     metaDescription: string;
     keywords: string[];
+    recipeCategory?: string;
+    recipeCuisine?: string;
+    aggregateRating?: {
+      ratingValue: number;
+      reviewCount: number;
+      bestRating: number;
+      worstRating: number;
+    };
+    nutrition?: {
+      calories?: number;
+      proteinContent?: string;
+      fatContent?: string;
+      fiberContent?: string;
+    };
   };
 
   // Author & Publishing
@@ -72,6 +89,8 @@ interface Recipe {
     profileUrl: string;
   };
   status: string;
+  featured?: boolean;
+  trending?: boolean;
 
   // Categorization
   primaryCategoryPath: string;
@@ -96,13 +115,6 @@ interface Recipe {
 
   // Schema.org
   schemaOrg?: any;
-
-  // Technical SEO
-  sitemap?: {
-    priority: number;
-    changefreq: string;
-    lastmod: Date;
-  };
 
   createdAt: string;
   publishedAt: string;
@@ -207,7 +219,7 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
 }
 
 // Ingredients Section
-function IngredientsSection({ ingredients }: { ingredients: Recipe['ingredients'] }) {
+function IngredientsSection({ recipe }: { recipe: Recipe }) {
   const [checkedIngredients, setCheckedIngredients] = useState<Set<string>>(new Set());
 
   const toggleIngredient = (id: string) => {
@@ -220,11 +232,9 @@ function IngredientsSection({ ingredients }: { ingredients: Recipe['ingredients'
     setCheckedIngredients(newChecked);
   };
 
-  // Handle backward compatibility - if ingredients is an array, treat as legacy format
-  const isLegacyFormat = Array.isArray(ingredients);
-  const mainIngredients = isLegacyFormat ? ingredients : (ingredients?.main || []);
-  const sideIngredients = isLegacyFormat ? [] : (ingredients?.sides?.items || []);
-  const sidesCategory = isLegacyFormat ? '' : (ingredients?.sides?.category || '');
+  // Use the new flat structure
+  const mainIngredients = recipe.ingredients || [];
+  const sideIngredients = recipe.sideIngredients || [];
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sticky top-4">
@@ -269,9 +279,11 @@ function IngredientsSection({ ingredients }: { ingredients: Recipe['ingredients'
       </div>
 
       {/* Side Ingredients */}
-      {!isLegacyFormat && sideIngredients.length > 0 && (
+      {sideIngredients.length > 0 && (
         <div className="mt-8">
-          <h3 className="text-lg font-medium text-gray-900 mb-4">{sidesCategory}</h3>
+          <h3 className="text-lg font-medium text-gray-900 mb-4">
+            {sideIngredients[0]?.category || 'Papildomi ingredientai'}
+          </h3>
           <div className="space-y-4">
             {sideIngredients.map((ingredient, index) => {
               const id = `side-${index}`;
@@ -315,10 +327,10 @@ function IngredientsSection({ ingredients }: { ingredients: Recipe['ingredients'
       <div className="mt-6 pt-4 border-t border-gray-100">
         <p className="text-sm text-gray-500">
           <span className="text-orange-500">*</span> Pagrindiniai ingredientai
-          {!isLegacyFormat && sideIngredients.length > 0 && (
+          {sideIngredients.length > 0 && (
             <>
               <br />
-              <span className="text-blue-500">*</span> {sidesCategory}
+              <span className="text-blue-500">*</span> {sideIngredients[0]?.category || 'Papildomi ingredientai'}
             </>
           )}
         </p>
@@ -478,7 +490,7 @@ export default function RecipePage({ recipe }: RecipePageProps) {
         <div className="grid lg:grid-cols-3 gap-8 mb-8">
           {/* Ingredients */}
           <div className="lg:col-span-1">
-            <IngredientsSection ingredients={recipe.ingredients} />
+            <IngredientsSection recipe={recipe} />
           </div>
 
           {/* Right Column: Patarimai + Instructions */}
