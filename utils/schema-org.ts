@@ -1,7 +1,7 @@
 // Schema.org Recipe structured data generator
 // Optimized for Google Search rich snippets and SEO
 
-import { Recipe, RecipeSchemaOrg } from '@/types';
+import { Recipe, RecipeSchemaOrg, CurrentRecipe } from '@/types';
 
 /**
  * Generate Schema.org Recipe structured data
@@ -21,18 +21,35 @@ export function generateRecipeSchemaOrg(recipe: Recipe): RecipeSchemaOrg {
   };
 
   // Generate recipe ingredients list
-  const recipeIngredients = [
-    // Main ingredients
-    ...(recipe.ingredients || []).map(ingredient => {
-      const name = ingredient.name.lt;
-      return `${ingredient.quantity} ${name}`;
-    }),
-    // Side ingredients
-    ...(recipe.sideIngredients || []).map(ingredient => {
-      const name = ingredient.name.lt;
-      return `${ingredient.quantity} ${name}`;
-    })
-  ];
+  const recipeIngredients = (() => {
+    if (!recipe.ingredients) return [];
+
+    // Handle new structure with main and sides
+    if (typeof recipe.ingredients === 'object' && 'main' in recipe.ingredients) {
+      const mainIngredients = recipe.ingredients.main.map(ingredient => {
+        const name = ingredient.name.lt;
+        return `${ingredient.quantity} ${name}`;
+      });
+
+      const sideIngredients = recipe.ingredients.sides?.items.map(ingredient => {
+        const name = ingredient.name.lt;
+        return `${ingredient.quantity} ${name}`;
+      }) || [];
+
+      return [...mainIngredients, ...sideIngredients];
+    }
+
+    // Legacy support for old flat array structure
+    if (Array.isArray(recipe.ingredients)) {
+      return recipe.ingredients.map(ingredient => {
+        const name = ingredient.name.lt;
+        const notes = ingredient.notes ? ` (${ingredient.notes})` : '';
+        return `${ingredient.quantity} ${name}${notes}`;
+      });
+    }
+
+    return [];
+  })();
 
   // Generate recipe instructions
   const recipeInstructions = recipe.instructions.map(instruction => ({
@@ -146,18 +163,7 @@ export function generateRecipeSEO(recipe: Recipe) {
   };
 }
 
-/**
- * Generate sitemap data for recipe
- */
-export function generateRecipeSitemapData(recipe: Recipe) {
-  const lastmod = recipe.sitemap?.lastmod || recipe.updatedAt || new Date();
 
-  return {
-    priority: recipe.sitemap?.priority || (recipe.featured ? 0.9 : 0.8),
-    changefreq: recipe.sitemap?.changefreq || 'monthly',
-    lastmod: typeof lastmod === 'string' ? new Date(lastmod) : lastmod
-  };
-}
 
 /**
  * Generate breadcrumb structured data
@@ -175,4 +181,152 @@ export function generateBreadcrumbSchema(breadcrumbs: Array<{ name: string; url:
       item: `${baseUrl}${crumb.url}`
     }))
   };
+}
+
+/**
+ * Generate Schema.org Recipe structured data for CurrentRecipe interface
+ * Handles the new nutrition structure and enhanced ImageObject
+ */
+export function generateCurrentRecipeSchemaOrg(recipe: CurrentRecipe) {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
+
+  // Convert time to ISO 8601 duration format
+  const formatDuration = (minutes: number): string => {
+    if (minutes < 60) {
+      return `PT${minutes}M`;
+    }
+    const hours = Math.floor(minutes / 60);
+    const remainingMinutes = minutes % 60;
+    return remainingMinutes > 0 ? `PT${hours}H${remainingMinutes}M` : `PT${hours}H`;
+  };
+
+  // Generate recipe ingredients (main + side ingredients)
+  const recipeIngredients = [
+    ...recipe.ingredients.map(ingredient =>
+      `${ingredient.quantity} ${ingredient.name.lt}`
+    ),
+    ...recipe.sideIngredients.map(ingredient =>
+      `${ingredient.quantity} ${ingredient.name.lt}`
+    )
+  ];
+
+  // Generate recipe instructions with enhanced HowToStep format
+  const recipeInstructions = recipe.instructions.map(instruction => ({
+    '@type': 'HowToStep',
+    name: instruction.name.lt,
+    text: instruction.text.lt,
+    url: `${baseUrl}/receptas/${recipe.slug}#step${instruction.step}`
+  }));
+
+  // Enhanced ImageObject structure
+  const imageObject = {
+    '@type': 'ImageObject',
+    url: recipe.image.src,
+    width: recipe.image.width,
+    height: recipe.image.height,
+    caption: recipe.image.alt,
+    inLanguage: 'lt',
+    representativeOfPage: true
+  };
+
+  // Always include nutrition with servingSize, conditionally add nutrition values
+  const nutritionInfo: any = {
+    '@type': 'NutritionInformation',
+    servingSize: `1 ${recipe.servingsUnit || 'porcija'}`
+  };
+
+  // If seo.nutrition exists, add valid nutrition values
+  if (recipe.seo.nutrition) {
+    const nutrition = recipe.seo.nutrition;
+
+    // Only add valid nutrition values (not zero, not empty, not missing)
+    const hasValidCalories = nutrition.calories && nutrition.calories > 0;
+    const hasValidProtein = nutrition.proteinContent && nutrition.proteinContent !== "0" && nutrition.proteinContent.trim() !== "";
+    const hasValidFat = nutrition.fatContent && nutrition.fatContent !== "0" && nutrition.fatContent.trim() !== "";
+    const hasValidFiber = nutrition.fiberContent && nutrition.fiberContent !== "0" && nutrition.fiberContent.trim() !== "";
+
+    if (hasValidCalories) {
+      nutritionInfo.calories = `${nutrition.calories} calories`;
+    }
+    if (hasValidProtein) {
+      nutritionInfo.proteinContent = nutrition.proteinContent;
+    }
+    if (hasValidFat) {
+      nutritionInfo.fatContent = nutrition.fatContent;
+    }
+    if (hasValidFiber) {
+      nutritionInfo.fiberContent = nutrition.fiberContent;
+    }
+  }
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Recipe',
+    name: recipe.title.lt,
+    description: recipe.description.lt,
+    image: imageObject,
+    author: {
+      '@type': 'Organization',
+      name: recipe.author.name,
+      url: baseUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/logo.png`,
+        width: 600,
+        height: 60
+      }
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Ragaujam.lt',
+      url: baseUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/logo.png`,
+        width: 600,
+        height: 60
+      }
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: recipe.seo.aggregateRating.ratingValue,
+      reviewCount: recipe.seo.aggregateRating.reviewCount,
+      bestRating: recipe.seo.aggregateRating.bestRating,
+      worstRating: recipe.seo.aggregateRating.worstRating
+    },
+    prepTime: formatDuration(recipe.prepTimeMinutes),
+    cookTime: formatDuration(recipe.cookTimeMinutes),
+    totalTime: formatDuration(recipe.totalTimeMinutes),
+    datePublished: recipe.publishedAt,
+    dateModified: recipe.updatedAt,
+    recipeYield: [
+      recipe.servings.toString(),
+      `${recipe.servings} ${recipe.servingsUnit}`
+    ],
+    nutrition: nutritionInfo,
+    recipeIngredient: recipeIngredients,
+    recipeInstructions: recipeInstructions,
+    recipeCategory: recipe.seo.recipeCategory,
+    recipeCuisine: recipe.seo.recipeCuisine,
+    keywords: recipe.tags.join(', '),
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': recipe.canonicalUrl
+    }
+  };
+}
+
+/**
+ * Check if nutrition data exists and should be displayed
+ * Returns true if any of the 4 nutrition values are valid (not zero/empty)
+ */
+export function hasNutritionData(nutrition?: { calories?: number; proteinContent?: string; fatContent?: string; fiberContent?: string }): boolean {
+  if (!nutrition) return false;
+
+  const hasValidCalories = nutrition.calories && nutrition.calories > 0;
+  const hasValidProtein = nutrition.proteinContent && nutrition.proteinContent !== "0" && nutrition.proteinContent.trim() !== "";
+  const hasValidFat = nutrition.fatContent && nutrition.fatContent !== "0" && nutrition.fatContent.trim() !== "";
+  const hasValidFiber = nutrition.fiberContent && nutrition.fiberContent !== "0" && nutrition.fiberContent.trim() !== "";
+
+  return hasValidCalories || hasValidProtein || hasValidFat || hasValidFiber;
 }
