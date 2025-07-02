@@ -21,7 +21,12 @@ interface Recipe {
   slug: string;
   title: { lt: string; en?: string };
   description: { lt: string; en?: string };
-  image: string;
+  image: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  } | string;
   totalTimeMinutes: number;
   servings: number;
   tags: string[];
@@ -210,9 +215,15 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
       <a href={`/receptas/${recipe.slug}`} className="block flex flex-col h-full">
         {/* Image Section - Fixed height */}
         <div className="relative w-full h-40 flex-shrink-0 overflow-hidden">
+          {/* Debug info - remove after testing */}
+          {process.env.NODE_ENV === 'development' && (
+            <div className="absolute top-0 left-0 bg-red-500 text-white text-xs p-1 z-10">
+              {typeof recipe.image === 'string' ? 'STRING' : 'OBJECT'}: {recipe.image?.src || 'NO SRC'}
+            </div>
+          )}
           <PlaceholderImage
-            src={(recipe.image as any)?.src || recipe.image || '/placeholder-recipe.jpg'}
-            alt={(recipe.image as any)?.alt || recipe.title.lt}
+            src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.src || '/placeholder-recipe.jpg'}
+            alt={typeof recipe.image === 'string' ? recipe.title.lt : recipe.image?.alt || recipe.title.lt}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"

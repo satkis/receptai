@@ -59,7 +59,7 @@ export function generateEnhancedRecipeSchema(recipe: CurrentRecipe) {
     datePublished: recipe.publishedAt || new Date().toISOString(),
     dateModified: recipe.updatedAt || new Date().toISOString(),
     
-    // SERVING INFORMATION
+    // SERVING INFORMATION (Google requirement)
     recipeYield: [`${recipe.servings}`, `${recipe.servings} ${recipe.servingsUnit}`],
     
     // NUTRITION (always include servingSize, conditionally include nutrition values)
