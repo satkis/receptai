@@ -9,7 +9,7 @@ const nextConfig = {
     localeDetection: false,
   },
 
-  // Image optimization for recipe photos
+  // Image optimization for recipe photos and static assets
   images: {
     remotePatterns: [
       {
@@ -23,13 +23,19 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'receptu-images.s3.eu-north-1.amazonaws.com',
+        pathname: '/receptai/**', // Recipe images folder
+      },
+      {
+        protocol: 'https',
+        hostname: 'receptu-images.s3.eu-north-1.amazonaws.com',
+        pathname: '/static/**', // Static assets (logos, favicons, etc.)
       },
     ],
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 31536000, // 1 year cache for recipe images
-    dangerouslyAllowSVG: false,
+    dangerouslyAllowSVG: true, // Allow SVG for logos/icons in static folder
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false, // Enable optimization
   },
