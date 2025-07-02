@@ -44,7 +44,7 @@ interface Recipe {
   title: { lt: string; en?: string };
   description: { lt: string; en?: string };
   image: {
-    url: string;
+    src: string;
     alt: string;
     width: number;
     height: number;
@@ -263,7 +263,7 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
     >
       <div className="relative h-48">
         <PlaceholderImage
-          src={recipe.image?.url || '/placeholder-recipe.jpg'}
+          src={recipe.image?.src || '/placeholder-recipe.jpg'}
           alt={recipe.image?.alt || recipe.title.lt}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
