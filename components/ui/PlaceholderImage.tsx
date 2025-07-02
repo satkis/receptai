@@ -2,7 +2,7 @@
 // Prevents infinite loops, provides fallbacks, optimizes loading
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { RecipeImage, getOptimizedImageProps, convertToRecipeImage, generateBlurPlaceholder } from '../../utils/s3-images';
+import { RecipeImage, generateBlurPlaceholder } from '../../utils/s3-images';
 
 interface PlaceholderImageProps {
   src: string | RecipeImage;
@@ -31,20 +31,38 @@ export default function PlaceholderImage({
   loading = 'lazy',
   blurDataURL
 }: PlaceholderImageProps) {
-  // Convert any image format to standardized RecipeImage
-  const imageData = typeof src === 'string'
-    ? convertToRecipeImage(src)
-    : convertToRecipeImage(src);
-
   const [imageError, setImageError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Use optimized props if we have a RecipeImage object
-  const finalSrc = imageData.src;
-  const finalAlt = alt || imageData.alt;
-  const finalWidth = width || imageData.width;
-  const finalHeight = height || imageData.height;
-  const finalBlurDataURL = blurDataURL || imageData.blurHash || generateBlurPlaceholder(finalWidth, finalHeight);
+  // Handle different image input types
+  let finalSrc: string;
+  let finalAlt: string;
+  let finalWidth: number;
+  let finalHeight: number;
+  let finalBlurDataURL: string;
+
+  if (typeof src === 'string') {
+    // String URL - use as-is
+    finalSrc = src;
+    finalAlt = alt || 'Recipe image';
+    finalWidth = width || 1200;
+    finalHeight = height || 800;
+    finalBlurDataURL = blurDataURL || generateBlurPlaceholder(finalWidth, finalHeight);
+  } else if (src?.src) {
+    // Object with src property - use directly (current database format)
+    finalSrc = src.src;
+    finalAlt = alt || src.alt || 'Recipe image';
+    finalWidth = width || src.width || 1200;
+    finalHeight = height || src.height || 800;
+    finalBlurDataURL = blurDataURL || src.blurHash || generateBlurPlaceholder(finalWidth, finalHeight);
+  } else {
+    // Fallback for invalid input
+    finalSrc = '/placeholder-recipe.jpg';
+    finalAlt = alt || 'Recipe image';
+    finalWidth = width || 1200;
+    finalHeight = height || 800;
+    finalBlurDataURL = blurDataURL || generateBlurPlaceholder(finalWidth, finalHeight);
+  }
 
   // Fallback placeholder SVG
   const placeholderSvg = `data:image/svg+xml;base64,${Buffer.from(`
