@@ -21,7 +21,12 @@ interface Recipe {
   slug: string;
   title: { lt: string; en?: string };
   description: { lt: string; en?: string };
-  image: string;
+  image: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  } | string;
   totalTimeMinutes: number;
   servings: number;
   tags: string[];

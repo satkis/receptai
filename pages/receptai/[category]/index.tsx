@@ -45,7 +45,7 @@ interface Recipe {
   slug: string;
   description: string | { lt: string; en?: string };
   image: {
-    url: string;
+    src: string;
     alt: string;
     width: number;
     height: number;
@@ -215,12 +215,12 @@ function RecipeCard({ recipe, category, priority = false }: { recipe: Recipe; ca
           src={
             typeof recipe.image === 'string'
               ? recipe.image
-              : (recipe.image as any)?.src || (recipe.image as any)?.url || '/placeholder-recipe.jpg'
+              : recipe.image?.src || '/placeholder-recipe.jpg'
           }
           alt={
             typeof recipe.image === 'string'
               ? (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')
-              : (recipe.image as any)?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')
+              : recipe.image?.alt || (typeof recipe.title === 'string' ? recipe.title : recipe.title?.lt || 'Receptas')
           }
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
