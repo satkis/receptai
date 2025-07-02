@@ -211,8 +211,8 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
         {/* Image Section - Fixed height */}
         <div className="relative w-full h-40 flex-shrink-0 overflow-hidden">
           <PlaceholderImage
-            src={(recipe.image as any)?.src || recipe.image || '/placeholder-recipe.jpg'}
-            alt={(recipe.image as any)?.alt || recipe.title.lt}
+            src={typeof recipe.image === 'string' ? recipe.image : recipe.image?.src || '/placeholder-recipe.jpg'}
+            alt={typeof recipe.image === 'string' ? recipe.title.lt : recipe.image?.alt || recipe.title.lt}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"

@@ -14,6 +14,10 @@ const S3_CONFIG = {
   bucketName: 'receptu-images',
   region: 'eu-north-1',
   baseUrl: 'https://receptu-images.s3.eu-north-1.amazonaws.com',
+  folders: {
+    recipes: 'receptai',    // Recipe images
+    static: 'static',       // Logos, favicons, general assets
+  }
 };
 
 /**
@@ -22,6 +26,20 @@ const S3_CONFIG = {
 export function generateS3ImageUrl(filename: string, folder?: string): string {
   const path = folder ? `${folder}/${filename}` : filename;
   return `${S3_CONFIG.baseUrl}/${path}`;
+}
+
+/**
+ * Generate S3 URL for recipe image (uses receptai folder)
+ */
+export function generateRecipeImageUrl(filename: string): string {
+  return generateS3ImageUrl(filename, S3_CONFIG.folders.recipes);
+}
+
+/**
+ * Generate S3 URL for static assets (logos, favicons, etc.)
+ */
+export function generateStaticImageUrl(filename: string): string {
+  return generateS3ImageUrl(filename, S3_CONFIG.folders.static);
 }
 
 /**
