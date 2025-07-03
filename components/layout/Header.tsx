@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 import CategoryMenu from '../navigation/CategoryMenu';
 // Icons replaced with emojis
@@ -55,7 +56,14 @@ export default function Header() {
           {/* Top row - Logo and Menu */}
           <div className="flex items-center justify-between h-16">
             <Link href="/receptai" className="flex items-center">
-              <span className="text-orange-500 text-2xl">🏠</span>
+              <Image
+                src="/logo/logo-compact.png"
+                alt="Ragaujam.lt"
+                width={120}
+                height={40}
+                priority
+                className="h-6 w-auto"
+              />
             </Link>
 
             {/* Mobile Search Bar */}
@@ -94,13 +102,15 @@ export default function Header() {
         <div className="hidden md:flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/receptai" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
-                <span className="text-white text-lg">👨‍🍳</span>
-              </div>
-              <span className="text-xl font-bold text-gray-900">
-                Ragaujam.lt
-              </span>
+            <Link href="/receptai" className="flex items-center">
+              <Image
+                src="/logo/logo-main.png"
+                alt="Ragaujam.lt - Lietuviški receptai"
+                width={180}
+                height={40}
+                priority
+                className="h-8 w-auto"
+              />
             </Link>
           </div>
 

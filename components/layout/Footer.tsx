@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,11 +17,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center">
-                <span className="text-white text-lg">👨‍🍳</span>
-              </div>
-              <span className="text-xl font-bold">Ragaujam.lt</span>
+            <div className="flex items-center">
+              <Image
+                src="/logo/logo-main.png"
+                alt="Ragaujam.lt - Lietuviški receptai"
+                width={180}
+                height={40}
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Geriausi lietuviški receptai. Ruoškite skaniai ir lengvai kartu su mumis!

@@ -53,10 +53,15 @@ export default function Document() {
         {/* Performance hints */}
         <meta httpEquiv="Accept-CH" content="DPR, Viewport-Width, Width" />
 
+        {/* Preload critical logo assets */}
+        <link rel="preload" href="/logo/logo-main.png" as="image" />
+        <link rel="preload" href="/logo/logo-compact.png" as="image" />
+
         {/* Favicon and app icons */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
 
         {/* Theme color for mobile browsers */}
@@ -80,7 +85,7 @@ export default function Document() {
               '@type': 'Organization',
               name: 'Ragaujam.lt',
               url: process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt',
-              logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt'}/images/logo.png`,
+              logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt'}/logo/logo-main.png`,
               description: 'Lietuviškų receptų svetainė su interaktyviomis funkcijomis',
               contactPoint: {
                 '@type': 'ContactPoint',
