@@ -17,6 +17,10 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
+        {/* url ownership - google search console */}
+        <meta name="google-site-verification" content="M10eblvn_OWYGXcV68vhNx8Lxst88O4OruRN5tvR610" />
+
+
         {/* Optimized font loading - preload most critical weights only */}
         <link
           rel="preload"
@@ -89,9 +93,9 @@ export default function Document() {
               description: 'Lietuviškų receptų svetainė su interaktyviomis funkcijomis',
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+370 600 12345',
+                email: 'ragaujam1@gmail.com',
                 contactType: 'customer service',
-                availableLanguage: ['Lithuanian', 'English']
+                availableLanguage: ['Lithuanian']
               },
               sameAs: [
                 'https://facebook.com/ragaujam',

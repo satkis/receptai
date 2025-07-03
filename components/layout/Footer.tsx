@@ -12,7 +12,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-white border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
@@ -26,20 +26,20 @@ export default function Footer() {
                 className="h-8 w-auto"
               />
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-gray-600 text-sm leading-relaxed">
               Geriausi lietuviški receptai. Ruoškite skaniai ir lengvai kartu su mumis!
             </p>
                </div>
 
           {/* Footer Links */}
           <div>
-            <h3 className="text-sm font-semibold mb-4">Ragaujam.lt © {currentYear}</h3>
+            <h3 className="text-sm font-semibold text-gray-900 mb-4">Ragaujam.lt © {currentYear}</h3>
             <ul className="space-y-2">
               {footerLinks.recipes.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
+                    className="text-gray-600 hover:text-gray-900 text-sm transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
