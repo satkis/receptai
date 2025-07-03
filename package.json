@@ -26,7 +26,6 @@
     "upload:images": "node scripts/upload-images.js",
     "upload:watch": "node scripts/watch-uploads.js",
     "upload:cleanup": "node scripts/cleanup-s3-duplicates.js",
-    "favicon:generate": "node scripts/generate-favicons.js",
     "deploy:production": "node scripts/deploy-production.js",
     "rollback": "node scripts/rollback-production.js",
     "env:validate": "node scripts/env-manager.js validate",

@@ -46,8 +46,7 @@ const nextConfig = {
     optimizePackageImports: ['lucide-react'],
   },
 
-  // Optimize bundle size while keeping legacy support
-  swcMinify: true,
+  // SWC minification is enabled by default in Next.js 15
 
   // Redirects - Server-side, no performance impact
   async redirects() {
