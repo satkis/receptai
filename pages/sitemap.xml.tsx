@@ -1,31 +1,11 @@
-// Dynamic sitemap generation that updates automatically
-// when new recipes, categories, or subcategories are added
-
 import { GetServerSideProps } from 'next';
-import clientPromise from '@/lib/mongodb';
+import clientPromise from '../lib/mongodb';
 
 interface SitemapUrl {
   loc: string;
   lastmod: string;
-  changefreq: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
+  changefreq: string;
   priority: string;
-}
-
-function generateSitemapXML(urls: SitemapUrl[]): string {
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-${urls.map(url => `  <url>
-    <loc>${escapeXml(url.loc)}</loc>
-    <lastmod>${url.lastmod}</lastmod>
-    <changefreq>${url.changefreq}</changefreq>
-    <priority>${url.priority}</priority>
-  </url>`).join('\n')}
-</urlset>`;
 }
 
 function escapeXml(unsafe: string): string {
@@ -34,26 +14,44 @@ function escapeXml(unsafe: string): string {
       case '<': return '&lt;';
       case '>': return '&gt;';
       case '&': return '&amp;';
-      case '\'': return '&apos;';
+      case "'": return '&apos;';
       case '"': return '&quot;';
       default: return c;
     }
   });
 }
 
-// This component doesn't render anything, it just generates XML
+function generateSitemapXML(urls: SitemapUrl[]): string {
+  // Limit to 50,000 URLs per Google guidelines
+  const limitedUrls = urls.slice(0, 50000);
+  
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${limitedUrls.map(url => `  <url>
+    <loc>${escapeXml(url.loc)}</loc>
+    <lastmod>${url.lastmod}</lastmod>
+    <changefreq>${url.changefreq}</changefreq>
+    <priority>${url.priority}</priority>
+  </url>`).join('\n')}
+</urlset>`;
+}
+
 function Sitemap() {
   return null;
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paragaujam.lt';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
   const currentDate = new Date().toISOString();
 
   try {
+    console.log('Starting sitemap generation...');
+    console.log('Base URL:', baseUrl);
+    
     // Connect to database
     const client = await clientPromise;
     const db = client.db(process.env.MONGODB_DB || 'receptai');
+    console.log('Database connected successfully');
 
     // Generate sitemap URLs
     const urls: SitemapUrl[] = [];
@@ -61,7 +59,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // 1. Static pages
     urls.push(
       {
-        loc: baseUrl,
+        loc: `${baseUrl}/`,
         lastmod: currentDate,
         changefreq: 'daily',
         priority: '1.0'
@@ -71,8 +69,22 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
         lastmod: currentDate,
         changefreq: 'daily',
         priority: '0.9'
+      },
+      {
+        loc: `${baseUrl}/paieska`,
+        lastmod: currentDate,
+        changefreq: 'weekly',
+        priority: '0.7'
+      },
+      {
+        loc: `${baseUrl}/privatumo-politika`,
+        lastmod: currentDate,
+        changefreq: 'monthly',
+        priority: '0.3'
       }
     );
+
+    console.log(`Added ${urls.length} static pages`);
 
     // 2. Get all categories and discover dynamic ones
     const categories = await db.collection('categories_new').find({
@@ -87,8 +99,13 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // Track all category/subcategory combinations
     const allCategoryPaths = new Set();
 
-    // Add predefined categories
+    // Add predefined categories (NO VALIDATION - ALLOW ALL)
     for (const category of categories) {
+      // Only skip if completely empty
+      if (!category.slug || category.slug === '') {
+        continue;
+      }
+
       // Add category page
       urls.push({
         loc: `${baseUrl}/receptai/${category.slug}`,
@@ -100,6 +117,11 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       // Add predefined subcategory pages
       if (category.subcategories && Array.isArray(category.subcategories)) {
         for (const subcategory of category.subcategories) {
+          // Only skip if completely empty
+          if (!subcategory.slug || subcategory.slug === '') {
+            continue;
+          }
+
           const categoryPath = `${category.slug}/${subcategory.slug}`;
           allCategoryPaths.add(categoryPath);
 
@@ -113,13 +135,24 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       }
     }
 
-    // Add dynamic categories and subcategories from recipes
+    // Add dynamic categories and subcategories from recipes (NO VALIDATION)
     for (const categoryPath of recipeCategoryPaths) {
       if (!categoryPath || typeof categoryPath !== 'string') continue;
+
+      // Only skip if completely empty
+      if (categoryPath === '') {
+        continue;
+      }
 
       const parts = categoryPath.split('/');
       if (parts.length >= 2) {
         const [categorySlug, subcategorySlug] = parts;
+
+        // Only skip if completely empty
+        if (!categorySlug || !subcategorySlug || 
+            categorySlug === '' || subcategorySlug === '') {
+          continue;
+        }
 
         // Add category page if not already added
         const categoryExists = categories.some(cat => cat.slug === categorySlug);
@@ -169,36 +202,27 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       }
     }
 
-    // 4. Get all groups/tags pages
-    const groups = await db.collection('groups').find({
-      status: 'active'
-    }).toArray();
+    // 4. Get popular tags for search URLs
+    const popularTags = await db.collection('recipes_new').aggregate([
+      { $unwind: '$tags' },
+      { $group: { _id: '$tags', count: { $sum: 1 } } },
+      { $match: { count: { $gte: 3 } } }, // Only tags with 3+ recipes
+      { $sort: { count: -1 } },
+      { $limit: 50 } // Top 50 popular tags
+    ]).toArray();
 
-    for (const group of groups) {
-      urls.push({
-        loc: `${baseUrl}/receptai?group=${group.slug}`,
-        lastmod: group.updatedAt || group.createdAt || currentDate,
-        changefreq: 'weekly',
-        priority: '0.6'
-      });
+    for (const tag of popularTags) {
+      if (tag._id && typeof tag._id === 'string') {
+        urls.push({
+          loc: `${baseUrl}/paieska?q=${encodeURIComponent(tag._id)}`,
+          lastmod: currentDate,
+          changefreq: 'weekly',
+          priority: '0.6'
+        });
+      }
     }
 
-    // 5. Additional static pages (if they exist)
-    const additionalPages = [
-      { path: '/apie-mus', priority: '0.5', changefreq: 'monthly' as const },
-      { path: '/kontaktai', priority: '0.5', changefreq: 'monthly' as const },
-      { path: '/privatumas', priority: '0.3', changefreq: 'yearly' as const },
-      { path: '/taisykles', priority: '0.3', changefreq: 'yearly' as const }
-    ];
-
-    for (const page of additionalPages) {
-      urls.push({
-        loc: `${baseUrl}${page.path}`,
-        lastmod: currentDate,
-        changefreq: page.changefreq,
-        priority: page.priority
-      });
-    }
+    console.log(`Generated ${urls.length} total URLs`);
 
     // Sort URLs by priority (highest first)
     urls.sort((a, b) => parseFloat(b.priority) - parseFloat(a.priority));
@@ -208,7 +232,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 
     // Set response headers
     res.setHeader('Content-Type', 'text/xml');
-    res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate'); // Cache for 24 hours
+    res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate');
     res.write(sitemap);
     res.end();
 
@@ -222,7 +246,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // Generate minimal sitemap on error
     const fallbackUrls: SitemapUrl[] = [
       {
-        loc: baseUrl,
+        loc: `${baseUrl}/`,
         lastmod: currentDate,
         changefreq: 'daily',
         priority: '1.0'

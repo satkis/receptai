@@ -278,50 +278,66 @@ function IngredientsSection({ recipe }: { recipe: Recipe }) {
         })}
       </div>
 
-      {/* Side Ingredients */}
-      {sideIngredients.length > 0 && (
-        <div className="mt-8">
-          <h3 className="text-lg font-medium text-gray-900 mb-4">
-            {sideIngredients[0]?.category || 'Papildomi ingredientai'}
-          </h3>
-          <div className="space-y-4">
-            {sideIngredients.map((ingredient, index) => {
-              const id = `side-${index}`;
-              return (
-                <div
-                  key={id}
-                  className="flex items-center gap-3 cursor-pointer group"
-                  onClick={() => toggleIngredient(id)}
-                >
-                  {/* Blue circle icon for side ingredients */}
-                  <div className="w-3 h-3 bg-blue-400 rounded-full flex-shrink-0"></div>
+      {/* Side Ingredients - Grouped by Category */}
+      {sideIngredients.length > 0 && (() => {
+        // Group side ingredients by category
+        const groupedSideIngredients = sideIngredients.reduce((groups, ingredient, index) => {
+          const category = ingredient.category || 'Papildomi ingredientai';
+          if (!groups[category]) {
+            groups[category] = [];
+          }
+          groups[category].push({ ...ingredient, originalIndex: index });
+          return groups;
+        }, {} as Record<string, Array<any>>);
 
-                  {/* Ingredient text */}
-                  <div className="flex-1">
-                    <span className={`${
-                      checkedIngredients.has(id)
-                        ? 'line-through text-gray-400'
-                        : 'text-gray-900'
-                    }`}>
-                      {ingredient.name?.lt || 'Nenurodyta'}
-                    </span>
-                    {ingredient.vital && (
-                      <span className="text-blue-500 ml-1">*</span>
-                    )}
-                  </div>
+        return (
+          <div className="mt-8 space-y-6">
+            {Object.entries(groupedSideIngredients).map(([category, ingredients]) => (
+              <div key={category}>
+                <h3 className="text-lg font-medium text-gray-900 mb-4">
+                  {category}
+                </h3>
+                <div className="space-y-4">
+                  {ingredients.map((ingredient) => {
+                    const id = `side-${ingredient.originalIndex}`;
+                    return (
+                      <div
+                        key={id}
+                        className="flex items-center gap-3 cursor-pointer group"
+                        onClick={() => toggleIngredient(id)}
+                      >
+                        {/* Blue circle icon for side ingredients */}
+                        <div className="w-3 h-3 bg-blue-400 rounded-full flex-shrink-0"></div>
 
-                  {/* Quantity */}
-                  <div className={`text-blue-500 font-medium ${
-                    checkedIngredients.has(id) ? 'line-through text-gray-400' : ''
-                  }`}>
-                    {ingredient.quantity}
-                  </div>
+                        {/* Ingredient text */}
+                        <div className="flex-1">
+                          <span className={`${
+                            checkedIngredients.has(id)
+                              ? 'line-through text-gray-400'
+                              : 'text-gray-900'
+                          }`}>
+                            {ingredient.name?.lt || 'Nenurodyta'}
+                          </span>
+                          {ingredient.vital && (
+                            <span className="text-blue-500 ml-1">*</span>
+                          )}
+                        </div>
+
+                        {/* Quantity */}
+                        <div className={`text-blue-500 font-medium ${
+                          checkedIngredients.has(id) ? 'line-through text-gray-400' : ''
+                        }`}>
+                          {ingredient.quantity}
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
-        </div>
-      )}
+        );
+      })()}
 
       {/* Footer note */}
       <div className="mt-6 pt-4 border-t border-gray-100">
