@@ -1,4 +1,4 @@
-﻿import Head from 'next/head';
+import Head from 'next/head';
 import { GetStaticProps } from 'next';
 
 export default function PrivatumoPolitika() {
@@ -22,16 +22,16 @@ export default function PrivatumoPolitika() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Bendra informacija</h2>
             <p className="mb-4">
-              Ragaujam.lt (toliau – „mes" arba „svetainė") yra šios interneto svetainės valdytojas. 
-              Šiomis privatumo taisyklėmis mes nustatome ir paaiškiname, kaip renkame ir tvarkome 
+              Enturika, MB (toliau –, įm. kodas 305553577 (toliau - „mes" arba „svetainė") yra šios interneto svetainės valdytojas.
+              Šiomis privatumo taisyklėmis mes nustatome ir paaiškiname, kaip renkame ir tvarkome
               svetainės lankytojų asmens duomenis.
             </p>
             <p className="mb-4">
-              Privatumo taisyklės galioja visiems asmenims, apsilankiusiems svetainėje, nepaisant 
+              Privatumo taisyklės galioja visiems asmenims, apsilankiusiems svetainėje, nepaisant
               naudojamo įrenginio (kompiuterio, telefono, planšetės ar kt.).
             </p>
             <p>
-              Tvarkydami jūsų asmens duomenis laikomės Bendrojo duomenų apsaugos reglamento (BDAR), 
+              Tvarkydami jūsų asmens duomenis laikomės Bendrojo duomenų apsaugos reglamento (BDAR),
               Lietuvos Respublikos asmens duomenų teisinės apsaugos įstatymo reikalavimų.
             </p>
           </section>
@@ -68,25 +68,12 @@ export default function PrivatumoPolitika() {
               <li>Teisės aktų reikalavimų laikymui</li>
             </ul>
             <p className="mt-4">
-              <strong>Teisiniai pagrindai:</strong> teisėti mūsų interesai, svetainės funkcionalumas, 
+              <strong>Teisiniai pagrindai:</strong> teisėti mūsų interesai, svetainės funkcionalumas,
               teisės aktų reikalavimai.
             </p>
           </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Kam perduodame duomenis?</h2>
-            <p className="mb-4">Jūsų asmens duomenis galime perduoti:</p>
-            <ul className="list-disc pl-6 mb-4">
-              <li><strong>Paslaugų teikėjams:</strong> Vercel (svetainės talpinimas), MongoDB Atlas (duomenų saugojimas)</li>
-              <li><strong>Analitikos paslaugoms:</strong> Google Analytics statistikai</li>
-              <li><strong>Teisėsaugos institucijoms:</strong> jei to reikalauja įstatymai</li>
-            </ul>
-            <p>
-              Visi paslaugų teikėjai atitinka GDPR reikalavimus ir užtikrina duomenų saugumą.
-            </p>
-          </section>
-
-          <section className="mb-8">
+                   <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Duomenų apsauga</h2>
             <p className="mb-4">Duomenų apsaugai taikome:</p>
             <ul className="list-disc pl-6">
@@ -109,12 +96,18 @@ export default function PrivatumoPolitika() {
               <li><strong>Nesutikti</strong> su duomenų tvarkymu</li>
               <li><strong>Pateikti skundą</strong> Valstybinei duomenų apsaugos inspekcijai</li>
             </ul>
+            <p className="mt-4">
+              Jeigu turite paskyrą šiame tinklalapyje arba esate palikę komentarų, galite paprašyti gauti savo asmens duomenų kopiją – tai bus eksporto failas su visa informacija, kurią turime apie Jus, įskaitant ir Jūsų pačių pateiktus duomenis. Taip pat galite kreiptis dėl visų Jūsų asmens duomenų ištrynimo iš mūsų sistemų.
+            </p>
+            <p className="text-sm text-gray-600">
+              Atkreipiame dėmesį, kad šios teisės netaikomos duomenims, kuriuos privalome saugoti pagal galiojančius teisės aktus – pavyzdžiui, administraciniais, teisiniais ar saugumo sumetimais.
+            </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Slapukai (cookies)</h2>
             <p className="mb-4">
-              Svetainė naudoja slapukus funkcionalumui užtikrinti ir statistikai rinkti. 
+              Svetainė naudoja slapukus funkcionalumui užtikrinti ir statistikai rinkti.
               Slapukai padeda:
             </p>
             <ul className="list-disc pl-6 mb-4">
@@ -123,7 +116,7 @@ export default function PrivatumoPolitika() {
               <li>Rinkti statistinę informaciją svetainės tobulinimui</li>
             </ul>
             <p className="text-sm text-gray-600">
-              Galite valdyti slapukus naršyklės nustatymuose. Išjungus slapukus, 
+              Galite valdyti slapukus naršyklės nustatymuose. Išjungus slapukus,
               kai kurios funkcijos gali neveikti.
             </p>
           </section>
@@ -144,7 +137,7 @@ export default function PrivatumoPolitika() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Susisiekite su mumis</h2>
             <p className="mb-4">
-              Klausimų apie privatumo politiką ar norėdami pasinaudoti savo teisėmis, 
+              Klausimų apie privatumo politiką ar norėdami pasinaudoti savo teisėmis,
               susisiekite:
             </p>
             <div className="bg-gray-50 p-4 rounded-lg">
@@ -156,12 +149,12 @@ export default function PrivatumoPolitika() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Baigiamosios nuostatos</h2>
             <p className="mb-4">
-              Privatumo taisyklės peržiūrimos ir atnaujinamos pagal poreikius, 
-              bet ne rečiau kaip kartą per dvejus metus. Apie esminius pakeitimus 
+              Privatumo taisyklės peržiūrimos ir atnaujinamos pagal poreikius,
+              bet ne rečiau kaip kartą per dvejus metus. Apie esminius pakeitimus
               informuosime svetainėje.
             </p>
             <p>
-              Tęsdami svetainės naudojimą patvirtinate, kad susipažinote su 
+              Tęsdami svetainės naudojimą patvirtinate, kad susipažinote su
               privatumo taisyklėmis ir suprantate jų nuostatas.
             </p>
           </section>
@@ -180,6 +173,6 @@ export default function PrivatumoPolitika() {
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {},
-    revalidate: 86400,
+    revalidate: 86400, // Revalidate once per day
   };
 };
