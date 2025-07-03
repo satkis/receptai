@@ -51,14 +51,8 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   try {
     console.log('Starting sitemap generation...');
     console.log('Base URL:', baseUrl);
-    console.log('MongoDB DB:', process.env.MONGODB_DB || 'receptai');
 
-    // Connect to database
-    const client = await clientPromise;
-    const db = client.db(process.env.MONGODB_DB || 'receptai');
-    console.log('Database connected successfully');
-
-    // Generate sitemap URLs
+    // Start with static URLs first (no database required)
     const urls: SitemapUrl[] = [];
 
     // 1. Static pages
@@ -91,6 +85,29 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 
     console.log(`Added ${urls.length} static pages`);
 
+    // For now, let's just return static pages to test
+    console.log(`Generating sitemap with ${urls.length} static URLs only`);
+
+    // Generate XML sitemap with static URLs only
+    const sitemap = generateSitemapXML(urls);
+
+    // Set response headers
+    res.setHeader('Content-Type', 'text/xml');
+    res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate');
+    res.write(sitemap);
+    res.end();
+
+    return {
+      props: {}
+    };
+
+    /* TEMPORARILY DISABLED DATABASE QUERIES - TESTING STATIC SITEMAP ONLY
+
+    // Connect to database
+    const client = await clientPromise;
+    const db = client.db(process.env.MONGODB_DB || 'receptai');
+    console.log('Database connected successfully');
+
     // 2. Get all categories and discover dynamic ones
     const categories = await db.collection('categories_new').find({
       isActive: true
@@ -100,6 +117,8 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     const recipeCategoryPaths = await db.collection('recipes_new').distinct('primaryCategoryPath', {
       publishedAt: { $exists: true }
     });
+
+    // END OF COMMENTED DATABASE CODE
 
     // Track all category/subcategory combinations
     const allCategoryPaths = new Set();
