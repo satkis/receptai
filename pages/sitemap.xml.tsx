@@ -99,14 +99,13 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 
     // Add predefined categories (with targeted validation)
     for (const category of categories) {
-      // Skip invalid slugs and problematic categories
+      // Skip only specific problematic slugs - NOT legitimate categories
       if (!category.slug ||
           category.slug === '' ||
           category.slug === 'receptai' ||
           category.slug === 'apie-mus' ||
           category.slug === 'kontaktai' ||
-          category.slug === 'taisykles' ||
-          category.slug.startsWith('receptai/')) {
+          category.slug === 'taisykles') {
         continue;
       }
 
@@ -121,11 +120,10 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       // Add predefined subcategory pages
       if (category.subcategories && Array.isArray(category.subcategories)) {
         for (const subcategory of category.subcategories) {
-          // Skip invalid subcategory slugs
+          // Skip only specific problematic subcategory slugs
           if (!subcategory.slug ||
               subcategory.slug === '' ||
-              subcategory.slug === 'receptai' ||
-              subcategory.slug.startsWith('receptai/')) {
+              subcategory.slug === 'receptai') {
             continue;
           }
 
@@ -146,11 +144,10 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     for (const categoryPath of recipeCategoryPaths) {
       if (!categoryPath || typeof categoryPath !== 'string') continue;
 
-      // Skip problematic category paths
+      // Skip only specific problematic category paths
       if (categoryPath === '' ||
           categoryPath.includes('//') ||
           categoryPath.includes('receptai/receptai') ||
-          categoryPath.startsWith('receptai/') ||
           categoryPath === 'apie-mus' ||
           categoryPath === 'kontaktai' ||
           categoryPath === 'taisykles') {
