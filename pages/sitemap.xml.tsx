@@ -97,10 +97,16 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // Track all category/subcategory combinations
     const allCategoryPaths = new Set();
 
-    // Add predefined categories (with basic validation)
+    // Add predefined categories (with targeted validation)
     for (const category of categories) {
-      // Basic validation - only skip clearly invalid slugs
-      if (!category.slug || category.slug === '') {
+      // Skip invalid slugs and problematic categories
+      if (!category.slug ||
+          category.slug === '' ||
+          category.slug === 'receptai' ||
+          category.slug === 'apie-mus' ||
+          category.slug === 'kontaktai' ||
+          category.slug === 'taisykles' ||
+          category.slug.startsWith('receptai/')) {
         continue;
       }
 
@@ -115,8 +121,11 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       // Add predefined subcategory pages
       if (category.subcategories && Array.isArray(category.subcategories)) {
         for (const subcategory of category.subcategories) {
-          // Basic validation for subcategory
-          if (!subcategory.slug || subcategory.slug === '') {
+          // Skip invalid subcategory slugs
+          if (!subcategory.slug ||
+              subcategory.slug === '' ||
+              subcategory.slug === 'receptai' ||
+              subcategory.slug.startsWith('receptai/')) {
             continue;
           }
 
@@ -137,8 +146,14 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     for (const categoryPath of recipeCategoryPaths) {
       if (!categoryPath || typeof categoryPath !== 'string') continue;
 
-      // Basic validation for category paths
-      if (categoryPath === '' || categoryPath.includes('//')) {
+      // Skip problematic category paths
+      if (categoryPath === '' ||
+          categoryPath.includes('//') ||
+          categoryPath.includes('receptai/receptai') ||
+          categoryPath.startsWith('receptai/') ||
+          categoryPath === 'apie-mus' ||
+          categoryPath === 'kontaktai' ||
+          categoryPath === 'taisykles') {
         continue;
       }
 
@@ -146,9 +161,10 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       if (parts.length >= 2) {
         const [categorySlug, subcategorySlug] = parts;
 
-        // Basic validation for individual slugs
+        // Skip invalid individual slugs
         if (!categorySlug || !subcategorySlug ||
-            categorySlug === '' || subcategorySlug === '') {
+            categorySlug === '' || subcategorySlug === '' ||
+            categorySlug === 'receptai' || subcategorySlug === 'receptai') {
           continue;
         }
 
@@ -228,9 +244,15 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 
     // Final validation - remove any invalid URLs that might have slipped through
     const validUrls = urls.filter(url => {
-      // Only filter out clearly invalid patterns
+      // Filter out specific problematic URLs
       const isInvalid = url.loc.includes('/receptai/receptai') ||
-                       url.loc.includes('//');
+                       url.loc.includes('//') ||
+                       url.loc.endsWith('/apie-mus') ||
+                       url.loc.endsWith('/kontaktai') ||
+                       url.loc.endsWith('/taisykles') ||
+                       url.loc.includes('/receptai/apie-mus') ||
+                       url.loc.includes('/receptai/kontaktai') ||
+                       url.loc.includes('/receptai/taisykles');
 
       if (isInvalid) {
         console.log(`Filtering out invalid URL: ${url.loc}`);
