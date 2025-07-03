@@ -49,9 +49,14 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const currentDate = new Date().toISOString();
 
   try {
+    console.log('Starting sitemap generation...');
+    console.log('Base URL:', baseUrl);
+    console.log('MongoDB DB:', process.env.MONGODB_DB || 'receptai');
+
     // Connect to database
     const client = await clientPromise;
     const db = client.db(process.env.MONGODB_DB || 'receptai');
+    console.log('Database connected successfully');
 
     // Generate sitemap URLs
     const urls: SitemapUrl[] = [];
@@ -83,6 +88,8 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
         priority: '0.3'
       }
     );
+
+    console.log(`Added ${urls.length} static pages`);
 
     // 2. Get all categories and discover dynamic ones
     const categories = await db.collection('categories_new').find({
@@ -279,11 +286,13 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 
   } catch (error) {
     console.error('Sitemap generation error:', error);
+    console.error('Error details:', error.message);
+    console.error('Error stack:', error.stack);
 
-    // Generate minimal sitemap on error
+    // Generate minimal sitemap on error with more URLs
     const fallbackUrls: SitemapUrl[] = [
       {
-        loc: baseUrl,
+        loc: `${baseUrl}/`,
         lastmod: currentDate,
         changefreq: 'daily',
         priority: '1.0'
@@ -293,9 +302,22 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
         lastmod: currentDate,
         changefreq: 'daily',
         priority: '0.9'
+      },
+      {
+        loc: `${baseUrl}/paieska`,
+        lastmod: currentDate,
+        changefreq: 'weekly',
+        priority: '0.7'
+      },
+      {
+        loc: `${baseUrl}/privatumo-politika`,
+        lastmod: currentDate,
+        changefreq: 'monthly',
+        priority: '0.3'
       }
     ];
 
+    console.log(`Fallback sitemap with ${fallbackUrls.length} URLs`);
     const fallbackSitemap = generateSitemapXML(fallbackUrls);
 
     res.setHeader('Content-Type', 'text/xml');
