@@ -97,14 +97,10 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // Track all category/subcategory combinations
     const allCategoryPaths = new Set();
 
-    // Add predefined categories (with validation)
+    // Add predefined categories (with basic validation)
     for (const category of categories) {
-      // Validate category slug - skip if invalid
-      if (!category.slug ||
-          category.slug.includes('receptai') ||
-          category.slug.startsWith('/') ||
-          category.slug === '' ||
-          category.slug.includes('//')) {
+      // Basic validation - only skip clearly invalid slugs
+      if (!category.slug || category.slug === '') {
         continue;
       }
 
@@ -119,12 +115,8 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       // Add predefined subcategory pages
       if (category.subcategories && Array.isArray(category.subcategories)) {
         for (const subcategory of category.subcategories) {
-          // Validate subcategory slug
-          if (!subcategory.slug ||
-              subcategory.slug.includes('receptai') ||
-              subcategory.slug.startsWith('/') ||
-              subcategory.slug === '' ||
-              subcategory.slug.includes('//')) {
+          // Basic validation for subcategory
+          if (!subcategory.slug || subcategory.slug === '') {
             continue;
           }
 
@@ -145,12 +137,8 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     for (const categoryPath of recipeCategoryPaths) {
       if (!categoryPath || typeof categoryPath !== 'string') continue;
 
-      // Skip invalid paths
-      if (categoryPath.includes('receptai') ||
-          categoryPath.startsWith('/') ||
-          categoryPath === '' ||
-          categoryPath.includes('//') ||
-          categoryPath.includes('receptai/receptai')) {
+      // Basic validation for category paths
+      if (categoryPath === '' || categoryPath.includes('//')) {
         continue;
       }
 
@@ -158,10 +146,8 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       if (parts.length >= 2) {
         const [categorySlug, subcategorySlug] = parts;
 
-        // Validate individual slugs
+        // Basic validation for individual slugs
         if (!categorySlug || !subcategorySlug ||
-            categorySlug.includes('receptai') ||
-            subcategorySlug.includes('receptai') ||
             categorySlug === '' || subcategorySlug === '') {
           continue;
         }
@@ -237,14 +223,24 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // Note: Additional static pages are already included in the main static pages section above
     // No additional hardcoded pages needed - all actual pages are covered
 
+    // Debug: Log URL count before validation
+    console.log(`Generated ${urls.length} URLs before validation`);
+
     // Final validation - remove any invalid URLs that might have slipped through
     const validUrls = urls.filter(url => {
-      // Check for double receptai, empty paths, or other invalid patterns
-      return !url.loc.includes('/receptai/receptai') &&
-             !url.loc.includes('//') &&
-             !url.loc.endsWith('/receptai/') &&
-             url.loc !== `${baseUrl}/receptai/`;
+      // Only filter out clearly invalid patterns
+      const isInvalid = url.loc.includes('/receptai/receptai') ||
+                       url.loc.includes('//');
+
+      if (isInvalid) {
+        console.log(`Filtering out invalid URL: ${url.loc}`);
+      }
+
+      return !isInvalid;
     });
+
+    // Debug: Log final URL count
+    console.log(`Final sitemap contains ${validUrls.length} valid URLs`);
 
     // Sort URLs by priority (highest first)
     validUrls.sort((a, b) => parseFloat(b.priority) - parseFloat(a.priority));
