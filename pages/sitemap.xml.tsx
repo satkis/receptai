@@ -12,14 +12,12 @@ interface SitemapUrl {
 }
 
 function generateSitemapXML(urls: SitemapUrl[]): string {
+  // Limit to 50,000 URLs per Google guidelines
+  const limitedUrls = urls.slice(0, 50000);
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-${urls.map(url => `  <url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${limitedUrls.map(url => `  <url>
     <loc>${escapeXml(url.loc)}</loc>
     <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
@@ -61,7 +59,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // 1. Static pages
     urls.push(
       {
-        loc: baseUrl,
+        loc: `${baseUrl}/`,
         lastmod: currentDate,
         changefreq: 'daily',
         priority: '1.0'
@@ -71,6 +69,18 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
         lastmod: currentDate,
         changefreq: 'daily',
         priority: '0.9'
+      },
+      {
+        loc: `${baseUrl}/paieska`,
+        lastmod: currentDate,
+        changefreq: 'weekly',
+        priority: '0.7'
+      },
+      {
+        loc: `${baseUrl}/privatumo-politika`,
+        lastmod: currentDate,
+        changefreq: 'monthly',
+        priority: '0.3'
       }
     );
 
@@ -169,36 +179,28 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       }
     }
 
-    // 4. Get all groups/tags pages
-    const groups = await db.collection('groups').find({
-      status: 'active'
-    }).toArray();
+    // 4. Get popular tags for search URLs (like /paieska?q=vengriška%20virtuvė)
+    const popularTags = await db.collection('recipes_new').aggregate([
+      { $unwind: '$tags' },
+      { $group: { _id: '$tags', count: { $sum: 1 } } },
+      { $match: { count: { $gte: 3 } } }, // Only tags with 3+ recipes
+      { $sort: { count: -1 } },
+      { $limit: 50 } // Top 50 popular tags
+    ]).toArray();
 
-    for (const group of groups) {
-      urls.push({
-        loc: `${baseUrl}/receptai?group=${group.slug}`,
-        lastmod: group.updatedAt || group.createdAt || currentDate,
-        changefreq: 'weekly',
-        priority: '0.6'
-      });
+    for (const tag of popularTags) {
+      if (tag._id && typeof tag._id === 'string') {
+        urls.push({
+          loc: `${baseUrl}/paieska?q=${encodeURIComponent(tag._id)}`,
+          lastmod: currentDate,
+          changefreq: 'weekly',
+          priority: '0.6'
+        });
+      }
     }
 
-    // 5. Additional static pages (if they exist)
-    const additionalPages = [
-      { path: '/apie-mus', priority: '0.5', changefreq: 'monthly' as const },
-      { path: '/kontaktai', priority: '0.5', changefreq: 'monthly' as const },
-      { path: '/privatumas', priority: '0.3', changefreq: 'yearly' as const },
-      { path: '/taisykles', priority: '0.3', changefreq: 'yearly' as const }
-    ];
-
-    for (const page of additionalPages) {
-      urls.push({
-        loc: `${baseUrl}${page.path}`,
-        lastmod: currentDate,
-        changefreq: page.changefreq,
-        priority: page.priority
-      });
-    }
+    // Note: Additional static pages are already included in the main static pages section above
+    // No additional hardcoded pages needed - all actual pages are covered
 
     // Sort URLs by priority (highest first)
     urls.sort((a, b) => parseFloat(b.priority) - parseFloat(a.priority));

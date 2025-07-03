@@ -30,10 +30,7 @@ Allow: /api/sitemap
 Allow: /receptas/*/
 
 # Static pages
-Allow: /apie-mus
-Allow: /kontaktai
-Allow: /privatumas
-Allow: /taisykles
+Allow: /privatumo-politika
 ` : ''}
 
 # Disallow admin and development areas
