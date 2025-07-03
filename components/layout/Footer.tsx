@@ -6,8 +6,7 @@ export default function Footer() {
   const footerLinks = {
     recipes: [
       { name: 'Receptai', href: '/receptai' },
-      { name: 'Privatumo politika', href: '/privatumas' },
-      { name: 'Naudojimo taisyklės', href: '/taisykles' },
+      { name: 'Privatumo politika', href: '/privatumo-politika' },
     ],
   };
 
