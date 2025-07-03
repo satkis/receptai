@@ -25,12 +25,13 @@ function checkForNewImages() {
   try {
     const files = fs.readdirSync(UPLOAD_FOLDER)
       .filter(file => /\.(jpg|jpeg|png|webp|gif)$/i.test(file))
+      .filter(file => !file.startsWith('compressed_')) // Ignore compressed files
       .filter(file => !processedFiles.has(file));
 
     for (const file of files) {
       processedFiles.add(file);
       console.log(`📷 New image detected: ${file}`);
-      
+
       // Upload the image
       uploadImage(file)
         .then(() => {

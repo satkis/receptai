@@ -1,0 +1,17 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"compressed_vistiena-su-paprikomis-meksikietiskai.png\"",
+  "alt-text": "Recipe image",
+  "recipe-slug": "compressed_vistiena-su-paprikomis-meksikietiskai",
+  "width": "1200",
+  "height": "800",
+  "keywords": "recipe,food,lithuanian",
+  "upload-date": "2025-07-03",
+  "category": "recipe-image",
+  "cuisine": "lithuanian",
+  "description": "Recipe image",
+  "compressionStats": null,
+  "uploadedAt": "2025-07-03T11:17:17.092Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/compressed_vistiena-su-paprikomis-meksikietiskai.png"
+}
