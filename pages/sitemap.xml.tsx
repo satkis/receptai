@@ -97,8 +97,17 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // Track all category/subcategory combinations
     const allCategoryPaths = new Set();
 
-    // Add predefined categories
+    // Add predefined categories (with validation)
     for (const category of categories) {
+      // Validate category slug - skip if invalid
+      if (!category.slug ||
+          category.slug.includes('receptai') ||
+          category.slug.startsWith('/') ||
+          category.slug === '' ||
+          category.slug.includes('//')) {
+        continue;
+      }
+
       // Add category page
       urls.push({
         loc: `${baseUrl}/receptai/${category.slug}`,
@@ -110,6 +119,15 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       // Add predefined subcategory pages
       if (category.subcategories && Array.isArray(category.subcategories)) {
         for (const subcategory of category.subcategories) {
+          // Validate subcategory slug
+          if (!subcategory.slug ||
+              subcategory.slug.includes('receptai') ||
+              subcategory.slug.startsWith('/') ||
+              subcategory.slug === '' ||
+              subcategory.slug.includes('//')) {
+            continue;
+          }
+
           const categoryPath = `${category.slug}/${subcategory.slug}`;
           allCategoryPaths.add(categoryPath);
 
@@ -123,13 +141,30 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       }
     }
 
-    // Add dynamic categories and subcategories from recipes
+    // Add dynamic categories and subcategories from recipes (with validation)
     for (const categoryPath of recipeCategoryPaths) {
       if (!categoryPath || typeof categoryPath !== 'string') continue;
+
+      // Skip invalid paths
+      if (categoryPath.includes('receptai') ||
+          categoryPath.startsWith('/') ||
+          categoryPath === '' ||
+          categoryPath.includes('//') ||
+          categoryPath.includes('receptai/receptai')) {
+        continue;
+      }
 
       const parts = categoryPath.split('/');
       if (parts.length >= 2) {
         const [categorySlug, subcategorySlug] = parts;
+
+        // Validate individual slugs
+        if (!categorySlug || !subcategorySlug ||
+            categorySlug.includes('receptai') ||
+            subcategorySlug.includes('receptai') ||
+            categorySlug === '' || subcategorySlug === '') {
+          continue;
+        }
 
         // Add category page if not already added
         const categoryExists = categories.some(cat => cat.slug === categorySlug);
@@ -202,11 +237,20 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // Note: Additional static pages are already included in the main static pages section above
     // No additional hardcoded pages needed - all actual pages are covered
 
+    // Final validation - remove any invalid URLs that might have slipped through
+    const validUrls = urls.filter(url => {
+      // Check for double receptai, empty paths, or other invalid patterns
+      return !url.loc.includes('/receptai/receptai') &&
+             !url.loc.includes('//') &&
+             !url.loc.endsWith('/receptai/') &&
+             url.loc !== `${baseUrl}/receptai/`;
+    });
+
     // Sort URLs by priority (highest first)
-    urls.sort((a, b) => parseFloat(b.priority) - parseFloat(a.priority));
+    validUrls.sort((a, b) => parseFloat(b.priority) - parseFloat(a.priority));
 
     // Generate XML sitemap
-    const sitemap = generateSitemapXML(urls);
+    const sitemap = generateSitemapXML(validUrls);
 
     // Set response headers
     res.setHeader('Content-Type', 'text/xml');
