@@ -18,8 +18,8 @@ export const SEO_CONFIG = {
 
   // Contact Information
   contact: {
-    email: 'info@ragaujam.lt',
-    phone: '+370 600 12345',
+    email: 'ragaujam1@gmail.com',
+    phone: 'n/a',
   },
   
   // Organization Schema

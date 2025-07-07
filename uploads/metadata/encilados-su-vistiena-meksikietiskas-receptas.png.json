@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"encilados-su-vistiena-meksikietiskas-receptas.png\"",
+  "alt-text": "Encilados su Vistiena ir Aitriojo Pipiro Padazu Meksikietiskai",
+  "recipe-slug": "encilados-su-vistiena-meksikietiskas-receptas",
+  "width": "1200",
+  "height": "800",
+  "keywords": "encilados,su,vistiena,enchilados receptas,meksikietiska virtuve,vistiena su pupelemis,aitrus padazas,kukurzu tortilijos,meksikietiska virtuve,enchilados,vistiena,Vistienos file,Druska, juodieji pipirai",
+  "upload-date": "2025-07-04",
+  "category": "Vakarienei",
+  "cuisine": "Meksikietiska",
+  "description": "Autentiskas Meksikos skonis tiesiai i Jusu virtuve! Sios pikantiskos encilados su sultinga vistiena, aitriuju papriku padazu ir raudonosiomis pupelemis nukels i tikra Lotynu Amerikos skonio kelione. P...",
+  "compressionStats": {
+    "originalSize": 1405460,
+    "compressedSize": 474782,
+    "compressionRatio": 66.2
+  },
+  "uploadedAt": "2025-07-04T13:48:36.884Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/encilados-su-vistiena-meksikietiskas-receptas.png"
+}

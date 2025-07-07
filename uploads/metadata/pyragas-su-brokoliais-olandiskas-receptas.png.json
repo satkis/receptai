@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"pyragas-su-brokoliais-olandiskas-receptas.png\"",
+  "alt-text": "Pyragas su Brokoliais",
+  "recipe-slug": "pyragas-su-brokoliais-olandiskas-receptas",
+  "width": "1200",
+  "height": "800",
+  "keywords": "pyragas,su,brokoliais,sveikas pyragas,olandiskas pyragas,brokoliai,lengvas pietu patiekalas,surio pyragas,olandiska virtuve,brokoliai,pyragas,Trapi tesla,Brokolis (didelis arba 2 mazesni)",
+  "upload-date": "2025-07-07",
+  "category": "Pietums",
+  "cuisine": "Olandiska",
+  "description": "Traskus ir trapus olandiskas pyragas su brokoliais, kumpiu bei aromatingu suriu. Puikiai tinka tiek vasaros iskyloms, tiek siltiems seimos pietums!",
+  "compressionStats": {
+    "originalSize": 2075305,
+    "compressedSize": 581915,
+    "compressionRatio": 72
+  },
+  "uploadedAt": "2025-07-07T11:22:30.363Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/pyragas-su-brokoliais-olandiskas-receptas.png"
+}
