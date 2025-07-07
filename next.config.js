@@ -38,6 +38,9 @@ const nextConfig = {
     dangerouslyAllowSVG: true, // Allow SVG for logos/icons in static folder
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false, // Enable optimization
+    loader: 'default', // Use default loader
+    // Fallback for external images that can't be optimized
+    dangerouslyAllowSVG: true,
   },
 
   // Performance optimizations

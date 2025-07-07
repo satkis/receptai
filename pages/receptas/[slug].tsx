@@ -356,13 +356,26 @@ function IngredientsSection({ recipe }: { recipe: Recipe }) {
 }
 
 // Patarimai Section Component
-function PatarimiSection({ notes }: { notes: Recipe['notes'] }) {
+function PatarimiSection({ notes }: { notes: Recipe['notes'] | string[] }) {
   if (!notes || notes.length === 0) {
     return null; // Hide container if no notes
   }
 
+  // Handle both string arrays and object arrays
+  const processedNotes = notes.map((note, index) => {
+    if (typeof note === 'string') {
+      // Handle simple string notes
+      return {
+        text: { lt: note },
+        priority: index + 1
+      };
+    }
+    // Handle object notes with text.lt structure
+    return note;
+  });
+
   // Sort notes by priority
-  const sortedNotes = [...notes].sort((a, b) => a.priority - b.priority);
+  const sortedNotes = [...processedNotes].sort((a, b) => a.priority - b.priority);
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">

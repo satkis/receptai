@@ -37,8 +37,8 @@ export default function OptimizedImage({
     setHasError(true);
   };
 
-  // Fallback image for errors
-  const fallbackSrc = '/images/recipe-placeholder.jpg';
+  // Fallback image for errors - use existing hero image as placeholder
+  const fallbackSrc = '/hero-image.jpg';
 
   return (
     <div className={`relative overflow-hidden ${className}`}>
