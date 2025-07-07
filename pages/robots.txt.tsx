@@ -115,7 +115,7 @@ Sitemap: ${baseUrl}/sitemap-images.xml
 
 # Additional information
 # Website: ${baseUrl}
-# Contact: info@ragaujam.lt
+# Contact: ragaujam1@gmail.com
 # Language: Lithuanian (lt)
 # Content: Recipe website with interactive features
 # Last updated: ${new Date().toISOString()}
