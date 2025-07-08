@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 import { GetServerSideProps } from 'next';
 import clientPromise from '../lib/mongodb';
+=======
+// Dynamic Sitemap Generator with SEO Optimization
+// URL: domain.lt/sitemap.xml
+
+import { GetServerSideProps } from 'next';
+import clientPromise, { DATABASE_NAME } from '../lib/mongodb';
+>>>>>>> develop
 
 interface SitemapUrl {
   loc: string;
@@ -22,13 +30,16 @@ function escapeXml(unsafe: string): string {
 }
 
 function generateSitemapXML(urls: SitemapUrl[]): string {
+<<<<<<< HEAD
   // Limit to 50,000 URLs per Google guidelines
   const limitedUrls = urls.slice(0, 50000);
   
+=======
+>>>>>>> develop
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${limitedUrls.map(url => `  <url>
-    <loc>${escapeXml(url.loc)}</loc>
+${urls.map(url => `  <url>
+    <loc>${url.loc}</loc>
     <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>
@@ -36,8 +47,29 @@ ${limitedUrls.map(url => `  <url>
 </urlset>`;
 }
 
+<<<<<<< HEAD
+=======
+// This component doesn't render anything, it just generates XML
+>>>>>>> develop
 function Sitemap() {
   return null;
+}
+
+// Helper functions for sitemap optimization
+function calculateCategoryPriority(recipeCount: number): string {
+  if (recipeCount >= 50) return '0.8';      // Popular categories
+  if (recipeCount >= 10) return '0.7';      // Medium categories  
+  if (recipeCount >= 1) return '0.6';       // Small categories
+  return '0.5'; // Fallback
+}
+
+function calculateCategoryChangefreq(recipeCount: number, lastUpdated: Date | string): 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never' {
+  const updateDate = typeof lastUpdated === 'string' ? new Date(lastUpdated) : lastUpdated;
+  const daysSinceUpdate = (Date.now() - updateDate.getTime()) / (1000 * 60 * 60 * 24);
+  
+  if (recipeCount >= 20 && daysSinceUpdate < 7) return 'weekly';
+  if (recipeCount >= 5) return 'monthly';
+  return 'monthly';
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
@@ -56,7 +88,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     // Generate sitemap URLs
     const urls: SitemapUrl[] = [];
 
-    // 1. Static pages
+    // Add static pages
     urls.push(
       {
         loc: `${baseUrl}/`,
@@ -73,12 +105,6 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       {
         loc: `${baseUrl}/paieska`,
         lastmod: currentDate,
-        changefreq: 'weekly',
-        priority: '0.7'
-      },
-      {
-        loc: `${baseUrl}/privatumo-politika`,
-        lastmod: currentDate,
         changefreq: 'monthly',
         priority: '0.3'
       }
@@ -86,6 +112,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 
     console.log(`Added ${urls.length} static pages`);
 
+<<<<<<< HEAD
     // 2. Get all categories and discover dynamic ones
     const categories = await db.collection('categories_new').find({
       isActive: true
@@ -228,6 +255,121 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     urls.sort((a, b) => parseFloat(b.priority) - parseFloat(a.priority));
 
     // Generate XML sitemap
+=======
+    // Connect to database for dynamic content
+    const client = await clientPromise;
+    const db = client.db(DATABASE_NAME);
+    console.log('Database connected successfully');
+
+    // Get all active categories
+    const categories = await db.collection('categories_new').find({
+      isActive: true
+    }).toArray();
+    console.log(`Found ${categories.length} active categories`);
+
+    // Debug: Show first few categories
+    console.log('First 3 categories:', categories.slice(0, 3).map(cat => ({
+      slug: cat.slug,
+      path: cat.path
+    })));
+
+    // Get recipe counts for each category and filter out empty ones
+    const categoriesWithRecipes: any[] = [];
+    
+    console.log(`Found ${categoriesWithRecipes.length} categories with recipes`);
+
+    // Debug: Let's check what allCategories values actually exist in recipes
+    const allCategoryValues = await db.collection('recipes_new').distinct('allCategories', {
+      publishedAt: { $exists: true }
+    });
+
+    console.log(`Unique allCategories values in recipes:`, allCategoryValues.slice(0, 10));
+
+    // Debug: Check a specific recipe to see its structure
+    const sampleRecipe = await db.collection('recipes_new').findOne({
+      slug: 'vistiena-su-paprikomis',
+      publishedAt: { $exists: true }
+    });
+
+    if (sampleRecipe) {
+      console.log(`Sample recipe structure:`, {
+        slug: sampleRecipe.slug,
+        allCategories: sampleRecipe.allCategories,
+        primaryCategoryPath: sampleRecipe.primaryCategoryPath
+      });
+    }
+
+    // Check all categories for recipes using the correct path format
+    for (const category of categories) {
+      // Recipes store paths as "receptai/category" but categories store just "category"
+      const recipeCategoryPath = `receptai/${category.path}`;
+
+      // Count recipes where this category appears in primaryCategoryPath or secondaryCategories
+      const totalCount = await db.collection('recipes_new').countDocuments({
+        $or: [
+          { primaryCategoryPath: recipeCategoryPath },
+          { secondaryCategories: { $in: [recipeCategoryPath] } }
+        ],
+        publishedAt: { $exists: true }
+      });
+
+      if (totalCount > 0) {
+        console.log(`✅ Found ${totalCount} recipes for category: ${category.slug} (${recipeCategoryPath})`);
+
+        categoriesWithRecipes.push({
+          _id: category._id,
+          path: category.path,
+          slug: category.slug,
+          title: category.title,
+          updatedAt: category.updatedAt,
+          createdAt: category.createdAt,
+          recipeCount: totalCount
+        });
+      }
+    }
+
+    // Add category pages to sitemap
+    for (const category of categoriesWithRecipes) {
+      const priority = calculateCategoryPriority(category.recipeCount);
+      const changefreq = calculateCategoryChangefreq(category.recipeCount, category.updatedAt);
+      
+      urls.push({
+        loc: `${baseUrl}/receptai/${category.slug}`,
+        lastmod: category.updatedAt || category.createdAt || currentDate,
+        changefreq,
+        priority
+      });
+    }
+
+    console.log(`Added ${categoriesWithRecipes.length} category pages to sitemap`);
+
+    // Get all published recipes
+    const recipes = await db.collection('recipes_new').find({
+      publishedAt: { $exists: true },
+      slug: { $exists: true, $ne: null }
+    }).project({
+      slug: 1,
+      publishedAt: 1,
+      updatedAt: 1
+    }).toArray();
+
+    console.log(`Found ${recipes.length} published recipes`);
+
+    // Add recipe pages to sitemap
+    for (const recipe of recipes) {
+      urls.push({
+        loc: `${baseUrl}/receptas/${recipe.slug}`,
+        lastmod: recipe.updatedAt || recipe.publishedAt || currentDate,
+        changefreq: 'monthly' as const,
+        priority: '0.5'
+      });
+    }
+
+    console.log(`Added ${recipes.length} recipe pages to sitemap`);
+
+    // Generate final sitemap with all URLs
+    console.log(`Generating sitemap with ${urls.length} total URLs`);
+>>>>>>> develop
     const sitemap = generateSitemapXML(urls);
 
     // Set response headers
@@ -260,7 +402,6 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     ];
 
     const fallbackSitemap = generateSitemapXML(fallbackUrls);
-
     res.setHeader('Content-Type', 'text/xml');
     res.write(fallbackSitemap);
     res.end();
