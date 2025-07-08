@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"erienos-pjausniai-su-artisokais-ir-cesnaku.jpg\"",
+  "alt-text": "Prancuziski erienos pjausniai su artisokais ir cesnaku",
+  "recipe-slug": "erienos-pjausniai-su-artisokais-ir-cesnaku",
+  "width": "1200",
+  "height": "800",
+  "keywords": "prancuziski,erienos,pjausniai,eriena,prancuziska virtuve,erienos pjausniai,artisokai,sventinis patiekalas,Prancuziska virtuve,erienos pjausniai,eriena,Erienos pjausniai (mazi),Marinuoti artisokai",
+  "upload-date": "2025-07-08",
+  "category": "Kepsniai",
+  "cuisine": "Prancuziska",
+  "description": "Nustebink save ir draugus siuo elegantisku prancuzisku erienos pjausniu receptu! Minksta eriena, kepama kartu su aromatingais artisokais, cesnakais ir citrina, o tada pagardinama baltuoju vynu. Tobula...",
+  "compressionStats": {
+    "originalSize": 450481,
+    "compressedSize": 250046,
+    "compressionRatio": 44.5
+  },
+  "uploadedAt": "2025-07-08T19:05:05.593Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/erienos-pjausniai-su-artisokais-ir-cesnaku.jpg"
+}
