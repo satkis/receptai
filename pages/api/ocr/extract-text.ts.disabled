@@ -1,0 +1,97 @@
+import { NextApiRequest, NextApiResponse } from 'next';
+import { IncomingForm, File } from 'formidable';
+import fs from 'fs';
+import path from 'path';
+import { extractTextFromImage } from '../../../lib/google-vision';
+
+// Disable Next.js body parser to handle file uploads
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+};
+
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ 
+      success: false, 
+      error: 'Method not allowed. Use POST.' 
+    });
+  }
+
+  try {
+    console.log('📤 Received OCR request...');
+
+    // Parse the uploaded file
+    const form = new IncomingForm({
+      uploadDir: path.join(process.cwd(), 'uploads', 'ocr-workspace', 'images'),
+      keepExtensions: true,
+      maxFileSize: 10 * 1024 * 1024, // 10MB limit
+    });
+
+    const [fields, files] = await new Promise<[any, any]>((resolve, reject) => {
+      form.parse(req, (err, fields, files) => {
+        if (err) reject(err);
+        else resolve([fields, files]);
+      });
+    });
+
+    console.log('📁 Files received:', Object.keys(files));
+
+    // Get the uploaded image file
+    const imageFile = Array.isArray(files.image) ? files.image[0] : files.image;
+    
+    if (!imageFile) {
+      return res.status(400).json({
+        success: false,
+        error: 'No image file uploaded. Please upload an image.'
+      });
+    }
+
+    console.log('🖼️ Processing image:', imageFile.originalFilename);
+    console.log('📏 File size:', imageFile.size, 'bytes');
+
+    // Read the image file
+    const imageBuffer = fs.readFileSync(imageFile.filepath);
+    
+    console.log('🔍 Extracting text with Google Vision API...');
+
+    // Extract text using Google Vision API
+    const extractedText = await extractTextFromImage(imageBuffer);
+
+    console.log('✅ Text extraction completed');
+    console.log('📝 Extracted text length:', extractedText.length, 'characters');
+
+    // Save raw OCR result to file for inspection
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const rawOcrFilename = `raw-ocr-${timestamp}.txt`;
+    const rawOcrPath = path.join(process.cwd(), 'uploads', 'ocr-workspace', 'raw-ocr', rawOcrFilename);
+    
+    fs.writeFileSync(rawOcrPath, extractedText, 'utf8');
+    console.log('💾 Raw OCR saved to:', rawOcrFilename);
+
+    // Clean up uploaded file
+    fs.unlinkSync(imageFile.filepath);
+
+    // Return the results
+    return res.status(200).json({
+      success: true,
+      message: 'Text extraction completed successfully',
+      data: {
+        extractedText: extractedText,
+        textLength: extractedText.length,
+        rawOcrFile: rawOcrFilename,
+        timestamp: new Date().toISOString()
+      }
+    });
+
+  } catch (error) {
+    console.error('❌ OCR processing error:', error);
+    
+    return res.status(500).json({
+      success: false,
+      error: error instanceof Error ? error.message : 'Unknown error occurred',
+      timestamp: new Date().toISOString()
+    });
+  }
+}

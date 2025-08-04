@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"spageciai-su-pomidoru-alyvuogiu-rukolos-padazu.JPG\"",
+  "alt-text": "Spageciai su Pomidoru, Grazgarsciu ir Alyvuogiu Padazu",
+  "recipe-slug": "spageciai-su-pomidoru-alyvuogiu-rukolos-padazu",
+  "width": "1200",
+  "height": "800",
+  "keywords": "spageciai,su,pomidoru,,spageciai su pomidoru padazu,saltas makaronu padazas,greiti vegetariski makaronai,italiski receptai,lengvi vasaros patiekalai,Makaronai,italiska virtuve,greita vakariene,Spageciu,Vidutinio dydzio prinokusiu pomidoru",
+  "upload-date": "2025-08-04",
+  "category": "Makaronai",
+  "cuisine": "Italiska",
+  "description": "Tobulas receptas greitai ir skaniai vakarienei! Sis patiekalas paruosiamas vos per desimt minuciu, idealus, kai griztate namo isalke ir neturite laiko sudetingam gaminimui. Prinoke pomidorai, sviezi b...",
+  "compressionStats": {
+    "originalSize": 10198787,
+    "compressedSize": 206151,
+    "compressionRatio": 98
+  },
+  "uploadedAt": "2025-08-04T12:20:25.691Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/spageciai-su-pomidoru-alyvuogiu-rukolos-padazu.JPG"
+}

@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"makaronai-su-spinatais-greitai-ir-skaniai.jpg\"",
+  "alt-text": "Kreminiai Makaronai su Spinatais, Maskarpone ir Parmezanu - Greita ir Skani Vakariene!",
+  "recipe-slug": "makaronai-su-spinatais-greitai-ir-skaniai",
+  "width": "1200",
+  "height": "800",
+  "keywords": "kreminiai,makaronai,su,kreminiai makaronai,makaronai su spinatais,makaronai su maskarpone,greita vakariene,vaikiski receptai,makaronai,greita vakariene,italiska virtuve,Tagliatelle (ploksciu makaronu) arba spageciu,Alyvuogiu aliejaus",
+  "upload-date": "2025-07-11",
+  "category": "Makaronai",
+  "cuisine": "Italiska",
+  "description": "Greitai paruosiami kreminiai makaronai su spinatais - idealus pasirinkimas uzimtiems vakarams. Svelnus maskarpones, grietines ir parmezano padazas puikiai dera su spinatais, o vaikai net nepastebes za...",
+  "compressionStats": {
+    "originalSize": 283955,
+    "compressedSize": 157289,
+    "compressionRatio": 44.6
+  },
+  "uploadedAt": "2025-07-11T10:30:48.647Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/makaronai-su-spinatais-greitai-ir-skaniai.jpg"
+}

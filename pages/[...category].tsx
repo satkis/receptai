@@ -8,6 +8,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import PlaceholderImage from '../components/ui/PlaceholderImage';
 import CategoryMenu from '../components/navigation/CategoryMenu';
+import { CategoryPerformanceOptimizer } from '../components/PerformanceOptimizer';
 
 interface Category {
   _id: string;
@@ -447,8 +448,16 @@ export default function CategoryPage({
     { title: category.title.lt, url: `/receptai/${category.path}`, current: true }
   ];
 
+  // Extract recipe images for performance optimization
+  const categoryImages = recipes.slice(0, 4).map(recipe =>
+    typeof recipe.image === 'string' ? recipe.image : recipe.image?.src
+  ).filter(Boolean);
+
   return (
     <>
+      {/* Performance optimization for single-visit users */}
+      <CategoryPerformanceOptimizer categoryImages={categoryImages} />
+
       <Head>
         <title>{category.seo.metaTitle}</title>
         <meta name="description" content={category.seo.metaDescription} />
@@ -593,8 +602,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         activeFilter: null, // No filters in ISR
         recipeCount: totalCount
       },
-      // ISR: TESTING MODE - Instant revalidation (change back to 7200 for production)
-      revalidate: process.env.NODE_ENV === 'development' ? 1 : 7200
+      // ISR: Optimized for single-visit users - longer cache for better performance
+      revalidate: process.env.NODE_ENV === 'development' ? 1 : 86400 // 24 hours
     };
   } catch (error) {
     console.error('Error fetching category page:', error);
@@ -612,7 +621,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const categories = await db.collection('categories_new')
       .find({ isActive: true })
       .project({ path: 1 })
-      .limit(20) // Pre-generate top 20 categories
+      .limit(50) // Pre-generate more categories for better coverage
       .toArray();
 
     const paths = categories.map((category) => ({
