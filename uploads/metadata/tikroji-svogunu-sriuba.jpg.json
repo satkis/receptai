@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"tikroji-svogunu-sriuba.jpg\"",
+  "alt-text": "Recipe image",
+  "recipe-slug": "tikroji-svogunu-sriuba",
+  "width": "1200",
+  "height": "800",
+  "keywords": "recipe,food,lithuanian",
+  "upload-date": "2025-07-11",
+  "category": "recipe-image",
+  "cuisine": "lithuanian",
+  "description": "Recipe image",
+  "compressionStats": {
+    "originalSize": 290218,
+    "compressedSize": 160560,
+    "compressionRatio": 44.7
+  },
+  "uploadedAt": "2025-07-11T10:30:48.519Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/tikroji-svogunu-sriuba.jpg"
+}

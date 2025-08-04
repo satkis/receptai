@@ -304,6 +304,7 @@ async function uploadImage(filename) {
     Key: `receptai/${filename}`, // Use original filename, not compressed filename
     Body: fileContent,
     ContentType: metadata['Content-Type'],
+    // ACL removed - using bucket policy instead for public access
     CacheControl: metadata['Cache-Control'],
     ContentDisposition: metadata['Content-Disposition'],
     Metadata: {

@@ -10,6 +10,7 @@ import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 
 import Breadcrumb from '../../components/navigation/Breadcrumb';
 import CategoryMenu from '../../components/navigation/CategoryMenu';
+import { HomepagePerformanceOptimizer } from '../../components/PerformanceOptimizer';
 // Layout removed - already wrapped in _app.tsx
 
 interface Recipe {
@@ -151,8 +152,16 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
     }
   }, [currentPage, totalPages, router]);
 
+  // Extract featured recipe images for performance optimization
+  const featuredImages = recipes.slice(0, 6).map(recipe =>
+    typeof recipe.image === 'string' ? recipe.image : recipe.image?.src
+  ).filter(Boolean);
+
   return (
     <>
+      {/* Performance optimization for single-visit users */}
+      <HomepagePerformanceOptimizer featuredImages={featuredImages} />
+
       <Head>
         <title>Visi receptai | Ragaujam.lt</title>
         <meta name="description" content={`Atraskite visus ${totalRecipes} receptus mūsų duomenų bazėje. Lietuviški receptai su detaliais aprašymais ir nuotraukomis.`} />
@@ -278,8 +287,8 @@ export const getStaticProps: GetStaticProps = async () => {
         currentPage: page,
         totalPages: Math.ceil(totalRecipes / limit)
       },
-      // ISR: TESTING MODE - Instant revalidation (change back to 3600 for production)
-      revalidate: process.env.NODE_ENV === 'development' ? 1 : 3600
+      // ISR: Optimized for single-visit users - longer cache for homepage performance
+      revalidate: process.env.NODE_ENV === 'development' ? 1 : 43200 // 12 hours
     };
   } catch (error) {
     console.error('Error fetching all recipes:', error);
@@ -292,7 +301,7 @@ export const getStaticProps: GetStaticProps = async () => {
         currentPage: 1,
         totalPages: 0
       },
-      revalidate: 3600
+      revalidate: 43200 // 12 hours for fallback
     };
   }
 };
