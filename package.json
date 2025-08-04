@@ -43,9 +43,15 @@
     "s3:test:prod": "node scripts/setup-s3-buckets.js test production"
   },
   "dependencies": {
+    "@google-cloud/vision": "^5.2.0",
+    "@types/formidable": "^3.4.5",
+    "aws-sdk": "^2.1692.0",
     "blurhash": "^2.0.5",
+    "chokidar": "^4.0.3",
     "dotenv": "^16.5.0",
+    "formidable": "^3.5.4",
     "mongodb": "^6.3.0",
+    "multer": "^2.0.1",
     "next": "^15.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -53,6 +59,7 @@
     "sharp": "^0.32.6"
   },
   "devDependencies": {
+    "@types/multer": "^2.0.0",
     "@types/node": "^20.8.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",

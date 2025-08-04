@@ -7,6 +7,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
 import { useRouter } from 'next/router';
+import { RecipePerformanceOptimizer } from '../../components/PerformanceOptimizer';
 
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../components/navigation/Breadcrumb';
 import StarRating from '../../components/StarRating';
@@ -484,6 +485,11 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 
   return (
     <>
+      {/* Performance optimization for single-visit users */}
+      <RecipePerformanceOptimizer
+        recipeImage={typeof recipe.image === 'string' ? recipe.image : recipe.image.src}
+      />
+
       <Head>
         <title>{recipe.title.lt}</title>
         <meta name="description" content={recipe.seo?.metaDescription || recipe.description.lt} />
@@ -585,8 +591,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       props: {
         recipe: JSON.parse(JSON.stringify(recipe))
       },
-      // ISR: TESTING MODE - Instant revalidation (change back to 3600 for production)
-      revalidate: process.env.NODE_ENV === 'development' ? 1 : 3600
+      // ISR: Optimized for single-visit users - longer cache for better CDN performance
+      revalidate: process.env.NODE_ENV === 'development' ? 1 : 86400 // 24 hours
     };
   } catch (error) {
     console.error('Error fetching recipe:', error);
@@ -600,19 +606,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const client = await clientPromise;
     const db = client.db(DATABASE_NAME);
 
-    // Pre-generate paths for featured/popular recipes only
+    // Pre-generate ALL recipes for maximum speed (single-visit optimization)
     const popularRecipes = await db.collection('recipes_new')
       .find({
-        $or: [
-          { featured: true },
-          { trending: true }
-        ],
-        // Ensure recipe has required fields
+        // Get all published recipes
+        status: { $ne: 'draft' },
         'title.lt': { $exists: true, $ne: null },
         'slug': { $exists: true, $ne: null }
       })
       .project({ slug: 1 })
-      .limit(50) // Pre-generate top 50 recipes
+      .limit(200) // Pre-generate more recipes for better coverage
       .toArray();
 
     const paths = popularRecipes

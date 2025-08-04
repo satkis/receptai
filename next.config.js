@@ -43,14 +43,16 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
   },
 
-  // Performance optimizations
+  // Performance optimizations for single-visit users
   experimental: {
     scrollRestoration: true,
     optimizePackageImports: ['lucide-react'],
+    // CSS optimization disabled - requires additional dependencies
+    // optimizeCss: true,
+    optimizeServerReact: true,
   },
 
-  // Optimize bundle size while keeping legacy support
-  swcMinify: true,
+  // SWC minification is enabled by default in Next.js 15+
 
   // Redirects - Server-side, no performance impact
   async redirects() {
@@ -146,13 +148,33 @@ const nextConfig = {
           },
         ],
       },
-      // Cache API responses
+      // Cache API responses - optimized for single-visit users
       {
         source: '/api/(.*)',
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, s-maxage=300, stale-while-revalidate=600',
+            value: 'public, s-maxage=3600, stale-while-revalidate=86400, max-age=60',
+          },
+        ],
+      },
+      // Cache recipe pages aggressively at CDN level
+      {
+        source: '/receptas/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, s-maxage=3600, stale-while-revalidate=86400, max-age=300',
+          },
+        ],
+      },
+      // Cache category pages
+      {
+        source: '/receptai/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, s-maxage=7200, stale-while-revalidate=86400, max-age=600',
           },
         ],
       },

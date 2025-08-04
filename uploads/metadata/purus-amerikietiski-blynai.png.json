@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"purus-amerikietiski-blynai.png\"",
+  "alt-text": "Purus Blynai: Klasikinis Amerikietiskas Receptas",
+  "recipe-slug": "purus-amerikietiski-blynai",
+  "width": "1200",
+  "height": "800",
+  "keywords": "purus,blynai:,klasikinis,purus blynai,blynu receptas,pusryciai,lengvas blynu receptas,minksti blynai,Pusryciai,blynai,minksti blynai,Kvietiniu miltu,Balto cukraus",
+  "upload-date": "2025-07-09",
+  "category": "Pusryciai",
+  "cuisine": "Amerikietiska",
+  "description": "Ismokite pasigaminti tobulai purius ir gardzius blynus - puikia ideja sociam savaitgalio rytui ar velyviems pusryciams! Sis klasikinis receptas garantuoja minkstus, purius blynelius, kurie tiesiog tir...",
+  "compressionStats": {
+    "originalSize": 1481094,
+    "compressedSize": 476367,
+    "compressionRatio": 67.8
+  },
+  "uploadedAt": "2025-07-09T12:56:28.821Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/purus-amerikietiski-blynai.png"
+}

@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"kapotos-salotos-amerikietiskai.jpg\"",
+  "alt-text": "Amerikietiskos Kapotos Salotos: Sviezumo ir Skonio Harmonija",
+  "recipe-slug": "kapotos-salotos-amerikietiskai",
+  "width": "1200",
+  "height": "800",
+  "keywords": "amerikietiskos,kapotos,salotos:,amerikietiskos salotos,kapotos salotos receptas,salotos su feta,kapotu darzoviu salotos,vasariskos salotos,salotos,amerikietiska virtuve,kapotos salotos,Saldzioji paprika,Aitrioji paprika",
+  "upload-date": "2025-07-11",
+  "category": "Salotos",
+  "cuisine": "Amerikietiska",
+  "description": "Atraskite gaivu amerikietisku kapotu salotu skoni! Spalvingas darzoviu misinys, aromatingas padazas ir puikiai subalansuotos proporcijos - tai puikus pasirinkimas vasaros vakarienei ar salia mesos pat...",
+  "compressionStats": {
+    "originalSize": 416836,
+    "compressedSize": 236053,
+    "compressionRatio": 43.4
+  },
+  "uploadedAt": "2025-07-11T10:30:48.657Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kapotos-salotos-amerikietiskai.jpg"
+}

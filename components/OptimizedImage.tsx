@@ -27,9 +27,17 @@ export default function OptimizedImage({
 }: OptimizedImageProps) {
   const [isLoaded, setIsLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
+  const [loadStartTime] = useState(() => performance.now());
 
   const handleLoad = () => {
     setIsLoaded(true);
+
+    // Performance monitoring for single-visit optimization
+    const loadTime = performance.now() - loadStartTime;
+    if (loadTime > 2000) {
+      console.warn(`Slow image load detected: ${loadTime.toFixed(0)}ms for ${src}`);
+    }
+
     onLoad?.();
   };
 
