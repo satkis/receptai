@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"idaryti-baravykai-su-kiauliena-spinatais-ir-cederiu.png\"",
+  "alt-text": "Idaryti baravykai su spinatais, kiauliena ir cederio suriu",
+  "recipe-slug": "idaryti-baravykai-su-kiauliena-spinatais-ir-cederiu",
+  "width": "1200",
+  "height": "800",
+  "keywords": "idaryti,baravykai,su,idaryti baravykai,idaryti baravykai,baravykai su idaru,baravykai su spinatais,grybu receptai,lietuviskas,naminis,skanus,Spinatai be stiebeliu,Vidutinio dydzio grybu kepureles (bet kokiu)",
+  "upload-date": "2025-09-05",
+  "category": "Pagrindinis patiekalas",
+  "cuisine": "Lietuviska",
+  "description": "Idaryti baravykai - tai klasikinis lietuviskas patiekalas, kuri lengva paruosti namuose. Svelnus spinatai, sultinga kiauliena, aromatingas cederio suris ir traskus duonos trupiniai susilieja i tobula ...",
+  "compressionStats": {
+    "originalSize": 1961846,
+    "compressedSize": 491693,
+    "compressionRatio": 74.9
+  },
+  "uploadedAt": "2025-09-05T15:18:54.094Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/idaryti-baravykai-su-kiauliena-spinatais-ir-cederiu.png"
+}

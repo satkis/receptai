@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"smidrai-svieste-su-peletrunu.png\"",
+  "alt-text": "Recipe image",
+  "recipe-slug": "smidrai-svieste-su-peletrunu",
+  "width": "1200",
+  "height": "800",
+  "keywords": "recipe,food,lithuanian",
+  "upload-date": "2025-08-07",
+  "category": "recipe-image",
+  "cuisine": "lithuanian",
+  "description": "Recipe image",
+  "compressionStats": {
+    "originalSize": 2936003,
+    "compressedSize": 582405,
+    "compressionRatio": 80.2
+  },
+  "uploadedAt": "2025-08-07T13:28:24.051Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/smidrai-svieste-su-peletrunu.png"
+}

@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"kiausiniu-ir-pomidoru-salotos-su-krabais.png\"",
+  "alt-text": "Kiausiniu ir pomidoru salotos su krabais",
+  "recipe-slug": "kiausiniu-ir-pomidoru-salotos-su-krabais",
+  "width": "1200",
+  "height": "800",
+  "keywords": "kiausiniu,ir,pomidoru,kiausiniu salotos,pomidoru salotos,krabu mesa,lengvi receptai,salotos vakarienei,salotos,kiausiniai,krabu mesa,Salotu guzele,Konservuotu krabu mesos",
+  "upload-date": "2025-09-05",
+  "category": "Salotos",
+  "cuisine": "Lietuviska",
+  "description": "Gaivios ir lengvos kiausiniu bei pomidoru salotos su krabu mesa - puikus pasirinkimas sveikai ir skaniai vakarienei ar uzkandziui. Lengvai pagaminamos ir derinamos su ivairiais patiekalais.",
+  "compressionStats": {
+    "originalSize": 2084784,
+    "compressedSize": 409380,
+    "compressionRatio": 80.4
+  },
+  "uploadedAt": "2025-09-05T15:32:20.089Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kiausiniu-ir-pomidoru-salotos-su-krabais.png"
+}

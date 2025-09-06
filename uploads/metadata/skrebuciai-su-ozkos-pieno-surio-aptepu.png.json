@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"skrebuciai-su-ozkos-pieno-surio-aptepu.png\"",
+  "alt-text": "Skrebuciai su ozkos pieno surio aptepu",
+  "recipe-slug": "skrebuciai-su-ozkos-pieno-surio-aptepu",
+  "width": "1200",
+  "height": "800",
+  "keywords": "skrebuciai,su,ozkos,skrebuciai su suriu,ozkos pieno suris receptas,uzkandziai,lengvi receptai,skrebuciu receptai,uzkandziai,skrebuciai,ozkos pieno suris,Konservuotu juoduju alyvu, be kauliuku,Dziovintu pomidoru aliejuje",
+  "upload-date": "2025-08-08",
+  "category": "Uzkandziai",
+  "cuisine": "Lietuviska",
+  "description": "Lengvai pagaminami skrebuciai su ozkos pieno surio aptepu - puikus uzkandis jusu seimai ar draugams. Gardus ir aromatingas patiekalas, kuri galite paruosti is anksto ir patiekti bet kokiai progai.",
+  "compressionStats": {
+    "originalSize": 3000675,
+    "compressedSize": 304680,
+    "compressionRatio": 89.8
+  },
+  "uploadedAt": "2025-08-08T13:55:30.594Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/skrebuciai-su-ozkos-pieno-surio-aptepu.png"
+}
