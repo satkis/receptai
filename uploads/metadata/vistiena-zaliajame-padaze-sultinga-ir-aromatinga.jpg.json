@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"vistiena-zaliajame-padaze-sultinga-ir-aromatinga.jpg\"",
+  "alt-text": "Vistiena Zaliajame Padaze: Sultinga ir Aromatinga Vakariene",
+  "recipe-slug": "vistiena-zaliajame-padaze-sultinga-ir-aromatinga",
+  "width": "1200",
+  "height": "800",
+  "keywords": "vistiena,zaliajame,padaze:,vistiena zaliajame padaze,vistienos troskinys,vistienos receptas,vistiena su grietinele,vistiena su baltuoju vynu,vistiena,vistienos receptas,vistienos troskinys,Sviestas,Alyvuogiu aliejus",
+  "upload-date": "2025-08-08",
+  "category": "Pagrindiniai patiekalai",
+  "cuisine": "Europos",
+  "description": "Sultinga vistiena, troskinta svelniame zaliuju zoleliu padaze su grietinele ir baltuoju vynu. Aromatingas, israiskingas ir gardus patiekalas, puikiai tinkantis seimos vakarienei ar savaitgalio pietums...",
+  "compressionStats": {
+    "originalSize": 199047,
+    "compressedSize": 101821,
+    "compressionRatio": 48.8
+  },
+  "uploadedAt": "2025-08-08T13:07:06.803Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vistiena-zaliajame-padaze-sultinga-ir-aromatinga.jpg"
+}
