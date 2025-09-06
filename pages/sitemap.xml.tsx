@@ -11,11 +11,40 @@ interface SitemapUrl {
   priority: string;
 }
 
+// Fix date formatting function
+function formatSitemapDate(date: Date | string | null): string {
+  if (!date) return new Date().toISOString();
+  
+  try {
+    const dateObj = typeof date === 'string' ? new Date(date) : date;
+    if (isNaN(dateObj.getTime())) {
+      return new Date().toISOString();
+    }
+    return dateObj.toISOString();
+  } catch (error) {
+    return new Date().toISOString();
+  }
+}
+
+// Add XML escaping function
+function escapeXml(unsafe: string): string {
+  return unsafe.replace(/[<>&'"]/g, function (c) {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+      default: return c;
+    }
+  });
+}
+
 function generateSitemapXML(urls: SitemapUrl[]): string {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(url => `  <url>
-    <loc>${url.loc}</loc>
+    <loc>${escapeXml(url.loc)}</loc>
     <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>
@@ -159,7 +188,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       
       urls.push({
         loc: `${baseUrl}/receptai/${category.slug}`,
-        lastmod: category.updatedAt || category.createdAt || currentDate,
+        lastmod: formatSitemapDate(category.updatedAt || category.createdAt),
         changefreq,
         priority
       });
@@ -183,9 +212,9 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     for (const recipe of recipes) {
       urls.push({
         loc: `${baseUrl}/receptas/${recipe.slug}`,
-        lastmod: recipe.updatedAt || recipe.publishedAt || currentDate,
+        lastmod: formatSitemapDate(recipe.updatedAt || recipe.publishedAt),
         changefreq: 'monthly' as const,
-        priority: '0.5'
+        priority: '0.7'
       });
     }
 
@@ -197,7 +226,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 
     // Set response headers
     res.setHeader('Content-Type', 'text/xml');
-    res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate');
+    res.setHeader('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate=7200');
     res.write(sitemap);
     res.end();
 
