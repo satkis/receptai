@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"meksikietiskas-gvakamole-padazas-su-traskuciais.png\"",
+  "alt-text": "Meksikietiskas gvakamole padazas su traskuciais",
+  "recipe-slug": "meksikietiskas-gvakamole-padazas-su-traskuciais",
+  "width": "1200",
+  "height": "800",
+  "keywords": "meksikietiskas,gvakamole,padazas,gvakamole receptas,avokado padazas,meksikietiski patiekalai,traskuciai su suriu,gvakamole,avokado,meksikietiska,Avokadai,Citrina",
+  "upload-date": "2025-09-08",
+  "category": "Padazai",
+  "cuisine": "Meksikietiska",
+  "description": "Puikus uzkandis vakarui. Jei norite svelnesnio skonio, nedekite i gvakamole cili pipiru.",
+  "compressionStats": {
+    "originalSize": 2348454,
+    "compressedSize": 398122,
+    "compressionRatio": 83
+  },
+  "uploadedAt": "2025-09-08T13:27:51.926Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/meksikietiskas-gvakamole-padazas-su-traskuciais.png"
+}

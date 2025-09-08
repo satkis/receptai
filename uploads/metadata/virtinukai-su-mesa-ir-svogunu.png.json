@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"virtinukai-su-mesa-ir-svogunu.png\"",
+  "alt-text": "Virtinukai su mesa ir svogunais",
+  "recipe-slug": "virtinukai-su-mesa-ir-svogunu",
+  "width": "1200",
+  "height": "800",
+  "keywords": "virtinukai,su,mesa,virtinuku receptas,lietuviski virtinukai,virtinukai su mesa,tradiciniai patiekalai,teslos receptas,virtinukai,lietuviska virtuve,tradiciniai patiekalai,Jautienos,Riebios kiaulienos",
+  "upload-date": "2025-09-08",
+  "category": "Pagrindiniai patiekalai",
+  "cuisine": "Lietuviska",
+  "description": "Tradiciniai lietuviski virtinukai su mesa ir svogunais. Skanus ir sotus, tiks visai seimai.",
+  "compressionStats": {
+    "originalSize": 2189889,
+    "compressedSize": 393890,
+    "compressionRatio": 82
+  },
+  "uploadedAt": "2025-09-08T13:27:51.261Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/virtinukai-su-mesa-ir-svogunu.png"
+}

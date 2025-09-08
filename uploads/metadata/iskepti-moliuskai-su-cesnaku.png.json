@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"iskepti-moliuskai-su-cesnaku.png\"",
+  "alt-text": "Kepti moliuskai su cesnaku",
+  "recipe-slug": "iskepti-moliuskai-su-cesnaku",
+  "width": "1200",
+  "height": "800",
+  "keywords": "kepti,moliuskai,su,kepti moliuskai,moliuskai su cesnaku,juros gerybes,moliuskai,juros gerybes,cesnakas,Moliusku,Sauso baltojo vyno",
+  "upload-date": "2025-09-08",
+  "category": "Juros gerybes",
+  "cuisine": "Lietuviska",
+  "description": "Svieziu prieskoniu misinys, kaip raudonelis, bazilikas ir placialape petrazole, puikiai tinka siam patiekalui.",
+  "compressionStats": {
+    "originalSize": 2317025,
+    "compressedSize": 519113,
+    "compressionRatio": 77.6
+  },
+  "uploadedAt": "2025-09-08T13:27:49.819Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/iskepti-moliuskai-su-cesnaku.png"
+}
