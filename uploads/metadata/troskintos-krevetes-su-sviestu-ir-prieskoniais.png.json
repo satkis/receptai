@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"troskintos-krevetes-su-sviestu-ir-prieskoniais.png\"",
+  "alt-text": "Troskintos krevetes su sviestu ir prieskoniais",
+  "recipe-slug": "troskintos-krevetes-su-sviestu-ir-prieskoniais",
+  "width": "1200",
+  "height": "800",
+  "keywords": "troskintos,krevetes,su,troskintos krevetes,kreveciu receptas,krevetes su sviestu,juros gerybiu receptas,krevetes vakarienei,krevetes,troskintos krevetes,kreveciu receptas,Isgliaudytos krevetes,Sviestas",
+  "upload-date": "2025-09-08",
+  "category": "Juros gerybes",
+  "cuisine": "Europos",
+  "description": "Sultingos troskintos krevetes su sviestu, muskatu ir prieskoniais. Lengvas ir elegantiskas juros gerybiu patiekalas, tinkantis tiek kasdienai, tiek sventinei vakarienei.",
+  "compressionStats": {
+    "originalSize": 1793823,
+    "compressedSize": 505826,
+    "compressionRatio": 71.8
+  },
+  "uploadedAt": "2025-09-08T13:29:35.050Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/troskintos-krevetes-su-sviestu-ir-prieskoniais.png"
+}

@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"skryliai-su-aguonomis.png\"",
+  "alt-text": "Skryliai su aguonomis",
+  "recipe-slug": "skryliai-su-aguonomis",
+  "width": "1200",
+  "height": "800",
+  "keywords": "skryliai,su,aguonomis,skryliai,aguonu padazas,lietuviskas receptas,varskes tesla,tradicinis patiekalas,skryliai,aguonos,lietuviskas receptas,Miltai,Kiausinis",
+  "upload-date": "2025-09-08",
+  "category": "Desertai",
+  "cuisine": "Lietuviska",
+  "description": "Skryliai su aguonomis - tai tradicinis lietuviskas patiekalas, kuris sujungia minkstus varskes teslos lakstelius su aromatingu aguonu padazu. Sis senovinis receptas puikiai tinka kaip desertas ar leng...",
+  "compressionStats": {
+    "originalSize": 1683710,
+    "compressedSize": 459163,
+    "compressionRatio": 72.7
+  },
+  "uploadedAt": "2025-09-08T13:27:51.174Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/skryliai-su-aguonomis.png"
+}
