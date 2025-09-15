@@ -12,6 +12,7 @@ import { RecipePerformanceOptimizer } from '../../components/PerformanceOptimize
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../components/navigation/Breadcrumb';
 import StarRating from '../../components/StarRating';
 import { generateEnhancedRecipeSchema } from '../../utils/enhanced-recipe-schema';
+import { getRecipeCanonicalUrl } from '../../utils/canonical-urls';
 
 interface Recipe {
   _id: string;
@@ -494,10 +495,18 @@ export default function RecipePage({ recipe }: RecipePageProps) {
         <title>{recipe.title.lt}</title>
         <meta name="description" content={recipe.seo?.metaDescription || recipe.description.lt} />
         <meta name="keywords" content={recipe.seo?.keywords?.join(', ') || recipe.tags?.join(', ') || ''} />
+
+        {/* Canonical URL - Critical for SEO */}
+        <link rel="canonical" href={getRecipeCanonicalUrl(recipe.slug)} />
+
+        {/* Open Graph */}
         <meta property="og:title" content={recipe.title.lt} />
         <meta property="og:description" content={recipe.seo?.metaDescription || recipe.description.lt} />
         <meta property="og:image" content={typeof recipe.image === 'string' ? recipe.image : recipe.image.src} />
         <meta property="og:type" content="article" />
+        <meta property="og:url" content={getRecipeCanonicalUrl(recipe.slug)} />
+
+        {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={recipe.title.lt} />
         <meta name="twitter:description" content={recipe.seo?.metaDescription || recipe.description.lt} />

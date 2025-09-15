@@ -1,9 +1,9 @@
 // All Recipes Page
 // /receptai - Shows all recipes from database
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import clientPromise, { DATABASE_NAME } from '../../lib/mongodb';
@@ -144,6 +144,11 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
     { label: 'Receptai', isActive: true }
   ];
 
+  // Reset loading state when page changes
+  useEffect(() => {
+    setIsLoading(false);
+  }, [currentPage]);
+
   const handleLoadMore = useCallback(() => {
     if (currentPage < totalPages) {
       setIsLoading(true);
@@ -240,15 +245,15 @@ export default function ReceptaiIndex({ recipes, totalRecipes, currentPage, tota
   );
 }
 
-// ISR for all recipes page - 1 hour revalidation for daily additions
-export const getStaticProps: GetStaticProps = async () => {
+// Server-side rendering for pagination support
+export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   try {
     // 🚀 Use shared MongoDB client for better performance
     const client = await clientPromise;
     const db = client.db(DATABASE_NAME);
 
-    // For ISR: Show first page only (pagination will be client-side)
-    const page = 1;
+    // Get page from query parameters
+    const page = parseInt(query.page as string) || 1;
     const limit = 16;
     const skip = (page - 1) * limit;
 
@@ -286,9 +291,7 @@ export const getStaticProps: GetStaticProps = async () => {
         totalRecipes,
         currentPage: page,
         totalPages: Math.ceil(totalRecipes / limit)
-      },
-      // ISR: Optimized for single-visit users - longer cache for homepage performance
-      revalidate: process.env.NODE_ENV === 'development' ? 1 : 43200 // 12 hours
+      }
     };
   } catch (error) {
     console.error('Error fetching all recipes:', error);
@@ -300,8 +303,7 @@ export const getStaticProps: GetStaticProps = async () => {
         totalRecipes: 0,
         currentPage: 1,
         totalPages: 0
-      },
-      revalidate: 43200 // 12 hours for fallback
+      }
     };
   }
 };

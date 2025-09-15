@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": ["ragaujam.lt", "www.ragaujam.lt"],
+  "alias": ["ragaujam.lt"],
   "github": {
     "autoAlias": false
   },
@@ -43,6 +43,17 @@
     {
       "source": "/",
       "destination": "/receptai",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ragaujam.lt"
+        }
+      ],
+      "destination": "https://ragaujam.lt/$1",
       "permanent": true
     }
   ]
