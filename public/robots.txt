@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Allow all recipe pages
+Allow: /receptas/
+Allow: /receptai/
+
+# Allow search pages
+Allow: /paieska
+
+# Block query parameter variations to prevent duplicate indexing
+Disallow: /receptas/*?from=*
+Disallow: /receptai/*?filter=*
+Disallow: /receptai/*?page=*
+Disallow: /paieska?*&*
+
+# Block admin and API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Block test environments
+Disallow: /test/
+Disallow: /staging/
+
+# Sitemap location
+Sitemap: https://ragaujam.lt/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
