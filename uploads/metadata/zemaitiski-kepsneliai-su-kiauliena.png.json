@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"zemaitiski-kepsneliai-su-kiauliena.png\"",
+  "alt-text": "Zemaitiski kepsneliai",
+  "recipe-slug": "zemaitiski-kepsneliai-su-kiauliena",
+  "width": "1200",
+  "height": "800",
+  "keywords": "zemaitiski,kepsneliai,zemaitiski kepsneliai,kepsneliai su lasiniais,kiaulenos kepsneliai,tradiciniai patiekalai,lietuviska virtuve,zemaitiski kepsneliai,kiaulienos kepsneliai,rukyti lasiniai,Kiauliena,Kiausinis",
+  "upload-date": "2025-09-08",
+  "category": "Pagrindinis patiekalas",
+  "cuisine": "Zemaitiska",
+  "description": "Tradiciniai zemaitiski kepsneliai su rukytu lasiniu idaru. Skanus ir sotus patiekalas seimai.",
+  "compressionStats": {
+    "originalSize": 2195990,
+    "compressedSize": 431241,
+    "compressionRatio": 80.4
+  },
+  "uploadedAt": "2025-09-08T13:31:07.320Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/zemaitiski-kepsneliai-su-kiauliena.png"
+}

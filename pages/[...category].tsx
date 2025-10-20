@@ -462,12 +462,12 @@ export default function CategoryPage({
         <title>{category.seo.metaTitle}</title>
         <meta name="description" content={category.seo.metaDescription} />
         <meta name="keywords" content={category.seo.keywords.join(', ')} />
-        <link rel="canonical" href={`https://paragaujam.lt/${category.path}`} />
+        <link rel="canonical" href={`https://ragaujam.lt/${category.path}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={category.seo.metaTitle} />
         <meta property="og:description" content={category.seo.metaDescription} />
-        <meta property="og:url" content={`https://paragaujam.lt/${category.path}`} />
+        <meta property="og:url" content={`https://ragaujam.lt/${category.path}`} />
         <meta property="og:type" content="website" />
 
         {/* Breadcrumb Structured Data */}

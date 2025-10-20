@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"gardzios-troskintos-krevetes.png\"",
+  "alt-text": "Recipe image",
+  "recipe-slug": "gardzios-troskintos-krevetes",
+  "width": "1200",
+  "height": "800",
+  "keywords": "recipe,food,lithuanian",
+  "upload-date": "2025-09-08",
+  "category": "recipe-image",
+  "cuisine": "lithuanian",
+  "description": "Recipe image",
+  "compressionStats": {
+    "originalSize": 1793823,
+    "compressedSize": 505826,
+    "compressionRatio": 71.8
+  },
+  "uploadedAt": "2025-09-08T13:27:49.979Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/gardzios-troskintos-krevetes.png"
+}

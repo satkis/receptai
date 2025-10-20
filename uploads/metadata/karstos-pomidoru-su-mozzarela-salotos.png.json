@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"karstos-pomidoru-su-mozzarela-salotos.png\"",
+  "alt-text": "Karstos pomidoru ir mozzarelos salotos",
+  "recipe-slug": "karstos-pomidoru-su-mozzarela-salotos",
+  "width": "1200",
+  "height": "800",
+  "keywords": "karstos,pomidoru,ir,pomidoru salotos,mozzarela,salotos receptas,uzkandis,salotos,pomidorai,mozzarela,Prinokusiu pomidoru,Mozzarelos surio",
+  "upload-date": "2025-09-08",
+  "category": "Salotos",
+  "cuisine": "Vidurzemio juros",
+  "description": "Vidurzemio regiono uzkandis. Greitas ir lengvas.",
+  "compressionStats": {
+    "originalSize": 2443340,
+    "compressedSize": 439284,
+    "compressionRatio": 82
+  },
+  "uploadedAt": "2025-09-08T13:27:49.861Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/karstos-pomidoru-su-mozzarela-salotos.png"
+}
