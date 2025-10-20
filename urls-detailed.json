@@ -1,0 +1,376 @@
+[
+  {
+    "url": "https://ragaujam.lt/receptai",
+    "type": "homepage",
+    "lastModified": "2025-09-15T13:26:50.954Z",
+    "priority": "highest"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/skryliai-su-aguonomis",
+    "type": "recipe",
+    "lastModified": "2025-09-07T15:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/troskintos-krevetes-su-sviestu-ir-prieskoniais",
+    "type": "recipe",
+    "lastModified": "2025-09-06T15:12:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/iskepti-moliuskai-su-cesnaku",
+    "type": "recipe",
+    "lastModified": "2025-09-06T15:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/karstos-pomidoru-su-mozzarela-salotos",
+    "type": "recipe",
+    "lastModified": "2025-09-06T15:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/meksikietiskas-gvakamole-padazas-su-traskuciais",
+    "type": "recipe",
+    "lastModified": "2025-09-06T15:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/virtinukai-su-mesa-ir-svogunu",
+    "type": "recipe",
+    "lastModified": "2025-09-06T15:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/vistienos-suktinukai-su-sviestu-sluoksniuotoje-tesloje",
+    "type": "recipe",
+    "lastModified": "2025-09-06T15:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/zemaitiski-kepsneliai-su-kiauliena",
+    "type": "recipe",
+    "lastModified": "2025-09-06T15:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/idaryti-baravykai-su-kiauliena-spinatais-ir-cederiu",
+    "type": "recipe",
+    "lastModified": "2025-09-05T15:12:14.460Z",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/kiausiniu-ir-pomidoru-salotos-su-krabais",
+    "type": "recipe",
+    "lastModified": "2025-08-08T16:30:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/skrebuciai-su-krevetemis-ir-sezamu",
+    "type": "recipe",
+    "lastModified": "2025-08-08T15:30:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/skrebuciai-su-ozkos-pieno-surio-aptepu",
+    "type": "recipe",
+    "lastModified": "2025-08-08T15:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/vistiena-zaliajame-padaze-sultinga-ir-aromatinga",
+    "type": "recipe",
+    "lastModified": "2025-08-08T12:07:20+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/smidrai-svieste-su-peletrunu-ir-citrina",
+    "type": "recipe",
+    "lastModified": "2025-08-07T12:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/purus-amerikietiski-blynai",
+    "type": "recipe",
+    "lastModified": "2025-07-14T08:27:55.661Z",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/makaronai-su-spinatais-greitai-ir-skaniai",
+    "type": "recipe",
+    "lastModified": "2025-07-11T12:47:59+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/kapotos-salotos-amerikietiskai",
+    "type": "recipe",
+    "lastModified": "2025-07-11T12:20:54+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/svogunu-sriuba-lengvai-ir-greitai",
+    "type": "recipe",
+    "lastModified": "2025-07-11T12:07:20+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/spageciai-su-pomidoru-alyvuogiu-rukolos-padazu",
+    "type": "recipe",
+    "lastModified": "2025-07-11T11:45:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/erienos-pjausniai-su-artisokais-ir-cesnaku",
+    "type": "recipe",
+    "lastModified": "2025-07-08T18:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/marinuotos-kiaulienos-troskinys-su-bulvemis",
+    "type": "recipe",
+    "lastModified": "2025-07-08T18:00:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/pyragas-su-brokoliais-olandiskas-receptas",
+    "type": "recipe",
+    "lastModified": "2025-07-07T13:30:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/encilados-su-vistiena-meksikietiskas-receptas",
+    "type": "recipe",
+    "lastModified": "2025-07-04T13:30:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/kepta-vistiena-su-anakardziu-riesutais-tailandietiskai",
+    "type": "recipe",
+    "lastModified": "2025-07-03T14:44:29+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/vistiena-su-paprikomis-meksikietiskai",
+    "type": "recipe",
+    "lastModified": "2025-07-03T12:51:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/marokietiska-vistiena-su-medumi",
+    "type": "recipe",
+    "lastModified": "2025-07-03T10:37:04+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/pikantiskas-kijevo-kotletas",
+    "type": "recipe",
+    "lastModified": "2025-07-02T19:20:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/vistiena-su-paprikomis",
+    "type": "recipe",
+    "lastModified": "2025-07-02T19:05:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/traskus-vistienos-sparneliai",
+    "type": "recipe",
+    "lastModified": "2025-07-02T15:45:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptas/portugaliska-vistiena-su-paprikomis",
+    "type": "recipe",
+    "lastModified": "2025-07-02T13:45:00+03:00",
+    "priority": "high"
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/pietus",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "high",
+    "recipeCount": 14
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/seimai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "high",
+    "recipeCount": 15
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/vakariene",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "high",
+    "recipeCount": 21
+  },
+  {
+    "url": "https://ragaujam.lt/paieska",
+    "type": "search",
+    "lastModified": "2025-09-15T13:26:50.954Z",
+    "priority": "medium"
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/garnyrai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/kepsniai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 2
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/pusryciai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/salotos",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 3
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/sriubos",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/troskiniai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 4
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/uzkandziai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 7
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/darzoves",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/grybai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/juros-gerybes",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 2
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/kiauliena",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/makaronai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 2
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/miltiniai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/varske",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/vistiena",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 9
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/kepta-keptuveje",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 4
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/kepta-orkaiteje",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 3
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/gimtadienio-stalui",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/seimos-pietums",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 4
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/ziemai",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 1
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/greitai-pagaminami",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 5
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/lengvai-pagaminami",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 2
+  },
+  {
+    "url": "https://ragaujam.lt/receptai/pietus-i-darba",
+    "type": "category",
+    "lastModified": "2025-06-25T12:00:00.000Z",
+    "priority": "medium",
+    "recipeCount": 2
+  }
+]

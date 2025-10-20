@@ -49,6 +49,12 @@ Disallow: /*?filter=*
 Disallow: /*?page=*
 Disallow: /*?sort=*
 
+# Disallow query parameter variations to prevent duplicate indexing
+Disallow: /receptas/*?from=*
+Disallow: /receptai/*?filter=*
+Disallow: /receptai/*?page=*
+Disallow: /paieska?*&*
+
 # Disallow duplicate content
 Disallow: /*?utm_*
 Disallow: /*?ref=*
