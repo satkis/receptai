@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": ["ragaujam.lt"],
+
   "github": {
     "autoAlias": false
   },
@@ -46,14 +46,14 @@
       "permanent": true
     },
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "www.ragaujam.lt"
         }
       ],
-      "destination": "https://ragaujam.lt/$1",
+      "destination": "https://ragaujam.lt/:path*",
       "permanent": true
     }
   ]
