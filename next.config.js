@@ -2,12 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // Internationalization - Lithuanian focus
-  i18n: {
-    locales: ['lt'],
-    defaultLocale: 'lt',
-    localeDetection: false,
-  },
+  // Internationalization - DISABLED
+  // i18n routing is NOT needed since we only support Lithuanian
+  // Enabling i18n causes automatic /lt/ prefix which breaks redirects
+  // i18n: {
+  //   locales: ['lt'],
+  //   defaultLocale: 'lt',
+  //   localeDetection: false,
+  // },
 
   // Image optimization for recipe photos and static assets
   images: {
