@@ -56,7 +56,11 @@ export default function WikibooksDisclaimer({
             href={userPageUrl}
             target="_blank"
             rel="noopener noreferrer"
+<<<<<<< HEAD
             className="text-blue-600 underline hover:text-blue-800"
+=======
+            className="text-gray-500 hover:text-gray-700"
+>>>>>>> develop
           >
             Nuotraukos autorius
           </a>
@@ -76,7 +80,11 @@ export default function WikibooksDisclaimer({
               href={userPageUrl}
               target="_blank"
               rel="noopener noreferrer"
+<<<<<<< HEAD
               className="text-blue-600 underline hover:text-blue-800"
+=======
+              className="text-gray-500 hover:text-gray-700"
+>>>>>>> develop
             >
               (profilis)
             </a>
@@ -98,7 +106,19 @@ export default function WikibooksDisclaimer({
         {/* Recipe author and contributors */}
         {originalSource.originalCreator && (
           <p>
+<<<<<<< HEAD
             Recepto autorius: {originalSource.originalCreator.name}
+=======
+            Recepto autorius:{' '}
+            <a
+              href={originalSource.originalCreator.userPageUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-gray-700"
+            >
+              {originalSource.originalCreator.name}
+            </a>
+>>>>>>> develop
             {originalSource.contributorsUrl && (
               <>
                 {' '}
@@ -107,7 +127,11 @@ export default function WikibooksDisclaimer({
                   href={originalSource.contributorsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+<<<<<<< HEAD
                   className="text-blue-600 underline hover:text-blue-800"
+=======
+                  className="text-gray-500 hover:text-gray-700"
+>>>>>>> develop
                 >
                   bendraautoriai
                 </a>
@@ -124,7 +148,11 @@ export default function WikibooksDisclaimer({
               href={originalSource.url}
               target="_blank"
               rel="noopener noreferrer"
+<<<<<<< HEAD
               className="text-blue-600 underline hover:text-blue-800"
+=======
+              className="text-gray-500 hover:text-gray-700"
+>>>>>>> develop
             >
               Wikibooks
             </a>
@@ -139,7 +167,11 @@ export default function WikibooksDisclaimer({
             href={originalSource.licenseUrl}
             target="_blank"
             rel="noopener noreferrer"
+<<<<<<< HEAD
             className="text-blue-600 underline hover:text-blue-800"
+=======
+            className="text-gray-500 hover:text-gray-700"
+>>>>>>> develop
           >
             {originalSource.licenseUrl}
           </a>
@@ -150,6 +182,7 @@ export default function WikibooksDisclaimer({
         {/* Image attribution */}
         {originalImage && (
           <>
+<<<<<<< HEAD
             <p>
               Nuotrauka: {renderAuthorName(originalImage.author?.name, originalImage.author?.userPageUrl)}
             </p>
@@ -157,10 +190,31 @@ export default function WikibooksDisclaimer({
             {originalImage.wikimediaCommonsUrl && (
               <p>
                 Šaltinis: Wikimedia Commons (
+=======
+            {/* Only show "Nuotrauka:" line if author name is <= 50 chars */}
+            {originalImage.author?.name && originalImage.author.name.length <= 50 && (
+              <p>
+                Nuotrauka: {renderAuthorName(originalImage.author?.name, originalImage.author?.userPageUrl)}
+              </p>
+            )}
+
+            {/* If author name > 50 chars, show only the clickable link without "Nuotrauka:" prefix */}
+            {originalImage.author?.name && originalImage.author.name.length > 50 && (
+              <p>
+                {renderAuthorName(originalImage.author?.name, originalImage.author?.userPageUrl)}
+              </p>
+            )}
+
+            {/* Wikimedia Commons source - URL behind the text */}
+            {originalImage.wikimediaCommonsUrl && (
+              <p>
+                Šaltinis:{' '}
+>>>>>>> develop
                 <a
                   href={originalImage.wikimediaCommonsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+<<<<<<< HEAD
                   className="text-blue-600 underline hover:text-blue-800"
                 >
                   {originalImage.wikimediaCommonsUrl}
@@ -184,24 +238,63 @@ export default function WikibooksDisclaimer({
                       {originalImage.license.url}
                     </a>
                   </>
+=======
+                  className="text-gray-500 hover:text-gray-700"
+                >
+                  Wikimedia Commons
+                </a>
+              </p>
+            )}
+
+            {/* License - URL behind the license name */}
+            {originalImage.license && (
+              <p>
+                Licencija:{' '}
+                {originalImage.license.url ? (
+                  <a
+                    href={originalImage.license.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-500 hover:text-gray-700"
+                  >
+                    {originalImage.license.shortName}
+                  </a>
+                ) : (
+                  originalImage.license.shortName
+>>>>>>> develop
                 )}
               </p>
             )}
 
+<<<<<<< HEAD
             <p>Nuotrauka buvo optimizuota (suspausti dydis, konvertavimas į WebP/AVIF formatą).</p>
+=======
+            {/* Image optimization note */}
+            <p>Nuotrauka dydis buvo optimizuotas bei konvertuotas formatas.</p>
+>>>>>>> develop
           </>
         )}
 
         {/* Additional info link */}
         <p>
+<<<<<<< HEAD
           Daugiau informacijos:{' '}
+=======
+          Daugiau informacijos{' '}
+>>>>>>> develop
           <a
             href="https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use"
             target="_blank"
             rel="noopener noreferrer"
+<<<<<<< HEAD
             className="text-blue-600 underline hover:text-blue-800"
           >
             https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
+=======
+            className="text-gray-500 hover:text-gray-700"
+          >
+            čia
+>>>>>>> develop
           </a>
         </p>
       </div>
