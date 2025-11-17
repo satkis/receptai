@@ -6,21 +6,24 @@ export function generateEnhancedRecipeSchema(recipe: CurrentRecipe) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
 
   // Enhanced recipe schema with all Google-recommended fields
-  const enhancedSchema = {
+  const enhancedSchema: any = {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
 
     // REQUIRED FIELDS
     name: recipe.title.lt,
-    image: {
-      '@type': 'ImageObject',
-      url: recipe.image.src,
-      width: recipe.image.width,
-      height: recipe.image.height,
-      caption: recipe.image.alt,
-      inLanguage: 'lt',
-      representativeOfPage: true
-    },
+    // Only include image if src exists and is not empty
+    ...(recipe.image?.src && recipe.image.src.trim() !== '' && {
+      image: {
+        '@type': 'ImageObject',
+        url: recipe.image.src,
+        width: recipe.image.width,
+        height: recipe.image.height,
+        caption: recipe.image.alt,
+        inLanguage: 'lt',
+        representativeOfPage: true
+      }
+    }),
 
     // CRITICAL FOR RICH SNIPPETS
     author: {

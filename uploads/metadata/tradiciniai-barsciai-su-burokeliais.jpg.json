@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"tradiciniai-barsciai-su-burokeliais.jpg\"",
+  "alt-text": "Tradiciniai barsciai su burokeliais ir darzovemis",
+  "recipe-slug": "tradiciniai-barsciai-su-burokeliais",
+  "width": "1200",
+  "height": "800",
+  "keywords": "tradiciniai,barsciai,su,barsciai,burokeliu sriuba,vegetariska sriuba,rytu europos virtuve,sotus pietus,tradiciniai barsciai,burokeliu sriuba,ukrainietiska virtuve,Plonai supjaustytos bulves,Plonai supjaustyti burokeliai",
+  "upload-date": "2025-11-09",
+  "category": "Sriubos",
+  "cuisine": "Ukrainieciu",
+  "description": "Barsciai - tai soti ir maistinga burokeliu darzoviu sriuba, kilusi is Ukrainos, bet tapusi daugelio Rytu ir Centrines Europos saliu kulinarijos paveldo dalimi. Sis receptas pades jums paruosti tirstus...",
+  "compressionStats": {
+    "originalSize": 237273,
+    "compressedSize": 102368,
+    "compressionRatio": 56.9
+  },
+  "uploadedAt": "2025-11-09T17:11:26.373Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/tradiciniai-barsciai-su-burokeliais.jpg"
+}

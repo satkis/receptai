@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"tradicinis-kopustu-kimci-baechu-kimchi.jpg\"",
+  "alt-text": "Tradicinis kopustu Kimci (Baechoo Kimchi)",
+  "recipe-slug": "tradicinis-kopustu-kimci-baechu-kimchi",
+  "width": "1200",
+  "height": "800",
+  "keywords": "tradicinis,kopustu,kimci,kimci,korejietiskas kimci,kopustu kimci,baechoo kimchi,fermentuotos darzoves,kimci receptas,korejos maistas,fermentacija,Pekino kopustas (baechu),Juros druska (arba stambi druska) surymui",
+  "upload-date": "2025-11-09",
+  "category": "Garnyrai",
+  "cuisine": "Korejieciu",
+  "description": "Kimci (Kimchi, ) yra populiarus korejieciu raugintu darzoviu patiekalas, dazniausiai gaminamas is Pekino kopustu ir patiekiamas kaip garnyras. Jis fermentuojamas suryme su anciuviu padazu, imbieru, ...",
+  "compressionStats": {
+    "originalSize": 1329799,
+    "compressedSize": 127614,
+    "compressionRatio": 90.4
+  },
+  "uploadedAt": "2025-11-09T17:11:26.389Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/tradicinis-kopustu-kimci-baechu-kimchi.jpg"
+}
