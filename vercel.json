@@ -39,17 +39,5 @@
       ]
     }
   ],
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.ragaujam.lt"
-        }
-      ],
-      "destination": "https://ragaujam.lt/:path*",
-      "permanent": true
-    }
-  ]
+  "redirects": []
 }
