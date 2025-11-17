@@ -141,17 +141,16 @@ export default function WikibooksDisclaimer({
 
         {/* License information */}
         <p>
-          Turinys licencijuotas pagal Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)
-          licenciją{' '}
+          Turinys licencijuotas pagal{' '}
           <a
             href={originalSource.licenseUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-700"
           >
-            {originalSource.licenseUrl}
+            Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)
           </a>
-          . Naudojant šį turinį, būtina nurodyti autorių, pateikti nuorodą į licenciją ir
+          {' '}licenciją. Naudojant šį turinį, būtina nurodyti autorių, pateikti nuorodą į licenciją ir
           laikytis jos reikalavimų.
         </p>
 
