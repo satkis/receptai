@@ -2,12 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // Internationalization - Lithuanian focus
-  i18n: {
-    locales: ['lt'],
-    defaultLocale: 'lt',
-    localeDetection: false,
-  },
+  // Internationalization - DISABLED
+  // i18n routing is NOT needed since we only support Lithuanian
+  // Enabling i18n causes automatic /lt/ prefix which breaks redirects
+  // i18n: {
+  //   locales: ['lt'],
+  //   defaultLocale: 'lt',
+  //   localeDetection: false,
+  // },
 
   // Image optimization for recipe photos and static assets
   images: {
@@ -54,17 +56,14 @@ const nextConfig = {
 
   // SWC minification is enabled by default in Next.js 15+
 
-  // Redirects are handled in vercel.json for production
-  // and in next.config.js for local development
+  // Redirects - Server-side, no performance impact
   async redirects() {
     return [
-      // Redirects handled by Vercel in production (vercel.json)
-      // For local development, uncomment if needed:
-      // {
-      //   source: '/',
-      //   destination: '/receptai',
-      //   permanent: true,
-      // },
+      {
+        source: '/',
+        destination: '/receptai',
+        permanent: false, // 307 temporary redirect to avoid browser caching issues
+      },
     ];
   },
 
