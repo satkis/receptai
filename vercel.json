@@ -43,11 +43,6 @@
   ],
   "redirects": [
     {
-      "source": "/",
-      "destination": "/receptai",
-      "permanent": true
-    },
-    {
       "source": "/(.*)",
       "has": [
         {
