@@ -41,19 +41,14 @@
   ],
   "redirects": [
     {
-      "source": "/",
-      "destination": "/receptai",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "www.ragaujam.lt"
         }
       ],
-      "destination": "https://ragaujam.lt/:path*",
+      "destination": "https://ragaujam.lt/$1",
       "permanent": true
     }
   ]

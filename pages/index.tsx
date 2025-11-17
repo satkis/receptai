@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { GetStaticProps } from 'next';
 
 interface HomeProps {
   totalRecipes: number;
@@ -16,11 +17,11 @@ export default function Home({ totalRecipes }: HomeProps) {
         <link rel="canonical" href="https://ragaujam.lt/" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Paragaujam.lt - Geriausi lietuviški receptai" />
+        <meta property="og:title" content="Ragaujam.lt - Geriausi lietuviški receptai" />
         <meta property="og:description" content="Atraskite geriausius lietuviškus receptus su nuotraukomis ir detaliais aprašymais." />
-        <meta property="og:url" content="https://paragaujam.lt/" />
+        <meta property="og:url" content="https://ragaujam.lt/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://paragaujam.lt/images/og-image.jpg" />
+        <meta property="og:image" content="https://ragaujam.lt/images/og-image.jpg" />
 
         {/* SearchAction Structured Data */}
         <script
@@ -189,17 +190,7 @@ export default function Home({ totalRecipes }: HomeProps) {
   );
 }
 
-// Option 2: Server-side redirect (uncomment if you want to use this instead of next.config.js)
-// export async function getServerSideProps() {
-//   return {
-//     redirect: {
-//       destination: '/receptai',
-//       permanent: true, // 301 redirect
-//     },
-//   };
-// }
-
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       totalRecipes: 100,
