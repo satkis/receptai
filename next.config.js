@@ -62,7 +62,7 @@ const nextConfig = {
       {
         source: '/',
         destination: '/receptai',
-        permanent: true, // 301 redirect for SEO
+        permanent: false, // 307 temporary redirect to avoid browser caching issues
       },
     ];
   },
