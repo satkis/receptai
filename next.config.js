@@ -54,14 +54,17 @@ const nextConfig = {
 
   // SWC minification is enabled by default in Next.js 15+
 
-  // Redirects - Server-side, no performance impact
+  // Redirects are handled in vercel.json for production
+  // and in next.config.js for local development
   async redirects() {
     return [
-      {
-        source: '/',
-        destination: '/receptai',
-        permanent: true, // 301 redirect for SEO
-      },
+      // Redirects handled by Vercel in production (vercel.json)
+      // For local development, uncomment if needed:
+      // {
+      //   source: '/',
+      //   destination: '/receptai',
+      //   permanent: true,
+      // },
     ];
   },
 
