@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/png",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"Jemeno-sluoksniuotas-pyragas.png\"",
+  "alt-text": "Recipe image",
+  "recipe-slug": "jemeno-sluoksniuotas-pyragas",
+  "width": "1200",
+  "height": "800",
+  "keywords": "recipe,food,lithuanian",
+  "upload-date": "2025-11-09",
+  "category": "recipe-image",
+  "cuisine": "lithuanian",
+  "description": "Recipe image",
+  "compressionStats": {
+    "originalSize": 648014,
+    "compressedSize": 344596,
+    "compressionRatio": 46.8
+  },
+  "uploadedAt": "2025-11-09T17:17:43.202Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/Jemeno-sluoksniuotas-pyragas.png"
+}

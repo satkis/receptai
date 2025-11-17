@@ -1,0 +1,110 @@
+{
+  "slug": "alziriskas-kuskusas-su-mesa-ir-darzovemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/alziriskas-kuskusas-su-mesa-ir-darzovemis",
+  "title": { "lt": "Alžyriškas kuskusas su mėsa ir daržovėmis" },
+  "description": { "lt": "Tradicinis alžyriškas kuskusas – purus kuskusas patiekiamas su ilgai troškinta mėsa, morkomis, bulvėmis, moliūgu ir avinžirniais. Aromatingas prieskonių mišinys (kuminas, koriandras, paprika) suteikia ryškų skonį. Puikus savaitgalio šeimos pietums." },
+  "seo": {
+    "metaTitle": "Alžyriškas kuskusas su mėsa ir daržovėmis | Tradicinis troškinys",
+    "metaDescription": "Alžyriškas kuskusas su troškinta mėsa, morkomis, bulvėmis ir avinžirniais. Purus kuskusas ir aromatingas prieskonių padažas – tradicinis patiekalas šeimai.",
+    "keywords": ["alžyriškas kuskusas", "kuskusas su mėsa", "kuskusas su daržovėmis", "alžyriški receptai", "tradicinis kuskusas"],
+    "recipeCategory": "Troškiniai",
+    "recipeCuisine": "Alžyriška",
+    "aggregateRating": {
+      "ratingValue": 4.8,
+      "reviewCount": 9,
+      "bestRating": 5,
+      "worstRating": 1
+    },
+    "nutrition": {
+      "calories": 774,
+      "proteinContent": "38g",
+      "fatContent": "28g",
+      "fiberContent": "11g"
+    }
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 150,
+  "totalTimeMinutes": 180,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "sunkus",
+  "primaryCategoryPath": "receptai/troskiniai",
+  "secondaryCategories": ["receptai/pietūs", "receptai/seimai"],
+  "ingredients": [
+    { "name": { "lt": "Kuskusas (smulkus arba vidutinis)" }, "quantity": "500g", "vital": true },
+    { "name": { "lt": "Alyvuogių aliejus" }, "quantity": "4 šaukštai", "vital": true },
+    { "name": { "lt": "Šiltas vanduo" }, "quantity": "500ml", "vital": true },
+    { "name": { "lt": "Vanduo su druska" }, "quantity": "250ml", "vital": true },
+    { "name": { "lt": "Veršiena arba avių mėsa" }, "quantity": "500g", "vital": true },
+    { "name": { "lt": "Svogūnai" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Česnakas" }, "quantity": "3 skiltelės", "vital": true },
+    { "name": { "lt": "Pomidorų pasta" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Kuminas" }, "quantity": "1 arbatinis šaukštelis", "vital": true },
+    { "name": { "lt": "Koriandras" }, "quantity": "1 arbatinis šaukštelis", "vital": true },
+    { "name": { "lt": "Paprika" }, "quantity": "1 arbatinis šaukštelis", "vital": true },
+    { "name": { "lt": "Ciberžolė" }, "quantity": "0.5 arbatinio šaukštelio", "vital": false },
+    { "name": { "lt": "Cinamonas" }, "quantity": "0.5 arbatinio šaukštelio", "vital": false },
+    { "name": { "lt": "Vanduo arba sultinys" }, "quantity": "1.5 l", "vital": true },
+    { "name": { "lt": "Druska ir pipirai" }, "quantity": "pagal skonį", "vital": true },
+    { "name": { "lt": "Morkos" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Cukinija" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Bulvės" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Ropė" }, "quantity": "1 vnt.", "vital": true },
+    { "name": { "lt": "Moliūgas" }, "quantity": "1 puodelis", "vital": false },
+    { "name": { "lt": "Virtos avinžirnės" }, "quantity": "1 puodelis", "vital": true },
+    { "name": { "lt": "Žalioji paprika" }, "quantity": "1 vnt.", "vital": false }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    { "step": 1, "name": { "lt": "Kuskuso drėkinimas" }, "text": { "lt": "Į didelį dubenį sudėkite kuskusą, užpilkite apie 2 šaukštus alyvuogių aliejaus ir truputį druskos. Minkykite grūdus rankomis, kad jie tolygiai pasidengtų aliejumi, tada palaipsniui pilkite šiltą vandenį ir pamaišykite. Palikite 10 minučių, kad sugertų drėgmę." },
+    { "step": 2, "name": { "lt": "Pirmasis garinimas" }, "text": { "lt": "Perkelkite kuskusą į kuskuso garintuvą arba smulkų sietelį ir garinkite virš verdančio vandens 20 minučių. Kas 10 minučių purenkite šakute, kad nesusidarytų gumulų." },
+    { "step": 3, "name": { "lt": "Paruošimas po pirmo garinimo" }, "text": { "lt": "Po pirmojo garinimo perkelkite kuskusą atgal į didelį dubenį. Palaipsniui pabarstykite kuskusą sūriu vandenimi ir rankomis arba šakute švelniai išskirstykite gumulus. Palikite atvėsti 10–15 minučių." },
+    { "step": 4, "name": { "lt": "Mėsos apkepinimas" }, "text": { "lt": "Dideliame puode įkaitinkite likusį alyvuogių aliejų ir apkepinkite mėsos gabalėlius iki auksinės rudos spalvos. Išimkite mėsą ir atidėkite į šoną. Tai suteiks troškiniui gilų skonį." },
+    { "step": 5, "name": { "lt": "Svogūnai ir česnakai" }, "text": { "lt": "Tame pačiame puode pakepinkite smulkintus svogūnus ir česnaką, kol suminkštės ir pagels. Įmaišykite pomidorų pastą ir prieskonius (kuminas, koriandras, paprika, ciberžolė, cinamonas) ir kepkite 2–3 minutes, kad atsilaisvintų aromatai." },
+    { "step": 6, "name": { "lt": "Troškinimo pradžia" }, "text": { "lt": "Grąžinkite keptą mėsą į puodą, užpilkite vandenį arba sultinį (apie 1,5 l), pagardinkite druska ir pipirais. Užvirinkite, tada sumažinkite ugnį, uždenkite ir palikite troškintis apie 1 valandą, kol mėsa suminkštės." },
+    { "step": 7, "name": { "lt": "Antrasis garinimas" }, "text": { "lt": "Kol mėsa troškinasi, dėkite kuskusą atgal į garintuvą ir garinkite dar 20 minučių. Kas 10 minučių purenkite šakute, kad kuskusas būtų purus ir atskirtų grūdus." },
+    { "step": 8, "name": { "lt": "Kietų daržovių pridėjimas" }, "text": { "lt": "Kai mėsa troškinta apie 30 minučių, į puodą įdėkite morkas, ropę ir bulves. Toliau troškinkite dar apie 15 minučių, kol daržovės pradės minkštėti." },
+    { "step": 9, "name": { "lt": "Silpnesnių daržovių pridėjimas" }, "text": { "lt": "Po to įdėkite cukinijas, moliūgą ir virtas avinžirnes, taip pat žaliosios paprikos gabalėlius. Troškinkite dar 15–20 minučių, kol visos daržovės bus minkštos." },
+    { "step": 10, "name": { "lt": "Kuskuso paruošimas patiekimui" }, "text": { "lt": "Kai kuskusas baigtas antrą kartą garinti, perkelkite jį į didelį lėkštę ar dubenį. Užpilkite porą samtelių troškinio sultinio ant kuskuso ir švelniai purenkite šakute, kad grūdai atsiskirtų ir būtų drėgni." },
+    { "step": 11, "name": { "lt": "Patiekimas" }, "text": { "lt": "Ant didelės padėklos sudėkite kuskusą, ant viršaus gražiai išdėliokite troškintą mėsą ir daržoves. Užpilkite likusį sultinį ant viso patiekalo, kad skoniai susijungtų." }
+  ],
+  "notes": [
+    { "text": { "lt": "Kuskusui suteikite du garinimus: pirmas sutvirtina, antras padaro jį purus." }, "priority": 1 },
+    { "text": { "lt": "Naudokite sultinį vietoje vandens, jei norite intensyvesnio skonio." }, "priority": 2 },
+    { "text": { "lt": "Galite pakeisti mėsą pagal skonį: aviena suteiks autentiškumo, vištiena bus lengvesnė." }, "priority": 3 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/alziriskas-kuskusas-su-mesa-ir-darzovemis.jpg",
+    "alt": "Alžyriškas kuskusas su troškinta mėsa ir daržovėmis",
+    "width": 2448,
+    "height": 3264
+  },
+  "tags": ["alžyriškas kuskusas", "kuskusas su mėsa", "viduržemio virtuvė", "troškinys", "šeimos pietūs"],
+  "author": {
+    "name": "SvnnyBvnny",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Couscous_with_Meat_and_Vegetables",
+    "pageTitle": "Cookbook:Algerian_Couscous_with_Meat_and_Vegetables",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-10-27T12:59:48.956Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlgerian_Couscous_with_Meat_and_Vegetables&action=history"
+  },
+  "originalImage": {
+    "author": { "name": "Yasmine ziat", "userPageUrl": "https://commons.wikimedia.org/wiki/User:Yasmineziat" },
+    "license": { "code": "cc-by-sa-4.0", "shortName": "CC BY-SA 4.0", "fullName": "Creative Commons Attribution-Share Alike 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/" },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-06T18:00:00+03:00",
+  "createdAt": "2025-11-06T18:00:00+03:00",
+  "updatedAt": "2025-11-06T18:00:00+03:00"
+}
+

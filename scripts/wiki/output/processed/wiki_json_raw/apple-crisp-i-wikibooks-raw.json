@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Apple_Crisp_I",
+    "pageTitle": "Cookbook:Apple_Crisp_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AApple_Crisp_I&action=history",
+    "extractedAt": "2025-11-09T16:56:23.314Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Apple Crisp I",
+    "slug": "apple-crisp-i",
+    "description": "Apple crisp is a dessert made up of a baked apple filling and a crispy crumb topping. It is similar to cobbler, which has a biscuit-like (USA biscuit that is) or cake-like topping. It is also similar to a crumble, and the terms 'crisp' and 'crumble' may occasionally be used interchangeably. According to some traditions, crisp toppings are more likely to contain oats and/or nuts, while crumbles typically do not contain these ingredients. Cool room temperature is required to create a nice crisp topping. To serve apple crisp, spoon it into a bowl and, optionally, add vanilla ice cream. It also goes well with a glass of milk.",
+    "ingredients": [
+      "6 cups sliced and cored baking apples (for example, Granny Smith)",
+      "½ cup (100 g) all-purpose flour",
+      "½ cup (100 g) rolled oats",
+      "¾ teaspoon (3 g) cinnamon",
+      "⅓ cup (75 g) cold butter or cold margarine",
+      "⅔–¾ cup (120–150 g) brown sugar"
+    ],
+    "instructions": [
+      "In a medium bowl stir together flour, brown sugar, and oatmeal. If the room temperature is a bit warm, you should cool this mixture in the fridge.",
+      "Prepare the apples. This should be completed before mixing butter into the topping. It is helpful to choose apples that do not brown quickly; Granny Smith apples are a good choice. Do not use Red Delicious apples; they turn to mush. Place the apples into a 9-inch (23 cm) square baking dish; glass is best.",
+      "Add the butter or margarine to the topping. Mix it via a slicing action, so that the butter or margarine forms tiny little chunks and does not melt or smear. A pair of butter knives, used like scissors, is good for this. You must work quickly once you start this step.",
+      "Sprinkle the topping onto the apples. You may pat it down just a bit.",
+      "Bake for about 30 minutes in a 375 °F (190°C) oven. Do not remove the crisp before the top is dark brown. Black spots indicate burning. It is better to burn a few small spots, which you can then remove, than to risk undercooking the topping."
+    ],
+    "notes": [
+      "Any type of apple may be used, baking or sweet, or a mixture of types.",
+      "Cooked apple dishes are a good use for substandard apples, e.g. damaged, wrinkled & windfall.",
+      "Crisps can be made with most any sort of fruit. Pineapple is a good choice.",
+      "Some fruits, especially peaches, go better in a cobbler.",
+      "Raisins can be added to the apples at the beginning, and ½ teaspoon of powdered ginger, or a sprinkling of nutmeg can also be put in.",
+      "Mixed spice is a perfect addition to apple dishes. This is more popular in Britain than the US."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using apple",
+      "Recipes using oat",
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Vegetarian recipes",
+      "Kosher recipes",
+      "Recipes for dessert",
+      "Recipes using brown sugar",
+      "Recipes using butter",
+      "Recipes using ground cinnamon",
+      "Recipes using all-purpose flour",
+      "Recipes using margarine"
+    ]
+  },
+  "image": {
+    "filename": "Apple-crisp.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Apple-crisp.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple-crisp.jpg",
+    "localPath": "scripts/wiki/output/Apple-crisp.jpg",
+    "dimensions": {
+      "width": 1411,
+      "height": 1058
+    },
+    "fileSize": 309545,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "No machine-readable author provided. Disposable12345 assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:GrammarEnthusiast"
+    },
+    "metadata": {
+      "description": "Apple crisp for wiki cooking",
+      "categories": [
+        "GFDL",
+        "Files with no machine-readable source",
+        "License migration redundant",
+        "Apple crisps",
+        "Self-published work",
+        "Assumed own work",
+        "Glass casseroles",
+        "Oatmeal cakes"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Apple-crisp.jpg"
+  }
+}
