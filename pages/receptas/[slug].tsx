@@ -11,6 +11,7 @@ import { RecipePerformanceOptimizer } from '../../components/PerformanceOptimize
 
 import Breadcrumb, { generateRecipeBreadcrumbs } from '../../components/navigation/Breadcrumb';
 import StarRating from '../../components/StarRating';
+import WikibooksDisclaimer from '../../components/recipe/WikibooksDisclaimer';
 import { generateEnhancedRecipeSchema } from '../../utils/enhanced-recipe-schema';
 import { getRecipeCanonicalUrl } from '../../utils/canonical-urls';
 
@@ -118,6 +119,36 @@ interface Recipe {
   // Schema.org
   schemaOrg?: any;
 
+  // Wikibooks Attribution & Compliance (CC BY-SA 4.0)
+  originalSource?: {
+    platform: 'Wikibooks';
+    url: string;
+    pageTitle: string;
+    license: 'CC BY-SA 4.0';
+    licenseUrl: string;
+    originalCreator?: {
+      name: string;
+      userPageUrl: string;
+    };
+    contributorsUrl?: string;
+    extractedAt?: string | Date;
+  } | null;
+
+  // Image Attribution for Wikibooks Images
+  originalImage?: {
+    author?: {
+      name: string;
+      userPageUrl: string;
+    };
+    license?: {
+      code: string;
+      shortName: string;
+      fullName: string;
+      url: string;
+    };
+    wikimediaCommonsUrl?: string;
+  } | null;
+
   createdAt: string;
   publishedAt: string;
   updatedAt: string;
@@ -157,20 +188,35 @@ function TagList({ tags }: { tags: string[] }) {
 
 // Recipe Header Component - Fixed layout to prevent content hiding
 function RecipeHeader({ recipe }: { recipe: Recipe }) {
+  // Get image source safely
+  const imageSrc = typeof recipe.image === 'string' ? recipe.image : recipe.image?.src;
+  const hasValidImage = imageSrc && imageSrc.trim() !== '';
+
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-8 flex flex-col">
-      {/* Image Section - Fixed height container */}
-      <div className="relative w-full h-64 md:h-80 flex-shrink-0 overflow-hidden">
-        <Image
-          src={typeof recipe.image === 'string' ? recipe.image : recipe.image.src}
-          alt={typeof recipe.image === 'string' ? recipe.title.lt : recipe.image.alt}
-          fill
-          className="object-cover"
-          priority
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1000px"
-          quality={85}
-        />
-      </div>
+      {/* Image Section - Only show if valid image exists */}
+      {hasValidImage ? (
+        <div className="relative w-full h-64 md:h-80 flex-shrink-0 overflow-hidden">
+          <Image
+            src={imageSrc}
+            alt={typeof recipe.image === 'string' ? recipe.title.lt : recipe.image.alt}
+            fill
+            className="object-cover"
+            priority
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1000px"
+            quality={85}
+          />
+        </div>
+      ) : (
+        <div className="relative w-full h-64 md:h-80 flex-shrink-0 overflow-hidden bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center">
+          <div className="text-center text-orange-600">
+            <svg className="w-24 h-24 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <p className="text-sm font-medium">Nuotrauka neįkelta</p>
+          </div>
+        </div>
+      )}
 
       {/* Content Section - Separate container */}
       <div className="p-6 bg-white flex-1">
@@ -502,7 +548,12 @@ export default function RecipePage({ recipe }: RecipePageProps) {
         {/* Open Graph */}
         <meta property="og:title" content={recipe.title.lt} />
         <meta property="og:description" content={recipe.seo?.metaDescription || recipe.description.lt} />
-        <meta property="og:image" content={typeof recipe.image === 'string' ? recipe.image : recipe.image.src} />
+        {(() => {
+          const imageSrc = typeof recipe.image === 'string' ? recipe.image : recipe.image?.src;
+          return imageSrc && imageSrc.trim() !== '' ? (
+            <meta property="og:image" content={imageSrc} />
+          ) : null;
+        })()}
         <meta property="og:type" content="article" />
         <meta property="og:url" content={getRecipeCanonicalUrl(recipe.slug)} />
 
@@ -510,7 +561,12 @@ export default function RecipePage({ recipe }: RecipePageProps) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={recipe.title.lt} />
         <meta name="twitter:description" content={recipe.seo?.metaDescription || recipe.description.lt} />
-        <meta name="twitter:image" content={typeof recipe.image === 'string' ? recipe.image : recipe.image.src} />
+        {(() => {
+          const imageSrc = typeof recipe.image === 'string' ? recipe.image : recipe.image?.src;
+          return imageSrc && imageSrc.trim() !== '' ? (
+            <meta name="twitter:image" content={imageSrc} />
+          ) : null;
+        })()}
       </Head>
 
       {/* Enhanced Recipe Schema */}
@@ -556,6 +612,12 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 
         {/* Tags */}
         <TagList tags={recipe.tags} />
+
+        {/* Wikibooks Disclaimer - Only shown for Wikibooks recipes */}
+        <WikibooksDisclaimer
+          originalSource={recipe.originalSource}
+          originalImage={recipe.originalImage}
+        />
 
         {/* Related Recipes section removed as requested */}
       </div>

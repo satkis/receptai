@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"kalakutu-suktinukai-tortilijose.jpg\"",
+  "alt-text": "Kalakutienos suktinukai tortilijose",
+  "recipe-slug": "kalakutu-suktinukai-tortilijose",
+  "width": "1200",
+  "height": "800",
+  "keywords": "kalakutienos,suktinukai,tortilijose,kalakutiena,tortilija,suktinukai su kalakutiena,receptai su alyvuogemis,pomidoru padazas,kalakutiena,tortilija,suktinukai,Dideles kvietines tortilijos,Pomidoru tyre",
+  "upload-date": "2025-11-09",
+  "category": "Pietus",
+  "cuisine": "Tarptautine",
+  "description": "Skani ir paprasta kalakutienos suktinuku tortilijose receptura. Galima naudoti ir vistiena, sumaisyti su pomidoru tyre bei alyvuogemis, gaunasi sotus ir gardus patiekalas pusryciams ar pietums.",
+  "compressionStats": {
+    "originalSize": 74815,
+    "compressedSize": 24378,
+    "compressionRatio": 67.4
+  },
+  "uploadedAt": "2025-11-09T16:50:46.127Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kalakutu-suktinukai-tortilijose.jpg"
+}

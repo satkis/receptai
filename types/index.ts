@@ -279,6 +279,33 @@ export interface CurrentRecipe {
   featured: boolean;
   trending: boolean;
 
+  // Wikibooks Attribution & Compliance (CC BY-SA 4.0)
+  originalSource?: {
+    platform: "Wikibooks";
+    url: string;                    // Original recipe URL
+    pageTitle: string;              // e.g., "Cookbook:Tarta_de_Santiago"
+    license: "CC BY-SA 4.0";
+    licenseUrl: string;             // https://creativecommons.org/licenses/by-sa/4.0/
+    datePublished: Date | string;   // Original publication date on Wikibooks
+    extractedAt: Date | string;     // When recipe was extracted
+    contributorsUrl?: string;       // Link to revision history
+  } | null;
+
+  // Image Attribution for Wikibooks Images (may have different license than recipe)
+  originalImage?: {
+    author: {
+      name: string;                 // Image author name
+      userPageUrl: string;          // Link to Wikimedia Commons user page
+    };
+    license: {
+      code: string;                 // e.g., "cc-by-3.0"
+      shortName: string;            // e.g., "CC BY 3.0"
+      fullName: string;             // e.g., "Creative Commons Attribution 3.0"
+      url: string;                  // License URL
+    };
+    wikimediaCommonsUrl: string;    // Link to Wikimedia Commons file page
+  } | null;
+
   publishedAt: Date | string;
   createdAt: Date | string;
   updatedAt: Date | string;

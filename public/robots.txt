@@ -1,22 +1,9 @@
-// Dynamic robots.txt generation
-import { GetServerSideProps } from 'next';
-
-function RobotsTxt() {
-  return null;
-}
-
-export const getServerSideProps: GetServerSideProps = async ({ res }) => {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ragaujam.lt';
-  const isProduction = process.env.NODE_ENV === 'production';
-  
-  const robotsTxt = `# Robots.txt for Ragaujam.lt - Lithuanian Recipe Website
-# Generated automatically on ${new Date().toISOString()}
+# Robots.txt for Ragaujam.lt - Lithuanian Recipe Website
+# Static robots.txt for production environment
 
 User-agent: *
-${isProduction ? 'Allow: /' : 'Disallow: /'}
+Allow: /
 
-# Allow all search engines to crawl the site in production
-${isProduction ? `
 # Main content areas
 Allow: /receptas/
 Allow: /paieska/
@@ -31,7 +18,6 @@ Allow: /receptas/*/
 
 # Static pages
 Allow: /privatumo-politika
-` : ''}
 
 # Disallow admin and development areas
 Disallow: /admin/
@@ -114,27 +100,14 @@ User-agent: MegaIndex
 Disallow: /
 
 # Sitemap locations
-Sitemap: ${baseUrl}/sitemap-index.xml
-Sitemap: ${baseUrl}/sitemap.xml
-Sitemap: ${baseUrl}/sitemap-search.xml
-Sitemap: ${baseUrl}/sitemap-images.xml
+Sitemap: https://ragaujam.lt/sitemap-index.xml
+Sitemap: https://ragaujam.lt/sitemap.xml
+Sitemap: https://ragaujam.lt/sitemap-search.xml
+Sitemap: https://ragaujam.lt/sitemap-images.xml
 
 # Additional information
-# Website: ${baseUrl}
+# Website: https://ragaujam.lt
 # Contact: ragaujam1@gmail.com
 # Language: Lithuanian (lt)
 # Content: Recipe website with interactive features
-# Last updated: ${new Date().toISOString()}
-`;
 
-  res.setHeader('Content-Type', 'text/plain');
-  res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate'); // Cache for 24 hours
-  res.write(robotsTxt);
-  res.end();
-
-  return {
-    props: {}
-  };
-};
-
-export default RobotsTxt;
