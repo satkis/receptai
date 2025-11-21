@@ -2,22 +2,28 @@
 
 /**
  * Image Prep and Load Automation Script
- * 
- * Workflow:
- * 1. Query MongoDB for Wikibooks recipes with images
+ *
+ * Complete Workflow:
+ * 1. Query MongoDB for Wikibooks recipes with images (today's only)
  * 2. Match local Wikibooks output images to recipes
- * 3. Rename images to final S3 filenames
- * 4. Move to uploads/to-upload for processing
- * 
+ * 3. Convert images to JPG format
+ * 4. Compress images
+ * 5. Upload to AWS S3
+ * 6. Move to processed/wiki_images/
+ * 7. Remove from main output folder
+ * 8. Update MongoDB with S3 URLs
+ *
  * Usage: npm run image-prep-and-load
  */
 
 import fs from 'fs/promises';
+import fsSync from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { MongoClient } from 'mongodb';
 import dotenv from 'dotenv';
 import sharp from 'sharp';
+import AWS from 'aws-sdk';
 
 // Load environment variables
 dotenv.config({ path: path.join(path.dirname(fileURLToPath(import.meta.url)), '../.env.local') });
@@ -31,7 +37,18 @@ const CONFIG = {
   MONGODB_DB: process.env.MONGODB_DB || 'receptai',
   WIKIBOOKS_OUTPUT_DIR: path.join(path.dirname(fileURLToPath(import.meta.url)), '../scripts/wiki/output'),
   UPLOAD_TARGET_DIR: path.join(path.dirname(fileURLToPath(import.meta.url)), '../uploads/to-upload'),
+  PROCESSED_WIKI_IMAGES_DIR: path.join(path.dirname(fileURLToPath(import.meta.url)), '../scripts/wiki/output/processed/wiki_images'),
+  TEMP_FOLDER: path.join(path.dirname(fileURLToPath(import.meta.url)), '../uploads/temp'),
+  AWS_REGION: process.env.AWS_REGION || 'eu-north-1',
+  AWS_BUCKET: 'receptu-images',
 };
+
+// AWS S3 Configuration
+const s3 = new AWS.S3({
+  region: CONFIG.AWS_REGION,
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+});
 
 // Validate configuration
 if (!CONFIG.MONGODB_URI) {
@@ -253,6 +270,115 @@ async function getWikibooksRecipes(db) {
   return recipes;
 }
 
+/**
+ * Compress image using Sharp
+ */
+async function compressImage(inputPath, outputPath) {
+  try {
+    const inputStats = fsSync.statSync(inputPath);
+    const inputSizeMB = (inputStats.size / 1024 / 1024).toFixed(2);
+
+    // Get image metadata
+    const metadata = await sharp(inputPath).metadata();
+
+    // Compression settings
+    const maxWidth = 1200;
+    const maxHeight = 800;
+    const quality = 85;
+
+    let pipeline = sharp(inputPath);
+
+    // Resize if image is too large
+    if (metadata.width > maxWidth || metadata.height > maxHeight) {
+      pipeline = pipeline.resize(maxWidth, maxHeight, {
+        fit: 'inside',
+        withoutEnlargement: true
+      });
+    }
+
+    // Convert to JPEG
+    pipeline = pipeline.jpeg({ quality, progressive: true });
+    await pipeline.toFile(outputPath);
+
+    const outputStats = fsSync.statSync(outputPath);
+    const outputSizeMB = (outputStats.size / 1024 / 1024).toFixed(2);
+    const reduction = (((inputStats.size - outputStats.size) / inputStats.size) * 100).toFixed(1);
+
+    console.log(`   ✅ Compressed: ${outputSizeMB}MB (${reduction}% reduction)`);
+    return { inputSizeMB, outputSizeMB, reduction };
+  } catch (error) {
+    console.error(`❌ Compression error: ${error.message}`);
+    throw error;
+  }
+}
+
+/**
+ * Verify AWS credentials
+ */
+async function verifyAWSCredentials() {
+  try {
+    await s3.headBucket({ Bucket: CONFIG.AWS_BUCKET }).promise();
+    console.log('✅ AWS credentials verified');
+    console.log(`✅ Bucket '${CONFIG.AWS_BUCKET}' accessible`);
+    return true;
+  } catch (error) {
+    console.error('❌ AWS credentials error:', error.message);
+    return false;
+  }
+}
+
+/**
+ * Upload image to S3
+ */
+async function uploadImageToS3(filename, compressedPath) {
+  try {
+    const fileContent = fsSync.readFileSync(compressedPath);
+
+    const uploadParams = {
+      Bucket: CONFIG.AWS_BUCKET,
+      Key: `receptai/${filename}`,
+      Body: fileContent,
+      ContentType: 'image/jpeg',
+      CacheControl: 'public, max-age=31536000',
+      ContentDisposition: 'inline'
+    };
+
+    const result = await s3.upload(uploadParams).promise();
+    console.log(`   ✅ Uploaded to S3: ${result.Location}`);
+    return result.Location;
+  } catch (error) {
+    console.error(`❌ S3 upload error: ${error.message}`);
+    throw error;
+  }
+}
+
+/**
+ * Update recipe in MongoDB with S3 image URL
+ */
+async function updateRecipeImageUrl(db, slug, s3Url) {
+  try {
+    const collection = db.collection('recipes_new');
+    const result = await collection.updateOne(
+      { slug: slug },
+      {
+        $set: {
+          'image.src': s3Url,
+          'updatedAt': new Date().toISOString()
+        }
+      }
+    );
+
+    if (result.modifiedCount > 0) {
+      console.log(`   ✅ Updated MongoDB with S3 URL`);
+      return true;
+    }
+    return false;
+  } catch (error) {
+    console.error(`❌ MongoDB update error: ${error.message}`);
+    throw error;
+  }
+}
+
 // ============================================================================
 // MAIN RUNNER
 // ============================================================================
@@ -283,24 +409,36 @@ async function main() {
       return;
     }
     
+    // Verify AWS credentials
+    console.log('🔐 Verifying AWS credentials...');
+    const credentialsValid = await verifyAWSCredentials();
+    if (!credentialsValid) {
+      throw new Error('AWS credentials not configured');
+    }
+    console.log('');
+
+    // Ensure directories exist
+    await fs.mkdir(CONFIG.PROCESSED_WIKI_IMAGES_DIR, { recursive: true });
+    await fs.mkdir(CONFIG.TEMP_FOLDER, { recursive: true });
+
     // Process each recipe
     let successCount = 0;
     let warningCount = 0;
     let errorCount = 0;
-    
+
     console.log('🔄 Processing recipes:\n');
-    
+
     for (const recipe of recipes) {
       const recipeTitle = recipe.title?.lt || recipe.slug;
       const wikibooksUrl = recipe.originalSource?.url;
-      
+
       // Validate image.src
       if (!recipe.image?.src) {
         console.log(`[ERROR] Missing image.src for ${recipeTitle}`);
         errorCount++;
         continue;
       }
-      
+
       // Extract slug from Wikibooks URL
       const wikibooksSlug = getSlugFromUrl(wikibooksUrl);
       if (!wikibooksSlug) {
@@ -308,7 +446,7 @@ async function main() {
         errorCount++;
         continue;
       }
-      
+
       // Find matching local image
       const imageMatch = await findMatchingLocalImage(wikibooksSlug);
       if (!imageMatch) {
@@ -325,20 +463,42 @@ async function main() {
         continue;
       }
 
-      // Move image with final S3 filename (recipe slug based)
       try {
-        const targetPath = await renameAndMoveImage(imageMatch.localPath, finalFileName);
-        const jpgFileName = path.basename(targetPath);
+        console.log(`📤 Processing: ${recipeTitle}`);
 
-        console.log(`[OK] Image prepared for ${recipeTitle}`);
-        console.log(`     Original:  ${imageMatch.originalFilename}`);
-        console.log(`     Renamed:   ${jpgFileName}`);
-        console.log(`     Format:    Converted to JPG`);
-        console.log(`     Moved to:  ${CONFIG.UPLOAD_TARGET_DIR}\n`);
+        // Step 1: Convert to JPG and move to temp
+        const tempJpgPath = path.join(CONFIG.TEMP_FOLDER, finalFileName);
+        await convertToJpg(imageMatch.localPath, tempJpgPath);
+
+        // Step 2: Compress image
+        const compressedPath = path.join(CONFIG.TEMP_FOLDER, `compressed_${finalFileName}`);
+        await compressImage(tempJpgPath, compressedPath);
+
+        // Step 3: Upload to S3
+        const s3Url = await uploadImageToS3(finalFileName, compressedPath);
+
+        // Step 4: Update MongoDB with S3 URL
+        await updateRecipeImageUrl(db, recipe.slug, s3Url);
+
+        // Step 5: Move original to processed/wiki_images
+        const processedPath = path.join(CONFIG.PROCESSED_WIKI_IMAGES_DIR, finalFileName);
+        fsSync.renameSync(imageMatch.localPath, processedPath);
+        console.log(`   ✅ Moved to processed folder`);
+
+        // Step 6: Remove from main output folder (already moved above)
+        console.log(`   ✅ Removed from output folder\n`);
+
+        // Cleanup temp files
+        if (fsSync.existsSync(tempJpgPath)) {
+          fsSync.unlinkSync(tempJpgPath);
+        }
+        if (fsSync.existsSync(compressedPath)) {
+          fsSync.unlinkSync(compressedPath);
+        }
 
         successCount++;
       } catch (error) {
-        console.log(`[ERROR] Failed to process image for ${recipeTitle}: ${error.message}`);
+        console.log(`[ERROR] Failed to process image for ${recipeTitle}: ${error.message}\n`);
         errorCount++;
       }
     }
