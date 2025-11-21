@@ -380,9 +380,9 @@ Convert to this MongoDB recipe schema:
 ## 📋 DETAILED ATTRIBUTE RULES
 
 ### **slug**
-- Format: lowercase, hyphen-separated, Lithuanian characters not allowed
+- Format: Lithuanian characters not allowed, lowercase, hyphen-separated
 - Example: `zemaitiski-kepsneliai-su-kiauliena`
-- Rule: Must be unique and SEO expanded text, descriptive, max 200 characters, convert to URL-safe format
+- Rule: Lithuanian characters not allowed, Must be unique and SEO expanded text, descriptive, max 200 characters, convert to URL-safe format
 
 ### **canonicalUrl**
 - Format: `https://ragaujam.lt/receptas/{slug}`
@@ -415,86 +415,88 @@ Convert to this MongoDB recipe schema:
 - Example: `["žemaitiški kepsneliai", "kepsneliai su lašiniais", "kiaulenos kepsneliai", "tradiciniai patiekalai", "lietuviška virtuvė"]`
 
 ### **seo.recipeCategory**
-- Format: Lithuanian recipe category
-- Rule: Must match listed MongoDB categories. Do not create new categories
-- Example:
+- Format: URL-safe category slug (lowercase, no Lithuanian letters, dashes instead of spaces)
+- Rule: Must match listed MongoDB categories. Do not create new categories. Use ONLY the slugs provided below.
+- Example: `juros-gerybes` (NOT "Jūros gėrybės")
+- Conversion rule: Replace Lithuanian letters (ą→a, č→c, ę→e, ė→e, į→i, š→s, ų→u, ū→u, ž→z), convert to lowercase, replace spaces with dashes
 
-Garnyrai
-Kepsniai
-Pietūs
-Pusryčiai
-Salotos
-Sriubos
-Šeimai
-Troškiniai
-Užkandžiai
-Vaikams
-Vakarienė
+**ALLOWED CATEGORY SLUGS (Use these EXACTLY):**
 
-Avokadas
-Bulvės
-Daržovės
-Duona
-Elniena
-Faršas
-Grybai
-Jautiena
-Jūros gėrybės
-Kalakutiena
-Kiauliena
-Kiaušiniai
-Lęšiai
-Makaronai
-Miltiniai
-Pienas ir pieno produktai
-Pupelės
-Ryžiai
-Sūris
-Tofu
-Triušiena
-Uogos
-Vaisiai
-Varškė
-Vištiena
-Žuvis
-Žvėriena
+garnyrai
+kepsniai
+pietus
+pusryciai
+salotos
+sriubos
+seimai
+trokiniai
+uzkandziai
+vaikams
+vakariene
 
+avokadas
+bulves
+darzoves
+duona
+elniena
+parsas
+grybai
+jautiena
+juros-gerybes
+kalakutiena
+kiauliena
+kiausini
+lesiai
+makaronai
+miltiniai
+pienas-ir-pieno-produktai
+pupeles
+ryziai
+suris
+tofu
+triusena
+uogos
+vaisiai
+varske
+vistiena
+zuvis
+zveriena
 
-Ant grilio
-Ant laužo
-Be kepimo
-Duonkepėje
-Garų puode
-Greitpuodyje
-Kazane
-Kepta keptuvėje
-Kepta orkaitėje
-Oro gruzdintuvėje
-Troškinta
-Žaliavalgiams
+ant-grilio
+ant-lauzo
+be-kepimo
+duonkepeje
+garu-puode
+greitpuodyje
+kazane
+kepta-keptuveje
+kepta-orkaiteje
+oro-gruzdintuveje
+troskinta
+zaliavalgiam
 
-Gimtadienio stalui
-Helovinui
-Kalėdoms
-Kūčioms
-Naujųjų metų stalui
-Paskutinės minutės
-Šeimos pietums
-Vaikų gimtadieniui
-Vasarai
-Velykoms
-Žiemai
+gimtadienio-stalui
+helovinui
+kaledos
+kucio
+naujuju-metu-stalui
+paskutines-minutes
+seimos-pietums
+vaiku-gimtadieniui
+vasarai
+velykom
+ziemai
 
-Be angliavandenių
-Be glitimo
-Be kiaušinių
-Be laktozės
-Be mėsos
-Be pieno produktų
-Be riebalų
-Cholesteroliui mažinti
-Diabetikams
-Pietūs į darbą
+be-angliavandenio
+be-glitimo
+be-kiausinio
+be-laktozes
+be-meso
+be-pieno-produktu
+be-riebalai
+cholesteroliui-mazinti
+diabetikam
+pietus-i-darba
 
 
 ### **seo.recipeCuisine**
