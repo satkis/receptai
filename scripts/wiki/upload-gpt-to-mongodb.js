@@ -2,13 +2,16 @@
 
 /**
  * Upload ChatGPT Converted Recipes to MongoDB
- * 
+ *
  * Reads all JSON files from scripts/wiki/output/chatGPT/
  * Imports them to MongoDB receptai.recipes_new collection
  * Moves successfully uploaded files to uploaded-to-mongodb/ folder
- * 
+ *
  * Usage: npm run upload-gpt-to-mongodb
  */
+
+// Load environment variables from .env.local
+require('dotenv').config({ path: '.env.local' });
 
 const fs = require('fs');
 const path = require('path');
