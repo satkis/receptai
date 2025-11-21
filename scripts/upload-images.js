@@ -22,7 +22,7 @@ const s3 = new AWS.S3({
 
 const BUCKET_NAME = 'receptu-images';
 const UPLOAD_FOLDER = path.join(__dirname, '../uploads/to-upload');
-const PROCESSED_FOLDER = path.join(__dirname, '../uploads/uploaded');
+const PROCESSED_FOLDER = path.join(__dirname, '../scripts/wiki/output/processed/wiki_images');
 const METADATA_FOLDER = path.join(__dirname, '../uploads/metadata');
 const TEMP_FOLDER = path.join(__dirname, '../uploads/temp');
 
