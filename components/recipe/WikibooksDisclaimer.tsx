@@ -206,7 +206,7 @@ export default function WikibooksDisclaimer({
             )}
 
             {/* Image optimization note */}
-            <p>Nuotrauka dydis buvo optimizuotas bei konvertuotas formatas.</p>
+            <p>Nuotraukos dydis ir formatas galėjo būti optimiztuotas.</p>
           </>
         )}
 
