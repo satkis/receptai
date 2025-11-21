@@ -103,7 +103,21 @@ function getFinalFileNameFromImageSrc(imageSrc) {
  */
 async function findMatchingLocalImage(wikibooksSlug) {
   try {
-    const files = await fs.readdir(CONFIG.WIKIBOOKS_OUTPUT_DIR);
+    // Check both locations: main output dir and processed/wiki_json_raw/
+    const jsonRawDir = path.join(CONFIG.WIKIBOOKS_OUTPUT_DIR, 'processed', 'wiki_json_raw');
+
+    let files = [];
+    let searchDir = CONFIG.WIKIBOOKS_OUTPUT_DIR;
+
+    // Try processed/wiki_json_raw/ first (where files are moved after conversion)
+    try {
+      files = await fs.readdir(jsonRawDir);
+      searchDir = jsonRawDir;
+    } catch {
+      // Fall back to main output directory
+      files = await fs.readdir(CONFIG.WIKIBOOKS_OUTPUT_DIR);
+      searchDir = CONFIG.WIKIBOOKS_OUTPUT_DIR;
+    }
 
     // Look for JSON file matching the slug pattern
     const jsonFile = files.find(file => {
@@ -120,7 +134,7 @@ async function findMatchingLocalImage(wikibooksSlug) {
     }
 
     // Read JSON to get original filename
-    const jsonPath = path.join(CONFIG.WIKIBOOKS_OUTPUT_DIR, jsonFile);
+    const jsonPath = path.join(searchDir, jsonFile);
     const jsonContent = await fs.readFile(jsonPath, 'utf-8');
     const jsonData = JSON.parse(jsonContent);
     const originalFilename = jsonData.image?.filename;
@@ -130,7 +144,7 @@ async function findMatchingLocalImage(wikibooksSlug) {
       return null;
     }
 
-    // Check if the image file exists
+    // Check if the image file exists in main output directory
     const imagePath = path.join(CONFIG.WIKIBOOKS_OUTPUT_DIR, originalFilename);
     try {
       await fs.access(imagePath);
@@ -220,15 +234,22 @@ async function connectMongoDB() {
  */
 async function getWikibooksRecipes(db) {
   const collection = db.collection('recipes_new');
-  
+
+  // Get today's date in ISO format (YYYY-MM-DD)
+  const today = new Date();
+  const todayString = today.toISOString().split('T')[0]; // e.g., "2025-11-21"
+
   const recipes = await collection
     .find({
       'originalSource.platform': 'Wikibooks',
       'originalSource.url': { $exists: true },
       'image.src': { $exists: true },
+      'createdAt': {
+        $regex: `^${todayString}` // Match dates starting with today's date
+      }
     })
     .toArray();
-  
+
   return recipes;
 }
 

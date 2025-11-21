@@ -43,7 +43,8 @@
     "s3:list": "node scripts/setup-s3-buckets.js list",
     "s3:test:dev": "node scripts/setup-s3-buckets.js test development",
     "s3:test:prod": "node scripts/setup-s3-buckets.js test production",
-    "wiki:extract": "node scripts/wiki/extract-wikibooks-recipe.js"
+    "wiki:extract": "node scripts/wiki/extract-wikibooks-recipe.js",
+    "update-wikibooks-schema": "node scripts/wiki/update-wikibooks-recipes-schema.js"
   },
   "dependencies": {
     "@google-cloud/vision": "^5.2.0",
