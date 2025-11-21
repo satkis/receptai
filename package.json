@@ -30,6 +30,7 @@
     "deploy:production": "node scripts/deploy-production.js",
     "rollback": "node scripts/rollback-production.js",
     "convert-and-upload": "node scripts/wiki/convert-and-upload.js",
+    "upload-gpt-to-mongodb": "node scripts/wiki/upload-gpt-to-mongodb.js",
     "env:validate": "node scripts/env-manager.js validate",
     "env:list": "node scripts/env-manager.js list",
     "db:setup:dev": "node scripts/setup-databases.js setup development",
