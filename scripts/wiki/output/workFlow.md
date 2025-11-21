@@ -42,16 +42,19 @@
 - Includes error handling and progress reporting
 
 ### 2e. Image Processing & AWS S3 Upload
-**Status**: ⏳ TODO
-**Command**: `npm run image-prep-and-load` (to be updated)
+**Status**: ✅ COMPLETE
+**Command**: `npm run image-prep-and-load`
 **Process**:
-- Read images from `scripts/wiki/output/` (original filenames, any format)
+- Query MongoDB for today's Wikibooks recipes with images
+- Find matching local images in `scripts/wiki/output/`
 - Convert all images to JPG format (PNG, WebP, GIF, etc. → JPG)
 - Rename to slug-based format: `{slug}.jpg`
-- Move to `uploads/to-upload/` for S3 upload
+- Compress images (max 1200x800, quality 85)
 - Upload to AWS S3 `receptu-images/receptai/` bucket
+- Update MongoDB recipes with S3 image URLs
 - Move processed images to `scripts/wiki/output/processed/wiki_images/`
-- Update recipe JSON with S3 image URLs
+- Remove images from main `scripts/wiki/output/` folder
+- Clean up temporary files
 
 ---
 
@@ -66,15 +69,24 @@ Step 2: npm run convert-and-upload
          ├─ 2c: Organize converted files
          └─ 2d: npm run upload-gpt-to-mongodb (upload to MongoDB) ✅
          ↓
-Step 3: npm run image-prep-and-load (compress & upload images to S3) ⏳
+Step 3: npm run image-prep-and-load (complete image workflow) ✅
+         ├─ Convert to JPG
+         ├─ Compress images
+         ├─ Upload to S3
+         ├─ Update MongoDB with S3 URLs
+         ├─ Move to processed/wiki_images/
+         └─ Remove from output folder
          ↓
-Step 4: Recipes live on website!
+Step 4: ✅ Recipes live on website with images!
 ```
 
 ---
 
-## 🎯 Next Steps
+## 🎯 Status
 
-1. ✅ Step 2d (MongoDB upload) - COMPLETE
-2. ⏳ Step 2e (Image processing) - IN PROGRESS
-3. ⏳ Step 3 (Image upload to S3) - TODO
+✅ **COMPLETE** - All steps automated and working!
+
+**Full workflow now runs with just 3 commands:**
+1. `npm run convert-and-upload` - Extract & convert recipes
+2. `npm run upload-gpt-to-mongodb` - Upload to MongoDB
+3. `npm run image-prep-and-load` - Process & upload images to S3
