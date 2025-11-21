@@ -17,6 +17,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { MongoClient } from 'mongodb';
 import dotenv from 'dotenv';
+import sharp from 'sharp';
 
 // Load environment variables
 dotenv.config({ path: path.join(path.dirname(fileURLToPath(import.meta.url)), '../.env.local') });
@@ -148,18 +149,49 @@ async function findMatchingLocalImage(wikibooksSlug) {
 }
 
 /**
- * Rename and move image file
+ * Convert image to JPG format
+ * Handles all image formats (PNG, WebP, GIF, etc.) and converts to JPG
+ */
+async function convertToJpg(sourcePath, targetPath) {
+  try {
+    // Get image metadata to check format
+    const metadata = await sharp(sourcePath).metadata();
+    const originalFormat = metadata.format;
+
+    console.log(`   Converting: ${originalFormat.toUpperCase()} → JPG`);
+
+    // Convert to JPG with quality settings
+    await sharp(sourcePath)
+      .resize(1200, 800, {
+        fit: 'inside',
+        withoutEnlargement: true
+      })
+      .jpeg({ quality: 85, progressive: true })
+      .toFile(targetPath);
+
+    console.log(`   ✅ Converted to JPG`);
+    return true;
+  } catch (error) {
+    console.error(`❌ Error converting image to JPG: ${error.message}`);
+    throw error;
+  }
+}
+
+/**
+ * Rename and move image file (with JPG conversion)
  */
 async function renameAndMoveImage(sourcePath, targetFileName) {
   try {
     // Ensure target directory exists
     await fs.mkdir(CONFIG.UPLOAD_TARGET_DIR, { recursive: true });
-    
-    const targetPath = path.join(CONFIG.UPLOAD_TARGET_DIR, targetFileName);
-    
-    // Copy file (will overwrite if exists)
-    await fs.copyFile(sourcePath, targetPath);
-    
+
+    // Always convert to .jpg extension
+    const jpgFileName = targetFileName.replace(/\.[^.]+$/, '.jpg');
+    const targetPath = path.join(CONFIG.UPLOAD_TARGET_DIR, jpgFileName);
+
+    // Convert image to JPG format
+    await convertToJpg(sourcePath, targetPath);
+
     return targetPath;
   } catch (error) {
     console.error(`❌ Error moving image: ${error.message}`);
@@ -275,11 +307,13 @@ async function main() {
       // Move image with final S3 filename (recipe slug based)
       try {
         const targetPath = await renameAndMoveImage(imageMatch.localPath, finalFileName);
+        const jpgFileName = path.basename(targetPath);
 
         console.log(`[OK] Image prepared for ${recipeTitle}`);
-        console.log(`     Original: ${imageMatch.originalFilename}`);
-        console.log(`     Renamed:  ${finalFileName}`);
-        console.log(`     Moved to: ${CONFIG.UPLOAD_TARGET_DIR}\n`);
+        console.log(`     Original:  ${imageMatch.originalFilename}`);
+        console.log(`     Renamed:   ${jpgFileName}`);
+        console.log(`     Format:    Converted to JPG`);
+        console.log(`     Moved to:  ${CONFIG.UPLOAD_TARGET_DIR}\n`);
 
         successCount++;
       } catch (error) {

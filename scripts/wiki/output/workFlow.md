@@ -45,8 +45,10 @@
 **Status**: ⏳ TODO
 **Command**: `npm run image-prep-and-load` (to be updated)
 **Process**:
-- Compress images from `scripts/wiki/output/` (original filenames)
-- Rename to slug-based format: `{slug}-main.jpg`
+- Read images from `scripts/wiki/output/` (original filenames, any format)
+- Convert all images to JPG format (PNG, WebP, GIF, etc. → JPG)
+- Rename to slug-based format: `{slug}.jpg`
+- Move to `uploads/to-upload/` for S3 upload
 - Upload to AWS S3 `receptu-images/receptai/` bucket
 - Move processed images to `scripts/wiki/output/processed/wiki_images/`
 - Update recipe JSON with S3 image URLs
