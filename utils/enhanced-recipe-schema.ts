@@ -105,7 +105,7 @@ export function generateEnhancedRecipeSchema(recipe: CurrentRecipe) {
       ...recipe.ingredients.map(ingredient =>
         `${ingredient.quantity} ${ingredient.name.lt}`
       ),
-      ...recipe.sideIngredients.map(ingredient =>
+      ...(recipe.sideIngredients || []).map(ingredient =>
         `${ingredient.quantity} ${ingredient.name.lt}`
       )
     ],
