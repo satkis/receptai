@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"aadun-nigerietiskas-kukuruzu-uzkandis.jpg\"",
+  "alt-text": "Aadun - Nigerietiskas kukuruzu miltu uzkandis su palmiu aliejumi",
+  "recipe-slug": "aadun-nigerietiskas-kukuruzu-uzkandis",
+  "width": "1200",
+  "height": "800",
+  "keywords": "aadun,-,nigerietiskas,aadun,nigerietiskas uzkandis,kukuruzu miltai,palmiu aliejus,jorubu virtuve,aadun,nigerietiska virtuve,kukuruzu uzkandis,Kukuruzu miltai,Palmiu aliejus",
+  "upload-date": "2025-11-17",
+  "category": "Uzkandziai",
+  "cuisine": "Nigerietiska",
+  "description": "Aadun yra tradicinis jorubu tautos uzkandis is Nigerijos. Tai sotus ir greitai paruosiamas skanestas, gaminamas is kukuruzu miltu, palmiu aliejaus ir ziupsnelio druskos bei cili. Nereikalauja kepimo, ...",
+  "compressionStats": {
+    "originalSize": 840506,
+    "compressedSize": 89385,
+    "compressionRatio": 89.4
+  },
+  "uploadedAt": "2025-11-17T19:51:13.009Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/aadun-nigerietiskas-kukuruzu-uzkandis.jpg"
+}

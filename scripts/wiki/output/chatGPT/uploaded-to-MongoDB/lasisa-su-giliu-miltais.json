@@ -1,0 +1,173 @@
+{
+  "slug": "lasisa-su-giliu-miltais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/lasisa-su-giliu-miltais",
+  "title": {
+    "lt": "Lašiša su gilių miltais"
+  },
+  "description": {
+    "lt": "Labai skani lašiša su gilių miltais. Puikiai tinka su rudaisiais ryžiais arba garintomis daržovėmis ir keptomis bulvėmis."
+  },
+  "seo": {
+    "metaTitle": "Gilmių kruopomis padarazyta lašiša | Skani lašiša su gilėmis",
+    "metaDescription": "Išbandykite šį unikalų lašišos receptą su gilių miltais. Puikiai dera su rudaisiais ryžiais ir garintomis daržovėmis.",
+    "keywords": [
+      "lašiša su gilėmis",
+      "sveikas maistas",
+      "kepta lašiša"
+    ],
+    "recipeCategory": "zuvis",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "45g",
+      "fatContent": "12g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/zuvis",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Lašišos filė"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gilmių kruopos"
+      },
+      "quantity": "1.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinių baltymai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Pateikimui",
+      "name": {
+        "lt": "Rudieji ryžiai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Pateikimui",
+      "name": {
+        "lt": "Garintos daržovės"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Gilmių malimas"
+      },
+      "text": {
+        "lt": "Naudodamiesi maisto smulkintuvą susmulkinkite sausas giles į smulkius miltelius. Jei norite, galite jas prieš šiek tiek paskrudinti orkaitėje."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Lašišos paruošimas"
+      },
+      "text": {
+        "lt": "Panardinkite lašišos filė į kiaušinių baltymus ir apvoliokite gilmių milteliuose."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas orkaitėje"
+      },
+      "text": {
+        "lt": "Kepkite lašišą įkaitintoje orkaitėje apie 10-15 minučių, kol ji taps minkšta ir lengvai atsiskirs su šakute."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Patiekite su rudaisiais ryžiais ir garintomis daržovėmis."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/lasisa-su-giliu-miltais.jpg",
+    "alt": "Lašiša su gilių miltais",
+    "width": 2883,
+    "height": 2154
+  },
+  "tags": [
+    "lašiša su gilėmis",
+    "tarptautinė virtuvė",
+    "lengvas receptas",
+    "kepta lašiša"
+  ],
+  "author": {
+    "name": "Wilhele4",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Wilhele4"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Acorn_Crusted_Salmon",
+    "pageTitle": "Cookbook:Acorn_Crusted_Salmon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T15:45:00+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAcorn_Crusted_Salmon&action=history",
+    "originalCreator": {
+      "name": "Wilhele4",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Wilhele4"
+    }
+  },
+  "originalImage": {
+    "fileName": "Acorn_crust_salmon.jpg",
+    "author": {
+      "name": "Ryczka",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ryczka"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Acorn_crust_salmon.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T15:45:00+03:00",
+  "createdAt": "2025-11-21T15:45:00+03:00",
+  "updatedAt": "2025-11-21T15:45:00+03:00"
+}

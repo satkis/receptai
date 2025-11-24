@@ -1,0 +1,220 @@
+{
+  "slug": "afganu-duona-su-juoduoju-kuminu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/afganu-duona-su-juodaisiais-kuminai",
+  "title": {
+    "lt": "Afganiška duona su juoduoju kuminu"
+  },
+  "description": {
+    "lt": "Afganiška duona - tradicinis Afganistano plikyta duona, panaši į pita. Ji kepama tandūro orkaitėje, pabarstyta juodaisiais kuminai, kurie suteikia ypatingo skonio."
+  },
+  "seo": {
+    "metaTitle": "Afganiška duona su juoduoju kuminu | Tradicinis receptas",
+    "metaDescription": "Klasikinės afganiškos duonos receptas, kepamas tandūro orkaitėje ir pabarstytas juodaisiais kuminai. Puikiai tinka prie įvairių patiekalų.",
+    "keywords": [
+      "afganiška duona",
+      "juodieji kuminai",
+      "tradicinė duona",
+      "tandūro duona",
+      "afganų virtuvė"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "Afganų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "7g",
+      "fatContent": "8g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 11,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 165,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/vegetariskai",
+    "receptai/uzkandziai",
+    "receptai/ziemai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "375g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "7g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "14g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Universalių miltų"
+      },
+      "quantity": "550g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "18g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo soda"
+      },
+      "quantity": "7g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kukurūzų aliejus"
+      },
+      "quantity": "55g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji kuminas"
+      },
+      "quantity": "30g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Kepimui",
+      "name": {
+        "lt": "Kiaušinio trynys"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mielės"
+      },
+      "text": {
+        "lt": "Sumaišykite mieles ir cukrų pusėje puodelio vandens. Leiskite pastovėti 10 minučių, kol mielės sukils."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Miltus sumaišykite su druska dubenyje. Padarykite duobutę, supilkite aliejų ir mielių mišinį. Palaipsniui įpilkite likusį vandenį, kol susidarys minkšta tešla. Minkykite 5 minutes. Uždenkite ir leiskite kilti 1½ valandos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kiaušinio plakinio paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite kiaušinio trynį su 1 šaukštu vandens, kad paruoštumėte plakinį. Atidėkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Formavimas ir kepimas"
+      },
+      "text": {
+        "lt": "Padalinkite tešlą į 8 dalis ir suformuokite kamuoliukus. Kiekvieną iškočiokite į ovalą 20 cm ilgio ir 5 cm storio. Ant viršaus padarykite linijas, aptepkite plakiniu ir pabarstykite juodaisiais kuminai."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite iš anksto įkaitintoje orkaitėje 175°C temperatūroje 25 minutes. Bendras kepimo laikas apie 2½ valandos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite juodojo kumino galite naudoti kmynus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/afganu-duona-su-juoduoju-kuminu.jpg",
+    "alt": "Afganiška duona su juodaisiais kuminai",
+    "width": 1091,
+    "height": 818
+  },
+  "tags": [
+    "afganiška duona",
+    "duona",
+    "afganų virtuvė"
+  ],
+  "author": {
+    "name": "imported>Paulscf",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:imported%3EPaulscf"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Afghan_Bread",
+    "pageTitle": "Cookbook:Afghan_Bread",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T15:00:00+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAfghan_Bread&action=history",
+    "originalCreator": {
+      "name": "imported>Paulscf",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:imported%3EPaulscf"
+    }
+  },
+  "originalImage": {
+    "fileName": "Afghan_bread.jpg",
+    "author": {
+      "name": "User Paulscf on en.wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Liftarn"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Afghan_bread.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T15:00:00+03:00",
+  "createdAt": "2025-11-21T15:00:00+03:00",
+  "updatedAt": "2025-11-21T15:00:00+03:00"
+}

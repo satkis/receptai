@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"afganu-duona-su-juoduoju-kuminu.jpg\"",
+  "alt-text": "Afganiska duona su juoduoju kuminu",
+  "recipe-slug": "afganu-duona-su-juoduoju-kuminu",
+  "width": "1200",
+  "height": "800",
+  "keywords": "afganiska,duona,su,afganiska duona,juodieji kuminai,tradicine duona,tanduro duona,afganu virtuve,afganiska duona,duona,afganu virtuve,Vanduo,Sausos mieles",
+  "upload-date": "2025-11-21",
+  "category": "duona",
+  "cuisine": "Afganu",
+  "description": "Afganiska duona - tradicinis Afganistano plikyta duona, panasi i pita. Ji kepama tanduro orkaiteje, pabarstyta juodaisiais kuminai, kurie suteikia ypatingo skonio.",
+  "compressionStats": {
+    "originalSize": 159405,
+    "compressedSize": 159358,
+    "compressionRatio": 0
+  },
+  "uploadedAt": "2025-11-21T13:54:10.735Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/afganu-duona-su-juoduoju-kuminu.jpg"
+}

@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"adobo-vistiena-filipinietiskai.jpg\"",
+  "alt-text": "Adobo vistiena Filipinietiskai",
+  "recipe-slug": "adobo-vistiena-filipinietiskai",
+  "width": "1200",
+  "height": "800",
+  "keywords": "adobo,vistiena,filipinietiskai,adobo vistiena,filipinu receptas,vistienos patiekalas,soju padazas,tradicine filipinu virtuve,adobo vistiena,filipinu virtuve,vistienos receptas,Vistiena,Kokosu acto",
+  "upload-date": "2025-11-21",
+  "category": "pietus",
+  "cuisine": "Filipinu",
+  "description": "Adobo vistiena yra vienas is tradiciniu Filipinu patiekalu. Unikali acto ir soju padazo kombinacija suteikia jam isskirtini skoniu derini. Sis receptas puikiai tinka tiems, kurie nori isbandyti autent...",
+  "compressionStats": {
+    "originalSize": 172391,
+    "compressedSize": 171922,
+    "compressionRatio": 0.3
+  },
+  "uploadedAt": "2025-11-21T13:54:07.780Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/adobo-vistiena-filipinietiskai.jpg"
+}

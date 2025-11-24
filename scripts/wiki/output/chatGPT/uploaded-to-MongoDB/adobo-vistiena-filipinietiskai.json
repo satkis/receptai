@@ -1,0 +1,190 @@
+{
+  "slug": "adobo-vistiena-filipinietiskai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/adobo-vistiena-filipinietiskai",
+  "title": {
+    "lt": "Adobo vištiena Filipinietiškai"
+  },
+  "description": {
+    "lt": "Adobo vištiena yra vienas iš tradicinių Filipinų patiekalų. Unikali acto ir sojų padažo kombinacija suteikia jam išskirtinį skonių derinį. Šis receptas puikiai tinka tiems, kurie nori išbandyti autentišką filipinų virtuvės skonį."
+  },
+  "seo": {
+    "metaTitle": "Adobo vištiena | Tradicinis Filipinų receptas",
+    "metaDescription": "Autentiška Filipinų adobo vištiena su sojų padažu ir actu. Išbandykite šį tradicinį receptą savo virtuvėje!",
+    "keywords": [
+      "adobo vištiena",
+      "filipinų receptas",
+      "vištienos patiekalas",
+      "sojų padažas",
+      "tradicinė filipinų virtuvė"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Filipinų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "25g",
+      "fatContent": "15g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/vistiena",
+    "receptai/filipinu",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "500 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kokosų acto"
+      },
+      "quantity": "80 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojų padažas"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Trintos česnako skiltelės"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapai"
+      },
+      "quantity": "1-2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežiai susmulkinti juodieji pipirai"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Supjaustymas"
+      },
+      "text": {
+        "lt": "Supjaustykite vištieną vidutinio dydžio gabaliukais."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite vištienos gabaliukus su actu, sojų padažu, česnakais, lauro lapais ir juodaisiais pipirais. Įdėkite į šaldytuvą marinuotis 30 minučių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Išimkite vištieną iš marinato ir apkepkite keptuvėje ant vidutinės ugnies, kol vištiena bus auksinės spalvos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Troškinimas"
+      },
+      "text": {
+        "lt": "Į keptuvę įpilkite likusį marinatą, sumažinkite ugnį ir troškinkite vištieną 20-25 minutes, kol ji taps minkšta ir skysčiai sumažės."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norėdami išskirtinio skonio, naudokite kokosų actą vietoj įprasto."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/adobo-vistiena-filipinietiskai.jpg",
+    "alt": "Filipinų adobo vištiena su sojų padažu ir actu",
+    "width": 3072,
+    "height": 2304
+  },
+  "tags": [
+    "adobo vištiena",
+    "filipinų virtuvė",
+    "vištienos receptas",
+    "tradicinis patiekalas",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "198.232.60.10",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:198.232.60.10"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Adobo_Chicken_(Philippine)",
+    "pageTitle": "Cookbook:Adobo_Chicken_(Philippine)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T15:45:02+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAdobo_Chicken_(Philippine)&action=history",
+    "originalCreator": {
+      "name": "198.232.60.10",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:198.232.60.10"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Adobo.jpg",
+    "author": {
+      "name": "Witchy2006 at English Wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Webaware"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": ""
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chicken_Adobo.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T15:45:02+03:00",
+  "createdAt": "2025-11-21T15:45:02+03:00",
+  "updatedAt": "2025-11-21T15:45:02+03:00"
+}

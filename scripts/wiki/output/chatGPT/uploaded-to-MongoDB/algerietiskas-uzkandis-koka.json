@@ -1,0 +1,295 @@
+{
+  "slug": "algerietiskas-uzkanis-koka",
+  "canonicalUrl": "https://ragaujam.lt/receptas/aalgerietiskas-uzkanis-koka",
+  "title": {
+    "lt": "Algerietiška koka - gardus užkandis"
+  },
+  "description": {
+    "lt": "Algerietiška koka - tai gardus ir aromatingas užkandis, primenantis ploną picą. Pagaminta iš tešlos, kvepiančios prieskoniais, su svogūnais, pomidorais ir paprikomis - puikus pasirinkimas užkandžiams ar lengviems pietums."
+  },
+  "seo": {
+    "metaTitle": "Algerietiška koka | Gardus užkandis su daržovėmis",
+    "metaDescription": "Autentiška algerietiškos kokos receptas - gardus užkandis su plona tešla ir daržovėmis. Idealiai tinka lengviems pietums ar užkandžiams.",
+    "keywords": [
+      "algerietiška koka",
+      "užkandis su daržovėmis",
+      "vegetariški receptai",
+      "plona tešla",
+      "algerietiškas užkandis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Alžyriečių",
+    "nutrition": {
+      "calories": 180,
+      "proteinContent": "6g",
+      "fatContent": "8g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 70,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 95,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/be-mesos",
+    "receptai/kepta-orkaiteje"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "1 pakelis (7g)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šiltas vanduo"
+      },
+      "quantity": "250ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "2 dideli, plonai pjaustyti",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "2 dideli, plonai pjaustyti",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "1 vnt, plonai pjaustyta",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "2–3 skiltelės, susmulkintos",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika (prieskonis)"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maltas kuminas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodosios alyvuogės"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Šviežios petražolės"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mielės"
+      },
+      "text": {
+        "lt": "Ištirpinkite cukrų šiltame vandenyje, tada pabarstykite mieles. Palikite 10 minučių, kol sukils."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite miltus ir druską. Viduryje padarykite šulinėlį ir supilkite mielių mišinį bei alyvuogių aliejų. Maišykite, kol susidaro tešla."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos minkymas"
+      },
+      "text": {
+        "lt": "Išverskite tešlą ant miltuoto paviršiaus ir minkykite apie 10 minučių, kol taps lygi ir elastinga."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos kildinimas"
+      },
+      "text": {
+        "lt": "Įdėkite tešlą į lengvai aliejuje išteptą dubenį, uždenkite švariu rankšluosčiu ir palikite šiltoje vietoje apie valandą, kol padvigubės."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Daržovių paruošimas"
+      },
+      "text": {
+        "lt": "Kepkite svogūnus alyvuogių aliejuje ant vidutinės ugnies, kol suminkštės. Įdėkite česnaką, papriką, kumino, druskos ir pipirų. Kepkite dar 2–3 minutes. Įdėkite pomidorus ir paprikas, kepkite dar 5–7 minutes."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Pakilusią tešlą padalinkite į dvi lygias dalis ir iškočiokite į plonas stačiakampes formas."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Išdėliokite daržovių mišinį ant tešlos, kepkite įkaitintoje orkaitėje 200°C temp. apie 20–25 minutes."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Leiskite kokos šiek tiek atvėsti. Papuoškite petražolėmis ir alyvuogėmis, supjaustykite porcijomis ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite pridėti mėgstamų prieskonių, kad suteiktumėte kokos unikalų skonį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šis patiekalas puikiai tinka tiek karštas, tiek šaltas."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/algerietiskas-uzkandis-koka.jpg",
+    "alt": "Algerietiška koka - užkandis su daržovėmis",
+    "width": 664,
+    "height": 415
+  },
+  "tags": [
+    "algerietiška koka",
+    "daržovių užkandis",
+    "lengvas receptas",
+    "vegetariškas užkandis",
+    "pikantiškas užkandis"
+  ],
+  "author": {
+    "name": "SvnnyBvnny",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Coca",
+    "pageTitle": "Cookbook:Algerian_Coca",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T17:03:55+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlgerian_Coca&action=history",
+    "originalCreator": {
+      "name": "SvnnyBvnny",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+    }
+  },
+  "originalImage": {
+    "fileName": "Coca_argelina.jpg",
+    "author": {
+      "name": "Galjundi7",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Galjundi7"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Coca_argelina.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:03:55+03:00",
+  "createdAt": "2025-11-21T17:03:55+03:00",
+  "updatedAt": "2025-11-21T17:03:55+03:00"
+}

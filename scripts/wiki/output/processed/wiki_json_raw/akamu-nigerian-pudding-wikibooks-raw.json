@@ -1,0 +1,87 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Akamu_(Nigerian_Pudding)",
+    "pageTitle": "Cookbook:Akamu_(Nigerian_Pudding)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAkamu_(Nigerian_Pudding)&action=history",
+    "extractedAt": "2025-11-21T14:03:53.898Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Akamu (Nigerian Pudding)",
+    "slug": "akamu-nigerian-pudding",
+    "description": "Akamu, also known as pap or ogi, is a variety of Nigerian pudding usually make from soaked corn. It is often eaten for breakfast.",
+    "ingredients": [
+      "Akamu paste, broken into lumps",
+      "Hot water",
+      "Evaporated milk",
+      "Sugar"
+    ],
+    "instructions": [
+      "Fill a large basin halfway with the akamu lumps. Because akamu rises during preparation, use a bowl large enough to hold the meal in its elevated position. If in doubt, use a large bowl and allow plenty of time.",
+      "Crush the ogi lumps with a spoon into very little pieces. Mix in small amounts of cold water until the mixture is smooth and has the consistency of evaporated milk.",
+      "Bring a large pot of water to a boil.",
+      "Stir the mixture thoroughly just before the water boils, as some akamu may have accumulated at the bottom of the basin. Once the water has reached a boil, carefully but steadily stir it into the akamu mixture. Stop stirring as soon as the mixture starts to set, and reduce the flow of water you're pouring to the bare minimum until the akamu has entirely set.",
+      "Thoroughly whisk the mixture. Add additional water as desired if the mixture is too thick.",
+      "Stir in evaporated milk and a pinch of sugar to taste."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Nigerian recipes",
+      "Recipes using sugar",
+      "Recipes using akamu paste",
+      "Recipes using evaporated milk"
+    ]
+  },
+  "image": {
+    "filename": "Akamu_(Pap)_(Ogi)_(cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Akamu_%28Pap%29_%28Ogi%29_%28cropped%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Akamu_(Pap)_(Ogi)_(cropped).jpg",
+    "localPath": "scripts/wiki/output/Akamu_(Pap)_(Ogi)_(cropped).jpg",
+    "dimensions": {
+      "width": 407,
+      "height": 547
+    },
+    "fileSize": 39765,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "FOODIEAFRICAN",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:OtuNwachinemere"
+    },
+    "metadata": {
+      "description": "This is an image of food from",
+      "categories": [
+        "Akara",
+        "Ogi",
+        "Igbo cuisine",
+        "Self-published work",
+        "Extracted images",
+        "Images from Wiki Loves Africa 2014",
+        "Uploaded via Campaign:wlafrica",
+        "Images from Wiki Loves Africa 2014 in Nigeria",
+        "Nigeria photographs taken on 2014-07-17"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Akamu_(Pap)_(Ogi)_(cropped).jpg"
+  }
+}

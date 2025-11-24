@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"affogato-italiskas-desertas-su-ledais-ir-kava.jpg\"",
+  "alt-text": "Affogato - italiskas desertas su ledais ir kava",
+  "recipe-slug": "affogato-italiskas-desertas-su-ledais-ir-kava",
+  "width": "1200",
+  "height": "800",
+  "keywords": "affogato,-,italiskas,affogato,italiskas desertas,ledai su kava,greitas desertas,po pietu desertas,affogato,italiskas desertas,ledai su kava,Vaniliniai ledai,Espresso kava",
+  "upload-date": "2025-11-21",
+  "category": "desertai",
+  "cuisine": "Italu",
+  "description": "Affogato yra italiskas desertas, kuriame ledai uzpilami karsta kava. Sis greitai paruosiamas skanestas puikiai tinka po pietu desertui.",
+  "compressionStats": {
+    "originalSize": 102739,
+    "compressedSize": 102793,
+    "compressionRatio": -0.1
+  },
+  "uploadedAt": "2025-11-21T13:54:09.261Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/affogato-italiskas-desertas-su-ledais-ir-kava.jpg"
+}

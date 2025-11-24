@@ -1,0 +1,261 @@
+{
+  "slug": "austriškas-obuoliu-strudelis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/austriškas-obuoliu-strudelis",
+  "title": {
+    "lt": "Austriškas obuolių štrudelis"
+  },
+  "description": {
+    "lt": "Austriškas obuolių štrudelis - tai klasikinis desertas, kuriame derinami obuoliai, cinamonas ir razinos. Traškus tešlos sluoksnis apgaubia sultingą obuolių įdarą, puikiai tinkantį šventėms ar kasdieniam skanavimui."
+  },
+  "seo": {
+    "metaTitle": "Austriškas obuolių štrudelis | Tradicinis desertas",
+    "metaDescription": "Klasikinis austriškas obuolių štrudelis su cinamonu ir razinomis. Traški tešla ir sultingas įdaras - puikus desertas bet kuriai progai.",
+    "keywords": [
+      "obuolių štrudelis",
+      "austriškas desertas",
+      "cinamonas ir obuoliai",
+      "štrudelis su razinomis",
+      "klasikinis štrudelis"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Austriška",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "5g",
+      "fatContent": "15g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 35,
+  "totalTimeMinutes": 65,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "sunkus",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/kepta-orkaiteje",
+    "receptai/uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Drungnas vanduo"
+      },
+      "quantity": "63g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "20g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Obuoliai"
+      },
+      "quantity": "1.5kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "40g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Skrudinti džiūvėsiai"
+      },
+      "quantity": "80g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Razinos"
+      },
+      "quantity": "60g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Riešutai"
+      },
+      "quantity": "60g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Tirštintas sviestas"
+      },
+      "quantity": "80g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus su druska. Suformuokite miltų kalnelį ant darbastalio ir į jo vidurį įpilkite vandens ir aliejaus. Mišinkite, kol susidaro vientisa tešla."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos minkymas"
+      },
+      "text": {
+        "lt": "Minkykite tešlą, kol ji tampa lygi ir nelimpa prie rankų. Tepkite aliejumi ir palikite šiltoje vietoje, uždengę drėgnu rankšluosčiu, 30 minučių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Obuolių įdaras"
+      },
+      "text": {
+        "lt": "Apibarstykite džiūvėsiais 2/3 tešlos. Ant jų sudėkite obuolius, pabarstykite cukrumi, cinamonu, razinomis ir riešutais."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Štrudelio formavimas"
+      },
+      "text": {
+        "lt": "Aptepkite likusią tešlos dalį tirpintu sviestu. Užlenkite kraštus ir suvyniokite štrudelį, pradedant nuo obuolių pusės."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Perkelkite štrudelį ant kepimo skardos ir kepkite 180°C temperatūroje 35 minutes, periodiškai aptepdami sviestu."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Atvėsinkite šiek tiek, supjaustykite porcijomis ir pabarstykite cukraus pudra prieš patiekdami."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Senoviniam Vienos štrudeliui pridėkite grietinės ir riešutų prieš vyniojant."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Štrudelis bus sultingesnis, jei įdarą apipilsite cukruotu pienu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/austriškas-obuoliu-strudelis.jpg",
+    "alt": "Austriškas obuolių štrudelis su traškia tešla ir sultingu įdaru",
+    "width": 2272,
+    "height": 1704
+  },
+  "tags": [
+    "obuolių štrudelis",
+    "austriškas desertas",
+    "cinamonas ir obuoliai",
+    "štrudelis su razinomis",
+    "klasikinis štrudelis"
+  ],
+  "author": {
+    "name": "Earwen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Earwen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Apple_Strudel",
+    "pageTitle": "Cookbook:Apple_Strudel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T17:04:11+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AApple_Strudel&action=history",
+    "originalCreator": {
+      "name": "Earwen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Earwen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Aufgeschnittener_Strudel.jpg",
+    "author": {
+      "name": "The original uploader was Earwen at English Wikibooks.",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Aufgeschnittener_Strudel.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:04:11+03:00",
+  "createdAt": "2025-11-21T17:04:11+03:00",
+  "updatedAt": "2025-11-21T17:04:11+03:00"
+}

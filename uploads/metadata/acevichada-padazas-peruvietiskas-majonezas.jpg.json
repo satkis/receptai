@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"acevichada-padazas-peruvietiskas-majonezas.jpg\"",
+  "alt-text": "Acevichada padazas - Peruvietiskas majonezas su laimu ir cili",
+  "recipe-slug": "acevichada-padazas-peruvietiskas-majonezas",
+  "width": "1200",
+  "height": "800",
+  "keywords": "acevichada,padazas,-,acevichada padazas,peruvietiskas padazas,leche de tigre,nikkei virtuve,padazas susiui,acevichada padazas,peruvietiska virtuve,nikkei,Soju aliejus (arba kitas neutralus),Pasterizuoti kiausiniai",
+  "upload-date": "2025-11-17",
+  "category": "Uzkandziai",
+  "cuisine": "Peruvietiska",
+  "description": "Acevichada padazas - tai unikalus Peru virtuves padazas, sujungiantis ceviche budinga \"leche de tigre\" (tigro piena) su kreminio majonezo tekstura. Sis astrus, gaivus ir ryskus padazas puikiai tinka p...",
+  "compressionStats": {
+    "originalSize": 230413,
+    "compressedSize": 112796,
+    "compressionRatio": 51
+  },
+  "uploadedAt": "2025-11-17T19:51:13.025Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/acevichada-padazas-peruvietiskas-majonezas.jpg"
+}

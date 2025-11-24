@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"agedashi-tofu-japoniskai.jpg\"",
+  "alt-text": "Agedashi tofu - japoniskas keptas tofu",
+  "recipe-slug": "agedashi-tofu-japoniskai",
+  "width": "1200",
+  "height": "800",
+  "keywords": "agedashi,tofu,-,agedashi tofu,japoniskas tofu,keptas tofu,japoniska virtuve,tofu receptas,agedashi tofu,japoniskas tofu,keptas tofu,Minkstas tofu,Bulviu arba kukuruzu krakmolas",
+  "upload-date": "2025-11-21",
+  "category": "uzkandziai",
+  "cuisine": "Japonu",
+  "description": "Agedashi tofu - tai japoniskas patiekalas, kuriame tofu supjaustomas kubeliais, apkepamas ir patiekiamas su karstu tentsuyu sultiniu. Patiekiama su zaliaisiais svogunais ir tarkuotu daikonu.",
+  "compressionStats": {
+    "originalSize": 12872,
+    "compressedSize": 12888,
+    "compressionRatio": -0.1
+  },
+  "uploadedAt": "2025-11-21T13:54:11.877Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/agedashi-tofu-japoniskai.jpg"
+}

@@ -1,0 +1,198 @@
+{
+  "slug": "alkubus-nigerijos-garuose-virta-duona",
+  "canonicalUrl": "https://ragaujam.lt/receptas/alkubus-nigerijos-garuose-virta-duona",
+  "title": {
+    "lt": "Alkubus - Nigerijos garuose virta duona"
+  },
+  "description": {
+    "lt": "Alkubus - tai iš šiaurinės Nigerijos kilusi garuose virta kvietinė duona. Šis receptas puikiai tinka norintiems išbandyti tradicinį Afrikos skonį."
+  },
+  "seo": {
+    "metaTitle": "Alkubus - Nigerijos garuose virta duona | Tradicinis receptas",
+    "metaDescription": "Tradicinės Nigerijos garuose virtos duonos receptas. Lengvai paruošiama su kvietiniais miltais, mielėmis ir kepimo milteliais.",
+    "keywords": [
+      "alkubus",
+      "garuose virta duona",
+      "nigerijos receptas",
+      "tradicinė duona",
+      "kvietinių miltų duona"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "Nigeriečių",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "6g",
+      "fatContent": "3g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/garu-puode",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Instant mielės"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "0.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Persijokite miltus į maišymo indą. Įmaišykite mieles, druską ir kepimo miltelius."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos ruošimas"
+      },
+      "text": {
+        "lt": "Įpilkite vandens ir sumaišykite, kol gausite vientisą tešlą. Minkykite, kol tešla taps elastinga ir gerai sumaišyta."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos kildinimas"
+      },
+      "text": {
+        "lt": "Uždenkite tešlą ir leiskite jai pakilti 1 valandą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Formavimas"
+      },
+      "text": {
+        "lt": "Švelniai išmuškite orą iš tešlos. Sutepkite kepimo formą ir perkelkite tešlą į formą."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Virimas"
+      },
+      "text": {
+        "lt": "Uždenkite formą ir įdėkite į garų puodą. Virkite kol duona bus iškepusi ir pagaliukas, įkištas į centrą, išeis švarus."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite iš garų puodo ir leiskite atvėsti. Išimkite iš formos ir patiekite."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/alkubus-nigerijos-garuose-virta-duona.jpg",
+    "alt": "Nigerijos garuose virta kvietinė duona, patiekiama ant lentelės",
+    "width": 640,
+    "height": 480
+  },
+  "tags": [
+    "alkubus",
+    "nigerijos duona",
+    "tradicinis receptas"
+  ],
+  "author": {
+    "name": "Tesleemah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Alkubus_(Nigerian_Steamed_Bread)",
+    "pageTitle": "Cookbook:Alkubus_(Nigerian_Steamed_Bread)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T17:03:58+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlkubus_(Nigerian_Steamed_Bread)&action=history",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    }
+  },
+  "originalImage": {
+    "fileName": "10_Steamed_Bread_-_Congee_Village_House.jpg",
+    "author": {
+      "name": "jasonlam",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ser%20Amantio%20di%20Nicolao"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/10_Steamed_Bread_-_Congee_Village_House.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:03:58+03:00",
+  "createdAt": "2025-11-21T17:03:58+03:00",
+  "updatedAt": "2025-11-21T17:03:58+03:00"
+}

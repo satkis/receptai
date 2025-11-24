@@ -2,3 +2,29 @@
 [2025-11-09T16:56:23.321Z] https://en.wikibooks.org/wiki/Cookbook:Apple_Crisp_I - Cookbook:Apple Crisp I
 [2025-11-09T16:56:24.894Z] https://en.wikibooks.org/wiki/Cookbook:Bint_as-Sa%E1%B8%A5n_(Yemenite_Layered_Pastry) - Cookbook:Bint as-Saḥn (Yemenite Layered Pastry)
 [2025-11-09T16:56:26.375Z] https://en.wikibooks.org/wiki/Cookbook:Borscht - Cookbook:Borscht
+[2025-11-17T19:23:53.867Z] https://en.wikibooks.org/wiki/Cookbook:A_Nice_Cup_of_Tea - Cookbook:A Nice Cup of Tea
+[2025-11-17T19:23:55.657Z] https://en.wikibooks.org/wiki/Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil) - Cookbook:Aadun (Nigerian Corn Flour with Palm Oil)
+[2025-11-17T19:23:57.467Z] https://en.wikibooks.org/wiki/Cookbook:Abula_(Nigerian_Three_Stews) - Cookbook:Abula (Nigerian Three Stews)
+[2025-11-17T19:23:58.650Z] https://en.wikibooks.org/wiki/Cookbook:Acevichada_Sauce - Cookbook:Acevichada Sauce
+[2025-11-21T11:47:31.564Z] https://en.wikibooks.org/wiki/Cookbook:Acorn_Crusted_Salmon - Cookbook:Acorn Crusted Salmon
+[2025-11-21T11:47:33.117Z] https://en.wikibooks.org/wiki/Cookbook:Adobo_Chicken_(Philippine) - Cookbook:Adobo Chicken (Philippine)
+[2025-11-21T11:47:35.002Z] https://en.wikibooks.org/wiki/Cookbook:Affogato - Cookbook:Affogato
+[2025-11-21T12:44:10.494Z] https://en.wikibooks.org/wiki/Cookbook:Acorn_Crusted_Salmon - Cookbook:Acorn Crusted Salmon
+[2025-11-21T12:44:12.274Z] https://en.wikibooks.org/wiki/Cookbook:Adobo_Chicken_(Philippine) - Cookbook:Adobo Chicken (Philippine)
+[2025-11-21T12:44:13.771Z] https://en.wikibooks.org/wiki/Cookbook:Affogato - Cookbook:Affogato
+[2025-11-21T12:44:15.295Z] https://en.wikibooks.org/wiki/Cookbook:Afghan_Bread - Cookbook:Afghan Bread
+[2025-11-21T12:45:00.386Z] https://en.wikibooks.org/wiki/Cookbook:Acorn_Crusted_Salmon - Cookbook:Acorn Crusted Salmon
+[2025-11-21T12:45:02.509Z] https://en.wikibooks.org/wiki/Cookbook:Adobo_Chicken_(Philippine) - Cookbook:Adobo Chicken (Philippine)
+[2025-11-21T12:45:03.670Z] https://en.wikibooks.org/wiki/Cookbook:Affogato - Cookbook:Affogato
+[2025-11-21T12:45:04.719Z] https://en.wikibooks.org/wiki/Cookbook:Afghan_Bread - Cookbook:Afghan Bread
+[2025-11-21T12:45:07.057Z] https://en.wikibooks.org/wiki/Cookbook:Agedashi_Tofu - Cookbook:Agedashi Tofu
+[2025-11-21T14:03:52.320Z] https://en.wikibooks.org/wiki/Cookbook:Aj%C3%AD_de_Gallina_(Peruvian_Chili_Chicken) - Cookbook:Ají de Gallina (Peruvian Chili Chicken)
+[2025-11-21T14:03:53.902Z] https://en.wikibooks.org/wiki/Cookbook:Akamu_(Nigerian_Pudding) - Cookbook:Akamu (Nigerian Pudding)
+[2025-11-21T14:03:55.603Z] https://en.wikibooks.org/wiki/Cookbook:Algerian_Coca - Cookbook:Algerian Coca
+[2025-11-21T14:03:57.057Z] https://en.wikibooks.org/wiki/Cookbook:Algerian_Mint_Tea - Cookbook:Algerian Mint Tea
+[2025-11-21T14:03:58.621Z] https://en.wikibooks.org/wiki/Cookbook:Alkubus_(Nigerian_Steamed_Bread) - Cookbook:Alkubus (Nigerian Steamed Bread)
+[2025-11-21T14:04:00.273Z] https://en.wikibooks.org/wiki/Cookbook:Almond_Milk_II - Cookbook:Almond Milk II
+[2025-11-21T14:04:02.039Z] https://en.wikibooks.org/wiki/Cookbook:Ambrosia_Fruit_Salad - Cookbook:Ambrosia Fruit Salad
+[2025-11-21T14:04:03.904Z] https://en.wikibooks.org/wiki/Cookbook:Anzac_Biscuits_I - Cookbook:Anzac Biscuits I
+[2025-11-21T14:04:09.175Z] https://en.wikibooks.org/wiki/Cookbook:Appam_(Fermented_Rice_Pancake) - Cookbook:Appam (Fermented Rice Pancake)
+[2025-11-21T14:04:11.155Z] https://en.wikibooks.org/wiki/Cookbook:Apple_Strudel - Cookbook:Apple Strudel

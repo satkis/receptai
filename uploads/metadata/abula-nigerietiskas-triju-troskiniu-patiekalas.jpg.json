@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"abula-nigerietiskas-triju-troskiniu-patiekalas.jpg\"",
+  "alt-text": "Abula - Nigerietiskas triju troskiniu derinys (Gbegiri, Ewedu ir Astrus padazas)",
+  "recipe-slug": "abula-nigerietiskas-triju-troskiniu-patiekalas",
+  "width": "1200",
+  "height": "800",
+  "keywords": "abula,-,nigerietiskas,abula,nigerietiska virtuve,gbegiri,ewedu,jorubu receptas,abula receptas,nigerietiskas troskinys,gbegiri sriuba",
+  "upload-date": "2025-11-17",
+  "category": "Troskiniai",
+  "cuisine": "Nigerietiska",
+  "description": "Abula yra autentiskas jorubu tautos patiekalas is Nigerijos, reiskiantis \"misinys\". Tai unikalus derinys, sudarytas is triju atskiru troskiniu, patiekiamu kartu vienoje leksteje: Gbegiri (pupeliu sriu...",
+  "compressionStats": {
+    "originalSize": 1207817,
+    "compressedSize": 213507,
+    "compressionRatio": 82.3
+  },
+  "uploadedAt": "2025-11-17T19:51:13.110Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/abula-nigerietiskas-triju-troskiniu-patiekalas.jpg"
+}

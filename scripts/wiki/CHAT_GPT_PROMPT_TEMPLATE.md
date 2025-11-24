@@ -433,13 +433,14 @@ trokiniai
 uzkandziai
 vaikams
 vakariene
+desertai
 
 avokadas
 bulves
 darzoves
 duona
 elniena
-parsas
+kiauliena
 grybai
 jautiena
 juros-gerybes
@@ -472,30 +473,26 @@ kazane
 kepta-keptuveje
 kepta-orkaiteje
 oro-gruzdintuveje
-troskinta
 zaliavalgiam
 
 gimtadienio-stalui
 helovinui
 kaledos
-kucio
+kucios
 naujuju-metu-stalui
 paskutines-minutes
 seimos-pietums
 vaiku-gimtadieniui
 vasarai
-velykom
+velykoms
 ziemai
 
-be-angliavandenio
 be-glitimo
 be-kiausinio
 be-laktozes
-be-meso
+be-mesos
 be-pieno-produktu
-be-riebalai
-cholesteroliui-mazinti
-diabetikam
+be-riebalu
 pietus-i-darba
 
 

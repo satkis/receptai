@@ -164,12 +164,46 @@ async function findMatchingLocalImage(wikibooksSlug) {
     // Check if the image file exists in main output directory
     const imagePath = path.join(CONFIG.WIKIBOOKS_OUTPUT_DIR, originalFilename);
     try {
-      await fs.access(imagePath);
+      // Use stat instead of access for better compatibility with special characters
+      await fs.stat(imagePath);
       return {
         localPath: imagePath,
         originalFilename: originalFilename
       };
-    } catch {
+    } catch (error) {
+      // Try to find the file by listing directory and matching filename
+      try {
+        const files = await fs.readdir(CONFIG.WIKIBOOKS_OUTPUT_DIR);
+        const matchedFile = files.find(f => f === originalFilename);
+
+        if (matchedFile) {
+          const matchedPath = path.join(CONFIG.WIKIBOOKS_OUTPUT_DIR, matchedFile);
+          return {
+            localPath: matchedPath,
+            originalFilename: matchedFile
+          };
+        }
+      } catch (listError) {
+        // Ignore
+      }
+
+      // If not found in main output, check processed/wiki_images folder
+      // (in case the recipe was already processed but needs re-upload)
+      try {
+        const processedFiles = await fs.readdir(CONFIG.PROCESSED_WIKI_IMAGES_DIR);
+        const matchedFile = processedFiles.find(f => f === originalFilename);
+
+        if (matchedFile) {
+          const matchedPath = path.join(CONFIG.PROCESSED_WIKI_IMAGES_DIR, matchedFile);
+          return {
+            localPath: matchedPath,
+            originalFilename: matchedFile
+          };
+        }
+      } catch (processedError) {
+        // Ignore
+      }
+
       console.error(`❌ Image file not found: ${originalFilename}`);
       return null;
     }

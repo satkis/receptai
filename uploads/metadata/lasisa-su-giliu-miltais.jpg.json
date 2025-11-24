@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"lasisa-su-giliu-miltais.jpg\"",
+  "alt-text": "Lasisa su giliu miltais",
+  "recipe-slug": "lasisa-su-giliu-miltais",
+  "width": "1200",
+  "height": "800",
+  "keywords": "lasisa,su,giliu,lasisa su gilemis,sveikas maistas,kepta lasisa,lasisa su gilemis,tarptautine virtuve,lengvas receptas,Lasisos file,Gilmiu kruopos",
+  "upload-date": "2025-11-21",
+  "category": "zuvis",
+  "cuisine": "Tarptautine",
+  "description": "Labai skani lasisa su giliu miltais. Puikiai tinka su rudaisiais ryziais arba garintomis darzovemis ir keptomis bulvemis.",
+  "compressionStats": {
+    "originalSize": 205636,
+    "compressedSize": 205542,
+    "compressionRatio": 0
+  },
+  "uploadedAt": "2025-11-21T13:54:13.331Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/lasisa-su-giliu-miltais.jpg"
+}

@@ -32,17 +32,17 @@
 - Tracks conversion progress
 
 ### 2d. Upload to MongoDB
-**Status**: ✅ COMPLETE
+**Status**: ✅ MANUAL
 **Command**: `npm run upload-gpt-to-mongodb`
 **Process**:
 - Reads all JSON files from `scripts/wiki/output/chatGPT/`
 - Uploads to MongoDB `receptai.recipes_new` collection
 - Detects existing recipes by slug (updates if exists)
-- Moves successfully uploaded files to `scripts/wiki/output/chatGPT/uploaded-to-mongodb/`
+- Moves successfully uploaded files to `scripts/wiki/output/chatGPT/uploaded-to-mongodb/` 
 - Includes error handling and progress reporting
 
 ### 2e. Image Processing & AWS S3 Upload
-**Status**: ✅ COMPLETE
+**Status**: ✅ MANUAL
 **Command**: `npm run image-prep-and-load`
 **Process**:
 - Query MongoDB for today's Wikibooks recipes with images
@@ -67,9 +67,11 @@ Step 2: npm run convert-and-upload
          ├─ 2a: npm run wiki:extract (extract recipes & images)
          ├─ 2b: Convert to MongoDB format (ChatGPT)
          ├─ 2c: Organize converted files
-         └─ 2d: npm run upload-gpt-to-mongodb (upload to MongoDB) ✅
+
+STEP 3: npm run upload-gpt-to-mongodb (upload to MongoDB)
+         └─ 2d: uploads to mongoDB and moves json to ✅
          ↓
-Step 3: npm run image-prep-and-load (complete image workflow) ✅
+Step 4: 2e: npm run image-prep-and-load (complete image workflow) ✅
          ├─ Convert to JPG
          ├─ Compress images
          ├─ Upload to S3
@@ -77,7 +79,7 @@ Step 3: npm run image-prep-and-load (complete image workflow) ✅
          ├─ Move to processed/wiki_images/
          └─ Remove from output folder
          ↓
-Step 4: ✅ Recipes live on website with images!
+Step 5: ✅ Recipes live on website with images!
 ```
 
 ---
@@ -87,6 +89,7 @@ Step 4: ✅ Recipes live on website with images!
 ✅ **COMPLETE** - All steps automated and working!
 
 **Full workflow now runs with just 3 commands:**
+1. `npm run wiki:extract` - extract wiki recipes to create raw jsons.
 1. `npm run convert-and-upload` - Extract & convert recipes
 2. `npm run upload-gpt-to-mongodb` - Upload to MongoDB
 3. `npm run image-prep-and-load` - Process & upload images to S3

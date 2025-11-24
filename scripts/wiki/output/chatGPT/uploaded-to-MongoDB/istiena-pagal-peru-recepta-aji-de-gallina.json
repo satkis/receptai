@@ -1,0 +1,250 @@
+{
+  "slug": "vistiena-pagal-peru-recepta-aji-de-gallina",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vistiena-pagal-peru-recepta-aji-de-gallina",
+  "title": {
+    "lt": "Vištiena pagal peru receptą - Ají de Gallina"
+  },
+  "description": {
+    "lt": "Ají de Gallina yra tradicinis Peru patiekalas, kuriame vištiena derinama su aštriais geltonaisiais pipirais, parmezano sūriu ir garintu pienu. Šis patiekalas yra ne tik skanus, bet ir maistingas."
+  },
+  "seo": {
+    "metaTitle": "Ají de Gallina - Peru tradicinis vištienos receptas",
+    "metaDescription": "Ají de Gallina receptas su vištiena, parmezano sūriu ir geltonaisiais pipirais. Peru tradicinis patiekalas, skanus ir maistingas.",
+    "keywords": [
+      "ají de gallina",
+      "peru patiekalai",
+      "tradicinis peru receptas",
+      "aštrus vištienos patiekalas"
+    ],
+    "recipeCategory": "vistiena",
+    "recipeCuisine": "Peru",
+    "nutrition": {
+      "calories": 600,
+      "proteinContent": "35g",
+      "fatContent": "40g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/vistiena",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "1300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 didelis, smulkiai supjaustytas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "8 skiltelės, smulkintos",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Geltonieji pipirai"
+      },
+      "quantity": "3 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska ir pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištienos sultinio kubelis"
+      },
+      "quantity": "1 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "¼ kepalo",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pekano riešutai"
+      },
+      "quantity": "110g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Parmezano sūris"
+      },
+      "quantity": "110g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garintas pienas"
+      },
+      "quantity": "1 skardinė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Virti ryžiai"
+      },
+      "quantity": "1.6kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "4 vnt, kietai virti",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "6 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodosios alyvuogės"
+      },
+      "quantity": "120g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Pirmiausia išvirkite vištieną dideliame puode su vandeniu ir sultinio kubeliu. Kai vištiena išvirs, ją išimkite ir smulkiai supjaustykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Padažo gaminimas"
+      },
+      "text": {
+        "lt": "Keptuvėje įkaitinkite alyvuogių aliejų, sudėkite svogūnus ir česnakus, kepkite iki auksinės spalvos. Tada pridėkite geltonuosius pipirus ir toliau kepkite dar kelias minutes."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Į keptuvę sudėkite vištieną, duoną ir sudrėkintus pekano riešutus, parmezano sūrį ir garintą pieną. Maišykite, kol mišinys taps tirštas ir kreminis."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Paruoštą padažą užpilkite ant virtų ryžių, patiekite su kietai virtais kiaušiniais (supjaustykite į 4 dalis išilgai) ir alyvuogėmis. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei nėra geltonųjų pipirų, galite naudoti kitus aštrius pipirus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vistiena-pagal-peru-recepta-aji-de-gallina.jpg",
+    "alt": "Ají de Gallina - Peru tradicinis vištienos patiekalas",
+    "width": 2000,
+    "height": 1518
+  },
+  "tags": [
+    "ají de gallina",
+    "peru virtuvė",
+    "vištienos patiekalas",
+    "tradicinis receptas",
+    "aštrus maistas"
+  ],
+  "author": {
+    "name": "Moby-Dick4000",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Moby-Dick4000"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Aj%C3%AD_de_Gallina_(Peruvian_Chili_Chicken)",
+    "pageTitle": "Cookbook:Ají_de_Gallina_(Peruvian_Chili_Chicken)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T17:03:52+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAj%C3%AD_de_Gallina_(Peruvian_Chili_Chicken)&action=history",
+    "originalCreator": {
+      "name": "Moby-Dick4000",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Moby-Dick4000"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ají_de_gallina_(gourmet)-b.jpg",
+    "author": {
+      "name": "Dtarazona",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Xauxa"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": ""
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Aj%C3%AD_de_gallina_%28gourmet%29-b.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:03:52+03:00",
+  "createdAt": "2025-11-21T17:03:52+03:00",
+  "updatedAt": "2025-11-21T17:03:52+03:00"
+}

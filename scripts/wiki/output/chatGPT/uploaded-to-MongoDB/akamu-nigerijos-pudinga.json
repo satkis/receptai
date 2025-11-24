@@ -1,0 +1,185 @@
+{
+  "slug": "akamu-nigerijos-pudingas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/akamu-nigerijos-pudingas",
+  "title": {
+    "lt": "Akamu - Nigerijos pudingas"
+  },
+  "description": {
+    "lt": "Akamu, dar žinomas kaip pap ar ogi, yra Nigerijos pudingas, gaminamas iš mirkytų kukurūzų. Dažniausiai valgomas pusryčiams su garintu pienu ir cukrumi."
+  },
+  "seo": {
+    "metaTitle": "Akamu - Nigerijos pudingas | Tradicinis receptas",
+    "metaDescription": "Autentiškas Akamu pudingo receptas iš Nigerijos. Labai skanu su garintu pienu ir cukrumi, puikiai tinka pusryčiams.",
+    "keywords": [
+      "akamu",
+      "nigerijos pudingas",
+      "pudingas iš kukurūzų",
+      "tradicinis receptas",
+      "pusryčiai"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "3g",
+      "fatContent": "2g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/be-kepimo",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Akamu pasta"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Karštas vanduo"
+      },
+      "quantity": "500ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garintas pienas"
+      },
+      "quantity": "100ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pasiruošimas"
+      },
+      "text": {
+        "lt": "Didelėje dubenyje sudėkite akamu pastą. Pasirinkite pakankamai didelį indą, nes akamu išsiplečia."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Lumpų sutrupinimas"
+      },
+      "text": {
+        "lt": "Sutrupinkite akamu gabalėlius šaukštu ir sumaišykite su šaltu vandeniu iki vientisos masės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vandens užvirinimas"
+      },
+      "text": {
+        "lt": "Užvirkite didelį puodą vandens."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Mišinio užpilimas"
+      },
+      "text": {
+        "lt": "Kai vanduo užvirs, atsargiai supilkite jį į akamu mišinį, maišydami, kol masė pradės tirštėti."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pabaiga"
+      },
+      "text": {
+        "lt": "Įmaišykite garintą pieną ir cukrų pagal skonį. Jei reikia, pridėkite daugiau vandens."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite skystesnės konsistencijos, pridėkite daugiau karšto vandens."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/akamu-nigerijos-pudingas.jpg",
+    "alt": "Akamu pudingas, tradicinis Nigerijos patiekalas",
+    "width": 407,
+    "height": 547
+  },
+  "tags": [
+    "akamu",
+    "nigerijos virtuvė",
+    "pudingas",
+    "pusryčių receptas",
+    "lengvas paruošimas"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Akamu_(Nigerian_Pudding)",
+    "pageTitle": "Cookbook:Akamu_(Nigerian_Pudding)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T14:03:53.898Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAkamu_(Nigerian_Pudding)&action=history",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Akamu_(Pap)_(Ogi)_(cropped).jpg",
+    "author": {
+      "name": "FOODIEAFRICAN",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:OtuNwachinemere"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Akamu_%28Pap%29_%28Ogi%29_%28cropped%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T14:03:53+03:00",
+  "createdAt": "2025-11-21T14:03:53+03:00",
+  "updatedAt": "2025-11-21T14:03:53+03:00"
+}

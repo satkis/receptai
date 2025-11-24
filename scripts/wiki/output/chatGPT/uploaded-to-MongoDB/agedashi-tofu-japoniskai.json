@@ -1,0 +1,217 @@
+{
+  "slug": "agedashi-tofu-japoniskai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/agedashi-tofu-japoniskai",
+  "title": {
+    "lt": "Agedashi tofu - japoniškas keptas tofu"
+  },
+  "description": {
+    "lt": "Agedashi tofu - tai japoniškas patiekalas, kuriame tofu supjaustomas kubeliais, apkepamas ir patiekiamas su karštu tentsuyu sultiniu. Patiekiama su žaliaisiais svogūnais ir tarkuotu daikonu."
+  },
+  "seo": {
+    "metaTitle": "Agedashi tofu - japoniškas keptas tofu | Receptas",
+    "metaDescription": "Japoniškas Agedashi tofu receptas su keptu tofu kubeliais ir tentsuyu sultiniu. Patiekiama su žaliaisiais svogūnais ir tarkuotu daikonu.",
+    "keywords": [
+      "agedashi tofu",
+      "japoniškas tofu",
+      "keptas tofu",
+      "japoniška virtuvė",
+      "tofu receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Japonų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "12g",
+      "fatContent": "18g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/tofu",
+    "receptai/japonu",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Minkštas tofu"
+      },
+      "quantity": "170g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvių arba kukurūzų krakmolas"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus kepimui"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Dashi sultinys"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviesus sojų padažas"
+      },
+      "quantity": "30 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mirinas"
+      },
+      "quantity": "22.5 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalieji svogūnai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas imbieras"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas daikonas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tofu paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite tofu stačiakampiais, apie 2.5 cm storio. Palikite nuvarvėti ant popierinio rankšluosčio 10–15 minučių, pakeiskite popierių ir apverskite gabaliukus."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Puode sumaišykite padažo ingredientus ir kaitinkite, kol užvirs. Nuimkite nuo ugnies."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tofu kepimas"
+      },
+      "text": {
+        "lt": "Apibarstykite tofu krakmolu ir pašalinkite perteklių. Įkaitinkite aliejų iki 180°C ir kepkite tofu iki auksinės spalvos, apverčiant kartą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Sudėkite tofu į indą, užpilkite padažą ir papuoškite tarkuotu daikonu, imbieru ir svogūnais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudokite šviežią dashi sultinį geriausiam skoniui."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Tofu gabaliukus kepkite mažomis porcijomis, kad išlaikytumėte aliejaus temperatūrą."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/agedashi-tofu-japoniskai.jpg",
+    "alt": "Agedashi tofu - japoniškas keptas tofu patiekiamas su daikonu ir imbieru",
+    "width": 220,
+    "height": 220
+  },
+  "tags": [
+    "agedashi tofu",
+    "japoniškas tofu",
+    "keptas tofu",
+    "japoniška virtuvė",
+    "tofu receptas"
+  ],
+  "author": {
+    "name": "WhisperToMe",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:WhisperToMe"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Agedashi_Tofu",
+    "pageTitle": "Cookbook:Agedashi_Tofu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T15:45:07+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAgedashi_Tofu&action=history",
+    "originalCreator": {
+      "name": "WhisperToMe",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:WhisperToMe"
+    }
+  },
+  "originalImage": {
+    "fileName": "Agedashi.jpg",
+    "author": {
+      "name": "Megwoo at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": ""
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Agedashi.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T15:45:07+03:00",
+  "createdAt": "2025-11-21T15:45:07+03:00",
+  "updatedAt": "2025-11-21T15:45:07+03:00"
+}

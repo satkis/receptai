@@ -1,0 +1,21 @@
+{
+  "Content-Type": "image/jpeg",
+  "Cache-Control": "public, max-age=31536000, immutable",
+  "Content-Disposition": "inline; filename=\"puodelis-arbatos.jpg\"",
+  "alt-text": "Tobulas puodelis arbatos",
+  "recipe-slug": "puodelis-arbatos",
+  "width": "1200",
+  "height": "800",
+  "keywords": "tobulas,puodelis,arbatos,arbata,kaip paruosti arbata,juodoji arbata,britiska arbata,arbatos ritualas,arbata,britiska arbata,juodoji arbata,Karstas vanduo,Arbatzoles (birios) arba arbatos pakeliai",
+  "upload-date": "2025-11-17",
+  "category": "Gerimai",
+  "cuisine": "Britu",
+  "description": "Tobulas puodelis arbatos - britu ir airiu tradicinis ritualas, padedantis nusiraminti, susitelkti ar tiesiog akimirkai sustoti. Sis receptas moko, kaip teisingai ruosti arbata arbatinuke, kad atsiskle...",
+  "compressionStats": {
+    "originalSize": 2977155,
+    "compressedSize": 156435,
+    "compressionRatio": 94.7
+  },
+  "uploadedAt": "2025-11-17T19:51:13.128Z",
+  "s3Location": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/puodelis-arbatos.jpg"
+}

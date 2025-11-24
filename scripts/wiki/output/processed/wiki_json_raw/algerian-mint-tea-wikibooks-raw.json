@@ -1,0 +1,82 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Mint_Tea",
+    "pageTitle": "Cookbook:Algerian_Mint_Tea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "SvnnyBvnny",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlgerian_Mint_Tea&action=history",
+    "extractedAt": "2025-11-21T14:03:57.051Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Algerian Mint Tea",
+    "slug": "algerian-mint-tea",
+    "description": "Algerian Mint Tea (Atay Djazairi) is an Algerian drink. Mint tea is a popular drink all over North Africa and its preparation varies from one country to another. Algerian Mint Tea is prepared by boiling dried green tea and fresh mint leaves in water and sugar. It is poured in small glass cups from very high to allow the hot water to oxygenate, the tea to develop its aromas and to obtain a fine foam on top of the drink.",
+    "ingredients": [
+      "2 tsp of dried green tea (optional)",
+      "1 bunch of fresh mint leaves",
+      "10 sugar cubes (optional)",
+      "Water"
+    ],
+    "instructions": [
+      "Boil water in a saucepan.",
+      "Put 2 tsp of dried green tea in the teapot.",
+      "Pour half a glass of boiling water into the teapot, stir and then empty the water to rinse the tea and get rid of its sour aftertaste.",
+      "Fill the teapot with boiling water and then add the fresh mint leaves, which should have been rinsed carefully beforehand.",
+      "Add the sugar cubes to the teapot then leave it on low to medium heat for a few minutes.",
+      "The tea is ready when the water comes to a boil."
+    ],
+    "notes": [],
+    "servings": 4,
+    "totalTimeMinutes": 30,
+    "difficulty": 3,
+    "category": "Beverage recipes",
+    "categories": [
+      "Algerian recipes|{{PAGENAME}}",
+      "Recipes using tea",
+      "Recipes for tea and tisanes",
+      "Recipes using sugar cube",
+      "Recipes using mint"
+    ]
+  },
+  "image": {
+    "filename": "Tea_in_sahara(algerian_desert).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tea_in_sahara%28algerian_desert%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tea_in_sahara(algerian_desert).jpg",
+    "localPath": "scripts/wiki/output/Tea_in_sahara(algerian_desert).jpg",
+    "dimensions": {
+      "width": 600,
+      "height": 450
+    },
+    "fileSize": 37516,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Houhou",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Houhou"
+    },
+    "metadata": {
+      "description": "Tea algerian sahara by twarag",
+      "categories": [
+        "Atay",
+        "Self-published work",
+        "Tea of Algeria"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Tea_in_sahara(algerian_desert).jpg"
+  }
+}
