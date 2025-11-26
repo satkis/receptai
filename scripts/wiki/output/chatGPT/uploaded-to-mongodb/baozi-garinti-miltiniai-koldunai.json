@@ -1,0 +1,156 @@
+{
+  "slug": "baozi-garinti-miltiniai-koldunai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/baozi-garinti-miltiniai-koldunai",
+  "title": {
+    "lt": "Baozi – Garinti kiniški koldūnai"
+  },
+  "description": {
+    "lt": "Baozi – tradiciniai kiniški garinti koldūnai su įdaru. Jie gali būti užpildyti mėsa arba vegetariškais įdarais ir yra puiki alternatyva ryžiams ar makaronams. Tinka pusryčiams ar bet kuriam dienos valgymui."
+  },
+  "seo": {
+    "metaTitle": "Baozi – Garinti kiniški koldūnai | Tradicinis receptas",
+    "metaDescription": "Sužinokite, kaip paruošti Baozi – tradicinius kiniškus garintus koldūnus su mėsa ar vegetarišku įdaru. Puikiai tinka pusryčiams ar pietums.",
+    "keywords": [
+      "baozi",
+      "garinti koldūnai",
+      "kiniška virtuvė",
+      "miltiniai patiekalai",
+      "tradiciniai receptai",
+      "kinų patiekalai"
+    ],
+    "recipeCategory": "miltiniai",
+    "recipeCuisine": "Kinų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "8g",
+      "fatContent": "4g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 120,
+  "totalTimeMinutes": 150,
+  "timeCategory": "iki-120-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/miltiniai",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Šiltas vanduo" }, "quantity": "200–250 ml", "vital": true },
+    { "name": { "lt": "Aktyvios sausos mielės" }, "quantity": "1 pakelis", "vital": true },
+    { "name": { "lt": "Baltasis cukrus" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Balti miltai" }, "quantity": "450 g", "vital": true },
+    { "name": { "lt": "Kepimo milteliai" }, "quantity": "1 arbatinis šaukštelis", "vital": true },
+    { "name": { "lt": "Druska" }, "quantity": "½ arbatinio šaukštelio", "vital": false },
+    { "name": { "lt": "Sezamo aliejus" }, "quantity": "pagal poreikį", "vital": false },
+    { "name": { "lt": "Įdaras" }, "quantity": "pagal norą", "vital": true }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Mielių aktyvacija" },
+      "text": { "lt": "Sumaišykite mieles su 1 šaukštu cukraus ir 1 puodeliu šilto vandens. Palikite 15 minučių. Jei mielės nereikalauja aktyvacijos, praleiskite šį žingsnį." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Tešlos paruošimas" },
+      "text": { "lt": "Sijokite miltus su cukrumi. Jei mielės jau sumaišytos, įdėkite jas į miltus kartu su likusiu cukrumi." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Tešlos maišymas" },
+      "text": { "lt": "Jei mielių nemaišėte, sumaišykite miltus, druską ir cukrų, tada pridėkite mieles. Įpilkite 1 puodelį vandens, nuolat maišydami." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Tešlos minkymas" },
+      "text": { "lt": "Minkykite tešlą 5–10 minučių, kol ji taps lygi ir šiek tiek blizganti." }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Tešlos kilimas" },
+      "text": { "lt": "Didelį dubenį patepkite sezamo aliejumi, įdėkite tešlą ir palikite šiltoje vietoje, kol padvigubės tūris, apie 1–1,5 val." }
+    },
+    {
+      "step": 6,
+      "name": { "lt": "Formavimas" },
+      "text": { "lt": "Suspauskite tešlą ir padalinkite į 12 dalių. Kiekvieną gabalėlį iškočiokite į diską, įdėkite įdarą ir užspauskite kraštus." }
+    },
+    {
+      "step": 7,
+      "name": { "lt": "Garų paruošimas" },
+      "text": { "lt": "Sudėkite baozi ant pergamento popieriaus ir palikite kilti dar 1 valandą šiltoje vietoje." }
+    },
+    {
+      "step": 8,
+      "name": { "lt": "Garavimas" },
+      "text": { "lt": "Garinkite baozi virš silpnos verdančio vandens srovės 10–15 minučių. Po garavimo leiskite natūraliai atvėsti." }
+    }
+  ],
+  "notes": [
+    { "text": { "lt": "Norint baltesnių bandelių, naudokite balintus miltus." }, "priority": 1 },
+    { "text": { "lt": "Įdaro skonį galite keisti pagal savo pageidavimus." }, "priority": 2 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/baozi-garinti-miltiniai-koldunai.jpg",
+    "alt": "Baozi – tradiciniai kiniški garinti koldūnai",
+    "width": 1024,
+    "height": 768
+  },
+  "tags": [
+    "baozi",
+    "garinti koldūnai",
+    "kiniška virtuvė",
+    "tradiciniai receptai",
+    "miltiniai patiekalai"
+  ],
+  "author": {
+    "name": "Inductiveload",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Inductiveload"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baozi_(Steamed_Yeasted_Dumplings)",
+    "pageTitle": "Cookbook:Baozi_(Steamed_Yeasted_Dumplings)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Inductiveload",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Inductiveload"
+    }
+  },
+  "originalImage": {
+    "fileName": "Nangua_Baozi_(chinese_dumplings).jpg",
+    "author": {
+      "name": "J. Samuel Burner",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Sandstein"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nangua_Baozi_%28chinese_dumplings%29.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Baozi_(Steamed_Yeasted_Dumplings)“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: J. Samuel Burner, CC BY 2.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:23+03:00",
+  "createdAt": "2025-11-25T14:50:23+03:00",
+  "updatedAt": "2025-11-25T14:50:23+03:00"
+}

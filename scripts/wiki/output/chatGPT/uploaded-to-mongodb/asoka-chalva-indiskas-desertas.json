@@ -1,0 +1,236 @@
+{
+  "slug": "asoka-chalva-indiskas-desertas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/asoka-chalva-indiskas-desertas",
+  "title": {
+    "lt": "asoka chalva - Indijos desertas"
+  },
+  "description": {
+    "lt": "asoka chalva - tai tradicinis Indijos desertas iš moong dal pupelių, cukraus ir ghee sviesto. Šis saldus patiekalas dažnai patiekiamas vestuvių ceremonijose."
+  },
+  "seo": {
+    "metaTitle": "asoka chalva - Indijos desertas | Tradicinis receptas su moong dal",
+    "metaDescription": "Tradicinis Indijos asoka chalva desertas su moong dal pupelėmis, cukrumi ir ghee sviestu. Idealus saldus patiekalas ypatingoms progoms.",
+    "keywords": [
+      "asoka chalva",
+	  "chalva",
+      "indijos desertas",
+      "moong dal",
+      "ghee sviestas",
+      "saldus patiekalas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 380,
+      "proteinContent": "9g",
+      "fatContent": "25g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Skaldytos geltonos moong dal pupelės"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ghee sviestas"
+      },
+      "quantity": "12 šaukštų, padalintas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kviečių miltai"
+      },
+      "quantity": "4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kardamono milteliai"
+      },
+      "quantity": "ketvirtis arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Smulkinti anakardžiai"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudoni maistiniai dažai"
+      },
+      "quantity": "1 žiupsnelis",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pupelių kepimas"
+      },
+      "text": {
+        "lt": "Sausai apkepkite moong dal pupeles, kol jos ima kvepėti ir truputį paruduos."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Pupelių virimas"
+      },
+      "text": {
+        "lt": "Įpilkite 3 puodelius vandens ir virkite slėginėje viryklėje apie 7–8 švilpimus, kol pupelės taps minkštos ir košės konsistencijos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Auksinis mišinys"
+      },
+      "text": {
+        "lt": "Pridėkite 4 šaukštus ghee į sunkų puodą ant vidutinės ugnies ir kepkite kviečių miltus, kol jie tas auksiniai."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Dal į miltų mišinį"
+      },
+      "text": {
+        "lt": "Įmaišykite virtas pupeles į miltų mišinį ir leiskite jam sutirštėti 5 minutes. Supilkite cukrų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Ghee įtraukimas"
+      },
+      "text": {
+        "lt": "Nuolat maišydami, pradėkite įmaišyti likusį ghee po vieną šaukštą. Maišykite, kol mišinys pradės atšokti nuo puodo kraštų, tai užtruks apie 12–15 minučių. Viso sudėkite 6–7 šaukštus ghee."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Anakardžių kepimas"
+      },
+      "text": {
+        "lt": "Atskirame keptuvėje įkaitinkite 1 šaukštą ghee ir pridėkite anakardžius. Kepkite iki rusvos spalvos, tada sudėkite į chalvos mišinį."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Pabaiga"
+      },
+      "text": {
+        "lt": "Sumaišykite kardamono miltelius ir maisto dažus. Nuimkite nuo ugnies ir leiskite atvėsti."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šis desertas puikiai dera su arbata ar kava."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Ghee sviestą galima pakeisti sviestu, tačiau skonis šiek tiek skirsis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/asoka-chalva-indiskas-desertas.jpg",
+    "alt": "asoka chalva - tradicinis Indijos desertas iš moong dal pupelių",
+    "width": 3000,
+    "height": 2547
+  },
+  "tags": [
+    "asoka chalva",
+    "indijos desertas",
+    "moong dal",
+    "ghee sviestas",
+    "vestuvių desertas"
+  ],
+  "author": {
+    "name": "SafeenaHalsyn",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:SafeenaHalsyn"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ashoka_Halwa_(Mung_Bean_Pudding)",
+    "pageTitle": "Cookbook:Ashoka_Halwa_(Mung_Bean_Pudding)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T10:27:26.044Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAshoka_Halwa_(Mung_Bean_Pudding)&action=history",
+    "originalCreator": {
+      "name": "SafeenaHalsyn",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SafeenaHalsyn"
+    }
+  },
+  "originalImage": {
+    "fileName": "AshokaHalwa.jpg",
+    "author": {
+      "name": "Safeena Haslyn",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Safeena%20Haslyn"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/AshokaHalwa.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:40:00+03:00",
+  "createdAt": "2025-11-24T13:40:00+03:00",
+  "updatedAt": "2025-11-24T13:40:00+03:00"
+}

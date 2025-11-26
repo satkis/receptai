@@ -1,0 +1,162 @@
+{
+  "slug": "asondo-dziovintos-saldziosios-bulves",
+  "canonicalUrl": "https://ragaujam.lt/receptas/asondo-dziovintos-saldziosios-bulves",
+  "title": {
+    "lt": "Asondo – džiovintos saldžiosios bulvės"
+  },
+  "description": {
+    "lt": "Asondo – tradicinis Nigerijos užkandis, gaminamas iš virtų ir natūraliai išdžiovintų saldžiųjų bulvių. Tai lengvas, traškus ir maistingas užkandis, puikiai tinkantis sveikesnei mitybai, kelionėms ar kasdieniam užkandžiui."
+  },
+  "seo": {
+    "metaTitle": "Asondo – džiovintos saldžiosios bulvės | Tradicinis Nigerijos užkandis",
+    "metaDescription": "Asondo – tradicinis Nigerijos užkandis iš džiovintų saldžiųjų bulvių. Lengvas, traškus, sveikas ir natūralus užkandis, tinkantis tiek vaikams, tiek suaugusiems. Sužinokite, kaip paruošti Asondo namuose.",
+    "keywords": [
+      "asondo receptas",
+      "džiovintos saldžiosios bulvės",
+      "nigerijos užkandis",
+      "saldžiųjų bulvių traškučiai",
+      "sveikas užkandis",
+      "užkandžiai be cukraus",
+      "tradicinis nigerijos receptas",
+      "kaip džiovinti saldžiąsias bulves",
+      "afrikos virtuvė",
+      "namų gamybos užkandžiai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 86,
+      "proteinContent": "1.6g",
+      "fatContent": "0.1g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 360,
+  "totalTimeMinutes": 375,
+  "timeCategory": "daugiau-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/vasarai",
+    "receptai/sveiki-uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Saldžiosios bulvės"
+      },
+      "quantity": "500 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "1 l",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Bulvių paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite saldžiąsias bulves ir supjaustykite plonais, vienodo dydžio gabalėliais – taip jos džiūdamos išliks tolygiai traškios."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Virimas"
+      },
+      "text": {
+        "lt": "Užvirinkite vandenį, sudėkite bulvių gabalėlius ir virkite 10–15 min., kol jie suminkštės, bet neištiš. Nusausinkite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Džiovinimas"
+      },
+      "text": {
+        "lt": "Išdėliokite bulves ant lygaus paviršiaus ir džiovinkite saulėje 2–3 dienas, kol visiškai išdžius. Galite naudoti elektrinę džiovyklę ar orkaitę žemoje temperatūroje (45–55 °C), kol gabalėliai taps sausi ir traškūs."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudojant džiovyklę džiovinimo laikas gali sutrumpėti iki 6–8 valandų. Kuo ploniau supjaustysite bulves, tuo vienodesnė bus tekstūra."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/asondo-dziovintos-saldziosios-bulves.jpg",
+    "alt": "Asondo – tradicinės Nigerijos džiovintos saldžiosios bulvės, išdėliotos džiūti",
+    "width": 3088,
+    "height": 2056
+  },
+  "tags": [
+    "asondo",
+    "nigerijos receptas",
+    "džiovintos saldžiosios bulvės",
+    "afrikos virtuvė",
+    "sveikas užkandis",
+    "daržovių traškučiai",
+    "be glitimo",
+    "veganiški užkandžiai",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Taoheedah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Asondo_(Nigerian_Dried_Sweet_Potatoes)",
+    "pageTitle": "Cookbook:Asondo_(Nigerian_Dried_Sweet_Potatoes)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T10:27:32.108Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsondo_(Nigerian_Dried_Sweet_Potatoes)&action=history",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Drying_sweet_potato.jpg",
+    "author": {
+      "name": "Lishuilynn",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Lishuilynn"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Drying_sweet_potato.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:00:00+03:00",
+  "createdAt": "2025-11-24T13:00:00+03:00",
+  "updatedAt": "2025-11-24T13:00:00+03:00"
+}

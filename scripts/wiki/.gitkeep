@@ -1,0 +1,36 @@
+# This directory contains critical scripts for the Wikibooks recipe automation workflow
+# DO NOT DELETE these mandatory files:
+#
+# WORKFLOW STEPS:
+# ===============
+#
+# STEP 1: Extract Recipes from Wikibooks
+#   - extract-wikibooks-recipe.js (Extracts recipes and images from Wikibooks)
+#   - wikibooks-urls.txt (Input file with Wikibooks recipe URLs)
+#   - Triggered by: npm run wiki:extract
+#   - Output: scripts/wiki/output/*-wikibooks-raw.json + images
+#
+# STEP 2: Convert to MongoDB Format
+#   - convert-and-upload.js (Main orchestrator)
+#   - convert-wikibooks-with-assistant.js (ChatGPT conversion using Assistant API)
+#   - CHAT_GPT_PROMPT_TEMPLATE.md (ChatGPT system prompt for conversion)
+#   - Triggered by: npm run convert-and-upload
+#   - Output: scripts/wiki/output/chatGPT/{slug}.json
+#
+# STEP 3: Upload to MongoDB
+#   - upload-gpt-to-mongodb.js (Uploads converted recipes to MongoDB)
+#   - Triggered by: npm run upload-gpt-to-mongodb
+#   - Output: Recipes in MongoDB receptai.recipes_new collection
+#   - Moves ChatGPT JSON to: scripts/wiki/output/chatGPT/uploaded-to-mongodb/
+#   - Moves original wiki JSON to: scripts/wiki/output/processed/wiki-raw-recipes/
+#
+# STEP 4: Process Images and Upload to S3
+#   - See: scripts/.gitkeep-wiki-automation (image-prep-and-load.js)
+#   - Triggered by: npm run image-prep-and-load
+#   - Output: Images in S3 + MongoDB updated with S3 URLs
+#
+# DOCUMENTATION:
+#   - output/workFlow.md (Complete workflow documentation)
+#
+# These files are protected by .gitkeep to prevent accidental deletion
+

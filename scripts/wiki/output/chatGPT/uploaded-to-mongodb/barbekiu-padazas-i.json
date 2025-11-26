@@ -1,0 +1,128 @@
+{
+  "slug": "barbekiu-padazas-i",
+  "canonicalUrl": "https://ragaujam.lt/receptas/barbekiu-padazas-i",
+  "title": {
+    "lt": "Barbekiu padažas I – paprastas ir skanus"
+  },
+  "description": {
+    "lt": "Šis paprastas barbekiu padažas puikiai tinka kasdieniams patiekalams, net su likusiais mėsos gabalėliais. Dera su ryžiais, soda ar garintomis daržovėmis."
+  },
+  "seo": {
+    "metaTitle": "Barbekiu padažas I | Paprastas ir skanus receptas",
+    "metaDescription": "Atraskite paprastą barbekiu padažo receptą, tinkantį kasdieniams patiekalams. Puikiai dera su ryžiais, soda ir garintomis daržovėmis.",
+    "keywords": [
+      "barbekiu padažas",
+      "paprastas padažas",
+      "namų gamybos padažas",
+      "padažas su kava",
+      "padažas su viskiu",
+      "padažas su citrinos sultimis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 65,
+      "proteinContent": "1g",
+      "fatContent": "0g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 7,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/pietus-i-darba",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Rudasis cukrus" }, "quantity": "62.5 ml", "vital": true },
+    { "name": { "lt": "Česnako milteliai" }, "quantity": "15 ml", "vital": true },
+    { "name": { "lt": "Paprikos milteliai" }, "quantity": "15 ml", "vital": true },
+    { "name": { "lt": "Druska" }, "quantity": "10 ml", "vital": true },
+    { "name": { "lt": "Malti kavos pupelės" }, "quantity": "6.66 ml", "vital": true },
+    { "name": { "lt": "Kečupas" }, "quantity": "250 ml", "vital": true },
+    { "name": { "lt": "Vanduo" }, "quantity": "125 ml", "vital": true },
+    { "name": { "lt": "Baltasis actas" }, "quantity": "45 ml", "vital": true },
+    { "name": { "lt": "Viskių arba konjako" }, "quantity": "pagal skonį", "vital": false },
+    { "name": { "lt": "Citrinos sultys" }, "quantity": "pagal skonį", "vital": false }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Sumaišymas" },
+      "text": { "lt": "Visus ingredientus sudėkite į puodą ir gerai išmaišykite." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Troškinimas" },
+      "text": { "lt": "Leiskite padažui virti ant mažos ugnies apie 30 minučių, retkarčiais pamaišant." }
+    }
+  ],
+  "notes": [
+    { "text": { "lt": "Galite pridėti 5 ml svogūnų miltelių arba aromatinių žolelių, pavyzdžiui, čiobrelių ar rozmarino." }, "priority": 1 },
+    { "text": { "lt": "Jei naudosite ryžių actą, sumažinkite baltojo acto kiekį iki 30 ml." }, "priority": 2 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/barbekiu-padazas-i.jpg",
+    "alt": "Namų gamybos barbekiu padažas stiklainyje",
+    "width": 2988,
+    "height": 2988
+  },
+  "tags": [
+    "barbekiu padažas",
+    "paprastas padažas",
+    "namų gamybos padažas",
+    "padažas su kava",
+    "greitas receptas"
+  ],
+  "author": {
+    "name": "AlbertCahalan",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Sauce_I",
+    "pageTitle": "Cookbook:Barbecue_Sauce_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    }
+  },
+  "originalImage": {
+    "fileName": "BBQ_Sauce_Cookbook.png",
+    "author": {
+      "name": "QuickQuokka",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:QuickQuokka"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/BBQ_Sauce_Cookbook.png"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Barbecue_Sauce_I“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: QuickQuokka, CC0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:50:29+03:00",
+  "createdAt": "2025-11-25T17:50:29+03:00",
+  "updatedAt": "2025-11-25T17:50:29+03:00"
+}

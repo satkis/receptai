@@ -1,0 +1,259 @@
+{
+  "slug": "arancini-italiski-kepti-ryziu-kamuoliukai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/arancini-italiski-kepti-ryziu-kamuoliukai",
+  "title": {
+    "lt": "Arancini - itališki kepti ryžių kamuoliukai"
+  },
+  "description": {
+    "lt": "Arancini - tradiciniai itališki kepti ryžių kamuoliukai su mozzarella, parmezano sūriu ir kumpiu. Puikus užkandis su marinaro padažu."
+  },
+  "seo": {
+    "metaTitle": "Arancini-Itališki kepti ryžių kamuoliukai",
+    "metaDescription": "Itališkų arancinių receptas: kepti ryžių kamuoliukai su mozzarella, parmezanu ir kumpiu. Patiekiama su marinaro padažu.",
+    "keywords": [
+      "arancini",
+      "italų virtuvė",
+      "kepti ryžių kamuoliukai",
+      "mozarella sūris",
+      "parmezano sūris"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "18g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/ryziai",
+    "receptai/vakariene",
+    "receptai/italu"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Arborio ryžiai"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mozzarella sūris"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Parmezano sūris"
+      },
+      "quantity": "60g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kumpis"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiūvėsėliai"
+      },
+      "quantity": "1.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "šlakelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "kepimui",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Marinaro padažas"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ryžių virimas"
+      },
+      "text": {
+        "lt": "Virti ryžius pasūdytame vandenyje, kol suminkštės. Nusausinkite ir atvėsinkite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sūrių ir pipirų maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite ryžius su mozzarella ir parmezano sūriais bei pipirais, palikite atvėsti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Įdaro paruošimas"
+      },
+      "text": {
+        "lt": "Kumpį ir sviestą sumaišykite. Tai bus įdaras."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kamuoliukų formavimas"
+      },
+      "text": {
+        "lt": "Suformuokite ryžių paplotėlį. įdėję įdarą ant paplotėlio - suformuokite kamuoliukus."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kamuoliukų padengimas"
+      },
+      "text": {
+        "lt": "Apvoliokite kamuoliukus miltuose, kiaušinių plakinyje, tada džiūvėsėliuose."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite kamuoliukus karštame aliejuje, kol taps auksinės spalvos. Nusausinkite ant popierinių rankšluosčių."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite su šiltu marinaro padažu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Kepant aliejaus lygis turėtų būti bent iki pusės kamuoliukų."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/arancini-italiski-kepti-ryziu-kamuoliukai.jpg",
+    "alt": "Itališki arancini - kepti ryžių kamuoliukai su sūriu ir kumpiu",
+    "width": 2288,
+    "height": 1712
+  },
+  "tags": [
+    "arancini",
+    "italų virtuvė",
+    "kepti ryžių kamuoliukai",
+    "ryžių receptas",
+    "užkandis su sūriu"
+  ],
+  "author": {
+    "name": "NMaia",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Arancini_(Italian_Fried_Rice_Balls)",
+    "pageTitle": "Cookbook:Arancini_(Italian_Fried_Rice_Balls)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T13:27:21+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AArancini_(Italian_Fried_Rice_Balls)&action=history",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    }
+  },
+  "originalImage": {
+    "fileName": "Arancini_002.jpg",
+    "author": {
+      "name": "No machine-readable author provided. Gmelfi assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gmelfi"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Arancini_002.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Arancini_002.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:27:21+03:00",
+  "createdAt": "2025-11-24T13:27:21+03:00",
+  "updatedAt": "2025-11-24T13:27:21+03:00"
+}

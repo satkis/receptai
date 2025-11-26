@@ -1,0 +1,87 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Ribs",
+    "pageTitle": "Cookbook:Barbecue_Ribs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Iwatchaltonbrown",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABarbecue_Ribs&action=history",
+    "extractedAt": "2025-11-25T14:50:26.517Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Barbecue Ribs",
+    "slug": "barbecue-ribs",
+    "description": "Category:Recipes using pork Category:Barbecue recipes Category:Smoked recipes Category:Main course recipes Category:Recipes with metric units Category:Recipes using blackstrap molasses Category:Recipes using light molasses",
+    "ingredients": [
+      "1 slab St. Louis pork spareribs",
+      "5 tbsp Barbecue Rub",
+      "½ cup apple cider vinegar",
+      "½ cup tomato paste",
+      "¼ cup blackstrap molasses",
+      "¼ cup light molasses",
+      "2 tbsp Worcestershire sauce",
+      "Large hickory chunks"
+    ],
+    "instructions": [
+      "Massage ribs with the barbecue rub. Refrigerate for 1 hour.",
+      "Combine remaining ingredients except for hickory in a large saucepan, and bring to a boil over high heat until reduced by ½.",
+      "Place hickory chunks in firebox of 250°F (120°C) smoker.",
+      "Place ribs in smoker and cook, brushing often with tomato mixture and changing the hickory chunks as needed, for 5–6 hours.",
+      "Brush ribs generously with mixture and grill on high heat, brushing repeatedly until well-browned on both sides.",
+      "Remove and let rest 10 minutes. Serve."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using pork",
+      "Barbecue recipes",
+      "Smoked recipes",
+      "Main course recipes",
+      "Recipes with metric units",
+      "Recipes using blackstrap molasses",
+      "Recipes using light molasses"
+    ]
+  },
+  "image": {
+    "filename": "Ribs_barbecue.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ribs_barbecue.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ribs_barbecue.jpg",
+    "localPath": "scripts/wiki/output/Ribs_barbecue.jpg",
+    "dimensions": {
+      "width": 2048,
+      "height": 1536
+    },
+    "fileSize": 1283655,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Gyfjonas",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gyfjonas"
+    },
+    "metadata": {
+      "description": "Barbecue ribs",
+      "categories": [
+        "Barbecued food",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Ribs_barbecue.jpg"
+  }
+}

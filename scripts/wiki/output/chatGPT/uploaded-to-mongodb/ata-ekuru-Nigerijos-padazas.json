@@ -1,0 +1,207 @@
+{
+  "slug": "ata-ekuru-Nigerijos-padazas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/ata-ekuru-Nigerijos-padazas",
+  "title": {
+    "lt": "Ata Ekuru (Ekuru padažas)"
+  },
+  "description": {
+    "lt": "Ata Ekuru yra raudonas padažas, naudojamas ekuru pagardinimui. Tai esminė ekuru dalis, gaminama iš raudonųjų paprikų ir kitų prieskonių."
+  },
+  "seo": {
+    "metaTitle": "Ata Ekuru padažas | Tradicinis Nigerijos receptas",
+    "metaDescription": "Autentiškas Ata Ekuru padažo receptas iš Nigerijos. Pagamintas iš raudonųjų paprikų ir prieskonių, puikiai tinka ekuru patiekalui.",
+    "keywords": [
+      "ekuru padažas",
+      "nigerijos virtuvė",
+      "padažas su paprikomis",
+      "tradicinis padažas",
+      "nigeriškas receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "2g",
+      "fatContent": "30g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Raudonosios paprikos"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rodo (scotch bonnet pipirai)"
+      },
+      "quantity": "6 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Švieži kajeno pipirai"
+      },
+      "quantity": "10 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Palmių aliejus"
+      },
+      "quantity": "400 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Prieskonių kubeliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žuvis"
+      },
+      "quantity": "Nebūtina",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Maltos krevetės"
+      },
+      "quantity": "Nebūtina",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "Nebūtina",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite raudonąsias paprikas, scotch bonnet pipirus ir kajeno pipirus. Susmulkinkite iki grubios pastos konsistencijos."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite palmių aliejų keptuvėje. Po 5 minučių įpilkite maltą pipirų mišinį į karštą aliejų. Pagardinkite druska ir prieskonių kubeliais pagal skonį, pridėkite pasirinktinus ingredientus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Virimas"
+      },
+      "text": {
+        "lt": "Virinkite ant vidutinės–žemos ugnies apie 30–40 minučių, kol padažas bus gerai išviręs ir aliejus pakils į paviršių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite kartu su ekuru."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/ata-ekuru-Nigerijos-padazas.jpg",
+    "alt": "Ata Ekuru padažas su raudonosiomis paprikomis ir prieskoniais",
+    "width": 536,
+    "height": 402
+  },
+  "tags": [
+    "ata ekuru padažas",
+    "nigeriškas receptas",
+    "padažas su paprikomis",
+    "tradicinis padažas",
+    "nigerijos virtuvė"
+  ],
+  "author": {
+    "name": "Adefanike",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Adefanike"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ata_Ekuru_(Ekuru_Sauce)",
+    "pageTitle": "Cookbook:Ata_Ekuru_(Ekuru_Sauce)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T13:27:34+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAta_Ekuru_(Ekuru_Sauce)&action=history",
+    "originalCreator": {
+      "name": "Adefanike",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Adefanike"
+    }
+  },
+  "originalImage": {
+    "fileName": "Pepper_sauce.jpg",
+    "author": {
+      "name": "Amuzujoe",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Amuzujoe"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Pepper_sauce.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:27:34+03:00",
+  "createdAt": "2025-11-24T13:27:34+03:00",
+  "updatedAt": "2025-11-24T13:27:34+03:00"
+}

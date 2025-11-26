@@ -1,0 +1,96 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Austrian_Napkin_Dumpling_(Serviettenkn%C3%B6del)",
+    "pageTitle": "Cookbook:Austrian_Napkin_Dumpling_(Serviettenknödel)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Brite33b",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Brite33b"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAustrian_Napkin_Dumpling_(Serviettenkn%C3%B6del)&action=history",
+    "extractedAt": "2025-11-24T10:27:40.848Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Austrian Napkin Dumpling (Serviettenknödel)",
+    "slug": "austrian-napkin-dumpling-serviettenkn-del",
+    "description": "Serviettenknödel (ˌsɛr.vi.ˈɛt.ɛn ˈknø:dɘl) is a type of knoedel, a bread dumpling that plays an integral role in the culinary traditions of Austria, Bavaria, and the Czech Republic. These bread dumplings are often served alongside roast duck, goose, and pork, as well as many different kinds of dishes with hearty sauces such as Hungarian goulash and venison or mushroom ragout. The exact ingredients in the knödel vary slightly according to region and to season. Many cooks include wild garlic in the spring and in leeks in the autumn and winter. The version below is a seasonal standard. ==Ingredients== * 8.8 oz (250 g) stale French or Italian bread, cut into crouton-sized cubes * 2 eggs * 1¼ cups (300 ml) milk (preferably whole milk) * 4 Tbsp (60 g) butter * ¼ cup (60 g) finely-chopped onion (1 medium-sized onion) * 2 tsp (1 large dash) salt * ½–1 bunch chopped broad-leaf parsley ==Procedure== thumb|308x308px|Mixing the ingredients #Mix the milk, eggs and salt together. Combine the mixture with the bread cubes and the parsley in a large mixing bowl, coating as much of the bread as possible with the mixture. Let the mixture rest. #Chop and sauté the onions. Cool enough to not cook the eggs, add them to the bread mixture, and mix thoroughly. #Let the mixture rest for an hour, mixing it through once or twice during the hour. The object here is to coat the cubes with the liquid mixture on all sides to allow them to absorb as much liquid as possible; this is especially necessary if your bread is more than a few days old. #Wet a fresh cotton dishcloth, tea towel, or cloth napkin. Some cooks brush the top side of the cloth with melted butter for more flavor, but this is not necessary. Completely unfold the dishcloth and place the bread mass in the middle of the cloth. #Next, form the bread mass into a 3-inch (~6 cm) thick log. Roll bread log up tightly in the cloth and tie off the ends of cloth with a short length of string or twine. Some cooks also tie a string around the middle as the edge of the cloth tends to pucker in the middle. #Bring a large pot of water to a boil, and then add salt. Slowly lower the serviettenknödel into the water and let cook for 40 minutes. #Remove the serviettenknödel from the boiling water with tongs (or two forks in a pinch) and transfer to a large cutting board. Cut and remove the string; then unroll and remove the cloth. #To prepare the knödel for the table, begin at one end and cut ½-inch (1 cm) slices, taking only as many as you need in servings so that the knödel does not get cold.",
+    "ingredients": [
+      "8.8 oz (250 g) stale French or Italian bread, cut into crouton-sized cubes",
+      "2 eggs",
+      "1¼ cups (300 ml) milk (preferably whole milk)",
+      "4 Tbsp (60 g) butter",
+      "¼ cup (60 g) finely-chopped onion (1 medium-sized onion)",
+      "2 tsp (1 large dash) salt",
+      "½–1 bunch chopped broad-leaf parsley"
+    ],
+    "instructions": [
+      "Mix the milk, eggs and salt together. Combine the mixture with the bread cubes and the parsley in a large mixing bowl, coating as much of the bread as possible with the mixture. Let the mixture rest.",
+      "Chop and sauté the onions. Cool enough to not cook the eggs, add them to the bread mixture, and mix thoroughly.",
+      "Let the mixture rest for an hour, mixing it through once or twice during the hour. The object here is to coat the cubes with the liquid mixture on all sides to allow them to absorb as much liquid as possible; this is especially necessary if your bread is more than a few days old.",
+      "Wet a fresh cotton dishcloth, tea towel, or cloth napkin. Some cooks brush the top side of the cloth with melted butter for more flavor, but this is not necessary. Completely unfold the dishcloth and place the bread mass in the middle of the cloth.",
+      "Next, form the bread mass into a 3-inch (~6 cm) thick log. Roll bread log up tightly in the cloth and tie off the ends of cloth with a short length of string or twine. Some cooks also tie a string around the middle as the edge of the cloth tends to pucker in the middle.",
+      "Bring a large pot of water to a boil, and then add salt. Slowly lower the serviettenknödel into the water and let cook for 40 minutes.",
+      "Remove the serviettenknödel from the boiling water with tongs (or two forks in a pinch) and transfer to a large cutting board. Cut and remove the string; then unroll and remove the cloth.",
+      "To prepare the knödel for the table, begin at one end and cut ½-inch (1 cm) slices, taking only as many as you need in servings so that the knödel does not get cold."
+    ],
+    "notes": [
+      "The amount of butter can also be lessened or substituted with a neutral-tasting oil.",
+      "A wooden cutting board is preferred, as the wood will absorb much of the excess water in the cloth."
+    ],
+    "servings": 6,
+    "totalTimeMinutes": 100,
+    "difficulty": 2,
+    "category": "Dumpling recipes",
+    "categories": [
+      "Recipes with metric units",
+      "Austrian recipes",
+      "Side dish recipes",
+      "Dumpling recipes",
+      "Boiled recipes",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes using egg",
+      "Recipes using bread",
+      "Recipes using whole milk"
+    ]
+  },
+  "image": {
+    "filename": "Serviettenknoedel_bread-log.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Serviettenknoedel_bread-log.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Serviettenknoedel_bread-log.jpg",
+    "localPath": "scripts/wiki/output/Serviettenknoedel_bread-log.jpg",
+    "dimensions": {
+      "width": 1024,
+      "height": 768
+    },
+    "fileSize": 264528,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "brite33b",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "metadata": {
+      "description": "serviettenknoedel_bread-log",
+      "categories": [
+        "Cooking",
+        "CC-BY-SA-3.0,2.5,2.0,1.0",
+        "Files moved from en.wikibooks to Commons requiring review",
+        "Files moved to Commons requiring review as of 19 August 2017"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Serviettenknoedel_bread-log.jpg"
+  }
+}

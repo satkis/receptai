@@ -1,0 +1,181 @@
+{
+  "slug": "bananu-pudingas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bananu-pudingas",
+  "title": {
+    "lt": "Bananų pudingas – kreminis desertas su vaniliniais sausainiais ir meringa"
+  },
+  "description": {
+    "lt": "Lengvai paruošiamas, švelniai saldus ir kreminis bananų pudingas su vaniliniais sausainiais, natūraliu kremu ir puria meringa. Puikus naminis desertas, tinkantis šeimos šventėms, kasdienai ar svečių nustebinimui."
+  },
+  "seo": {
+    "metaTitle": "Bananų pudingas – naminis kreminis desertas su meringa",
+    "metaDescription": "Išbandykite kreminį bananų pudingą su vaniliniais sausainiais ir meringa. Skanus, purus, lengvai paruošiamas desertas visoms progoms. Žingsnis po žingsnio receptas.",
+    "keywords": [
+      "bananų pudingas",
+      "bananų pudingo receptas",
+      "kreminis pudingas",
+      "pudingas su meringa",
+      "bananinis desertas",
+      "vaniliniai sausainiai pudingas",
+      "naminis pudingas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Pietų JAV",
+    "nutrition": {
+      "calories": 230,
+      "proteinContent": "4g",
+      "fatContent": "7g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pietus",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Pienas" }, "quantity": "240 ml", "vital": true },
+    { "name": { "lt": "Granuliuotas cukrus" }, "quantity": "225 g", "vital": true },
+    { "name": { "lt": "Sviestas" }, "quantity": "10 g", "vital": true },
+    { "name": { "lt": "Druska" }, "quantity": "¼ arb. šaukštelio", "vital": true },
+    { "name": { "lt": "Vanilės ekstraktas arba vanilinis cukrus" }, "quantity": "1 arb. šaukštelis", "vital": true },
+    { "name": { "lt": "Kiaušiniai" }, "quantity": "4 vnt.", "vital": true },
+    { "name": { "lt": "Kukurūzų krakmolas" }, "quantity": "15 g", "vital": true },
+    { "name": { "lt": "Vaniliniai sausainiai arba damų piršteliai" }, "quantity": "14–20 vnt.", "vital": true },
+    { "name": { "lt": "Citrinos sultys" }, "quantity": "60 ml", "vital": true },
+    { "name": { "lt": "Bananai" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Suskaldytas nesaldintas kokosas" }, "quantity": "10 g", "vital": false }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Pagrindinio kremo paruošimas" },
+      "text": {
+        "lt": "Puode sumaišykite pieną, 200 g cukraus, sviestą, druską ir vanilę. Kaitinkite ant vidutinės ugnies, kol sviestas visiškai išsilydys ir mišinys sušils."
+      }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Kiaušinių paruošimas" },
+      "text": {
+        "lt": "Atskirkite kiaušinių trynius. Juos išplakite su šlakeliu karšto pieno mišinio (temperavimui), kad tryniai nesutrauktų."
+      }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Kremo sujungimas" },
+      "text": {
+        "lt": "Supilkite trynių masę į puodą ir maišykite, kol kremas taps vientisas."
+      }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Kremo sutirštinimas" },
+      "text": {
+        "lt": "Krakmolą išmaišykite su 2 šaukštais šalto vandens ir supilkite į kremą. Kaitinkite maišydami, kol mišinys sutirštės."
+      }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Meringos paruošimas" },
+      "text": {
+        "lt": "Kiaušinių baltymus su 25 g cukraus išplakite iki standžių, purių viršūnių."
+      }
+    },
+    {
+      "step": 6,
+      "name": { "lt": "Sausainių ir bananų sluoksniavimas" },
+      "text": {
+        "lt": "Dubenyje išdėliokite vanilinius sausainius. Užpilkite pusę citrinos sulčių, tuomet užpilkite pusę kremo ir dėkite pusę supjaustytų bananų."
+      }
+    },
+    {
+      "step": 7,
+      "name": { "lt": "Sluoksnių pabaiga" },
+      "text": {
+        "lt": "Pakartokite sluoksniavimą: sausainiai, likusios citrinos sultys, kremas ir bananų riekelės."
+      }
+    },
+    {
+      "step": 8,
+      "name": { "lt": "Meringa ir kokosų užbaigimas" },
+      "text": {
+        "lt": "Užtepkite meringą ant viršaus ir pabarstykite kokosu. Šaldykite kelias valandas, kad skoniai susijungtų."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti pudingo miltelius, tačiau tokiu atveju nebeliks kiaušinių baltymų meringai."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bananu-pudingas.jpg",
+    "alt": "Naminis bananų pudingas su vaniliniais sausainiais, kremu ir meringos kepurėle",
+    "width": 1728,
+    "height": 1168
+  },
+  "tags": [
+    "bananų pudingas",
+    "kreminis desertas",
+    "pudingas su meringa",
+    "bananinis desertas",
+    "vaniliniai sausainiai"
+  ],
+  "author": {
+    "name": "Mahagaja",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mahagaja"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banana_Pudding",
+    "pageTitle": "Cookbook:Banana_Pudding",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mahagaja",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mahagaja"
+    }
+  },
+  "originalImage": {
+    "fileName": "Banana_pudding,_homemade.jpg",
+    "author": {
+      "name": "ReneeWrites",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:ReneeWrites"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Banana_pudding%2C_homemade.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija, parengta pagal originalų Wikibooks turinį „Cookbook:Banana_Pudding“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: ReneeWrites, licencija CC BY-SA 2.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:15+03:00",
+  "createdAt": "2025-11-25T14:50:15+03:00",
+  "updatedAt": "2025-11-25T14:50:15+03:00"
+}

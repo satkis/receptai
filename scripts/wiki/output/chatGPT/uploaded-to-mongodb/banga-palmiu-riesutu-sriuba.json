@@ -1,0 +1,145 @@
+{
+  "slug": "banga-palmiu-riesutu-sriuba",
+  "canonicalUrl": "https://ragaujam.lt/receptas/banga-palmiu-riesutu-sriuba",
+  "title": {
+    "lt": "Banga sriuba – tradicinė Nigerijos palmių riešutų sriuba"
+  },
+  "description": {
+    "lt": "Banga sriuba yra turtinga ir aromatinga Nigerijos sriuba, pagaminta iš palmių riešutų ekstrakto, įvairios mėsos ir prieskonių. Puikiai dera su krakmolu, fufu ar ryžiais."
+  },
+  "seo": {
+    "metaTitle": "Banga sriuba – Nigerietiška palmių riešutų sriuba | Tradicinis receptas",
+    "metaDescription": "Atraskite tradicinę Nigerijos Banga sriubą, gaminamą iš palmių riešutų ekstrakto, įvairios mėsos ir prieskonių. Skani ir aromatinga sriuba, puikiai tinkanti su fufu ar ryžiais.",
+    "keywords": [
+      "banga sriuba",
+      "nigerietiška sriuba",
+      "palmių riešutų ekstraktas",
+      "tradicinė nigerijos virtuvė",
+      "sriuba su mėsa",
+      "afrikos sriuba"
+    ],
+    "recipeCategory": "sriubos",
+    "recipeCuisine": "Nigeriečių",
+    "nutrition": {
+      "calories": 580,
+      "proteinContent": "38g",
+      "fatContent": "48g",
+      "fiberContent": "11g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/sriubos",
+  "secondaryCategories": [
+    "receptai/miltiniai",
+    "receptai/uzkandziai",
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Palmių riešutai arba konservuotas palmių riešutų ekstraktas" }, "quantity": "800 ml", "vital": true },
+    { "name": { "lt": "Įvairi mėsa (jautiena, ožkiena, skrandis)" }, "quantity": "500 g", "vital": true },
+    { "name": { "lt": "Džiovinta žuvis" }, "quantity": "1-2 vnt", "vital": true },
+    { "name": { "lt": "Sultinio kubelis" }, "quantity": "1 vnt", "vital": true },
+    { "name": { "lt": "Druska" }, "quantity": "Pagal skonį", "vital": true },
+    { "name": { "lt": "Maltos krevetės" }, "quantity": "1 šaukštas", "vital": true },
+    { "name": { "lt": "Svogūnas" }, "quantity": "1 mažas", "vital": true },
+    { "name": { "lt": "Banga prieskoniai" }, "quantity": "1 arbatinis šaukštelis", "vital": false },
+    { "name": { "lt": "Kvapniosios lapelės arba bazilikas" }, "quantity": "Pagal skonį", "vital": false },
+    { "name": { "lt": "Vanduo" }, "quantity": "Kaip reikia", "vital": true }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Palmių riešutų paruošimas" },
+      "text": { "lt": "Jei naudojate žalius palmių riešutus, virkite juos, kol suminkštės, sutrinkite ir išspauskite sultis su šiltu vandeniu. Perkoškite. Konservuotą ekstraktą naudokite tiesiogiai." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Mėsos ir žuvies paruošimas" },
+      "text": { "lt": "Į puodą sudėkite mėsą, džiovintą žuvį, smulkintą svogūną, sultinio kubelį ir druską. Įpilkite šiek tiek vandens ir virkite, kol mėsa suminkštės." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Sriubos virimas" },
+      "text": { "lt": "Įpilkite palmių riešutų ekstraktą, jei per tiršta – papildykite vandeniu. Gerai išmaišykite ir užvirinkite." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Prieskonių pridėjimas" },
+      "text": { "lt": "Įdėkite maltų krevečių ir Banga prieskonių mišinį. Virkite atidengtą ant vidutinės ugnies 15–20 min, kol aliejus pakils į viršų." }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Pabaiga" },
+      "text": { "lt": "Pridėkite kvapnias lapeles arba baziliką ir virkite dar 5 minutes. Patiekite karštą su krakmolu, fufu, trintais yam ar ryžiais." }
+    }
+  ],
+  "notes": [
+    { "text": { "lt": "Konservuotas palmių riešutų ekstraktas taupo laiką ir yra lengvai prieinamas Afrikos parduotuvėse." }, "priority": 1 },
+    { "text": { "lt": "Banga prieskonių mišinį galima pasigaminti namuose arba įsigyti parduotuvėje." }, "priority": 2 },
+    { "text": { "lt": "Sriuba puikiai dera su fufu, pounded yam ar ryžiais." }, "priority": 3 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/banga-palmiu-riesutu-sriuba.jpg",
+    "alt": "Banga sriuba – aromatinga Nigerijos palmių riešutų sriuba su mėsa ir prieskoniais",
+    "width": 620,
+    "height": 620
+  },
+  "tags": [
+    "banga sriuba",
+    "nigerietiška virtuvė",
+    "palmių riešutų ekstraktas",
+    "tradicinė sriuba",
+    "mėsos sriuba"
+  ],
+  "author": {
+    "name": "A Sulaiman Z",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:A%20Sulaiman%20Z"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banga_Soup",
+    "pageTitle": "Cookbook:Banga_Soup",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "A Sulaiman Z",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:A%20Sulaiman%20Z"
+    }
+  },
+  "originalImage": {
+    "fileName": "Information_icon4.svg",
+    "author": {
+      "name": "penubag (color adjustments)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Srittau"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Information_icon4.svg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Information_icon4.svg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija, parengta pagal originalų Wikibooks turinį „Cookbook:Banga_Soup“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: penubag, Public Domain."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:00:00+03:00",
+  "createdAt": "2025-11-25T17:00:00+03:00",
+  "updatedAt": "2025-11-25T17:00:00+03:00"
+}

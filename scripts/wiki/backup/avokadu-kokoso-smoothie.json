@@ -1,0 +1,170 @@
+{
+  "slug": "avokadu-kokoso-smoothie",
+  "canonicalUrl": "https://ragaujam.lt/receptas/avokadu-kokoso-smoothie",
+  "title": {
+    "lt": "Avokadų ir kokoso smoothie"
+  },
+  "description": {
+    "lt": "Šis avokadų ir kokoso smoothie yra puikus gaivinantis gėrimas. Jis pagamintas su avokadu, kokoso pienu ir medumi. Idealiai tinka kaip sveikas užkandis arba pusryčių dalis."
+  },
+  "seo": {
+    "metaTitle": "Avokadų ir Kokoso Smoothie | Sveikas gėrimas",
+    "metaDescription": "Avokadų ir kokoso smoothie receptas su avokadu, kokoso pienu ir medumi. Sveikas ir gaivinantis gėrimas, puikiai tinkantis užkandžiui ar pusryčiams.",
+    "keywords": [
+      "avokadų smoothie",
+      "kokoso gėrimas",
+      "sveikas smoothie",
+      "avokadas",
+      "kokoso pienas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "3g",
+      "fatContent": "15g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 7,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 5,
+  "timeCategory": "iki-15-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/smoothies",
+    "receptai/vaisiai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Prinokęs avokadas"
+      },
+      "quantity": "1 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kokoso pienas"
+      },
+      "quantity": "200 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Medus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ledas"
+      },
+      "quantity": "100 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Špinatai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Maišymas"
+      },
+      "text": {
+        "lt": "Sudėkite kokoso pieną, avokadą, medų ir špinatus į trintuvą. Maišykite, kol masė taps vientisa."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Įmaišykite ledą ir patiekite smoothie atvėsintą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint skystesnio smoothie, įpilkite daugiau pieno; norint tirštesnio, pridėkite daugiau ledo."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Nenaudokite kokoso vandens, nes tai gali pakeisti gėrimo skonį."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/avokadu-kokoso-smoothie.jpg",
+    "alt": "Avokadų ir kokoso smoothie - gaivus ir sveikas gėrimas",
+    "width": 2448,
+    "height": 3264
+  },
+  "tags": [
+    "avokadų smoothie",
+    "kokoso gėrimas",
+    "sveikas užkandis",
+    "greitas receptas",
+    "gaivinantis gėrimas"
+  ],
+  "author": {
+    "name": "Tesleemah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Avocado_Coconut_Smoothie",
+    "pageTitle": "Cookbook:Avocado_Coconut_Smoothie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T13:27:42.643Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAvocado_Coconut_Smoothie&action=history",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Green_Smoothie.jpg",
+    "author": {
+      "name": "Annapowell",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Annapowell"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Green_Smoothie.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:27:42+03:00",
+  "createdAt": "2025-11-24T13:27:42+03:00",
+  "updatedAt": "2025-11-24T13:27:42+03:00"
+}

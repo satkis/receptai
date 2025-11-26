@@ -1,0 +1,206 @@
+{
+  "slug": "amerikietiskas-jautienos-burgeris",
+  "canonicalUrl": "https://ragaujam.lt/receptas/amerikietiskas-jautienos-burgeris",
+  "title": {
+    "lt": "Au Jus sumuštinis – amerikietiškas jautienos delikatesas"
+  },
+  "description": {
+    "lt": "Au Jus sumuštinis – klasikinis amerikietiškas patiekalas su sultinga jautiena ir prancūziškomis bandelėmis. Idealiai tinka sotriems pietums ar vakarienei."
+  },
+  "seo": {
+    "metaTitle": "Au Jus sumuštinis | Klasikinis amerikietiškas jautienos receptas",
+    "metaDescription": "Išbandykite klasikinius amerikietiškus Au Jus sumuštinius su jautiena ir prancūziškomis bandelėmis. Sultingas, skanus ir sotus pasirinkimas pietums ar vakarienei.",
+    "keywords": [
+      "au jus sumuštinis",
+      "jautienos sumuštinis",
+      "amerikietiškas sumuštinis",
+      "prancūziškos bandelės",
+      "klasikinis receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Amerikos",
+    "nutrition": {
+      "calories": 750,
+      "proteinContent": "30g",
+      "fatContent": "40g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 350,
+  "totalTimeMinutes": 360,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/jautiena",
+    "receptai/kepta-keptuveje"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "kiekis pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautienos sultinio kubelis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Prancūziška svogūnų sriuba"
+      },
+      "quantity": "470 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "250 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alaus"
+      },
+      "quantity": "470 ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Prieskoniai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Prancūziškos bandelės"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ingredientų paruošimas"
+      },
+      "text": {
+        "lt": "Sujunkite visus ingredientus, išskyrus bandeles, lėto virimo puode. Troškinkite bent 6 valandas, kol jautiena taps sultinga ir minkšta."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sumuštinių formavimas"
+      },
+      "text": {
+        "lt": "Perpjaukite bandeles ir įdėkite į jas sultingą jautieną."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite sumuštinius su padažu šone arba panardinkite į padažą prieš valgant, kad jie būtų ypač sultingi."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Bandelės prieš dedant jautieną gali būti paskrudintos ir pateptos sviestu – taip sumuštinis bus dar skanesnis."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Galite naudoti kitą mėsą, pvz., avieną, kiaulieną ar kalakutieną, kad paįvairintumėte receptą."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Pridėkite sūrį, krienų ar garstyčių padažo, kad sumuštinis būtų dar aromatingesnis."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/amerikietiskas-jautienos-burgeris.jpg",
+    "alt": "Au Jus sumuštinis su sultinga jautiena ir prancūziškomis bandelėmis",
+    "width": 4320,
+    "height": 3240
+  },
+  "tags": [
+    "au jus sumuštinis",
+    "jautienos sumuštinis",
+    "amerikietiškas sumuštinis",
+    "prancūziškos bandelės",
+    "klasikinis receptas"
+  ],
+  "author": {
+    "name": "Gentgeen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Au_Jus_Sandwich",
+    "pageTitle": "Cookbook:Au_Jus_Sandwich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T10:27:37.647Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAu_Jus_Sandwich&action=history",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Roast_Beef_Dip_lunch.JPG",
+    "author": {
+      "name": "Vranak",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Vranak"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Roast_Beef_Dip_lunch.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:00:00+03:00",
+  "createdAt": "2025-11-24T13:00:00+03:00",
+  "updatedAt": "2025-11-24T13:00:00+03:00"
+}

@@ -1,0 +1,97 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baked_Potatoes",
+    "pageTitle": "Cookbook:Baked_Potatoes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Alcinoe~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Alcinoe~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaked_Potatoes&action=history",
+    "extractedAt": "2025-11-25T14:50:04.990Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Baked Potatoes",
+    "slug": "baked-potatoes",
+    "description": "__NOTOC__ | Cooking techniques | Camp Cooking | Microwave Cooking",
+    "ingredients": [
+      "1 large baking potato",
+      "Cooking oil",
+      "Salt",
+      "Butter or sour cream (optional)"
+    ],
+    "instructions": [
+      "Scrub potato on all sides to clean the surface.",
+      "Pierce skin of potato with a fork or small-tipped object to create holes for inside pressure.",
+      "Clean and prepare potatoes as above.",
+      "Cook over medium-hot coals for 45 minutes or until soft.",
+      "Serve with salt and butter or sour cream.",
+      "Clean and prepare potatoes as above, but wrap them in plastic wrap, not foil. Be sure to poke the potato and the plastic wrap with a fork to make sure it is cooked evenly and does not explode in the microwave due to pressure.",
+      "Place a piece of paper towel in the microwave, and microwave potatoes on high for 8 minutes. Potatoes will be extremely hot when finished.",
+      "Cut potato into four and serve with toppings of your choice.",
+      "Preheat oven to 190°C (375°F).",
+      "Clean and prepare potatoes as above.",
+      "Place the potatoes in the oven.",
+      "Cook for 1 hour.",
+      "Remove when cooked. Puncture potato and separate skin from flesh."
+    ],
+    "notes": [
+      "Other possible toppings include spicy beans, avocado, salsa, bacon bits, mushrooms grated cheese... or whatever is left in the fridge!"
+    ],
+    "servings": 1,
+    "totalTimeMinutes": 60,
+    "difficulty": 1,
+    "category": "Potato recipes",
+    "categories": [
+      "Recipes using potato|{{PAGENAME}}",
+      "Baked recipes",
+      "Camping recipes|{{PAGENAME}}",
+      "Microwave recipes",
+      "Side dish recipes",
+      "Vegan recipes"
+    ]
+  },
+  "image": {
+    "filename": "Microwaved_potatoes.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Microwaved_potatoes.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Microwaved_potatoes.JPG",
+    "localPath": "scripts/wiki/output/Microwaved_potatoes.JPG",
+    "dimensions": {
+      "width": 2304,
+      "height": 1712
+    },
+    "fileSize": 1686459,
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "me (w:User:pfctdayelise)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Pfctdayelise"
+    },
+    "metadata": {
+      "description": "Microwaved potatoes (they can also be baked in foil over a fire or in the oven), with toppings: sour cream (partly melted at the front), spicy Mexican beans, mushrooms and grated cheese.",
+      "categories": [
+        "Taken with Casio QV-R41",
+        "CC-BY-SA-2.5,2.0,1.0",
+        "Sour cream",
+        "Grated cheese",
+        "Pictures by pfctdayelise",
+        "Melted cheese",
+        "Potato as side dish",
+        "Baked potato with cream and cheese"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Microwaved_potatoes.JPG"
+  }
+}

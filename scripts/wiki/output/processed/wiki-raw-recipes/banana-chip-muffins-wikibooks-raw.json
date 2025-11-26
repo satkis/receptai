@@ -1,0 +1,96 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banana_Chip_Muffins",
+    "pageTitle": "Cookbook:Banana_Chip_Muffins",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Morgan695~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Morgan695~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanana_Chip_Muffins&action=history",
+    "extractedAt": "2025-11-25T14:50:11.739Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Banana Chip Muffins",
+    "slug": "banana-chip-muffins",
+    "description": "A muffin with a cake texture and wonderful banana taste.",
+    "ingredients": [
+      "1 ¾ cup (250 g / 8.8 oz) all-purpose flour",
+      "½ cup (110 g / 3.9 oz) granulated sugar",
+      "1 tablespoon baking powder",
+      "½ cup (40 g / 1.4 oz) semisweet chocolate chips",
+      "1 egg",
+      "¼ cup (60 ml / 2 fl oz) cooking oil",
+      "¼ cup (60 ml / 2 oz) milk",
+      "1 cup (250 g / 8.8 oz / 3 ea.) mashed ripe bananas"
+    ],
+    "instructions": [
+      "Measure flour, sugar, baking powder, salt, and chocolate chips into a mixing bowl. Make a well in the center.",
+      "Beat egg in a small mixing bowl until frothy. Mix in cooking oil, milk, and banana.",
+      "Pour into well in flour mixture. Stir just to moisten—the batter will be lumpy.",
+      "Fill greased muffin cups ¾ full. Bake at 400 °F (205 °C) for 15 to 20 minutes."
+    ],
+    "notes": [
+      "These muffins taste best when still warm."
+    ],
+    "servings": 12,
+    "totalTimeMinutes": 30,
+    "difficulty": 2,
+    "category": "Breakfast recipes",
+    "categories": [
+      "Recipes for muffins",
+      "Recipes using banana",
+      "Recipes using dark chocolate",
+      "Breakfast recipes",
+      "Baking recipes",
+      "Recipes_with_metric_units",
+      "Recipes with images",
+      "Recipes using baking powder",
+      "Recipes using granulated sugar",
+      "Recipes using egg",
+      "Recipes using all-purpose flour",
+      "Recipes using cow milk"
+    ]
+  },
+  "image": {
+    "filename": "Banana-Nut-Muffins-2005-Aug-24.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Banana-Nut-Muffins-2005-Aug-24.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Banana-Nut-Muffins-2005-Aug-24.jpg",
+    "localPath": "scripts/wiki/output/Banana-Nut-Muffins-2005-Aug-24.jpg",
+    "dimensions": {
+      "width": 1803,
+      "height": 1611
+    },
+    "fileSize": 597518,
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Naib",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Naib"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Walnuts as food",
+        "Media missing infobox template",
+        "Banana muffins",
+        "Banana nut muffins"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Banana-Nut-Muffins-2005-Aug-24.jpg"
+  }
+}

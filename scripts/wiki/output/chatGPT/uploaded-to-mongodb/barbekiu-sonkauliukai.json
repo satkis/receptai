@@ -1,0 +1,142 @@
+{
+  "slug": "barbekiu-sonkauliukai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/barbekiu-sonkauliukai",
+  "title": {
+    "lt": "Barbekiu šonkauliukai – sultingi ir kvapnūs"
+  },
+  "description": {
+    "lt": "Sultingi barbekiu šonkauliukai su pomidorų ir melasos padažu bei įvairiais prieskoniais. Puikiai tinka vasaros vakarienei ar lauko renginiams su draugais ir šeima."
+  },
+  "seo": {
+    "metaTitle": "Barbekiu šonkauliukai | Sultingi kiaulienos šonkauliukai su padažu",
+    "metaDescription": "Atraskite, kaip paruošti sultingus barbekiu šonkauliukus su pomidorų, melasos ir prieskonių padažu. Puikus vasaros kepsnių patiekalas.",
+    "keywords": [
+      "barbekiu šonkauliukai",
+      "kiaulienos šonkauliukai",
+      "grilintas maistas",
+      "vasaros patiekalai",
+      "mėsos receptai",
+      "barbekiu receptas"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 550,
+      "proteinContent": "30g",
+      "fatContent": "35g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 60,
+  "cookTimeMinutes": 360,
+  "totalTimeMinutes": 420,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vasarai",
+    "receptai/kiauliena"
+  ],
+  "ingredients": [
+    { "name": { "lt": "kiaulienos šonkauliai" }, "quantity": "1 kg", "vital": true },
+    { "name": { "lt": "Barbekiu prieskonių mišinys" }, "quantity": "5 šaukštai", "vital": true },
+    { "name": { "lt": "Obuolių sidro actas" }, "quantity": "120 ml", "vital": true },
+    { "name": { "lt": "Pomidorų pasta" }, "quantity": "120 ml", "vital": true },
+    { "name": { "lt": "Tamsioji melasa" }, "quantity": "60 ml", "vital": true },
+    { "name": { "lt": "Šviesioji melasa" }, "quantity": "60 ml", "vital": true },
+    { "name": { "lt": "Vorčesterio padažas" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Dideli hikorio medienos gabalai" }, "quantity": "pagal poreikį", "vital": true }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Prieskonių įtrynimas" },
+      "text": { "lt": "Įtrinkite šonkaulius barbekiu prieskonių mišiniu. Palikite šaldytuve 1 valandą." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Padažo paruošimas" },
+      "text": { "lt": "Sumaišykite visus likusius ingredientus, išskyrus hikorio medieną, dideliame puode ir užvirkite. Virkite, kol sumažės per pusę." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Rūkymas" },
+      "text": { "lt": "Įdėkite hikorio medienos gabalus į 120°C rūkyklą. Sudėkite šonkaulius ir kepkite, dažnai tepdami padažu bei keisdami medienos gabalus, apie 5–6 valandas." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Grilinimas" },
+      "text": { "lt": "Šonkaulius gausiai patepkite mišiniu ir kepkite ant aukštos ugnies, kol abiejų pusių spalva taps tamsiai ruda." }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Patiekimas" },
+      "text": { "lt": "Išimkite ir pailsinkite 10 minučių. Patiekite šiltus su likusiu padažu." }
+    }
+  ],
+  "notes": [
+    { "text": { "lt": "Šonkaulius galima marinuoti ilgiau, kad prieskoniai geriau įsigertų." }, "priority": 1 },
+    { "text": { "lt": "Jei neturite rūkyklos, naudokite orkaitę su grilio funkcija." }, "priority": 2 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/barbekiu-sonkauliukai.jpg",
+    "alt": "Barbekiu šonkauliukai su pomidorų padažu ir prieskoniais",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "barbekiu šonkauliukai",
+    "kiaulienos šonkauliukai",
+    "grilintas maistas",
+    "vasaros patiekalai",
+    "mėsos receptai"
+  ],
+  "author": {
+    "name": "Iwatchaltonbrown",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Ribs",
+    "pageTitle": "Cookbook:Barbecue_Ribs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Iwatchaltonbrown",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ribs_barbecue.jpg",
+    "author": {
+      "name": "Gyfjonas",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gyfjonas"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ribs_barbecue.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Barbecue_Ribs“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: Gyfjonas, CC BY-SA 3.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:50:26+03:00",
+  "createdAt": "2025-11-25T17:50:26+03:00",
+  "updatedAt": "2025-11-25T17:50:26+03:00"
+}

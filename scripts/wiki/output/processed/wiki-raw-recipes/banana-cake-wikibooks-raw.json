@@ -1,0 +1,99 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banana_Cake",
+    "pageTitle": "Cookbook:Banana_Cake",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Kingaustin07",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kingaustin07"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanana_Cake&action=history",
+    "extractedAt": "2025-11-25T14:50:10.082Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Banana Cake",
+    "slug": "banana-cake",
+    "description": "*2 cups all-purpose flour *1½ teaspoons baking powder *½ teaspoon baking soda *½ teaspoon salt *½ teaspoon ground cinnamon *½ cup unsalted butter, softened *1 cup granulated sugar *2 standard eggs *1 ½ teaspoons vanilla extract *3 ripe bananas, mashed *½ cup buttermilk",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "1½ teaspoons baking powder",
+      "½ teaspoon baking soda",
+      "½ teaspoon salt",
+      "½ teaspoon ground cinnamon",
+      "½ cup unsalted butter, softened",
+      "1 cup granulated sugar",
+      "2 standard eggs",
+      "1 ½ teaspoons vanilla extract",
+      "3 ripe bananas, mashed",
+      "½ cup buttermilk"
+    ],
+    "instructions": [
+      "Preheat the oven to 350°F (175°C). Grease and flour a 9-inch round cake pan.",
+      "In a medium bowl, whisk together the flour, baking powder, baking soda, salt, and ground cinnamon. Set aside.",
+      "In a large mixing bowl, cream together the softened butter and granulated sugar until light and fluffy.",
+      "Beat in the eggs, one at a time, followed by the vanilla extract.",
+      "Add the mashed bananas to the butter mixture and mix until well combined.",
+      "Gradually add the dry ingredient mixture to the banana mixture, alternating with the buttermilk. Begin and end with the dry ingredients, mixing just until combined after each addition. Be careful not to overmix.",
+      "Pour the batter into the prepared cake pan and smooth the top with a spatula.",
+      "Bake for 45–50 minutes, or until a toothpick inserted into the center of the cake comes out clean.",
+      "Remove the cake from the oven and let it cool in the pan for about 10 minutes. Then, transfer the cake to a wire rack to cool completely.",
+      "Once the cake has cooled, you can frost it with cream cheese frosting, a dusting of powdered sugar, or enjoy it plain."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for banana bread",
+      "Recipes using banana",
+      "Recipes for dessert",
+      "Recipes using baking powder",
+      "Recipes using baking soda",
+      "Recipes using granulated sugar",
+      "Recipes using butter",
+      "Recipes using buttermilk",
+      "Recipes using ground cinnamon",
+      "Recipes using egg",
+      "Recipes using all-purpose flour"
+    ]
+  },
+  "image": {
+    "filename": "Banana_and_chocolate_cake.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Banana_and_chocolate_cake.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Banana_and_chocolate_cake.jpg",
+    "localPath": "scripts/wiki/output/Banana_and_chocolate_cake.jpg",
+    "dimensions": {
+      "width": 3024,
+      "height": 3485
+    },
+    "fileSize": 3726049,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Siobhan Leachman",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "metadata": {
+      "description": "Banana and chocolate cake cooling on wire rack",
+      "categories": [
+        "CC-Zero",
+        "Banana cakes",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Banana_and_chocolate_cake.jpg"
+  }
+}

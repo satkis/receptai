@@ -1,0 +1,104 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Awaze_Tibs_(Spicy_Ethiopian_Meat_Stir-Fry)",
+    "pageTitle": "Cookbook:Awaze_Tibs_(Spicy_Ethiopian_Meat_Stir-Fry)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAwaze_Tibs_(Spicy_Ethiopian_Meat_Stir-Fry)&action=history",
+    "extractedAt": "2025-11-24T10:27:44.855Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Awaze Tibs (Spicy Ethiopian Meat Stir-Fry)",
+    "slug": "awaze-tibs-spicy-ethiopian-meat-stir-fry",
+    "description": "Awaze tibs is a flavorful and aromatic dish that showcases the vibrant spices of Ethiopian cuisine. This dish is made with tender pieces of meat, such as beef or lamb, stir-fried with a rich and spicy sauce known as awaze. == Ingredients == * 2 tablespoons vegetable oil * 1.5 pounds beef or lamb, thinly sliced * 1 large onion, thinly sliced * 3 cloves of garlic, minced * 2 tablespoons berbere spice * 1 tablespoon tomato paste * 1 tablespoon paprika * 1 tablespoon cayenne pepper, or to taste * 1 tablespoon awaze sauce * 1 tablespoon soy sauce * 1 tablespoon vinegar * 1 teaspoon salt, or to taste * Fresh cilantro, chopped, for garnish",
+    "ingredients": [
+      "2 tablespoons vegetable oil",
+      "1.5 pounds beef or lamb, thinly sliced",
+      "1 large onion, thinly sliced",
+      "3 cloves of garlic, minced",
+      "2 tablespoons berbere spice",
+      "1 tablespoon tomato paste",
+      "1 tablespoon paprika",
+      "1 tablespoon cayenne pepper, or to taste",
+      "1 tablespoon awaze sauce",
+      "1 tablespoon soy sauce",
+      "1 tablespoon vinegar",
+      "1 teaspoon salt, or to taste",
+      "Fresh cilantro, chopped, for garnish"
+    ],
+    "instructions": [
+      "Heat the vegetable oil in a large skillet or wok over medium-high heat.",
+      "Add the thinly sliced meat to the hot skillet and stir-fry for 3–4 minutes until browned and cooked through. Remove the cooked meat from the skillet and set it aside.",
+      "In the same skillet, add the sliced onion and minced garlic. Stir-fry for about 2–3 minutes until the onion becomes translucent and fragrant.",
+      "Add the berbere spice, tomato paste, paprika, and cayenne pepper to the skillet. Stir well to coat the onions and garlic with the spices.",
+      "Return the cooked meat to the skillet and toss it with the spiced onion mixture.",
+      "Add the awaze sauce, soy sauce, vinegar, and salt to the skillet. Stir everything together to combine the flavors and coat the meat evenly.",
+      "Continue to stir-fry for another 2–3 minutes until the sauce thickens and coats the meat.",
+      "Taste the dish and adjust the seasoning with salt or additional spices according to your preference.",
+      "Remove the skillet from the heat and garnish the with freshly chopped cilantro."
+    ],
+    "notes": [
+      "Adjust the spiciness of the dish by adding more or less cayenne pepper and berbere spice, according to your taste preferences.",
+      "Awaze sauce can be found in Ethiopian grocery stores or made at home using a combination of spices and peppers.",
+      "Awaze tibs is traditionally served with injera, a sourdough flatbread that complements the spicy flavors of the dish. You can also serve it with rice or bread.",
+      "Serve the stir-fry with a side of fresh salad or steamed vegetables for a complete and balanced meal.",
+      "For a tender and flavorful meat, marinate it in the awaze sauce for at least 30 minutes before cooking.",
+      "Stir-fry the ingredients on high heat for a shorter duration to retain the juiciness of the meat.",
+      "Add diced bell peppers, carrots, or other vegetables to the stir-fry for added color and texture.",
+      "Experiment with different protein options like chicken or tofu for a variation in flavors and dietary preferences."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Ethiopian recipes",
+      "Recipes using beef",
+      "Recipes using lamb",
+      "Recipes using cilantro",
+      "Recipes using cayenne",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Meat_stir-fry_dish_at_a_Tibetan_restaurant.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Meat_stir-fry_dish_at_a_Tibetan_restaurant.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Meat_stir-fry_dish_at_a_Tibetan_restaurant.jpg",
+    "localPath": "scripts/wiki/output/Meat_stir-fry_dish_at_a_Tibetan_restaurant.jpg",
+    "dimensions": {
+      "width": 3264,
+      "height": 2448
+    },
+    "fileSize": 4079842,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Mark Lyon from New York, NY, USA",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Northamerica1000"
+    },
+    "metadata": {
+      "description": "Meat stir-fry dish at a Tibetan restaurant",
+      "categories": [
+        "Flickr images reviewed by FlickreviewR",
+        "Files uploaded by User:Northamerica1000",
+        "Stir fried dishes of Tibet"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Meat_stir-fry_dish_at_a_Tibetan_restaurant.jpg"
+  }
+}

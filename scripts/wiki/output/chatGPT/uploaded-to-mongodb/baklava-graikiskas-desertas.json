@@ -1,0 +1,200 @@
+{
+  "slug": "baklava-graikiskas-desertas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/baklava-graikiskas-desertas",
+  "title": {
+    "lt": "Baklava – Graikiškas riešutų desertas"
+  },
+  "description": {
+    "lt": "Baklava – tradicinis graikiškas desertas iš traškios filo tešlos, gausybės riešutų ir kvapnaus sirupo. Puikus pasirinkimas šventėms, vakarienėms ar kai norisi kažko ypatingai saldaus."
+  },
+  "seo": {
+    "metaTitle": "Baklava – Tradicinis graikiškas riešutų desertas | Tikras receptas",
+    "metaDescription": "Klasikinės graikiškos baklavos receptas su filo tešla, graikiniais riešutais, cinamonu ir saldžiu naminiu sirupu. Autentiškas skonis, lengvai pasigaminamas namuose.",
+    "keywords": [
+      "baklava",
+      "baklavos receptas",
+      "graikiškas desertas",
+      "filo tešla",
+      "riešutų desertas",
+      "tradicinis graikų receptas",
+      "šventinis desertas",
+      "saldus pyragas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Graikų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "5g",
+      "fatContent": "30g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 90,
+  "totalTimeMinutes": 120,
+  "timeCategory": "iki-120-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pusryciai",
+    "receptai/vakariene",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": { "lt": "Filo tešla" },
+      "quantity": "1 pakuotė",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Graikiniai riešutai" },
+      "quantity": "4–5 puodeliai",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Baltasis cukrus" },
+      "quantity": "½ puodelio",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Malti gvazdikėliai" },
+      "quantity": "¼ arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Cinamonas" },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Saldus sviestas" },
+      "quantity": "340 g",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Vanduo" },
+      "quantity": "2 ½ puodelio",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Baltasis cukrus" },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Citrinų sultys" },
+      "quantity": "3 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Vanilės ekstraktas" },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Riešutų mišinio paruošimas" },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite graikinius riešutus, cinamoną, maltus gvazdikėlius ir cukrų. Atskirame inde ištirpinkite sviestą."
+      }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Tešlos paruošimas" },
+      "text": {
+        "lt": "Kepimo formą gausiai ištepkite tirpintu sviestu. Dugne ištieskite filo tešlos lapą, aptepkite sviestu ir kartokite dar su mažiausiai penkiais sluoksniais."
+      }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Riešutų sluoksnių dėjimas" },
+      "text": {
+        "lt": "Ant šešto tešlos sluoksnio užberkite riešutų mišinį. Sluoksniuokite tešlą ir riešutus tol, kol sunaudosite visą mišinį. Viršuje turi likti apie šeši tešlos lapai."
+      }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Kepimas" },
+      "text": {
+        "lt": "Supjaustykite tešlą į deimanto formos gabalėlius. Kepkite 150 °C temperatūroje apie 1,5 valandos, kol paviršius gražiai paruduos."
+      }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Sirupo paruošimas" },
+      "text": {
+        "lt": "Visus sirupo ingredientus užvirkite, virkite apie 10 minučių ir atvėsinkite. Atvėsusiu sirupu užpilkite ką tik iš orkaitės išimtą karštą baklavą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norėdami intensyvesnio skonio, į sirupą įdėkite šiek tiek natūralaus medaus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/baklava-graikiskas-desertas.jpg",
+    "alt": "Baklava – tradicinis graikiškas desertas su riešutais ir sirupu",
+    "width": 1400,
+    "height": 933
+  },
+  "tags": [
+    "baklava",
+    "graikiškas desertas",
+    "riešutų pyragas",
+    "filo tešla",
+    "šventinis desertas"
+  ],
+  "author": {
+    "name": "Zornitsa",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baklava_I",
+    "pageTitle": "Cookbook:Baklava_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-25T14:50:07.929Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaklava_I&action=history",
+    "originalCreator": {
+      "name": "Zornitsa",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+    }
+  },
+  "originalImage": {
+    "fileName": "Baklava(RobertK).jpg",
+    "author": {
+      "name": "Robert Kindermann",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:RobertK~commonswiki"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Baklava%28RobertK%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:07+03:00",
+  "createdAt": "2025-11-25T14:50:07+03:00",
+  "updatedAt": "2025-11-25T14:50:07+03:00"
+}

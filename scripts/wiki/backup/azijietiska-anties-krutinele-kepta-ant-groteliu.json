@@ -1,0 +1,254 @@
+{
+  "slug": "azijietiska-anties-krutinele-kepta-ant-groteliu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/azijietiska-anties-krutinele-kepta-ant-groteliu",
+  "title": {
+    "lt": "Azijietiška anties krūtinėlė kepta ant grotelių"
+  },
+  "description": {
+    "lt": "Aromatinga anties krūtinėlė su azijietiškais prieskoniais ir mandarino glajumi. Puikus egzotiškas patiekalas vakarienei ar šventiniam stalui."
+  },
+  "seo": {
+    "metaTitle": "Azijietiška anties krūtinėlė ant grotelių | Egzotiškas receptas",
+    "metaDescription": "Išbandykite aromatingą anties krūtinėlę su azijietiškais prieskoniais ir mandarino glajumi. Ideali egzotiška vakarienė visai šeimai.",
+    "keywords": [
+      "azijietiška anties krūtinėlė",
+      "kepta anties krūtinėlė",
+      "anties receptai",
+      "egzotiškas patiekalas",
+      "azijietiški prieskoniai"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Azijos",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "30g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 60,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 75,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+    "receptai/ant-grilio",
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Anties krūtinėlė"
+      },
+      "quantity": "900g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežiai malti juodieji pipirai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras, maltas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonųjų pipirų dribsniai"
+      },
+      "quantity": "½ valgomasis šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žvaigždinis anyžius"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kario milteliai"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "pusė arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovintas bazilikas"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnako milteliai"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mandarino skiltelės sirupe"
+      },
+      "quantity": "pusė puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojų padažas"
+      },
+      "quantity": "1 valgomasis šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Medus"
+      },
+      "quantity": "2 valgomieji šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili pasta"
+      },
+      "quantity": "1.5 valgomieji šaukštai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Prieskonių mišinys"
+      },
+      "text": {
+        "lt": "Sumaišykite druską, pipirus, imbierą, raudonųjų pipirų dribsnius, žvaigždanyžį, baziliką, kario miltelius, cinamoną ir česnako miltelius. Palikite šoniniam naudojimui."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Anties paruošimas"
+      },
+      "text": {
+        "lt": "Anties krūtinėlės odelėje padarykite deimanto formos pjūvius, neperpjaudami mėsos. Įtrinkite abi puses prieskonių mišiniu ir palikite šaldytuve mažiausiai 1 valandą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Glajaus paruošimas"
+      },
+      "text": {
+        "lt": "Sumalkite mandarino skilteles, sojų padažą, medų ir čili pastą iki vientisos masės. Supilkite į puodą, užvirinkite vidutine aukšta ugnimi ir virkite, kol sumažės per pusę. Atvėsinkite prieš naudojimą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Anties kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite grilį iki vidutinės aukštos temperatūros. Kepkite antį 4–5 minutes, patepdami glajumi kartą ar du. Apverskite ir kepkite dar 3–4 minutes, vėl patepdami glajumi, kad mėsos vidus būtų sultingas."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Likusią glajų masę užvirinkite ir patiekite kaip padažą šalia keptos anties."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint intensyvesnio skonio, leiskite anties krūtinėlėms pasimarinuoti bent valandą."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/azijietiska-anties-krutinele-kepta-ant-groteliu.jpg",
+    "alt": "Aromatinga azijietiška anties krūtinėlė kepta ant grotelių su prieskoniais",
+    "width": 1600,
+    "height": 1200
+  },
+  "tags": [
+    "azijietiška anties krūtinėlė",
+    "kepta anties krūtinėlė",
+    "prieskoniai",
+    "mandarinas",
+    "egzotiškas receptas"
+  ],
+  "author": {
+    "name": "Tesleemah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil)",
+    "pageTitle": "Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "datePublished": null,
+    "extractedAt": "2025-11-17T21:23:55+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAadun_(Nigerian_Corn_Flour_with_Palm_Oil)&action=history",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Àádùn2.jpg",
+    "author": {
+      "name": "Gbolahan Adebayo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Sheys%20Ditty"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%C3%80%C3%A1d%C3%B9n2.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:00:00+03:00",
+  "createdAt": "2025-11-24T13:00:00+03:00",
+  "updatedAt": "2025-11-24T13:00:00+03:00"
+}

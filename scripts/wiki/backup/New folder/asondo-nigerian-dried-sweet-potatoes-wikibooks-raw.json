@@ -1,0 +1,70 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Asondo_(Nigerian_Dried_Sweet_Potatoes)",
+    "pageTitle": "Cookbook:Asondo_(Nigerian_Dried_Sweet_Potatoes)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsondo_(Nigerian_Dried_Sweet_Potatoes)&action=history",
+    "extractedAt": "2025-11-24T10:27:32.108Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Asondo (Nigerian Dried Sweet Potatoes)",
+    "slug": "asondo-nigerian-dried-sweet-potatoes",
+    "description": "Asondo, also known as dried sweet potatoes is a crunchy snack from the Tiv tribe of Nigeria, prepared from sweet potatoes.",
+    "ingredients": [
+      "Sweet potatoes",
+      "Water"
+    ],
+    "instructions": [
+      "Slice sweet potatoes in desired shape and size.",
+      "Boil sweet potatoes.",
+      "Dry in the sun for 2 to 3 days or dehydrate using a dehydrator until crispy."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": []
+  },
+  "image": {
+    "filename": "Drying_sweet_potato.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Drying_sweet_potato.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Drying_sweet_potato.jpg",
+    "localPath": "scripts/wiki/output/Drying_sweet_potato.jpg",
+    "dimensions": {
+      "width": 3088,
+      "height": 2056
+    },
+    "fileSize": 2341328,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Lishuilynn",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Lishuilynn"
+    },
+    "metadata": {
+      "description": "Sweet potatoes set out to dry in the fall. Lishui, China",
+      "categories": [
+        "Sweet potatoes in China",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Drying_sweet_potato.jpg"
+  }
+}

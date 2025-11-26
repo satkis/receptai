@@ -1,0 +1,245 @@
+{
+  "slug": "arroz-con-pollo-vistiena-su-ryziais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/arroz-con-pollo-vistiena-su-ryziais",
+  "title": {
+    "lt": "Arroz con Pollo – Tradicinė vištiena su ryžiais iš Kubos"
+  },
+  "description": {
+    "lt": "Arroz con Pollo – autentiškas Kubos ir Puerto Riko patiekalas su vištiena, ryžiais, paprikomis ir šafraniniu aromatu. Puikus pasirinkimas pietums ar šeimos vakarienei."
+  },
+  "seo": {
+    "metaTitle": "Arroz con Pollo | Tradicinė vištiena su ryžiais iš Kubos",
+    "metaDescription": "Išbandykite autentišką Arroz con Pollo receptą iš Kubos ir Puerto Riko: vištiena su ryžiais, paprikomis ir šafranu. Puikiai tinka šeimos pietums.",
+    "keywords": [
+      "arroz con pollo",
+      "vištiena su ryžiais",
+      "kubos virtuvė",
+      "puerto riko patiekalai",
+      "pietų receptai"
+    ],
+    "recipeCategory": "vistiena",
+    "recipeCuisine": "Kuba",
+    "nutrition": {
+      "calories": 550,
+      "proteinContent": "42g",
+      "fatContent": "20g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/vistiena",
+  "secondaryCategories": [
+    "receptai/pietus",
+    "receptai/ant-lauzo"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "1.5 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "Pakankamai, kad padengtų keptuvės dugną",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonoji paprika"
+      },
+      "quantity": "225 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Konservuoti pomidorai"
+      },
+      "quantity": "425 g (1 skardinė)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saldžios paprikos pireskoniai"
+      },
+      "quantity": "šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendra"
+      },
+      "quantity": "14 g (½ oz)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištienos sultinys"
+      },
+      "quantity": "1 litras",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šafranas"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ilgo grūdo ryžiai"
+      },
+      "quantity": "370 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Konservuoti žirniai"
+      },
+      "quantity": "225 g",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Vištienos paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite vištieną didesniais gabalėliais (1 krūtinėlę į 4 dalis). Pagardinkite vištieną druska ir pipirais. Įkaitinkite alyvuogių aliejų keptuvėje ir apkepkite vištieną iki auksinės spalvos, kad išsiskirtų aromatas."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Daržovių kepimas"
+      },
+      "text": {
+        "lt": "Į keptuvę įdėkite smulkintus česnakus, svogūnus, raudonąją papriką ir pomidorus. Kepkite, kol daržovės suminkštės ir susimaišys skoniais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Ryžių virimas"
+      },
+      "text": {
+        "lt": "Perkelkite vištieną ir daržoves į didelį puodą. Įpilkite vištienos sultinį, pridėkite kalendrą ir šafraną. Užvirinkite, tada įdėkite ryžius. Virkite, kol ryžiai išbrinks ir įgers sultinį."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Įdėkite vištieną atgal į puodą, leiskite sušilti. Pabarstykite nusunktais žirniais ir patiekite kol patiekalas karštas."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint ryškesnės spalvos, naudokite daugiau šafrano arba galite pridėti kitų daržovių, pvz., žalių pupelių ar morkų, kad patiekalas būtų dar spalvingesnis."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/arroz-con-pollo-vistiena-su-ryziais.jpg",
+    "alt": "Arroz con Pollo – autentiška vištiena su ryžiais iš Kubos, patiekta lėkštėje",
+    "width": 2304,
+    "height": 2272
+  },
+  "tags": [
+    "arroz con pollo",
+    "vištiena su ryžiais",
+    "kubos virtuvė",
+    "paprastas receptas",
+    "šventinis patiekalas"
+  ],
+  "author": {
+    "name": "T029248",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:T029248"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Arroz_con_Pollo_(Rice_and_Chicken)",
+    "pageTitle": "Cookbook:Arroz_con_Pollo_(Rice_and_Chicken)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T10:27:22.688Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AArroz_con_Pollo_(Rice_and_Chicken)&action=history",
+    "originalCreator": {
+      "name": "T029248",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:T029248"
+    }
+  },
+  "originalImage": {
+    "fileName": "Arroz-con-Pollo.jpg",
+    "author": {
+      "name": "Kobako",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kobako"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Arroz-con-Pollo.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:27:22+03:00",
+  "createdAt": "2025-11-24T13:27:22+03:00",
+  "updatedAt": "2025-11-24T13:27:22+03:00"
+}

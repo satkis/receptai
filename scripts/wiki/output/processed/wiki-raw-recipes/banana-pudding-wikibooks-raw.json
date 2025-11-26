@@ -1,0 +1,110 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banana_Pudding",
+    "pageTitle": "Cookbook:Banana_Pudding",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mahagaja",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mahagaja"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanana_Pudding&action=history",
+    "extractedAt": "2025-11-25T14:50:15.968Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Banana Pudding",
+    "slug": "banana-pudding",
+    "description": "Category:Recipes using banana Category:Recipes using coconut Category:Recipes for custard Category:Recipes for pudding Category:Southern U.S. recipes Category:Recipes for dessert Category:Recipes with metric units Category:Recipes for meringue Category:Recipes using granulated sugar Category:Recipes using butter Category:Recipes using lemon juice Category:Recipes using cornstarch Category:Recipes using egg Category:Recipes using meringue Category:Recipes using cow milk",
+    "ingredients": [
+      "1 cup (240 ml) milk",
+      "1 cup + 2 Tablespoons (200 g + 25 g) granulated sugar",
+      "2 teaspoons (10 g) butter",
+      "¼ teaspoon salt",
+      "1 teaspoon vanilla extract or vanilla sugar",
+      "4 eggs, separated",
+      "2 Tablespoons (15 g) cornstarch",
+      "14–20 vanilla wafers or ladyfingers",
+      "¼ cup (60 ml) lemon juice",
+      "2 ripe bananas",
+      "1 Tablespoon (10 g) shredded unsweetened coconut"
+    ],
+    "instructions": [
+      "In a saucepan, stir together the milk, 1 cup (200 g) of sugar, butter, salt, and vanilla extract and cook over medium heat until the butter melts.",
+      "Whisk the egg yolks in a separate container (a coffee mug will do), then whisk two tablespoons of the hot milk mixture into the egg yolks to temper them so they don’t curdle.",
+      "When the egg mixture is smooth, whisk it into the milk mixture.",
+      "Add 2 tablespoons of cold water to the cornstarch and stir until smooth; then whisk it into the milk mixture and cook until thickened, stirring constantly so it doesn’t burn.",
+      "Remove the custard from heat.",
+      "Whip the egg whites and 2 Tablespoons (25 g) sugar in a bowl until stiff peaks form.",
+      "Cut the bananas into thin slices (about ¼ inch or 5 mm thick).",
+      "In a large bowl with a flat bottom, place a layer of vanilla wafers or ladyfingers on the bottom.",
+      "Pour half of the lemon juice and spread half of the custard over these, then layer half of the banana slices on top of the custard.",
+      "Add another layer of cookies, the rest of the lemon juice, the rest of the custard, and the rest of the banana slices.",
+      "Top with the meringue and sprinkle the coconut on top.",
+      "Refrigerate for several hours before serving."
+    ],
+    "notes": [
+      "If you'd rather make the custard using a custard powder, that's fine, but you won't have leftover egg whites to make the meringue with. In this case, you can replace the meringue with whipped cream."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using banana",
+      "Recipes using coconut",
+      "Recipes for custard",
+      "Recipes for pudding",
+      "Southern U.S. recipes",
+      "Recipes for dessert",
+      "Recipes with metric units",
+      "Recipes for meringue",
+      "Recipes using granulated sugar",
+      "Recipes using butter",
+      "Recipes using lemon juice",
+      "Recipes using cornstarch",
+      "Recipes using egg",
+      "Recipes using meringue",
+      "Recipes using cow milk"
+    ]
+  },
+  "image": {
+    "filename": "Banana_pudding,_homemade.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Banana_pudding%2C_homemade.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Banana_pudding,_homemade.jpg",
+    "localPath": "scripts/wiki/output/Banana_pudding,_homemade.jpg",
+    "dimensions": {
+      "width": 1728,
+      "height": 1168
+    },
+    "fileSize": 374721,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "ReneeWrites",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:ReneeWrites"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Banana pudding",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Media missing infobox template",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs by Stu Spivack"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Banana_pudding,_homemade.jpg"
+  }
+}

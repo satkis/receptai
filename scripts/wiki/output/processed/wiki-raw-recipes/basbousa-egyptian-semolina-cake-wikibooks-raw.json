@@ -1,0 +1,98 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basbousa_(Egyptian_Semolina_Cake)",
+    "pageTitle": "Cookbook:Basbousa_(Egyptian_Semolina_Cake)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasbousa_(Egyptian_Semolina_Cake)&action=history",
+    "extractedAt": "2025-11-25T14:50:33.614Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Basbousa (Egyptian Semolina Cake)",
+    "slug": "basbousa-egyptian-semolina-cake",
+    "description": "Basbousa is a delightful Middle Eastern dessert that is known for its rich and moist texture. Made with semolina, coconut, and sweet syrup, this cake is a popular treat enjoyed across many cultures. Basbousa is often served during special occasions, festivals, or as a sweet ending to a delicious meal.",
+    "ingredients": [
+      "1 cup fine semolina",
+      "½ cup desiccated coconut",
+      "½ cup unsalted butter, melted",
+      "¾ cup granulated sugar",
+      "1 cup plain yogurt",
+      "1 teaspoon baking powder",
+      "½ teaspoon vanilla extract",
+      "Almonds or pistachios, chopped (for garnish)",
+      "1 cup water",
+      "1 cup granulated sugar",
+      "1 tablespoon lemon juice"
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C (350°F).",
+      "In a mixing bowl, combine the fine semolina, desiccated coconut, melted unsalted butter, granulated sugar, plain yogurt, baking powder, and vanilla extract. Stir well until all the ingredients are thoroughly combined and form a smooth batter.",
+      "Grease a 9x9 inch baking pan and pour the batter into it, spreading it out evenly.",
+      "Using a knife, score the surface of the batter into diamond or square shapes. This will help the syrup to penetrate the cake.",
+      "Bake the basbousa in the preheated oven for about 30–35 minutes or until the top is golden brown and a toothpick inserted into the center comes out clean.",
+      "While the basbousa is baking, prepare the syrup by the water, granulated sugar, and lemon juice in a saucepan. Bring the mixture to a boil, stirring occasionally, until the sugar is fully dissolved. Remove the syrup from heat and set it aside to cool.",
+      "Once the basbousa is baked, remove it from the oven and let it cool for a few minutes.",
+      "Pour the prepared syrup evenly over the warm basbousa, allowing it to soak into the cake.",
+      "Garnish the basbousa with chopped almonds or pistachios for added texture and presentation.",
+      "Allow the basbousa to cool completely before cutting and serving."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Egyptian recipes",
+      "Recipes for cake",
+      "Recipes using semolina",
+      "Recipes for dessert",
+      "Recipes using baking powder",
+      "Recipes using granulated sugar",
+      "Recipes using butter",
+      "Recipes using coconut",
+      "Recipes using lemon juice"
+    ]
+  },
+  "image": {
+    "filename": "Revane.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Revane.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Revane.jpg",
+    "localPath": "scripts/wiki/output/Revane.jpg",
+    "dimensions": {
+      "width": 647,
+      "height": 863
+    },
+    "fileSize": 121301,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Biser Todorov",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Biso"
+    },
+    "metadata": {
+      "description": "Revani (also namoura, basbousa, hareseh and other names) is a traditional Middle Eastern sweet cake that originated in Egypt, though also popular in other countries. It is made from a semolina batter in a pan, sweetened with orange flower water, rose water or simple syrup, and typically cut into diamond shapes",
+      "categories": [
+        "Basbousa",
+        "Revani",
+        "Self-published work",
+        "Pictures by Biser Todorov"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Revane.jpg"
+  }
+}

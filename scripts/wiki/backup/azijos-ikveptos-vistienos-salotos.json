@@ -1,0 +1,220 @@
+{
+  "slug": "azijos-ikveptos-vistienos-salotos",
+  "canonicalUrl": "https://ragaujam.lt/receptas/azijos-ikveptos-vistienos-salotos",
+  "title": {
+    "lt": "Azijos įkvėptos vištienos salotos"
+  },
+  "description": {
+    "lt": "Ši vištienos salota įkvėpta Azijos skonių: sojos padažo, imbiero, sezamo ir mango. Gaivus ir lengvas patiekalas, tinkamas pietums ar vakarienei."
+  },
+  "seo": {
+    "metaTitle": "Azijos įkvėpta vištienos salota | Gaivus receptas",
+    "metaDescription": "Azijos įkvėpta vištienos salota su brokoliais, kopūstais, mango ir sezamo krekeriais. Lengvas ir gaivus patiekalas visai šeimai.",
+    "keywords": [
+      "azijos salota",
+      "vištienos salota",
+      "lengvas receptas",
+      "salotos su mango",
+      "imbiero skoniai"
+    ],
+    "recipeCategory": "salotos",
+    "recipeCuisine": "Azijos",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "20g",
+      "fatContent": "10g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 5,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/salotos",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Brokolių žiedai"
+      },
+      "quantity": "1,5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žirnelių ankštys"
+      },
+      "quantity": "0,5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mišrios salotos"
+      },
+      "quantity": "6 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Napa kopūstas"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos, supjaustytos juostelėmis"
+      },
+      "quantity": "0,5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grilyje kepta vištienos krūtinėlė"
+      },
+      "quantity": "170g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Salotų padažas (teriyaki, imbierinis ar balzaminis)"
+      },
+      "quantity": "0,75 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mangas, nuluptas ir supjaustytas"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sezamo krekeriai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Daržovių nudeginimas"
+      },
+      "text": {
+        "lt": "Dideliame puode panardinkite brokolius ir žirnelių ankštis į verdantį vandenį 30 sekundžių. Nusausinkite ir trumpai palaikykite šaltame vandenyje. Gerai nusausinkite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Salotų maišymas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite blanširuotus brokolius ir žirnelių ankštis su mišriomis salotomis, kopūstais ir morkomis."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vištienos įmaišymas"
+      },
+      "text": {
+        "lt": "Į salotas įdėkite supjaustytą grilyje keptą vištieną."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Padažo užpylimas"
+      },
+      "text": {
+        "lt": "Apipilkite salotas pasirinktu padažu ir gerai išmaišykite, kad pasiskirstytų tolygiai."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Salotas padalinkite į 4 lėkštes, viršuje dėkite mango kubelius ir pabarstykite sezamo krekeriais pagal skonį."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite pridėti šviežių žolelių, pvz., kalendrų ar baziliko, kad salotos būtų aromatingesnės."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/azijos-ikveptos-vistienos-salotos.jpg",
+    "alt": "Azijos įkvėpta vištienos salota su mango ir sezamo krekeriais",
+    "width": 800,
+    "height": 600
+  },
+  "tags": [
+    "azijos vištienos salota",
+    "lengvas receptas",
+    "mango salota",
+    "greitos salotos",
+    "salotos su imbieru"
+  ],
+  "author": {
+    "name": "Psychofarm",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Psychofarm"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Asian-Inspired_Chicken_Salad",
+    "pageTitle": "Cookbook:Asian-Inspired_Chicken_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T10:27:29.377Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAisan-Inspired_Chicken_Salad&action=history",
+    "originalCreator": {
+      "name": "Psychofarm",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Psychofarm"
+    }
+  },
+  "originalImage": {
+    "fileName": "Asian_Chicken_Salad_with_Cashews.jpg",
+    "author": {
+      "name": "Nikchick",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Missvain"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Asian_Chicken_Salad_with_Cashews.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T12:00:00+03:00",
+  "createdAt": "2025-11-24T12:00:00+03:00",
+  "updatedAt": "2025-11-24T12:00:00+03:00"
+}

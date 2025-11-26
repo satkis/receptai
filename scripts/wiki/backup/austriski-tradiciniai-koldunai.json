@@ -1,0 +1,230 @@
+{
+  "slug": "austriski-tradiciniai-koldunai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/austriski-tradiciniai-koldunai",
+  "title": {
+    "lt": "Austriški tradiciniai koldūnai"
+  },
+  "description": {
+    "lt": "Austriški tradiciniai koldūnai, pagaminti iš duonos kubelių, kiaušinių ir pieno, puikiai tinka prie keptos anties ar kiaulienos. Šis tradicinis patiekalas yra puikus garnyras su įvairiais padažais."
+  },
+  "seo": {
+    "metaTitle": "Austriški tradiciniai koldūnai | Tradicinis receptas",
+    "metaDescription": "Minkšti ir skanūs austriški tradiciniai koldūnai, puikiai tinkantys prie keptos mėsos ar padažų. Išbandykite šį tradicinį receptą su duonos kubeliais ir kiaušiniais.",
+    "keywords": [
+      "koldunai",
+      "austru virtuve",
+      "tradiciniai austriški koldūnai",
+      "duonos koldūnai",
+      "garnyras koldunai"
+    ],
+    "recipeCategory": "garnyrai",
+    "recipeCuisine": "Austriška",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "8g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/garnyrai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/duona"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Prancūziška / itališka duona"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "300ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "60g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "60g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "2 arbat. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "1/2–1 pundelis",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+      {
+      "step": 1,
+      "name": {
+        "lt": "Duonos paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite duoną smulkenisias kubeliais."
+      }
+    },
+  
+    {
+      "step": 2,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite pieną, kiaušinius ir druską. Supjaustykite duoną smulkenisias kubeliais. Supilkite mišinį ant duonos kubelių kartu su petražolėmis ir gerai išmaišykite. Palikite trumpam pastovėti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Smulkiai supjaustykite svogūnus ir kepkite svieste, kol taps skaidrūs. Leiskite atvėsti ir įmaišykite į duonos mišinį."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Masės paruošimas"
+      },
+      "text": {
+        "lt": "Palikite masę valandai, kartkartėmis pamaišydami, kad duona gerai sugertų skystį."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Formavimas"
+      },
+      "text": {
+        "lt": "Drėgna audekle susukite masę į 6 cm storio ritinį ir tvirtai užriškite galus."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Virimimas"
+      },
+      "text": {
+        "lt": "Dideliame puode užvirinkite vandenį su druska ir atsargiai įdėkite paruoštą ritinį. Virkite 40 minučių."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Ištraukite iš vandens, nuimkite audeklą ir pjaustykite 1 cm storio riekelėmis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galima naudoti aliejų vietoj sviesto."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Pjaustymui naudokite medinę lentą, kad sugertų drėgmę."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/austriski-tradiciniai-koldunai.jpg",
+    "alt": "Austriški tradiciniai koldūnai paruošti patiekimui",
+    "width": 1024,
+    "height": 768
+  },
+  "tags": [
+    "austriški koldūnai",
+    "koldūnai",
+    "tradicinis receptas",
+    "garnyrai",
+    "duonos patiekalai"
+  ],
+  "author": {
+    "name": "Brite33b",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Brite33b"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Austrian_Napkin_Dumpling_(Serviettenkn%C3%B6del)",
+    "pageTitle": "Cookbook:Austrian_Napkin_Dumpling_(Serviettenknödel)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T12:27:40+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAustrian_Napkin_Dumpling_(Serviettenkn%C3%B6del)&action=history",
+    "originalCreator": {
+      "name": "Brite33b",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Brite33b"
+    }
+  },
+  "originalImage": {
+    "fileName": "Serviettenknoedel_bread-log.jpg",
+    "author": {
+      "name": "brite33b",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Serviettenknoedel_bread-log.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T12:27:40+03:00",
+  "createdAt": "2025-11-24T12:27:40+03:00",
+  "updatedAt": "2025-11-24T12:27:40+03:00"
+}

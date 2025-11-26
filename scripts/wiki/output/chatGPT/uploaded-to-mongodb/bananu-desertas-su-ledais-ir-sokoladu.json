@@ -1,0 +1,135 @@
+{
+  "slug": "bananu-desertas-su-ledais-ir-sokoladu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bananu-desertas-su-ledais-ir-sokoladu",
+  "title": {
+    "lt": "Bananų desertas su ledais ir šokoladu – klasikinis greitas desertas"
+  },
+  "description": {
+    "lt": "Klasikinis bananų desertas su vaniliniais, braškiniais ir šokoladiniais ledais, apipiltas šokolado padažu ir papuoštas plaktos grietinėlės burbuliukais. Greitai paruošiamas, skanus desertas visiems šeimos nariams ar svečiams."
+  },
+  "seo": {
+    "metaTitle": "Bananų desertas su ledais ir šokoladu | Greitas receptas",
+    "metaDescription": "Lengvas ir greitas bananų desertas su ledais ir šokolado padažu. Idealiai tinka saldžiam užkandžiui ar desertui po vakarienės.",
+    "keywords": [
+      "bananų desertas",
+      "ledai su šokoladu",
+      "bananas su ledais",
+      "plakta grietinėlė",
+      "greitas desertas",
+      "klasikinis bananų desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "5g",
+      "fatContent": "15g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 5,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/pusryciai",
+    "receptai/vaikams"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Bananas" }, "quantity": "1 vnt.", "vital": true },
+    { "name": { "lt": "Vaniliniai ledai" }, "quantity": "1 rutuliukas", "vital": true },
+    { "name": { "lt": "Braškiniai ledai" }, "quantity": "1 rutuliukas", "vital": true },
+    { "name": { "lt": "Šokoladiniai ledai" }, "quantity": "1 rutuliukas", "vital": true },
+    { "name": { "lt": "Šokolado padažas" }, "quantity": "pagal skonį", "vital": true },
+    { "name": { "lt": "Plakta grietinėlė" }, "quantity": "pagal skonį", "vital": false }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Banano paruošimas" },
+      "text": { "lt": "Perpjaukite bananą per pusę ir padėkite lėkštėje kaip pagrindą desertui." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Ledų išdėstymas" },
+      "text": { "lt": "Viduryje banano padėkite vanilinius ledus, o braškinius ir šokoladinius – šonuose." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Apipylimas padažu" },
+      "text": { "lt": "Desertą apipilkite šokolado padažu ir, jei norite, uždėkite šiek tiek plaktos grietinėlės." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Patiekimas" },
+      "text": { "lt": "Patiekite iš karto, kad ledai neištirptų ir desertas išliktų gražios formos." }
+    }
+  ],
+  "notes": [
+    { "text": { "lt": "Galite pridėti riešutų ar vyšnių dekoracijai." }, "priority": 1 },
+    { "text": { "lt": "Norint mažiau saldaus varianto, sumažinkite šokolado padažo kiekį." }, "priority": 2 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bananu-desertas-su-ledais-ir-sokoladu.jpg",
+    "alt": "Bananų desertas su vaniliniais, braškiniais ir šokoladiniais ledais, apipiltas šokolado padažu",
+    "width": 3072,
+    "height": 2304
+  },
+  "tags": [
+    "bananų desertas",
+    "ledai",
+    "šokolado padažas",
+    "greitas desertas",
+    "klasikinis receptas"
+  ],
+  "author": {
+    "name": "AnkitaS",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AnkitaS"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banana_Split_I",
+    "pageTitle": "Cookbook:Banana_Split_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AnkitaS",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AnkitaS"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bananasplit3015.JPG",
+    "author": {
+      "name": "2candle at English Wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Bananasplit3015.JPG"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija, parengta pagal originalų Wikibooks turinį „Cookbook:Banana_Split_I“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: 2candle, licencija CC BY-SA 3.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:17+03:00",
+  "createdAt": "2025-11-25T14:50:17+03:00",
+  "updatedAt": "2025-11-25T14:50:17+03:00"
+}

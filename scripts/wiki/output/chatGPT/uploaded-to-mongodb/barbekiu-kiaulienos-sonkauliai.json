@@ -1,0 +1,153 @@
+{
+  "slug": "barbekiu-kiaulienos-sonkauliai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/barbekiu-kiaulienos-sonkauliai",
+  "title": {
+    "lt": "Barbekiu kiaulienos šonkauliai – su azijietišku skoniu"
+  },
+  "description": {
+    "lt": "Sultingi barbekiu kiaulienos šonkauliai – amerikietiškas patiekalas orkaitėje su sojos padažu, ryžių actu ir česnaku, praturtintas azijietiškais prieskoniais."
+  },
+  "seo": {
+    "metaTitle": "Barbekiu kiaulienos šonkauliai | Sultingi šonkauliai su azijietišku skoniu",
+    "metaDescription": "Išbandykite amerikietiškus barbekiu kiaulienos šonkaulius orkaitėje su sojos padažu, česnaku ir azijietiškais prieskoniais.",
+    "keywords": [
+      "barbekiu šonkauliai",
+      "kiaulienos šonkauliai",
+      "azijietiškas skonis",
+      "amerikietiška virtuvė",
+      "orkaitės receptas",
+      "sojos padažas"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Amerikietiška",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "35g",
+      "fatContent": "30g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 75,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+    "receptai/kiauliena",
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Kiaulienos šonkauliai" }, "quantity": "910g", "vital": true },
+    { "name": { "lt": "Sojos padažas" }, "quantity": "60ml", "vital": true },
+    { "name": { "lt": "Medus" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Hoisin padažas" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Baltasis actas" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Sake" }, "quantity": "1 šaukštas", "vital": true },
+    { "name": { "lt": "Česnakas" }, "quantity": "2 skiltelės", "vital": true },
+    { "name": { "lt": "Cukrus" }, "quantity": "1 arbatinis šaukštelis", "vital": true },
+    { "name": { "lt": "Baltieji pipirai" }, "quantity": "0.25 arbatinio šaukštelio", "vital": true },
+    { "name": { "lt": "Kiaulienos sultinys" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Juodieji pipirai" }, "quantity": "pagal skonį", "vital": false },
+    { "name": { "lt": "Druska" }, "quantity": "pagal skonį", "vital": false },
+    { "name": { "lt": "Kmynai" }, "quantity": "2 arbatiniai šaukšteliai", "vital": false }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Marinatas" },
+      "text": { "lt": "Padėkite šonkaulius į kepimo indą vienu sluoksniu. Sumaišykite likusius ingredientus mažame dubenėlyje ir užpilkite ant šonkaulių, gerai aptepkite. Palikite marinuotis per naktį, kartkartėmis aptepdami." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Paruošimas kepimui" },
+      "text": { "lt": "Įkaitinkite orkaitę iki 191 °C. Kepimo skardą užpildykite 1.3 cm vandens ir padėkite grotelę su šonkauliais viršuje." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Kepimas" },
+      "text": { "lt": "Kepkite šonkaulius 45 minutes." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Temperatūros padidinimas" },
+      "text": { "lt": "Pakelkite orkaitės temperatūrą iki 232 °C ir kepkite dar 15 minučių." }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Patiekimas" },
+      "text": { "lt": "Patiekite karštus arba šaltus." }
+    }
+  ],
+  "notes": [
+    {
+      "text": { "lt": "Alternatyviai, kepkite 191 °C orkaitėje 20 min, tada sumažinkite iki 163 °C ir kepkite 1 valandą." },
+      "priority": 1
+    },
+    {
+      "text": { "lt": "Norint kepti ant grilio, palaikykite 107 °C temperatūrą ir kepkite 5–6 valandas." },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/barbekiu-kiaulienos-sonkauliai.jpg",
+    "alt": "Barbekiu kiaulienos šonkauliai su padažu",
+    "width": 2181,
+    "height": 2049
+  },
+  "tags": [
+    "barbekiu šonkauliai",
+    "kiaulienos šonkauliai",
+    "azijietiškas skonis",
+    "amerikietiška virtuvė",
+    "orkaitės receptas"
+  ],
+  "author": {
+    "name": "The Grimm Ripper",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:The%20Grimm%20Ripper"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecued_Spare_Ribs",
+    "pageTitle": "Cookbook:Barbecued_Spare_Ribs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "The Grimm Ripper",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:The%20Grimm%20Ripper"
+    }
+  },
+  "originalImage": {
+    "fileName": "Spare_ribs_with_Chinese_barbecue_sauce_cropped.jpg",
+    "author": {
+      "name": "Spare_ribs_with_Chinese_barbecue_sauce.jpg: SpaceMonkey, derivative work: Adrignola",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Adrignola"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Spare_ribs_with_Chinese_barbecue_sauce_cropped.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Spare_ribs_with_Chinese_barbecue_sauce_cropped.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Barbecued_Spare_Ribs“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: SpaceMonkey / Adrignola, Public domain."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:50:32+03:00",
+  "createdAt": "2025-11-25T17:50:32+03:00",
+  "updatedAt": "2025-11-25T17:50:32+03:00"
+}

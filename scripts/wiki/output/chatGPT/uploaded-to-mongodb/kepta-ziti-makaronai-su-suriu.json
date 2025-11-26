@@ -1,0 +1,257 @@
+{
+  "slug": "kepta-ziti-makaronai-su-suriu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kepta-ziti-makaronai-su-suriu",
+  "title": {
+    "lt": "Kepta Ziti su Sūriu"
+  },
+  "description": {
+    "lt": "Kepta ziti su sūriu – klasikinis itališkas makaronų patiekalas, kuriame derinamas marinaros padažas, kelių rūšių sūriai ir tobulai išvirę makaronai. Sotus, gardus ir ypač tinkantis šeimos pietums ar vakarienei."
+  },
+  "seo": {
+    "metaTitle": "Kepta Ziti su Sūriu – Itališkas Makaronų Receptas | Ragaujam.lt",
+    "metaDescription": "Klasikinis keptos ziti su sūriu receptas: marinaros padažas, mozzarella, ricotta, parmezanas ir tobulai iškepti makaronai. Sotus, gardus ir lengvai paruošiamas itališkas patiekalas.", 
+    "keywords": [
+      "kepta ziti",
+      "kepta ziti su sūriu",
+      "itališki makaronai",
+      "makaronų receptas",
+      "itališka vakarienė",
+      "sūrio makaronai",
+      "marinaros padažas"
+    ],
+    "recipeCategory": "makaronai",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "20g",
+      "fatContent": "25g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/makaronai",
+  "secondaryCategories": [
+    "receptai/pietus",
+    "receptai/vakariene",
+    "receptai/italu"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Ziti makaronai"
+      },
+      "quantity": "450 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Marinaros padažas"
+      },
+      "quantity": "360 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tarkuota mozzarella"
+      },
+      "quantity": "450 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ricotta"
+      },
+      "quantity": "225 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas parmezanas"
+      },
+      "quantity": "110 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bazilikas"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonėlis"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiūvėsiai"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonųjų pipirų dribsniai"
+      },
+      "quantity": "žiupsnelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruoškite kepimo formą"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 225 °C. Didelę kepimo formą lengvai patepkite alyvuogių aliejumi, kad patiekalas nepriliptų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Paruoškite sūrio mišinį"
+      },
+      "text": {
+        "lt": "Dubenyje sumaišykite ricottą, kiaušinį, baziliką, raudonėlį, petražoles ir pusę mozzarellos bei parmezano kiekio. Pagardinkite druska ir pipirais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Išvirkite makaronus"
+      },
+      "text": {
+        "lt": "Ziti makaronus virkite pasūdytame vandenyje, kol taps „al dente“. Tada gerai nukoškite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sumaišykite visus ingredientus"
+      },
+      "text": {
+        "lt": "Dubenyje arba dideliame puode sumaišykite makaronus su marinaros padažu ir raudonųjų pipirų dribsniais. Įmaišykite ricottos mišinį ir maišykite, kol jis pradės tirpti. Paruoštą masę supilkite į kepimo formą ir išlyginkite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Iškepti iki tobulumo"
+      },
+      "text": {
+        "lt": "Ant viršaus užberkite likusią mozzarella ir parmezaną, o tada džiūvėsius. Kepkite 20 minučių 225 °C temperatūroje, kol sūris taps auksinis, o paviršius lengvai burbuliuos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Aštresniam skoniui įberkite daugiau raudonųjų pipirų dribsnių."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Puikiai dera su traškiomis salotomis arba česnakine duona."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kepta-ziti-makaronai-su-suriu.jpg",
+    "alt": "Kepta ziti su sūriu – itališkas makaronų patiekalas",
+    "width": 800,
+    "height": 531
+  },
+  "tags": [
+    "kepta ziti",
+    "itališki makaronai",
+    "makaronų patiekalai",
+    "sūrio patiekalai",
+    "itališka vakarienė",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "24.137.5.138",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:24.137.5.138"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baked_Ziti",
+    "pageTitle": "Cookbook:Baked_Ziti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-25T17:50:06+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaked_Ziti&action=history",
+    "originalCreator": {
+      "name": "24.137.5.138",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:24.137.5.138"
+    }
+  },
+  "originalImage": {
+    "fileName": "Baked_Ziti.jpg",
+    "author": {
+      "name": "Lili from NY, United States",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Baked_Ziti.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:50:06+03:00",
+  "createdAt": "2025-11-25T17:50:06+03:00",
+  "updatedAt": "2025-11-25T17:50:06+03:00"
+}

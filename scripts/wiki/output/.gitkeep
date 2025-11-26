@@ -1,0 +1,6 @@
+# This directory contains workflow documentation and processed recipe data
+# DO NOT DELETE:
+# - workFlow.md (Workflow documentation - CRITICAL)
+#
+# This directory is protected by .gitkeep to prevent accidental deletion of critical files
+

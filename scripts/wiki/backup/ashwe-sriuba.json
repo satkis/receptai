@@ -1,0 +1,197 @@
+{
+  "slug": "ashwe-sriuba",
+  "canonicalUrl": "https://ragaujam.lt/receptas/ashwe-sriuba",
+  "title": {
+    "lt": "Ashwe sriuba – Nigerijos roselle lapų sriuba"
+  },
+  "description": {
+    "lt": "Ashwe sriuba – greitai paruošiama Nigerijos sriuba iš roselle lapų. Puikus pasirinkimas mėgstantiems egzotiškus skonius, derinamus su jautiena ir palmių aliejumi."
+  },
+  "seo": {
+    "metaTitle": "Ashwe sriuba iš Nigerijos | Roselle lapų sriubos receptas",
+    "metaDescription": "Išbandykite Nigerijos Ashwe sriubą, gaminamą iš roselle lapų, pomidorų ir palmių aliejaus. Greitas ir egzotiškas receptas su jautiena.",
+    "keywords": [
+      "ashwe sriuba",
+      "roselle lapų sriuba",
+      "nigerijos receptai",
+      "egzotiška sriuba",
+      "jautienos sriuba"
+    ],
+    "recipeCategory": "sriubos",
+    "recipeCuisine": "Afrikos",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "25g",
+      "fatContent": "15g",
+      "fiberContent": "7g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 6,
+  "totalTimeMinutes": 21,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/sriubos",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/afrikos",
+    "receptai/pietums"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Švieži čili pipirai"
+      },
+      "quantity": "3 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vidutinio dydžio pomidorai"
+      },
+      "quantity": "6 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Smulkintas svogūnas"
+      },
+      "quantity": "1 vidutinis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Švieži ashwe lapai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Palmių aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "0.3 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis arba pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Trintuvu sutrinkite čili pipirus, pomidorus ir svogūną."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Lapų paruošimas"
+      },
+      "text": {
+        "lt": "Nuskinkite ir susmulkinkite ashwe lapus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Gaminimas"
+      },
+      "text": {
+        "lt": "Puode įkaitinkite šiek tiek palmių aliejaus. Sudėkite sutrintą daržovių mišinį, ashwe lapus ir jautieną."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sūdymas ir virimas"
+      },
+      "text": {
+        "lt": "Pagardinkite druska pagal skonį ir lėtai maišykite. Virkite 5–6 minutes, tuomet patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite ashwe lapų, juos galima pakeisti špinatais."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/ashwe-sriuba.jpg",
+    "alt": "Ashwe sriuba – Nigerijos roselle lapų sriuba su jautiena",
+    "width": 500,
+    "height": 415
+  },
+  "tags": [
+    "ashwe sriuba",
+    "roselle lapai",
+    "egzotiška sriuba",
+    "nigerijos receptas",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Taoheedah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ashwe_Soup",
+    "pageTitle": "Cookbook:Ashwe_Soup",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T13:27:27+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAshwe_Soup&action=history",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ashwe_soup_(Tiv_ethnic_soup_from_Nigeria).jpg",
+    "author": {
+      "name": "AnonymousUnknown author",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ashwe_soup_%28Tiv_ethnic_soup_from_Nigeria%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:27:27+03:00",
+  "createdAt": "2025-11-24T13:27:27+03:00",
+  "updatedAt": "2025-11-24T13:27:27+03:00"
+}

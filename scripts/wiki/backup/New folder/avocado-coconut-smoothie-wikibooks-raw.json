@@ -1,0 +1,83 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Avocado_Coconut_Smoothie",
+    "pageTitle": "Cookbook:Avocado_Coconut_Smoothie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAvocado_Coconut_Smoothie&action=history",
+    "extractedAt": "2025-11-24T10:27:42.643Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Avocado Coconut Smoothie",
+    "slug": "avocado-coconut-smoothie",
+    "description": "Avocado coconut smoothie is a smoothie recipe made with avocado and coconut milk",
+    "ingredients": [
+      "Ripened avocado",
+      "Spinach (optional)",
+      "Honey",
+      "Ice",
+      "Coconut milk"
+    ],
+    "instructions": [
+      "Blend coconut, avocado, honey, and spinach in a blender until smooth.",
+      "Add ice and serve chilled."
+    ],
+    "notes": [
+      "Do not use coconut water to make the smoothie as this will affect the overall outcome of the drink recipe.",
+      "To get a thinner smoothie, add more milk; add more ice to get a thicker smoothie."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Kid-friendly recipes",
+      "Recipes for smoothies",
+      "Recipes using avocado",
+      "Recipes using spinach",
+      "Recipes using coconut milk",
+      "Recipes using honey"
+    ]
+  },
+  "image": {
+    "filename": "Green_Smoothie.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Green_Smoothie.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Green_Smoothie.jpg",
+    "localPath": "scripts/wiki/output/Green_Smoothie.jpg",
+    "dimensions": {
+      "width": 2448,
+      "height": 3264
+    },
+    "fileSize": 2308601,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Annapowell",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Annapowell"
+    },
+    "metadata": {
+      "description": "Green Smoothie make with spinach, banana, avocado, coconut milk, flaxseed, and maple syrup.",
+      "categories": [
+        "Smoothies",
+        "Self-published work",
+        "Taken with Samsung SGH-I317"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Green_Smoothie.jpg"
+  }
+}

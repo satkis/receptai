@@ -1,0 +1,86 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Awug",
+    "pageTitle": "Cookbook:Awug",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Raflinoer32",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Raflinoer32"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAwug&action=history",
+    "extractedAt": "2025-11-24T10:27:46.374Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Awug",
+    "slug": "awug",
+    "description": "Awug is a traditional Sundanese cake. This cake is made primarily from rice flour, topped with grated coconut and a palm sugar syrup. Awug has a sweet taste and it is best enjoyed while warm. It is usually sold in the morning at markets or in the afternoon by street vendors.",
+    "ingredients": [
+      "250 g rice flour",
+      "250 g grated coconut",
+      "½ tbsp granulated sugar",
+      "½ tsp salt",
+      "150 g palm sugar, thinly shaved"
+    ],
+    "instructions": [
+      "Steam the rice flour for 20 minutes. Then, remove it from the steamer and set aside.",
+      "Combine the steamed rice flour with the coconut, white sugar, and salt in a bowl. Stir until the mixture becomes uniformly crumbly.",
+      "Prepare molds by greasing the insides with a little oil.",
+      "Fill one mold halfway with the rice flour mixture. Add a thin layer of palm sugar, then fill the rest of the mold completely with the rice flour mixture. Repeat with the rest of the rice flour mixture, palm sugar, and molds.",
+      "Preheat a steamer pot and basket over high heat so the water is boiling.",
+      "Steam the awug-awug cakes over the boiling water for 25 minutes.",
+      "Let the molds cool fully, then remove the cakes from the molds. Serve."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Indonesian recipes",
+      "Recipes using rice flour",
+      "Recipes using coconut",
+      "Recipes using palm sugar",
+      "Steamed recipes",
+      "Recipes using granulated sugar"
+    ]
+  },
+  "image": {
+    "filename": "Dodongkal_Makanan_Khas_Sunda.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Dodongkal_Makanan_Khas_Sunda.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dodongkal_Makanan_Khas_Sunda.jpg",
+    "localPath": "scripts/wiki/output/Dodongkal_Makanan_Khas_Sunda.jpg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1334
+    },
+    "fileSize": 1063546,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Yuriandrian85",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Yuriandrian85"
+    },
+    "metadata": {
+      "description": "Dodongkal atau Dongkal makanan khas Sunda atau kue tradisional Indonesia, yang terbuat dari bahan dasar tepung beras, gula merah, dan kelapa. Di beberapa daerah, dodongkal dikenal juga dengan sebutan awug.",
+      "categories": [
+        "Self-published work",
+        "Unidentified subjects in Indonesia",
+        "Images from Wiki Cinta Budaya 2018",
+        "Reviewed by WCB committee phase 1"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Dodongkal_Makanan_Khas_Sunda.jpg"
+  }
+}

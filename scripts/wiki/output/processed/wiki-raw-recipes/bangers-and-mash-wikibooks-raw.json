@@ -1,0 +1,90 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bangers_and_Mash",
+    "pageTitle": "Cookbook:Bangers_and_Mash",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mcld",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mcld"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABangers_and_Mash&action=history",
+    "extractedAt": "2025-11-25T14:50:20.493Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bangers and Mash",
+    "slug": "bangers-and-mash",
+    "description": "You can fry or grill sausages quickly, but in this recipe they are cooked slowly (as recommended by Nigel Slater, no less) so as to really bring out the flavour. Some people like baked beans with their sausage and mash, some people like gravy, and some people don't need either.",
+    "ingredients": [
+      "2–3 good British butcher's sausages per person",
+      "2 medium-to-large potatoes per person (Maris piper potatoes are good.)",
+      "A little vegetable oil",
+      "Some butter or margarine",
+      "A splash of milk"
+    ],
+    "instructions": [
+      "Put a large heavy frying pan on a hob over a medium heat. Put in a little vegetable oil (if desired) and let it warm up.",
+      "Then place the sausages in a single layer in the frying pan. Let them fry a minute or so, then turn them over, fry another minute, turn them around again, to try and get a bit of colour all over.",
+      "Once they've been in the hot pan for 5 minutes or so, turn the heat right down to low. Let them fry very gently for the next 25 minutes, turning them over every 5 or 10 minutes so they get cooked evenly. You can cook them for longer than this (even up to about an hour on a very low heat). Always make sure the sausages are cooked all the way through (no pinkness should remain).",
+      "Peel the potatoes and chop them roughly into pieces around 1 or 2 cm thick. Add them to a large pan of boiling water and boil vigorously for 15 minutes.",
+      "When they're done (they'll be soft enough that you can easily put a knife/fork into one of the pieces), drain them in a colander and return them to the big pan (not on the heat any more).",
+      "Add a generous knob of butter and a splash of milk to the potatoes, and mash them all up with a potato masher."
+    ],
+    "notes": [
+      "You do not need to prick the sausages—that only lets tasty juices escape! Similarly you don't necessarily need to separate them one from another until after they've cooked."
+    ],
+    "servings": 2,
+    "totalTimeMinutes": 30,
+    "difficulty": 2,
+    "category": "Meat recipes",
+    "categories": [
+      "English recipes",
+      "Recipes using potato",
+      "Recipes using sausage",
+      "Main course recipes",
+      "Boiled recipes",
+      "Recipes using vegetable oil",
+      "Recipes using margarine"
+    ]
+  },
+  "image": {
+    "filename": "Bangers_and_mash_1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bangers_and_mash_1.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bangers_and_mash_1.jpg",
+    "localPath": "scripts/wiki/output/Bangers_and_mash_1.jpg",
+    "dimensions": {
+      "width": 640,
+      "height": 480
+    },
+    "fileSize": 46183,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "avlxyz",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Edward"
+    },
+    "metadata": {
+      "description": "Photo of Bangers and mash, taken with a Casio EX-Z3. Copyright avlxyz. Mac's Hotel, Melbourne, Australia.",
+      "categories": [
+        "Bangers and mash",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs taken on 2005-06-06",
+        "Photos in Flickr Explore",
+        "Photographs by Avlxyz",
+        "Sausages of Australia"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Bangers_and_mash_1.jpg"
+  }
+}

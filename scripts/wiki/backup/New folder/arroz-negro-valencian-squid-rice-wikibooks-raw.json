@@ -1,0 +1,113 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Arroz_Negro_(Valencian_Squid_Rice)",
+    "pageTitle": "Cookbook:Arroz_Negro_(Valencian_Squid_Rice)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Moby-Dick4000",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Moby-Dick4000"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AArroz_Negro_(Valencian_Squid_Rice)&action=history",
+    "extractedAt": "2025-11-24T10:27:24.624Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Arroz Negro (Valencian Squid Rice)",
+    "slug": "arroz-negro-valencian-squid-rice",
+    "description": "Arroz negro or arròs negre (\"black rice\" in Spanish and Catalan respectively) is a Valencian dish of cuttlefish (or squid) and rice which is very similar to seafood paella. In fact, some call it paella negra (black paella in Spanish).",
+    "ingredients": [
+      "3 pounds diced squid",
+      "1 pounds green cubanelle peppers",
+      "6 cloves garlic, minced",
+      "2 cups Valencian rice",
+      "3 teaspoons squid ink",
+      "1 tablespoon sweet paprika",
+      "1 tablespoon sea salt",
+      "Olive oil",
+      "8 oz crab",
+      "8 oz smelt or fish heads",
+      "1 medium onion",
+      "1 medium green or red bell pepper",
+      "3 cloves of garlic",
+      "2 bay leaves",
+      "1 gallon of water"
+    ],
+    "instructions": [
+      "Cut one onion and one bell pepper into quarters and place in a large pot with the rest of the broth ingredients.",
+      "Boil for about 30 minutes. Occasionally press the ingredients against the bottom of the pot with a potato masher or ladle to squeeze out their flavors.",
+      "Strain the broth and set aside. Discard the boiled seafood.",
+      "Pour enough oil into a paellera to cover the bottom and heat over a medium flame.",
+      "Add 1 teaspoon of salt to cubanelles and sauté until soft.",
+      "Add squid and sauté for 2 minutes.",
+      "Add garlic and sauté until brown (be careful not to burn).",
+      "Add rice and braise until coated with oil.",
+      "Add paprika and sauté for no more than 15 seconds then quickly add four cups of broth to prevent the paprika from burning.",
+      "Add squid ink and mix well.",
+      "Bring broth to a boil and then simmer for 2 minutes.",
+      "Taste the broth and invite your dinner guests to do so as well. If it tastes bland, add 1 teaspoon of salt at a time until everybody approves.",
+      "Add the rice.",
+      "Begin tasting the rice after it's been simmering for about 20 minute and reduce the heat a bit. Make sure the rice doesn't get too soft. Check the rice again every 10 minutes and reduce the heat slightly after each taste. Your goal is to wind up with rice that has a slightly underdone center. The time it takes to reach this point can vary from 30 minutes to an hour depending on your cooking gear.",
+      "Your paella is done once you've accomplished the following three things: 1) The rice should be slightly firm to the bite. Italians use the same approach when cooking pasta. They call this texture al dente, 2) The paella should be a little moist but not soupy, 3) You should have a bit of toasted rice on the bottom of the paellera. This is considered a delicacy throughout the Spanish-speaking world.",
+      "Remove the paellera from the heat and cover it with a white towel (NOT ALUMINUM FOIL). Allow it to sit for 5 minutes before serving."
+    ],
+    "notes": [
+      "To save time, start preparing the paella once the broth starts boiling."
+    ],
+    "servings": 6,
+    "totalTimeMinutes": 90,
+    "difficulty": 3,
+    "category": "Spanish recipes",
+    "categories": [
+      "Recipes using rice",
+      "Mediterranean recipes",
+      "Main course recipes",
+      "Spanish recipes",
+      "Boiled recipes",
+      "Recipes with metric units",
+      "Recipes using red bell pepper",
+      "Recipes using fish",
+      "Recipes using garlic",
+      "Recipes using squid",
+      "Recipes using crab"
+    ]
+  },
+  "image": {
+    "filename": "Arroz_negro_02.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Arroz_negro_02.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Arroz_negro_02.JPG",
+    "localPath": "scripts/wiki/output/Arroz_negro_02.JPG",
+    "dimensions": {
+      "width": 2048,
+      "height": 1536
+    },
+    "fileSize": 2163205,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "RecoveryMinded",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:RecoveryMinded"
+    },
+    "metadata": {
+      "description": "Arroz negro made in a paellera",
+      "categories": [
+        "Arroz negro",
+        "Taken with Olympus C-160 / D-395",
+        "Self-published work",
+        "PD-self",
+        "Paella pans"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Arroz_negro_02.JPG"
+  }
+}

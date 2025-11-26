@@ -1,0 +1,255 @@
+{
+  "slug": "darzoviu-pyragas-su-baklazanais-ir-svogunais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/darzoviu-pyragas-su-baklazanais-ir-svogunais",
+  "title": {
+    "lt": "Daržovių pyragas su baklažanais ir svogūnais"
+  },
+  "description": {
+    "lt": "Šis daržovių pyragas gaminamas su pomidorais, baklažanais, svogūnais ir grybais. Puikus vegetariškas patiekalas, tinkantis visai šeimai."
+  },
+  "seo": {
+    "metaTitle": "Daržovių pyragas su baklažanais | Vegetariškas receptas",
+    "metaDescription": "Daržovių pyragas su pomidorais, baklažanais, svogūnais ir grybais. Lengvas vegetariškas patiekalas, kuris patiks visai šeimai.",
+    "keywords": [
+      "daržovių pyragas",
+      "baklažanų pyragas",
+      "vegetariškas pyragas",
+      "pyragas su pomidorais",
+      "pyragas su grybais"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 290,
+      "proteinContent": "9g",
+      "fatContent": "15g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vidutinio minkštumo sviestas"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baklažanas"
+      },
+      "quantity": "1–2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1–2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grybai"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas sūris"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinio trynys"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Į didelį dubenį suberkite miltus ir sviestą. Trinkite sviestą į miltus pirštais, kol tešla taps vienalytė."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos minkymas"
+      },
+      "text": {
+        "lt": "Įmuškite kiaušinį ir po truputį pilkite vandenį, minkydami tešlą, kol ji taps minkšta ir nelips prie rankų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Daržovių paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite baklažanus, svogūnus ir grybus plonais griežinėliais. Apkepkite daržoves aliejuje arba svieste, o pomidorus palikite žalius."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pyrago formavimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą iki pusės centimetro storio. Ištepkite kepimo formą sviestu ir įdėkite tešlą. Subadykite šakute ir uždenkite folija."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Iškepti pagrindą"
+      },
+      "text": {
+        "lt": "Iš anksto kepkite tešlą 10 minučių vidutinio karštumo orkaitėje. Išimkite ir ant jos sudėkite daržoves."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Pyrago užbaigimas"
+      },
+      "text": {
+        "lt": "Sumaišykite kiaušinio trynį su pienu ir grietinėle, užpilkite ant daržovių. Užberkite tarkuotu sūriu ir kepkite 15–20 minučių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galima į tešlą įdėti šiek tiek alyvuogių aliejaus, kad būtų lengviau minkoma."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Daržoves galite apkepti su česnaku, kad pyragas būtų aromatingesnis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/darzoviu-pyragas-su-baklazanais-ir-svogunais.jpg",
+    "alt": "Daržovių pyragas su baklažanais ir svogūnais, iškeptas iki auksinės spalvos",
+    "width": 1599,
+    "height": 1242
+  },
+  "tags": [
+    "daržovių pyragas",
+    "baklažanų pyragas",
+    "vegetariškas pyragas",
+    "lengvas receptas",
+    "pyragas su sūriu"
+  ],
+  "author": {
+    "name": "70.246.252.241",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:70.246.252.241"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Aubergine_and_Onion_Vegetable_Pie",
+    "pageTitle": "Cookbook:Aubergine_and_Onion_Vegetable_Pie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T13:27:00+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAubergine_and_Onion_Vegetable_Pie&action=history",
+    "originalCreator": {
+      "name": "70.246.252.241",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.246.252.241"
+    }
+  },
+  "originalImage": {
+    "fileName": "Aubergine_onion_pie.jpg",
+    "author": {
+      "name": "Deadbilly68",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Deadbilly68"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aubergine_onion_pie.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Aubergine_onion_pie.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:27:00+03:00",
+  "createdAt": "2025-11-24T13:27:00+03:00",
+  "updatedAt": "2025-11-24T13:27:00+03:00"
+}

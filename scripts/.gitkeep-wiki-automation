@@ -1,0 +1,37 @@
+# Critical scripts for wiki automation workflow - DO NOT DELETE
+# - image-prep-and-load.js (Image processing and S3 upload)
+#
+# This marker file protects the image-prep-and-load.js script from accidental deletion
+#
+# WORKFLOW STEP 4: Image Processing and S3 Upload
+# ================================================
+#
+# Purpose: Process images from Wikibooks extraction and upload to AWS S3
+#
+# Complete Workflow:
+#   1. Query MongoDB for recently uploaded recipes (from upload-gpt-to-mongodb)
+#   2. Match local images in scripts/wiki/output/ to recipes
+#   3. Convert images to JPG format
+#   4. Compress images using Sharp library
+#   5. Upload to AWS S3 (receptu-images bucket, receptai/ folder)
+#   6. Move processed images to scripts/wiki/output/processed/wiki_images/
+#   7. Remove images from scripts/wiki/output/
+#   8. Update MongoDB recipes with S3 image URLs
+#
+# Triggered by: npm run image-prep-and-load
+#
+# Dependencies:
+#   - AWS SDK (aws-sdk)
+#   - Sharp (image compression)
+#   - MongoDB client
+#   - dotenv (environment variables)
+#
+# Input:
+#   - Images from: scripts/wiki/output/
+#   - Matches recipes uploaded in: scripts/wiki/output/chatGPT/uploaded-to-mongodb/
+#
+# Output:
+#   - Processed images: scripts/wiki/output/processed/wiki_images/
+#   - MongoDB: Updated recipes with S3 URLs
+#   - S3: Images uploaded to receptu-images/receptai/ bucket
+

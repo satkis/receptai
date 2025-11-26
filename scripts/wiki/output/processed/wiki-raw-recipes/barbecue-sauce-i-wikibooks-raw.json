@@ -1,0 +1,95 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Sauce_I",
+    "pageTitle": "Cookbook:Barbecue_Sauce_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABarbecue_Sauce_I&action=history",
+    "extractedAt": "2025-11-25T14:50:29.127Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Barbecue Sauce I",
+    "slug": "barbecue-sauce-i",
+    "description": "This is a simple barbecue sauce that works well for everyday meals, even with leftover meat and picky eaters. It is best served with soda and rice, and perhaps also steamed vegetables.",
+    "ingredients": [
+      "¼ cup (62.5 mL) brown sugar",
+      "1 tbsp (15 mL) garlic powder",
+      "1 tbsp (15 mL) paprika powder",
+      "2 tsp (10 mL) salt",
+      "1 heaping tsp (6.66 mL) of ground coffee beans",
+      "1 cup (250 mL) ketchup",
+      "½ cup (125 mL) water",
+      "3 tbsp (45 mL) white vinegar",
+      "A shot of whiskey or ½ shot of cognac",
+      "A squeeze of lemon juice"
+    ],
+    "instructions": [
+      "Mix everything in a pot.",
+      "Let it simmer for around 30 minutes, stirring occasionally."
+    ],
+    "notes": [
+      "You may optionally add 1 teaspoon (5 mL) of onion powder, and/or aromatics (e.g. thyme or rosemary) to the sauce",
+      "You may optionally add 2 tablespoons (30 mL) of rice vinegar, but if you do, add only 2 tablespoons (30 mL) of white vinegar"
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 1,
+    "category": "Barbecue sauce recipes",
+    "categories": [
+      "Recipes for barbecue sauce",
+      "Texas recipes",
+      "Gluten-free recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Recipes using brown sugar",
+      "Recipes using lemon juice",
+      "Recipes using coffee",
+      "Recipes using cognac",
+      "Recipes using garlic powder",
+      "Recipes using ketchup"
+    ]
+  },
+  "image": {
+    "filename": "BBQ_Sauce_Cookbook.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/BBQ_Sauce_Cookbook.png",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BBQ_Sauce_Cookbook.png",
+    "localPath": "scripts/wiki/output/BBQ_Sauce_Cookbook.png",
+    "dimensions": {
+      "width": 2988,
+      "height": 2988
+    },
+    "fileSize": 11652868,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "QuickQuokka",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:QuickQuokka"
+    },
+    "metadata": {
+      "description": "Barbeque sauce described in variation I at b:Cookbook:Barbecue Sauce",
+      "categories": [
+        "CC-Zero",
+        "Retouched pictures",
+        "Barbecue sauce",
+        "Self-published work",
+        "Glass food jars"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "BBQ_Sauce_Cookbook.png"
+  }
+}

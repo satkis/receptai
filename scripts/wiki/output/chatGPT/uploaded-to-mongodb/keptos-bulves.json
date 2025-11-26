@@ -1,0 +1,187 @@
+{
+  "slug": "keptos-bulves",
+  "canonicalUrl": "https://ragaujam.lt/receptas/keptos-bulves",
+  "title": {
+    "lt": "Keptos Bulvės"
+  },
+  "description": {
+    "lt": "Keptos bulvės – universalus ir lengvai paruošiamas patiekalas, tinkantis tiek kaip garnyras, tiek kaip sotus užkandis. Jas galite iškepti orkaitėje, mikrobanginėje arba ant grotelių, o patiekimui rinktis mėgstamus padažus ar priedus."
+  },
+  "seo": {
+    "metaTitle": "Keptos Bulvės – Lengvas ir Skanus Receptas | Ragaujam.lt",
+    "metaDescription": "Greitas ir paprastas keptų bulvių receptas. Sužinokite, kaip iškepti bulves orkaitėje, mikrobanginėje ar ant grotelių. Idėjos patiekimui ir gardiems priedams.",
+    "keywords": [
+      "keptos bulvės",
+      "keptų bulvių receptas",
+      "bulvių garnyras",
+      "orkaitėje keptos bulvės",
+      "mikrobangėje keptos bulvės",
+      "bulvės ant grotelių",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "garnyrai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 220,
+      "proteinContent": "5g",
+      "fatContent": "10g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 50,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 1,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/garnyrai",
+  "secondaryCategories": [
+    "receptai/bulves",
+    "receptai/ant-grilio",
+    "receptai/kepta-orkaiteje"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bulvė"
+      },
+      "quantity": "1 didelė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas arba grietinė"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Bulvės Paruošimas"
+      },
+      "text": {
+        "lt": "Gerai nuplaukite bulvę ir keliose vietose subadykite jos odą šakute. Taip garai kepimo metu galės lengvai pasišalinti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas Ant Grotelių"
+      },
+      "text": {
+        "lt": "Kepimas Ant Grotelių || Įvyniokite bulvę į aliuminio foliją ir kepkite ant vidutinės ugnies apie 45 minutes, kol ji taps minkšta ir sultinga."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas Mikrobanginėje"
+      },
+      "text": {
+        "lt": "epimas Mikrobanginėje || Įvyniokite bulvę į mikrobangų krosnelei tinkamą plėvelę, padarykite kelias skylutes ir kepkite maždaug 8 minutes, kol suminkštės."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas Orkaitėje"
+      },
+      "text": {
+        "lt": "Kepimas Orkaitėje || Orkaitę įkaitinkite iki 190°C. Sudėkite bulvę ant skardos ir kepkite apie 1 valandą, kol vidus taps kreminis."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Perpjaukite karštą bulvę, pagardinkite druska ir įdėkite truputį sviesto arba grietinės. Taip pat tinka sūris, žolelės, česnakinis padažas ar kiti mėgstami priedai."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Skani idėja – patiekti su aštriomis pupelėmis, sūriu, šonine ar avokado gabalėliais."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/keptos-bulves.jpg",
+    "alt": "Keptos bulvės su grietine ir apibarstytu sūriu",
+    "width": 2304,
+    "height": 1712
+  },
+  "tags": [
+    "keptos bulvės",
+    "bulvių receptas",
+    "orkaitėje keptos bulvės",
+    "mikrobanginėje keptos bulvės",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Alcinoe~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Alcinoe~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baked_Potatoes",
+    "pageTitle": "Cookbook:Baked_Potatoes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-25T14:50:04.990Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaked_Potatoes&action=history",
+    "originalCreator": {
+      "name": "Alcinoe~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Alcinoe~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Microwaved_potatoes.JPG",
+    "author": {
+      "name": "me (w:User:pfctdayelise)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Pfctdayelise"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Microwaved_potatoes.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:50:04+03:00",
+  "createdAt": "2025-11-25T17:50:04+03:00",
+  "updatedAt": "2025-11-25T17:50:04+03:00"
+}

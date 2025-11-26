@@ -1,0 +1,90 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ashoka_Halwa_(Mung_Bean_Pudding)",
+    "pageTitle": "Cookbook:Ashoka_Halwa_(Mung_Bean_Pudding)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "SafeenaHalsyn",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SafeenaHalsyn"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAshoka_Halwa_(Mung_Bean_Pudding)&action=history",
+    "extractedAt": "2025-11-24T10:27:26.044Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Ashoka Halwa (Mung Bean Pudding)",
+    "slug": "ashoka-halwa-mung-bean-pudding",
+    "description": "Asoka halwa is a very famous dessert in the district of Thiruvaiyaru in Tamil Nadu, India. The traditional dish is made with moong dal, sugar, and ghee, and it is served at wedding ceremonies.",
+    "ingredients": [
+      "1 cup split yellow moong dal",
+      "3 cups water",
+      "2 cups granulated sugar",
+      "12 tablespoons ghee, divided",
+      "4 tablespoons wheat flour",
+      "¼ teaspoon cardamom powder",
+      "3 tablespoons broken cashews",
+      "1 pinch red food colouring in 1 teaspoon water"
+    ],
+    "instructions": [
+      "Dry roast the moong dal until it smells nutty and browns slightly.",
+      "Add 3 cups of water and pressure cook for about 7–8 whistles until the dal is soft and mushy.",
+      "Add 4 tablespoons ghee to a heavy-bottomed pot over medium-low heat, and cook the wheat flour in it until golden brown.",
+      "Stir the cooked dal into the flour mixture, and let it thicken for 5 minutes. Add the sugar.",
+      "Stirring continuously, start mixing in the remaining ghee 1 tablespoon at a time. Keep stirring until the mixture starts leaving the sides of the pan and the whole mixture forms a dough. It will take about 12–15 minutes and 6–7 tablespoons of ghee.",
+      "Heat 1 tablespoon of ghee in a separate frying pan, and add the cashews. Fry until slightly brown, then add to the halwa mixture.",
+      "Mix in the powdered cardamom and food color.",
+      "Remove from the heat and let cool."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using granulated sugar",
+      "Recipes using cardamom",
+      "Recipes using cashew",
+      "Recipes using mung bean",
+      "Recipes using wheat flour",
+      "Recipes using food coloring"
+    ]
+  },
+  "image": {
+    "filename": "AshokaHalwa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/AshokaHalwa.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:AshokaHalwa.jpg",
+    "localPath": "scripts/wiki/output/AshokaHalwa.jpg",
+    "dimensions": {
+      "width": 3000,
+      "height": 2547
+    },
+    "fileSize": 1941938,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Safeena Haslyn",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Safeena%20Haslyn"
+    },
+    "metadata": {
+      "description": "AshokaHalwa",
+      "categories": [
+        "Self-published work",
+        "Pages with local camera coordinates and missing SDC coordinates",
+        "Files with coordinates missing SDC location of creation",
+        "Sweets of TamilNadu"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "AshokaHalwa.jpg"
+  }
+}

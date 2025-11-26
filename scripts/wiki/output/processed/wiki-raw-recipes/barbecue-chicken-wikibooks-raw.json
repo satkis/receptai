@@ -1,0 +1,105 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Chicken",
+    "pageTitle": "Cookbook:Barbecue_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Iwatchaltonbrown",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABarbecue_Chicken&action=history",
+    "extractedAt": "2025-11-25T14:50:24.817Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Barbecue Chicken",
+    "slug": "barbecue-chicken",
+    "description": "* 1 cup salt * 1 quart water * ½ cup dark brown sugar * 4 cloves garlic, minced * 2 tbsp finely grated lemon zest * 1 quart salt-free chicken broth",
+    "ingredients": [
+      "2 each chicken thighs, legs, and breasts",
+      "1 cup salt",
+      "1 quart water",
+      "½ cup dark brown sugar",
+      "4 cloves garlic, minced",
+      "2 tbsp finely grated lemon zest",
+      "1 quart salt-free chicken broth",
+      "1 cup tomato paste",
+      "¼ cup honey",
+      "¼ cup apple cider vinegar",
+      "2 tbsp Worcestershire sauce",
+      "2 tbsp paprika",
+      "2 tbsp smoked paprika",
+      "1 ½ tsp dried rosemary",
+      "1 ½ tsp dried thyme",
+      "1 ½ tbsp cayenne pepper",
+      "½ tbsp coarsely-ground black pepper",
+      "2 tbsp dark brown sugar"
+    ],
+    "instructions": [
+      "Combine all brine ingredients in a 2-gallon zip-top bag. Insert chicken and refrigerate for 2 hours.",
+      "Combine sauce ingredients and bring to a boil over medium high heat until reduced by half.",
+      "Quickly swab the grill with an oiled towel tied with twine to lube.",
+      "Combine Rub ingredients and massage all over chicken. Refrigerate for 30 minutes.",
+      "Grill chicken over a preheated charcoal grill, turning often, for 10 minutes. Cook, turning often and brushing with sauce when turned, until internal temperature reaches 165°F in the breast and 170°F for the dark meat.",
+      "Cover with foil and let rest 7 minutes. Meanwhile, boil remaining sauce for 5 minutes and place in a squirt bottle. Serve chicken with sauce on the side."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using chicken",
+      "Barbecue recipes",
+      "Grilled recipes",
+      "Main course recipes",
+      "Recipes using dark brown sugar",
+      "Recipes using cayenne",
+      "Recipes using paprika",
+      "Recipes using rosemary",
+      "Recipes using thyme",
+      "Recipes using pepper",
+      "Recipes using chicken broth and stock",
+      "Recipes using honey",
+      "Recipes using lemon zest"
+    ]
+  },
+  "image": {
+    "filename": "Barbecue_chicken-03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Barbecue_chicken-03.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Barbecue_chicken-03.jpg",
+    "localPath": "scripts/wiki/output/Barbecue_chicken-03.jpg",
+    "dimensions": {
+      "width": 640,
+      "height": 427
+    },
+    "fileSize": 319582,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "stevendepolo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": "We grilled chicken thighs, corn on the cob, and made a garden grown salad for dinner",
+      "categories": [
+        "Taken with Canon EOS 350D",
+        "Grilled chicken",
+        "Flickr images reviewed by File Upload Bot (Magnus Manske)",
+        "Barbecue chicken"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Barbecue_chicken-03.jpg"
+  }
+}

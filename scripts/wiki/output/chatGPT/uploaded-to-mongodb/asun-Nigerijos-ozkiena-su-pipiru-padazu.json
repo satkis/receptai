@@ -1,0 +1,232 @@
+{
+  "slug": "asun-Nigerijos-ozkiena-su-pipiru-padazu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/asun-Nigerijos-ozkiena-su-pipiru-padazu",
+  "title": {
+    "lt": "Asun – ožkiena su pipirų padažu (tradicinis Nigerijos patiekalas)"
+  },
+  "description": {
+    "lt": "Asun – vienas garsiausių Nigerijos Yoruba virtuvės patiekalų, gaminamas iš sultingos keptos ožkienos ir aštraus pipirų padažo. Aromatingas, sodraus skonio, puikiai tinkantis vakarėliams, ypatingoms progoms ar egzotiškai vakarienei."
+  },
+  "seo": {
+    "metaTitle": "Asun – ožkiena su pipirų padažu | Autentiškas Nigerijos receptas",
+    "metaDescription": "Išbandykite Asun – tradicinį Nigerijos patiekalą iš keptos ožkienos su aštriu pipirų padažu. Autentiškas Yoruba receptas, tinkantis vakarėliams ir egzotiškai vakarienei.",
+    "keywords": [
+      "asun receptas",
+      "ožkiena su pipirų padažu",
+      "Nigerijos virtuvė",
+      "Yoruba patiekalai",
+      "aštrūs patiekalai",
+      "kepta ožkiena",
+      "egzotiški receptai",
+      "Nigerijos maistas",
+      "ožkiena orkaitėje"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "35 g",
+      "fatContent": "30 g",
+      "fiberContent": "4 g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 120,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 180,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/kepta-orkaiteje",
+    "receptai/vakariene",
+    "receptai/naujuju-metu-stalui",
+    "receptai/aštrus-maistas"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Ožkienos mėsa"
+      },
+      "quantity": "1 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sultinio kubelis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Švieži habanero pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas (padažui)"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Padažui",
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mėsos paruošimas"
+      },
+      "text": {
+        "lt": "Ožkienos mėsą sudėkite į dubenį, įberkite druskos ir sutrupintą sultinio kubelį. Gerai įtrinkite ir palikite marinuotis bent 2 valandoms, kad mėsa įgautų gilesnį skonį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Mėsos kepimas"
+      },
+      "text": {
+        "lt": "Marinuotą mėsą dėkite ant grilio arba įkaitintos orkaitės (180 °C). Lengvai aptepkite augaliniu aliejumi. Kepkite 20 minučių ant grilio arba 40 minučių orkaitėje, kol mėsa bus apskrudusi."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pipirų pasta"
+      },
+      "text": {
+        "lt": "Habanero pipirus ir svogūnus sudėkite į maisto smulkintuvą ir sutrinkite iki tirštos, vientisos pastos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Troškinimas"
+      },
+      "text": {
+        "lt": "Keptą ožkieną sudėkite į keptuvę, įpilkite apie ¾ puodelio vandens. Kaitinkite 5–10 minučių, kad mėsa suminkštėtų ir įgautų daugiau sultingumo."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Padažo užbaigimas"
+      },
+      "text": {
+        "lt": "Įmaišykite pagamintą pipirų–svogūnų pastą. Troškinkite 5–7 minutes, tada sudėkite supjaustytą papriką ir likusį svogūną. Pagardinkite druska, supilkite šaukštą aliejaus ir dar 2 minutes patroškinkite, kad skoniai susijungtų."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą – kaip pagrindinį patiekalą arba pikantišką užkandį."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Habanero pipirai yra labai aštrūs – jei norite švelnesnio varianto, rinkitės jalapeno arba saldžiąsias paprikas."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/asun-Nigerijos-ozkiena-su-pipiru-padazu.jpg",
+    "alt": "Asun – tradicinė kepta ožkiena su aštriu pipirų padažu",
+    "width": 1125,
+    "height": 1757
+  },
+  "tags": [
+    "asun",
+    "ožkiena",
+    "pipirų padažas",
+    "Nigerijos virtuvė",
+    "Yoruba virtuvė",
+    "aštrus patiekalas",
+    "egzotiški receptai"
+  ],
+  "author": {
+    "name": "Kwalaw",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kwalaw"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Asun_(Goat_in_Pepper_Sauce)",
+    "pageTitle": "Cookbook:Asun_(Goat_in_Pepper_Sauce)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T10:27:33.279Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsun_(Goat_in_Pepper_Sauce)&action=history",
+    "originalCreator": {
+      "name": "Kwalaw",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kwalaw"
+    }
+  },
+  "originalImage": {
+    "fileName": "Goat_meat_Asun.jpg",
+    "author": {
+      "name": "Edriiic",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Goat_meat_Asun.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T10:27:33+03:00",
+  "createdAt": "2025-11-24T10:27:33+03:00",
+  "updatedAt": "2025-11-24T10:27:33+03:00"
+}

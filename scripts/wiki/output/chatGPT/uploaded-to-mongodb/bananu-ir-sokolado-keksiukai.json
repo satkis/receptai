@@ -1,0 +1,183 @@
+{
+  "slug": "bananu-ir-sokolado-keksiukai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bananu-ir-sokolado-keksiukai",
+  "title": {
+    "lt": "Bananų ir šokolado keksiukai"
+  },
+  "description": {
+    "lt": "Minkšti, drėgni ir kvapnūs bananų ir šokolado keksiukai – puikus pasirinkimas pusryčiams, užkandžiui ar desertui. Prinokę bananai suteikia natūralaus saldumo, o šokolado gabaliukai – gardų tirpstantį akcentą. Pagaminami vos per 30 minučių!"
+  },
+  "seo": {
+    "metaTitle": "Bananų ir šokolado keksiukai – minkšti ir kvapnūs | Greitas receptas",
+    "metaDescription": "Greitas ir lengvas bananų ir šokolado keksiukų receptas. Minkšti, kvapnūs ir drėgni keksiukai su prinokusiais bananais – puikiai tinka pusryčiams ar desertui. Pagaminama per 30 min.",
+    "keywords": [
+      "bananų keksiukai",
+      "šokolado keksiukai",
+      "bananų ir šokolado keksiukai",
+      "greiti pusryčių receptai",
+      "keksiukai su bananais",
+      "lengvas kepinių receptas",
+      "drėgni keksiukai"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 220,
+      "proteinContent": "3g",
+      "fatContent": "8g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/desertai",
+    "receptai/seimai",
+    "receptai/uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": { "lt": "Universalaus tipo miltai" },
+      "quantity": "250 g",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Cukrus" },
+      "quantity": "110 g",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Kepimo milteliai" },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Pusiau saldūs šokolado gabaliukai" },
+      "quantity": "40 g",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Kiaušinis" },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Augalinis aliejus" },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Pienas" },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Trinti prinokę bananai" },
+      "quantity": "250 g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Sausų ingredientų paruošimas" },
+      "text": {
+        "lt": "Dubenyje sumaišykite miltus, cukrų, kepimo miltelius ir šokolado gabaliukus. Centre padarykite duobutę skystiems ingredientams."
+      }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Skystų ingredientų sumaišymas" },
+      "text": {
+        "lt": "Atskira dubenyje suplakite kiaušinį iki putų. Įmaišykite aliejų, pieną ir trintus bananus – masė turi būti vientisa."
+      }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Tešlos paruošimas" },
+      "text": {
+        "lt": "Supilkite skystus ingredientus į sausų dubenį ir lengvai išmaišykite. Maišykite tik tiek, kad ingredientai susijungtų – tešla turi likti šiek tiek grumstuota."
+      }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Kepimas" },
+      "text": {
+        "lt": "Paruoštą tešlą supilkite į riebalais pateptas keksiukų formeles, užpildydami jas iki ¾. Kepkite 205 °C temperatūroje 15–20 minučių, kol paviršius taps auksinis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šiuos keksiukus skaniausia valgyti dar šiltus – tuomet šokoladas būna maloniai tirpstantis."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bananu-ir-sokolado-keksiukai.jpg",
+    "alt": "Šviežiai iškepti bananų ir šokolado keksiukai ant stalo",
+    "width": 1803,
+    "height": 1611
+  },
+  "tags": [
+    "bananų keksiukai",
+    "šokolado keksiukai",
+    "lengvas pusryčių receptas",
+    "keksiukai su bananais",
+    "kepiniai",
+    "greiti keksiukai"
+  ],
+  "author": {
+    "name": "Morgan695~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Morgan695~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banana_Chip_Muffins",
+    "pageTitle": "Cookbook:Banana_Chip_Muffins",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "extractedAt": "2025-11-25T14:50:11.739Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanana_Chip_Muffins&action=history",
+    "originalCreator": {
+      "name": "Morgan695~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Morgan695~enwikibooks"
+    },
+    "licenseNote": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Banana_Chip_Muffins“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0) licenciją."
+  },
+  "originalImage": {
+    "fileName": "Banana-Nut-Muffins-2005-Aug-24.jpg",
+    "author": {
+      "name": "Naib",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Naib"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Banana-Nut-Muffins-2005-Aug-24.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:11+03:00",
+  "createdAt": "2025-11-25T14:50:11+03:00",
+  "updatedAt": "2025-11-25T14:50:11+03:00"
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "baba-ganoush-su-keptu-baklazanu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/baba-ganoush-su-keptu-baklazanu",
+  "title": {
+    "lt": "Baba Ganoush su keptu baklažanu"
+  },
+  "description": {
+    "lt": "Baba Ganoush yra populiarus Vidurio Rytų užkandis, pagamintas iš kepto baklažano, tahini, citrinos sulčių ir alyvuogių aliejaus. Jis puikiai tinka kaip veganiškas užkandis arba pikantiškas padažas jūsų patiekalams."
+  },
+  "seo": {
+    "metaTitle": "Baba Ganoush | Vidurio Rytų užkandis su keptu baklažanu",
+    "metaDescription": "Atraskite Vidurio Rytų Baba Ganoush receptą su keptu baklažanu, tahini ir citrinos sultimis. Puikiai tinka kaip veganiškas užkandis ar pikantiškas padažas.",
+    "keywords": [
+      "Baba Ganoush",
+      "keptas baklažanas",
+      "Vidurio Rytų užkandis",
+      "veganiškas užkandis",
+      "tahini padažas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Vidurio Rytų",
+    "nutrition": {
+      "calories": 45,
+      "proteinContent": "1g",
+      "fatContent": "4g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/vegetariskas"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baklažanas"
+      },
+      "quantity": "1 vnt. (700g)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tahini"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrina"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnako skiltelė"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kajeno pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Baklažano kepimas"
+      },
+      "text": {
+        "lt": "Baklažaną dėkite į orkaitę su grilio funkcija ir kepkite, kol jo oda pasidarys juoda ir ims luptis. Nepamirškite apversti kas ~4 minutes."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Baklažano paruošimas"
+      },
+      "text": {
+        "lt": "Nuimkite baklažano odą. Jei liko keli juodi gabalėliai, nesijaudinkite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite arba sutrinkite baklažano minkštimą su likusiais susmulkintais ingredientais. Pabaigoje apšlakstykite likusiu alyvuogių aliejumi ir pabarstykite paprika ar kajeno pipirais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norėdami intensyvesnio skonio, naudokite laimo sultis vietoje citrinos."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/baba-ganoush-su-keptu-baklazanu.jpg",
+    "alt": "Baba Ganoush padažas su keptu baklažanu, patiekiamas su duona",
+    "width": 1024,
+    "height": 726
+  },
+  "tags": [
+    "Baba Ganoush",
+    "keptas baklažanas",
+    "Vidurio Rytų užkandis",
+    "veganiškas užkandis",
+    "tahini padažas"
+  ],
+  "author": {
+    "name": "PurplePieman",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:PurplePieman"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baba_Ganoush",
+    "pageTitle": "Cookbook:Baba_Ganoush",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T13:12:39.029Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaba_Ganoush&action=history",
+    "originalCreator": {
+      "name": "PurplePieman",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:PurplePieman"
+    }
+  },
+  "originalImage": {
+    "fileName": "Baba_Ganoush_05of05_(8735238183).jpg",
+    "author": {
+      "name": "Breville USA",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Omer123hussain"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Baba_Ganoush_05of05_%288735238183%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:12:39+03:00",
+  "createdAt": "2025-11-24T13:12:39+03:00",
+  "updatedAt": "2025-11-24T13:12:39+03:00"
+}

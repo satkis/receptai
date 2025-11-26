@@ -1,0 +1,99 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baked_Ziti",
+    "pageTitle": "Cookbook:Baked_Ziti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "24.137.5.138",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:24.137.5.138"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaked_Ziti&action=history",
+    "extractedAt": "2025-11-25T14:50:06.546Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Baked Ziti",
+    "slug": "baked-ziti",
+    "description": "Baked ziti is a type of casserole in Italian-American cuisine. It consists primarily of pasta and various cheeses in a tomato-based sauce.",
+    "ingredients": [
+      "1 lb (450 g) ziti or other pasta",
+      "1 ½ cups (360 ml) marinara sauce",
+      "1 lb (450 g) grated mozzarella",
+      "½ lb (225 g) ricotta",
+      "4 oz (110 g) grated Parmesan cheese",
+      "1 egg, beaten",
+      "3 tbsp basil, chopped fine",
+      "2 tbsp oregano, chopped fine",
+      "3 tbsp Italian parsley, chopped fine",
+      "½ cup (120 ml) bread crumbs",
+      "1 pinch crushed red pepper flakes (optional)",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 425 °F (225 °C).  Coat a large baking dish with olive oil.",
+      "Mix ricotta, egg, basil, oregano, parsley and about half of the mozzarella and Parmesan in a large bowl until well incorporated. Season with salt and pepper.",
+      "Cook ziti in a large pot of salted water until al dente. Drain well.",
+      "In a large bowl or pot, toss ziti with marinara sauce and red pepper flakes until noodles are covered. Stir in ricotta mixture and fold until it begins to melt. Pour mixture into greased dish and spread it out with a spoon.",
+      "Sprinkle remaining mozzarella and Parmesan over the top, then sprinkle bread crumbs over cheese.",
+      "Bake at 425 °F (225 °C) for 20 minutes or until cheese on top turns golden and begins to bubble."
+    ],
+    "notes": [],
+    "servings": 8,
+    "totalTimeMinutes": 60,
+    "difficulty": 2,
+    "category": "Pasta recipes",
+    "categories": [
+      "Recipes using pasta",
+      "Recipes using pasta and noodles",
+      "Italian recipes",
+      "Baked recipes",
+      "Recipes with metric units",
+      "Recipes using chile flake",
+      "Recipes using bread crumb",
+      "Recipes using parsley",
+      "Recipes using salt",
+      "Recipes using pepper",
+      "Recipes using egg"
+    ]
+  },
+  "image": {
+    "filename": "Baked_Ziti.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Baked_Ziti.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Baked_Ziti.jpg",
+    "localPath": "scripts/wiki/output/Baked_Ziti.jpg",
+    "dimensions": {
+      "width": 800,
+      "height": 531
+    },
+    "fileSize": 136507,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Lili from NY, United States",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": "Baked ziti, a dish with beef, 3 cheeses, and Ziti Pasta",
+      "categories": [
+        "Taken with Nikon D100",
+        "Ziti",
+        "Images with extracted images",
+        "Flickr images reviewed by FlickreviewR",
+        "Low quality food and drink pictures"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Baked_Ziti.jpg"
+  }
+}

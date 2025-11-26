@@ -1,0 +1,223 @@
+{
+  "slug": "baguette-su-prancuzisku-suriu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/baguette-su-prancuzisku-suriu",
+  "title": {
+    "lt": "Baguette su prancūzišku sūriu"
+  },
+  "description": {
+    "lt": "Autentiška prancūziška baguette su traškia auksine plutele ir minkštu, puriu vidumi. Puikiai dera su prancūzišku sūriu, sviestu ar taure gero vyno. Ideali namų duonos recepto versija mėgstantiems aromatingą, ką tik iš orkaitės ištrauktą duoną."
+  },
+  "seo": {
+    "metaTitle": "Prancūziška Baguette – Autentiška Namų Duona su Sūriu | Lengvas Receptas",
+    "metaDescription": "Išmokite išsikepti autentišką prancūzišką baguette su traškia pluta ir puriu vidumi. Paprastas namų duonos receptas, puikiai derantis su prancūzišku sūriu.",
+    "keywords": [
+      "prancūziška baguette",
+      "namų duona",
+      "prancūziškas sūris",
+      "duonos receptas",
+      "bagetės kepimas",
+      "autentiška prancūziška duona",
+      "kaip iškepti baguette"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 260,
+      "proteinContent": "8g",
+      "fatContent": "1g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 60,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/vegetariskas",
+    "receptai/veganiskas",
+    "receptai/bulves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Mielės"
+      },
+      "quantity": "5g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šiltas vanduo"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "13.5g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šaltas vanduo"
+      },
+      "quantity": "300ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mielių aktyvavimas"
+      },
+      "text": {
+        "lt": "Mažame dubenėlyje sumaišykite mieles ir vandenį, palikite 3 minutėms, kad mielės suaktyvėtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Ingredientų paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje suberkite miltus ir druską, gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Supilkite vandenį ir mielių mišinį į miltus. Maišykite, kol susiformuos vientisa tešla."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Minkymas"
+      },
+      "text": {
+        "lt": "Miltuotu paviršiumi minkykite tešlą apie 5 minutes, kol ji taps elastinga ir lygi."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Autolizė ir papildomas minkymas"
+      },
+      "text": {
+        "lt": "Tešlą uždenkite ir palikite 25 minutėms autolizei. Po to minkykite dar 6–8 minutes, kad išsivystytų glitimas."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kildinimas"
+      },
+      "text": {
+        "lt": "Perkelkite tešlą į aliejumi išteptą dubenį, uždenkite ir kildinkite 1,5–2 valandas, kol tūris išaugs dvigubai."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Bagetės formavimas"
+      },
+      "text": {
+        "lt": "Padalykite tešlą į 3 dalis, suformuokite bagetes ir leiskite joms pakilti 30–40 minučių."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 260°C. Kepkite 12 minučių, tada sumažinkite temperatūrą iki 200°C ir kepkite dar 25–30 minučių, kol bagetės taps traškios ir auksinės."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei dalį miltų pakeisite tortų miltais, bagetė bus lengvesnės tekstūros."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/baguette-su-prancuzisku-suriu.jpg",
+    "alt": "Prancūziška baguette su traškia pluta",
+    "width": 349,
+    "height": 64
+  },
+  "tags": [
+    "prancūziška duona",
+    "baguette",
+    "traški pluta",
+    "lengvas receptas",
+    "duonos kepimas",
+    "namų duona",
+    "prancūziškas receptas"
+  ],
+  "author": {
+    "name": "Wikidsoup",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Wikidsoup"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baguette",
+    "pageTitle": "Cookbook:Baguette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-25T14:50:01.876Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaguette&action=history",
+    "originalCreator": {
+      "name": "Wikidsoup",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Wikidsoup"
+    }
+  },
+  "originalImage": {
+    "fileName": "Baguette.png",
+    "author": {
+      "name": "User Vlad2i on fr.wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Liftarn"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa-3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Baguette.png"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:50:01+03:00",
+  "createdAt": "2025-11-25T17:50:01+03:00",
+  "updatedAt": "2025-11-25T17:50:01+03:00"
+}

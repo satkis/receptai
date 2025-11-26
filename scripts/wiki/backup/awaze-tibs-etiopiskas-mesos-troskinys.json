@@ -1,0 +1,221 @@
+{
+  "slug": "awaze-tibs-etiopiskas-mesos-troskinys",
+  "canonicalUrl": "https://ragaujam.lt/receptas/awaze-tibs-etiopiskas-mesos-troskinys",
+  "title": {
+    "lt": "Awaze Tibs – Etiopiškas mėsos troškinys"
+  },
+  "description": {
+    "lt": "Awaze Tibs – tai aštrus, aromatingas Etiopijos mėsos patiekalas, gaminamas iš jautienos arba avienos, troškinamas su berberės prieskoniais, pomidorų pasta ir awaze padažu. Intensyvaus skonio ir greitai paruošiamas."
+  },
+  "seo": {
+    "metaTitle": "Awaze Tibs – aštrus etiopiškas mėsos troškinys | Tradicinis receptas",
+    "metaDescription": "Autentiškas Awaze Tibs receptas – aštrus ir aromatingas etiopiškas mėsos troškinys su berberėmis ir awaze padažu. Puikiai tinka su injera ar ryžiais.",
+    "keywords": [
+      "awaze tibs",
+      "etiopiškas troškinys",
+      "etiopų virtuvė",
+      "berberės prieskoniai",
+      "awaze padažas",
+      "jautienos troškinys",
+      "avienos troškinys"
+    ],
+    "recipeCategory": "troškiniai",
+    "recipeCuisine": "Etiopų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "32g",
+      "fatContent": "25g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutinis",
+  "primaryCategoryPath": "receptai/troškiniai",
+  "secondaryCategories": [
+    "receptai/jautiena",
+    "receptai/aviena",
+    "receptai/aštrūs-patiekalai"
+  ],
+  "ingredients": [
+    {
+      "name": { "lt": "Augalinis aliejus" },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Jautiena arba aviena (plonai pjaustyta)" },
+      "quantity": "700 g",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Svogūnas (plonai pjaustytas)" },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Česnako skiltelės (smulkintos)" },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Berberės prieskoniai" },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Pomidorų pasta" },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Malta paprika" },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Kajeno pipirai" },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Awaze padažas" },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Sojų padažas" },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Actas" },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Druska" },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": { "lt": "Švieži kalendrų lapai (kapoti)" },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Aliejaus įkaitinimas" },
+      "text": { "lt": "Didelėje keptuvėje arba wok'e įkaitinkite aliejų ant vidutinės-aukštos ugnies." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Mėsos kepimas" },
+      "text": { "lt": "Sudėkite plonai pjaustytą mėsą ir kepkite 3–4 minutes, kol apskrus. Išimkite ir atidėkite." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Svogūnų ir česnakų pakepinimas" },
+      "text": { "lt": "Toje pačioje keptuvėje sudėkite svogūną ir česnaką. Kepkite 2–3 minutes, kol suminkštės ir taps aromatingi." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Prieskonių įmaišymas" },
+      "text": { "lt": "Įdėkite berberės prieskonius, pomidorų pastą, papriką ir kajeno pipirus. Išmaišykite." }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Mėsos grąžinimas į keptuvę" },
+      "text": { "lt": "Grąžinkite mėsą ir gerai sumaišykite su prieskonių mišiniu." }
+    },
+    {
+      "step": 6,
+      "name": { "lt": "Padažo suvienodinimas" },
+      "text": { "lt": "Įdėkite awaze padažą, sojų padažą, actą ir druską. Išmaišykite, kad mėsa pasidengtų padažu." }
+    },
+    {
+      "step": 7,
+      "name": { "lt": "Patiekimas" },
+      "text": { "lt": "Nuimkite nuo ugnies, pabarstykite šviežiais kalendrais ir patiekite su injera ar ryžiais." }
+    }
+  ],
+  "notes": [
+    {
+      "text": { "lt": "Aštrumą reguliuokite pagal skonį, pridėdami daugiau arba mažiau kajeno pipirų." },
+      "priority": 1
+    },
+    {
+      "text": { "lt": "Awaze padažą galima nusipirkti Afrikos/etiopų parduotuvėse arba pasigaminti namuose." },
+      "priority": 2
+    },
+    {
+      "text": { "lt": "Puikiai dera su injera, ryžiais arba duona." },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/awaze-tibs-etiopiskas-mesos-troskinys.jpg",
+    "alt": "Awaze Tibs – aštrus etiopiškas mėsos troškinys su prieskoniais ir kalendra",
+    "width": 3264,
+    "height": 2448
+  },
+  "tags": [
+    "awaze tibs",
+    "etiopiškas troškinys",
+    "aštrus patiekalas",
+    "jautienos troškinys",
+    "avienos troškinys",
+    "berberės prieskoniai"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Awaze_Tibs_(Spicy_Ethiopian_Meat_Stir-Fry)",
+    "pageTitle": "Cookbook:Awaze_Tibs_(Spicy_Ethiopian_Meat_Stir-Fry)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T13:27:44+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAwaze_Tibs_(Spicy_Ethiopian_Meat_Stir-Fry)&action=history",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Meat_stir-fry_dish_at_a_Tibetan_restaurant.jpg",
+    "author": {
+      "name": "Mark Lyon (Northamerica1000)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Northamerica1000"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Meat_stir-fry_dish_at_a_Tibetan_restaurant.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:27:44+03:00",
+  "createdAt": "2025-11-24T13:27:44+03:00",
+  "updatedAt": "2025-11-24T13:27:44+03:00"
+}

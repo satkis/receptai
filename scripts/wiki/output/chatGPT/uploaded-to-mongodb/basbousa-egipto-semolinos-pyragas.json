@@ -1,0 +1,147 @@
+{
+  "slug": "basbousa-egipto-semolinos-pyragas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/basbousa-egipto-semolinos-pyragas",
+  "title": {
+    "lt": "Basbousa – Egipto semolinos pyragas su sirupu"
+  },
+  "description": {
+    "lt": "Basbousa – drėgnas ir turtingas Viduržemio jūros desertas iš semolinos, kokoso ir sirupo, dažnai patiekiamas ypatingomis progomis ir festivaliais."
+  },
+  "seo": {
+    "metaTitle": "Basbousa – Egipto semolinos pyragas | Vidurio Rytų desertas",
+    "metaDescription": "Išbandykite tradicinį Basbousa receptą – Egipto semolinos pyragą su kokoso drožlėmis ir sirupu. Puikus desertas ypatingoms progoms.",
+    "keywords": [
+      "basbousa",
+      "egipto desertas",
+      "semolinos pyragas",
+      "vidurio rytų desertas",
+      "kokosų pyragas",
+      "sirupinis pyragas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Egipto",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "3g",
+      "fatContent": "12g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 35,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Smulki semolina" }, "quantity": "1 puodelis", "vital": true },
+    { "name": { "lt": "Džiovintas kokosas" }, "quantity": "0.5 puodelio", "vital": true },
+    { "name": { "lt": "Nesūdytas sviestas" }, "quantity": "0.5 puodelio", "vital": true },
+    { "name": { "lt": "Baltasis cukrus" }, "quantity": "0.75 puodelio", "vital": true },
+    { "name": { "lt": "Natūralaus jogurto" }, "quantity": "1 puodelis", "vital": true },
+    { "name": { "lt": "Kepimo milteliai" }, "quantity": "1 arbatinis šaukštelis", "vital": true },
+    { "name": { "lt": "Vanilės ekstraktas" }, "quantity": "0.5 arbatinio šaukštelio", "vital": false },
+    { "name": { "lt": "Vanduo" }, "quantity": "1 puodelis", "vital": true },
+    { "name": { "lt": "Cukrus sirupui" }, "quantity": "1 puodelis", "vital": true },
+    { "name": { "lt": "Citrinos sultys" }, "quantity": "1 šaukštas", "vital": true }
+  ],
+  "sideIngredients": [
+    { "category": "Papuošimui", "name": { "lt": "Kapoti migdolai arba pistacijos" }, "quantity": "Pagal skonį", "vital": false }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Paruošimas" },
+      "text": { "lt": "Įkaitinkite orkaitę iki 180°C. Sumaišykite semoliną, kokoso drožles, ištirpintą sviestą, cukrų, jogurtą, kepimo miltelius ir vanilės ekstraktą, kol gausite vientisą masę." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Kepimas" },
+      "text": { "lt": "Ištepkite 23x23 cm kepimo formą sviestu ir supilkite tešlą, tolygiai paskirstydami. Peiliu įpjaukite tešlos paviršių į rombus ar kvadratus." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Sirupo paruošimas" },
+      "text": { "lt": "Kol pyragas kepa, paruoškite sirupą: puode sumaišykite vandenį, cukrų ir citrinos sultis. Užvirinkite, kol cukrus ištirps. Atvėsinkite." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Pyrago baigimas" },
+      "text": { "lt": "Kai pyragas iškeps, išimkite iš orkaitės ir leiskite šiek tiek atvėsti. Užpilkite atvėsusį sirupą ant šilto pyrago, leiskite jam įsigerti." }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Patiekimas" },
+      "text": { "lt": "Papuoškite kapotais migdolais arba pistacijomis. Leiskite visiškai atvėsti prieš pjaustant ir patiekiant." }
+    }
+  ],
+  "notes": [
+    {
+      "text": { "lt": "Jei norite intensyvesnio skonio, galite naudoti apelsinų žiedų vandenį sirupui." },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/basbousa-egipto-semolinos-pyragas.jpg",
+    "alt": "Basbousa – Egipto semolinos pyragas su kokoso drožlėmis ir sirupu",
+    "width": 647,
+    "height": 863
+  },
+  "tags": [
+    "basbousa",
+    "egipto desertas",
+    "semolinos pyragas",
+    "vidurio rytų desertas",
+    "kokosų pyragas"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basbousa_(Egyptian_Semolina_Cake)",
+    "pageTitle": "Cookbook:Basbousa_(Egyptian_Semolina_Cake)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Revane.jpg",
+    "author": {
+      "name": "Biser Todorov",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Biso"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Revane.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Basbousa (Egyptian Semolina Cake)“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: Biser Todorov, CC BY-SA 4.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:00:00+03:00",
+  "createdAt": "2025-11-25T17:00:00+03:00",
+  "updatedAt": "2025-11-25T17:00:00+03:00"
+}

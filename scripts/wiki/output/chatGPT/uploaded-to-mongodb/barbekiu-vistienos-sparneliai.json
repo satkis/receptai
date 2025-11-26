@@ -1,0 +1,139 @@
+{
+  "slug": "barbekiu-vistienos-sparneliai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/barbekiu-vistienos-sparneliai",
+  "title": {
+    "lt": "Barbekiu vištienos sparneliai – sultingi ir pikantiški"
+  },
+  "description": {
+    "lt": "Sultingi barbekiu vištienos sparneliai – puikus užkandis vakarėliams ar šeimos susibūrimams. Klasikinis amerikietiškas patiekalas su pikantišku skoniu, praturtintu paprikos ir citrinos pipirais."
+  },
+  "seo": {
+    "metaTitle": "Barbekiu vištienos sparneliai | Sultingi amerikietiški sparneliai",
+    "metaDescription": "Išbandykite barbekiu vištienos sparnelių receptą su paprikos ir citrinos pipirų prieskoniais. Puikus pasirinkimas vakarėliui ar šeimos vakarienei.",
+    "keywords": [
+      "barbekiu vištienos sparneliai",
+      "amerikietiška virtuvė",
+      "klasikinis receptas",
+      "grilio patiekalai",
+      "pikantiški sparneliai",
+      "barbekiu receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 240,
+      "proteinContent": "16g",
+      "fatContent": "18g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/pietus",
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Vištienos sparneliai" }, "quantity": "24 vnt", "vital": true },
+    { "name": { "lt": "Barbekiu padažas" }, "quantity": "300 ml", "vital": true },
+    { "name": { "lt": "Paprika" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Citrinos pipirai" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Druska" }, "quantity": "1 šaukštas", "vital": true },
+    { "name": { "lt": "Juodieji pipirai" }, "quantity": "1 šaukštas", "vital": true },
+    { "name": { "lt": "Kajeno pipirai" }, "quantity": "1.5 šaukšto", "vital": false },
+    { "name": { "lt": "Hickory medžio drožlės" }, "quantity": "pagal poreikį", "vital": true }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Paruošimas" },
+      "text": { "lt": "Sumaišykite visus prieskonius ir apvolioję jais sparnelius, aptepkite barbekiu padažu. Palikite marinuotis šaldytuve kuo ilgiau." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Grilio paruošimas" },
+      "text": { "lt": "Įkaitinkite anglių židinį ir paskirstykite anglis tolygiai. Uždenkite groteles." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Kepimas" },
+      "text": { "lt": "Sudėkite vištienos sparnelius ant grotelių ir kepkite, dažnai versdami, kol vidinė temperatūra pasieks 74°C." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Pateikimas" },
+      "text": { "lt": "Nuimkite nuo grilio, uždenkite aliuminio folija ir leiskite pailsėti 5 minutes prieš patiekiant." }
+    }
+  ],
+  "notes": [
+    {
+      "text": { "lt": "Jei neturite grilio, galite naudoti dujinį grilį." },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/barbekiu-vistienos-sparneliai.jpg",
+    "alt": "Barbekiu vištienos sparneliai, patiekiami ant lėkštės",
+    "width": 480,
+    "height": 360
+  },
+  "tags": [
+    "barbekiu sparneliai",
+    "amerikietiška virtuvė",
+    "pikantiški patiekalai",
+    "grilio receptas",
+    "sultingi sparneliai"
+  ],
+  "author": {
+    "name": "Iwatchaltonbrown",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Wings",
+    "pageTitle": "Cookbook:Barbecue_Wings",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Iwatchaltonbrown",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+    }
+  },
+  "originalImage": {
+    "fileName": "Barbecue-Chicken-Wings_13264-480x360_(4791356615).jpg",
+    "author": {
+      "name": "Emilian Robert Vicol from Com. Balanesti, Romania",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ethically%20Yours"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Barbecue-Chicken-Wings_13264-480x360_%284791356615%29.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Barbecue_Wings“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: Emilian Robert Vicol, CC BY 2.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:30+03:00",
+  "createdAt": "2025-11-25T14:50:30+03:00",
+  "updatedAt": "2025-11-25T14:50:30+03:00"
+}

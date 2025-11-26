@@ -1,0 +1,101 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baklava_I",
+    "pageTitle": "Cookbook:Baklava_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Zornitsa",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaklava_I&action=history",
+    "extractedAt": "2025-11-25T14:50:07.929Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Baklava I",
+    "slug": "baklava-i",
+    "description": "Baklava Baklava Baklava Category:Recipes using walnut Category:Recipes using ground cinnamon Category:Recipes using clove Baklava Category:Baking recipes Category:Recipes with metric units Category:Recipes with images Category:Recipes using butter Category:Recipes using white sugar Category:Recipes using lemon juice Category:Recipes using phyllo",
+    "ingredients": [
+      "phyllo dough",
+      "4–5 cup walnuts, chopped coarsely",
+      "½ cup white granulated sugar",
+      "¼ tsp ground cloves",
+      "1 tsp cinnamon",
+      "¾ pound sweet butter",
+      "2 ½ cups of water",
+      "3 cups white granulated sugar",
+      "3 tsp lemon juice",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Combine nuts, cinnamon, cloves, and sugar. Melt butter in a saucepan.",
+      "Use a pastry brush to brush inside of a 14 x 10.5-inch (36 x 27 cm) pan with melted butter.",
+      "Line bottom of pan with one piece of Phyllo dough. Fold under excess Phyllo.",
+      "Alternate sides with each piece of Phyllo, brushing the top of each layer with melted butter.",
+      "Repeat 5 times, making 5 layers.",
+      "On the 6th sheet, sprinkle evenly with nut mixture.",
+      "Continue until all nut mixture is used and last 6 buttered sheets of Phyllo form top crust.",
+      "Use a sharp knife to cut into diamond shapes.",
+      "Bake at 300 °F (150 °C) for about 1 ½ hours or until lightly brown.",
+      "Combine syrup ingredients. Boil syrup for about 10 minutes and then allow to cool.",
+      "Pour cooled syrup over hot pastry. Enjoy!"
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Greek recipes|Baklava",
+      "Recipes for dessert|Baklava",
+      "Recipes for pastries|Baklava",
+      "Recipes using walnut",
+      "Recipes using ground cinnamon",
+      "Recipes using clove",
+      "Halal recipes|Baklava",
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes using white sugar",
+      "Recipes using lemon juice",
+      "Recipes using phyllo"
+    ]
+  },
+  "image": {
+    "filename": "Baklava(RobertK).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Baklava%28RobertK%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Baklava(RobertK).jpg",
+    "localPath": "scripts/wiki/output/Baklava(RobertK).jpg",
+    "dimensions": {
+      "width": 1400,
+      "height": 933
+    },
+    "fileSize": 371131,
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Robert Kindermann",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:RobertK~commonswiki"
+    },
+    "metadata": {
+      "description": "A plate with one piece of baklava.",
+      "categories": [
+        "Taken with Canon EOS 20D",
+        "Baklava"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Baklava(RobertK).jpg"
+  }
+}

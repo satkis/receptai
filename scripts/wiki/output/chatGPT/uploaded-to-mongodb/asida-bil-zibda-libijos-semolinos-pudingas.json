@@ -1,0 +1,226 @@
+{
+  "slug": "asida-bil-zibda-libijos-semolinos-pudingas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/asida-bil-zibda-libijos-semolinos-pudingas",
+  "title": {
+    "lt": "Asida bil Zibda – Libijos semolinos pudingas"
+  },
+  "description": {
+    "lt": "Asida bil zibda – tradicinis Libijos desertas, kreminis, švelnus ir maloniai saldus. Pagamintas iš paprastų ingredientų, šis gardėsis dažnai ruošiamas ypatingomis progomis."
+  },
+  "seo": {
+    "metaTitle": "Asida bil Zibda – Libijos semolinos pudingas | Tradicinis desertų receptas",
+    "metaDescription": "Tradicinis Libijos semolinos pudingo receptas: kreminis, saldus ir kvapnus. Pudingas gaminamas iš semolinos, sviesto, cukraus ir kardamono – puikiai tinka ypatingoms progoms.",
+    "keywords": [
+      "libijos desertas",
+      "semolinos pudingas",
+      "asida bil zibda",
+      "tradicinis libijos receptas",
+      "saldus pudingas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Libijos",
+    "nutrition": {
+      "calories": 400,
+      "proteinContent": "5g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Semolina"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maltas kardamonas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maltas cinamonas"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kapoti riešutai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sviesto ištirpinimas"
+      },
+      "text": {
+        "lt": "Dideliame puode arba keptuvėje ant vidutinės ugnies ištirpinkite sviestą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Semolinos kepimas"
+      },
+      "text": {
+        "lt": "Suberkite semoliną į ištirpintą sviestą ir, nuolat maišydami, kepkite apie 10 minučių, kol ji taps auksinės spalvos ir skleis malonų riešutų aromatą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Prieskonių ir cukraus įmaišymas"
+      },
+      "text": {
+        "lt": "Sumažinkite ugnį ir įmaišykite cukrų bei maltą kardamoną. Gerai išmaišykite, kad prieskoniai tolygiai pasiskirstytų."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pieno įpylimas"
+      },
+      "text": {
+        "lt": "Lėtai, nuolat maišydami, pilkite pieną. Tai padės išvengti gumulų susidarymo."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Tirštinimas"
+      },
+      "text": {
+        "lt": "Virkite toliau ant silpnos ugnies, nuolat maišydami, apie 10–15 minučių, kol mišinys sutirštės ir pradės atšokti nuo puodo sienelių."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Pudingą išimkite iš puodo ir patiekite šiltą arba kambario temperatūros. Papuoškite kapotais riešutais ir pabarstykite cinamono."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Papildomam aromatui galite įlašinti rožių arba apelsinų žiedų vandens."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Riešutai ir cinamonas puikiai tinka papuošimui."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Šis pudingas tinka tiek desertui, tiek pusryčiams."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/asida-bil-zibda-libijos-semolinos-pudingas.jpg",
+    "alt": "Libijos semolinos pudingas su cinamonu ir riešutais",
+    "width": 511,
+    "height": 378
+  },
+  "tags": [
+    "libijos desertas",
+    "semolinos pudingas",
+    "asida bil zibda",
+    "tradicinis libijos receptas",
+    "saldus pudingas"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Asida_bil_Zibda_(Libyan_Semolina_Pudding)",
+    "pageTitle": "Cookbook:Asida_bil_Zibda_(Libyan_Semolina_Pudding)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T10:27:30.467Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsida_bil_Zibda_(Libyan_Semolina_Pudding)&action=history",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Libyan_Asida.jpg",
+    "author": {
+      "name": "Jaw101ie",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Jaw101ie"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Libyan_Asida.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T13:27:30+03:00",
+  "createdAt": "2025-11-24T13:27:30+03:00",
+  "updatedAt": "2025-11-24T13:27:30+03:00"
+}

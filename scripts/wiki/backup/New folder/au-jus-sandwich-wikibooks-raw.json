@@ -1,0 +1,93 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Au_Jus_Sandwich",
+    "pageTitle": "Cookbook:Au_Jus_Sandwich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAu_Jus_Sandwich&action=history",
+    "extractedAt": "2025-11-24T10:27:37.647Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Au Jus Sandwich",
+    "slug": "au-jus-sandwich",
+    "description": "__NOTOC__ | Cookbook:Cuisine of the United States | Cuisine of California The au jus sandwich is also known as roast beef au jus, and is better known in America as the french dip sandwich. It traces its origins to downtown Los Angeles in either 1908 or 1918, when a local restaurant owner was making a sandwich for a police officer and accidentally dropped it into a pan of beef broth.",
+    "ingredients": [
+      "3 tablespoons flour",
+      "roast or other cut of beef",
+      "1 beef bouillon cube",
+      "1 can (~2 cups / 16 oz / 470 ml) beef consommé, bouillon cube equivalent, or additional roast beef",
+      "1 can (~2 cups / 16 oz / 470 ml) French onion soup",
+      "1 cup (2 sticks / 250 g / 8.8 oz) butter",
+      "1 can (16 oz / 470 ml) beer (optional)",
+      "Spices (e.g. salt, pepper) (optional)",
+      "4 French/sandwich/hoagie rolls"
+    ],
+    "instructions": [
+      "Combine all the ingredients except the rolls in a slow cooker or crock pot. Let the mixture simmer for at least six hours. This step is critical because it makes the meat tender.",
+      "Serve beef on split rolls.",
+      "You can either pre-dip the sandwich, or serve with a bowl of meat drippings. When serving the drippings separately, remove the beef shreds from the juices and serve with a small bowl of meat drippings on the side. Dip the sandwiches in the drippings as you eat."
+    ],
+    "notes": [
+      "Bread can be toasted and buttered before adding beef.",
+      "In the original sandwich, the bread was dipped in the juice prior to adding the meat, rather than dipped at the table.",
+      "Other meats can be substituted, including lamb, pork, and turkey.",
+      "Try adding cheese, horseradish, or mustard to the sandwich."
+    ],
+    "servings": 4,
+    "totalTimeMinutes": 360,
+    "difficulty": 2,
+    "category": "Sandwich recipes",
+    "categories": [
+      "Californian recipes",
+      "Recipes using beef",
+      "Recipes for sandwiches",
+      "Slow cooker recipes",
+      "Featured recipes",
+      "Recipes using butter",
+      "Recipes using beer",
+      "Recipes using dehydrated broth",
+      "Recipes using bread",
+      "Recipes using wheat flour"
+    ]
+  },
+  "image": {
+    "filename": "Roast_Beef_Dip_lunch.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Roast_Beef_Dip_lunch.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Roast_Beef_Dip_lunch.JPG",
+    "localPath": "scripts/wiki/output/Roast_Beef_Dip_lunch.JPG",
+    "dimensions": {
+      "width": 4320,
+      "height": 3240
+    },
+    "fileSize": 2502847,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Vranak",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Vranak"
+    },
+    "metadata": {
+      "description": "Roast beef dip, french fries, au jus, ketchup, beer and fire in background",
+      "categories": [
+        "French dip sandwiches",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Roast_Beef_Dip_lunch.JPG"
+  }
+}

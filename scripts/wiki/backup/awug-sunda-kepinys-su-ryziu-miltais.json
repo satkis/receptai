@@ -1,0 +1,183 @@
+{
+  "slug": "awug-sunda-kepinys-su-ryziu-miltais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/awug-sunda-kepinys-su-ryziu-miltais",
+  "title": {
+    "lt": "Awug – tradicinis Sunda kepinys"
+  },
+  "description": {
+    "lt": "Awug – tai tradicinis Sunda kepinys, gaminamas iš ryžių miltų, kokosų ir palmių cukraus sirupo. Šis saldus, šiltas desertas dažniausiai parduodamas rytais turgeliuose arba popiet gatvėse."
+  },
+  "seo": {
+    "metaTitle": "Awug - Sunda kepinys | Tradicinis receptas",
+    "metaDescription": "Awug – tradicinis Sunda kepinys iš ryžių miltų, kokosų ir palmių cukraus sirupo. Saldus ir šiltas desertas, puikiai tinkantis rytiniam ar popietiniam užkandžiui.",
+    "keywords": [
+      "awug",
+      "tradicinis Sunda kepinys",
+      "ryžių miltai",
+      "palmių cukrus",
+      "indoneziečių virtuvė"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Indoneziečių",
+    "nutrition": {
+      "calories": 400,
+      "proteinContent": "5g",
+      "fatContent": "20g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 65,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/garu-puode"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Ryžių miltai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas kokosas"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Smulkus cukrus"
+      },
+      "quantity": "0.5 šaukšto",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arbat. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Plonai pjaustytas palmių cukrus"
+      },
+      "quantity": "150g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ryžių miltų garinimas"
+      },
+      "text": {
+        "lt": "Garinkite ryžių miltus 20 minučių. Tuomet išimkite ir palikite atvėsti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Dubenyje sumaišykite garintus ryžių miltus su kokosu, cukrumi ir druska. Maišykite, kol masė taps tolygiai trupanti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Formų paruošimas"
+      },
+      "text": {
+        "lt": "Ištepkite formas aliejumi. Užpildykite formą iki pusės ryžių miltų mišiniu, uždėkite ploną palmių cukraus sluoksnį, tada užpildykite likusiu mišiniu. Kartokite, kol sunaudosite visą masę."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Garų puodo paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite garų puodą, kad vanduo užvirtų. Awug pyragėlius garinkite virš verdančio vandens 25 minutes."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Leiskite pyragėliams šiek tiek atvėsti, tada atsargiai išimkite juos iš formų. Patiekite šiltus."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/awug-sunda-kepinys-su-ryziu-miltais.jpg",
+    "alt": "Awug – tradicinis Sunda kepinys iš ryžių miltų, kokosų ir palmių cukraus",
+    "width": 2000,
+    "height": 1334
+  },
+  "tags": [
+    "awug",
+    "indoneziečių desertas",
+    "tradicinis Sunda kepinys",
+    "ryžių miltai",
+    "palmių cukrus"
+  ],
+  "author": {
+    "name": "Raflinoer32",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Raflinoer32"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Awug",
+    "pageTitle": "Cookbook:Awug",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-24T10:27:46.374Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAwug&action=history",
+    "originalCreator": {
+      "name": "Raflinoer32",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Raflinoer32"
+    }
+  },
+  "originalImage": {
+    "fileName": "Dodongkal_Makanan_Khas_Sunda.jpg",
+    "author": {
+      "name": "Yuriandrian85",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Yuriandrian85"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Dodongkal_Makanan_Khas_Sunda.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-24T14:00:00+03:00",
+  "createdAt": "2025-11-24T14:00:00+03:00",
+  "updatedAt": "2025-11-24T14:00:00+03:00"
+}

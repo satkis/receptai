@@ -1,0 +1,88 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Asun_(Goat_in_Pepper_Sauce)",
+    "pageTitle": "Cookbook:Asun_(Goat_in_Pepper_Sauce)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Kwalaw",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kwalaw"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsun_(Goat_in_Pepper_Sauce)&action=history",
+    "extractedAt": "2025-11-24T10:27:33.279Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Asun (Goat in Pepper Sauce)",
+    "slug": "asun-goat-in-pepper-sauce",
+    "description": "Asun is a Nigerian dish of grilled goat meat in pepper sauce. It is a Yoruba delicacy often found at Nigerian parties.",
+    "ingredients": [
+      "Goat meat, washed and cut into smaller pieces",
+      "Salt",
+      "Stock cube",
+      "2 medium-sized onions",
+      "Fresh habanero pepper",
+      "Bell pepper, chopped",
+      "1 onion, chopped"
+    ],
+    "instructions": [
+      "Place goat meat in a clean bowl. Add salt and stock cubes, and give a good massage. Marinate for at least 2 hours to properly season the meat.",
+      "Place the marinated goat meat on an electric barbecue grill or oven grill. Rub some vegetable oil on the meat.",
+      "Cover the grill, and grill for about 20 minutes. If you are using an oven grill, grill it for about 40 minutes at 180˚C.",
+      "In a food processor, blend the habanero pepper, and onions to a chunky paste.",
+      "Place a pan on medium heat. Add the grilled meat along with about ¾ cup water to introduce moisture. Let cook for about 5–10 minutes.",
+      "Stir in the pepper and onion mixture, and let cook for about 5–7 minutes.",
+      "Add the chopped bell pepper and onion. Combine thoroughly, and add salt to taste.",
+      "Add a tablespoon of vegetable oil, and combine very well. Leave to simmer for about 2 minutes.",
+      "Serve."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using bell pepper",
+      "Recipes using dehydrated broth",
+      "Recipes using goat",
+      "Recipes using onion",
+      "Recipes using habanero chile",
+      "Nigerian recipes"
+    ]
+  },
+  "image": {
+    "filename": "Goat_meat_Asun.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Goat_meat_Asun.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Goat_meat_Asun.jpg",
+    "localPath": "scripts/wiki/output/Goat_meat_Asun.jpg",
+    "dimensions": {
+      "width": 1125,
+      "height": 1757
+    },
+    "fileSize": 1723792,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Edriiic",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "metadata": {
+      "description": "Goat meat in pepper mix",
+      "categories": [
+        "Cuisine of Nigeria",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Goat_meat_Asun.jpg"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "bananu-pyragas-su-pasukomis-ir-sviestu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bananu-pyragas-su-pasukomis-ir-sviestu",
+  "title": {
+    "lt": "Skanus ir drėgnas bananų pyragas"
+  },
+  "description": {
+    "lt": "Drėgnas ir aromatingas bananų pyragas, pagamintas iš prinokusių bananų, pasukų ir sviesto. Tai lengvai pagaminamas namų desertas, kuris puikiai tinka tiek pusryčiams, tiek prie kavos ar arbatos. Puikus būdas sunaudoti likusius bananus."
+  },
+  "seo": {
+    "metaTitle": "Bananų pyragas – drėgnas, purus ir lengvai pagaminamas receptas",
+    "metaDescription": "Išbandykite drėgno ir puraus bananų pyrago receptą su prinokusiais bananais, pasukomis ir sviestu. Lengvas, naminis desertas, puikiai tinkantis pusryčiams ar prie kavos.",
+    "keywords": [
+      "bananų pyragas",
+      "bananų keksas",
+      "drėgnas bananų pyragas",
+      "pyragas su bananais",
+      "bananų desertas",
+      "lengvas pyrago receptas",
+      "namų gamybos pyragas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "4g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 50,
+  "totalTimeMinutes": 70,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pusryciai",
+    "receptai/pietus",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Kvietiniai miltai" }, "quantity": "2 puodeliai", "vital": true },
+    { "name": { "lt": "Kepimo milteliai" }, "quantity": "1.5 arb. šaukštelio", "vital": true },
+    { "name": { "lt": "Valgomoji soda" }, "quantity": "0.5 arb. šaukštelio", "vital": true },
+    { "name": { "lt": "Druska" }, "quantity": "0.5 arb. šaukštelio", "vital": true },
+    { "name": { "lt": "Malti cinamonai" }, "quantity": "0.5 arb. šaukštelio", "vital": true },
+    { "name": { "lt": "Nesūdytas sviestas" }, "quantity": "0.5 puodelio", "vital": true },
+    { "name": { "lt": "Cukrus" }, "quantity": "1 puodelis", "vital": true },
+    { "name": { "lt": "Kiaušiniai" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Vanilės ekstraktas" }, "quantity": "1.5 arb. šaukštelio", "vital": true },
+    { "name": { "lt": "Prinokę bananai" }, "quantity": "3 vnt.", "vital": true },
+    { "name": { "lt": "Pasukos" }, "quantity": "0.5 puodelio", "vital": true }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Orkaitės paruošimas" },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175°C. Paruoškite 23 cm kepimo formą – ištepkite sviestu ir pabarstykite miltais."
+      }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Sausų ingredientų paruošimas" },
+      "text": {
+        "lt": "Dubenyje sumaišykite miltus, kepimo miltelius, sodą, druską ir cinamoną. Atidėkite į šalį."
+      }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Sviesto ir kiaušinių plakimas" },
+      "text": {
+        "lt": "Dideliame dubenyje išplakite sviestą su cukrumi, kol masė taps puri. Įmuškite kiaušinius po vieną, tuomet įmaišykite vanilę."
+      }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Bananų įmaišymas" },
+      "text": {
+        "lt": "Suberkite sutrintus bananus ir maišykite, kol masė taps vientisa."
+      }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Tešlos paruošimas" },
+      "text": {
+        "lt": "Į sviesto ir bananų masę pakaitomis įmaišykite sausų ingredientų mišinį ir pasukas. Maišykite tik tiek, kad ingredientai susijungtų."
+      }
+    },
+    {
+      "step": 6,
+      "name": { "lt": "Kepimas" },
+      "text": {
+        "lt": "Supilkite tešlą į formą, išlyginkite paviršių ir kepkite 45–50 min., kol įsmeigtas medinis pagaliukas išeina sausas."
+      }
+    },
+    {
+      "step": 7,
+      "name": { "lt": "Atvėsinimas" },
+      "text": {
+        "lt": "Leiskite pyragui atvėsti formoje 10 min., tada išimkite ir dėkite ant grotelių visiškai atvėsti."
+      }
+    },
+    {
+      "step": 8,
+      "name": { "lt": "Pateikimas" },
+      "text": {
+        "lt": "Pyragą galite patiekti su sūrio kremu, cukraus pudra arba mėgautis natūraliu skoniu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": { "lt": "Neturite pasukų? Sumaišykite pieną su šlakeliu citrinų sulčių." },
+      "priority": 1
+    },
+    {
+      "text": { "lt": "Pyragas puikiai tinka tiek su kremine glazūra, tiek be jos." },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bananu-pyragas-su-pasukomis-ir-sviestu.jpg",
+    "alt": "Drėgnas ir purus bananų pyragas ant grotelių",
+    "width": 3024,
+    "height": 3485
+  },
+  "tags": [
+    "bananų pyragas",
+    "drėgnas bananų pyragas",
+    "lengvas pyragas",
+    "namų gamybos desertas",
+    "pyragas su pasukomis",
+    "desertas su bananais"
+  ],
+  "author": {
+    "name": "Kingaustin07",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kingaustin07"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banana_Cake",
+    "pageTitle": "Cookbook:Banana_Cake",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-25T14:50:10.082Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanana_Cake&action=history",
+    "originalCreator": {
+      "name": "Kingaustin07",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kingaustin07"
+    }
+  },
+  "originalImage": {
+    "fileName": "Banana_and_chocolate_cake.jpg",
+    "author": {
+      "name": "Siobhan Leachman",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Banana_and_chocolate_cake.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:10+03:00",
+  "createdAt": "2025-11-25T14:50:10+03:00",
+  "updatedAt": "2025-11-25T14:50:10+03:00"
+}

@@ -1,0 +1,219 @@
+{
+  "slug": "bananu-ir-riesutu-mafinai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bananu-ir-riesutu-mafinai",
+  "title": {
+    "lt": "Bananų ir riešutų mafinai"
+  },
+  "description": {
+    "lt": "Purūs ir kvapnūs bananų bei riešutų mafinai – puikus pasirinkimas sotiems pusryčiams, lengvam desertui ar sveikesniam užkandžiui. Šie mafinai gaminami su dviem rūšių miltais, todėl yra maistingi, o bananų saldumas ir traškūs riešutai suteikia puikų skonio balansą."
+  },
+  "seo": {
+    "metaTitle": "Bananų ir riešutų mafinai | Purūs ir kvapnūs – lengvas receptas",
+    "metaDescription": "Purūs bananų ir riešutų mafinai – puikus pusryčių ar užkandžio receptas. Lengvai pagaminami, skanūs ir maistingi. Atraskite geriausią bananų mafinų receptą!",
+    "keywords": [
+      "bananų mafinai",
+      "riešutų mafinai",
+      "bananų ir riešutų mafinai",
+      "lengvi desertai",
+      "pusryčių receptai",
+      "purūs mafinai",
+      "bananiniai kepiniai",
+      "sveikesni kepiniai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 220,
+      "proteinContent": "5g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pusryciai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Medus arba cukrus"
+      },
+      "quantity": "1 valgomasis šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas arba sojų pienas"
+      },
+      "quantity": "250 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sutrinti bananai"
+      },
+      "quantity": "2–3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltieji miltai"
+      },
+      "quantity": "160 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Viso grūdo miltai"
+      },
+      "quantity": "320 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "½ arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Smulkinti riešutai"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Papildomas cukrus"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C. Paruoškite keksiukų formą – ją lengvai patepkite aliejumi arba išklokite popierinėmis formelėmis."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Dubenyje sumaišykite kiaušinius, medų (arba cukrų), pieną, augalinį aliejų ir sutrintus bananus. Atskira dubenyje suberkite abu miltų tipus, druską ir kepimo miltelius. Miltų mišinį įmaišykite į skystus ingredientus – maišykite tik tiek, kad susijungtų. Tešla gali būti šiek tiek gumuliuota."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Supilkite tešlą į keksiukų formeles, pripildydami maždaug 2/3 aukščio. Kepkite 20–25 minutes, kol viršus taps auksinės spalvos ir įkištas pagaliukas išlįs sausas. Palikite šiek tiek atvėsti."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Mafinams tinka bet kokie riešutai – graikiniai, migdolai, pekano ar mišiniai. Norint dar stipresnio skonio, riešutus lengvai paskrudinkite prieš naudojimą."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bananu-ir-riesutu-muffinai.jpg",
+    "alt": "Šviežiai iškepti bananų ir riešutų mafinai ant stalo",
+    "width": 1803,
+    "height": 1611
+  },
+  "tags": [
+    "bananų mafinai",
+    "riešutų mafinai",
+    "bananiniai kepiniai",
+    "pusryčių idėja",
+    "lengvas desertas",
+    "sveikesni kepiniai"
+  ],
+  "author": {
+    "name": "70.110.176.30",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:70.110.176.30"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banana_Nut_Muffins",
+    "pageTitle": "Cookbook:Banana_Nut_Muffins",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-25T14:50:12.990Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanana_Nut_Muffins&action=history",
+    "originalCreator": {
+      "name": "70.110.176.30",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.110.176.30"
+    }
+  },
+  "originalImage": {
+    "fileName": "Banana-Nut-Muffins-2005-Aug-24.jpg",
+    "author": {
+      "name": "Naib",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Naib"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Banana-Nut-Muffins-2005-Aug-24.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-01T10:00:00+03:00",
+  "createdAt": "2025-12-01T10:00:00+03:00",
+  "updatedAt": "2025-12-01T10:00:00+03:00"
+}

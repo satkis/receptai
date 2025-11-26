@@ -1,0 +1,140 @@
+{
+  "slug": "banofee-pyragas-angliskas-desertas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/banofee-pyragas-angliskas-desertas",
+  "title": {
+    "lt": "Banofee pyragas – angliškas desertas su bananais"
+  },
+  "description": {
+    "lt": "Banofee pyragas yra skanus angliškas desertas, pagamintas iš bananų, grietinėlės ir karamelizuoto kondensuoto pieno. Puikiai tinka ypatingoms progoms ar saldžiai pabaigai po vakarienės."
+  },
+  "seo": {
+    "metaTitle": "Banofee pyragas | Angliškas desertas su bananais",
+    "metaDescription": "Atraskite angliško Banofee pyrago receptą su bananais, karamele ir grietinėle. Tobulas desertas ypatingoms progoms.",
+    "keywords": [
+      "banofee pyragas",
+      "angliškas desertas",
+      "bananų pyragas",
+      "karamelės pyragas",
+      "saldus desertas",
+      "desertas su bananais"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Angliška",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "6g",
+      "fatContent": "25g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 90,
+  "totalTimeMinutes": 120,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pienas-ir-pieno-produktai"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Gingerinis arba digestyvinis sausainis" }, "quantity": "250g", "vital": true },
+    { "name": { "lt": "Sviestas" }, "quantity": "275g", "vital": true },
+    { "name": { "lt": "Saldintas kondensuotas pienas" }, "quantity": "400g", "vital": true },
+    { "name": { "lt": "Cukrus" }, "quantity": "175g", "vital": true },
+    { "name": { "lt": "Grietinėlė" }, "quantity": "150ml", "vital": true },
+    { "name": { "lt": "Bananai" }, "quantity": "2 vnt", "vital": true }
+  ],
+  "sideIngredients": [
+    { "category": "Dekoracijai", "name": { "lt": "Tarkuotas šokoladas" }, "quantity": "Pagal skonį", "vital": false }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Sausainių paruošimas" },
+      "text": { "lt": "Sutrupinkite sausainius kočėlu. Geriausia tai daryti uždaroje maišelyje, kad trupiniai neišsilietų." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Sviesto ir sausainių maišymas" },
+      "text": { "lt": "Ištirpinkite dalį sviesto puode ir sumaišykite su sausainių trupiniais. Suspauskite į pyrago formos dugną ir padėkite šaldytuve." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Karamelės ruošimas" },
+      "text": { "lt": "Likusią sviesto dalį su cukrumi ištirpinkite puode, maišydami, kol cukrus tirps. Įpilkite kondensuoto pieno ir virkite, nuolat maišydami, apie 5 minutes." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Pyrago surinkimas" },
+      "text": { "lt": "Supjaustykite bananus griežinėliais ir dėkite ant sausainių pagrindo. Užpilkite karamele ir padėkite šaldytuve bent valandai." }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Patiekimas" },
+      "text": { "lt": "Prieš patiekdami, išplakite grietinėlę ir uždėkite ant pyrago. Papuoškite tarkuotu šokoladu arba kitomis dekoracijomis pagal skonį." }
+    }
+  ],
+  "notes": [
+    { "text": { "lt": "Norint greičiau paruošti, naudokite jau paruoštą karamelę." }, "priority": 1 },
+    { "text": { "lt": "Pyragą galite papuošti šviežiais vaisiais ar riešutais." }, "priority": 2 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/banofee-pyragas-angliskas-desertas.jpg",
+    "alt": "Banofee pyragas su bananais, karamele ir grietinėle",
+    "width": 1024,
+    "height": 768
+  },
+  "tags": [
+    "banofee pyragas",
+    "angliškas desertas",
+    "bananų pyragas",
+    "karamelės pyragas",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "82.28.16.163",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:82.28.16.163"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Banoffee_Pie",
+    "pageTitle": "Cookbook:Banoffee_Pie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "82.28.16.163",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:82.28.16.163"
+    }
+  },
+  "originalImage": {
+    "fileName": "Banoffeepie.jpg",
+    "author": {
+      "name": "Glen MacLarty from Sydney, Australia.",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Jacklee"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Banoffeepie.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Banoffee_Pie“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: Glen MacLarty, CC BY 2.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:50:22+03:00",
+  "createdAt": "2025-11-25T17:50:22+03:00",
+  "updatedAt": "2025-11-25T17:50:22+03:00"
+}

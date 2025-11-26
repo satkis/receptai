@@ -1,0 +1,54 @@
+[2025-11-24T10:15:22.723Z] https://en.wikibooks.org/wiki/Cookbook:Arancini_(Italian_Fried_Rice_Balls) - Cookbook:Arancini (Italian Fried Rice Balls)
+[2025-11-24T10:15:24.299Z] https://en.wikibooks.org/wiki/Cookbook:Arroz_con_Pollo_(Rice_and_Chicken) - Cookbook:Arroz con Pollo (Rice and Chicken)
+[2025-11-24T10:15:26.232Z] https://en.wikibooks.org/wiki/Cookbook:Arroz_Negro_(Valencian_Squid_Rice) - Cookbook:Arroz Negro (Valencian Squid Rice)
+[2025-11-24T10:15:28.534Z] https://en.wikibooks.org/wiki/Cookbook:Ashoka_Halwa_(Mung_Bean_Pudding) - Cookbook:Ashoka Halwa (Mung Bean Pudding)
+[2025-11-24T10:15:30.043Z] https://en.wikibooks.org/wiki/Cookbook:Ashwe_Soup - Cookbook:Ashwe Soup
+[2025-11-24T10:15:32.260Z] https://en.wikibooks.org/wiki/Cookbook:Asian_Grilled_Duck_Breasts - Cookbook:Asian Grilled Duck Breasts
+[2025-11-24T10:15:33.840Z] https://en.wikibooks.org/wiki/Cookbook:Asian-Inspired_Chicken_Salad - Cookbook:Asian-Inspired Chicken Salad
+[2025-11-24T10:15:35.442Z] https://en.wikibooks.org/wiki/Cookbook:Asida_bil_Zibda_(Libyan_Semolina_Pudding) - Cookbook:Asida bil Zibda (Libyan Semolina Pudding)
+[2025-11-24T10:15:37.168Z] https://en.wikibooks.org/wiki/Cookbook:Asondo_(Nigerian_Dried_Sweet_Potatoes) - Cookbook:Asondo (Nigerian Dried Sweet Potatoes)
+[2025-11-24T10:15:38.996Z] https://en.wikibooks.org/wiki/Cookbook:Asun_(Goat_in_Pepper_Sauce) - Cookbook:Asun (Goat in Pepper Sauce)
+[2025-11-24T10:15:40.582Z] https://en.wikibooks.org/wiki/Cookbook:Ata_Ekuru_(Ekuru_Sauce) - Cookbook:Ata Ekuru (Ekuru Sauce)
+[2025-11-24T10:15:42.138Z] https://en.wikibooks.org/wiki/Cookbook:Atomic_Fudge_Cake - Cookbook:Atomic Fudge Cake
+[2025-11-24T10:15:43.756Z] https://en.wikibooks.org/wiki/Cookbook:Au_Jus_Sandwich - Cookbook:Au Jus Sandwich
+[2025-11-24T10:27:21.424Z] https://en.wikibooks.org/wiki/Cookbook:Arancini_(Italian_Fried_Rice_Balls) - Cookbook:Arancini (Italian Fried Rice Balls)
+[2025-11-24T10:27:22.696Z] https://en.wikibooks.org/wiki/Cookbook:Arroz_con_Pollo_(Rice_and_Chicken) - Cookbook:Arroz con Pollo (Rice and Chicken)
+[2025-11-24T10:27:24.639Z] https://en.wikibooks.org/wiki/Cookbook:Arroz_Negro_(Valencian_Squid_Rice) - Cookbook:Arroz Negro (Valencian Squid Rice)
+[2025-11-24T10:27:26.055Z] https://en.wikibooks.org/wiki/Cookbook:Ashoka_Halwa_(Mung_Bean_Pudding) - Cookbook:Ashoka Halwa (Mung Bean Pudding)
+[2025-11-24T10:27:27.152Z] https://en.wikibooks.org/wiki/Cookbook:Ashwe_Soup - Cookbook:Ashwe Soup
+[2025-11-24T10:27:28.244Z] https://en.wikibooks.org/wiki/Cookbook:Asian_Grilled_Duck_Breasts - Cookbook:Asian Grilled Duck Breasts
+[2025-11-24T10:27:29.386Z] https://en.wikibooks.org/wiki/Cookbook:Asian-Inspired_Chicken_Salad - Cookbook:Asian-Inspired Chicken Salad
+[2025-11-24T10:27:30.474Z] https://en.wikibooks.org/wiki/Cookbook:Asida_bil_Zibda_(Libyan_Semolina_Pudding) - Cookbook:Asida bil Zibda (Libyan Semolina Pudding)
+[2025-11-24T10:27:32.116Z] https://en.wikibooks.org/wiki/Cookbook:Asondo_(Nigerian_Dried_Sweet_Potatoes) - Cookbook:Asondo (Nigerian Dried Sweet Potatoes)
+[2025-11-24T10:27:33.285Z] https://en.wikibooks.org/wiki/Cookbook:Asun_(Goat_in_Pepper_Sauce) - Cookbook:Asun (Goat in Pepper Sauce)
+[2025-11-24T10:27:34.850Z] https://en.wikibooks.org/wiki/Cookbook:Ata_Ekuru_(Ekuru_Sauce) - Cookbook:Ata Ekuru (Ekuru Sauce)
+[2025-11-24T10:27:36.095Z] https://en.wikibooks.org/wiki/Cookbook:Atomic_Fudge_Cake - Cookbook:Atomic Fudge Cake
+[2025-11-24T10:27:37.655Z] https://en.wikibooks.org/wiki/Cookbook:Au_Jus_Sandwich - Cookbook:Au Jus Sandwich
+[2025-11-24T10:27:39.303Z] https://en.wikibooks.org/wiki/Cookbook:Aubergine_and_Onion_Vegetable_Pie - Cookbook:Aubergine and Onion Vegetable Pie
+[2025-11-24T10:27:40.855Z] https://en.wikibooks.org/wiki/Cookbook:Austrian_Napkin_Dumpling_(Serviettenkn%C3%B6del) - Cookbook:Austrian Napkin Dumpling (Serviettenknödel)
+[2025-11-24T10:27:42.661Z] https://en.wikibooks.org/wiki/Cookbook:Avocado_Coconut_Smoothie - Cookbook:Avocado Coconut Smoothie
+[2025-11-24T10:27:44.864Z] https://en.wikibooks.org/wiki/Cookbook:Awaze_Tibs_(Spicy_Ethiopian_Meat_Stir-Fry) - Cookbook:Awaze Tibs (Spicy Ethiopian Meat Stir-Fry)
+[2025-11-24T10:27:46.382Z] https://en.wikibooks.org/wiki/Cookbook:Awug - Cookbook:Awug
+[2025-11-24T11:04:06.505Z] https://en.wikibooks.org/wiki/Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil) - Cookbook:Aadun (Nigerian Corn Flour with Palm Oil)
+[2025-11-24T11:05:18.669Z] https://en.wikibooks.org/wiki/Cookbook:Arancini_(Italian_Fried_Rice_Balls) - Cookbook:Arancini (Italian Fried Rice Balls)
+[2025-11-24T13:12:39.036Z] https://en.wikibooks.org/wiki/Cookbook:Baba_Ganoush - Cookbook:Baba Ganoush
+[2025-11-25T14:50:01.889Z] https://en.wikibooks.org/wiki/Cookbook:Baguette - Cookbook:Baguette
+[2025-11-25T14:50:03.391Z] https://en.wikibooks.org/wiki/Cookbook:Baingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I - Cookbook:Baingan Bartha (South Indian Eggplant with Coconut and Chili) I
+[2025-11-25T14:50:04.999Z] https://en.wikibooks.org/wiki/Cookbook:Baked_Potatoes - Cookbook:Baked Potatoes
+[2025-11-25T14:50:06.554Z] https://en.wikibooks.org/wiki/Cookbook:Baked_Ziti - Cookbook:Baked Ziti
+[2025-11-25T14:50:07.953Z] https://en.wikibooks.org/wiki/Cookbook:Baklava_I - Cookbook:Baklava I
+[2025-11-25T14:50:10.092Z] https://en.wikibooks.org/wiki/Cookbook:Banana_Cake - Cookbook:Banana Cake
+[2025-11-25T14:50:11.844Z] https://en.wikibooks.org/wiki/Cookbook:Banana_Chip_Muffins - Cookbook:Banana Chip Muffins
+[2025-11-25T14:50:12.998Z] https://en.wikibooks.org/wiki/Cookbook:Banana_Nut_Muffins - Cookbook:Banana Nut Muffins
+[2025-11-25T14:50:15.977Z] https://en.wikibooks.org/wiki/Cookbook:Banana_Pudding - Cookbook:Banana Pudding
+[2025-11-25T14:50:17.721Z] https://en.wikibooks.org/wiki/Cookbook:Banana_Split_I - Cookbook:Banana Split I
+[2025-11-25T14:50:18.950Z] https://en.wikibooks.org/wiki/Cookbook:Banga_Soup - Cookbook:Banga Soup
+[2025-11-25T14:50:20.502Z] https://en.wikibooks.org/wiki/Cookbook:Bangers_and_Mash - Cookbook:Bangers and Mash
+[2025-11-25T14:50:22.123Z] https://en.wikibooks.org/wiki/Cookbook:Banoffee_Pie - Cookbook:Banoffee Pie
+[2025-11-25T14:50:23.676Z] https://en.wikibooks.org/wiki/Cookbook:Baozi_(Steamed_Yeasted_Dumplings) - Cookbook:Baozi (Steamed Yeasted Dumplings)
+[2025-11-25T14:50:24.826Z] https://en.wikibooks.org/wiki/Cookbook:Barbecue_Chicken - Cookbook:Barbecue Chicken
+[2025-11-25T14:50:26.524Z] https://en.wikibooks.org/wiki/Cookbook:Barbecue_Ribs - Cookbook:Barbecue Ribs
+[2025-11-25T14:50:29.136Z] https://en.wikibooks.org/wiki/Cookbook:Barbecue_Sauce_I - Cookbook:Barbecue Sauce I
+[2025-11-25T14:50:30.757Z] https://en.wikibooks.org/wiki/Cookbook:Barbecue_Wings - Cookbook:Barbecue Wings
+[2025-11-25T14:50:32.147Z] https://en.wikibooks.org/wiki/Cookbook:Barbecued_Spare_Ribs - Cookbook:Barbecued Spare Ribs
+[2025-11-25T14:50:33.633Z] https://en.wikibooks.org/wiki/Cookbook:Basbousa_(Egyptian_Semolina_Cake) - Cookbook:Basbousa (Egyptian Semolina Cake)

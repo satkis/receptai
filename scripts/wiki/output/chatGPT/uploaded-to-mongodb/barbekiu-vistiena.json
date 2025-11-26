@@ -1,0 +1,157 @@
+{
+  "slug": "barbekiu-vistiena",
+  "canonicalUrl": "https://ragaujam.lt/receptas/barbekiu-vistiena",
+  "title": {
+    "lt": "Barbekiu vištiena – sultinga ir skani"
+  },
+  "description": {
+    "lt": "Sultinga barbekiu vištiena su saldžiu ir pikantišku padažu. Puikus pasirinkimas grilinimui su draugais ar šeima. Vištiena marinuojama specialiuose prieskoniuose ir kepama ant grilio."
+  },
+  "seo": {
+    "metaTitle": "Barbekiu vištiena | Sultinga vištiena su pikantišku padažu",
+    "metaDescription": "Atraskite sultingos barbekiu vištienos receptą, puikiai tinkantį grilinimui. Vištiena su pikantišku padažu taps jūsų mėgstamiausiu patiekalu.",
+    "keywords": [
+      "barbekiu vištiena",
+      "grilio receptai",
+      "vištienos receptai",
+      "sultinga vištiena",
+      "barbekiu padažas",
+      "pikantiška vištiena"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 400,
+      "proteinContent": "35g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 150,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 170,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+    "receptai/grilio-patiekalai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Vištienos šlaunelės" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Vištienos blauzdelės" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Vištienos krūtinėlės" }, "quantity": "2 vnt.", "vital": true },
+    { "name": { "lt": "Druska" }, "quantity": "1 puodelis", "vital": true },
+    { "name": { "lt": "Vanduo" }, "quantity": "1 litras", "vital": true },
+    { "name": { "lt": "Tamsus rudas cukrus" }, "quantity": "1/2 puodelio", "vital": true },
+    { "name": { "lt": "Česnakai" }, "quantity": "4 skiltelės", "vital": true },
+    { "name": { "lt": "Citrinos žievelė" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Nesūdytas vištienos sultinys" }, "quantity": "1 litras", "vital": true },
+    { "name": { "lt": "Pomidorų pasta" }, "quantity": "1 puodelis", "vital": true },
+    { "name": { "lt": "Medus" }, "quantity": "1/4 puodelio", "vital": true },
+    { "name": { "lt": "Obuolių sidro actas" }, "quantity": "1/4 puodelio", "vital": true },
+    { "name": { "lt": "Vorčesterio padažas" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Paprika" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Rūkyta paprika" }, "quantity": "2 šaukštai", "vital": true },
+    { "name": { "lt": "Džiovintas rozmarinas" }, "quantity": "1.5 arbat. šaukštelio", "vital": true },
+    { "name": { "lt": "Džiovintas čiobrelis" }, "quantity": "1.5 arbat. šaukštelio", "vital": true },
+    { "name": { "lt": "Kajeno pipirai" }, "quantity": "1.5 šaukšto", "vital": true },
+    { "name": { "lt": "Stambiai malti juodieji pipirai" }, "quantity": "1/2 šaukšto", "vital": true }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Marinavimas" },
+      "text": { "lt": "Sumaišykite visas marinato sudedamąsias dalis didelėje užsegamoje maišoje. Įdėkite vištieną ir palikite šaldytuve 2 valandoms." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Padažo paruošimas" },
+      "text": { "lt": "Sumaišykite padažo ingredientus ir užvirkite ant vidutinės ugnies, kol sumažės perpus." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Grilio paruošimas" },
+      "text": { "lt": "Greitai nuvalykite grilį su aliejuje pamirkytu rankšluosčiu, kad jis būtų paruoštas naudojimui." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Prieskonių įtrinimas" },
+      "text": { "lt": "Sumaišykite prieskonių mišinį ir gerai įtrinkite į vištieną. Palikite šaldytuve 30 minučių." }
+    },
+    {
+      "step": 5,
+      "name": { "lt": "Kepimas ant grilio" },
+      "text": { "lt": "Kepkite vištieną ant įkaitinto anglies grilio, dažnai apversdami ir tepant padažu, apie 10 minučių, kol vidinė temperatūra pasieks 74°C krūtinėlėje ir 77°C tamsioje mėsoje." }
+    },
+    {
+      "step": 6,
+      "name": { "lt": "Patiekimas" },
+      "text": { "lt": "Uždengite folija ir leiskite pailsėti 7 minutes. Likusį padažą virkite 5 minutes ir supilkite į išspaudžiamą butelį. Patiekite vištieną su padažu." }
+    }
+  ],
+  "notes": [
+    { "text": { "lt": "Norint geriausio skonio, vištieną marinuokite bent 2 valandas." }, "priority": 1 },
+    { "text": { "lt": "Padažą galima paruošti iš anksto ir laikyti šaldytuve iki 3 dienų." }, "priority": 2 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/barbekiu-vistiena.jpg",
+    "alt": "Barbekiu vištiena ant grilio su saldžiu pikantišku padažu",
+    "width": 640,
+    "height": 427
+  },
+  "tags": [
+    "barbekiu vištiena",
+    "grilio patiekalai",
+    "vištienos receptai",
+    "sultinga vištiena",
+    "pikantiškas padažas"
+  ],
+  "author": {
+    "name": "Iwatchaltonbrown",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Chicken",
+    "pageTitle": "Cookbook:Barbecue_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Iwatchaltonbrown",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+    }
+  },
+  "originalImage": {
+    "fileName": "Barbecue_chicken-03.jpg",
+    "author": {
+      "name": "stevendepolo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Barbecue_chicken-03.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija pagal originalų Wikibooks turinį „Cookbook:Barbecue_Chicken“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: stevendepolo, CC BY 2.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:24+03:00",
+  "createdAt": "2025-11-25T14:50:24+03:00",
+  "updatedAt": "2025-11-25T14:50:24+03:00"
+}

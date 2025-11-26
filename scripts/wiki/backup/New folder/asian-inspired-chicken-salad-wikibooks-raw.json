@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Asian-Inspired_Chicken_Salad",
+    "pageTitle": "Cookbook:Asian-Inspired_Chicken_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Psychofarm",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Psychofarm"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsian-Inspired_Chicken_Salad&action=history",
+    "extractedAt": "2025-11-24T10:27:29.377Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Asian-Inspired Chicken Salad",
+    "slug": "asian-inspired-chicken-salad",
+    "description": "This chicken salad is inspired by east and southeast Asian-associated flavors of soy, ginger, sesame, and mango.",
+    "ingredients": [
+      "1½ cups broccoli flowerets",
+      "½ cup pea pods",
+      "6 cups torn mixed greens",
+      "2 cups thinly-sliced Nappa cabbage",
+      "½ cup julienned carrots",
+      "1 package (6 oz) grilled chicken breast, cut in strips",
+      "¾ cups salad dressing (teriyaki ginger, Asian sesame with ginger, or balsamic vinaigrette)",
+      "1 mango, peeled, seeded, and thinly sliced (optional)",
+      "Sesame crackers (optional)"
+    ],
+    "instructions": [
+      "In large saucepan quickly plunge broccoli and pea pods into boiling water for 30 seconds. Drain vegetables. Quickly rinse with cold water. Drain well.",
+      "In large bowl toss together the blanched broccoli and pea pods, greens, cabbage and carrots.",
+      "Add chicken.",
+      "Drizzle with salad dressing. Toss to coat.",
+      "Arrange on 4 serving plates.",
+      "Top with mango, if desired.",
+      "Serve with crackers."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Asian recipes",
+      "Recipes for salad",
+      "Recipes using broccoli",
+      "Recipes using cabbage",
+      "Recipes using chicken breast",
+      "Recipes using carrot",
+      "Recipes using mango"
+    ]
+  },
+  "image": {
+    "filename": "Asian_Chicken_Salad_with_Cashews.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Asian_Chicken_Salad_with_Cashews.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Asian_Chicken_Salad_with_Cashews.jpg",
+    "localPath": "scripts/wiki/output/Asian_Chicken_Salad_with_Cashews.jpg",
+    "dimensions": {
+      "width": 800,
+      "height": 600
+    },
+    "fileSize": 100966,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Nikchick",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Missvain"
+    },
+    "metadata": {
+      "description": "Asian Chicken Salad with Cashews at Spago at Caesars Palace in Las Vegas, Nevada",
+      "categories": [
+        "Salads of the United States",
+        "Flickr images reviewed by FlickreviewR 2",
+        "April 2007 in Las Vegas",
+        "Cashew nuts as garnish",
+        "Spago (Caesars Palace)"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Asian_Chicken_Salad_with_Cashews.jpg"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "slug": "baingan-bartha-indiski-baklazanai-su-kokosu-ir-cili",
+  "canonicalUrl": "https://ragaujam.lt/receptas/baingan-bartha-indiski-baklazanai-su-kokosu-ir-cili",
+  "title": {
+    "lt": "Baingan Bartha – Indiški Baklažanai su Kokosu ir Čili"
+  },
+  "description": {
+    "lt": "Baingan Bartha – aromatingas indiškas baklažanų patiekalas, kilęs iš Pietų Indijos virtuvės. Kremiška kokosų ir čili pasta suteikia jam išraiškingo skonio, o patiekalas puikiai tinka su chapati, dosa ar ryžiais."
+  },
+  "seo": {
+    "metaTitle": "Baingan Bartha – Indiški Baklažanai su Kokosu ir Čili | Autentiškas indiškas receptas",
+    "metaDescription": "Išbandykite autentišką Baingan Bartha – indišką baklažanų patiekalą su kokosais ir čili. Kreminis, aromatingas ir greitai paruošiamas. Puikiai dera su chapati, dosa ar ryžiais.",
+    "keywords": [
+      "baingan bartha receptas",
+      "indiški baklažanai",
+      "baklažanų receptai",
+      "indiškas patiekalas",
+      "kokosų padažas",
+      "čili padažas",
+      "vegetariški indiški patiekalai"
+    ],
+    "recipeCategory": "darzoves",
+    "recipeCuisine": "Indiška",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "6g",
+      "fatContent": "10g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/darzoves",
+  "secondaryCategories": [
+    "receptai/vegetariski",
+    "receptai/indiški",
+    "receptai/sveikesni"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baklažanai"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili pipirai"
+      },
+      "quantity": "2-6 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kokosas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros lapai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paniras"
+      },
+      "quantity": "2 puodeliai",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Baklažano kepimas"
+      },
+      "text": {
+        "lt": "Kepkite baklažanus tiesiai ant žemos ugnies, kol odelė taps juoda ir trapi, o minkštimas suminkštės. Tai trunka apie 15–20 minučių."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Atvėsimas"
+      },
+      "text": {
+        "lt": "Leiskite keptiems baklažanams atvėsti iki kambario temperatūros."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pasta"
+      },
+      "text": {
+        "lt": "Maisto kombaine sumalkite čili, kokosą ir kalendrą iki vientisos pastos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Baklažano paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite baklažanų odą ir sutrinkite minkštimą iki vientisos konsistencijos."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite baklažanų masę su kokosų pasta ir paniru. Pagardinkite druska pagal skonį."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite su chapati, dosa ar garintais ryžiais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Baingan Bartha gali būti gaminamas ir su kalendros sėklomis, kurios suteikia dar intensyvesnį aromatą."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/baingan-bartha-indiski-baklazanai-su-kokosu-ir-cili.jpg",
+    "alt": "Baingan Bartha – indiški baklažanai su kokosų ir čili padažu",
+    "width": 1600,
+    "height": 1200
+  },
+  "tags": [
+    "indiški baklažanai",
+    "kokosų padažas",
+    "indiška virtuvė",
+    "vegetariškas patiekalas",
+    "greitas receptas"
+  ],
+  "author": {
+    "name": "Paulcox",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I",
+    "pageTitle": "Cookbook:Baingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-25T14:50:03.377Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I&action=history",
+    "originalCreator": {
+      "name": "Paulcox",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+    }
+  },
+  "originalImage": {
+    "fileName": "Baigan_(_Brinjal_)_Bharta.jpg",
+    "author": {
+      "name": "Mike130012",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Mike130012"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Baigan_%28_Brinjal_%29_Bharta.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T17:00:00+03:00",
+  "createdAt": "2025-11-25T17:00:00+03:00",
+  "updatedAt": "2025-11-25T17:00:00+03:00"
+}

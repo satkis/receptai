@@ -1,0 +1,171 @@
+{
+  "slug": "aadun-nigerijos-kukuruzu-miltai-su-palmu-aliejumi",
+  "canonicalUrl": "https://ragaujam.lt/receptas/aadun-nigerijos-kukuruzu-miltai-su-palmu-aliejumi",
+  "title": {
+    "lt": "Aadun – Nigerijos kukurūzų miltai su palmių aliejumi"
+  },
+  "description": {
+    "lt": "Aadun – tradicinis joruba regiono Nigerijos užkandis, gaminamas iš kukurūzų miltų, palmių aliejaus ir prieskonių. Šis patiekalas pasižymi sodria spalva, švelnia tekstūra ir subtiliu palmių aliejaus aromatu. Kai kurie regionai receptą paįvairina maltais pupelių miltais, suteikiančiais papildomos tekstūros ir maistingumo. Aadun puikiai tinka kaip užkandis prie gėrimų ar kaip maistingas, paprastai paruošiamas energijos šaltinis."
+  },
+  "seo": {
+    "metaTitle": "Aadun – Nigerijos kukurūzų miltai su palmių aliejumi | Tradicinis receptas",
+    "metaDescription": "Tradicinis Nigerijos joruba užkandis Aadun – kukurūzų miltai su palmių aliejumi, druska ir čili pipirais. Paprastas, maistingas ir ryškaus skonio patiekalas. Sužinokite, kaip pasigaminti autentišką Aadun namuose.",
+    "keywords": [
+      "aadun",
+      "nigerijos užkandis",
+      "kukurūzų miltai su aliejumi",
+      "palmių aliejus receptai",
+      "joruba virtuvė",
+      "tradicinis nigerijos maistas",
+      "autentiški afrikos receptai",
+      "kukurūzų užkandis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 268,
+      "proteinContent": "3g",
+      "fatContent": "12g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 180,
+  "totalTimeMinutes": 190,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/vegetariskai",
+    "receptai/greiti-uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kukurūzų miltai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Palmių aliejus"
+      },
+      "quantity": "1/4 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili pipirai"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ingredientų paruošimas"
+      },
+      "text": {
+        "lt": "Dubenyje sumaišykite kukurūzų miltus, palmių aliejų, maltus čili pipirus ir druską. Masė turi būti vientisa ir tolygiai nusidažiusi oranžine palmių aliejaus spalva."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Skonių brandinimas"
+      },
+      "text": {
+        "lt": "Palikite mišinį 2–3 valandoms kambario temperatūroje, kad skoniai susijungtų ir miltai sugertų aliejų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Formavimas ir pateikimas"
+      },
+      "text": {
+        "lt": "Iš masės suformuokite nedidelius rutuliukus arba kubelius. Patiekite kaip užkandį prie arbatos, gaiviųjų gėrimų ar tradicinių Nigerijos patiekalų."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Kai kuriose Nigerijos vietovėse Aadun praturtinamas maltais pupelių miltais – tai suteikia daugiau baltymų ir sodresnę tekstūrą."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/aadun-nigerijos-kukuruzu-miltai-su-palmu-aliejumi.jpg",
+    "alt": "Tradicinis Nigerijos Aadun – kukurūzų miltai sumaišyti su palmių aliejumi ir prieskoniais",
+    "width": 1920,
+    "height": 1920
+  },
+  "tags": [
+    "aadun",
+    "tradicinis nigerijos maistas",
+    "kukurūzų miltai",
+    "palmių aliejus",
+    "joruba virtuvė",
+    "uzkandziai",
+    "afrikos receptai"
+  ],
+  "author": {
+    "name": "Tesleemah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil)",
+    "pageTitle": "Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-17T22:23:55+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAadun_(Nigerian_Corn_Flour_with_Palm_Oil)&action=history",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Aadun2.jpg",
+    "author": {
+      "name": "Gbolahan Adebayo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Sheys%20Ditty"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%C3%80%C3%A1d%C3%B9n2.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-17T22:23:55+03:00",
+  "createdAt": "2025-11-17T22:23:55+03:00",
+  "updatedAt": "2025-11-17T22:23:55+03:00"
+}

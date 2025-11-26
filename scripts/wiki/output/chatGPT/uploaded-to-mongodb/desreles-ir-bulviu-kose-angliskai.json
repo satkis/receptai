@@ -1,0 +1,132 @@
+{
+  "slug": "desreles-ir-bulviu-kose-angliskai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/desreles-ir-bulviu-kose-angliskai",
+  "title": {
+    "lt": "Dešrelės ir bulvių košė – tradicinis angliškas patiekalas"
+  },
+  "description": {
+    "lt": "Šis tradicinis angliškas patiekalas sudarytas iš lėtai keptų dešrelių ir švelnios bulvių košės su sviestu ir pienu. Puikiai tinka jaukioms vakarienėms su šeima ar draugais."
+  },
+  "seo": {
+    "metaTitle": "Dešrelės ir bulvių košė | Tradicinis angliškas receptas",
+    "metaDescription": "Atraskite tradicinį anglišką patiekalą – lėtai keptas dešreles su švelnia bulvių koše. Puikus receptas vakarienei su šeima ar draugais.",
+    "keywords": [
+      "dešrelės",
+      "bulvių košė",
+      "angliška virtuvė",
+      "tradicinis receptas",
+      "vakarienė",
+      "britiška virtuvė"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Anglų",
+    "nutrition": {
+      "calories": 700,
+      "proteinContent": "24g",
+      "fatContent": "40g",
+      "fiberContent": "6g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/miltiniai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    { "name": { "lt": "Britiškos dešrelės" }, "quantity": "4–6 vnt.", "vital": true },
+    { "name": { "lt": "Bulvės" }, "quantity": "4 vnt.", "vital": true },
+    { "name": { "lt": "Augalinis aliejus" }, "quantity": "šiek tiek", "vital": false },
+    { "name": { "lt": "Sviestas" }, "quantity": "pagal skonį", "vital": true },
+    { "name": { "lt": "Pienas" }, "quantity": "šlakelis", "vital": true }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": { "lt": "Dešrelių kepimas" },
+      "text": { "lt": "Įkaitinkite aliejų keptuvėje ant vidutinės ugnies. Sudėkite dešreles ir kepkite apie 5 minutes, dažnai vartydami, kad apskrustų tolygiai." }
+    },
+    {
+      "step": 2,
+      "name": { "lt": "Lėtas kepimas" },
+      "text": { "lt": "Sumažinkite ugnį ir leiskite dešrelėms kepti lėtai apie 25 minutes, retkarčiais apversdami, kol jos visiškai iškeps." }
+    },
+    {
+      "step": 3,
+      "name": { "lt": "Bulvių virimas" },
+      "text": { "lt": "Nulupkite ir supjaustykite bulves 1–2 cm gabalėliais. Virkite verdančiame vandenyje apie 15 minučių, kol suminkštės." }
+    },
+    {
+      "step": 4,
+      "name": { "lt": "Bulvių košės paruošimas" },
+      "text": { "lt": "Nusausinkite bulves ir grąžinkite į puodą. Įdėkite sviestą ir įpilkite pieno, tada sutrinkite bulves iki vientisos masės." }
+    }
+  ],
+  "notes": [
+    { "text": { "lt": "Nepradurkite dešrelių – taip išsaugosite jų sultis ir skonį." }, "priority": 1 }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/desreles-ir-bulviu-kose-angliskai.jpg",
+    "alt": "Dešrelės ir bulvių košė su sviestu ir pienu, tradicinis angliškas patiekalas",
+    "width": 640,
+    "height": 480
+  },
+  "tags": [
+    "dešrelės",
+    "bulvių košė",
+    "angliška virtuvė",
+    "tradicinis receptas",
+    "vakarienė"
+  ],
+  "author": {
+    "name": "Mcld",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mcld"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bangers_and_Mash",
+    "pageTitle": "Cookbook:Bangers_and_Mash",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mcld",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mcld"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bangers_and_mash_1.jpg",
+    "author": {
+      "name": "avlxyz",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Edward"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bangers_and_mash_1.jpg"
+  },
+  "licenseNote": {
+    "lt": "Šis receptas yra lietuviška versija, parengta pagal originalų Wikibooks turinį „Cookbook:Bangers_and_Mash“. Turinys licencijuojamas pagal Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Originalios nuotraukos autorius: avlxyz, CC BY-SA 2.0."
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-25T14:50:20+03:00",
+  "createdAt": "2025-11-25T14:50:20+03:00",
+  "updatedAt": "2025-11-25T14:50:20+03:00"
+}

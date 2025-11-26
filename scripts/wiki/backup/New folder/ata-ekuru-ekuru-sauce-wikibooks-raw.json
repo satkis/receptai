@@ -1,0 +1,89 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ata_Ekuru_(Ekuru_Sauce)",
+    "pageTitle": "Cookbook:Ata_Ekuru_(Ekuru_Sauce)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Adefanike",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Adefanike"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAta_Ekuru_(Ekuru_Sauce)&action=history",
+    "extractedAt": "2025-11-24T10:27:34.444Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Ata Ekuru (Ekuru Sauce)",
+    "slug": "ata-ekuru-ekuru-sauce",
+    "description": "Ata ekuru (\"ekuru pepper\"), or obe ekuru (\"ekuru sauce\"), is a red sauce used to garnish ekuru. It is an essential part of ekuru.",
+    "ingredients": [
+      "4 pieces tatase (red bell peppers)",
+      "6 pieces rodo (scotch bonnet chiles)",
+      "10 pieces shombo (fresh cayenne pepper)",
+      "1 alubosa (onion)",
+      "400 ml palm oil",
+      "Seasoning cubes",
+      "Salt",
+      "Fish (optional)",
+      "Ground crayfish (optional)",
+      "Beef (optional)",
+      "Ponmo (optional)"
+    ],
+    "instructions": [
+      "Combine the bell pepper, chiles, and cayenne pepper. Blend to a chunky paste.",
+      "Heat the palm oil in a pan. After about 5 minutes, add the blended pepper mixture to the hot oil. Season with salt and bouillon cubes to taste, and add any of the optional ingredients as desired.",
+      "Let cook over medium-low heat for about 30–40 minutes, until well-cooked and the oil is floating on top of the sauce.",
+      "Serve with ekuru."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using beef",
+      "Recipes using red bell pepper",
+      "Recipes using Scotch bonnet chile",
+      "Recipes using cayenne",
+      "Recipes using ground crayfish",
+      "Recipes using dehydrated broth",
+      "Recipes using salt",
+      "Recipes using fish"
+    ]
+  },
+  "image": {
+    "filename": "Pepper_sauce.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Pepper_sauce.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pepper_sauce.jpg",
+    "localPath": "scripts/wiki/output/Pepper_sauce.jpg",
+    "dimensions": {
+      "width": 536,
+      "height": 402
+    },
+    "fileSize": 45135,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Amuzujoe",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Amuzujoe"
+    },
+    "metadata": {
+      "description": "pepper sauce eaten with akple and fried fish.",
+      "categories": [
+        "Self-published work",
+        "Pepper-based food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Pepper_sauce.jpg"
+  }
+}

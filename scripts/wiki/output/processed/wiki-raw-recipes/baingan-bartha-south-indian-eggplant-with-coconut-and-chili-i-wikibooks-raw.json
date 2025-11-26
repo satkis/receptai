@@ -1,0 +1,89 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Baingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I",
+    "pageTitle": "Cookbook:Baingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Paulcox",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I&action=history",
+    "extractedAt": "2025-11-25T14:50:03.377Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Baingan Bartha (South Indian Eggplant with Coconut and Chili) I",
+    "slug": "baingan-bartha-south-indian-eggplant-with-coconut-and-chili-i",
+    "description": "Baingan bartha is an eggplant (aubergine) dish much loved all over India. This southern version of the dish is very different from northern varieties, and well suited to the cuisine of the region.",
+    "ingredients": [
+      "1 ea. (1 pound / 450 kg) eggplant (aubergine)",
+      "2–6 green chillies, as desired",
+      "1 cup fresh ground coconut",
+      "1 cup chopped fresh coriander leaves (cilantro)",
+      "2 cups paneer or yoghurt (optional)",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Roast the eggplant directly over a low flame. Don't be afraid to set it right on the gas burner, turning it regularly until the skin becomes blackened and brittle and the flesh soft (about 15–20 minutes).",
+      "Set aside to cool.",
+      "Grind the chillies, coconut, and coriander together in a food processor to form a paste.",
+      "Peel the eggplant skin off and mash the flesh to a uniform pulp by hand.",
+      "Mix in the coconut paste and paneer/yogurt, along with salt to taste.",
+      "Serve with chapatis, dosa or rice."
+    ],
+    "notes": [
+      "Baingan bartha is commonly produced with coriander (seeds) and/or cilantro (leaves, from the same plant, and thus sometimes confusingly called coriander as well)."
+    ],
+    "servings": 4,
+    "totalTimeMinutes": 40,
+    "difficulty": 2,
+    "category": "Indian recipes",
+    "categories": [
+      "Indian recipes",
+      "Recipes using eggplant",
+      "Gluten-free recipes",
+      "Recipes using paneer",
+      "Vegetarian recipes",
+      "Recipes using cilantro",
+      "Recipes using coconut"
+    ]
+  },
+  "image": {
+    "filename": "Baigan_(_Brinjal_)_Bharta.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Baigan_%28_Brinjal_%29_Bharta.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Baigan_(_Brinjal_)_Bharta.jpg",
+    "localPath": "scripts/wiki/output/Baigan_(_Brinjal_)_Bharta.jpg",
+    "dimensions": {
+      "width": 1600,
+      "height": 1200
+    },
+    "fileSize": 193625,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Mike130012",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Mike130012"
+    },
+    "metadata": {
+      "description": "spicy and saucy tastes better with bread",
+      "categories": [
+        "Baingan bharta",
+        "Self-published work",
+        "Images from Wiki Loves Food 2015",
+        "Uploaded via Campaign:wlf"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Baigan_(_Brinjal_)_Bharta.jpg"
+  }
+}
