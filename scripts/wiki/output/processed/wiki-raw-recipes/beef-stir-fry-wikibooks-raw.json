@@ -1,0 +1,104 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beef_Stir-Fry",
+    "pageTitle": "Cookbook:Beef_Stir-Fry",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Iwatchaltonbrown",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Stir-Fry&action=history",
+    "extractedAt": "2025-11-26T21:22:21.033Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Beef Stir-Fry",
+    "slug": "beef-stir-fry",
+    "description": "Beef Stir-Fry is a flavorful dish that combines thin slices of beef with vegetables and spicy aromatics, perfect for serving over rice or noodles.",
+    "ingredients": [
+      "1 (6–8 oz / 170–225 g) ribeye steak, sliced thinly across the grain on a bias",
+      "Salt, to taste",
+      "Freshly-ground black pepper",
+      "2 tbsp soy sauce",
+      "1–2 Thai bird chilis, finely minced",
+      "1 tbsp minced garlic",
+      "½ large onion, finely diced",
+      "Peanut (groundnut) oil, for frying",
+      "½ large carrot, peeled and julienned",
+      "¼ cup scallions, julienned",
+      "2 tbsp honey",
+      "1 tbsp rice wine vinegar",
+      "1 tbsp toasted sesame seeds"
+    ],
+    "instructions": [
+      "Lightly oil the bottom of a wok or large skillet and preheat over medium-high heat. Add onion and garlic, and cook, stirring, until the garlic turns golden. Remove from the pan and keep warm.",
+      "Sprinkle the beef slices with salt and freshly ground black pepper. Add 4 slices to the hot wok and stir-fry until well browned and no longer pink. Remove and repeat with the remaining beef.",
+      "Add chilis, carrots, soy sauce, honey, vinegar, and scallions to the wok. Stir-fry until the vegetables are lightly browned around the edges.",
+      "Return the cooked onion, garlic, and beef to the wok. Toss together until heated through.",
+      "Sprinkle with toasted sesame seeds before serving."
+    ],
+    "notes": [
+      "You may substitute Thai bird chilis with serrano peppers or crushed red pepper flakes for a milder heat.",
+      "Ribeye steak is flavorful and tender, but flank steak or sirloin can be used as leaner alternatives.",
+      "Adjust the balance of soy sauce and honey depending on your preference for salty vs. sweet.",
+      "Ensure beef is sliced thinly against the grain for tenderness."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using beef rib",
+      "Recipes using carrot",
+      "Recipes using bird chile",
+      "Asian recipes",
+      "Main course recipes",
+      "Stir fry recipes",
+      "Recipes with metric units",
+      "Recipes using garlic",
+      "Recipes using onion",
+      "Recipes using honey",
+      "Recipes using green onion"
+    ]
+  },
+  "image": {
+    "filename": "Stir-fried_beef,_Fire_Town,_Montparnasse,_Paris_002.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Stir-fried_beef%2C_Fire_Town%2C_Montparnasse%2C_Paris_002.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Stir-fried_beef,_Fire_Town,_Montparnasse,_Paris_002.jpg",
+    "localPath": "scripts/wiki/output/Stir-fried_beef,_Fire_Town,_Montparnasse,_Paris_002.jpg",
+    "dimensions": {
+      "width": 5472,
+      "height": 3648
+    },
+    "fileSize": 4909671,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Guilhem Vellut from Paris, France",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Paris%2016"
+    },
+    "metadata": {
+      "description": "Stir-fried Beef @ Fire Town @ Montparnasse @ Paris",
+      "categories": [
+        "Flickr images reviewed by FlickreviewR",
+        "Paris photographs taken on 2017-02-07",
+        "Uploaded by Paris 16",
+        "Chinese cuisine in Paris",
+        "Stir fried beef with vegetables",
+        "Fire Town (Paris)"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Stir-fried_beef,_Fire_Town,_Montparnasse,_Paris_002.jpg"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "slug": "plakta-grietinele",
+  "canonicalUrl": "https://ragaujam.lt/receptas/plakta-grietinele",
+  "title": {
+    "lt": "plakta grietinėlė"
+  },
+  "description": {
+    "lt": "Šis receptas padės jums paruošti naminę plaktą grietinėlę žingsnis po žingsnio. Svarbu, kad grietinėlė būtų šalta, o maišytuvo indas ir plaktuvai atšaldyti."
+  },
+  "seo": {
+    "metaTitle": "plakta grietinėlė | Receptas žingsnis po žingsnio",
+    "metaDescription": "Mokykitės, kaip paruošti tobulą naminę plaktą grietinėlę. Svarbiausia naudoti šaltą grietinėlę ir atšaldytus įrankius.",
+    "keywords": [
+      "plakta grietinėlė",
+      "naminė grietinėlė",
+      "plakimas rankiniu būdu",
+      "šaltas grietinėlės plakimas",
+      "grietinėlės receptas"
+    ],
+    "recipeCategory": "pienas-ir-pieno-produktai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 416,
+      "proteinContent": "2g",
+      "fatContent": "44g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pienas-ir-pieno-produktai",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "0.25 L",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1–2 šaukštai",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Vanilė"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Indo ir plaktuvų atšaldymas"
+      },
+      "text": {
+        "lt": "Įdėkite maišymo indą ir plaktuvus į šaldytuvą bent 10 minučių. Tai padeda grietinėlei geriau suplakti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Grietinėlės plakimas"
+      },
+      "text": {
+        "lt": "Supilkite šaltą grietinėlę į atšaldytą indą. Pradėkite plakti vidutiniu greičiu, kol grietinėlė taps putojanti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Grietinėlės sustorėjimas"
+      },
+      "text": {
+        "lt": "Toliau plakite, kol pastebėsite, kad grietinėlė sustorėja ir palieka žymes. Sekite tai atidžiai, kad neperplaktumėte."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Stangrumo reguliavimas"
+      },
+      "text": {
+        "lt": "Plakite trumpais 10–30 sekundžių intervalais, kol pasieksite norimą stangrumą. Nedelsdami sustokite, jei matote, kad grietinėlė pradeda rinktis į grūdelius."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Grietinėlės laikymas"
+      },
+      "text": {
+        "lt": "Atšaldykite grietinėlę šaldytuve iki naudojimo."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudokite grietinėlę, kurios riebalų kiekis bent 30%, kad grietinėlė išliktų stabilios formos."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Plakimas vidutiniu greičiu padeda sukurti stabilesnę putą nei plakant dideliu greičiu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/plakta-grietinele.jpg",
+    "alt": "plakta grietinėlė su šluotele",
+    "width": 3008,
+    "height": 2000
+  },
+  "tags": [
+    "plakta grietinėlė",
+    "naminė grietinėlė",
+    "grietinėlės plakimas",
+    "šaltas plakimas",
+    "lengvas desertas"
+  ],
+  "author": {
+    "name": "198.209.8.129",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:198.209.8.129"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basic_Whipped_Cream",
+    "pageTitle": "Cookbook:Basic_Whipped_Cream",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:13.139Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Whipped_Cream&action=history",
+    "originalCreator": {
+      "name": "198.209.8.129",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:198.209.8.129"
+    }
+  },
+  "originalImage": {
+    "fileName": "Whipped_Cream.jpg",
+    "author": {
+      "name": "Rhett Sutphin",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Whipped_Cream.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:13+03:00",
+  "createdAt": "2025-11-26T21:22:13+03:00",
+  "updatedAt": "2025-11-26T21:22:13+03:00"
+}

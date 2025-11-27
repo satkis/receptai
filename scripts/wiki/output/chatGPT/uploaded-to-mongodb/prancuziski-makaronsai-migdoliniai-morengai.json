@@ -1,0 +1,210 @@
+{
+  "slug": "prancuziski-makaronsai-migdoliniai-morengai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/prancuziski-makaronsai-migdoliniai-morengai",
+  "title": {
+    "lt": "Prancūziški makaronsai"
+  },
+  "description": {
+    "lt": "Prancūziški makaronsai – tai gardūs migdolų morengų sausainiai su saldžiu įdaru. Jie yra populiarūs dėl savo išskirtinio skonio ir elegantiškos išvaizdos."
+  },
+  "seo": {
+    "metaTitle": "Prancūziški makaronsai | Receptas ir patarimai",
+    "metaDescription": "Sužinokite, kaip gaminti prancūziškus makaronsus su migdolų miltais ir saldžiu įdaru. Puikiai tinka desertams ar šventiniams stalui.",
+    "keywords": [
+      "prancūziški makaronsai",
+      "makaronsai su migdolais",
+      "migdolų morengai",
+      "saldus desertas",
+      "šventinis desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 50,
+      "proteinContent": "1g",
+      "fatContent": "3g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 20,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "125g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Migdolų miltai"
+      },
+      "quantity": "125g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "125g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinių baltymai"
+      },
+      "quantity": "90g (3 vnt.)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maistinis dažiklis"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Įdaras"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pasiruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite cukraus pudrą ir migdolų miltus. Įsitikinkite, kad nėra gumulų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Baltymų plakimas"
+      },
+      "text": {
+        "lt": "Plakite kiaušinių baltymus, po truputį įberkite baltąjį cukrų, kol mišinys taps standus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos ruošimas"
+      },
+      "text": {
+        "lt": "Švelniai įmaišykite migdolų mišinį į baltymus, kad gautumėte vientisą tešlą. Įdėkite maistinio dažiklio pagal norimą spalvą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Formavimas"
+      },
+      "text": {
+        "lt": "Supilkite tešlą į konditerinį maišelį ir formuokite nedidelius apskritimus ant kepimo popieriaus."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 150°C temperatūroje apie 15 minučių, kol makaronsai taps traškūs."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Atvėsinimas ir įdaras"
+      },
+      "text": {
+        "lt": "Atvėsinkite ir sudėkite pasirinktinį įdarą tarp dviejų makaronsų puselių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Populiarūs įdarai yra uogienė, sviestinis kremas ir ganache."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Svarbu, kad tešla būtų tinkamos konsistencijos – nei per tiršta, nei per skysta."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/prancuziski-makaronsai-migdoliniai-morengai.jpg",
+    "alt": "Prancūziški makaronsai su spalvingu įdaru - migdoliniai morengai",
+    "width": 940,
+    "height": 883
+  },
+  "tags": [
+    "prancūziški makaronsai",
+    "migdolų morengai",
+    "saldus desertas",
+    "šventinis desertas",
+    "desertų receptas"
+  ],
+  "author": {
+    "name": "KamillaŚ",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kamilla%C5%9A"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basic_French_Macarons",
+    "pageTitle": "Cookbook:Basic_French_Macarons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:01:52.086Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_French_Macarons&action=history",
+    "originalCreator": {
+      "name": "KamillaŚ",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kamilla%C5%9A"
+    }
+  },
+  "originalImage": {
+    "fileName": "Macaron_love,_February_2011.jpg",
+    "author": {
+      "name": "Rebecca Krebs",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Macaron_love%2C_February_2011.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:01:52+03:00",
+  "createdAt": "2025-11-26T21:01:52+03:00",
+  "updatedAt": "2025-11-26T21:01:52+03:00"
+}

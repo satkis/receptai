@@ -1,0 +1,226 @@
+{
+  "slug": "bikolietiskas-bicol-express-su-kokosu-pienu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bikolietiskas-bicol-express-su-kokosu-pienu",
+  "title": {
+    "lt": "Bikolietiškas Bicol Express su kokosų pienu"
+  },
+  "description": {
+    "lt": "Bicol Express yra filipinietiškas kiaulienos patiekalas su kokosų pienu ir aitriosiomis paprikomis. Šis patiekalas išpopuliarėjo Malate, Maniloje, ir yra pavadintas pagal keleivinį traukinį, kursuojantį tarp Bikolio regiono ir Manilos. Bikolio regionas garsėja patiekalais su kokosų pienu ir aitriosiomis paprikomis."
+  },
+  "seo": {
+    "metaTitle": "Bikolietiškas Bicol Express | Receptas su kokosų pienu ir aitriosiomis paprikomis",
+    "metaDescription": "Autentiškas Bicol Express receptas iš Filipinų. Kiaulienos patiekalas su kokosų pienu ir aitriosiomis paprikomis, populiarus Bikolio regione.",
+    "keywords": [
+      "Bicol Express",
+      "filipinietiškas patiekalas",
+      "kokosų pienas",
+      "aitriosios paprikos",
+      "kiauliena su krevetėmis"
+    ],
+    "recipeCategory": "kiauliena",
+    "recipeCuisine": "Filipinų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "35g",
+      "fatContent": "30g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 7,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kiauliena",
+  "secondaryCategories": [
+    "receptai/filipinai",
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "1 galvutė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaulienos pilvas"
+      },
+      "quantity": "1 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bagoong alamang (krevečių pasta)"
+      },
+      "quantity": "0.5 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Siling labuyo (aitrioji paprika)"
+      },
+      "quantity": "15 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kokosų pienas"
+      },
+      "quantity": "400 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Svogūnų ir česnako kepinimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir pakepinkite svogūną bei česnaką, kol suminkštės ir taps auksinės spalvos."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kiaulienos kepinimas"
+      },
+      "text": {
+        "lt": "Į keptuvę įdėkite kiaulienos pilvą ir kepkite, kol jis taps auksinės spalvos. Retkarčiais maišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sudėkite likusius ingredientus"
+      },
+      "text": {
+        "lt": "Į keptuvę pridėkite bagoong alamang, siling labuyo, cukrų ir juoduosius pipirus. Viską gerai išmaišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Troškinimas su kokosų pienu"
+      },
+      "text": {
+        "lt": "Supilkite kokosų pieną ir leiskite troškintis ant mažos ugnies apie 30 minučių, kol skoniai susimaišys."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą su ryžiais. Pagal skonį galite pridėti mononatrio glutamato."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei negalite rasti siling labuyo, galite naudoti kitų rūšių aitriąsias paprikas."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Norėdami sumažinti patiekalo aštrumą, galite sumažinti paprikų kiekį."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bikolietiskas-bicol-express-su-kokosu-pienu.jpg",
+    "alt": "Filipinietiškas Bicol Express patiekalas su kokosų pienu ir aitriosiomis paprikomis",
+    "width": 551,
+    "height": 413
+  },
+  "tags": [
+    "Bicol Express",
+    "filipinietiškas patiekalas",
+    "kokosų pienas",
+    "aitriosios paprikos",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Jay Bolero",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bicol_Express",
+    "pageTitle": "Cookbook:Bicol_Express",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:38.782Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABicol_Express&action=history",
+    "originalCreator": {
+      "name": "Jay Bolero",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bicol_Express.jpg",
+    "author": {
+      "name": "Raymund Macaalay",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rsmacaalay"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://commons.wikimedia.org/wiki/File:Bicol_Express.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:38+03:00",
+  "createdAt": "2025-11-26T21:22:38+03:00",
+  "updatedAt": "2025-11-26T21:22:38+03:00"
+}

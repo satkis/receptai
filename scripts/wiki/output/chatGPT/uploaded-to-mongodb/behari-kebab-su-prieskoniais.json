@@ -1,0 +1,262 @@
+{
+  "slug": "behari-kebab-su-prieskoniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/behari-kebab-su-prieskoniais",
+  "title": {
+    "lt": "Behari kebabas su prieskoniais"
+  },
+  "description": {
+    "lt": "Behari kebabas – tradicinis Pakistano patiekalas, gaminamas iš jautienos, avienos ar avienos, marinuotos prieskonių mišinyje ir kepamo ant grilio ar orkaitėje. Skonis puikiai derinasi su ryžiais ar naan duona."
+  },
+  "seo": {
+    "metaTitle": "Behari kebabas su prieskoniais | Tradicinis Pakistano patiekalas",
+    "metaDescription": "Tradicinis Pakistano behari kebabas, gaminamas iš mėsos, marinuotos prieskonių mišinyje. Puikiai tinka su ryžiais ar naan duona.",
+    "keywords": [
+      "behari kebabas",
+      "Pakistano virtuvė",
+      "mėsos kebabas",
+      "prieskoninis kebabas",
+      "tradiciškas Pakistano patiekalas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Pakistano",
+    "nutrition": {
+      "calories": 320,
+      "proteinContent": "20g",
+      "fatContent": "22g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/ant-grilio",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kmynų sėklos"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros sėklos"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pankolio sėklos"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garstyčių sėklos"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbiero pasta"
+      },
+      "quantity": "1 valg. šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnako pasta"
+      },
+      "quantity": "1 valg. šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garam masala"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili dribsniai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jogurtas"
+      },
+      "quantity": "2 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinos sultys"
+      },
+      "quantity": "2 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "2 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "450g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Prieskonių ruošimas"
+      },
+      "text": {
+        "lt": "Nedideliame puode ant vidutinės ugnies pakepinkite kmynų, kalendros, pankolio ir garstyčių sėklas, kol jos taps aromatingos. Sumalkite šiuos prieskonius prieskonių malūnėliu arba grūstuvėje."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Marinato paruošimas"
+      },
+      "text": {
+        "lt": "Mažame dubenėlyje sumaišykite maltus prieskonius su imbiero pasta, česnako pasta, garam masala, paprika, čili dribsniais, ciberžole, druska, jogurtu, citrinos sultimis ir alyvuogių aliejumi. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mėsos marinavimas"
+      },
+      "text": {
+        "lt": "Supjaustykite mėsą šašlyko dydžio gabalėliais. Dideliame dubenyje sudėkite jautieną ir užpilkite paruoštu marinatu. Gerai išmaišykite, kad mėsa būtų visur padengta marinatu. Uždenkite dubenį maistine plėvele ir palikite šaldytuve mažiausiai 4 valandoms arba per naktį."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite grilį iki vidutinės aukštos temperatūros. Suverkite marinuotą mėsą ant iešmelių ir kepkite 8–10 minučių, kartais pavartydami, kol mėsa bus iškepusi. Alternatyviai galite kepti orkaitėje 200°C temperatūroje 15–20 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštus kebabus su ryžiais arba naan duona ir pasirinktu garnyru. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite iešmelių, galite kepti mėsą ant grotelių tiesiai."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/behari-kebab-su-prieskoniais.jpg",
+    "alt": "Behari kebabas patiektas su ryžiais ir naan duona",
+    "width": 2816,
+    "height": 2112
+  },
+  "tags": [
+    "behari kebabas",
+    "Pakistano virtuvė",
+    "mėsos kebabas",
+    "prieskoninis kebabas",
+    "grilio receptas"
+  ],
+  "author": {
+    "name": "Codezem",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Codezem"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Behari_Kabab",
+    "pageTitle": "Cookbook:Behari_Kabab",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:24.549Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABehari_Kabab&action=history",
+    "originalCreator": {
+      "name": "Codezem",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Codezem"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bihari_Kabab_in_Serving_plate.JPG",
+    "author": {
+      "name": "Miansari66",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Miansari66"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bihari_Kabab_in_Serving_plate.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:24+03:00",
+  "createdAt": "2025-11-26T21:22:24+03:00",
+  "updatedAt": "2025-11-26T21:22:24+03:00"
+}

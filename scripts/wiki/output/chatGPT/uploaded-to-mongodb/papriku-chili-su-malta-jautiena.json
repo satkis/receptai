@@ -1,0 +1,215 @@
+{
+  "slug": "papriku-chili-su-malta-jautiena",
+  "canonicalUrl": "https://ragaujam.lt/receptas/papriku-chili-su-malta-jautiena",
+  "title": {
+    "lt": "Paprikų čili su malta mėsa"
+  },
+  "description": {
+    "lt": "Paprikų čili su malta jautiena, svogūnais ir paprikomis. Patiekiamas su baltaisiais ryžiais ir pasirinktinai pabarstytas tarkuotu čederio sūriu."
+  },
+  "seo": {
+    "metaTitle": "Paprikų čili su malta mėsa | Receptas su malta jautiena ir paprikomis",
+    "metaDescription": "Paprikų čili receptas su malta jautiena, pomidorais ir pupelėmis. Patiekiamas su baltaisiais ryžiais ir čederio sūrio pabarstais. Puikus pasirinkimas pietums ar vakarienei.",
+    "keywords": [
+      "paprikų čili",
+      "čili su malta mėsa",
+      "maltos jautienos receptai",
+      "čili su pupelėmis",
+      "amerikietiška virtuvė"
+    ],
+    "recipeCategory": "troskiniai",
+    "recipeCuisine": "Amerikietiška",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "25g",
+      "fatContent": "15g",
+      "fiberContent": "8g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 65,
+  "totalTimeMinutes": 80,
+  "timeCategory": "iki-120-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/troskiniai",
+  "secondaryCategories": [
+    "receptai/vakariene",
+    "receptai/seimai",
+    "receptai/jautiena"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Malta jautiena"
+      },
+      "quantity": "1.5 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "6-8 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprikos"
+      },
+      "quantity": "2-3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili milteliai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnako druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pupelės"
+      },
+      "quantity": "1 skard. (apie 500 ml)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Trinti pomidorai"
+      },
+      "quantity": "2 skard. (apie 1.5 l)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Virti balti ryžiai"
+      },
+      "quantity": "Patiekimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Dekoracijai",
+      "name": {
+        "lt": "Čederio sūris"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Maltos jautienos paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame puode sudėkite maltą jautieną. Kepkite ant vidutinės ugnies, maišydami, kol mėsa taps ruda. Jei reikia, nupilkite riebalus."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Svogūnų ir paprikų troškinimas"
+      },
+      "text": {
+        "lt": "Į puodą įdėkite paprikas ir svogūnus. Kepkite, kol svogūnai taps permatomi. Jei reikia, nupilkite riebalus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pomidorų troškinimas"
+      },
+      "text": {
+        "lt": "Įpilkite trintus pomidorus ir troškinkite valandą, retkarčiais pamaišydami."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pupelių ir prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite pupeles ir troškinkite dar 10 minučių. Pridėkite čili miltelius ir česnako druską pagal skonį."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite čili ant baltųjų ryžių. Pagal pageidavimą pabarstykite tarkuotu čederio sūriu."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/papriku-chili-su-malta-jautiena.jpg",
+    "alt": "Paprikų čili su malta mėsa, patiekiamas su ryžiais ir čederio sūriu",
+    "width": 2016,
+    "height": 1512
+  },
+  "tags": [
+    "paprikų čili",
+    "čili su malta mėsa",
+    "čili su pomidorais",
+    "pietūs su chili",
+    "vakarienė su chili"
+  ],
+  "author": {
+    "name": "Raul654",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Raul654"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bell_Pepper_Chili",
+    "pageTitle": "Cookbook:Bell_Pepper_Chili",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:26.442Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABell_Pepper_Chili&action=history",
+    "originalCreator": {
+      "name": "Raul654",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Raul654"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chili_con_carne_1.jpg",
+    "author": {
+      "name": "Mark Pellegrini",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Raul654"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Chili_con_carne_1.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:26+03:00",
+  "createdAt": "2025-11-26T21:22:26+03:00",
+  "updatedAt": "2025-11-26T21:22:26+03:00"
+}

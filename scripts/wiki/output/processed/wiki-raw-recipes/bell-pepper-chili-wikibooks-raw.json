@@ -1,0 +1,96 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bell_Pepper_Chili",
+    "pageTitle": "Cookbook:Bell_Pepper_Chili",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Raul654",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Raul654"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABell_Pepper_Chili&action=history",
+    "extractedAt": "2025-11-26T21:22:26.442Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bell Pepper Chili",
+    "slug": "bell-pepper-chili",
+    "description": "Chili made with bell-peppers, served over white rice.",
+    "ingredients": [
+      "3–3½ pounds ground beef",
+      "6–8 onions, coarsely chopped",
+      "2–3 bell peppers, coarsely chopped",
+      "Chili powder",
+      "Garlic salt",
+      "1 can (about 2 cups) kidney beans",
+      "2 cans (64 ounces) pureed crushed tomatoes",
+      "Cooked white rice",
+      "Cheddar cheese, shredded (optional)"
+    ],
+    "instructions": [
+      "Put beef in a large pot.",
+      "Fry on medium, breaking up the beef, until it turns brown. Drain grease.",
+      "Add peppers and onions to the pot.",
+      "Fry until the onions are transparent. Drain grease if necessary.",
+      "Add crushed tomatoes. Simmer for 1 hour, stirring occasionally.",
+      "Add kidney beans. Simmer for an additional 10 minutes.",
+      "Add chili powder and garlic salt to taste.",
+      "Serve over white rice. Optionally, top with shredded cheddar cheese."
+    ],
+    "notes": [],
+    "servings": 12,
+    "totalTimeMinutes": 80,
+    "difficulty": 2,
+    "category": "Stew recipes",
+    "categories": [
+      "United States recipes",
+      "Recipes using ground beef",
+      "Recipes using tomato|{{PAGENAME}}",
+      "Recipes for chili",
+      "Recipes using kidney bean",
+      "Recipes using rice",
+      "Recipes using bell pepper",
+      "Recipes with images",
+      "Recipes using cheddar",
+      "Recipes using chili powder",
+      "Recipes using garlic salt"
+    ]
+  },
+  "image": {
+    "filename": "Chili_con_carne_1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Chili_con_carne_1.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chili_con_carne_1.jpg",
+    "localPath": "scripts/wiki/output/Chili_con_carne_1.jpg",
+    "dimensions": {
+      "width": 2016,
+      "height": 1512
+    },
+    "fileSize": 1358125,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Mark Pellegrini",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Raul654"
+    },
+    "metadata": {
+      "description": "Chili con carne (recipe)",
+      "categories": [
+        "Taken with Panasonic Lumix DMC-FZ3",
+        "Displays of ingredients",
+        "Self-published work",
+        "Chili con carne (recipe)"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chili_con_carne_1.jpg"
+  }
+}

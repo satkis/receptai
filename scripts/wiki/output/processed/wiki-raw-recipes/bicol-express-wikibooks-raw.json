@@ -1,0 +1,87 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bicol_Express",
+    "pageTitle": "Cookbook:Bicol_Express",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Jay Bolero",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABicol_Express&action=history",
+    "extractedAt": "2025-11-26T21:22:38.782Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bicol Express",
+    "slug": "bicol-express",
+    "description": "Bicol express is a Filipino pork dish with coconut milk and chili peppers. Popularized in Malate, Manila, the dish took its name from a passenger train from Bicol Region going to Manila and vice versa. Bicol Region is famous for cooking dishes using coconut milk and chili peppers.",
+    "ingredients": [
+      "1 spoon cooking oil",
+      "1 onion, chopped",
+      "1 head garlic, minced",
+      "1 kg pork belly",
+      "½ kg bagoong alamang (shrimp paste)",
+      "15 pieces siling labuyo (bird's eye chili)",
+      "2 spoons sugar",
+      "1 teaspoon black pepper",
+      "Monosodium glutamate (optional)",
+      "1 can (400 ml) coconut milk"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using pork",
+      "Filipino recipes",
+      "Recipes using bagoong alamang",
+      "Recipes using labuyo chile",
+      "Recipes using onion",
+      "Recipes using garlic",
+      "Recipes using pepper",
+      "Recipes using coconut milk",
+      "Recipes using sugar"
+    ]
+  },
+  "image": {
+    "filename": "Bicol_Express.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bicol_Express.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bicol_Express.jpg",
+    "localPath": "scripts/wiki/output/Bicol_Express.jpg",
+    "dimensions": {
+      "width": 551,
+      "height": 413
+    },
+    "fileSize": 131945,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Raymund Macaalay",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rsmacaalay"
+    },
+    "metadata": {
+      "description": "Bicol Express - Filipino pork and chillies cooked in coconut milk",
+      "categories": [
+        "Bicol Express",
+        "Capsicum-based food",
+        "Pork dishes of the Philippines",
+        "Self-published work",
+        "Information field template with formatting"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Bicol_Express.jpg"
+  }
+}

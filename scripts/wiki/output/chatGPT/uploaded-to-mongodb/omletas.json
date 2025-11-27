@@ -1,0 +1,215 @@
+{
+  "slug": "omletas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/omletas",
+  "title": {
+    "lt": "omletas"
+  },
+  "description": {
+    "lt": "Omletas yra populiarus pusryčių patiekalas, gaminamas iš kiaušinių ir įdaro pagal jūsų skonį. Šis receptas leidžia pasigaminti omletą greitai ir lengvai, o įdarą galite pasirinkti iš įvairiausių ingredientų."
+  },
+  "seo": {
+    "metaTitle": "omletas | Lengvas kiaušinių patiekalas",
+    "metaDescription": "Pasigaminkite omletą su pasirinktu įdaru. Puikus pusryčių patiekalas, kurį galima greitai paruošti.",
+    "keywords": [
+      "omletas",
+      "pusryčių patiekalas",
+      "kiaušinių patiekalas",
+      "lengvas omletas",
+      "greitas receptas"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "15g",
+      "fatContent": "20g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/kiausini",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinių baltymai"
+      },
+      "quantity": "2 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "šiek tiek",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šoninė"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Brokoliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Juodosios alyvuogės"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sūris"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite įdarui skirtus ingredientus. Kiaušinius gerai išplakite, galite pridėti šiek tiek pieno, kad būtų plonesni."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Supilkite kiaušinius į kambario temperatūros keptuvę. Kaitinkite, nuolat maišydami, kol pradės formuotis kietas kiaušinis."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Apversti ir įdaryti"
+      },
+      "text": {
+        "lt": "Kai kiaušiniai pasidaro pakankamai tvirti, apverskite juos. Ant viršaus uždėkite įdarą ir užlenkite kiaušinį."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Kai omletas iškepa, uždenkite įdarą ir patiekite šiltą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti 3 kiaušinius vietoj 2 kiaušinių ir 2 baltymų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Omletą galite kepti svieste, kad būtų dar skanesnis."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Įdarą galima pasirinkti pagal norą ir sezoną."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/omletas.jpg",
+    "alt": "omletas su įvairiais įdarais",
+    "width": 3456,
+    "height": 2592
+  },
+  "tags": [
+    "omletas",
+    "pusryčių receptas",
+    "greitas ir lengvas",
+    "kiaušiniai",
+    "sveikas pasirinkimas"
+  ],
+  "author": {
+    "name": "AlbertCahalan",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basic_Omelet",
+    "pageTitle": "Cookbook:Basic_Omelet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:11.617Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Omelet&action=history",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    }
+  },
+  "originalImage": {
+    "fileName": "Omelet_With_Fixings.jpg",
+    "author": {
+      "name": "Stripey the crab",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Stripey%20the%20crab"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Omelet_With_Fixings.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:11+03:00",
+  "createdAt": "2025-11-26T21:22:11+03:00",
+  "updatedAt": "2025-11-26T21:22:11+03:00"
+}

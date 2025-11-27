@@ -1,0 +1,115 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Black_Forest_Torte",
+    "pageTitle": "Cookbook:Black_Forest_Torte",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mike Hayes",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mike%20Hayes"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlack_Forest_Torte&action=history",
+    "extractedAt": "2025-11-26T21:22:52.668Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Black Forest Torte",
+    "slug": "black-forest-torte",
+    "description": "| German cuisine | Dessert__NOTOC__ ==Ingredients==",
+    "ingredients": [
+      "1¼ cups chocolate wafer crumbs",
+      "¼ cup white granulated sugar",
+      "¼ cup butter, melted",
+      "½ cup butter",
+      "6 squares (6 ounces / 180 g) semisweet chocolate, chopped",
+      "3 eggs",
+      "⅔ cup white granulated sugar",
+      "1 teaspoon vanilla extract",
+      "¼ teaspoon salt",
+      "⅔ cup all-purpose flour",
+      "1 can (21 ounces / 600 g) cherry pie filling",
+      "2 squares (1 ounce / 30 g) each) semisweet chocolate, chopped",
+      "1 tablespoon heavy whipping cream"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "In a small bowl, combine wafer crumbs and sugar; stir in butter.",
+      "Press onto the bottom and up the sides of a lightly greased 11-inch (30 cm) tart pan with removable bottom.",
+      "Place pan on baking sheet.",
+      "Bake for 8 to 10 minutes or until lightly browned.",
+      "Cool on a wire rack.",
+      "In a microwave-safe bowl, melt butter and chocolate; stir until smooth.",
+      "Cool for 10 minutes.",
+      "In a large mixing bowl, Beat the eggs, sugar, vanilla, and salt until thickened, about 4 minutes.",
+      "Blend in chocolate mixture.",
+      "Add the flour and mix well.",
+      "Pour into crust; spread evenly.",
+      "Bake 25 to 30 minutes or until a toothpick inserted in center comes out clean.",
+      "Cool completely on a wire rack.",
+      "Spread pie filling over the top.",
+      "In a small microwave bowl, combine chocolate and cream.",
+      "Microwave on high for 20 to 30 seconds or until chocolate is melted; stir until smooth.",
+      "Cool for 5 minutes, stirring occasionally.",
+      "Drizzle over tart.",
+      "Chill until set."
+    ],
+    "notes": [],
+    "servings": 12,
+    "totalTimeMinutes": 120,
+    "difficulty": 3,
+    "category": "Recipes for dessert",
+    "categories": [
+      "Recipes for dessert|{{PAGENAME}}",
+      "Recipes using chocolate|{{PAGENAME}}",
+      "Recipes using cherry",
+      "German recipes|{{PAGENAME}}",
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes using egg",
+      "Recipes using heavy cream",
+      "Recipes using crumb crust",
+      "Recipes using all-purpose flour",
+      "Recipes using granulated sugar",
+      "Recipes for black forest cake"
+    ]
+  },
+  "image": {
+    "filename": "3o5dots.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:3o5dots.svg",
+    "localPath": "scripts/wiki/output/3o5dots.svg",
+    "dimensions": {
+      "width": 64,
+      "height": 12
+    },
+    "fileSize": 466,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:3o5dots.svg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "metadata": {
+      "description": "3 of 5 dots rating for Wikibooks Cookbook: A recipe rated 3 of 5 dots will be somewhat challenging to an inexperienced cook, or may require a longer amount of time to complete.",
+      "categories": [
+        "Color codes",
+        "Self-published work",
+        "PD-self",
+        "Valid SVG created with Text Editor:Icons"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basic_Omelet",
+    "pageTitle": "Cookbook:Basic_Omelet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Omelet&action=history",
+    "extractedAt": "2025-11-26T21:22:11.617Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Basic Omelet",
+    "slug": "basic-omelet",
+    "description": "An omelet or omelette is a breakfast food consisting of an egg-based wrapper around a filling of your choice. Omelettes take little time to complete. Always ensure your fillings are either pre-cooked, able to be finished in the time available, or edible when raw but warmed.",
+    "ingredients": [
+      "2 eggs and 2 egg whites for a typical (6-inch/15 cm) pan",
+      "oil",
+      "Pre-cooked bacon",
+      "Broccoli or most other seasonal vegetables",
+      "Black olives",
+      "Chopped tomatoes, optionally with the seeds and pulp removed",
+      "Pan-fried garlic, mushrooms, and fennel",
+      "Zucchini and leeks",
+      "Cheese, e.g. cheddar, Pecorino Romano, goat's chevre and fresh herbs (e.g. basil)",
+      "Any blue cheese",
+      "Spinach, goat cheese, and pinenuts",
+      "Sautéed spinach",
+      "Pancetta",
+      "Wood-fired or lightly roasted baby potatoes and fresh herbs",
+      "Wood-fired baby potatoes, mushrooms, and Brie",
+      "Spanish sausage, mushrooms, and blue cheese",
+      "Smoked salmon, crispy potatoes and herb sour cream",
+      "Smoked salmon, Brie, and fresh herbs",
+      "Prawns and Brie with fennel confit",
+      "Pancetta, bocconcini, and basil",
+      "Feta cheese, garlic, and cheddar cheese"
+    ],
+    "instructions": [
+      "Chop up the filling.",
+      "Mix the eggs well. You may add milk to thin them (up to 1 Tbsp for each egg).",
+      "Pour the eggs into a cool (i.e. room temperature) frying pan.",
+      "Heat the pan, stirring constantly.",
+      "Stop stirring as soon as solid egg begins to form.",
+      "As the egg solidifies, pry it loose around the edges.",
+      "If you didn't stir enough earlier, you may have difficulty solidifying the egg on top. In this case, you may pry up an edge while tilting the pan to let liquid egg flow under the solid egg. It is best to avoid this problem though.",
+      "Keep loosening the egg from the edges until you can slide it around.",
+      "Now you need to flip the egg without ripping it. If you have a very wide turner (or two smaller ones), you can use that. Otherwise, you'll have to flip the egg in the air. To do so, rapidly move the pan away from you then up, back toward you a bit, and then very rapidly downward. Catch the egg in the pan.",
+      "Place filling on the egg.",
+      "When the egg is done, wrap it around the filling. Serve.",
+      "Chop up the filling.",
+      "Mix the eggs well. You may add milk or cream to thin them.",
+      "Heat your griddle (you're doing this without a pan, on the cooktop).",
+      "Pour the eggs onto the griddle, using a spiral motion to spread them wide and thin.",
+      "When the egg has set, gently add fillings on top.",
+      "Using a large (3 x 12-inch, or 75 x 300 mm) turner, fold the egg over the filling.",
+      "When you think the bottom has cooked, flip the omelette over to cook the other side."
+    ],
+    "notes": [
+      "Before non-stick coating became common, many cooks would keep a special omelette pan which would not be used for any other purpose. It is important to use a very clean pan, especially if it is not a \"non-stick\" pan. If keeping a pan solely for omelettes, after cooking, wipe well with a clean cloth or paper-towel and then apply a thin coating of clean vegetable oil.",
+      "You can use 3 eggs and a dash of milk or cream instead of the 2 eggs and 2 egg whites.",
+      "Try frying the omelette in butter.",
+      "After folding the omelette, you can top with grated cheddar and place frying pan under a grill until the cheese begins to brown.",
+      "You can garnish with cream cheese, sour cream, or other thickened dairy product  along with a fragrant sprig of a fresh herb or edible flower.",
+      "Try frying the omelet in excess oil and butter (covering the top).",
+      "Put the entire frying pan under a pre-heated grill to melt cheese before folding, and make the top go golden.",
+      "To increase protein content, one can add additional egg whites (which are mostly protein) separating out the egg yolk (which has a grams of fat to protein ratio of 1:1)",
+      "Cottage cheese or quark are possible high-protein alternatives to cheese as fillings."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for omelettes|{{PAGENAME}}",
+      "Recipes using egg",
+      "Breakfast recipes|{{PAGENAME}}"
+    ]
+  },
+  "image": {
+    "filename": "Omelet_With_Fixings.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Omelet_With_Fixings.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Omelet_With_Fixings.jpg",
+    "localPath": "scripts/wiki/output/Omelet_With_Fixings.jpg",
+    "dimensions": {
+      "width": 3456,
+      "height": 2592
+    },
+    "fileSize": 3289953,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Stripey the crab",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Stripey%20the%20crab"
+    },
+    "metadata": {
+      "description": "An omelet with ham, cheese, and a garnish of spices including oregano and parsley.",
+      "categories": [
+        "GFDL",
+        "Taken with Sony DSC-H50",
+        "Ham (food)",
+        "License migration redundant",
+        "Self-published work",
+        "Plates with food",
+        "Ham and cheese omelettes"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Omelet_With_Fixings.jpg"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "slug": "bhuna-khichuri-bengalu-ryziai-ir-lesiai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bhuna-khichuri-bengalu-ryziai-ir-lesiai",
+  "title": {
+    "lt": "Bhuna Khichuri - Bengalų ryžiai ir lęšiai"
+  },
+  "description": {
+    "lt": "Bhuna Khichuri yra Bengalijos patiekalas, kuris tapo tikru delikatesu, dažnai patiekiamas šiltas per lietingas dienas. Šis receptas sujungia ryžius ir lęšius, pridedant prieskonių ir daržovių, kad būtų sukurtas šiltas ir gardus patiekalas. Patiekite su Bengalų žuvies kariu ir čatniu."
+  },
+  "seo": {
+    "metaTitle": "Bhuna Khichuri - Bengalų ryžių ir lęšių receptas",
+    "metaDescription": "Autentiškas Bhuna Khichuri receptas su ryžiais, lęšiais ir prieskoniais. Idealus patiekalas lietingoms dienoms, patiekiamas su Bengalų žuvies kariu.",
+    "keywords": [
+      "bhuna khichuri",
+      "bengalų virtuvė",
+      "ryžių ir lęšių patiekalas",
+      "vegetariškas receptas",
+      "lietingoms dienoms"
+    ],
+    "recipeCategory": "darzoves",
+    "recipeCuisine": "Bengalų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "15g",
+      "fatContent": "20g",
+      "fiberContent": "8g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 11,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/darzoves",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pietus",
+    "receptai/vegetariskas"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalieji arba raudonieji lęšiai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovinti avinžirniai"
+      },
+      "quantity": "0.5 puodelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Žirneliai"
+      },
+      "quantity": "0.5 puodelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žaliosios čili"
+      },
+      "quantity": "2 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "4 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapai"
+      },
+      "quantity": "2 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalieji kardamonai"
+      },
+      "quantity": "4 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gvazdikėliai"
+      },
+      "quantity": "4 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "2 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kmynai"
+      },
+      "quantity": "0.25 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "2 cm gabaliukas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "1 vidutinis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Koriandro lapai"
+      },
+      "quantity": "1 pundas",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite ryžius, lęšius ir avinžirnius atskirai. Palikite avinžirnius ir lęšius mirkti 30 minučių."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite sviestą keptuvėje, įdėkite lauro lapus ir pusiau sutrintus prieskonius. Kai pradeda skleisti kvapą, pridėkite imbierą ir kmynus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Maišymas"
+      },
+      "text": {
+        "lt": "Įdėkite žaliąsias čili ir žirnelius, maišykite kelias minutes, tada pridėkite ryžius, lęšius ir avinžirnius. Užpilkite karštu vandeniu."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Virimas"
+      },
+      "text": {
+        "lt": "Uždenkite ir virkite ant vidutinės ugnies apie 10 minučių, kol ryžiai ir lęšiai suminkštės."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Paskutinis prisilietimas"
+      },
+      "text": {
+        "lt": "Kai viskas išvirta, užberkite keptus svogūnus ir koriandrą ant viršaus. Patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti augalinį aliejų vietoj sviesto arba visiškai jo atsisakyti."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bhuna-khichuri-bengalu-ryziai-ir-lesiai.jpg",
+    "alt": "Bhuna Khichuri - Bengalų ryžių ir lęšių patiekalas",
+    "width": 1228,
+    "height": 1174
+  },
+  "tags": [
+    "bhuna khichuri",
+    "bengalų virtuvė",
+    "vegetariškas patiekalas",
+    "ryžių receptas",
+    "lęšių receptas"
+  ],
+  "author": {
+    "name": "Drriad~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Drriad~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bhuna_Khichuri_(Bengali_Rice_and_Lentils)",
+    "pageTitle": "Cookbook:Bhuna_Khichuri_(Bengali_Rice_and_Lentils)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:32.101Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABhuna_Khichuri_(Bengali_Rice_and_Lentils)&action=history",
+    "originalCreator": {
+      "name": "Drriad~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Drriad~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Khichuri-edit.jpg",
+    "author": {
+      "name": "Drriad",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Drriad"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Khichuri-edit.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:32+03:00",
+  "createdAt": "2025-11-26T21:22:32+03:00",
+  "updatedAt": "2025-11-26T21:22:32+03:00"
+}

@@ -1,0 +1,215 @@
+{
+  "slug": "bazinis-indiskas-pomidoru-padazas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bazinis-indiskas-pomidoru-padazas",
+  "title": {
+    "lt": "Bazinės indiškas pomidorų padažas"
+  },
+  "description": {
+    "lt": "Tradicinis indiškas pomidorų padažas, puikiai tinkantis su įvairiomis daržovėmis, virtais kiaušiniais, paneer ar vištiena. Dažnai vadinamas „kariu“."
+  },
+  "seo": {
+    "metaTitle": "Bazinės indiškas pomidorų padažas | Tradicinis receptas",
+    "metaDescription": "Tradicinis indiškas pomidorų padažas, tinkantis su daržovėmis, kiaušiniais ar vištiena. Pateikite su baltais ryžiais.",
+    "keywords": [
+      "indiškas pomidorų padažas",
+      "pomidorų padažas su daržovėmis",
+      "indiškas karis",
+      "vegetariškas padažas",
+      "indiška virtuvė"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 180,
+      "proteinContent": "3g",
+      "fatContent": "10g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/pietus",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "5 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ghi"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbiero pasta"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "5 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili milteliai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros milteliai"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kmynų milteliai"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolės milteliai"
+      },
+      "quantity": "0.25 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Kaitinkite ghi keptuvėje ir apkepkite svogūnus, kol jie pradeda ruduoti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite imbierą, česnaką ir prieskonių miltelius. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pomidorų ir druskos pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite pomidorus ir druską pagal skonį. Uždenkite ir troškinkite ant vidutinės ugnies 10 minučių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti kokosų aliejų vietoj ghi, jei norite veganinio varianto."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šis padažas puikiai tinka su ryžiais arba naan duona."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bazinis-indiskas-pomidoru-padazas.jpg",
+    "alt": "Bazinės indiškas pomidorų padažas su prieskoniais",
+    "width": 1944,
+    "height": 1944
+  },
+  "tags": [
+    "indiškas padažas",
+    "pomidorų padažas",
+    "vegetariškas karis",
+    "greitas padažas",
+    "prieskoninis maistas"
+  ],
+  "author": {
+    "name": "Paulcox",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basic_Indian_Tomato_Gravy",
+    "pageTitle": "Cookbook:Basic_Indian_Tomato_Gravy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:09.508Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Indian_Tomato_Gravy&action=history",
+    "originalCreator": {
+      "name": "Paulcox",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+    }
+  },
+  "originalImage": {
+    "fileName": "Tomato_Chutney.jpg",
+    "author": {
+      "name": "Shashimangu",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Shashimangu"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tomato_Chutney.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:09+03:00",
+  "createdAt": "2025-11-26T21:22:09+03:00",
+  "updatedAt": "2025-11-26T21:22:09+03:00"
+}

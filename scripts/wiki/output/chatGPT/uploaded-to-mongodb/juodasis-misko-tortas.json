@@ -1,0 +1,249 @@
+{
+  "slug": "juodasis-misko-tortas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/juodasis-misko-tortas",
+  "title": {
+    "lt": "Juodasis miško tortas"
+  },
+  "description": {
+    "lt": "Juodasis miško tortas – tai klasikinis vokiečių desertas, žinomas dėl savo turtingo šokoladinio skonio ir vyšnių įdaro. Šis tortas yra puikus pasirinkimas ypatingoms progoms."
+  },
+  "seo": {
+    "metaTitle": "Juodasis miško tortas | Klasikinis vokiečių desertas",
+    "metaDescription": "Klasikinis juodasis miško tortas su šokolado trupiniais ir vyšnių įdaru. Ideali desertų alternatyva ypatingoms progoms.",
+    "keywords": [
+      "juodasis miško tortas",
+      "vokiškas desertas",
+      "šokoladinis tortas",
+      "vyšnių įdaras",
+      "šventinis desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Vokiečių",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "4g",
+      "fatContent": "18g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/tortai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Šokolado trupiniai"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "180g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokoladas"
+      },
+      "quantity": "210g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1/4 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vyšnių uogienė"
+      },
+      "quantity": "600g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175°C. Sumaišykite šokolado trupinius su cukrumi ir sviestu mažame dubenėlyje."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Pagrindo formavimas"
+      },
+      "text": {
+        "lt": "Įspauskite mišinį į 30 cm skersmens tartos formą, kurios dugnas nuimamas. Kepkite 8-10 minučių arba kol lengvai paruduos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Šokolado tirpinimas"
+      },
+      "text": {
+        "lt": "Ištirpinkite sviestą ir šokoladą mikrobangų krosnelėje, maišykite, kol masė taps lygi."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje plakite kiaušinius su cukrumi, vanile ir druska apie 4 minutes, kol masė taps puri."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Tešlos užbaigimas"
+      },
+      "text": {
+        "lt": "Įmaišykite šokolado mišinį ir miltus. Supilkite į formą ir tolygiai paskirstykite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 25-30 minučių arba kol įdurtas dantų krapštukas išeis sausas. Atvėsinkite ant grotelių."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Apdaila"
+      },
+      "text": {
+        "lt": "Užtepkite vyšnių uogienę ant pyrago. Ištirpinkite šokoladą su grietinėle ir užlašinkite ant viršaus. Atšaldykite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti ir šviežias vyšnias vietoj uogienės."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Tortas geriausiai skanus, kai jis šiek tiek atšaldytas."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/juodasis-misko-tortas.jpg",
+    "alt": "Juodasis miško tortas su šokoladu ir vyšnių įdaru",
+    "width": 64,
+    "height": 12
+  },
+  "tags": [
+    "juodasis miško tortas",
+    "vokiškas desertas",
+    "šokoladinis tortas",
+    "vyšnių įdaras",
+    "šventinis desertas"
+  ],
+  "author": {
+    "name": "Mike Hayes",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mike%20Hayes"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Black_Forest_Torte",
+    "pageTitle": "Cookbook:Black_Forest_Torte",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:52.668Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlack_Forest_Torte&action=history",
+    "originalCreator": {
+      "name": "Mike Hayes",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mike%20Hayes"
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg",
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:3o5dots.svg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:52+03:00",
+  "createdAt": "2025-11-26T21:22:52+03:00",
+  "updatedAt": "2025-11-26T21:22:52+03:00"
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "beurre-mani-padazas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/beurre-mani-padazas",
+  "title": {
+    "lt": "Beurre Manié - prancūziškas sviestas ir miltai"
+  },
+  "description": {
+    "lt": "Beurre manié - tai prancūziškas sviesto ir miltų mišinys, naudojamas sriuboms ir padažams tirštinti. Jis pagamintas iš lygiomis dalimis sumaišyto minkšto sviesto ir miltų."
+  },
+  "seo": {
+    "metaTitle": "Beurre Manié - prancūziškas sviestas ir miltai | Receptas",
+    "metaDescription": "Sužinokite, kaip paruošti beurre manié - prancūzišką tirštiklį iš sviesto ir miltų. Puikiai tinka padažams ir sriuboms tirštinti.",
+    "keywords": [
+      "beurre manié",
+      "prancūziškas sviestas",
+      "miltų tirštiklis",
+      "sviesto mišinys",
+      "prancūziška virtuvė"
+    ],
+    "recipeCategory": "prancuzu",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "5g",
+      "fatContent": "55g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 5,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 5,
+  "timeCategory": "iki-15-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/prancuzu",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/sriubos"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "60g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "30g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sumaišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite sviestą ir miltus dubenyje. Naudokite rankas arba šakutę, kad gerai išminkyti mišinį, kol jis taps vienalytis."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Naudojimas"
+      },
+      "text": {
+        "lt": "Naudokite iš karto arba laikykite šaldytuve, kaip nurodyta pastabose."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norėdami sutirštinti sriubas ar padažus, įplakite 2 šaukštus beurre manié ir virkite, kol sutirštės."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei norite ilgiau laikyti, suformuokite mažus rutuliukus ir užšaldykite. Prieš naudojant, visiškai atšildykite."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/beurre-mani-padazas.jpg",
+    "alt": "Beurre manié - sviesto ir miltų mišinys dubenyje",
+    "width": 3072,
+    "height": 2304
+  },
+  "tags": [
+    "beurre manié",
+    "prancūziškas sviestas",
+    "tirštiklis",
+    "sviesto mišinys",
+    "prancūziška virtuvė"
+  ],
+  "author": {
+    "name": "Xeverything11",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Xeverything11"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beurre_Manié",
+    "pageTitle": "Cookbook:Beurre_Manié",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:28.479Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeurre_Mani%C3%A9&action=history",
+    "originalCreator": {
+      "name": "Xeverything11",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Xeverything11"
+    }
+  },
+  "originalImage": {
+    "fileName": "Beurre_manié.jpg",
+    "author": {
+      "name": "Alec Vuijlsteke",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Beurre_mani%C3%A9.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:28+03:00",
+  "createdAt": "2025-11-26T21:22:28+03:00",
+  "updatedAt": "2025-11-26T21:22:28+03:00"
+}

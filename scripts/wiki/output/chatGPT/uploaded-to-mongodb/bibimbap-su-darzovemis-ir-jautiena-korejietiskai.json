@@ -1,0 +1,283 @@
+{
+  "slug": "bibimbap-su-darzovemis-ir-jautiena-korejietiskai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bibimbap-su-darzovemis-ir-jautiena-korejietiskai",
+  "title": {
+    "lt": "Bibimbap su daržovėmis ir jautiena"
+  },
+  "description": {
+    "lt": "Bibimbap – tai tradicinis korėjietiškas patiekalas, kuriame sumaišytos garuose virti ryžiai su daržovėmis, jautiena, kiaušiniu ir aštriu gochujang padažu. Šis variantas yra su jautiena, tačiau galite naudoti ir tofu, jei norite vegetariško varianto. Patiekalas skanus ir maistingas, puikiai tinkantis pietums ar vakarienei."
+  },
+  "seo": {
+    "metaTitle": "Bibimbap su daržovėmis ir jautiena | Korėjietiškas receptas",
+    "metaDescription": "Klasikinis Bibimbap receptas su daržovėmis, jautiena ir aštriu gochujang padažu. Puikus pasirinkimas korėjietiškos virtuvės mėgėjams.",
+    "keywords": [
+      "bibimbap",
+      "korėjietiškas patiekalas",
+      "ryžiai su daržovėmis",
+      "jautiena",
+      "gochujang"
+    ],
+    "recipeCategory": "ryziai",
+    "recipeCuisine": "Korėjų",
+    "nutrition": {
+      "calories": 480,
+      "proteinContent": "28g",
+      "fatContent": "18g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 75,
+  "timeCategory": "iki-120-min",
+  "servings": 3,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sezamų aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maltos sezamų sėklos"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "pusė arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1–2 žiupsneliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Špinatai"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pupelių daigai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojų padažas"
+      },
+      "quantity": "ketvirtis puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Balti ryžiai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kimči"
+      },
+      "quantity": "¾ puodelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Agurkas"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Gochujang"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Sezamų sėklos"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Jūros dumbliai (gim)"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruoškite morkas"
+      },
+      "text": {
+        "lt": "Supjaustykite morkas plonais šiaudeliais ir pavirkite sūdytame vandenyje kelias minutes. Tada nuplaukite šaltu vandeniu ir nusausinkite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Paruoškite špinatus"
+      },
+      "text": {
+        "lt": "Užvirinkite špinatus dideliame puode su nedideliu kiekiu vandens. Kai špinatai suminkštėja, nusausinkite ir atvėsinkite šaltu vandeniu."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Paruoškite pupelių daigus"
+      },
+      "text": {
+        "lt": "Blanširuokite pupelių daigus sūdytame vandenyje, kol jie taps permatomi. Nusausinkite ir atvėsinkite juos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Paruoškite jautieną"
+      },
+      "text": {
+        "lt": "Supjaustykite jautieną plonais gabalėliais ir apkepkite karštoje keptuvėje su alyvuogių aliejumi. Pridėkite sojų padažo ir leiskite skysčiui išgaruoti."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekite patiekalą"
+      },
+      "text": {
+        "lt": "Padėkite ryžius į dubenėlius, ant viršaus sudėkite paruoštas daržoves, jautieną ir kiaušinį. Patiekite su šonuose esančiais kimči, gochujang ir kitais ingredientais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Sezamų sėklos padidina savo tūrį malant, todėl 2-3 šaukštai sezamų sėklų atitinka ¼ puodelio maltų sezamų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šis patiekalas puikiai dera su šviežių salotų dubeniu šalia."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bibimbap-su-darzovemis-ir-jautiena-korejietiskai.jpg",
+    "alt": "Bibimbap su daržovėmis ir jautiena, patiekta dubenyje",
+    "width": 3264,
+    "height": 2448
+  },
+  "tags": [
+    "bibimbap",
+    "korėjietiška virtuvė",
+    "ryžiai su daržovėmis",
+    "jautiena",
+    "gochujang"
+  ],
+  "author": {
+    "name": "211.119.251.1",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:211.119.251.1"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bibimbap",
+    "pageTitle": "Cookbook:Bibimbap",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:37.265Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABibimbap&action=history",
+    "originalCreator": {
+      "name": "211.119.251.1",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:211.119.251.1"
+    }
+  },
+  "originalImage": {
+    "fileName": "Korean_cuisine-Bibimbap-01.jpg",
+    "author": {
+      "name": "Jerine Lay",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Korean_cuisine-Bibimbap-01.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:37+03:00",
+  "createdAt": "2025-11-26T21:22:37+03:00",
+  "updatedAt": "2025-11-26T21:22:37+03:00"
+}

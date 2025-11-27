@@ -1,0 +1,78 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beurre_Manié",
+    "pageTitle": "Cookbook:Beurre_Manié",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Xeverything11",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Xeverything11"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeurre_Mani%C3%A9&action=history",
+    "extractedAt": "2025-11-26T21:22:28.479Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Beurre Manié",
+    "slug": "beurre-mani",
+    "description": "Beurre manié, meaning \"kneaded butter\", is a paste made from equal volumes of butter and flour. It acts a thickener for soups and sauces.",
+    "ingredients": [
+      "¼ cup (60 g) softened butter",
+      "¼ cup (30 g) all-purpose flour"
+    ],
+    "instructions": [
+      "Combine the butter and flour in a mixing bowl.",
+      "Use your hands or a small utensil such as a fork/spoon to knead the flour into the butter until fully and evenly incorporated.",
+      "Use immediately or store as indicated in the notes."
+    ],
+    "notes": [
+      "To use it to thicken soups and sauces, whisk 2 tablespoons of the beurre manié into soups or sauces, then simmer until thickened.",
+      "To freeze the beurre manié for long-term storage, portion it out into small balls (e.g. tablespoonfuls) and freeze until solid on a baking sheet. Transfer to an airtight ziplock bag, and store in the freezer for up to 3 months. Defrost completely before using."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using butter",
+      "Recipes using all-purpose flour",
+      "French recipes"
+    ]
+  },
+  "image": {
+    "filename": "Beurre_manié.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Beurre_mani%C3%A9.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beurre_mani%C3%A9.jpg",
+    "localPath": "scripts/wiki/output/Beurre_manié.jpg",
+    "dimensions": {
+      "width": 3072,
+      "height": 2304
+    },
+    "fileSize": 3853166,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Alec Vuijlsteke",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "metadata": {
+      "description": "Beurre manié.",
+      "categories": [
+        "Flickr images uploaded by Flickr upload bot",
+        "Bowls with food",
+        "Beurre manié"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Beurre_manié.jpg"
+  }
+}

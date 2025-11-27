@@ -1,0 +1,98 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Behari_Kabab",
+    "pageTitle": "Cookbook:Behari_Kabab",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Codezem",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Codezem"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABehari_Kabab&action=history",
+    "extractedAt": "2025-11-26T21:22:24.549Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Behari Kabab",
+    "slug": "behari-kabab",
+    "description": "Behari kabab is a traditional Pakistani dish made with beef, lamb, or mutton that has been marinated in a mixture of spices and then grilled or baked.",
+    "ingredients": [
+      "1 tsp cumin seeds",
+      "1 tsp coriander seeds",
+      "1 tsp fennel seeds",
+      "1 tsp mustard seeds",
+      "1 tbsp ginger paste",
+      "1 tbsp garlic paste",
+      "1 tsp garam masala",
+      "1 tsp paprika",
+      "1 tsp chile flakes",
+      "1 tsp turmeric",
+      "1 tsp salt",
+      "2 tbsp yogurt",
+      "2 tbsp lemon juice",
+      "2 tbsp oil",
+      "1 pound beef, lamb, or mutton, cut into small pieces"
+    ],
+    "instructions": [
+      "In a small pan, dry roast the cumin seeds, coriander seeds, fennel seeds, and mustard seeds over medium heat until fragrant. Grind the roasted spices in a spice grinder or with a mortar and pestle.",
+      "In a small bowl, combine the ground spices with the ginger paste, garlic paste, garam masala, paprika, chili flakes, turmeric, salt, yogurt, lemon juice, and oil. Mix well to make the marinade.",
+      "Place the meat in a large bowl and pour the marinade over it. Mix well to coat the meat with the marinade. Cover the bowl with plastic wrap and refrigerate for at least 4 hours or overnight.",
+      "Preheat a grill to medium-high heat. Thread the marinated meat onto skewers and grill for 8–10 minutes, turning occasionally, until the meat is cooked through. Alternatively, you can bake the kababs in the oven at 400°F for 15–20 minutes.",
+      "Serve the behari kababs hot with rice or naan bread and a side of your choice. Enjoy!"
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using chile flake",
+      "Recipes using lemon juice",
+      "Recipes using paprika",
+      "Recipes using turmeric",
+      "Recipes using yogurt",
+      "Recipes using coriander",
+      "Recipes using fennel seed",
+      "Recipes using garam masala",
+      "Recipes using ginger paste",
+      "Recipes using whole cumin",
+      "Recipes using lamb and mutton"
+    ]
+  },
+  "image": {
+    "filename": "Bihari_Kabab_in_Serving_plate.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bihari_Kabab_in_Serving_plate.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bihari_Kabab_in_Serving_plate.JPG",
+    "localPath": "scripts/wiki/output/Bihari_Kabab_in_Serving_plate.JPG",
+    "dimensions": {
+      "width": 2816,
+      "height": 2112
+    },
+    "fileSize": 4084233,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Miansari66",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Miansari66"
+    },
+    "metadata": {
+      "description": "Bihari Kabab",
+      "categories": [
+        "CC-Zero",
+        "Self-published work",
+        "Bihari kabab"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Bihari_Kabab_in_Serving_plate.JPG"
+  }
+}

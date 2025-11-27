@@ -418,7 +418,7 @@ Convert to this MongoDB recipe schema:
 ### **slug**
 - Format: Lithuanian characters not allowed, lowercase, hyphen-separated
 - Example: `zemaitiski-kepsneliai-su-kiauliena`
-- Rule: Lithuanian characters not allowed, Must be unique and SEO expanded text, descriptive, max 200 characters, convert to URL-safe format
+- Rule: at least 3 words.Lithuanian characters not allowed, Must be unique and SEO expanded text, descriptive, max 200 characters, convert to URL-safe format
 
 ### **canonicalUrl**
 - Format: `https://ragaujam.lt/receptas/{slug}`
@@ -431,7 +431,7 @@ Convert to this MongoDB recipe schema:
 - Example: `"Santjago tortas - Ispaniškas migdolų pyragas"`
 
 ### **description.lt**
-- Format: 3-5 SEO optimized recipe applicable sentences in Lithuanian. need to sound casually written and not like a robot text.
+- Format: 4-7 SEO optimized recipe applicable sentences in Lithuanian. need to sound casually written and not like a robot text.
 - Rule: 100-500 characters, engaging, mentions key ingredients
 - Example: `Tradiciniai žemaitiški kepsneliai su rūkytų lašinių įdaru. Skanus ir sotus patiekalas šeimai.`
 

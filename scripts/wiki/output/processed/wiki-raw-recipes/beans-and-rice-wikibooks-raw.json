@@ -1,0 +1,109 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beans_and_Rice",
+    "pageTitle": "Cookbook:Beans_and_Rice",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "157.182.224.133",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:157.182.224.133"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeans_and_Rice&action=history",
+    "extractedAt": "2025-11-26T21:22:15.866Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Beans and Rice",
+    "slug": "beans-and-rice",
+    "description": "This recipe for beans and rice is great to make on the weekend and bring to work during the week. It's also great for entertaining on a budget, since you can feed 5 or 6 people for less than ten dollars. It is a vegan adaptation of cajun rice and beans, similar to gallo pinto.",
+    "ingredients": [
+      "1 package (16 oz) dry beans (kidney or black beans preferred)",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "1 celery stalk, sliced thin",
+      "1 bulb garlic, minced",
+      "2 bay leaves",
+      "1 tsp ground cumin",
+      "1 tsp chili powder",
+      "1 tsp ground basil",
+      "Olive oil",
+      "Salt to taste",
+      "Pepper, to taste",
+      "1–2 whole dried or fresh hot peppers (optional)",
+      "1–2 cups rice"
+    ],
+    "instructions": [
+      "Soak beans overnight, or, bring to a boil and let sit for one hour.",
+      "In a Dutch oven or large pot, sauté onions and garlic in olive oil on medium heat until onions are translucent.",
+      "Add green pepper and celery, and sauté for a few minutes more.",
+      "Add beans and enough water to cover all ingredients.",
+      "Add spices, then bring to a boil. Lower heat, cover, and simmer, stirring occasionally, until done (1–2 hours, depending on the age of your beans).",
+      "Add rice and twice as much water to a pot (i.e. 1 cup rice + 2 cups water).",
+      "Bring to a rolling boil, and cook until the water has boiled down to the level of the rice.",
+      "Reduce heat to a light simmer, cover, and cook for 20 minutes.",
+      "Serve the beans over the rice and enjoy! It is also very tasty with cornbread."
+    ],
+    "notes": [
+      "You can use canned beans instead of dry. This greatly reduces cooking time, but doesn't allow for the flavor to soak into the beans as well.",
+      "To make this in a crockpot, sauté the vegetables in a pan, then add all ingredients (except rice) to the crockpot and cook on low for 6-8 hours.",
+      "You can make this in an Instant Pot or pressure cooker."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Vegan recipes",
+      "Recipes using pulses",
+      "Recipes using rice",
+      "Boiled recipes",
+      "Louisiana recipes",
+      "Side dish recipes",
+      "Recipes with images",
+      "Recipes using basil",
+      "Recipes using green bell pepper",
+      "Recipes using celery",
+      "Recipes using chili powder",
+      "Recipes using ground cumin",
+      "Recipes using black bean",
+      "Recipes using kidney bean"
+    ]
+  },
+  "image": {
+    "filename": "Rice_and_beans_stew_in_bowl.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Rice_and_beans_stew_in_bowl.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Rice_and_beans_stew_in_bowl.jpg",
+    "localPath": "scripts/wiki/output/Rice_and_beans_stew_in_bowl.jpg",
+    "dimensions": {
+      "width": 1848,
+      "height": 1654
+    },
+    "fileSize": 594583,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "daSupremo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:DaSupremo"
+    },
+    "metadata": {
+      "description": "Rice and beans stew in bowl",
+      "categories": [
+        "Rice-based food",
+        "Images from Wiki Loves Africa 2021",
+        "Self-published work",
+        "Images from Wiki Loves Africa 2021 in Ghana"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Rice_and_beans_stew_in_bowl.jpg"
+  }
+}

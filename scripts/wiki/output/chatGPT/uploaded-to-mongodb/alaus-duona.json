@@ -1,0 +1,204 @@
+{
+  "slug": "alaus-duona",
+  "canonicalUrl": "https://ragaujam.lt/receptas/alaus-duona",
+  "title": {
+    "lt": "Alaus duona"
+  },
+  "description": {
+    "lt": "Alaus duona - unikali duona, kurios skonį praturtina alus. Kepimo milteliai yra pagrindinė tešlos kildinimo priemonė."
+  },
+  "seo": {
+    "metaTitle": "Alaus duona | Receptas su alumi",
+    "metaDescription": "Išbandykite alaus duonos receptą, kuris praturtina skonį ir suteikia duonai ypatingą tekstūrą. Puikus pasirinkimas duonos mėgėjams.",
+    "keywords": [
+      "alaus duona",
+      "duonos receptas",
+      "duona su alumi",
+      "greita duona",
+      "vegetariški receptai"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 120,
+      "proteinContent": "3g",
+      "fatContent": "1g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/vegetariški",
+    "receptai/greitai-pagaminti"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "375g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alaus (šilto)"
+      },
+      "quantity": "340ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "4 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Medus"
+      },
+      "quantity": "1-4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "sutepimui",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175°C. Patepkite kepimo formą aliejumi."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sausų ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, druską ir kepimo miltelius."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos ruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite alų su medumi ir supilkite į sausų ingredientų mišinį. Maišykite, kol tešla taps vientisa. Jei reikia, pridėkite daugiau miltų."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Supilkite tešlą į paruoštą formą ir kepkite orkaitėje 40–45 minutes, kol duona bus ruda ir įsmeigtas dantų krapštukas išlįs švarus."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite šiltą duoną."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Alaus duona geriausiai kyla su gyvo alaus mielėmis."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Naudojant tamsų alų, duona bus tamsesnė."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/alaus-duona.jpg",
+    "alt": "Alaus duona - supjaustyta ir paruošta patiekimui",
+    "width": 2568,
+    "height": 1956
+  },
+  "tags": [
+    "alaus duona",
+    "duonos receptas",
+    "vegetariška duona",
+    "lengvas receptas",
+    "greita duona"
+  ],
+  "author": {
+    "name": "83.95.207.58",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:83.95.207.58"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beer_Bread",
+    "pageTitle": "Cookbook:Beer_Bread",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:22.448Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeer_Bread&action=history",
+    "originalCreator": {
+      "name": "83.95.207.58",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:83.95.207.58"
+    }
+  },
+  "originalImage": {
+    "fileName": "Beer_Bread_1.jpg",
+    "author": {
+      "name": "Adam Ginsburg",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hohum"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Beer_Bread_1.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:22+03:00",
+  "createdAt": "2025-11-26T21:22:22+03:00",
+  "updatedAt": "2025-11-26T21:22:22+03:00"
+}

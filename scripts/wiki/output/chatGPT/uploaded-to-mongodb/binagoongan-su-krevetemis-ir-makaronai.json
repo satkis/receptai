@@ -1,0 +1,226 @@
+{
+  "slug": "binagoongan-su-krevetemis-ir-makaronai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/binagoongan-su-krevetemis-ir-makaronai",
+  "title": {
+    "lt": "Binagoongan su krevetėmis ir šiaudų pasta"
+  },
+  "description": {
+    "lt": "Binagoongan - tai filipinų virtuvės patiekalas, kurio pagrindas yra kiauliena ir krevetės, troškinti su šiaudų pasta. Šis patiekalas pasižymi intensyviu umami skoniu, todėl dažniausiai patiekiamas su baltaisiais ryžiais."
+  },
+  "seo": {
+    "metaTitle": "Binagoongan su krevetėmis | Filipinų virtuvės receptas",
+    "metaDescription": "Autentiškas filipinų patiekalas - Binagoongan su krevetėmis ir šiaudų pasta. Patiekalo skonis sustiprėja su baltaisiais ryžiais.",
+    "keywords": [
+      "binagoongan",
+      "filipinų virtuvė",
+      "krevetės",
+      "šiaudų pasta",
+      "kiauliena"
+    ],
+    "recipeCategory": "jautiena",
+    "recipeCuisine": "Filipinų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "30g",
+      "fatContent": "35g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/jautiena",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/filipinai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiauliena"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Krevetės"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Karčiai melionai"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "½ galvos",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Makaroani (šiaudeliai)"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Actas"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "480ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Kiaulienos kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir apkepkite kiaulienos gabalėlius, kol jie paruduos."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Daržovių troškinimas"
+      },
+      "text": {
+        "lt": "Keptuvėje su kiauliena sudėkite česnakus, svogūnus ir pomidorus. Troškinkite, kol daržovės suminkštės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Krevetės ir prieskoniai"
+      },
+      "text": {
+        "lt": "Įdėkite krevetes ir sumaišykite su likusiais ingredientais. Troškinkite, kol krevetės bus paruoštos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Galutinis troškinimas"
+      },
+      "text": {
+        "lt": "Pridėkite šiaudų pastą, actą ir vandenį, ir virkite, kol kiauliena taps minkšta. Jei norite, galite sumažinti skysčio kiekį."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite su baltaisiais ryžiais. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite daugiau skonio, galite pridėti šviežių čili pipirų."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/binagoongan-su-krevetemis-ir-makaronai.jpg",
+    "alt": "Binagoongan patiekalas su krevetėmis ir šiaudų pasta",
+    "width": 4608,
+    "height": 3456
+  },
+  "tags": [
+    "binagoongan",
+    "filipinų virtuvė",
+    "kiauliena su krevetėmis",
+    "šiaudų pasta",
+    "umami skonis"
+  ],
+  "author": {
+    "name": "Cryptic",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Cryptic"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Binagoongan_(Sautéed_Pork_with_Shrimp_Paste)",
+    "pageTitle": "Cookbook:Binagoongan_(Sautéed_Pork_with_Shrimp_Paste)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:41.302Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABinagoongan_(Saut%C3%A9ed_Pork_with_Shrimp_Paste)&action=history",
+    "originalCreator": {
+      "name": "Cryptic",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Cryptic"
+    }
+  },
+  "originalImage": {
+    "fileName": "4336Cuisine_and_foods_of_Baliuag,_Bulacan_08.jpg",
+    "author": {
+      "name": "Judgefloro",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Judgefloro"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/4336Cuisine_and_foods_of_Baliuag%2C_Bulacan_08.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:41+03:00",
+  "createdAt": "2025-11-26T21:22:41+03:00",
+  "updatedAt": "2025-11-26T21:22:41+03:00"
+}

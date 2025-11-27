@@ -1,0 +1,294 @@
+{
+  "slug": "pupeliu-ir-ryziu-patiekalas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/pupeliu-ir-ryziu-patiekalas",
+  "title": {
+    "lt": "Pupelių ir ryžių patiekalas"
+  },
+  "description": {
+    "lt": "Šis pupelių ir ryžių receptas puikiai tinka savaitgaliui ir darbo dienoms. Tai veganiška kajuno ryžių ir pupelių versija, kuri primena Gallo Pinto. Puikiai tinka pavaišinti 5–6 asmenis už mažiau nei dešimt dolerių."
+  },
+  "seo": {
+    "metaTitle": "Pupelių ir ryžių patiekalas | Veganiškas receptas",
+    "metaDescription": "Veganiškas pupelių ir ryžių receptas, puikiai tinkantis savaitgaliui ar darbo dienoms. Maitinkite šeimą ar draugus už nedidelę kainą.",
+    "keywords": [
+      "pupelių ir ryžių receptas",
+      "veganiškas patiekalas",
+      "kajuno virtuvė",
+      "Gallo Pinto",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 430,
+      "proteinContent": "21g",
+      "fatContent": "8g",
+      "fiberContent": "15g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 100,
+  "totalTimeMinutes": 115,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/pupeles",
+    "receptai/ryziai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sausos pupelės"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalioji paprika"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saliero stiebas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "1 galvutė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti kmynai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili milteliai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malta bazilikas"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovinti arba švieži aštrūs pipirai"
+      },
+      "quantity": "1-2 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "1-2 puodeliai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Kukurūzų duona"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pupelių paruošimas"
+      },
+      "text": {
+        "lt": "Pupeles mirkykite per naktį arba užvirinkite ir palikite stovėti valandą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Daržovių paruošimas"
+      },
+      "text": {
+        "lt": "Olandiškame puode arba dideliame puode ant vidutinės ugnies kepkite svogūnus ir česnakus alyvuogių aliejuje, kol svogūnai taps permatomi."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Paprikos ir saliero kepimas"
+      },
+      "text": {
+        "lt": "Įdėkite žaliąją papriką ir salierą, ir kepkite dar kelias minutes."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pupelių virimas"
+      },
+      "text": {
+        "lt": "Įdėkite pupeles ir tiek vandens, kad apsemtų visus ingredientus. Įdėkite prieskonius, užvirinkite, sumažinkite ugnį, uždenkite ir troškinkite, retkarčiais pamaišydami, kol išvirs (1–2 valandos, priklausomai nuo pupelių senumo)."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Ryžių virimas"
+      },
+      "text": {
+        "lt": "Į puodą sudėkite ryžius ir dvigubai daugiau vandens (pvz., 1 puodelis ryžių + 2 puodeliai vandens). Užvirinkite ir virkite, kol vandens lygis susilygins su ryžiais."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Ryžių troškinimas"
+      },
+      "text": {
+        "lt": "Sumažinkite ugnį iki lengvo troškinimo, uždenkite ir virkite dar 20 minučių."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Pupeles patiekite ant ryžių ir mėgaukitės! Labai skanu su kukurūzų duona."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti konservuotas pupeles vietoj sausų. Tai labai sumažina gaminimo laiką, bet neleidžia skoniui taip gerai įsigerti į pupeles."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Norėdami gaminti lėtoje viryklėje, daržoves apkepkite keptuvėje, tada viską (išskyrus ryžius) sudėkite į lėtą viryklę ir gaminkite ant mažos ugnies 6–8 valandas."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Galite gaminti ir greitpuodyje arba slėginiame puode."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/pupeliu-ir-ryziu-patiekalas.jpg",
+    "alt": "Pupelių ir ryžių patiekalas dubenyje, patiekiamas su kukurūzų duona",
+    "width": 1848,
+    "height": 1654
+  },
+  "tags": [
+    "pupelių ir ryžių patiekalas",
+    "veganiškas receptas",
+    "kajuno virtuvė",
+    "lengvas patiekalas",
+    "Gallo Pinto"
+  ],
+  "author": {
+    "name": "157.182.224.133",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:157.182.224.133"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beans_and_Rice",
+    "pageTitle": "Cookbook:Beans_and_Rice",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:15.866Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeans_and_Rice&action=history",
+    "originalCreator": {
+      "name": "157.182.224.133",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:157.182.224.133"
+    }
+  },
+  "originalImage": {
+    "fileName": "Rice_and_beans_stew_in_bowl.jpg",
+    "author": {
+      "name": "daSupremo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:DaSupremo"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Rice_and_beans_stew_in_bowl.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T12:00:00+03:00",
+  "createdAt": "2025-11-27T12:00:00+03:00",
+  "updatedAt": "2025-11-27T12:00:00+03:00"
+}

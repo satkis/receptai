@@ -1,0 +1,101 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beef_Stew_I",
+    "pageTitle": "Cookbook:Beef_Stew_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Stew_I&action=history",
+    "extractedAt": "2025-11-26T21:22:18.949Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Beef Stew I",
+    "slug": "beef-stew-i",
+    "description": "Beef stew has chunks of softened beef and vegetables in a thick sauce. It is often served with cornbread or biscuits.",
+    "ingredients": [
+      "2 lb (900 g) beef",
+      "½ cup flour",
+      "¼ cup oil",
+      "1 bay leaf",
+      "1 tsp (5 ml) marjoram",
+      "1 tsp (5 ml) oregano",
+      "46 fl oz (5 ¾ cup, 1.36 L, or 1 large can) tomato juice",
+      "10 ½ oz (298 g, about 1 ¼ cup, or 300 mL) double-strength beef broth",
+      "2–4 russet potatoes, or other large non-sweet white baking potatoes",
+      "4 large carrots",
+      "4 stalks of celery"
+    ],
+    "instructions": [
+      "Cut the beef into chunks about 1 inch (2.5 cm) across.",
+      "Put the beef and flour in a container, such as a plastic bag, and shake or squish until the beef is well-coated. Use more flour for a thicker stew, or less for a thinner stew.",
+      "Put oil into a wide pot and heat it.",
+      "In several batches, brown the beef in the pot with the oil.",
+      "Return the browned beef to the pot, along with all the spices, tomato juice, and the double-strength beef broth.",
+      "Cover the pot, then simmer for at least an hour to soften the beef. Stir the stew every few minutes to prevent the beef from burning on the bottom of the pot.",
+      "Peel the carrots, and cut them into pieces about the same size as the beef. Add them to the stew, and simmer a bit more, stirring every few minutes.",
+      "Cut the other vegetables likewise, add to stew, and simmer a bit more, stirring.",
+      "When all the vegetables are soft but not yet falling apart, remove the bay leaf and serve the stew."
+    ],
+    "notes": [
+      "Try adding other vegetables such as turnips, parsnips, and frozen corn. Note that turnips mush quickly."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using beef",
+      "Recipes for stew",
+      "Boiled recipes",
+      "Recipes_with_metric_units",
+      "Recipes with images",
+      "Recipes using bay leaf",
+      "Recipes using carrot",
+      "Recipes using celery",
+      "Recipes using wheat flour",
+      "Recipes using beef broth and stock",
+      "Recipes using tomato juice",
+      "Recipes using marjoram"
+    ]
+  },
+  "image": {
+    "filename": "Cookbook-beef-stew.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cookbook-beef-stew.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cookbook-beef-stew.jpg",
+    "localPath": "scripts/wiki/output/Cookbook-beef-stew.jpg",
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "fileSize": 459303,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Cookbook-beef-stew.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:AlbertCahalan~commonswiki"
+    },
+    "metadata": {
+      "description": "Beef stew",
+      "categories": [
+        "Beef stews",
+        "Self-published work",
+        "PD-self"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Cookbook-beef-stew.jpg"
+  }
+}

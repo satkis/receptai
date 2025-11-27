@@ -1,0 +1,234 @@
+{
+  "slug": "jautienos-sirdis-ant-saslyku-anticuchos",
+  "canonicalUrl": "https://ragaujam.lt/receptas/jautienos-sirdis-ant-saslyku-anticuchos",
+  "title": {
+    "lt": "Jautienos širdis ant šašlykų (Anticuchos)"
+  },
+  "description": {
+    "lt": "Anticuchos - tai peruietiškas patiekalas, gaminamas iš ant grilio keptos širdies mėsos. Šis skanėstas dažnai patiekiamas su kukurūzais ir virtomis bulvėmis. Jei nenorite naudoti širdies, galite pasirinkti kitą raudonos mėsos gabalą."
+  },
+  "seo": {
+    "metaTitle": "Jautienos širdis ant šašlykų (Anticuchos) | Peruietiškas receptas",
+    "metaDescription": "Peruietiškas anticuchos receptas su jautienos širdimi. Šis skanėstas patiekiamas su kukurūzais ir virtomis bulvėmis. Idealus pasirinkimas griliui.",
+    "keywords": [
+      "jautienos širdis",
+      "anticuchos",
+      "peruietiška virtuvė",
+      "širdies šašlykai",
+      "grilio receptai"
+    ],
+    "recipeCategory": "jautiena",
+    "recipeCuisine": "Peruietiška",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "30g",
+      "fatContent": "12g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/jautiena",
+  "secondaryCategories": [
+    "receptai/ant-grilio",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Jautienos širdis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "2 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti raudonieji pipirai"
+      },
+      "quantity": "¼ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudas actas"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti kmynai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ačiote"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti juodieji pipirai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Kukurūzai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Virtos bulvės"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Padažui",
+      "name": {
+        "lt": "Čili padažas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Marinato paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite visus ingredientus, išskyrus širdį, dubenyje. Gerai išmaišykite, kad susidarytų vientisas marinatas."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Širdies paruošimas"
+      },
+      "text": {
+        "lt": "Išvalykite širdį, pašalinkite visus riebalus ir supjaustykite į vienodo dydžio gabalėlius. Įdėkite širdies gabaliukus į marinatą ir palikite marinuotis apie 10 valandų arba per naktį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Šašlykų ruošimas"
+      },
+      "text": {
+        "lt": "Pamarinuotus širdies gabaliukus suverkite ant iešmų. Galite pridėti ir kitų ingredientų, pavyzdžiui, paprikų ar kukurūzų."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite šašlykus ant grilio, nuolat vartydami ir aptepę marinatu. Kai mėsa iškeps, išimkite iš grilio ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint autentiško skonio, stenkitės naudoti ačiotę kaip prieskonį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šis patiekalas puikiai dera su šviežiomis daržovėmis ir ryžiais."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/jautienos-sirdis-ant-saslyku-anticuchos.jpg",
+    "alt": "Jautienos širdis ant šašlykų su kukurūzais ir bulvėmis",
+    "width": 1024,
+    "height": 768
+  },
+  "tags": [
+    "jautienos širdis",
+    "anticuchos",
+    "peruietiškas receptas",
+    "grilio patiekalai",
+    "širdies mėsos patiekalai"
+  ],
+  "author": {
+    "name": "Conce~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Conce~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beef_Heart_Kabobs_(Anticuchos)",
+    "pageTitle": "Cookbook:Beef_Heart_Kabobs_(Anticuchos)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:17.479Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Heart_Kabobs_(Anticuchos)&action=history",
+    "originalCreator": {
+      "name": "Conce~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Conce~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Peru_Anticuchos.jpg",
+    "author": {
+      "name": "Xauxa",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Xauxa"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Peru_Anticuchos.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:17+03:00",
+  "createdAt": "2025-11-26T21:22:17+03:00",
+  "updatedAt": "2025-11-26T21:22:17+03:00"
+}

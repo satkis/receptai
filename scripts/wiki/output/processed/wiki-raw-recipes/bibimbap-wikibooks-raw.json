@@ -1,0 +1,132 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bibimbap",
+    "pageTitle": "Cookbook:Bibimbap",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "211.119.251.1",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:211.119.251.1"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABibimbap&action=history",
+    "extractedAt": "2025-11-26T21:22:37.265Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bibimbap",
+    "slug": "bibimbap",
+    "description": "Bibimbap (also called Bibimba or Bibimbop) is a typical Korean meal that literally means \"mixed rice\". The meal consists of a bowl of steamed white rice topped with vegetables, beef (sometimes tofu or chicken to suit tastes), a whole egg, and gochujang (Korean chili pepper paste). Gochujang is usually served separately to control the spiciness of the dish. It is often made vegetarian by substituting tofu for beef. Dolsot Bibimbap is a variation where the dish is served in a very hot stoneware bowl, crisping the rice and cooking the egg.",
+    "ingredients": [
+      "2 small carrots",
+      "2 tbsp sesame oil",
+      "2 tbsp ground sesame seeds",
+      "¼ tsp grated garlic",
+      "1–2 pinches salt",
+      "10 oz fresh spinach",
+      "1 tbsp sesame oil",
+      "2 tsp ground sesame seeds",
+      "¼ tsp grated garlic",
+      "8 oz bean sprouts, with beans attached",
+      "2 tsp sesame oil",
+      "1 tsp ground sesame seeds",
+      "¼ tsp grated garlic",
+      "1 pinch salt",
+      "1 tbsp olive or other oil",
+      "1 lb steak",
+      "¼ cup soy sauce",
+      "1 tbsp sesame oil",
+      "1 tbsp ground sesame seeds",
+      "¼ tsp grated garlic",
+      "¾–1 ½ cup white rice, steamed",
+      "3 eggs, cooked over easy",
+      "¾ cup kimchi",
+      "1 cucumber, cut into strips",
+      "Gochujang",
+      "1 tbsp vegetable oil"
+    ],
+    "instructions": [
+      "Cut the carrots into matchsticks.",
+      "Boil matchsticks in a covered pot of salted water for a few minutes. Drain.",
+      "Rinse carrots with cold water until cool. Drain again, then put in a bowl.",
+      "Add the sesame oil, ground sesame seeds, grated garlic, and salt. Toss together with your fingers.",
+      "Put the spinach in a large covered pot with 1 inch of water.",
+      "Bring to a boil and cook as usual. Stir occasionally to keep the spinach from sticking to the pot. The spinach is done when it's dark green and reduced to a small fraction of its original volume.",
+      "Drain the cooked spinach. Cool by adding cold water to the pot and drain again. Squeeze the spinach in your hands to remove the water.",
+      "Slice the cooked spinach into 1-inch pieces.",
+      "Put the cooked spinach in a bowl with the sesame oil, ground sesame seeds, and grated garlic. Mix with your fingers.",
+      "Blanch the bean sprouts in a pot of salted water until they become clear.",
+      "Drain the cooked sprouts, and transfer to a bowl.",
+      "Toss with sesame oil, ground sesame seeds, grated garlic, and salt.",
+      "Slice the steak thinly, but not paper-thin.",
+      "Heat the oil in a large frying pan on high heat. When the oil is hot, but not smoking, add the beef. Stir-fry.",
+      "While the beef is cooking, add the sesame oil, ground sesame seeds, and grated garlic. Cook until the meat is well browned.",
+      "Add the soy sauce. Continue cooking until the liquid has boiled off.",
+      "Place rice in each bowl.",
+      "Arrange the prepared namuls, beef soboro, cucumbers, and egg on top of the rice. They should be arranged separately and attractively. The egg sits in the middle. Gochujang, kimchi, and any other root or leafy vegetable is served on the side in small individual bowls for the table to help themselves.",
+      "Rub the inside of the dolsots with sesame oil.",
+      "Spread the cooked rice evenly over the bottom of the dolsots and part way up the sides. Place the namurus and the beef soboro on top of the rice, each in its own area.",
+      "Cover the dolsots and cook over medium-high heat. Watch carefully near the end to avoid burning the rice on the bottom. To test, use a spoon to scrape the rice from the side. Remember that the bottom cooks more than the sides and that the rice keeps cooking after you remove it from the heat. Do not preheat the dolsots.",
+      "Add an uncooked egg to the middle of each dolsot.",
+      "Serve dolsots on small pieces of wood to keep the heat from damaging the table.",
+      "To eat, start by scraping the rice from the bottom and stirring the ingredients together with a metal spoon. The egg will cook as it breaks up. The rice on the bottom will be crunchy and sometimes hard to remove unless you continue stirring as you eat."
+    ],
+    "notes": [
+      "Sesame seeds expand when ground; 2 or 3 tablespoons of sesame seeds will make ¼ cup of ground sesame seeds.",
+      "Vegetables that can be served on the side (in small individual bowls) include lettuce, shiitake mushrooms, doraji namul, kong namul, gaji namul, sukju namul, gosari namul, and hobak namul. Other ingredients like dried sesame seeds and gim (seaweed) are added to the mix at varying times, depending on personal taste."
+    ],
+    "servings": 3,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": "Rice recipes",
+    "categories": [
+      "Recipes using rice",
+      "Korean recipes",
+      "Boiled recipes",
+      "Vegetarian recipes",
+      "Recipes using bean sprout",
+      "Recipes using carrot",
+      "Recipes using cucumber",
+      "Recipes using egg",
+      "Recipes using garlic",
+      "Recipes using vegetable oil",
+      "Recipes using kimchi"
+    ]
+  },
+  "image": {
+    "filename": "Korean_cuisine-Bibimbap-01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Korean_cuisine-Bibimbap-01.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Bibimbap-01.jpg",
+    "localPath": "scripts/wiki/output/Korean_cuisine-Bibimbap-01.jpg",
+    "dimensions": {
+      "width": 3264,
+      "height": 2448
+    },
+    "fileSize": 2325322,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jerine Lay",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "metadata": {
+      "description": "Bibimbap in Korean cuisine",
+      "categories": [
+        "Bibimbap",
+        "Taken with Canon PowerShot S5 IS",
+        "Flickr images uploaded by Flickr upload bot",
+        "Underexposed images"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Korean_cuisine-Bibimbap-01.jpg"
+  }
+}

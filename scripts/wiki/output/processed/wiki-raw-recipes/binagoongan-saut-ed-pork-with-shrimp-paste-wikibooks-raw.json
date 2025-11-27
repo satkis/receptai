@@ -1,0 +1,93 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Binagoongan_(Sautéed_Pork_with_Shrimp_Paste)",
+    "pageTitle": "Cookbook:Binagoongan_(Sautéed_Pork_with_Shrimp_Paste)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Cryptic",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Cryptic"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABinagoongan_(Saut%C3%A9ed_Pork_with_Shrimp_Paste)&action=history",
+    "extractedAt": "2025-11-26T21:22:41.302Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Binagoongan (Sautéed Pork with Shrimp Paste)",
+    "slug": "binagoongan-saut-ed-pork-with-shrimp-paste",
+    "description": "Binagoongan is a Filipino cooking process consisting of vegetables (most notably water spinach) or meat (usually pork, but can also be chicken or beef) sautéed or braised in bagoong alamang (shrimp paste), garlic, black peppercorns, and bay leaves. Some recipes also add pineapples, chilis, or coconut cream to balance the flavors. The dish is characteristically quite salty with a strong umami flavor, which is why it is always paired with white rice and never eaten on its own. It is very similar to pinatisan which is cooked with patis (fish sauce), one of the by-products of fermenting bagoong.",
+    "ingredients": [
+      "1 lb pork, cut into pieces",
+      "½ lb of baby shrimp",
+      "½ cup of bitter melon",
+      "¼ cup oil",
+      "½ head garlic, crushed",
+      "1 onion, sliced thinly",
+      "1 large tomato, sliced",
+      "½ cup bagoong alamang",
+      "½ cup vinegar",
+      "2 cups water"
+    ],
+    "instructions": [
+      "Fry pork pieces in hot oil.",
+      "Sauté garlic, onions and tomatoes after pork has browned.",
+      "Add shrimp.",
+      "Add the rest of the ingredients and let simmer until pork is tender. If desired, let water reduce.",
+      "Serve with rice."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using pork",
+      "Recipes using shrimp",
+      "Filipino recipes",
+      "Boiled recipes",
+      "Recipes using bagoong alamang",
+      "Recipes using bitter melon",
+      "Recipes using garlic",
+      "Recipes using onion",
+      "Recipes using vinegar"
+    ]
+  },
+  "image": {
+    "filename": "4336Cuisine_and_foods_of_Baliuag,_Bulacan_08.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/4336Cuisine_and_foods_of_Baliuag%2C_Bulacan_08.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:4336Cuisine_and_foods_of_Baliuag,_Bulacan_08.jpg",
+    "localPath": "scripts/wiki/output/4336Cuisine_and_foods_of_Baliuag,_Bulacan_08.jpg",
+    "dimensions": {
+      "width": 4608,
+      "height": 3456
+    },
+    "fileSize": 7153078,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Judgefloro",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Judgefloro"
+    },
+    "metadata": {
+      "description": "Cuisine and foods of Baliuag, Bulacan  (Note: Judge Florentino Floro, the owner, to repeat, Donor Florentino Floro of all these photos hereby donate gratuitously, freely and unconditionally all these photos to and for Wikimedia Commons, exclusively, for public use of the public domain, and again without any condition whatsoever).",
+      "categories": [
+        "Taken with Nikon Coolpix AW100",
+        "CC-Zero",
+        "Binagoongan",
+        "Self-published work",
+        "Photographs by Judgefloro"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "4336Cuisine_and_foods_of_Baliuag,_Bulacan_08.jpg"
+  }
+}

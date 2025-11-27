@@ -1,0 +1,243 @@
+{
+  "slug": "jautienos-troskinys-su-darzovemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/jautienos-troskinys-su-darzovemis",
+  "title": {
+    "lt": "Jautienos troškinys su daržovėmis"
+  },
+  "description": {
+    "lt": "Šis jautienos troškinys yra turtingas skoniais, su minkštais jautienos gabaliukais ir daržovėmis tirštame padaže. Puikiai tinka su šviežia duona ar bulvėmis."
+  },
+  "seo": {
+    "metaTitle": "Jautienos troškinys su daržovėmis | Skanus receptas",
+    "metaDescription": "Išbandykite šį jautienos troškinį su minkštais jautienos gabaliukais ir daržovėmis tirštame padaže. Puikus pasirinkimas šeimos vakarienei.",
+    "keywords": [
+      "jautienos troškinys",
+      "troškinys su daržovėmis",
+      "jautienos receptai",
+      "sotus patiekalas",
+      "šeimos vakarienė"
+    ],
+    "recipeCategory": "troskiniai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "28g",
+      "fatContent": "15g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 120,
+  "totalTimeMinutes": 150,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/troskiniai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "900g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mažarūnis"
+      },
+      "quantity": "5ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Oregano"
+      },
+      "quantity": "5ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų sultys"
+      },
+      "quantity": "1.36l",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautienos sultinys"
+      },
+      "quantity": "300ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "2-4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Salierai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mėsos paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite jautieną gabaliukais apie 2,5 cm dydžio. Sudėkite į maišelį su miltais ir gerai pakratykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Mėsos kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų plačiame puode ir apkepkite jautieną keliais etapais, kol apskrus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Troškinio virimas"
+      },
+      "text": {
+        "lt": "Sudėkite apkepintą jautieną, prieskonius, pomidorų sultis ir sultinį į puodą. Uždenkite ir troškinkite apie valandą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Daržovių paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite morkas ir supjaustykite gabaliukais. Sudėkite į troškinį ir toliau virkite, kartais pamaišydami."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Daržovių pridėjimas"
+      },
+      "text": {
+        "lt": "Supjaustykite likusias daržoves ir sudėkite į troškinį. Troškinkite, kol daržovės suminkštės."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Kai daržovės minkštos, išimkite lauro lapą ir patiekite troškinį."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galima pridėti kitų daržovių, tokių kaip ropės ar petražolės šaknys."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/jautienos-troskinys-su-darzovemis.jpg",
+    "alt": "Jautienos troškinys su daržovėmis dubenyje",
+    "width": 1200,
+    "height": 800
+  },
+  "tags": [
+    "jautienos troškinys",
+    "troškinys su daržovėmis",
+    "sotus patiekalas",
+    "šeimos vakarienė",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "AlbertCahalan",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beef_Stew_I",
+    "pageTitle": "Cookbook:Beef_Stew_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:18.949Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Stew_I&action=history",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    }
+  },
+  "originalImage": {
+    "fileName": "Cookbook-beef-stew.jpg",
+    "author": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:AlbertCahalan~commonswiki"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Cookbook-beef-stew.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cookbook-beef-stew.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:18+03:00",
+  "createdAt": "2025-11-26T21:22:18+03:00",
+  "updatedAt": "2025-11-26T21:22:18+03:00"
+}

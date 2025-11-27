@@ -345,6 +345,63 @@ async function compressImage(inputPath, outputPath) {
 }
 
 /**
+ * Sanitize string for S3 metadata (remove non-ASCII characters)
+ * S3 metadata headers cannot contain Lithuanian letters or non-ASCII characters
+ */
+function sanitizeForS3Metadata(text) {
+  if (!text) return '';
+  return text
+    .replace(/[^\x00-\x7F]/g, '') // Remove non-ASCII characters
+    .trim();
+}
+
+/**
+ * Generate metadata for recipe image
+ */
+async function generateImageMetadata(filename, recipe) {
+  try {
+    // Extract recipe data
+    const title = recipe.title?.lt || '';
+    const description = recipe.description?.lt || '';
+    const keywords = recipe.seo?.keywords?.join(',') || '';
+    const category = recipe.seo?.recipeCategory || '';
+    const cuisine = recipe.seo?.recipeCuisine || '';
+
+    // Get image dimensions from recipe
+    const width = recipe.image?.width || '1200';
+    const height = recipe.image?.height || '800';
+
+    // Sanitize all text fields for S3 metadata (remove Lithuanian characters)
+    const altText = sanitizeForS3Metadata(title || 'Recipe image');
+    const sanitizedDescription = sanitizeForS3Metadata(description);
+    const sanitizedKeywords = sanitizeForS3Metadata(keywords);
+    const sanitizedCategory = sanitizeForS3Metadata(category);
+    const sanitizedCuisine = sanitizeForS3Metadata(cuisine);
+
+    return {
+      // System-defined metadata
+      'Content-Type': 'image/jpeg',
+      'Cache-Control': 'public, max-age=31536000, immutable',
+      'Content-Disposition': `inline; filename="${filename}"`,
+
+      // User-defined metadata (will get x-amz-meta- prefix)
+      'alt-text': altText,
+      'recipe-slug': recipe.slug,
+      'width': String(width),
+      'height': String(height),
+      'keywords': sanitizedKeywords,
+      'upload-date': new Date().toISOString().split('T')[0],
+      'category': sanitizedCategory,
+      'cuisine': sanitizedCuisine,
+      'description': sanitizedDescription
+    };
+  } catch (error) {
+    console.error(`❌ Error generating metadata: ${error.message}`);
+    throw error;
+  }
+}
+
+/**
  * Verify AWS credentials
  */
 async function verifyAWSCredentials() {
@@ -360,19 +417,31 @@ async function verifyAWSCredentials() {
 }
 
 /**
- * Upload image to S3
+ * Upload image to S3 with metadata
  */
-async function uploadImageToS3(filename, compressedPath) {
+async function uploadImageToS3(filename, compressedPath, recipe) {
   try {
     const fileContent = fsSync.readFileSync(compressedPath);
+    const metadata = await generateImageMetadata(filename, recipe);
 
     const uploadParams = {
       Bucket: CONFIG.AWS_BUCKET,
       Key: `receptai/${filename}`,
       Body: fileContent,
-      ContentType: 'image/jpeg',
-      CacheControl: 'public, max-age=31536000',
-      ContentDisposition: 'inline'
+      ContentType: metadata['Content-Type'],
+      CacheControl: metadata['Cache-Control'],
+      ContentDisposition: metadata['Content-Disposition'],
+      Metadata: {
+        'alt-text': metadata['alt-text'],
+        'recipe-slug': metadata['recipe-slug'],
+        'width': metadata['width'],
+        'height': metadata['height'],
+        'keywords': metadata['keywords'],
+        'upload-date': metadata['upload-date'],
+        'category': metadata['category'],
+        'cuisine': metadata['cuisine'],
+        'description': metadata['description']
+      }
     };
 
     const result = await s3.upload(uploadParams).promise();
@@ -508,8 +577,8 @@ async function main() {
         const compressedPath = path.join(CONFIG.TEMP_FOLDER, `compressed_${finalFileName}`);
         await compressImage(tempJpgPath, compressedPath);
 
-        // Step 3: Upload to S3
-        const s3Url = await uploadImageToS3(finalFileName, compressedPath);
+        // Step 3: Upload to S3 (with metadata)
+        const s3Url = await uploadImageToS3(finalFileName, compressedPath, recipe);
 
         // Step 4: Update MongoDB with S3 URL
         await updateRecipeImageUrl(db, recipe.slug, s3Url);

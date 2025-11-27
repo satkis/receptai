@@ -1,0 +1,85 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basic_French_Macarons",
+    "pageTitle": "Cookbook:Basic_French_Macarons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "KamillaŚ",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kamilla%C5%9A"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_French_Macarons&action=history",
+    "extractedAt": "2025-11-26T21:01:52.086Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Basic French Macarons",
+    "slug": "basic-french-macarons",
+    "description": "French macarons are variety of sandwich cookie based on almond meringue and a sweet filling.",
+    "ingredients": [
+      "125 g icing sugar",
+      "125 g almond flour",
+      "125 g white superfine sugar",
+      "90 g (3 ea.) egg whites",
+      "Food coloring (concentrated variety)",
+      "Filling as desired (see notes)"
+    ],
+    "instructions": [],
+    "notes": [
+      "Common fillings for macarons include jam, buttercream frosting, and ganache.",
+      "Under-mixed macaron—note the hollowness inside, uneven texture, and rounded topIt's very important to get the batter to the correct texture when making macarons. After adding the almond mixture, the mixture will get thinner as you continue to fold it. If it is too thick, you won't get nice, smooth, even shells—they will be too stiff and full of air. On the other hand, if the batter gets too thin, it will spread too much and will not hold the proper cookie shape. Your goal is to stop folding the batter when it flows off the spatula in a ribbon (not in one clump) and takes about 10 seconds (not less) to dissolve back into the rest of the batter.[1][2] Note that you cannot go back once you have over-mixed the batter."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for cookies",
+      "Baking recipes",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes for dessert",
+      "Recipes using white sugar",
+      "French recipes",
+      "Recipes using powdered sugar",
+      "Recipes using superfine sugar",
+      "Recipes using egg white",
+      "Recipes using food coloring",
+      "Recipes using almond flour"
+    ]
+  },
+  "image": {
+    "filename": "Macaron_love,_February_2011.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Macaron_love%2C_February_2011.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Macaron_love,_February_2011.jpg",
+    "localPath": "scripts/wiki/output/Macaron_love,_February_2011.jpg",
+    "dimensions": {
+      "width": 940,
+      "height": 883
+    },
+    "fileSize": 500171,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Rebecca Krebs",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "metadata": {
+      "description": "Macarons.",
+      "categories": [
+        "Flickr images uploaded by Flickr upload bot",
+        "Stacks of macarons"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Macaron_love,_February_2011.jpg"
+  }
+}

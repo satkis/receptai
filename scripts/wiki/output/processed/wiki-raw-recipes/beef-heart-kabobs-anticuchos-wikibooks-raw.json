@@ -1,0 +1,90 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beef_Heart_Kabobs_(Anticuchos)",
+    "pageTitle": "Cookbook:Beef_Heart_Kabobs_(Anticuchos)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Conce~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Conce~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Heart_Kabobs_(Anticuchos)&action=history",
+    "extractedAt": "2025-11-26T21:22:17.479Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Beef Heart Kabobs (Anticuchos)",
+    "slug": "beef-heart-kabobs-anticuchos",
+    "description": "Peruvian anticuchos are a type of grilled skewered meat, often made with beef heart. The dish is one of the most popular in Peru, and it is often sold by street vendors and accompanied by corn-on-the-cob and portions of cold boiled potato with a spot of chili sauce. Those whose tastes do not extend to trying beef heart may substitute any good cut of red meat, though this is not the authentic Peruvian style.",
+    "ingredients": [
+      "1 beef heart",
+      "2 cloves of garlic",
+      "¼ cup of ground spicy red chili",
+      "2 cups of brown vinegar",
+      "1 teaspoon of ground cumin",
+      "1 teaspoon of achiote (annatto)",
+      "1 teaspoon of salt",
+      "1 teaspoon of ground black pepper"
+    ],
+    "instructions": [
+      "Place all the above ingredients, other than the heart, in a bowl and mix thoroughly.",
+      "Clean the heart, removing all fat. Cut into bite-sized cubes. Place the heart pieces into the marinade mixture, and leave to marinate for about 10 hours or overnight. The heart should be completely covered by the marinade.",
+      "After marinating, thread the meat onto skewers. If desired, at this stage some additional ingredients such as bell peppers (capsicum) or corn-on-cob (cut to a similar size to the heart) may be also added to the skewers.",
+      "Cook the skewers on a barbecue grill, turning frequently while brushing with the marinade mix. When the meat is well done, remove skewers from grill and serve immediately."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Peruvian recipes|{{PAGENAME}}",
+      "Recipes using beef|{{PAGENAME}}",
+      "Recipes for kabobs",
+      "Grilled recipes",
+      "Recipes using annatto",
+      "Naturally gluten-free recipes",
+      "Recipes using ground cumin"
+    ]
+  },
+  "image": {
+    "filename": "Peru_Anticuchos.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Peru_Anticuchos.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Peru_Anticuchos.jpg",
+    "localPath": "scripts/wiki/output/Peru_Anticuchos.jpg",
+    "dimensions": {
+      "width": 1024,
+      "height": 768
+    },
+    "fileSize": 168529,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Xauxa",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Xauxa"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "GFDL",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "License migration completed",
+        "Chinchulines",
+        "Media missing infobox template",
+        "Anticucho of Peru"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Peru_Anticuchos.jpg"
+  }
+}

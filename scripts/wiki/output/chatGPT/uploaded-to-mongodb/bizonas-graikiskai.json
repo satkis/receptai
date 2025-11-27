@@ -1,0 +1,294 @@
+{
+  "slug": "bizonas-graikiskai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bizonas-graikiskai",
+  "title": {
+    "lt": "Bizonas graikiškai - su Viduržemio jūros aromatais"
+  },
+  "description": {
+    "lt": "Bizonas graikiškai - tai unikalus patiekalas su Viduržemio jūros įkvėptu velouté padažu. Šis receptas puikiai tinka gaminti lauko sąlygomis, o derinys su skrebučiais, laukiniais grybais ir ryžiais padarys vakarienę ypatinga."
+  },
+  "seo": {
+    "metaTitle": "Bizonas graikiškai | Receptas su Viduržemio jūros skoniu",
+    "metaDescription": "Bizonas graikiškai - unikalus receptas su Viduržemio jūros aromatais. Patiekite su skrebučiais, laukiniais grybais ir ryžiais. Išbandykite šį neįprastą receptą!",
+    "keywords": [
+      "bizonas graikiškai",
+      "Viduržemio jūros virtuvė",
+      "bizonas su velouté padažu",
+      "bizonas receptas",
+      "ypatinga vakarienė"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Graikų",
+    "nutrition": {
+      "calories": 950,
+      "proteinContent": "95g",
+      "fatContent": "55g",
+      "fiberContent": "6g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 180,
+  "totalTimeMinutes": 210,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pietus",
+    "receptai/gimtadienio-stalui"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bizonas"
+      },
+      "quantity": "900g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saliero stiebas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalioji paprika"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pankolio gumbas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "1 skiltelė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros sėklos"
+      },
+      "quantity": "15 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bizonų riebalai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Veršienos sultinys"
+      },
+      "quantity": "500ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrina"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausas baltas vynas"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "60ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Skrebučiai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Laukiniai grybai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Laukiniai ryžiai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Daržovių pakepinimas"
+      },
+      "text": {
+        "lt": "Ketaus puode įkaitinkite bizonų riebalus ir apkepkite daržoves: svogūnus, salierą, morką, papriką ir pankolį, kol jos taps minkštos ir kvapnios."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Bizonų troškinimas"
+      },
+      "text": {
+        "lt": "Į puodą sudėkite bizoną, kalendros sėklas, česnaką, lauro lapą, veršienos sultinį ir citriną. Uždenkite ir troškinkite ant mažos ugnies 2–3 valandas arba kol mėsa taps minkšta."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Bizoną išimkite ir laikykite šiltai. Sultinį perkoškite ir pašalinkite daržovių likučius. Toje pačioje keptuvėje ištirpinkite sviestą, įmaišykite miltus ir apkepkite iki auksinės spalvos. Supilkite vyną ir grietinėlę, užvirkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Padažo užbaigimas"
+      },
+      "text": {
+        "lt": "Į padažą įpilkite anksčiau perkoštą sultinį, maišykite, kol sutirštės. Jei reikia, įpilkite daugiau skysčio. Pagardinkite pagal savo skonį."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Paruoštą padažą užpilkite ant bizonų mėsos. Patiekite su skrebučiais, laukiniais grybais ir ryžiais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite bizonų riebalų, galite naudoti kitus gyvūninius riebalus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bizonas-graikiskai.jpg",
+    "alt": "Bizonas graikiškai su skrebučiais, laukiniais grybais ir ryžiais",
+    "width": 4608,
+    "height": 3072
+  },
+  "tags": [
+    "bizonas graikiškai",
+    "viduržemio jūros virtuvė",
+    "bizonas receptas",
+    "patiekalas su velouté",
+    "ypatinga vakarienė"
+  ],
+  "author": {
+    "name": "Visitor7",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Visitor7"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bison_à_la_Grecque",
+    "pageTitle": "Cookbook:Bison_à_la_Grecque",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:48.497Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABison_%C3%A0_la_Grecque&action=history",
+    "originalCreator": {
+      "name": "Visitor7",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Visitor7"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bison_à_la_Grecque.jpg",
+    "author": {
+      "name": "Visitor7",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Visitor7"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bison_%C3%A0_la_Grecque.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:48+03:00",
+  "createdAt": "2025-11-26T21:22:48+03:00",
+  "updatedAt": "2025-11-26T21:22:48+03:00"
+}

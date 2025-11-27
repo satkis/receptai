@@ -59,24 +59,28 @@ async function ensureProcessedDir() {
 
 /**
  * Move original wiki JSON file to processed folder
+ * Matches by originalSource.url from MongoDB recipe
  * Looks for file matching pattern: {slug}-wikibooks-raw.json
  */
-function moveOriginalWikiJson(slug) {
+function moveOriginalWikiJson(originalSourceUrl) {
   try {
     // Look for the original wiki JSON file
     const files = fs.readdirSync(WIKI_OUTPUT_DIR);
-    const wikiJsonFile = files.find(f =>
-      f.includes(slug) && f.includes('-wikibooks-raw.json')
-    );
 
-    if (wikiJsonFile) {
-      const sourcePath = path.join(WIKI_OUTPUT_DIR, wikiJsonFile);
-      const destPath = path.join(WIKI_PROCESSED_DIR, wikiJsonFile);
+    for (const file of files) {
+      if (!file.includes('-wikibooks-raw.json')) continue;
 
-      fs.copyFileSync(sourcePath, destPath);
-      fs.unlinkSync(sourcePath);
-      log(`   📁 Moved original wiki JSON to processed/wiki-raw-recipes/`, 'green');
-      return true;
+      const filePath = path.join(WIKI_OUTPUT_DIR, file);
+      const wikiJson = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+
+      // Match by source.url from wiki JSON with originalSource.url from MongoDB recipe
+      if (wikiJson.source && wikiJson.source.url === originalSourceUrl) {
+        const destPath = path.join(WIKI_PROCESSED_DIR, file);
+        fs.copyFileSync(filePath, destPath);
+        fs.unlinkSync(filePath);
+        log(`   📁 Moved original wiki JSON to processed/wiki-raw-recipes/`, 'green');
+        return true;
+      }
     }
   } catch (error) {
     // Silently ignore if file not found - it's optional
@@ -133,6 +137,7 @@ async function uploadRecipes() {
       const file = files[i];
       const filePath = path.join(CHATGPT_DIR, file);
       const recipeName = file.replace('.json', '');
+      let originalSourceUrl = null;
 
       log(`\n[${i + 1}/${files.length}] Uploading: ${recipeName}`, 'yellow');
 
@@ -146,7 +151,7 @@ async function uploadRecipes() {
         if (existingRecipe) {
           log(`   ⚠️  Recipe already exists (slug: ${jsonData.slug})`, 'yellow');
           log(`   📝 Updating existing recipe...`, 'yellow');
-          
+
           // Update existing recipe
           await collection.updateOne(
             { slug: jsonData.slug },
@@ -167,12 +172,22 @@ async function uploadRecipes() {
         fs.unlinkSync(filePath);
         log(`   📁 Moved to uploaded-to-mongodb/`, 'green');
 
-        // Move original wiki JSON to processed folder
-        moveOriginalWikiJson(jsonData.slug);
+        // Store originalSource.url for later processing (outside try-catch)
+        originalSourceUrl = jsonData.originalSource?.url || null;
 
       } catch (error) {
         log(`   ❌ Upload failed: ${error.message}`, 'red');
         failed++;
+      }
+
+      // Move original wiki JSON to processed folder (outside try-catch to not affect success count)
+      // Match by originalSource.url (same as source.url in wiki JSON)
+      if (originalSourceUrl) {
+        try {
+          moveOriginalWikiJson(originalSourceUrl);
+        } catch (error) {
+          // Silently ignore errors in wiki JSON moving - it's optional
+        }
       }
     }
   } finally {

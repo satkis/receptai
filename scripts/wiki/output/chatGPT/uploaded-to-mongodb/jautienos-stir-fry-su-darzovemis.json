@@ -1,0 +1,260 @@
+{
+  "slug": "jautienos-stir-fry-su-darzovemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/jautienos-stir-fry-su-darzovemis",
+  "title": {
+    "lt": "Jautienos Stir-Fry su daržovėmis"
+  },
+  "description": {
+    "lt": "Jautienos Stir-Fry – tai gardus patiekalas, kuriame plonomis juostelėmis supjaustyta jautiena derinama su daržovėmis ir aštriais prieskoniais. Puikiai tinka patiekti su ryžiais arba makaronais."
+  },
+  "seo": {
+    "metaTitle": "Jautienos Stir-Fry su daržovėmis | Gardus receptas",
+    "metaDescription": "Išbandykite šį gardų jautienos Stir-Fry receptą su daržovėmis ir aštriais prieskoniais. Puikiai tinka patiekti su ryžiais arba makaronais.",
+    "keywords": [
+      "jautienos stir-fry",
+      "jautiena su daržovėmis",
+      "azijietiškas patiekalas",
+      "aštrūs patiekalai",
+      "greitas receptas"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Azijos",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "30g",
+      "fatContent": "25g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/azijos",
+    "receptai/darzoves",
+    "receptai/jautiena"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojų padažas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili pipirai"
+      },
+      "quantity": "1–2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "½ vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žemės riešutų aliejus"
+      },
+      "quantity": "Kepimui",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morka"
+      },
+      "quantity": "½ vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnų laiškai"
+      },
+      "quantity": "¼ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Medus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ryžių vyno actas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Skrudinti sezamo sėklos"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pasiruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir apkepkite svogūną su česnaku, kol česnakas taps auksinės spalvos. Išimkite ir palaikykite šiltai."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Jautienos paruošimas"
+      },
+      "text": {
+        "lt": "Pabarstykite jautienos juosteles druska ir pipirais. Apkepkite keptuvėje tol, kol gerai apskrus. Išimkite ir pakartokite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Daržovių kepimas"
+      },
+      "text": {
+        "lt": "Į keptuvę įdėkite čili pipirus, morkas, sojų padažą, medų, actą ir svogūnų laiškus. Kepkite, kol daržovės lengvai apskrus."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pabaigimas"
+      },
+      "text": {
+        "lt": "Grąžinkite svogūną, česnaką ir jautieną į keptuvę. Gerai išmaišykite, kol viskas sušils."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Prieš patiekdami, pabarstykite skrudintomis sezamo sėklomis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Thai bird čili pipirus galima pakeisti serrano pipirais arba trupintais raudonais pipirais."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Ribeye kepsnys yra skanus ir minkštas, tačiau galite naudoti liesesnes alternatyvas, kaip flank arba sirloin kepsnį."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Reguliuokite sojų padažo ir medaus santykį pagal savo skonį."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/jautienos-stir-fry-su-darzovemis.jpg",
+    "alt": "Jautienos Stir-Fry su daržovėmis, patiekiamas su sezamo sėklomis",
+    "width": 5472,
+    "height": 3648
+  },
+  "tags": [
+    "jautienos stir-fry",
+    "azijietiškas patiekalas",
+    "daržovių stir-fry",
+    "greitas receptas",
+    "aštrūs patiekalai"
+  ],
+  "author": {
+    "name": "Iwatchaltonbrown",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Beef_Stir-Fry",
+    "pageTitle": "Cookbook:Beef_Stir-Fry",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:21.033Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Stir-Fry&action=history",
+    "originalCreator": {
+      "name": "Iwatchaltonbrown",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Iwatchaltonbrown"
+    }
+  },
+  "originalImage": {
+    "fileName": "Stir-fried_beef,_Fire_Town,_Montparnasse,_Paris_002.jpg",
+    "author": {
+      "name": "Guilhem Vellut from Paris, France",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Paris%2016"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Stir-fried_beef%2C_Fire_Town%2C_Montparnasse%2C_Paris_002.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:21+03:00",
+  "createdAt": "2025-11-26T21:22:21+03:00",
+  "updatedAt": "2025-11-26T21:22:21+03:00"
+}

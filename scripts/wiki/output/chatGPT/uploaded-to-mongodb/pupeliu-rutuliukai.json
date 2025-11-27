@@ -1,0 +1,220 @@
+{
+  "slug": "pupeliu-rutuliukai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/pupeliu-rutuliukai",
+  "title": {
+    "lt": "Pupelių rutuliukai - Nigerijos užkandis"
+  },
+  "description": {
+    "lt": "Pupelių rutuliukai, dar žinomi kaip akara, yra skanus Nigerijos užkandis iš gruzdintų juodųjų akinių pupelių arba rudųjų pupelių. Puikiai tinka vegetarams ar veganams ir puikiai dera su duona ar keptomis bulvytėmis."
+  },
+  "seo": {
+    "metaTitle": "Pupelių rutuliukai (Akara) | Nigerijos užkandis",
+    "metaDescription": "Išbandykite skanius pupelių rutuliukus arba akara - tradicinį Nigerijos užkandį iš juodųjų akinių pupelių ar rudųjų pupelių, puikiai tinkantį vegetarams ir veganams.",
+    "keywords": [
+      "pupelių rutuliukai",
+      "akara",
+      "nigerijos užkandis",
+      "vegetariškas užkandis",
+      "juodųjų akinių pupelių receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 210,
+      "proteinContent": "12g",
+      "fatContent": "10g",
+      "fiberContent": "6g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 40,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pupeles",
+    "receptai/vegetarams"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Juodųjų akinių pupelės"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Švieži pipirai"
+      },
+      "quantity": "3-4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Prieskonių kubeliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "pakankamai giliai kepti",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pupelių paruošimas"
+      },
+      "text": {
+        "lt": "Rūšiuokite pupeles, kad pašalintumėte nešvarumus, ir mirkykite jas drungname vandenyje apie 30–40 minučių. Po to nusausinkite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Pupelių valymas"
+      },
+      "text": {
+        "lt": "Užpilkite pupeles vandeniu ir švelniai trinkite rankomis, kad pašalintumėte odeles. Iškyla į paviršių, todėl jas lengvai nuimkite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite pupeles su svogūnais ir pipirais, įpilkite truputį vandens ir maišykite, kol gausite vientisą tešlą. Ji turėtų būti tiršta, bet lengvai pilama."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos pagardinimas"
+      },
+      "text": {
+        "lt": "Supilkite tešlą į dubenį, įberkite druską ir prieskonius pagal skonį, gerai išmaišykite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir šaukštu įpilkite tešlą. Kepkite iki auksinės rudos spalvos, sukant keletą kartų, kad tolygiai iškeptų."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Patiekite karštus pupelių rutuliukus su mėgstamais priedais, pavyzdžiui, duona ar keptomis bulvytėmis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Rinkitės aliejų pagal savo skonį - tai gali būti žemės riešutų aliejus arba palmių aliejus."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei nenorite pašalinti pupelių odelių, galite jas palikti, kad išsaugotumėte daugiau maistinių medžiagų."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Laikykite likučius šaldytuve sandariame inde iki 2–3 dienų."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/pupeliu-rutuliukai.jpg",
+    "alt": "Pupelių rutuliukai arba akara iš Nigerijos",
+    "width": 732,
+    "height": 488
+  },
+  "tags": [
+    "pupelių rutuliukai",
+    "akara",
+    "nigerijos virtuvė",
+    "vegetariškas užkandis",
+    "greitas receptas"
+  ],
+  "author": {
+    "name": "Humble Ayankwo",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Humble%20Ayankwo"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bean_Balls",
+    "pageTitle": "Cookbook:Bean_Balls",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:14.508Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABean_Balls&action=history",
+    "originalCreator": {
+      "name": "Humble Ayankwo",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Humble%20Ayankwo"
+    }
+  },
+  "originalImage": {
+    "fileName": "Beans_Ball-Akara.jpg",
+    "author": {
+      "name": "AkinkuotuFunmi",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Scudsvlad"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://commons.wikimedia.org/wiki/File:Beans_Ball-Akara.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:14+03:00",
+  "createdAt": "2025-11-26T21:22:14+03:00",
+  "updatedAt": "2025-11-26T21:22:14+03:00"
+}

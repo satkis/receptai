@@ -1,0 +1,87 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Basic_Whipped_Cream",
+    "pageTitle": "Cookbook:Basic_Whipped_Cream",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "198.209.8.129",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:198.209.8.129"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Whipped_Cream&action=history",
+    "extractedAt": "2025-11-26T21:22:13.139Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Basic Whipped Cream",
+    "slug": "basic-whipped-cream",
+    "description": "This recipe gives a step-by-step guide for making homemade whipped cream. For more of the theory, check out its main ingredient page.",
+    "ingredients": [
+      "1 cup (0.25 L) heavy or whipping cream, cold",
+      "1–2 tbsp granulated or powdered sugar to taste (optional)",
+      "Flavoring of choice (e.g. vanilla; optional)"
+    ],
+    "instructions": [
+      "Chill a mixing bowl and the beaters of an electric mixer in the refrigerator for at least 10 minutes. If using a mixer with multiple kinds of beaters, use the whisk attachment. This step is very important, because the cream will not rise if the mixer is warm.",
+      "Pour the cold cream into the chilled bowl. Start whipping at medium speed until foamy.",
+      "Continue whipping until you notice the cream thickening around the beaters and leaving visible traces. This is your sign to watch it carefully, as it's easy to overwhip.",
+      "Continue whipping in bursts of 10–30 seconds until you reach the desired level of stiffness, checking regularly. Stop immediately if you notice small grains or lumps start to form in the smooth cream.Overwhipped cream—note the graininess compared to the above image.",
+      "Refrigerate until use."
+    ],
+    "notes": [
+      "You must use a grade of cream with a fat content of at least 30%, since the fat is what stabilizes the whipped cream.",
+      "Unlike when whipping egg whites, it's not important to make sure there's no fat in the mixture (after all, the cream itself is high in fat). It is important, however, to make sure that the bowl and mixers are dry and cold and that the cream is cold.",
+      "It's very feasible to whip cream by hand—much easier than whipping egg whites by hand. In fact, if you're not working with a very large volume of cream, whipping by hand can help make sure you don't overwhip it.",
+      "Whipping at medium speed (as opposed to high speed) is a little slower but helps to create a more stable foam."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes with metric units",
+      "Refrigerated recipes",
+      "Recipes for whipped cream",
+      "Recipes using heavy cream",
+      "Recipes using whipping cream",
+      "Recipes using granulated sugar",
+      "Recipes using powdered sugar"
+    ]
+  },
+  "image": {
+    "filename": "Whipped_Cream.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Whipped_Cream.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Whipped_Cream.jpg",
+    "localPath": "scripts/wiki/output/Whipped_Cream.jpg",
+    "dimensions": {
+      "width": 3008,
+      "height": 2000
+    },
+    "fileSize": 2359088,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Rhett Sutphin",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "metadata": {
+      "description": "Whipped cream and whisk",
+      "categories": [
+        "Whipped cream",
+        "Files with coordinates missing SDC location of creation",
+        "Flickr images reviewed by FlickreviewR 2"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Whipped_Cream.jpg"
+  }
+}

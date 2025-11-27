@@ -1,0 +1,253 @@
+{
+  "slug": "bint-as-sahn-jemeniskas-sluoksniuotas-pyragas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bint-as-sahn-jemeniskas-sluoksniuotas-pyragas",
+  "title": {
+    "lt": "Bint as-Sahn - Jemeniskas sluoksniuotas pyragas"
+  },
+  "description": {
+    "lt": "Bint al-sahn arba Sabayah yra tradicinis Jemenio sluoksniuotas pyragas, tapęs populiariu ir kitose šalyse. Jis gaminamas iš mielinės tešlos, sluoksniuojamas su sviestu ir riešutais, o patiekiamas su medumi."
+  },
+  "seo": {
+    "metaTitle": "Bint as-Sahn - Jemeniskas sluoksniuotas pyragas | Autentiškas receptas",
+    "metaDescription": "Sužinokite, kaip paruošti tradicinį Jemenio sluoksniuotą pyragą Bint as-Sahn su medumi. Autentiškas receptas su mieline tešla ir riešutais.",
+    "keywords": [
+      "jemeniskas pyragas",
+      "sluoksniuotas pyragas",
+      "tradicinis pyragas",
+      "mieline tešla",
+      "riešutų pyragas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Jemeno",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "6g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "¼ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Balti kvietiniai miltai"
+      },
+      "quantity": "6 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Semolina"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Margarinas"
+      },
+      "quantity": "½ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji kmynai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sezamo sėklos"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Migdolai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Pistacijos"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mielių aktyvavimas"
+      },
+      "text": {
+        "lt": "Sumaišykite mieles su šiltu vandeniu ir įpilkite šilto pieno. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Į mielių mišinį įpilkite druskos, cukraus, augalinio aliejaus ir kiaušinių. Tada sumaišykite su kvietiniais miltais ir semolina, kad gautumėte tešlą. Gerai išminkyti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos kilimas"
+      },
+      "text": {
+        "lt": "Uždenkite tešlą ir leiskite jai pakilti, kol padvigubės."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Padalinkite tešlą į gabaliukus ir iškočiokite ant miltais pabarstyto paviršiaus. Kiekvieną gabalėlį ištempkite ir sulankstykite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Sluoksniavimas ir kepimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą labai plonai, aptepkite margarinu ir pabarstykite riešutais bei prieskoniais. Sukraukite sluoksnius vienas ant kito ir kepkite orkaitėje. Patiekite su medumi."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite pistacijų, galite naudoti tik migdolus arba kitus mėgstamus riešutus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bint-as-sahn-jemeniskas-sluoksniuotas-pyragas.jpg",
+    "alt": "Jemeniškas sluoksniuotas pyragas Bint as-Sahn su medumi",
+    "width": 1620,
+    "height": 1240
+  },
+  "tags": [
+    "jemeniškas pyragas",
+    "sluoksniuotas pyragas",
+    "tradicinis desertas",
+    "mielinė tešla",
+    "riešutų pyragas"
+  ],
+  "author": {
+    "name": "Davidbena",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Davidbena"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bint_as-Saḥn_(Yemenite_Layered_Pastry)",
+    "pageTitle": "Cookbook:Bint_as-Saḥn_(Yemenite_Layered_Pastry)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:43.299Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABint_as-Sa%E1%B8%A5n_(Yemenite_Layered_Pastry)&action=history",
+    "originalCreator": {
+      "name": "Davidbena",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Davidbena"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bint_al_Sahn.png",
+    "author": {
+      "name": "Rukn950",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rukn950"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Bint_al_Sahn.png"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:43+03:00",
+  "createdAt": "2025-11-26T21:22:43+03:00",
+  "updatedAt": "2025-11-26T21:22:43+03:00"
+}

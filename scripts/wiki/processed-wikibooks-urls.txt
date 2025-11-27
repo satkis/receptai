@@ -52,3 +52,24 @@
 [2025-11-25T14:50:30.757Z] https://en.wikibooks.org/wiki/Cookbook:Barbecue_Wings - Cookbook:Barbecue Wings
 [2025-11-25T14:50:32.147Z] https://en.wikibooks.org/wiki/Cookbook:Barbecued_Spare_Ribs - Cookbook:Barbecued Spare Ribs
 [2025-11-25T14:50:33.633Z] https://en.wikibooks.org/wiki/Cookbook:Basbousa_(Egyptian_Semolina_Cake) - Cookbook:Basbousa (Egyptian Semolina Cake)
+[2025-11-26T21:01:52.094Z] https://en.wikibooks.org/wiki/Cookbook:Basic_French_Macarons - Cookbook:Basic French Macarons
+[2025-11-26T21:22:09.514Z] https://en.wikibooks.org/wiki/Cookbook:Basic_Indian_Tomato_Gravy - Cookbook:Basic Indian Tomato Gravy
+[2025-11-26T21:22:11.621Z] https://en.wikibooks.org/wiki/Cookbook:Basic_Omelet - Cookbook:Basic Omelet
+[2025-11-26T21:22:13.143Z] https://en.wikibooks.org/wiki/Cookbook:Basic_Whipped_Cream - Cookbook:Basic Whipped Cream
+[2025-11-26T21:22:14.512Z] https://en.wikibooks.org/wiki/Cookbook:Bean_Balls - Cookbook:Bean Balls
+[2025-11-26T21:22:15.870Z] https://en.wikibooks.org/wiki/Cookbook:Beans_and_Rice - Cookbook:Beans and Rice
+[2025-11-26T21:22:17.483Z] https://en.wikibooks.org/wiki/Cookbook:Beef_Heart_Kabobs_(Anticuchos) - Cookbook:Beef Heart Kabobs (Anticuchos)
+[2025-11-26T21:22:18.954Z] https://en.wikibooks.org/wiki/Cookbook:Beef_Stew_I - Cookbook:Beef Stew I
+[2025-11-26T21:22:21.037Z] https://en.wikibooks.org/wiki/Cookbook:Beef_Stir-Fry - Cookbook:Beef Stir-Fry
+[2025-11-26T21:22:22.452Z] https://en.wikibooks.org/wiki/Cookbook:Beer_Bread - Cookbook:Beer Bread
+[2025-11-26T21:22:24.555Z] https://en.wikibooks.org/wiki/Cookbook:Behari_Kabab - Cookbook:Behari Kabab
+[2025-11-26T21:22:26.447Z] https://en.wikibooks.org/wiki/Cookbook:Bell_Pepper_Chili - Cookbook:Bell Pepper Chili
+[2025-11-26T21:22:28.483Z] https://en.wikibooks.org/wiki/Cookbook:Beurre_Manié - Cookbook:Beurre Manié
+[2025-11-26T21:22:32.106Z] https://en.wikibooks.org/wiki/Cookbook:Bhuna_Khichuri_(Bengali_Rice_and_Lentils) - Cookbook:Bhuna Khichuri (Bengali Rice and Lentils)
+[2025-11-26T21:22:37.270Z] https://en.wikibooks.org/wiki/Cookbook:Bibimbap - Cookbook:Bibimbap
+[2025-11-26T21:22:38.786Z] https://en.wikibooks.org/wiki/Cookbook:Bicol_Express - Cookbook:Bicol Express
+[2025-11-26T21:22:41.307Z] https://en.wikibooks.org/wiki/Cookbook:Binagoongan_(Sautéed_Pork_with_Shrimp_Paste) - Cookbook:Binagoongan (Sautéed Pork with Shrimp Paste)
+[2025-11-26T21:22:43.307Z] https://en.wikibooks.org/wiki/Cookbook:Bint_as-Saḥn_(Yemenite_Layered_Pastry) - Cookbook:Bint as-Saḥn (Yemenite Layered Pastry)
+[2025-11-26T21:22:48.501Z] https://en.wikibooks.org/wiki/Cookbook:Bison_à_la_Grecque - Cookbook:Bison à la Grecque
+[2025-11-26T21:22:51.408Z] https://en.wikibooks.org/wiki/Cookbook:Black_Forest_Cake - Cookbook:Black Forest Cake
+[2025-11-26T21:22:52.676Z] https://en.wikibooks.org/wiki/Cookbook:Black_Forest_Torte - Cookbook:Black Forest Torte
