@@ -122,3 +122,10 @@ temp/
 *.sw?
 
 .vercel
+
+# Wiki scripts and output
+scripts/wiki/output/
+scripts/wiki/*.txt
+scripts/S3_METADATA_*.md
+scripts/wiki/*.md
+scripts/wiki/batch-convert-recipes.js
