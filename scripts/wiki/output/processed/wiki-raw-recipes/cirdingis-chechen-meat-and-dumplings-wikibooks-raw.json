@@ -1,0 +1,77 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cirdingis_(Chechen_Meat_and_Dumplings)",
+    "pageTitle": "Cookbook:Cirdingis_(Chechen_Meat_and_Dumplings)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Johnleemk",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Johnleemk"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACirdingis_(Chechen_Meat_and_Dumplings)&action=history",
+    "extractedAt": "2025-12-23T07:10:24.148Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Cirdingis (Chechen Meat and Dumplings)",
+    "slug": "cirdingis-chechen-meat-and-dumplings",
+    "description": "Cirdingis (pronounced as \"jirdingish\") is a traditional Chechen meal consisting of dumplings and meat served with accompanying sauces. It may also be called \"galnish\".",
+    "ingredients": [
+      "1 kg red meat",
+      "½ kg flour",
+      "3 cloves garlic",
+      "Salt",
+      "Tomato paste",
+      "Oil"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": 4,
+    "totalTimeMinutes": null,
+    "difficulty": 2,
+    "category": "European recipes",
+    "categories": [
+      "European recipes|{{PAGENAME}}",
+      "Recipes with metric units|{{PAGENAME}}",
+      "Dumpling recipes",
+      "Recipes using wheat flour"
+    ]
+  },
+  "image": {
+    "filename": "Cirdingis30.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cirdingis30.png",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cirdingis30.png",
+    "localPath": "scripts/wiki/output/Cirdingis30.png",
+    "dimensions": {
+      "width": 454,
+      "height": 279
+    },
+    "fileSize": 51214,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Cirdingis30.png?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Şamil Korkmaz",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:GifTagger"
+    },
+    "metadata": {
+      "description": "Cirdingis preparation",
+      "categories": [
+        "Flour",
+        "Self-published work",
+        "PD-self",
+        "Cirdingis preparation"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Cirdingis30.png"
+  }
+}

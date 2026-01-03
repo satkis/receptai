@@ -1,0 +1,197 @@
+{
+  "slug": "cirdingis-su-mesa-ir-koldunais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/cirdingis-su-mesa-ir-koldunais",
+  "title": {
+    "lt": "Cirdingis su mėsa ir koldūnais"
+  },
+  "description": {
+    "lt": "Cirdingis – tai tradicinis Čečėnijos patiekalas, kuriame dera mėsa ir koldūnai. Šis sotus patiekalas dažnai patiekiamas su įvairiais padažais. Jis dar žinomas kaip 'galniš'."
+  },
+  "seo": {
+    "metaTitle": "Cirdingis su mėsa ir koldūnais | Tradicinis Čečėnijos receptas",
+    "metaDescription": "Atraskite autentišką Cirdingis su mėsa ir koldūnais receptą. Tradicinis Čečėnijos patiekalas, puikiai tinkantis sotiems pietums ar vakarienei.",
+    "keywords": [
+      "cirdingis",
+      "čečėnijos virtuvė",
+      "tradiciškas receptas",
+      "koldūnai su mėsa",
+      "sotūs pietūs"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Čečėnų",
+    "nutrition": {
+      "calories": 600,
+      "proteinContent": "30g",
+      "fatContent": "25g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Jautienos sprandinė"
+      },
+      "quantity": "1 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "500 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "3 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų pasta"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mėsos paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite raudoną mėsą mažais gabalėliais. Pagardinkite druska ir česnakais."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Iš miltų, druskos ir vandens paruoškite tešlą koldūnams. Tešlą iškočiokite ir supjaustykite į mažus kvadratėlius."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Koldūnų formavimas"
+      },
+      "text": {
+        "lt": "Ant kiekvieno tešlos kvadratėlio dėkite mėsą ir formuokite koldūnus. Įsitikinkite, kad kraštai gerai užspausti."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Koldūnų virimas"
+      },
+      "text": {
+        "lt": "Koldūnus virkite verdančiame pasūdytame vandenyje apie 15 minučių, kol jie iškils į paviršių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Koldūnus patiekite kartu su pomidorų padažu ir mėsa. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Pomidorų pastą galite keisti pomidorų padažu pagal savo skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/cirdingis-su-mesa-ir-koldunais.jpg",
+    "alt": "Cirdingis su mėsa ir koldūnais, tradicinis čečėnų patiekalas",
+    "width": 454,
+    "height": 279
+  },
+  "tags": [
+    "cirdingis",
+    "čečėnijos patiekalas",
+    "mėsa ir koldūnai",
+    "tradicinis receptas",
+    "soti vakarienė"
+  ],
+  "author": {
+    "name": "Johnleemk",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Johnleemk"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cirdingis_(Chechen_Meat_and_Dumplings)",
+    "pageTitle": "Cookbook:Cirdingis_(Chechen_Meat_and_Dumplings)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:24.148Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACirdingis_(Chechen_Meat_and_Dumplings)&action=history",
+    "originalCreator": {
+      "name": "Johnleemk",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Johnleemk"
+    }
+  },
+  "originalImage": {
+    "fileName": "Cirdingis30.png",
+    "author": {
+      "name": "Şamil Korkmaz",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:GifTagger"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Cirdingis30.png?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cirdingis30.png"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:24+03:00",
+  "createdAt": "2025-12-23T10:10:24+03:00",
+  "updatedAt": "2025-12-23T10:10:24+03:00"
+}

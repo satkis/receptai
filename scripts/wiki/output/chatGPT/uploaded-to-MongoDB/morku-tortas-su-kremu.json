@@ -1,0 +1,256 @@
+{
+  "slug": "morku-tortas-su-kremu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/morku-tortas-su-kremu",
+  "title": {
+    "lt": "Morkų tortas su kremu"
+  },
+  "description": {
+    "lt": "Morkų tortas yra gardus ir sultingas desertas, kuris puikiai tiks prie kavos puodelio. Šis receptas pasižymi cinamono ir citrinos natomis, o kremas iš grietinėlės sūrio suteikia švelnią tekstūrą. Tikra klasika, kurią verta išbandyti!"
+  },
+  "seo": {
+    "metaTitle": "Morkų tortas su kremu | Gardus desertas",
+    "metaDescription": "Išbandykite morkų torto receptą su cinamonu ir grietinėlės sūrio kremu. Tobulas desertas prie kavos, sultingas ir gardus!",
+    "keywords": [
+      "morkų tortas",
+      "desertas su kremu",
+      "cinamonas",
+      "grietinėlės sūris",
+      "sultingas tortas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "4g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 3,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 50,
+  "totalTimeMinutes": 70,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+
+  ],
+    
+  "ingredients": [
+     {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Margarinas"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudasis cukrus"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinos sultys"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "1.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Razinos"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Riešutai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [
+   {
+      "category": "Glajus",
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "100g",
+      "vital": false
+    },
+    {
+      "category": "Glajus",
+      "name": {
+        "lt": "varškės sūris"
+      },
+      "quantity": "50g",
+      "vital": false
+    },
+	{
+      "category": "Glajus",
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "25g",
+      "vital": false
+    },
+    {
+      "category": "Glajus",
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "2.5ml",
+      "vital": false
+    }
+	],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Ištirpinkite margariną ir cukrų, tada įmaišykite sausus ingredientus. Po to įmuškite kiaušinį ir gerai išplakite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Papildymai"
+      },
+      "text": {
+        "lt": "Į masę įmaišykite razinas ir riešutus, kol viskas gerai susijungs."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas orkaitėje"
+      },
+      "text": {
+        "lt": "Kepti 180°C temperatūroje apie 50 minučių, naudojant riebalais išteptą formą su kepimo popieriumi apačioje."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Dekoravimas"
+      },
+      "text": {
+        "lt": "Sumaišykite visus glajaus ingredientus dubenėlyje, kol gausite vienodą masę. Kai tortas atvės, užtepkite glajų ant torto viršaus."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite mažiau saldaus, sumažinkite cukraus kiekį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Papuoškite tortą riešutais, kad suteiktumėte papildomo skonio."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/morku-tortas-su-kremu.jpg",
+    "alt": "Morkų tortas su kremu ir riešutais",
+    "width": 3111,
+    "height": 2236
+  },
+  "tags": [
+    "morkų tortas",
+    "desertas su kremu",
+    "cinamoninis tortas",
+    "sultingas morkų pyragas",
+    "tarptautinis desertas"
+  ],
+  "author": {
+    "name": "DavidFraser",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:DavidFraser"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Carrot_Cake_I",
+    "pageTitle": "Cookbook:Carrot_Cake_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:33+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACarrot_Cake_I&action=history",
+    "originalCreator": {
+      "name": "DavidFraser",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:DavidFraser"
+    }
+  },
+  "originalImage": {
+    "fileName": "0112_Karottenkuchen,_ciasto_marchwiowe.JPG",
+    "author": {
+      "name": "Silar",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Silar"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://commons.wikimedia.org/wiki/File:0112_Karottenkuchen,_ciasto_marchwiowe.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T17:59:33+03:00",
+  "createdAt": "2025-12-21T17:59:33+03:00",
+  "updatedAt": "2025-12-21T17:59:33+03:00"
+}

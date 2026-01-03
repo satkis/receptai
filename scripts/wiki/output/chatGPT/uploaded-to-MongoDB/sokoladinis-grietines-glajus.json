@@ -1,0 +1,194 @@
+{
+  "slug": "sokoladinis-grietines-glajus",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladinis-grietines-glajus",
+  "title": {
+    "lt": "Šokoladinis grietinės glajus"
+  },
+  "description": {
+    "lt": "Šokoladinis grietinės glajus yra puikus būdas pagyvinti desertus, nes suteikia malonų saldumo ir rūgštumo balansą. Jis puikiai tinka tortams ar pyragams."
+  },
+  "seo": {
+    "metaTitle": "Šokoladinis grietinės glajus | Lengvas receptas",
+    "metaDescription": "Paruoškite šokoladinį grietinės glajų, kurio rūgštus skonis puikiai subalansuoja saldumą. Idealiai tinka tortams ir pyragams.",
+    "keywords": [
+      "šokoladinis glajus",
+      "grietinės glajus",
+      "šokoladinis kremas",
+      "tortų glajus",
+      "desertų glajus"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "3g",
+      "fatContent": "22g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pienas-ir-pieno-produktai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Juodas šokoladas"
+      },
+      "quantity": "240g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "60g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinė"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.25 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "400g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Šokolado ir sviesto tirpdymas"
+      },
+      "text": {
+        "lt": "Šokoladą ir sviestą ištirpinkite vandens garų vonelėje, kol masė taps lygi."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Grietinės ir prieskonių įmaišymas"
+      },
+      "text": {
+        "lt": "Nukelkite nuo ugnies ir įmaišykite grietinę, vanilės ekstraktą bei druską."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Cukraus pudros įmaišymas"
+      },
+      "text": {
+        "lt": "Pamažu maišydami, įberkite cukraus pudrą, kol pasieksite norimą konsistenciją. Plonesniam glajui reikės mažiau cukraus."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Glajaus užtepimas"
+      },
+      "text": {
+        "lt": "Užtepkite glajų ant pasirinkto torto ar pyrago."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei glajus per tirštas, įpilkite šiek tiek grietinėlės, kad būtų lengviau tepti."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Glajus geriausiai tinka šokoladiniams ir vaniliniams pyragams."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladinis-grietines-glajus.jpg",
+    "alt": "Šokoladinis grietinės glajus ant torto",
+    "width": 2304,
+    "height": 1712
+  },
+  "tags": [
+    "šokoladinis glajus",
+    "grietinės glajus",
+    "desertų glajus",
+    "lengvas receptas",
+    "šokoladinis kremas"
+  ],
+  "author": {
+    "name": "Pfctdayelise",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Pfctdayelise"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Sour-Cream_Icing",
+    "pageTitle": "Cookbook:Chocolate_Sour-Cream_Icing",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T10:10:02+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Sour-Cream_Icing&action=history",
+    "originalCreator": {
+      "name": "Pfctdayelise",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Pfctdayelise"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chocolate_Sour-Cream_Icing_on_cake.JPG",
+    "author": {
+      "name": "me (w:User:pfctdayelise)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Pfctdayelise"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Chocolate_Sour-Cream_Icing_on_cake.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:02+03:00",
+  "createdAt": "2025-12-23T10:10:02+03:00",
+  "updatedAt": "2025-12-23T10:10:02+03:00"
+}

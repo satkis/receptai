@@ -1,0 +1,260 @@
+{
+  "slug": "minksti-imbieriniai-sausainiai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/minksti-imbieriniai-sausainiai",
+  "title": {
+    "lt": "Minkšti imbieriniai sausainiai"
+  },
+  "description": {
+    "lt": "Minkšti imbieriniai sausainiai su švelniu prieskonių aromatu. Puikiai tinka desertui ar vaišėms."
+  },
+  "seo": {
+    "metaTitle": "Minkšti imbieriniai sausainiai | Receptas su prieskoniais",
+    "metaDescription": "Išsikepkite minkštus imbierinius sausainius su švelniu prieskonių aromatu. Puikus receptas desertui ar vaišėms.",
+    "keywords": [
+      "imbieriniai sausainiai",
+      "sausainiai su prieskoniais",
+      "minkšti sausainiai",
+      "desertai",
+      "šventiniai sausainiai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 120,
+      "proteinContent": "1g",
+      "fatContent": "6g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 11,
+  "totalTimeMinutes": 31,
+  "timeCategory": "iki-60-min",
+  "servings": 24,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vaikams"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "180g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudasis cukrus"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Melasa"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo soda"
+      },
+      "quantity": "10g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "600g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "2.5g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "5g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gvazdikėliai"
+      },
+      "quantity": "5g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "2.5g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "Šiek tiek",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175°C."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sviesto ir cukraus maišymas"
+      },
+      "text": {
+        "lt": "Sviestą ir cukrų išplakite mikseriu, kol masė taps puri."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kiaušinio ir melasos įmaišymas"
+      },
+      "text": {
+        "lt": "Įplakite kiaušinį ir įmaišykite melasą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sausų ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Kitame dubenyje sumaišykite miltus, sodą, prieskonius ir druską."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sujunkite sausus ingredientus su sviesto mišiniu ir suformuokite tešlą."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Sausainių formavimas"
+      },
+      "text": {
+        "lt": "Suformuokite mažus rutuliukus, apvoliokite cukruje ir dėkite ant kepimo popieriaus."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite apie 11 minučių, kol sausainiai suskeldės, bet vidus atrodys neiškepęs."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Atvėsinimas"
+      },
+      "text": {
+        "lt": "Išimkite iš orkaitės ir leiskite atvėsti iki kambario temperatūros."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite ryškesnio skonio, padidinkite imbiero kiekį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/minksti-imbieriniai-sausainiai.jpg",
+    "alt": "Minkšti imbieriniai sausainiai su prieskoniais",
+    "width": 454,
+    "height": 332
+  },
+  "tags": [
+    "imbieriniai sausainiai",
+    "prieskoniniai sausainiai",
+    "desertai",
+    "šventiniai receptai",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "66.30.114.254",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:66.30.114.254"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chewy_Ginger_Cookies",
+    "pageTitle": "Cookbook:Chewy_Ginger_Cookies",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:12.387Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChewy_Ginger_Cookies&action=history",
+    "originalCreator": {
+      "name": "66.30.114.254",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:66.30.114.254"
+    }
+  },
+  "originalImage": {
+    "fileName": "ChewyGingerCookies.jpg",
+    "author": {
+      "name": "Alcinoe at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:ChewyGingerCookies.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/ChewyGingerCookies.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T09:00:00+03:00",
+  "createdAt": "2025-12-23T09:00:00+03:00",
+  "updatedAt": "2025-12-23T09:00:00+03:00"
+}

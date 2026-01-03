@@ -1,0 +1,243 @@
+{
+  "slug": "prancuziskas-troskinys-boeuf-bourguignon",
+  "canonicalUrl": "https://ragaujam.lt/receptas/prancuziskas-troskinys-boeuf-bourguignon",
+  "title": {
+    "lt": "Boeuf Bourguignon - Prancūziškas jautienos troškinys"
+  },
+  "description": {
+    "lt": "Boeuf bourguignon - tai klasikinis prancūziškas jautienos troškinys, gaminamas su raudonu vynu, jautienos sultiniu, česnakais, svogūnais, morkomis ir grybais. Šis patiekalas yra puikus pavyzdys, kaip paprasti kaimo produktai gali tapti aukštosios virtuvės šedevru. Puikus pasirinkimas mėgautis šaltą vakarą."
+  },
+  "seo": {
+    "metaTitle": "Boeuf Bourguignon | Prancūziškas jautienos troškinys receptas",
+    "metaDescription": "Klasikinis Boeuf Bourguignon receptas - prancūziškas jautienos troškinys su raudonu vynu ir grybais. Puikus pasirinkimas šaltą vakarą.",
+    "keywords": [
+      "Boeuf Bourguignon",
+      "prancūziškas troškinys",
+      "jautienos troškinys",
+      "prancūziška virtuvė",
+      "raudonas vynas"
+    ],
+    "recipeCategory": "troskiniai",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "40g",
+      "fatContent": "22g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 150,
+  "totalTimeMinutes": 180,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/troskiniai",
+  "secondaryCategories": [
+    "receptai/jautiena"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "1 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "1-2 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "300 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grybai"
+      },
+      "quantity": "300 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bazilikas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Raudonėlis"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Čiobrelis"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Raudonas vynas"
+      },
+      "quantity": "500-1000 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Jautienos paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite jautieną gabalėliais. Apiberkite druska ir pipirais, apvolioję miltuose."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Daržovių kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite alyvuogių aliejų puode. Apkepkite svogūnus ir česnakus, kol suminkštės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mėsos ir daržovių troškinimas"
+      },
+      "text": {
+        "lt": "Pridėkite jautieną prie keptų daržovių. Supilkite raudoną vyną ir įdėkite morkas, grybus bei prieskonių puokštę. Troškinkite ant žemos ugnies apie 2 valandas."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą troškinį su šviežia duona arba bulvėmis. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Likusius troškinio likučius galite panaudoti pyragėliams ar kitoms kepiniams."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Galite pridėti šiek tiek džiovintų grybų, kad sustiprintumėte skonį."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/prancuziskas-troskinys-boeuf-bourguignon.jpg",
+    "alt": "Boeuf Bourguignon - prancūziškas jautienos troškinys su raudonu vynu ir grybais",
+    "width": 2272,
+    "height": 1704
+  },
+  "tags": [
+    "Boeuf Bourguignon",
+    "prancūziškas troškinys",
+    "jautienos troškinys",
+    "raudonas vynas",
+    "aukštosios virtuvės patiekalas"
+  ],
+  "author": {
+    "name": "Netoholic",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Netoholic"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Boeuf_Bourguignon",
+    "pageTitle": "Cookbook:Boeuf_Bourguignon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:03.630Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoeuf_Bourguignon&action=history",
+    "originalCreator": {
+      "name": "Netoholic",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Netoholic"
+    }
+  },
+  "originalImage": {
+    "fileName": "Boeuf_bourguignon_servi_avec_des_pâtes.jpg",
+    "author": {
+      "name": "DC",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:DocteurCosmos"
+    },
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Boeuf_bourguignon_servi_avec_des_p%C3%A2tes.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:00:00+03:00",
+  "createdAt": "2025-11-27T16:00:00+03:00",
+  "updatedAt": "2025-11-27T16:00:00+03:00"
+}

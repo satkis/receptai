@@ -1,0 +1,235 @@
+{
+  "slug": "kokosinis-vistiena-su-ryziais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kokosinis-vistiena-su-ryziais",
+  "title": {
+    "lt": "Kokosinė vištiena su ryžiais"
+  },
+  "description": {
+    "lt": "Kokosinė vištiena su ryžiais – tai egzotiškas patiekalas, kurio skonis praturtintas kokosų pienu, žalųjų citrinų sultimis ir šviežia mėtomis. Marinuota vištiena tampa itin sultinga ir aromatinga, o patiekalas puikiai dera su šviežiomis salotomis."
+  },
+  "seo": {
+    "metaTitle": "Kokosinė vištiena su ryžiais | Egzotiškas receptas",
+    "metaDescription": "Egzotiškas kokosinės vištienos receptas su kokosų pienu ir žalųjų citrinų sultimis. Patiekalas kartu su ryžiais ir šviežiomis salotomis – tobulas pasirinkimas vakarienei.",
+    "keywords": [
+      "kokosinė vištiena",
+      "vištiena su kokosų pienu",
+      "egzotiški receptai",
+      "karibų virtuvė",
+      "patiekalas su ryžiais"
+    ],
+    "recipeCategory": "vistiena",
+    "recipeCuisine": "Karibų",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "35g",
+      "fatContent": "20g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/vistiena",
+  "secondaryCategories": [
+    "receptai/pietus",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištienos šlaunelės"
+      },
+      "quantity": "800 gr",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Basmati ryžiai"
+      },
+      "quantity": "1 puodelis asmeniui",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "10g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Gvazdikėliai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+  
+  {
+	    "category": "Marinatui",
+      "name": {
+        "lt": "Kokosų pienas"
+      },
+      "quantity": "400ml",
+      "vital": true
+    },
+    {
+		"category": "Marinatui",
+      "name": {
+        "lt": "Žalioji citrina"
+      },
+      "quantity": "1 vnt., žievelė ir sultys",
+      "vital": true
+    },
+    {
+		"category": "Marinatui",
+      "name": {
+        "lt": "Šviežia mėta"
+      },
+      "quantity": "1 ryšulėlis",
+      "vital": true
+    },
+    {
+		"category": "Marinatui",
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "Pabarstyti",
+      "vital": true
+    },
+    {
+		"category": "Marinatui",
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+		"category": "Marinatui",
+      "name": {
+        "lt": "Šviežias imbieras"
+      },
+      "quantity": "Nedidelis gabalėlis",
+      "vital": true
+    }
+	
+	],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Vištienos paruošimas"
+      },
+      "text": {
+        "lt": "Įdurkite vištieną keliose vietose, kad geriau įsigertų marinatas. Sutarkuokite imbierą, Susmulkinkite mėtą bei žaliąją citriną. Sumaišykite visus marinatui skirtus ingredientus ir įmerkite vištieną, kad marinatas ją apsemtų. Palikite marinuotis bent 3 valandas arba per naktį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite vištieną ant grilio, elektrinėje keptuvėje arba orkaitėje, kol iškeps. Kepimo metu tepkite vištieną marinatų, kad susidarytų gražiai traški plutelė."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Ryžių paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame puode užvirinkite pasūdytą vandenį su gvazdikėliais. Suberkite ryžius ir virkite, kol bus išvirę. Nusausinkite ir perplaukite karštu vandeniu. Išimkite gvazdikėlius."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Ryžių užbaigimas"
+      },
+      "text": {
+        "lt": "Grąžinkite ryžius į puodą, įpilkite apie ½ puodelio kokosinio marinato arba likusio kokosų pieno. Lėtai kaitinkite, pridėkite sviestą ir, jei liko, keletą smulkintų mėtos lapelių. Išpurenkite ryžius šakute."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite ryžius ant lėkštės vidurio, ant viršaus uždėkite keptą vištieną. Apšlakstykite šviežiai spaustomis žaliosios citrinos sultimis ir patiekite su žaliosiomis salotomis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite kepti bananus orkaitėje, apibarstytus cinamonu, kaip garnyrą."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kokosinis-vistiena-su-ryziais.jpg",
+    "alt": "Kokosinė vištiena su ryžiais ir žaliosiomis salotomis",
+    "width": 1599,
+    "height": 983
+  },
+  "tags": [
+    "kokosinė vištiena",
+    "vištiena su kokosais",
+    "karibų virtuvė",
+    "egzotiškas patiekalas",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Peterkirchem",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Peterkirchem"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Coconut_Chicken",
+    "pageTitle": "Cookbook:Coconut_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:27.389Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Chicken&action=history",
+    "originalCreator": {
+      "name": "Peterkirchem",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Peterkirchem"
+    }
+  },
+  "originalImage": {
+    "fileName": "Coconut_Curried_Chicken_(5813459348).jpg",
+    "author": {
+      "name": "jeffreyw",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Jacopo%20Werther"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coconut_Curried_Chicken_%285813459348%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

@@ -1,0 +1,81 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Boiled_Sweet_Potato",
+    "pageTitle": "Cookbook:Boiled_Sweet_Potato",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoiled_Sweet_Potato&action=history",
+    "extractedAt": "2025-11-27T13:11:04.912Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Boiled Sweet Potato",
+    "slug": "boiled-sweet-potato",
+    "description": "Boiled sweet potato is a typical Nigerian food which has a delicious taste when compared to yam or cocoyam. It contains various nutrients.",
+    "ingredients": [
+      "Sweet potato, unpeeled and cut into chunks",
+      "Water",
+      "Salt"
+    ],
+    "instructions": [
+      "Place the sweet potato chunks in a pot.",
+      "Cover the sweet potato with water, and add a pinch of salt.",
+      "Bring to a boil, then simmer until the sweet potato is tender.",
+      "Drain the sweet potatoes, and peel off the skin.",
+      "Serve with the pepper sauce of your choice."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "National Nigerian recipes",
+      "Recipes using sweet potato",
+      "Vegetarian recipes",
+      "Vegan recipes"
+    ]
+  },
+  "image": {
+    "filename": "Camote_hervido_(Peru).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Camote_hervido_%28Peru%29.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Camote_hervido_(Peru).JPG",
+    "localPath": "scripts/wiki/output/Camote_hervido_(Peru).JPG",
+    "dimensions": {
+      "width": 2213,
+      "height": 1701
+    },
+    "fileSize": 1327728,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Dtarazona",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Dtarazona"
+    },
+    "metadata": {
+      "description": "Sweet potatoe from Perú, boiled and peeled",
+      "categories": [
+        "GFDL",
+        "Taken with Sony DSC-S650",
+        "License migration redundant",
+        "Self-published work",
+        "Sweet potatoes in Peru"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Camote_hervido_(Peru).JPG"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "slug": "amerikietiska-pica-su-suriu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/amerikietiska-pica-su-suriu",
+  "title": {
+    "lt": "Amerikietiška pica su sūriu ir gardžia plutele"
+  },
+  "description": {
+    "lt": "Amerikietiška pica – tai JAV klasika, kuri išsiskiria savo storu ir kvapniu padu. Ši pica, kilusi iš Čikagos, ypatinga tuo, kad joje daug sūrio ir kvapnios pomidorų padažo apsupties. Patiekiama karšta, supjaustyta trikampiais gabalėliais. Puikiai tinka su salotomis, česnakinėmis bandelėmis ar svogūnų žiedais."
+  },
+  "seo": {
+    "metaTitle": "Amerikietiška pica | Receptas su daug sūrio ir pomidorų padažu",
+    "metaDescription": "Išbandykite gilią padas picą su daug sūrio ir storu, kvapniu padu. Čikagos stilius, patiekiamas karštas ir puikiai dera su įvairiais užkandžiais.",
+    "keywords": [
+      "amerikietiška pica",
+      "čikagos pica",
+      "pica su sūriu",
+      "amerikietiška virtuvė",
+      "storos picos receptas"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Amerikietiška",
+    "nutrition": {
+      "calories": 600,
+      "proteinContent": "25g",
+      "fatContent": "30g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/kepta-orkaiteje"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "175 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "1 puodelis (140g)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pusė arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Papildomi miltai"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Papildomas vanduo"
+      },
+      "quantity": "240 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kukurūzų miltai"
+      },
+      "quantity": "4 šaukštai",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [
+	{
+		"category": "Priedai",
+      "name": {
+        "lt": "Picos padažas"
+      },
+      "quantity": "1 skardinė",
+      "vital": true
+    },
+    {
+		"category": "Priedai",
+      "name": {
+        "lt": "Mozzarella sūris"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+		"category": "Priedai",
+      "name": {
+        "lt": "Romano sūris"
+      },
+      "quantity": "ketvirtis puodelio",
+      "vital": false
+    },
+    {
+		"category": "Priedai",
+      "name": {
+        "lt": "Parmezano sūris"
+      },
+      "quantity": "¼ puodelio",
+      "vital": false
+    }
+	
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mielių aktyvavimas"
+      },
+      "text": {
+        "lt": "Sumaišykite mieles su šiltu vandeniu ir palikite kelias minutes, kad suaktyvėtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Įmaišykite miltus, aliejų, cukrų ir druską į mielių mišinį. Įpilkite likusius miltus ir vandenį, maišykite iki vientisos tešlos. Jei reikia, pridėkite papildomai vandens ar miltų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos kildinimas"
+      },
+      "text": {
+        "lt": "Palikite tešlą kilti šiltoje vietoje, kol ji padvigubės. Tada perkelkite ant miltuoto paviršiaus ir suformuokite picos pado formą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Picos formavimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą ir padėkite ant picos skardos, suformuokite storą kraštą."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pagardų dėjimas"
+      },
+      "text": {
+        "lt": "Užtepkite picos padažą ant tešlos, palikdami kraštus laisvus. Pabarstykite sūrį ir kitus norimus pagardus."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 220°C ir kepkite picą apie 25–30 minučių, kol sūris ir kraštai taps auksiniai."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Po kepimo palikite picą atšalti kelias minutes, tuomet supjaustykite gabalėliais ir patiekite su mėgstamais užkandžiais."
+      }
+    }
+  ],
+  "notes": [
+
+    {
+      "text": {
+        "lt": "Alyvuogių aliejų galite pakeisti sviestu, kad gautumėte kitokį skonį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Prieš kepdami uždėkite sūrio lazdelę ant picos pado krašto, kad skonis būtų unikalesnis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/amerikietiska-padas-pica-su-suriu.jpg",
+    "alt": "Amerikietiška pica su sūriu ir pomidorų padažu",
+    "width": 959,
+    "height": 606
+  },
+  "tags": [
+    "čikagos pica",
+    "italų virtuvė",
+    "pica su sūriu",
+    "amerikietiška pica"
+  ],
+  "author": {
+    "name": "68.4.220.113",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:68.4.220.113"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Deep_Dish_Pizza",
+    "pageTitle": "Cookbook:Deep_Dish_Pizza",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:26:45.545Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeep_Dish_Pizza&action=history",
+    "originalCreator": {
+      "name": "68.4.220.113",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:68.4.220.113"
+    }
+  },
+  "originalImage": {
+    "fileName": "Pepperoni_pizza.jpg",
+    "author": {
+      "name": "Veikk0.ma",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Veikk0.ma"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Pepperoni_pizza.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:26:45+03:00",
+  "createdAt": "2026-01-03T14:26:45+03:00",
+  "updatedAt": "2026-01-03T14:26:45+03:00"
+}

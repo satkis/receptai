@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_(Sweet_Filled_Mochi)",
+    "pageTitle": "Cookbook:Daifuku_(Sweet_Filled_Mochi)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Paxsimius",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paxsimius"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADaifuku_(Sweet_Filled_Mochi)&action=history",
+    "extractedAt": "2026-01-03T11:26:30.473Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Daifuku (Sweet Filled Mochi)",
+    "slug": "daifuku-sweet-filled-mochi",
+    "description": "Daifukumochi (大福餅), or Daifuku (大福) (literally \"great luck\"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko, sweetened red bean paste made from azuki beans.",
+    "ingredients": [
+      "Anko filling",
+      "~½ cup potato starch (katakuriko)",
+      "1 cup sweet glutinous rice flour (mochiko)",
+      "⅔ cup water",
+      "¼ cup white granulated sugar"
+    ],
+    "instructions": [
+      "Prepare anko filling as directed. Shape into 12 small, marble-sized balls and set aside.",
+      "Prepare a smooth surface, such as a cutting board, by coating with potato starch; be generous, as the dough will be very sticky.",
+      "Heat water and sugar together in a microwave until sugar is dissolved. Add rice flour and stir completely. Microwave for 2 minutes, remove and stir. Microwave for 2 more minutes, or until dough begins to expand. Remove from microwave, stir again, and remove the dough to the potato starch-coated surface. The dough, called mochi, will be very hot.",
+      "Spread or roll the mochi dough out until thin. Using a knife, cut into 12 even sized pieces.",
+      "Coat the palms and fingers of your hands in potato starch. Spread each piece out as thin as possible.",
+      "Place an anko ball in the middle of each mochi piece, then wrap the mochi around the ball, forming a bigger ball.",
+      "Roll shaped daifuku in potato starch, and set on a plate dusted with potato starch or a piece of wax paper.",
+      "Serve warm or cool. Store in an airtight container. Very perishable."
+    ],
+    "notes": [
+      "Chocolate ganache may be substituted for anko paste.",
+      "Food coloring may be added to the water before the rice flour is mixed in.",
+      "Cocoa powder may be used instead of potato starch in the final step."
+    ],
+    "servings": 12,
+    "totalTimeMinutes": 5,
+    "difficulty": 2,
+    "category": "Recipes for dessert",
+    "categories": [
+      "Japanese recipes",
+      "Microwave recipes",
+      "Recipes for dessert",
+      "Recipes using granulated sugar",
+      "Recipes using rice flour"
+    ]
+  },
+  "image": {
+    "filename": "Soft-rice-cake-stuffed-with-sweetened-bean-jam,daifuku,katori-city,japan.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Soft-rice-cake-stuffed-with-sweetened-bean-jam%2Cdaifuku%2Ckatori-city%2Cjapan.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Soft-rice-cake-stuffed-with-sweetened-bean-jam,daifuku,katori-city,japan.JPG",
+    "localPath": "scripts/wiki/output/Soft-rice-cake-stuffed-with-sweetened-bean-jam,daifuku,katori-city,japan.JPG",
+    "dimensions": {
+      "width": 1600,
+      "height": 1200
+    },
+    "fileSize": 658642,
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "katorisi",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Katorisi"
+    },
+    "metadata": {
+      "description": "mame daifuki (soft rice cakes with red bean), in Katori",
+      "categories": [
+        "Daifuku",
+        "GFDL",
+        "Taken with Panasonic Lumix DMC-FX9",
+        "License migration redundant",
+        "Self-published work",
+        "Photographs taken on 2007-10-08"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Soft-rice-cake-stuffed-with-sweetened-bean-jam,daifuku,katori-city,japan.JPG"
+  }
+}

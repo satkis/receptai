@@ -1,0 +1,298 @@
+{
+  "slug": "vistienos-birijani-su-prieskoniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vistienos-birijani-su-prieskoniais",
+  "title": {
+    "lt": "Vištienos birijani su prieskoniais"
+  },
+  "description": {
+    "lt": "Vištienos birijani – tai aromatingas ir gardus patiekalas su basmati ryžiais, vištiena, jogurtu ir įvairiais prieskoniais. Šis indiškas receptas puikiai tinka vakarienei ar šventiniam stalui. Patiekalas iškepa orkaitėje, todėl skoniai puikiai susilieja ir sukuria nepamirštamą skonį."
+  },
+  "seo": {
+    "metaTitle": "Vištienos birijani su prieskoniais | Indų virtuvės receptas",
+    "metaDescription": "Aromatingas vištienos birijani receptas su basmati ryžiais, vištiena ir prieskoniais. Puikiai tinka vakarienei ar šventiniam stalui. Išbandykite indišką virtuvę namuose!",
+    "keywords": [
+      "vištienos birijani",
+      "indiškas birijani",
+      "ryžiai su vištiena",
+      "indiška virtuvė",
+      "birijani receptas"
+    ],
+    "recipeCategory": "ryziai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 650,
+      "proteinContent": "35g",
+      "fatContent": "25g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 90,
+  "totalTimeMinutes": 120,
+  "timeCategory": "iki-120-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "6 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jogurtas"
+      },
+      "quantity": "300 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "3 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "4 cm",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "5 vienetai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "150 gr",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili"
+      },
+      "quantity": "2 vienetai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šafranas"
+      },
+      "quantity": "5–6 sruogos",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gvazdikėliai"
+      },
+      "quantity": "8 vienetai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "10 cm",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "5 vienetai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kardamonas"
+      },
+      "quantity": "8 ankštys",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kmynai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Jogurtas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ryžių virimas"
+      },
+      "text": {
+        "lt": "Išvirkite ryžius pagal instrukcijas ant pakuotės. Gerai nuplaukite ir nusausinkite ryžius prieš virimą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Marinatas vištienai"
+      },
+      "text": {
+        "lt": "Sumaišykite jogurtą, citrinos sultis, imbierą, česnaką, druską, ciberžolę, kmynus, gvazdikėlius, čili, pomidorus ir pomidorų tyrę. Įmerkite vištieną į šį marinatą ir palikite marinuotis bent 30 minučių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir kepkite svogūnus, kol jie taps auksinės spalvos. Tada pridėkite svogūnus prie marinuotos vištienos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Birijani sluoksniavimas"
+      },
+      "text": {
+        "lt": "Ištepkite gilią keptuvę aliejumi. Sudėkite sluoksnį ryžių, tada vištienos mišinį, ir ant viršaus kitą sluoksnį ryžių. Užberkite šafrano sruogų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas orkaitėje"
+      },
+      "text": {
+        "lt": "Kepkite orkaitėje 150°C temperatūroje 1–1,5 valandos. Patikrinkite vištienos gabalėlį, ar jis iškepęs."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite birijani su šviežiu jogurtu šalia. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite intensyvesnio skonio, vištieną galite marinuoti per naktį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šis patiekalas puikiai dera su šviežiomis salotomis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vistienos-birijani-su-prieskoniais.jpg",
+    "alt": "Vištienos birijani su basmati ryžiais ir prieskoniais",
+    "width": 800,
+    "height": 600
+  },
+  "tags": [
+    "vištienos birijani",
+    "indiškas receptas",
+    "ryžiai su vištiena",
+    "prieskoniai",
+    "aromatingas patiekalas"
+  ],
+  "author": {
+    "name": "203.124.158.66",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:203.124.158.66"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Biryani",
+    "pageTitle": "Cookbook:Chicken_Biryani",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:14.174Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Biryani&action=history",
+    "originalCreator": {
+      "name": "203.124.158.66",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:203.124.158.66"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Dum_Biriyani.JPG",
+    "author": {
+      "name": "Ranjith Kumar",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rannykumar"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Chicken_Dum_Biriyani.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

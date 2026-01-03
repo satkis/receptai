@@ -1,0 +1,91 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Caesar_Salad",
+    "pageTitle": "Cookbook:Caesar_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "81.77.77.122",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:81.77.77.122"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACaesar_Salad&action=history",
+    "extractedAt": "2025-12-21T17:59:19.838Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Caesar Salad",
+    "slug": "caesar-salad",
+    "description": "The Caesar salad is a traditional salad served in American restaurants, often prepared table-side. It is referred to by some as the \"king\" of salads.",
+    "ingredients": [
+      "1 head Romaine lettuce, roughly chopped<ref group=\"N\">Contrary to popular belief, chopping the lettuce will not cause the edges to brown. If we were using a more delicate leaf, say radicchio, then we would tear it, but we're using Romaine, which isn't that delicate.</ref>",
+      "¼ cup (about 50 ml) extra-virgin olive oil, divided",
+      "Heavy pinch of sea salt",
+      "Freshly-ground black pepper",
+      "Drizzle of red wine vinegar",
+      "3 shots Worcestershire sauce",
+      "2 soft-boiled eggs",
+      "Garlic croûtons"
+    ],
+    "instructions": [
+      "Drizzle lettuce with 2 tbsp extra-virgin olive oil. Toss to coat.",
+      "Add salt and pepper. Toss to coat.",
+      "Add vinegar and toss to coat.",
+      "Drizzle Worcestershire sauce over lettuce. Toss to coat.",
+      "Crack eggs over salad. Toss to coat.",
+      "Top with garlic croûtons and serve."
+    ],
+    "notes": [
+      "↑ Contrary to popular belief, chopping the lettuce will not cause the edges to brown. If we were using a more delicate leaf, say radicchio, then we would tear it, but we're using Romaine, which isn't that delicate."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Californian recipes",
+      "Recipes for salad",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes with images",
+      "Recipes using egg",
+      "Recipes using croutons"
+    ]
+  },
+  "image": {
+    "filename": "CaesarSalad3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/CaesarSalad3.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CaesarSalad3.jpg",
+    "localPath": "scripts/wiki/output/CaesarSalad3.jpg",
+    "dimensions": {
+      "width": 304,
+      "height": 205
+    },
+    "fileSize": 22084,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CaesarSalad3.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "User Novellina on en.wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Liftarn"
+    },
+    "metadata": {
+      "description": "Caesar salad at Nichols Restaurant in Marina del Rey, California. Comment: \"A far cry from the original;\" -- ONE of many variations. See e.g. Doral Chenoweth on this. As an eye-catcher in Caesar salad, it should be replaced by something like this, as soon as available. -- any IP 12:43, 30 July 2007 (UTC)",
+      "categories": [
+        "Caesar salad",
+        "Chicken salads",
+        "Self-published work",
+        "PD-self",
+        "Files by Novellina from en.wikipedia"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "CaesarSalad3.jpg"
+  }
+}

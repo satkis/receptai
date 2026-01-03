@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Brandy_Butter",
+    "pageTitle": "Cookbook:Brandy_Butter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "72.189.206.212",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:72.189.206.212"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABrandy_Butter&action=history",
+    "extractedAt": "2025-11-27T13:11:11.382Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Brandy Butter",
+    "slug": "brandy-butter",
+    "description": "# Cream together the butter and sugar until light and fluffy. # Gradually beat in the brandy. # Chill before serving. # Serve with Christmas pudding and warm mince pies.",
+    "ingredients": [
+      "75 g unsalted butter",
+      "75 g sieved icing sugar or caster sugar",
+      "2 tbsp brandy"
+    ],
+    "instructions": [
+      "Cream together the butter and sugar until light and fluffy.",
+      "Gradually beat in the brandy.",
+      "Chill before serving.",
+      "Serve with Christmas pudding and warm mince pies."
+    ],
+    "notes": [
+      "Brandy butter can be kept for several weeks if made with fresh butter and stored covered in the fridge.",
+      "Brandy butter is a 'hard sauce', meaning it contains alcohol. Other, rather similar hard sauces can be made by substituting the brandy with rum, whiskey, or sherry.",
+      "Some people like to add a few more ingredients. Here is a list of some of the options you could try:\nA dash of vanilla extract\nOrange or lemon zest\nSpices such as nutmeg, cinnamon, or allspice\na small handful of flaked nuts",
+      "A dash of vanilla extract",
+      "Orange or lemon zest",
+      "Spices such as nutmeg, cinnamon, or allspice",
+      "a small handful of flaked nuts"
+    ],
+    "servings": 8,
+    "totalTimeMinutes": 10,
+    "difficulty": 1,
+    "category": null,
+    "categories": [
+      "Christmas recipes",
+      "Recipes for dessert",
+      "Recipes using brandy",
+      "Recipes with metric units",
+      "Recipes for sauces and condiments",
+      "Recipes using butter",
+      "Recipes using powdered sugar",
+      "Recipes using superfine sugar"
+    ]
+  },
+  "image": {
+    "filename": "Brandy_butter.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Brandy_butter.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Brandy_butter.jpg",
+    "localPath": "scripts/wiki/output/Brandy_butter.jpg",
+    "dimensions": {
+      "width": 3200,
+      "height": 2133
+    },
+    "fileSize": 7581115,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Matt Biddulph",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:FlickreviewR"
+    },
+    "metadata": {
+      "description": "Brandy butter",
+      "categories": [
+        "Taken with Canon EOS 350D",
+        "Brandy butter",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs by Matt Biddulph",
+        "Churned butter"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Brandy_butter.jpg"
+  }
+}

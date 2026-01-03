@@ -1,0 +1,271 @@
+{
+  "slug": "damoda-zemes-riesutu-troskinys",
+  "canonicalUrl": "https://ragaujam.lt/receptas/damoda-zemes-riesutu-troskinys",
+  "title": {
+    "lt": "Damoda - žemės riešutų troškinys"
+  },
+  "description": {
+    "lt": "Damoda yra skanus žemės riešutų troškinys, gaminamas su mėsa, žuvimi, vištiena arba daržovėmis. Jis populiarus Senegale ir Gambijoje. Šis troškinys puikiai dera su baltaisiais ryžiais ir kitais garnyrais pagal jūsų skonį."
+  },
+  "seo": {
+    "metaTitle": "Damoda - žemės riešutų troškinys | Afrikietiškas receptas",
+    "metaDescription": "Damoda troškinio receptas su žemės riešutais, vištiena ir daržovėmis. Populiarus Senegale ir Gambijoje. Patiekite su baltais ryžiais.",
+    "keywords": [
+      "Damoda troškinys",
+      "žemės riešutų troškinys",
+      "Afrikietiškas troškinys",
+      "troškinys su vištiena",
+      "Senegalo virtuvė"
+    ],
+    "recipeCategory": "trokiniai",
+    "recipeCuisine": "Afrikiečių",
+    "nutrition": {
+      "calories": 400,
+      "proteinContent": "20g",
+      "fatContent": "30g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 80,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/trokiniai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vidutinis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnų laiškai"
+      },
+      "quantity": "1 vidutinis pundas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "2 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aštrios paprikos"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištienos sultinio kubeliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žemės riešutų sviestas"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Actas"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Garstyčių milteliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Daržovės"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Pomidorų pasta"
+      },
+      "quantity": "750g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "apie 2 puodeliai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Susmulkink svogūnus, svogūnų laiškus, česnaką, aštrias paprikas, sultinio kubelius ir druską."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Žemės riešutų sviesto paruošimas"
+      },
+      "text": {
+        "lt": "Praskiesk žemės riešutų sviestą vandeniu, kad jis taptų skystas. Jei reikia, perkošk."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vištienos paruošimas"
+      },
+      "text": {
+        "lt": "Paskanink vištieną actu ir garstyčių milteliais."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Vištienos kepimas"
+      },
+      "text": {
+        "lt": "Apkepk vištieną, kol paruduos iš abiejų pusių. Išimk ir atidėk."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Daržovių kepimas"
+      },
+      "text": {
+        "lt": "Į keptuvę sudėk susmulkintą mišinį ir daržoves, kepk."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Troškinio užbaigimas"
+      },
+      "text": {
+        "lt": "Pridėk žemės riešutų sviestą, pomidorų pastą, vištieną ir vandenį. Troškink, kol padažas sutirštės."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiek su baltais ryžiais arba kitais pasirinktais garnyrais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galima eksperimentuoti su skirtinga mėsa ir daržovėmis."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/damoda-zemes-riesutu-troskinys.jpg",
+    "alt": "Damoda troškinys, patiektas su ryžiais",
+    "width": 620,
+    "height": 620
+  },
+  "tags": [
+    "Damoda troškinys",
+    "Afrikietiškas troškinys",
+    "žemės riešutų troškinys",
+    "troškinys su vištiena",
+    "Senegalo virtuvė"
+  ],
+  "author": {
+    "name": "Grace789",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Grace789"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Damoda_(Groundnut_Stew)",
+    "pageTitle": "Cookbook:Damoda_(Groundnut_Stew)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:26:37.851Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADamoda_(Groundnut_Stew)&action=history",
+    "originalCreator": {
+      "name": "Grace789",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Grace789"
+    }
+  },
+  "originalImage": {
+    "fileName": "Information_icon4.svg",
+    "author": {
+      "name": "penubag (color adjustments)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Srittau"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Information_icon4.svg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Information_icon4.svg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:26:37+03:00",
+  "createdAt": "2026-01-03T14:26:37+03:00",
+  "updatedAt": "2026-01-03T14:26:37+03:00"
+}

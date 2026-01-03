@@ -1,0 +1,86 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Champorado_(Chocolate_Rice_Porridge)",
+    "pageTitle": "Cookbook:Champorado_(Chocolate_Rice_Porridge)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Jay Bolero",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChamporado_(Chocolate_Rice_Porridge)&action=history",
+    "extractedAt": "2025-12-21T17:59:46.761Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Champorado (Chocolate Rice Porridge)",
+    "slug": "champorado-chocolate-rice-porridge",
+    "description": "Champorado is a chocolate porridge and favorite Filipino comfort food, especially during cold weather.",
+    "ingredients": [
+      "½ kg glutinous rice",
+      "Water (about 4–6 times the rice volume)",
+      "½ kg white granulated sugar",
+      "2 spoons cocoa powder",
+      "1 can (12 oz) evaporated milk"
+    ],
+    "instructions": [
+      "Wash the rice twice.",
+      "Combine the rice and water in a pot. Place the pot over medium heat, cover, and bring to a boil.",
+      "Uncover the pot and stir in the sugar and cocoa powder until well mixed.",
+      "Simmer over low heat, stirring regularly, until the rice is cooked and the porridge is thickened as desired.",
+      "Stir in the evaporated milk and serve."
+    ],
+    "notes": [
+      "Sometimes champorado tastes good when eaten with salted fish."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Filipino recipes",
+    "categories": [
+      "Filipino recipes",
+      "Recipes using rice",
+      "Recipes using granulated sugar",
+      "Recipes for porridge",
+      "Recipes using cocoa powder",
+      "Recipes for dessert",
+      "Recipes using evaporated milk"
+    ]
+  },
+  "image": {
+    "filename": "Champorado.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Champorado.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Champorado.jpg",
+    "localPath": "scripts/wiki/output/Champorado.jpg",
+    "dimensions": {
+      "width": 2592,
+      "height": 1944
+    },
+    "fileSize": 2706371,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Josh James from Imus, Philippines",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:UAwiki"
+    },
+    "metadata": {
+      "description": "Champorado, sweet chocolate rice porridge in Philippine cuisine.",
+      "categories": [
+        "Champorado",
+        "Flickr images reviewed by File Upload Bot (Magnus Manske)",
+        "Flickr images missing SDC creator"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Champorado.jpg"
+  }
+}

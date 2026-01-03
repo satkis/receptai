@@ -1,0 +1,303 @@
+{
+  "slug": "dal-makhani-juodieji-lesiai-su-grietine",
+  "canonicalUrl": "https://ragaujam.lt/receptas/dal-makhani-juodieji-lesiai-su-grietine",
+  "title": {
+    "lt": "Dal Makhani - Juodieji lęšiai su grietine"
+  },
+  "description": {
+    "lt": "Dal makhani yra tradicinis Punjabo patiekalas. Ši lęšių ir pupelių sriuba paprastai gaminama lėtai ant žarijų, dėl ko įgauna kreminę tekstūrą. Receptas įtraukia šviežią grietinę ir sviestą, tačiau namuose dažniausiai naudojama mažiau šių ingredientų. Restoranuose dažnai pridedama daugiau grietinės ir sviesto, o pupelės prieš tai mirkomos per naktį ir lėtai verdamos kartu su imbieru, česnaku ir keliais kitais prieskoniais."
+  },
+  "seo": {
+    "metaTitle": "Dal Makhani receptas | Juodieji lęšiai su grietine",
+    "metaDescription": "Autentiškas Dal Makhani receptas - juodieji lęšiai su grietine. Tradicinis Punjabo patiekalas, puikiai tinkantis mėgstantiems kreminius ir aromatingus patiekalus.",
+    "keywords": [
+      "dal makhani",
+      "juodieji lęšiai",
+      "punjabo virtuvė",
+      "grietinė",
+      "vegetariški patiekalai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "15g",
+      "fatContent": "15g",
+      "fiberContent": "20g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 120,
+  "totalTimeMinutes": 135,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Urad dal"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonos pupelės"
+      },
+      "quantity": "⅓ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "5-6 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili milteliai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas imbieras"
+      },
+      "quantity": "1 valgomasis šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ghee arba aliejus"
+      },
+      "quantity": "3-4 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Hingas"
+      },
+      "quantity": "Didelis žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "½ lazdelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gvazdikėliai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Imbiero ir česnako pasta"
+      },
+      "quantity": "1 valgomasis šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "2-3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros milteliai"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinė"
+      },
+      "quantity": "½ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 valgomasis šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros lapai"
+      },
+      "quantity": "2 valg. šaukštai",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mirkyti pupeles"
+      },
+      "text": {
+        "lt": "Išplaukite ir užmerkite juoduosius lęšius ir raudonas pupeles per naktį šiltame vandenyje."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Virimas"
+      },
+      "text": {
+        "lt": "Virti mirkytas pupeles su vandeniu, druska, čili milteliais, ciberžole ir tarkuotu imbieru, kol jos taps minkštos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Keptuvėje"
+      },
+      "text": {
+        "lt": "Įkaitinkite ghee ar aliejų ir pridėkite hingą, lauro lapus, cinamono lazdelę, gvazdikėlius ir smulkintą svogūną. Kepkite, kol svogūnas taps auksinės spalvos. Tada pridėkite imbiero ir česnako pastą ir maišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pomidorų pridėjimas"
+      },
+      "text": {
+        "lt": "Pridėkite smulkintus pomidorus ir kalendros miltelius. Viską maišykite, kol pomidorai sukrenta."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Sujungimas"
+      },
+      "text": {
+        "lt": "Pridėkite virtas pupeles ir, jei reikia, vandens. Gerai išmaišykite ir palikite virti 15-20 minučių."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Gaminimo užbaigimas"
+      },
+      "text": {
+        "lt": "Pridėkite grietinę ir sviestą, ir dar kartą leiskite užvirti 5 minutes. Prieš patiekiant, papuoškite kalendros lapais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite pakeisti grietinę rūgštesne grietine arba mažai riebalų turinčiu jogurtu."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šis patiekalas dažniausiai reikalauja daugiau druskos nei kiti lęšių patiekalai."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/dal-makhani-juodieji-lesiai-su-grietine.jpg",
+    "alt": "Dal Makhani - juodieji lęšiai su grietine patiekalas",
+    "width": 1024,
+    "height": 681
+  },
+  "tags": [
+    "dal makhani",
+    "juodieji lęšiai",
+    "punjabo virtuvė",
+    "vegetariškas patiekalas",
+    "tradinis receptas"
+  ],
+  "author": {
+    "name": "imported>Dumbo3",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:imported%3EDumbo3"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dal_Makhani_(Black_Gram_with_Cream)",
+    "pageTitle": "Cookbook:Dal_Makhani_(Black_Gram_with_Cream)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:26:33.887Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADal_Makhani_(Black_Gram_with_Cream)&action=history",
+    "originalCreator": {
+      "name": "imported>Dumbo3",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:imported%3EDumbo3"
+    }
+  },
+  "originalImage": {
+    "fileName": "Punjabi_style_Dal_Makhani.jpg",
+    "author": {
+      "name": "Radhikamprabhu82",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Radhikamprabhu82"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Punjabi_style_Dal_Makhani.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:00:00+03:00",
+  "createdAt": "2026-01-03T14:00:00+03:00",
+  "updatedAt": "2026-01-03T14:00:00+03:00"
+}

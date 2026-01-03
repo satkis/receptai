@@ -1,0 +1,121 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Scotcheroos",
+    "pageTitle": "Cookbook:Chocolate_Scotcheroos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "WhatamIdoing",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:WhatamIdoing"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Scotcheroos&action=history",
+    "extractedAt": "2025-12-23T07:09:59.649Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chocolate Scotcheroos",
+    "slug": "chocolate-scotcheroos",
+    "description": "Chocolate scotcheroos are a peanut butter cereal bar with a chocolate topping. They are similar to Rice Krispie Treats, except that they contain peanut butter instead of marshmallows. They are cooked on the stovetop instead of being baked in the oven.",
+    "ingredients": [
+      "{| class=\"wikitable\" style=\"background: none\"",
+      "!Ingredient",
+      "!Volume",
+      "!Weight",
+      "|-",
+      "|Corn syrup",
+      "|1 cup",
+      "|300 g",
+      "|-",
+      "|White sugar",
+      "|1 cup",
+      "|200 g",
+      "|-",
+      "|Peanut butter",
+      "|1 cup",
+      "|275 g",
+      "|-",
+      "|Puffed rice cereal, such as Kellogg's Rice Krispies",
+      "|6 cups",
+      "|175 g",
+      "|-",
+      "|Chocolate chips",
+      "|1 cup",
+      "|175 g",
+      "|-",
+      "|Butterscotch-flavored chips",
+      "|1 cup",
+      "|175 g",
+      "|}"
+    ],
+    "instructions": [
+      "Spray the baking pan with cooking spray, or butter it lightly. Set aside.",
+      "Put the corn syrup and sugar in the saucepan. Cook over medium heat until the sugar is dissolved and the mixture begins to bubble. Do not overcook, or the bars will be hard.  Remove from the heat.",
+      "Add the peanut butter, and stir until the color is uniform.",
+      "Stir in the cereal. It may be easiest to stir in half the cereal at a time, instead of adding it all at once.",
+      "Scrape all of the warm cereal mixture into the baking pan. Gently press it into a flat layer. You can do this with back of the mixing spoon, or you can cover the cereal mixture with a sheet of wax paper and use your hands. Do not crush the cereal, or the bars will be too hard and dense. Set aside.",
+      "Place the chocolate and butterscotch chips in the saucepan (it is not necessary to wash it first), and put it back on the stove over medium heat. Stir to melt the chocolate and butterscotch chips together. As soon as the morsels have melted, spread the chocolate mixture over the top of the cereal mixture.",
+      "Cool the pan until the topping is firm. If you put it in the refrigerator, this step will take about an hour.",
+      "Cut the bars into 36 small pieces, approximately 1.5 x 1.5 inches (4 x 5 cm). Serve at room temperature."
+    ],
+    "notes": [
+      "Store at room temperature, tightly covered. They will keep for a week.",
+      "Any type or shape of pan can be used, as long as it can comfortably hold about 10 cups (2.5 liters) in volume. The warm cereal mixture can also be pressed into large cookie cutters or other forms to make circles, hearts, or other simple shapes.",
+      "You can halve the amount of white sugar. The result will be a softer, chewier treat.",
+      "You can use either ordinary or natural (\"stirring type\") peanut butter.",
+      "The chocolate and butterscotch-flavored chips can alternatively be melted in a microwave.",
+      "If you can't get butterscotch-flavored chips, then you can substitute peanut butter-flavored morsels. Semi-sweet chocolate chips are harder than either, so if you use only semi-sweet chocolate chips, consider melting a small spoonful of white vegetable shortening into the chocolate to soften the topping.",
+      "The topping can be decorated with colorful sprinkles or drizzled with a little bit of melted white chocolate, butterscotch chips, or peanut-flavored chips.",
+      "This dish is not suitable for people with peanut allergies, but it looks similar to non-peanut butter cereal bars. If you are taking these treats to share at a potluck or another group, consider decorating the top with peanuts or with a drizzle of melted peanut butter to make sure the peanut content is clear.",
+      "These bars are sturdy and travel well. They can be safely mailed during cold weather, but during warm weather, the chocolate topping will smear.",
+      "Compared to marshmallow-based rice crisp treats, this has more fat (from the peanut butter and the chocolate topping), more sugar, and about three times as many calories per pan.  Consequently, it is normal to cut smaller pieces."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using white sugar",
+      "Recipes for dessert",
+      "Gluten-free recipes",
+      "Recipes using chocolate",
+      "Recipes using peanut butter",
+      "Recipes using corn syrup",
+      "Recipes using cereal"
+    ]
+  },
+  "image": {
+    "filename": "XXX_Chocolate_Scotcheroos_(6564988783).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/XXX_Chocolate_Scotcheroos_%286564988783%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:XXX_Chocolate_Scotcheroos_(6564988783).jpg",
+    "localPath": "scripts/wiki/output/XXX_Chocolate_Scotcheroos_(6564988783).jpg",
+    "dimensions": {
+      "width": 612,
+      "height": 612
+    },
+    "fileSize": 231464,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Amber DeGrace from Red Lion, PA, USA",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Mx.%20Granger"
+    },
+    "metadata": {
+      "description": "XXX Chocolate Scotcheroos",
+      "categories": [
+        "Desserts",
+        "Flickr images reviewed by FlickreviewR"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "XXX_Chocolate_Scotcheroos_(6564988783).jpg"
+  }
+}

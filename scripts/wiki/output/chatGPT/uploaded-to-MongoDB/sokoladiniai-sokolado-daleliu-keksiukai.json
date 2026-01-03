@@ -1,0 +1,218 @@
+{
+  "slug": "sokoladiniai-sokolado-daleliu-keksiukai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladiniai-sokolado-daleliu-keksiukai",
+  "title": {
+    "lt": "Šokoladiniai šokolado dalelių keksiukai"
+  },
+  "description": {
+    "lt": "Saldūs ir skanūs šokoladiniai keksiukai, puikiai tinkantys pusryčiams ar užkandžiui. Šis receptas leidžia pasimėgauti šokolado skoniais kiekviename kąsnyje, o šokolado dalelės suteikia papildomos tekstūros ir skonio."
+  },
+  "seo": {
+    "metaTitle": "Šokoladiniai šokolado dalelių keksiukai | Saldus receptas pusryčiams",
+    "metaDescription": "Išbandykite šokoladinių keksiukų receptą su šokolado dalelėmis. Puikus pasirinkimas pusryčiams ar desertui. Lengvai pagaminami ir labai skanūs.",
+    "keywords": [
+      "šokoladiniai keksiukai",
+      "keksiukai su šokolado dalelėmis",
+      "saldus receptas",
+      "pusryčių receptas",
+      "desertas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "4g",
+      "fatContent": "12g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/desertai",
+    "receptai/vaikams"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokolado gabaliukai"
+      },
+      "quantity": "80g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "175g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kakava"
+      },
+      "quantity": "40g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "250ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "80ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilė"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sausų ingredientų paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, šokolado gabalėlius, cukrų, kakavą, druską ir kepimo miltelius dubenyje. Padarykite duobutę centre."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Skystų ingredientų sumaišymas"
+      },
+      "text": {
+        "lt": "Atskirai plakite kiaušinį, pridėkite pieną, aliejų ir vanilę. Supilkite į sausų ingredientų duobutę ir maišykite, kol tešla taps vientisa."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Keksiukų kepimas"
+      },
+      "text": {
+        "lt": "Kepimo formeles ištepkite aliejumi arba naudokite popierines formeles. Užpildykite keksiukų formeles maždaug iki ¾ jų tūrio."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas orkaitėje"
+      },
+      "text": {
+        "lt": "Kepkite 205°C temperatūroje apie 20 minučių arba kol keksiukai taps purūs ir įsmeigtas pagaliukas išeis švarus."
+      }
+    }
+  ],
+  "notes": [
+    
+    {
+      "text": {
+        "lt": "Papildomai galite pridėti baltos šokolado drožlių ant viršaus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladiniai-sokolado-daleliu-keksiukai.jpg",
+    "alt": "Šokoladiniai šokolado dalelių keksiukai ant stalo",
+    "width": 503,
+    "height": 364
+  },
+  "tags": [
+    "šokoladiniai keksiukai",
+    "saldus receptas",
+    "pusryčiams ir desertui",
+    "lengvas receptas",
+    "keksiukai su šokoladu"
+  ],
+  "author": {
+    "name": "Morgan695~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Morgan695~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chocolate_Chip_Muffins",
+    "pageTitle": "Cookbook:Chocolate_Chocolate_Chip_Muffins",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T10:09:53+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Chocolate_Chip_Muffins&action=history",
+    "originalCreator": {
+      "name": "Morgan695~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Morgan695~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chocolate_Chocolate_Chip_Muffins.JPG",
+    "author": {
+      "name": "Morgan695~commonswiki",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Morgan695~commonswiki"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Chocolate_Chocolate_Chip_Muffins.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:09:53+03:00",
+  "createdAt": "2025-12-23T10:09:53+03:00",
+  "updatedAt": "2025-12-23T10:09:53+03:00"
+}

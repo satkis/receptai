@@ -1,0 +1,277 @@
+{
+  "slug": "boliche-kubietiskas-jautienos-kepsnys-su-chorizo",
+  "canonicalUrl": "https://ragaujam.lt/receptas/boliche-kubietiskas-jautienos-kepsnys-su-chorizo",
+  "title": {
+    "lt": "Boliche - Kubietiškas Jautienos Kepinys su Chorizo"
+  },
+  "description": {
+    "lt": "Boliche - tai kubietiškas jautienos kepsnys, įdarytas chorizo dešrelėmis ir troškintas pomidorų padaže. Šis skanus patiekalas puikiai tiks ypatingoms progoms ar šeimos pietums. Papildytas prieskoniais, tokiais kaip šafranas ir raudonasis vynas, jis suteikia nepakartojamo skonio patirtį."
+  },
+  "seo": {
+    "metaTitle": "Boliche - Kubietiškas Jautienos Kepinys | Receptas su Chorizo",
+    "metaDescription": "Atraskite kubietišką jautienos kepsnį Boliche, įdarytą chorizo ir troškintą pomidorų padaže. Skonis, kurio nepamiršite!",
+    "keywords": [
+      "boliche",
+      "kubietiškas kepsnys",
+      "jautienos kepsnys",
+      "chorizo dešrelės",
+      "pomidorų padažas"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Kubietiška",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "32g",
+      "fatContent": "28g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 90,
+  "totalTimeMinutes": 120,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Jautienos mėsa"
+      },
+      "quantity": "~2 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Chorizo dešrelės"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Adobo prieskoniai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šafranas"
+      },
+      "quantity": "2 dideli žiupsneliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "6 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 didelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalias paprikas"
+      },
+      "quantity": "1 didelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonėlis"
+      },
+      "quantity": "1-2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalios ispaniškos alyvuogės"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kapariai"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sazon prieskoniai"
+      },
+      "quantity": "2 pakeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonasis vynas"
+      },
+      "quantity": "240 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų padažas"
+      },
+      "quantity": "820 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendra"
+      },
+      "quantity": "1 pakelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mėsos paruošimas"
+      },
+      "text": {
+        "lt": "Jautienoje padarykite įpjovas ir į kiekvieną įdėkite chorizo gabalėlius, sekdami mėsos kryptį. Švelniai įtrinkite mėsą adobo prieskoniais."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Keptuvės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir apskrudinkite mėsą iš visų pusių, kad išsaugotumėte sultis. Tada perkelkite į didelį kepimo indą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Toje pačioje keptuvėje, kurioje buvo kepta mėsa, sudėkite šafraną, česnaką, svogūną, papriką, lauro lapus, raudonėlį, alyvuoges, kaparius ir sazon prieskonius. Kepkite, kol svogūnai taps permatomi."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Padažo užbaigimas"
+      },
+      "text": {
+        "lt": "Išpilkite raudonąjį vyną, sumažinkite ugnį ir troškinkite apie 5 minutes. Tada įpilkite kalendrą ir pomidorų padažą bei gerai išmaišykite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Užpilkite padažą ant mėsos ir kepkite 165 °C temperatūroje 1,5–2 valandas, kol mėsa taps minkšta. Kepimo metu apverskite ir sulaistykite padažu, kad skoniai gerai įsigertų."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą, supjaustytą gabalėliais, su pasirinktais garnyrais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šis patiekalas puikiai tinka su ryžiais arba keptomis bulvėmis."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/boliche-kubietiskas-jautienos-kepsnys-su-chorizo.jpg",
+    "alt": "Kubietiškas jautienos kepsnys Boliche su chorizo dešrelėmis ir pomidorų padažu",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "kubietiškas jautienos kepsnys",
+    "boliche",
+    "chorizo dešrelės",
+    "kubietiškas receptas",
+    "kepsniai"
+  ],
+  "author": {
+    "name": "Averette",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Averette"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Boliche_(Cuban_Chorizo-Stuffed_Roast)",
+    "pageTitle": "Cookbook:Boliche_(Cuban_Chorizo-Stuffed_Roast)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:06.429Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoliche_(Cuban_Chorizo-Stuffed_Roast)&action=history",
+    "originalCreator": {
+      "name": "Averette",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Averette"
+    }
+  },
+  "originalImage": {
+    "fileName": "Boliche.jpg",
+    "author": {
+      "name": "Averette at English Wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:MarcGarver"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Boliche.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Boliche.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:00:00+03:00",
+  "createdAt": "2025-11-27T16:00:00+03:00",
+  "updatedAt": "2025-11-27T16:00:00+03:00"
+}

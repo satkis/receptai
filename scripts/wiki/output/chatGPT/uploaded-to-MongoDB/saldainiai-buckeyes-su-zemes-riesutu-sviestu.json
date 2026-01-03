@@ -1,0 +1,211 @@
+{
+  "slug": "saldainiai-buckeyes-su-zemes-riesutu-sviestu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/saldainiai-buckeyes-su-zemes-riesutu-sviestu",
+  "title": {
+    "lt": "Saldainiai Buckeyes su žemės riešutų sviestu"
+  },
+  "description": {
+    "lt": "Buckeyes – tai lengvai pagaminami saldainiai, primenantys Buckeye medžio riešutus. Šis receptas puikiai tiks tiems, kurie mėgsta žemės riešutų sviestą ir šokoladą."
+  },
+  "seo": {
+    "metaTitle": "Buckeyes saldainiai | Receptas su žemės riešutų sviestu",
+    "metaDescription": "Lengvai pagaminami Buckeyes saldainiai su žemės riešutų sviestu ir šokoladu. Puikus pasirinkimas saldžiajam užkandžiui ar desertui.",
+    "keywords": [
+      "buckeyes",
+      "žemės riešutų sviestas",
+      "šokoladiniai saldainiai",
+      "lengvas desertas",
+      "vegetariškas užkandis"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "3g",
+      "fatContent": "9g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 9,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 2,
+  "totalTimeMinutes": 12,
+  "timeCategory": "iki-15-min",
+  "servings": 25,
+  "servingsUnit": "saldainiai",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Žemės riešutų sviestas"
+      },
+      "quantity": "320g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokolado gabaliukai"
+      },
+      "quantity": "1 mažas maišelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Dantų krapštukai"
+      },
+      "quantity": "25 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite žemės riešutų sviestą, sviestą, vanilę ir cukraus pudrą į vientisą masę."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Formavimas"
+      },
+      "text": {
+        "lt": "Suformuokite mišinio mažus rutuliukus ir įsmeikite po dantų krapštuką į kiekvieną."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Atšaldymas"
+      },
+      "text": {
+        "lt": "Įdėkite rutuliukus į šaldytuvą arba šaldiklį valandai."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Šokolado tirpinimas"
+      },
+      "text": {
+        "lt": "Ištirpinkite šokolado gabaliukus dvigubame katile."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Dengimas šokoladu"
+      },
+      "text": {
+        "lt": "Įmerkite rutuliukus į ištirpintą šokoladą, palikdami mažą dalį nepadengtą. Tada padėkite ant vaško popieriaus ir nuimkite krapštukus."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Paskutinis atšaldymas"
+      },
+      "text": {
+        "lt": "Vėl įdėkite į šaldytuvą arba šaldiklį, kad šokoladas sustingtų."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šokolado tirpinimas dvigubame katile užtikrina, kad jis nesudegs."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei norite intensyvesnio žemės riešutų skonio, naudokite natūralų žemės riešutų sviestą."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/saldainiai-buckeyes-su-zemes-riesutu-sviestu.jpg",
+    "alt": "Saldainiai Buckeyes, padengti šokoladu su žemės riešutų sviestu",
+    "width": 427,
+    "height": 640
+  },
+  "tags": [
+    "buckeyes",
+    "žemės riešutų sviestas",
+    "šokoladiniai saldainiai",
+    "lengvas desertas",
+    "vegetariškas užkandis"
+  ],
+  "author": {
+    "name": "Rodasmith",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Rodasmith"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Buckeyes",
+    "pageTitle": "Cookbook:Buckeyes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:23.617Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuckeyes&action=history",
+    "originalCreator": {
+      "name": "Rodasmith",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Rodasmith"
+    }
+  },
+  "originalImage": {
+    "fileName": "Buckeyes_Peanut_Butter_Balls.jpg",
+    "author": {
+      "name": "Steven Depolo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Buckeyes_Peanut_Butter_Balls.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:15:00+03:00",
+  "createdAt": "2025-11-27T16:15:00+03:00",
+  "updatedAt": "2025-11-27T16:15:00+03:00"
+}

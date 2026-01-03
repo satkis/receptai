@@ -1,0 +1,188 @@
+{
+  "slug": "slovakiski-kukuliai-su-suriu-ir-sonine",
+  "canonicalUrl": "https://ragaujam.lt/receptas/slovakiski-kukuliai-su-suriu-ir-sonine",
+  "title": {
+    "lt": "Slovakiški kukuliai su sūriu ir šonine"
+  },
+  "description": {
+    "lt": "Bryndzové halušky – tai slovakiški kukuliai su bryndza sūriu, kurie yra tradicinis Slovakijos patiekalas. Šiam patiekalui suteikia ypatingą skonį bryndza sūris ir traški šoninė. Pagrindinė kukulių sudedamoji dalis yra tarkuotos bulvės."
+  },
+  "seo": {
+    "metaTitle": "Bryndzové halušky su bryndza ir šonine | Slovakijos receptas",
+    "metaDescription": "Tradiciniai slovakiški bryndzové halušky su bryndza sūriu ir traškia šonine. Lengvai pagaminamas ir sotus patiekalas, tinkantis šventinei vakarienei.",
+    "keywords": [
+      "bryndzové halušky",
+      "slovakiški kukuliai",
+      "bryndza sūris",
+      "tradicinis slovakų patiekalas",
+      "bulvių kukuliai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Slovakų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "15g",
+      "fatContent": "18g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 9,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/bulves",
+    "receptai/suris"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "750g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bryndza sūris"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šoninė"
+      },
+      "quantity": "100g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite tarkuotas bulves su miltais ir druska, kol gausite tešlą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kukulių formavimas"
+      },
+      "text": {
+        "lt": "Suformuokite mažus cilindrinius kukulius, mažesnius nei 3 cm."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kukulių virimas"
+      },
+      "text": {
+        "lt": "Sudėkite kukulius į verdantį pasūdytą vandenį. Kai kukuliai iškyla į paviršių, patikrinkite, ar jie visiškai išvirę."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite kukulius iš puodo ir perkelkite į pašildytą lėkštę. Užberkite bryndza sūrį ir leiskite jam ištirpti ant kukulių. Pabarstykite keptą šoninę ir patiekite karštus."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite laiko, galite naudoti parduotuvėje nusipirktus bulvių gnocchi."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei nerandate bryndza, galite naudoti sutrupintą ožkos sūrį arba fetą."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/slovakiski-kukuliai-su-suriu-ir-sonine.jpg",
+    "alt": "Bryndzové halušky su bryndza sūriu ir šonine",
+    "width": 3264,
+    "height": 2448
+  },
+  "tags": [
+    "bryndzové halušky",
+    "slovakiški kukuliai",
+    "bryndza sūris",
+    "tradicinis patiekalas",
+    "bulvių kukuliai"
+  ],
+  "author": {
+    "name": "AKeen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AKeen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bryndzové_Halušky_(Slovak_Dumplings_with_Cheese)",
+    "pageTitle": "Cookbook:Bryndzové_Halušky_(Slovak_Dumplings_with_Cheese)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:17.593Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABryndzov%C3%A9_Halu%C5%A1ky_(Slovak_Dumplings_with_Cheese)&action=history",
+    "originalCreator": {
+      "name": "AKeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AKeen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bryndzové_halušky_so_slaninou.jpg",
+    "author": {
+      "name": "Gregory finster",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gyrobo"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:00:00+03:00",
+  "createdAt": "2025-11-27T16:00:00+03:00",
+  "updatedAt": "2025-11-27T16:00:00+03:00"
+}

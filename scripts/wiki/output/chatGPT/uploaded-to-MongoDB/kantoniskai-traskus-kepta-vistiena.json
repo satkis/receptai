@@ -1,0 +1,315 @@
+{
+  "slug": "kantoniskai-traskus-kepta-vistiena",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kantoniskai-traskus-kepta-vistiena",
+  "title": {
+    "lt": "Kantoniškai traški kepta vištiena"
+  },
+  "description": {
+    "lt": "Kantoniškai traški kepta vištiena - tai ypatingas Honkongo ir Kantono virtuvės patiekalas. Vištiena pošinta prieskoniuose, padengta saldžiu sirupu ir galiausiai giliai kepta, kad būtų traški išorė. Šis receptas padės jums sukurti autentišką Kantono skonį savo namuose."
+  },
+  "seo": {
+    "metaTitle": "Kantoniškai traški kepta vištiena | Autentiškas receptas iš Honkongo",
+    "metaDescription": "Atraskite Kantoniškai traškios vištienos receptą, kuriame vištiena pošinta prieskoniuose ir padengta sirupu, giliai kepama iki traškumo. Idealus patiekalas mėgstantiems kinų virtuvę.",
+    "keywords": [
+      "kantoniškai traški vištiena",
+      "kinų virtuvė",
+      "traškus vištienos receptas",
+      "Honkongo patiekalas",
+      "kantoniškas receptas"
+    ],
+    "recipeCategory": "vistiena",
+    "recipeCuisine": "Kinų",
+    "nutrition": {
+      "calories": 480,
+      "proteinContent": "35g",
+      "fatContent": "30g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 50,
+  "totalTimeMinutes": 80,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/vistiena",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 valg. šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sichuano pipirai"
+      },
+      "quantity": "3 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ajinomoto prieskonis"
+      },
+      "quantity": "1 valg. šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "1 nedidelė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Penkių prieskonių milteliai"
+      },
+      "quantity": "2 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "3 gabalėliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnų laiškai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "pakankamai vištienai pošinti",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Actas"
+      },
+      "quantity": "3 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "¼ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "4 puodeliai (arba pakankamai giluminiam kepimui)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Krevetės traškučiai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Pipirų druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pipirų ir druskos paruošimas"
+      },
+      "text": {
+        "lt": "Į nedidelę keptuvę dėkite druską ir Sichuano pipirus. Kaitinkite ant vidutinės ugnies, kol pradės šiek tiek rūkti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Prieskonių paruošimas"
+      },
+      "text": {
+        "lt": "Nuimkite nuo ugnies ir gerai sutrinkite grūstuvu arba su voleliu. Pridėkite ajinomoto ir gerai sumaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vištienos paruošimas"
+      },
+      "text": {
+        "lt": "Nuvalykite ir nuplaukite vištieną, pašalindami vidurius. Į puodą įpilkite pakankamai vandens, kad apsemtų vištieną, ir užvirkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pošintis vištieną"
+      },
+      "text": {
+        "lt": "Į vandens puodą dėkite penkių prieskonių miltelius, imbierą ir svogūnų laiškus, suvyniotus į audeklą. Troškinkite 15 minučių, tada dėkite vištieną, sumažinkite ugnį ir švelniai pošinkite 20 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Vištienos džiovinimas"
+      },
+      "text": {
+        "lt": "Kai vištiena bus paruošta, išimkite iš vandens ir nusausinkite popieriniais rankšluosčiais, leiskite šiek tiek išdžiūti."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Sirupo paruošimas"
+      },
+      "text": {
+        "lt": "Į puodą įpilkite actą ir cukrų, kaitinkite, kol ištirps ir susidarys sirupas."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Vištienos glazūravimas"
+      },
+      "text": {
+        "lt": "Visą vištieną iš vidaus ir išorės padengti sirupu. Leiskite džiūti vėjyje, kol bus visiškai sausa."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Kepti vištieną"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų giluminėje keptuvėje iki 175°C. Giluminėje keptuvėje kepkite vištieną apie 10 minučių iš kiekvienos pusės, kol taps ruda ir traški."
+      }
+    },
+    {
+      "step": 9,
+      "name": {
+        "lt": "Vištienos pjaustymas"
+      },
+      "text": {
+        "lt": "Išimkite vištieną iš aliejaus ir supjaustykite mėsos kapokliu į 1 x 2 colių gabalėlius."
+      }
+    },
+    {
+      "step": 10,
+      "name": {
+        "lt": "Krevetės traškučių kepimas"
+      },
+      "text": {
+        "lt": "Kai vištiena bus paruošta, kepkite krevetės traškučius giluminėje keptuvėje. Pabarstykite juos šiek tiek druskos."
+      }
+    },
+    {
+      "step": 11,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite vištieną, puoštą krevetės traškučiais, su pipirų druska mažame indelyje šalia."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Pošintis yra ne tas pats, kas virimas, nes temperatūra yra žemesnė, apie 71–82 °C, o ne 100 °C."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Odos džiovinimas svarbus, nes padeda sirupui prilipti ir suteikia traškumo."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Aliejaus temperatūra svarbi, kad suteiktų rudą spalvą odai."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kantoniskai-traskus-kepta-vistiena.jpg",
+    "alt": "Kantoniškai traški kepta vištiena su krevetės traškučiais",
+    "width": 500,
+    "height": 366
+  },
+  "tags": [
+    "kantoniškai traški vištiena",
+    "kinų virtuvė",
+    "traškus vištienos receptas",
+    "Honkongo patiekalas",
+    "kantoniškas receptas"
+  ],
+  "author": {
+    "name": "Ll1324",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Ll1324"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cantonese_Crispy_Fried_Chicken",
+    "pageTitle": "Cookbook:Cantonese_Crispy_Fried_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:27.939Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACantonese_Crispy_Fried_Chicken&action=history",
+    "originalCreator": {
+      "name": "Ll1324",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Ll1324"
+    }
+  },
+  "originalImage": {
+    "fileName": "Crispyfriedchicken.jpg",
+    "author": {
+      "name": "tissue_fleur",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Benjwong"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Crispyfriedchicken.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T17:59:27+03:00",
+  "createdAt": "2025-12-21T17:59:27+03:00",
+  "updatedAt": "2025-12-21T17:59:27+03:00"
+}

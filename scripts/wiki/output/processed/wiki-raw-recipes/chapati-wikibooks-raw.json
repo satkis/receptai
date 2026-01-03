@@ -1,0 +1,97 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chapati",
+    "pageTitle": "Cookbook:Chapati",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Paulcox",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChapati&action=history",
+    "extractedAt": "2025-12-21T17:59:48.546Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chapati",
+    "slug": "chapati",
+    "description": "| Pakistani Cuisine | Indian Cuisine | Flatbread | African cuisines | Vegan Cuisine",
+    "ingredients": [
+      "3 cups whole wheat flour",
+      "Salt to taste (about 1 teaspoon)",
+      "Warm water as required (about 1 ½ cups)",
+      "Ghee (clarified butter; optional)"
+    ],
+    "instructions": [
+      "Knead together the flour and water, starting with only a slight dribble of water and adding more as you go until the dough becomes smooth but not too sticky.",
+      "Cover dough, and let rest for at least 5 minutes.",
+      "Divide dough into balls and roll out into disks, slightly thicker than denim material; sprinkle with flour as you roll.",
+      "Place a non-oiled pan over moderately high heat and test its surface temperature by holding your hand over it.",
+      "When very hot, put a chapati on the pan and press it flat with a spatula or dry cloth to make it rise up.",
+      "Flip and repeat so it becomes lightly browned on both sides.",
+      "If desired, brush with ghee."
+    ],
+    "notes": [
+      "Regional variations abound in the detail of preparing and cooking roti. In most Indian cooking, for example, the roti is finished by toasting it in the open flame of the cooker. The aim of this process is to encourage the roti to puff up. The hot air which builds inside because the water inside the roti begins to turn into steam and cooks the roti inside out. This may also be achieved under a grill, or by using a microwave (try 30 seconds on high power). Universally, however, the aim in rolling is to get the roti to a perfectly round shape (for aesthetics) and to create uniform thickness, which is vital for successful cooking.",
+      "There are Caribbean-specific variations of roti, one of which uses boiled and ground yellow split peas in its preparation.",
+      "Chapatis are usually eaten with cooked dal (lentil soup) or vegetable dishes like Indian curry. Pieces of the chapati are used to wrap and lift bites of the other dishes."
+    ],
+    "servings": 8,
+    "totalTimeMinutes": 60,
+    "difficulty": 3,
+    "category": "Indian recipes",
+    "categories": [
+      "Indian recipes",
+      "Pakistani recipes",
+      "African recipes",
+      "Recipes for flatbread",
+      "Vegan recipes",
+      "Vegetarian recipes",
+      "Recipes using clarified butter",
+      "Recipes using wheat flour"
+    ]
+  },
+  "image": {
+    "filename": "Baking_Chapatis.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Baking_Chapatis.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Baking_Chapatis.jpg",
+    "localPath": "scripts/wiki/output/Baking_Chapatis.jpg",
+    "dimensions": {
+      "width": 703,
+      "height": 469
+    },
+    "fileSize": 400047,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Claude Renault",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Sandstein"
+    },
+    "metadata": {
+      "description": "A pilgrim girl in Mahakutta, India baking chapati bread in a temple.",
+      "categories": [
+        "Taken with Canon EOS 5D",
+        "Chapati",
+        "Flickr images reviewed by FlickreviewR",
+        "Flickr images missing SDC inception",
+        "Cooking in Karnataka",
+        "Women at work in Karnataka",
+        "Cooking fires in India",
+        "Stoves in India",
+        "Mahakuta",
+        "Flickr images missing SDC published in"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Baking_Chapatis.jpg"
+  }
+}

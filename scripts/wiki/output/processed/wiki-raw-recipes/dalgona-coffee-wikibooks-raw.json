@@ -1,0 +1,81 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dalgona_Coffee",
+    "pageTitle": "Cookbook:Dalgona_Coffee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "SvnnyBvnny",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADalgona_Coffee&action=history",
+    "extractedAt": "2026-01-03T11:26:34.945Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Dalgona Coffee",
+    "slug": "dalgona-coffee",
+    "description": "| Beverages | Cuisine of South Korea Dalgona coffee () is a refreshing, cold drink originating from South Korea.",
+    "ingredients": [
+      "2 tbsp instant coffee",
+      "2 tbsp sugar",
+      "2 tbsp warm water",
+      "Milk",
+      "Ice cubes (optional—you can omit if you're using hot milk if you prefer hot coffee)"
+    ],
+    "instructions": [
+      "Put instant coffee and sugar in a bowl.",
+      "Gradually add water while whipping with a hand mixer (highly recommended; if not available, manually whisk the mixture up to 400 times).",
+      "Pour milk in a cup, add ice cubes, and add the cream on top."
+    ],
+    "notes": [],
+    "servings": 1,
+    "totalTimeMinutes": 10,
+    "difficulty": 1,
+    "category": "Beverage recipes",
+    "categories": [
+      "Korean recipes",
+      "Recipes for beverages",
+      "Recipes using instant coffee",
+      "Recipes using granulated sugar",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Dalgona_Coffee.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Dalgona_Coffee.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dalgona_Coffee.jpg",
+    "localPath": "scripts/wiki/output/Dalgona_Coffee.jpg",
+    "dimensions": {
+      "width": 640,
+      "height": 718
+    },
+    "fileSize": 57055,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "SvnnyBvnny",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "metadata": {
+      "description": "Picture of Dalgona Coffee taken by me.",
+      "categories": [
+        "Dalgona coffee",
+        "Coffee",
+        "Beverages from Korea",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Dalgona_Coffee.jpg"
+  }
+}

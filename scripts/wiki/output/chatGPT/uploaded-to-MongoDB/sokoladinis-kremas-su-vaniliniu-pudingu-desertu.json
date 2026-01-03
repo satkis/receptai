@@ -1,0 +1,224 @@
+{
+  "slug": "sokoladinis-kremas-su-vaniliniu-pudingu-desertu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladinis-kremas-su-vaniliniu-pudingu-desertu",
+  "title": {
+    "lt": "Šokoladinis kremas su vaniliniu pudingo drumžlių desertu"
+  },
+  "description": {
+    "lt": "Nanaimo barai – tai sluoksniuotas šokolado ir pudingo desertas, pavadintas pagal Nanaimo miestą Kanadoje. Šis receptas sukurtas Joyce Hardcastle 1986 m. ir yra neatsiejamas Kanados virtuvės dalis. Skanaus!"
+  },
+  "seo": {
+    "metaTitle": "Šokoladinis kremas su vaniliniu pudingo desertu | Nanaimo barai",
+    "metaDescription": "Klasikinis Nanaimo barų receptas. Sluoksniuotas desertas su šokoladu, vaniliniu pudingu ir riešutais. Tobulas desertas šventėms ar kasdienai.",
+    "keywords": [
+      "nanaimo barai",
+      "šokoladinis desertas",
+      "vanilinis pudingas",
+      "kanadiečių virtuvė",
+      "šventinis desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Kanadiečių",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "3g",
+      "fatContent": "22g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-60-min",
+  "servings": 16,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "125g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "50g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kakava"
+      },
+      "quantity": "5 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Duonos trupiniai"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Migdolai"
+      },
+      "quantity": "75g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kokosas"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kremas"
+      },
+      "quantity": "2 šaukštai ir 2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės pudingo milteliai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tamsus šokoladas"
+      },
+      "quantity": "120g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pagrindo paruošimas"
+      },
+      "text": {
+        "lt": "Ištirpinkite sviestą, cukrų ir kakavą dvigubame katile. Įdėkite kiaušinį ir maišykite, kol sustorės. Nukelkite nuo ugnies, įmaišykite duonos trupinius, kokosą ir migdolus. Suspauskite į 20x20 cm formą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kremo sluoksnis"
+      },
+      "text": {
+        "lt": "Sumaišykite sviestą, kremą, pudingo miltelius ir cukraus pudrą. Gerai išplakite iki lengvumo. Užtepkite ant pagrindo."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Šokolado sluoksnis"
+      },
+      "text": {
+        "lt": "Ištirpinkite šokoladą ir sviestą ant žemos ugnies. Atvėsinkite, bet dar skystą užpilkite ant kremo sluoksnio ir atvėsinkite šaldytuve."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Kai sutvirtės, supjaustykite kvadratėliais ir patiekite. Mėgaukitės!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti skirtingus riešutus arba pridėti skonio į pudingo sluoksnį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladinis-kremas-su-vaniliniu-pudingu-desertu.jpg",
+    "alt": "Sluoksniuotas šokoladinis ir pudingo desertas su riešutais",
+    "width": 2592,
+    "height": 1952
+  },
+  "tags": [
+    "nanaimo barai",
+    "šokoladinis desertas",
+    "vanilinis pudingas",
+    "kanadiečių virtuvė",
+    "šventinis desertas"
+  ],
+  "author": {
+    "name": "SteinAlive",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:SteinAlive"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar)",
+    "pageTitle": "Cookbook:Chocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:43.753Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar)&action=history",
+    "originalCreator": {
+      "name": "SteinAlive",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SteinAlive"
+    }
+  },
+  "originalImage": {
+    "fileName": "Nanaimo_bar.JPG",
+    "author": {
+      "name": "Stephanie Spencer",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Miss-Efficiency~commonswiki"
+    },
+    "license": {
+      "code": "cc-by-2.5",
+      "shortName": "CC BY 2.5",
+      "fullName": "Creative Commons Attribution 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Nanaimo_bar.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

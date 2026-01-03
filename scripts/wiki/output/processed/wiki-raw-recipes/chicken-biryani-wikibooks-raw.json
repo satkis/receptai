@@ -1,0 +1,106 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Biryani",
+    "pageTitle": "Cookbook:Chicken_Biryani",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "203.124.158.66",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:203.124.158.66"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Biryani&action=history",
+    "extractedAt": "2025-12-23T07:09:14.174Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chicken Biryani",
+    "slug": "chicken-biryani",
+    "description": "* 5 large onions, chopped * ½ cup tomatoes, puréed * 2 chiles, chopped * 1 teaspoon turmeric powder * 5–6 strands saffron * 8 cloves * 10 cm (4 inches) cinnamon stick * 5 black pepper corns * 8 cardamom pods * 1 teaspoon cumin * Salt to taste",
+    "ingredients": [
+      "2 cups rice (preferably Basmati)",
+      "500 g (1 lb) chicken",
+      "6 tablespoons oil",
+      "300 ml (10 oz) yoghurt",
+      "3 cloves of garlic, crushed and chopped",
+      "1.5 cm ginger, peeled and sliced",
+      "5 large onions, chopped",
+      "½ cup tomatoes, puréed",
+      "2 chiles, chopped",
+      "1 teaspoon turmeric powder",
+      "5–6 strands saffron",
+      "8 cloves",
+      "10 cm (4 inches) cinnamon stick",
+      "5 black pepper corns",
+      "8 cardamom pods",
+      "1 teaspoon cumin",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Cook soaked and washed rice.",
+      "Marinate the chicken in lemon juice, yoghurt, ginger, garlic, salt, turmeric powder, cumin powder, cloves, chillis, chopped tomatoes, and tomato purée.",
+      "Heat oil in a pan, add onions, and cook until onions turn golden brown. Add these to the chicken.",
+      "Grease a heavy-bottomed deep and wide mouthed pan. Add a layer of rice. Put in the chicken mixture, top with the rest of the rice, and put the saffron on top.",
+      "Bake in the oven for 1–1½ hours at 150°C (300°F); cut into a piece of chicken to see if it is cooked.",
+      "Serve the biryani with yoghurt on the side."
+    ],
+    "notes": [],
+    "servings": 2,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Rice recipes",
+    "categories": [
+      "Recipes using rice",
+      "Recipes using chicken",
+      "Recipes using yogurt",
+      "Recipes using cumin",
+      "Indian recipes",
+      "Baked recipes",
+      "Main course recipes",
+      "Recipes with metric units",
+      "Recipes for biryani",
+      "Recipes using cardamom",
+      "Recipes using chile",
+      "Recipes using cinnamon stick",
+      "Recipes using garlic",
+      "Recipes using fresh ginger"
+    ]
+  },
+  "image": {
+    "filename": "Chicken_Dum_Biriyani.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Chicken_Dum_Biriyani.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Dum_Biriyani.JPG",
+    "localPath": "scripts/wiki/output/Chicken_Dum_Biriyani.JPG",
+    "dimensions": {
+      "width": 800,
+      "height": 600
+    },
+    "fileSize": 138596,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Ranjith Kumar",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rannykumar"
+    },
+    "metadata": {
+      "description": "Chicken cooked with spices and kept in dum with bastami rice",
+      "categories": [
+        "Chicken biryani",
+        "Images of low quality",
+        "Self-published work",
+        "Images from Wiki Loves Food 2015",
+        "Uploaded via Campaign:wlf"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Dum_Biriyani.JPG"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cantonese_Crispy_Fried_Chicken",
+    "pageTitle": "Cookbook:Cantonese_Crispy_Fried_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Ll1324",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Ll1324"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACantonese_Crispy_Fried_Chicken&action=history",
+    "extractedAt": "2025-12-21T17:59:27.939Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Cantonese Crispy Fried Chicken",
+    "slug": "cantonese-crispy-fried-chicken",
+    "description": "Category:Recipes using chicken Category:Chinese recipes Crispy fried chicken is a Hong Kong/Cantonese specialty.",
+    "ingredients": [
+      "1 Tbsp salt",
+      "3 Tbsp Sichuan peppercorns (花椒)",
+      "1 Tbsp ajinomoto seasoning (味の素)",
+      "1 whole chicken (small)",
+      "2 Tbsp Chinese five-spice powder (五香粉)",
+      "3 slices of ginger, crushed",
+      "2 scallions",
+      "Water to poach chicken in",
+      "3 Tbsp vinegar",
+      "¼ cup sugar",
+      "4 cups oil (or enough for deep fryer)",
+      "Prawn crackers/shrimp chips (not the ready made ones)"
+    ],
+    "instructions": [
+      "Put salt and peppercorns in a small pan. Heat on medium to low heat until it barely smokes.",
+      "Remove from heat.",
+      "Grind well in mortar and pestle, or with a rolling pin.",
+      "Add ajinomoto and mix well.",
+      "Clean and rinse off chicken, discarding the giblets.",
+      "Heat enough water to cover the chicken in a pot until boiling.",
+      "Put five-spice powder, ginger, and scallions in a cloth and tie it. Add to water, and simmer for 15 minutes.",
+      "Add chicken, reduce heat, and gently poach for 20 minutes.",
+      "When chicken is done, remove from heat, then pat dry with paper towels and air dry for a little bit.",
+      "Put vinegar and sugar in saucepan, and heat until dissolved to make a syrup.",
+      "Coat the entire chicken on the inside and outside with the syrup.",
+      "Let chicken dry in a breeze until very dry.",
+      "Fill deep fryer with oil, and heat oil to 350°F (175°C).",
+      "Deep fry chicken about 10 minutes per side until brown and done.",
+      "Remove from oil, and chop with a meat cleaver into 1 x 2-inch pieces.",
+      "When chicken is done, fry the shrimp chips in deep fryer.",
+      "Sprinkle shrimp chips with a little salt.",
+      "Serve chicken adorned with shrimp chips, with pepper salt in a small dish on the side."
+    ],
+    "notes": [
+      "Poaching is not the same as boiling, since the temperature is lower, about 160–180 °F (71–82 °C) instead of at 212 °F (100 °C), and is even lower than simmering. If boiled, the meat will come out tough and dry. Also the lower the poaching temperature, the longer it will take to poach.",
+      "Drying the skin is important, since it helps the syrup to stick. The second drying also is important, since that is what helps to make skin crispy. It can be done the day before, and the chicken kept in the fridge.",
+      "The caramelized sugar gives the nice brown color. Vinegar lowers the pH, and helps the caramelization.",
+      "Oil temperature is important, since it imparts the brown color to the skin. If the oil temperature is too low, the sugar will not caramelize, and the chicken will not be brown. If it is too high, the sugar will burn. If you don't have a temperature controlled fryer, use a frying (or candy) thermometer.",
+      "A deep fryer can hold 2 or 3 liters of oil. Use as much as your deep fryer manual dictates.",
+      "If you don't have a deep fryer, it can be fried on the stove in a pot or wok with a fry thermometer, but be very careful. WARNING: A wok can easily tip, spilling oil and giving severe burns. If the oil overflows, one can easily have a very dangerous oil fire. Please read warnings in the article on Cookbook:Deep Fat Frying"
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using chicken",
+      "Chinese recipes",
+      "Recipes using sugar",
+      "Recipes using whole chicken",
+      "Recipes using fresh ginger",
+      "Recipes using green onion"
+    ]
+  },
+  "image": {
+    "filename": "Crispyfriedchicken.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Crispyfriedchicken.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Crispyfriedchicken.jpg",
+    "localPath": "scripts/wiki/output/Crispyfriedchicken.jpg",
+    "dimensions": {
+      "width": 500,
+      "height": 366
+    },
+    "fileSize": 135354,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "tissue_fleur",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Benjwong"
+    },
+    "metadata": {
+      "description": "Crispy fried chicken paper fried chicken",
+      "categories": [
+        "Chicken dishes of China",
+        "Flickr images reviewed by FlickreviewR",
+        "Chinese cuisine in Canada",
+        "Cantonese crispy fried chicken"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Crispyfriedchicken.jpg"
+  }
+}

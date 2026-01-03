@@ -1,0 +1,200 @@
+{
+  "slug": "kreminiai-spinatai-su-grietinele",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kreminiai-spinatai-su-grietinele",
+  "title": {
+    "lt": "Kreminiai špinatai su grietinėle"
+  },
+  "description": {
+    "lt": "Kreminiai špinatai – tai gardus ir maistingas padažas, puikiai tinkantis prie žuvies ar mėsos patiekalų. Tradicinėje švedų virtuvėje jis dažnai derinamas su virtomis bulvėmis ir žuvimi arba chipolata dešrelėmis. Šį receptą galite gaminti su visa ar smulkinta špinatų mase."
+  },
+  "seo": {
+    "metaTitle": "Kreminiai špinatai su grietinėle | Receptas",
+    "metaDescription": "Kreminiai špinatai – puikus padažas prie žuvies ar mėsos. Paruoškite šį tradicinį švedų virtuvės patiekalą su špinatais ir grietinėle.",
+    "keywords": [
+      "kreminiai špinatai",
+      "špinatų padažas",
+      "švedų virtuvė",
+      "padažas su grietinėle",
+      "padažas su špinatais"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Švedų",
+    "nutrition": {
+      "calories": 120,
+      "proteinContent": "4g",
+      "fatContent": "8g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 3,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Špinatai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "200ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "50ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "1.5 šaukšto",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "100ml",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Špinatų virimas"
+      },
+      "text": {
+        "lt": "Užvirinkite vandenį ir įdėkite špinatus bei druską. Virkite apie 5 minutes. Jei naudojate šaldytus špinatus, vadovaukitės pakuotės instrukcijomis."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Špinatų nusausinimas"
+      },
+      "text": {
+        "lt": "Nusausinkite špinatus ir leiskite jiems minutę išdžiūti. Tada grąžinkite juos į puodą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kreminio padažo paruošimas"
+      },
+      "text": {
+        "lt": "Į puodą su špinatais įpilkite grietinėlę ir šiek tiek pavirkite. Pagardinkite druska ir pipirais pagal skonį."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Pridėkite česnako ar muskato riešuto, kad patiekalas įgautų papildomų skonių."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Pakeiskite pieno ir grietinėlės proporcijas pagal norimą skonį ir tekstūrą."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kreminiai-spinatai-su-grietinele.jpg",
+    "alt": "Kreminiai špinatai su grietinėle, patiekiami su bulvėmis ir dešrelėmis",
+    "width": 2560,
+    "height": 1712
+  },
+  "tags": [
+    "kreminiai špinatai",
+    "špinatų padažas",
+    "švedų virtuvė",
+    "lengvas receptas",
+    "maistingas padažas"
+  ],
+  "author": {
+    "name": "Aarno",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Aarno"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Creamed_Spinach",
+    "pageTitle": "Cookbook:Creamed_Spinach",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:51.196Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACreamed_Spinach&action=history",
+    "originalCreator": {
+      "name": "Aarno",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Aarno"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chipolata.jpg",
+    "author": {
+      "name": "Aarno at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Cromium"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Chipolata.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:51+03:00",
+  "createdAt": "2025-12-23T10:10:51+03:00",
+  "updatedAt": "2025-12-23T10:10:51+03:00"
+}

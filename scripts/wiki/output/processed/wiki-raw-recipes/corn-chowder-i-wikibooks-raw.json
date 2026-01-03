@@ -1,0 +1,105 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Corn_Chowder_I",
+    "pageTitle": "Cookbook:Corn_Chowder_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Bob2",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Bob2"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACorn_Chowder_I&action=history",
+    "extractedAt": "2025-12-23T07:10:43.539Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Corn Chowder I",
+    "slug": "corn-chowder-i",
+    "description": "| American cuisine | Native American cuisine | Corn | Soups",
+    "ingredients": [
+      "2 tablespoon butter or margarine",
+      "1 cup chopped onion",
+      "½ cup chopped celery",
+      "1½ cups diced, pared potatoes, cut in ½-inch cubes",
+      "2 cups corn, fresh or frozen",
+      "1½ cups water",
+      "2 chicken bouillon cubes",
+      "¼ teaspoon thyme",
+      "1 cup milk",
+      "1 cup light cream",
+      "Salt to taste",
+      "Pepper to taste"
+    ],
+    "instructions": [
+      "In a medium saucepan, melt butter; add onion and celery and cook until tender.",
+      "Add potatoes, corn, salt, pepper, water, bouillon cubes, and thyme.",
+      "Cover and simmer for 15 minutes, or until potatoes and corn are tender.",
+      "Add milk and cream.",
+      "Heat through."
+    ],
+    "notes": [
+      "If cooking outdoors, you can substitute evaporated milk or powdered milk. Paprika or pepper can be added for spicier flavor."
+    ],
+    "servings": 6,
+    "totalTimeMinutes": 60,
+    "difficulty": 1,
+    "category": "Soup recipes",
+    "categories": [
+      "Inexpensive recipes|{{PAGENAME}}",
+      "Native American recipes|{{PAGENAME}}",
+      "United States recipes",
+      "Camping recipes|{{PAGENAME}}",
+      "Recipes for chowder|{{PAGENAME}}",
+      "Recipes using celery|{{PAGENAME}}",
+      "Recipes using corn|{{PAGENAME}}",
+      "Recipes using milk",
+      "Recipes using onion|{{PAGENAME}}",
+      "Recipes using potato|{{PAGENAME}}",
+      "Recipes using thyme",
+      "Gluten-free recipes|{{PAGENAME}}",
+      "Recipes using butter",
+      "Recipes using light cream",
+      "Recipes using margarine"
+    ]
+  },
+  "image": {
+    "filename": "Corn_chowder_bowl.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Corn_chowder_bowl.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Corn_chowder_bowl.jpg",
+    "localPath": "scripts/wiki/output/Corn_chowder_bowl.jpg",
+    "dimensions": {
+      "width": 2560,
+      "height": 1920
+    },
+    "fileSize": 1372787,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "GeeJo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:GeeJo"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Taken with Panasonic Lumix DMC-FZ5",
+        "Corn chowder",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Media missing infobox template",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs by Stu Spivack"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Corn_chowder_bowl.jpg"
+  }
+}

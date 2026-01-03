@@ -1,0 +1,166 @@
+{
+  "slug": "traski-vistiena",
+  "canonicalUrl": "https://ragaujam.lt/receptas/traski-vistiena",
+  "title": {
+    "lt": "Traški vištiena"
+  },
+  "description": {
+    "lt": "Traški vištiena – tai gardus ir lengvai paruošiamas patiekalas, kuris patiks visai šeimai. Marinuota vištiena apvoliojama duonos trupiniuose ir kepama orkaitėje, kol tampa traški. Puikiai tinka vakarienei ar pietums."
+  },
+  "seo": {
+    "metaTitle": "Traški vištiena | Lengvas receptas",
+    "metaDescription": "Lengvai paruošiama traški vištiena su duonos trupiniais. Marinuota vištiena orkaitėje – skanus ir traškus patiekalas visai šeimai.",
+    "keywords": [
+      "traški vištiena",
+      "vištienos receptas",
+      "duonos trupiniai",
+      "lengvas patiekalas",
+      "vakarienės receptas"
+    ],
+    "recipeCategory": "kepta-orkaiteje",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "25g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 50,
+  "totalTimeMinutes": 65,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/vakariene",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištienos šlaunelės"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Itališkas padažas"
+      },
+      "quantity": "80 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Duonos trupiniai"
+      },
+      "quantity": "200-250 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Nupjaukite odelę ir riebalus nuo vištienos šlaunelių. Įdėkite šlauneles į indą su itališku padažu, uždenkite ir gerai suplakite, kad gerai pasidengtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Marinavimas"
+      },
+      "text": {
+        "lt": "Leiskite vištienai pasimarinuoti ne mažiau pusvalandzio, kad skonis būtų intensyvesnis."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vištienos paruošimas"
+      },
+      "text": {
+        "lt": "Baigus marinuoti, į vidutinį dubenį suberkite duonos trupinius. Įdėkite marinuotas šlauneles po vieną ir apvoliokite trupiniuose. Jei reikia, pridėkite papildomų trupinių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Išdėliokite apvoliotą vištieną ant kepimo skardos ar kitos kepimo formos. Kepkite orkaitės viduryje 175°C temperatūroje 45–55 minutes arba kol duonos trupiniai taps auksinės rudos spalvos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Kad būtų lengviau valyti, tarp vištienos ir kepimo formos įdėkite kepimo popieriaus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/traski-vistiena.jpg",
+    "alt": "Traški vištiena su auksiniais duonos trupiniais",
+    "width": 1600,
+    "height": 1200
+  },
+  "tags": [
+    "traški vištiena",
+    "vištienos receptas",
+    "duonos trupiniai",
+    "lengvas patiekalas",
+    "vakarienės receptas"
+  ],
+  "author": {
+    "name": "128.113.200.27",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:128.113.200.27"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Crispy_Chicken",
+    "pageTitle": "Cookbook:Crispy_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:54.500Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACrispy_Chicken&action=history",
+    "originalCreator": {
+      "name": "128.113.200.27",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:128.113.200.27"
+    }
+  },
+  "originalImage": {
+    "fileName": "Burger_King_Chicken_Nuggets_(15423233415).jpg",
+    "author": {
+      "name": "Willis Lam",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ser%20Amantio%20di%20Nicolao"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Burger_King_Chicken_Nuggets_%2815423233415%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:30:00+03:00",
+  "createdAt": "2025-12-23T10:30:00+03:00",
+  "updatedAt": "2025-12-23T10:30:00+03:00"
+}

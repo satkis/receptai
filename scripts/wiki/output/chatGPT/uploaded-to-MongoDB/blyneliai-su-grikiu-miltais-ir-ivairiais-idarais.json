@@ -1,0 +1,202 @@
+{
+  "slug": "blyneliai-su-grikiu-miltais-ir-ivairiais-idarais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/blyneliai-su-grikiu-miltais-ir-ivairiais-idarais",
+  "title": {
+    "lt": "Grikiai blyneliai su įvairiais įdarais"
+  },
+  "description": {
+    "lt": "Grikiniai blyneliai yra tradicinis Bretanės regiono patiekalas, gaminami iš grikių miltų. Jie dažnai patiekiami su įvairiais įdarais, tokių kaip kumpis, sūris ar kiaušiniai. Šis receptas puikiai tinka tiems, kurie mėgsta eksperimentuoti virtuvėje ir nori išbandyti kažką naujo."
+  },
+  "seo": {
+    "metaTitle": "Grikiniai blyneliai su įdarais | Tradicinis receptas",
+    "metaDescription": "Tradicinis Bretanės grikinių blynų receptas. Gaminami iš grikių miltų, šie blyneliai puikiai dera su kumpiu, sūriu ar kiaušiniais. Puikiai tinka pusryčiams ar pietums.",
+    "keywords": [
+      "grikiniai blyneliai",
+      "Bretanės blynai",
+      "grikių miltai",
+      "prancūziška virtuvė",
+      "tradiciniai receptai"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 280,
+      "proteinContent": "7g",
+      "fatContent": "8g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Grikių miltai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "1L",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Įdarai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite grikių miltus ir druską. Įpilkite kiaušinį ir pusę vandens, plakite iki vientisos masės."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos poilsis"
+      },
+      "text": {
+        "lt": "Uždenkite tešlą audiniu ir palikite valandai pastovėti kambario temperatūroje."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vandens pridėjimas"
+      },
+      "text": {
+        "lt": "Poilsio metu palaipsniui įmaišykite likusį vandenį, kad tešla būtų tinkamos konsistencijos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Blynų kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite didelę keptuvę ir sutepkite ją sviestu. Įpilkite tešlos, kad blynelis būtų ne storesnis nei 3 mm. Kepkite, kol viršus išdžius, ir apverskite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Įdarų pridėjimas"
+      },
+      "text": {
+        "lt": "Jei norite įdaryti, dėkite įdarus į centrą ir sulankstykite blyną, kad susidarytų kvadratas."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti įvairius įdarus, tokius kaip sūris, mėsa ar daržovės."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Įdėjus įdarą, blynus galima trumpam pakaitinti keptuvėje."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/blyneliai-su-grikiu-miltais-ir-ivairiais-idarais.jpg",
+    "alt": "Grikiniai blyneliai su įvairiais įdarais",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "grikiniai blyneliai",
+    "Bretanės blynai",
+    "grikių miltai",
+    "tradiciniai receptai",
+    "prancūziška virtuvė"
+  ],
+  "author": {
+    "name": "Trizek",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Trizek"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Buckwheat_Cr%C3%AApes",
+    "pageTitle": "Cookbook:Buckwheat_Cr%C3%AApes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:25.133Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuckwheat_Cr%C3%AApes&action=history",
+    "originalCreator": {
+      "name": "Trizek",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Trizek"
+    }
+  },
+  "originalImage": {
+    "fileName": "Galette_de_sarrasin_complète_bretonne.jpg",
+    "author": {
+      "name": "Arnaud 25",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Arnaud%2025"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Galette_de_sarrasin_compl%C3%A8te_bretonne.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:11:25+03:00",
+  "createdAt": "2025-11-27T16:11:25+03:00",
+  "updatedAt": "2025-11-27T16:11:25+03:00"
+}

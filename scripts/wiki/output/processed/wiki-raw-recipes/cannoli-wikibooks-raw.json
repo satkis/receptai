@@ -1,0 +1,95 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cannoli",
+    "pageTitle": "Cookbook:Cannoli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "68.59.80.111",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:68.59.80.111"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACannoli&action=history",
+    "extractedAt": "2025-12-21T17:59:26.400Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Cannoli",
+    "slug": "cannoli",
+    "description": "Cannoli are sweet Italian pastries. They consist of a fried pastry shell in the shape of a tube, filled with a sweet cream and cheese mixture.",
+    "ingredients": [
+      "Cannoli shells (store-bought or homemade)",
+      "2 tablespoons ricotta cheese",
+      "1 tablespoon granulated white sugar",
+      "1 tablespoon whipped cream",
+      "1 tablespoon chocolate chips",
+      "½ tablespoon icing"
+    ],
+    "instructions": [
+      "Prepare the cannoli shells if you are making them yourself.",
+      "Combine the ricotta and sugar. Fold in the whipped cream and chocolate chips.",
+      "Fill shells with the ricotta mixture. A piping bag works well here.",
+      "Cool cannoli in the fridge before serving."
+    ],
+    "notes": [
+      "Replace the chocolate chips with dried fruit."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Italian recipes",
+      "Recipes for dessert",
+      "Recipes for pastries",
+      "Deep fried recipes",
+      "Refrigerated recipes",
+      "Recipes with images",
+      "Recipes using whipped cream",
+      "Recipes using granulated sugar"
+    ]
+  },
+  "image": {
+    "filename": "Cannoli_siciliani.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Cannoli_siciliani.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cannoli_siciliani.jpg",
+    "localPath": "scripts/wiki/output/Cannoli_siciliani.jpg",
+    "dimensions": {
+      "width": 1919,
+      "height": 1536
+    },
+    "fileSize": 602268,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Stefano Mortellaro from Catania, Italy",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:FlickrLickr"
+    },
+    "metadata": {
+      "description": "Cannoli Siciliani, a typical Sicilan sweet.",
+      "categories": [
+        "Taken with Nikon Coolpix 3200",
+        "Maraschino cherries",
+        "Cannoli",
+        "Food presentation",
+        "Flickr images reviewed by FlickreviewR",
+        "Information field template with formatting",
+        "FlickrLickr images",
+        "Files with derivative versions",
+        "Food with visible powdered sugar",
+        "Photos in Flickr Explore",
+        "Food in Catania"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Cannoli_siciliani.jpg"
+  }
+}

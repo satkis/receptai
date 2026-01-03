@@ -1,0 +1,277 @@
+{
+  "slug": "bonda-pietu-indijos-darzoviu-keksiukai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bonda-pietu-indijos-darzoviu-keksiukai",
+  "title": {
+    "lt": "Bonda - Pietų Indijos daržovių keksiukai"
+  },
+  "description": {
+    "lt": "Bonda yra populiarus Pietų Indijos užkandis, kurio gamyboje naudojamos bulvės ir kitos daržovės. Šie keksiukai yra apskrudę, su traškia gramų miltų tešla. Puikiai tinka su čatniu arba kečupu."
+  },
+  "seo": {
+    "metaTitle": "Bonda - Pietų Indijos daržovių keksiukai | Traškūs užkandžiai",
+    "metaDescription": "Išbandykite Bonda receptą - Pietų Indijos daržovių keksiukus. Traškūs ir skanūs užkandžiai su bulvių ir daržovių įdaru. Puikiai tinka su čatniu ar kečupu.",
+    "keywords": [
+      "bonda",
+      "pietų indijos užkandis",
+      "daržovių keksiukai",
+      "traškūs užkandžiai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "4g",
+      "fatContent": "14g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 11,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/vegetariskas",
+    "receptai/indiskai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "2 vidutinio dydžio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vidut. dydžio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žaliosios čili paprikos"
+      },
+      "quantity": "3-4 vidutinio dydžio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Koriandro lapai"
+      },
+      "quantity": "2 šaukštai, smulkinti",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "1 šaukštelis, smulkintas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "1 šaukštelis, smulkintas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gramų miltai"
+      },
+      "quantity": "4 porcijos",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ryžių miltai"
+      },
+      "quantity": "1 porcija",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo soda"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "Kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Užvirkite bulves, nulupkite ir sutrinkite jas grubiai."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Daržovių kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite 2 šaukštus aliejaus keptuvėje. Kai aliejus įkaitęs, sudėkite žalią čili ir kepkite kelias sekundes."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Svogūnų pridėjimas"
+      },
+      "text": {
+        "lt": "Įpilkite svogūnus ir kepkite, kol jie taps rusvos spalvos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Prieskonių įdėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite imbierą ir česnaką, kepkite dar minutę."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Masės formavimas"
+      },
+      "text": {
+        "lt": "Įdėkite koriandro lapus ir sutrintas bulves, gerai sumaišykite. Leiskite atvėsti, tada suformuokite mažus kamuoliukus."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus ir ryžių miltus su kepimo soda. Įpilkite druskos pagal skonį."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Įpilkite pakankamai vandens ar alaus, kad tešla būtų šiek tiek tirštesnė nei kečupas."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kai tešla ir įdaras paruošti, įkaitinkite aliejų gilioje keptuvėje. Aliejaus turėtų būti bent 4 cm gylio."
+      }
+    },
+    {
+      "step": 9,
+      "name": {
+        "lt": "Kepimo procesas"
+      },
+      "text": {
+        "lt": "Panardinkite kamuoliukus į tešlą, kad jie būtų visiškai padengti, ir įdėkite į karštą aliejų. Neperkraukite keptuvės."
+      }
+    },
+    {
+      "step": 10,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Keptuvėje keptus bondas kepkite, kol jie taps auksinės spalvos, tada išimkite iš aliejaus. Patiekite su kečupu arba čatniu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint gauti ypatingą skonį, galite naudoti alų vietoj vandens tešlai."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bonda-pietu-indijos-darzoviu-keksiukai.jpg",
+    "alt": "Bonda - Pietų Indijos daržovių keksiukai",
+    "width": 1632,
+    "height": 1173
+  },
+  "tags": [
+    "bonda",
+    "pietų indijos užkandis",
+    "daržovių keksiukai",
+    "gramų miltų tešla",
+    "traškūs užkandžiai"
+  ],
+  "author": {
+    "name": "209.142.208.98",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:209.142.208.98"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bonda_(South_Indian_Vegetable_Fritter)",
+    "pageTitle": "Cookbook:Bonda_(South_Indian_Vegetable_Fritter)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:08.057Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABonda_(South_Indian_Vegetable_Fritter)&action=history",
+    "originalCreator": {
+      "name": "209.142.208.98",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:209.142.208.98"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bonda2.jpg",
+    "author": {
+      "name": "No machine-readable author provided. Pamri assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Pamri"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bonda2.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bonda2.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:11:08+03:00",
+  "createdAt": "2025-11-27T16:11:08+03:00",
+  "updatedAt": "2025-11-27T16:11:08+03:00"
+}

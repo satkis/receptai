@@ -1,0 +1,200 @@
+{
+  "slug": "avizinis-omletas-su-avinzirniu-miltais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/avizinis-omletas-su-avinzirniu-miltais",
+  "title": {
+    "lt": "Avižinis omletas su avinžirnių miltais"
+  },
+  "description": {
+    "lt": "Avižinis omletas su avinžirnių miltais – tai greitas ir paprastas pusryčių patiekalas, puikiai tinkantis veganams ir vegetarams. Šis omletas yra puikus baltymų šaltinis ir gali būti praturtintas įvairiais priedais."
+  },
+  "seo": {
+    "metaTitle": "Avižiniai omletai su avinžirnių miltais | Receptas veganams",
+    "metaDescription": "Greitas ir paprastas avižinių omletų receptas su avinžirnių miltais. Puikus pasirinkimas veganams ir vegetarams, norintiems gauti daugiau baltymų pusryčiams.",
+    "keywords": [
+      "avinžirnių miltų omletas",
+      "veganų pusryčiai",
+      "baltymų šaltinis",
+      "avinžirniai",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "20g",
+      "fatContent": "15g",
+      "fiberContent": "10g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Avinžirnių miltai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojos pienas arba vanduo"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Dubenyje sumaišykite avinžirnių miltus, kepimo miltelius, druską, ciberžolę ir papriką. Palaipsniui įpilkite sojos pieno arba vandens ir maišykite, kol tešla bus vienalytė."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimo paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę ant vidutinės ugnies ir įpilkite alyvuogių aliejaus. Išskirstykite aliejų po keptuvę, leiskite šiek tiek įkaisti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Omleto kepimas"
+      },
+      "text": {
+        "lt": "Supilkite tešlą į keptuvę. Kepkite, kol viduryje pasirodys burbuliukai, tada atsargiai apverskite su mentelė. Kepkite kitą pusę apie 30 sekundžių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Omletą patiekite iš karto. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite į tešlą pridėti ingredientų, tokių kaip svogūnai, paprikos ar laiškiniai česnakai, kad omletas būtų dar gardesnis."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei norite daugiau umami skonio, įberkite šiek tiek maistinių mielių."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/aviziniai-omletai-su-avinzirniu-miltais.jpg",
+    "alt": "Avižiniai omletai su avinžirnių miltais - veganų pusryčių patiekalas",
+    "width": 3020,
+    "height": 2851
+  },
+  "tags": [
+    "avinžirių miltų omletas",
+    "veganų pusryčiai",
+    "baltymų šaltinis",
+    "ciberžolė",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Kittycataclysm",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kittycataclysm"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chickpea_Omelette",
+    "pageTitle": "Cookbook:Chickpea_Omelette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:37.261Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChickpea_Omelette&action=history",
+    "originalCreator": {
+      "name": "Kittycataclysm",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kittycataclysm"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chickpea_Omelette_Complete.jpg",
+    "author": {
+      "name": "Back ache",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Back%20ache"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Chickpea_Omelette_Complete.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

@@ -1,0 +1,84 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Calamansi_Juice_Drink",
+    "pageTitle": "Cookbook:Calamansi_Juice_Drink",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Jay Bolero",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACalamansi_Juice_Drink&action=history",
+    "extractedAt": "2025-12-21T17:59:21.462Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Calamansi Juice Drink",
+    "slug": "calamansi-juice-drink",
+    "description": "Calamansi juice drink is a Filipino version of lemonade because calamansi is readily available in the marketplace.",
+    "ingredients": [
+      "3 or 4 calamansi",
+      "1 glass cold water",
+      "½ tablespoon granulated sugar",
+      "Ice cubes (optional)"
+    ],
+    "instructions": [
+      "Halve the calamansi with a sharp knife.",
+      "Use your hands to squeeze the juice from the calamansi.",
+      "Combine the juice with the cold water in a glass.",
+      "Stir in sugar until dissolved.",
+      "Add ice cubes."
+    ],
+    "notes": [
+      "This drink can also be served hot.",
+      "It is a good source of Vitamin C."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Beverages",
+    "categories": [
+      "Recipes using calamansi",
+      "Recipes using granulated sugar",
+      "Filipino recipes",
+      "Recipes for beverages"
+    ]
+  },
+  "image": {
+    "filename": "Calamansi_juice_(Filipino_lemonade).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Calamansi_juice_%28Filipino_lemonade%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Calamansi_juice_(Filipino_lemonade).jpg",
+    "localPath": "scripts/wiki/output/Calamansi_juice_(Filipino_lemonade).jpg",
+    "dimensions": {
+      "width": 3080,
+      "height": 2268
+    },
+    "fileSize": 2139697,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Obsidian Soul",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Obsidian%20Soul"
+    },
+    "metadata": {
+      "description": "Calamansi juice (Filipino lemonade), sweetened with brown sugar",
+      "categories": [
+        "CC-Zero",
+        "Self-published work",
+        "Samalamig",
+        "Calamansi juice"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Calamansi_juice_(Filipino_lemonade).jpg"
+  }
+}

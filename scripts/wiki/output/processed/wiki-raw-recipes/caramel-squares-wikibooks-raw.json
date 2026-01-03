@@ -1,0 +1,98 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Caramel_Squares",
+    "pageTitle": "Cookbook:Caramel_Squares",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "imported>Suitgirl",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:imported%3ESuitgirl"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACaramel_Squares&action=history",
+    "extractedAt": "2025-12-21T17:59:31.463Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Caramel Squares",
+    "slug": "caramel-squares",
+    "description": "Caramel squares (alternatively: caramel slices, caramel shortbread, or '''millionaire's shortbread''') are a wonderfully rich and classic treat, very popular all over Britain and Ireland. They can often be found in cafes, served with morning coffee or afternoon tea. They're perfect for picnics, lunches and your guests will love them! They have a crunchy base with a creamy caramel filling, topped off with chocolate.",
+    "ingredients": [
+      "350 g self-raising flour",
+      "225 g unsalted butter",
+      "110 g caster sugar",
+      "225 g caster sugar",
+      "225 g unsalted butter",
+      "5 Tablespoons golden syrup",
+      "400 ml full-fat condensed milk",
+      "340 g good-quality chocolate (milk or dark), melted"
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C (gas mark 4; 350°F). Rub flour, butter, and caster sugar together until it resembles breadcrumbs.",
+      "Press into a 25 x 38 x 4 cm Swiss roll pan.",
+      "Bake for 20 minutes or till golden.",
+      "Cool.",
+      "Melt butter in a heavy-based saucepan over a low heat; add sugar, golden syrup, and condensed milk.",
+      "Stir continuously for 40–50 minutes. It should be golden brown in colour when ready to eat. To test, drop a little blob into a bowl of cold water; it should firm up.",
+      "Pour this caramel mixture over the base, and let it cool.",
+      "Pour melted chocolate over the top.",
+      "Spread the chocolate evenly, and let set."
+    ],
+    "notes": [],
+    "servings": 8,
+    "totalTimeMinutes": 90,
+    "difficulty": 4,
+    "category": "Recipes for dessert",
+    "categories": [
+      "Irish recipes",
+      "English recipes|{{PAGENAME}}",
+      "Scottish recipes",
+      "Recipes for cake",
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes using butter",
+      "Recipes for caramel",
+      "Recipes using superfine sugar",
+      "Recipes using chocolate",
+      "Recipes using condensed milk",
+      "Recipes for dessert",
+      "Recipes using self-raising flour",
+      "Recipes using golden syrup"
+    ]
+  },
+  "image": {
+    "filename": "Millionaire's_shortbread.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Millionaire%27s_shortbread.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Millionaire%27s_shortbread.jpg",
+    "localPath": "scripts/wiki/output/Millionaire's_shortbread.jpg",
+    "dimensions": {
+      "width": 665,
+      "height": 1000
+    },
+    "fileSize": 66448,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Aurore D",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "metadata": {
+      "description": "Also called \"Caramel shortbread,\" the confection consists of three layers; a shortbread biscuit base, a caramel filling and a milk chocolate topping.",
+      "categories": [
+        "Millionaire's Shortbread",
+        "Flickr images uploaded by Flickr upload bot",
+        "Squares (dessert)"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Millionaire's_shortbread.jpg"
+  }
+}

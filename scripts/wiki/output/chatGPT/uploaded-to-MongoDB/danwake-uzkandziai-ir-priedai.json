@@ -1,0 +1,222 @@
+{
+  "slug": "danwake-uzkandziai-ir-priedai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/danwake-uzkandziai-ir-priedai",
+  "title": {
+    "lt": "Danwake - Nigeriški užkandžiai su padažu"
+  },
+  "description": {
+    "lt": "Danwake yra populiarus Nigerijos patiekalas, ypač šiauriniuose regionuose, gaminamas iš maltų pupelių, miltų ir prieskonių. Šis sotus ir maistingas patiekalas dažnai patiekiamas su įvairiais padažais arba sriubomis, kaip pavyzdžiui, yaji arba aštriu pipirų troškiniu. Danwake gali būti valgomas vienas arba su daržovėmis."
+  },
+  "seo": {
+    "metaTitle": "Danwake - Nigeriški užkandžiai su padažu | Receptas",
+    "metaDescription": "Autentiškas Danwake receptas iš Nigerijos, gaminamas iš maltų pupelių, miltų ir prieskonių. Patiekiamas su aštriais padažais ar daržovėmis. Puikus užkandis ar pagrindinis patiekalas.",
+    "keywords": [
+      "danwake",
+      "nigeriški užkandžiai",
+      "aštrus maistas",
+      "daržovės su padažu",
+      "tradicinis nigeriškas patiekalas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigeriečių",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "8g",
+      "fatContent": "10g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 3,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Potašas"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kviečių miltai arba sorų miltai"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baobabo lapų miltai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus arba palmių aliejus"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "0.5 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kapotas kopūstas arba yaji"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Potašo paruošimas"
+      },
+      "text": {
+        "lt": "Potašą ištirpinkite mažame dubenyje su trupučiu vandens ir atidėkite į šalį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Miltų maišymas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite kviečių miltus (arba pasirinktus miltus) su baobabo lapų miltais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Skysto mišinio ruošimas"
+      },
+      "text": {
+        "lt": "Lėtai į miltų mišinį pilkite ištirpintą potašo tirpalą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Pamažu pilkite vandenį, maišydami, kol susidarys tiršta, vientisa tešla."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Danwake virimas"
+      },
+      "text": {
+        "lt": "Dideliame puode užvirkite didelį kiekį vandens. Naudodami šaukštą ar ranką, formuokite mažus tešlos gabaliukus ir dėkite juos į verdantį vandenį."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Virimo pabaiga"
+      },
+      "text": {
+        "lt": "Leiskite virtinukams virti 10–15 minučių, kol jie pakils į paviršių ir taps tvirti."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Nukoškite virtinukus ir apšlakstykite augaliniu aliejumi. Patiekite su kapotais svogūnais ir kopūstais."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/danwake-uzkandziai-ir-priedai.jpg",
+    "alt": "Danwake - Nigeriški užkandžiai su padažu",
+    "width": 912,
+    "height": 1080
+  },
+  "tags": [
+    "danwake",
+    "nigeriški užkandžiai",
+    "aštrus maistas",
+    "daržovės su padažu",
+    "tradicinis nigeriškas patiekalas"
+  ],
+  "author": {
+    "name": "Gwanki",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Gwanki"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Danwake",
+    "pageTitle": "Cookbook:Danwake",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:26:40.226Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADanwake&action=history",
+    "originalCreator": {
+      "name": "Gwanki",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gwanki"
+    }
+  },
+  "originalImage": {
+    "fileName": "Dan_Wake.jpg",
+    "author": {
+      "name": "YusufuAM",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:YusufuAM"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Dan_Wake.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:07:55+03:00",
+  "createdAt": "2026-01-03T14:07:55+03:00",
+  "updatedAt": "2026-01-03T14:07:55+03:00"
+}

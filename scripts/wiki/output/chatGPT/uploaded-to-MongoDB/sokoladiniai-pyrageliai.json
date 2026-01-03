@@ -1,0 +1,230 @@
+{
+  "slug": "sokoladiniai-pyrageliai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladiniai-pyrageliai",
+  "title": {
+    "lt": "Šokoladiniai pyragėliai"
+  },
+  "description": {
+    "lt": "Šie šokoladiniai pyragėliai yra lengvai pagaminami, tačiau tešlą reikia atšaldyti kelias valandas. Jie pasižymi stipriu šokolado skoniu ir įspūdinga juodai balta išvaizda. Viena porcija pagamina 3-4 dešimtis pyragėlių."
+  },
+  "seo": {
+    "metaTitle": "Šokoladiniai pyragėliai | Lengvas receptas su šokoladu",
+    "metaDescription": "Lengvai pagaminami šokoladiniai pyragėliai su turtingu šokolado skoniu. Puiki desertų idėja, kuriai reikia kelias valandas atšaldyti tešlą.",
+    "keywords": [
+      "šokoladiniai pyragėliai",
+      "desertai su šokoladu",
+      "lengvas pyragėlių receptas",
+      "juodi ir balti pyragėliai",
+      "pyragėliai vaikams"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 100,
+      "proteinContent": "2g",
+      "fatContent": "5g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 12,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 36,
+  "servingsUnit": "pyragėliai",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vaikams"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokoladas"
+      },
+      "quantity": "115 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "480 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "4 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "10 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "480 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "10 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "240 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite aliejų, šokoladą ir cukrų. Gerai išmaišykite, kad visi ingredientai susijungtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kiaušinių pridėjimas"
+      },
+      "text": {
+        "lt": "Vienu metu įmaišykite po vieną kiaušinį, kol masė bus gerai sumaišyta. Įpilkite vanilės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sausų ingredientų pridėjimas"
+      },
+      "text": {
+        "lt": "Į šokolado mišinį įmaišykite miltus, kepimo miltelius ir druską. Viską gerai išmaišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos atšaldymas"
+      },
+      "text": {
+        "lt": "Tešlą atšaldykite kelias valandas arba per naktį, kad ji sutvirtėtų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimo pasiruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175°C."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Pyragėlių formavimas"
+      },
+      "text": {
+        "lt": "Šaukšteliu paimkite tešlos, apvoliokite cukraus pudroje ir suformuokite rutuliukus."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Rutuliukus dėkite ant riebalais pateptos kepimo skardos, palikdami tarp jų maždaug 5 cm tarpus. Kepkite 10-12 minučių."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladiniai-pyrageliai.jpg",
+    "alt": "Šokoladiniai pyragėliai su cukraus pudra",
+    "width": 4032,
+    "height": 3024
+  },
+  "tags": [
+    "šokoladiniai pyragėliai",
+    "desertai su šokoladu",
+    "lengvas receptas",
+    "pyragėliai vaikams",
+    "šokolado desertai"
+  ],
+  "author": {
+    "name": "24.3.101.51",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:24.3.101.51"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Crinkles",
+    "pageTitle": "Cookbook:Chocolate_Crinkles",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:57.793Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Crinkles&action=history",
+    "originalCreator": {
+      "name": "24.3.101.51",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:24.3.101.51"
+    }
+  },
+  "originalImage": {
+    "fileName": "Melting_Chocolate_in_Double_Boiler.jpg",
+    "author": {
+      "name": "John V. Pozniak",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gentgeen"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Melting_Chocolate_in_Double_Boiler.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

@@ -1,0 +1,88 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chickpea_Omelette",
+    "pageTitle": "Cookbook:Chickpea_Omelette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Kittycataclysm",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kittycataclysm"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChickpea_Omelette&action=history",
+    "extractedAt": "2025-12-23T07:09:37.261Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chickpea Omelette",
+    "slug": "chickpea-omelette",
+    "description": "Chickpea omelette is a simple and quick breakfast dish. It is suitable for vegan and vegetarian diets, and is a great source of protein.",
+    "ingredients": [
+      "1 cup chickpea flour",
+      "1 teaspoon baking powder",
+      "Salt",
+      "1 teaspoon ground turmeric",
+      "1 teaspoon paprika",
+      "1 cup soy milk or water",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "In a bowl, mix the chickpea flour, baking powder, salt, turmeric, and paprika until combined.",
+      "The finished batterGradually add in the soy milk, and mix until the batter is fully combined.",
+      "Heat up a skillet on medium heat and add the olive oil. Spread the oil across the pan and let it heat up a little.",
+      "Frying the batterPour the batter into the skillet. Cook until bubbles form in the middle. Then, carefully flip using a spatula.",
+      "Cook the other side for about 30 seconds.",
+      "Serve."
+    ],
+    "notes": [
+      "Experiment with adding ingredients into the batter such as chives, bell peppers, and onions.",
+      "Nutritional yeast can be added to give a sense of umami.",
+      "Using water instead of soya milk causes more batter spread, giving you a larger but thinner omelette."
+    ],
+    "servings": 1,
+    "totalTimeMinutes": 5,
+    "difficulty": 2,
+    "category": "Breakfast recipes",
+    "categories": [
+      "Recipes using baking powder",
+      "Recipes using chickpea flour",
+      "Vegan recipes"
+    ]
+  },
+  "image": {
+    "filename": "Chickpea_Omelette_Complete.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Chickpea_Omelette_Complete.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chickpea_Omelette_Complete.jpg",
+    "localPath": "scripts/wiki/output/Chickpea_Omelette_Complete.jpg",
+    "dimensions": {
+      "width": 3020,
+      "height": 2851
+    },
+    "fileSize": 6038829,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Back ache",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Back%20ache"
+    },
+    "metadata": {
+      "description": "Chickpea Omelette Completed",
+      "categories": [
+        "Omelettes",
+        "CC-Zero",
+        "Location withheld",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chickpea_Omelette_Complete.jpg"
+  }
+}

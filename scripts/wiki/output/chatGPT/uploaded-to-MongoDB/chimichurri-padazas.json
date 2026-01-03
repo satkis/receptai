@@ -1,0 +1,278 @@
+{
+  "slug": "chimichurri-padazas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/chimichurri-padazas",
+  "title": {
+    "lt": "Chimichurri - Argentiniškas padažas"
+  },
+  "description": {
+    "lt": "Chimichurri yra tradicinis Pietų Amerikos padažas, puikiai tinkantis prie keptos mėsos. Jis gaminamas iš alyvuogių aliejaus, acto, petražolių ir prieskonių. Šis aromatingas padažas gali būti naudojamas kaip marinatas arba pagardas įvairiems patiekalams."
+  },
+  "seo": {
+    "metaTitle": "Chimichurri - Argentiniškas padažas | Receptas",
+    "metaDescription": "Išbandykite tradicinį Argentinos chimichurri padažą, pagamintą su alyvuogių aliejumi, actu ir šviežiomis žolelėmis. Puikiai tinka prie keptos mėsos.",
+    "keywords": [
+      "chimichurri",
+      "argentinietiškas padažas",
+      "petražolių padažas",
+      "kepta mėsa",
+      "tradicinis receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Argentinietiška",
+    "nutrition": {
+      "calories": 100,
+      "proteinContent": "1g",
+      "fatContent": "9g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/salotos",
+  "secondaryCategories": [
+
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "100 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis vyno actas"
+      },
+      "quantity": "50 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "50 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "1 pundelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vidutinis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili dribsniai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Oregano"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jūros druska"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinų sultys"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Lauro lapai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kalendra"
+      },
+      "quantity": "1 šaukštas",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Žalioji paprika"
+      },
+      "quantity": "½ vnt.",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sudedamųjų dalių paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite visus ingredientus (žoleles susmulkinkite), išskyrus aliejų, actą ir vandenį, dideliame dubenyje. Gerai išmaišykite, kad visos žolelės ir prieskoniai būtų tolygiai pasiskirstę."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Poilsio laikas"
+      },
+      "text": {
+        "lt": "Palikite mišinį pailsėti 30 minučių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Skonių sujungimas"
+      },
+      "text": {
+        "lt": "Užvirinkite actą ir vandenį, ir užpilkite ant kitų ingredientų. Gerai išmaišykite, kad svogūnų ir česnakų skonis sušvelnėtų."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Dar kartą pailsėti"
+      },
+      "text": {
+        "lt": "Palikite mišinį pailsėti dar 30 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Aliejaus pridėjimas"
+      },
+      "text": {
+        "lt": "Įpilkite aliejų ir gerai išmaišykite. Jei skystis neuždenka ingredientų, pridėkite aliejaus, vandens ir acto santykiu 2:1:1."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Brandinimas"
+      },
+      "text": {
+        "lt": "Perpilkite į hermetišką indą ir laikykite šaldytuve bent per naktį."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Kai reikia, išimkite iš šaldytuvo apie 30 minučių prieš patiekiant, kad aliejus vėl suskystėtų. Gerai išmaišykite ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Raudonam chimichurri naudokite 50 ml raudonojo vyno acto ir pridėkite 1 pomidorą bei ½ raudonos paprikos."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/chimichurri-padazas.jpg",
+    "alt": "Chimichurri padažas su šviežiomis žolelėmis ir prieskoniais",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "chimichurri padažas",
+    "argentinietiškas receptas",
+    "alyvuogių aliejus",
+    "petražolės",
+    "kepta mėsa"
+  ],
+  "author": {
+    "name": "Inductiveload",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Inductiveload"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chimichurri",
+    "pageTitle": "Cookbook:Chimichurri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:39.641Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChimichurri&action=history",
+    "originalCreator": {
+      "name": "Inductiveload",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Inductiveload"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chimichurri3.jpg",
+    "author": {
+      "name": "Gveret Tered",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gveret%20Tered"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Chimichurri3.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

@@ -1,0 +1,190 @@
+{
+  "slug": "filipiniskas-sokoladinis-ryziu-kose-champorado",
+  "canonicalUrl": "https://ragaujam.lt/receptas/filipiniskas-sokoladinis-ryziu-kose-champorado",
+  "title": {
+    "lt": "Filipiniška šokoladinė ryžių košė Champorado"
+  },
+  "description": {
+    "lt": "Champorado – tai šokoladinė košė, labai mėgstama filipiniečių, ypač šaltu oru. Šis patiekalas puikiai sušildo ir suteikia energijos."
+  },
+  "seo": {
+    "metaTitle": "Filipiniška Champorado | Šokoladinė ryžių košė",
+    "metaDescription": "Pasigaminkite filipinietišką Champorado – šokoladinę ryžių košę su kakavos milteliais ir kondensuotu pienu. Idealiai tinka šaltoms dienoms.",
+    "keywords": [
+      "champorado",
+      "šokoladinė ryžių košė",
+      "filipinų virtuvė",
+      "kakavos milteliai",
+      "saldus patiekalas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Filipinų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "8g",
+      "fatContent": "5g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pusryciai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Glitnūs ryžiai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "2-3 litrai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kakavos milteliai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kondensuotas pienas"
+      },
+      "quantity": "1 skardinė (340ml)",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ryžių paruošimas"
+      },
+      "text": {
+        "lt": "Du kartus praplaukite ryžius po tekančiu vandeniu. Tai padės pašalinti perteklinį krakmolą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Virimui"
+      },
+      "text": {
+        "lt": "Puode sumaišykite ryžius ir vandenį. Uždenkite ir virkite ant vidutinės ugnies, kol užvirs."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Maišymas"
+      },
+      "text": {
+        "lt": "Atidenkite puodą ir įmaišykite cukrų bei kakavos miltelius. Gerai išmaišykite, kad neliktų gumulų."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Troškinimas"
+      },
+      "text": {
+        "lt": "Sumažinkite ugnį ir troškinkite košę, retkarčiais maišydami, kol ryžiai suminkštės ir košė taps tiršta."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Įmaišykite kondensuotą pieną ir patiekite karštą. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Champorado puikiai dera su sūdytomis žuvimis, jei norite kontrastingo skonio."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/filipiniskas-sokoladinis-ryziu-kose-champorado.jpg",
+    "alt": "Filipiniška šokoladinė ryžių košė Champorado dubenyje",
+    "width": 2592,
+    "height": 1944
+  },
+  "tags": [
+    "champorado",
+    "šokoladinė košė",
+    "filipinų desertas",
+    "ryžių košė",
+    "saldus patiekalas"
+  ],
+  "author": {
+    "name": "Jay Bolero",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Champorado_(Chocolate_Rice_Porridge)",
+    "pageTitle": "Cookbook:Champorado_(Chocolate_Rice_Porridge)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:46.761Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChamporado_(Chocolate_Rice_Porridge)&action=history",
+    "originalCreator": {
+      "name": "Jay Bolero",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+    }
+  },
+  "originalImage": {
+    "fileName": "Champorado.jpg",
+    "author": {
+      "name": "Josh James from Imus, Philippines",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:UAwiki"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Champorado.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T18:00:00+03:00",
+  "createdAt": "2025-12-21T18:00:00+03:00",
+  "updatedAt": "2025-12-21T18:00:00+03:00"
+}

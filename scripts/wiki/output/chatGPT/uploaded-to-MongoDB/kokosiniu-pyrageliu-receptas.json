@@ -1,0 +1,206 @@
+{
+  "slug": "kokosiniu-pyrageliu-receptas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kokosiniu-pyrageliu-receptas",
+  "title": {
+    "lt": "Kokosinių pyragėlių receptas"
+  },
+  "description": {
+    "lt": "Kokosinės piramidės yra paprasti pyragėliai, kuriuos lengva pasigaminti, net ir vaikams. Šis receptas yra be glitimo, todėl tinka visiems, norintiems desertų be glitimo."
+  },
+  "seo": {
+    "metaTitle": "Kokosinės piramidės | Paprastas receptas be glitimo",
+    "metaDescription": "Atraskite, kaip lengvai pagaminti kokosines piramides – desertą be glitimo, kuris patiks tiek vaikams, tiek suaugusiems. Puikus pasirinkimas saldžiam užkandžiui.",
+    "keywords": [
+      "kokosinės piramidės",
+      "desertai be glitimo",
+      "kokosiniai pyragaičiai",
+      "paprastas receptas",
+      "vaikų desertai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 160,
+      "proteinContent": "3g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 3,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/vaikams",
+    "receptai/be-glitimo"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kokosas"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "50g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vyšnios be kauliukų"
+      },
+      "quantity": "apie 6 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Rožinis maisto dažiklis"
+      },
+      "quantity": "keli lašai",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 180°C."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Dubenyje sumaišykite cukrų ir kokoso drožles. Kitame dubenyje suplakite kiaušinį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Į sausus ingredientus įmaišykite kiaušinį (ir maisto dažiklius, jei naudojate). Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pyragėlių formavimas"
+      },
+      "text": {
+        "lt": "Rankomis arba naudodami kiaušinio puodelį suformuokite 6-7 piramides (pyragėlius) ir išdėliokite ant kepimo popieriumi išklotos skardos."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Vyšnių pridėjimas"
+      },
+      "text": {
+        "lt": "Įspauskite vyšnią į kiekvieno pyragėlio viršūnę, jei naudojate."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 15-20 minučių, kol piramidės taps šviesiai auksinės spalvos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Iškepus, piramides galite dekoruoti ištirpintu tamsiu šokoladu."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Kokosinės piramidės gali būti laikomos kelias dienas sandariame inde."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kokosiniu-pyrageliu-receptas.jpg",
+    "alt": "Kokosinės piramidės ant lėkštės",
+    "width": 2304,
+    "height": 1844
+  },
+  "tags": [
+    "kokosinės piramidės",
+    "desertai be glitimo",
+    "lengvas receptas",
+    "vaikų desertai",
+    "kokosiniai pyragaičiai"
+  ],
+  "author": {
+    "name": "ChrisHodgesUK",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:ChrisHodgesUK"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Coconut_Pyramids",
+    "pageTitle": "Cookbook:Coconut_Pyramids",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:31.926Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Pyramids&action=history",
+    "originalCreator": {
+      "name": "ChrisHodgesUK",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:ChrisHodgesUK"
+    }
+  },
+  "originalImage": {
+    "fileName": "Coconut_pyramid_sharp.png",
+    "author": {
+      "name": "ChrisHodgesUK",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:ChrisHodgesUK"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Coconut_pyramid_sharp.png"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

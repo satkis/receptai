@@ -1,0 +1,281 @@
+{
+  "slug": "vistiena-vindalu-su-indiskais-prieskoniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vistiena-vindalu-su-indiskais-prieskoniais",
+  "title": {
+    "lt": "Vištiena Vindalū su Indiskais Prieskoniais"
+  },
+  "description": {
+    "lt": "Vištiena Vindalū – tai aštrus ir pikantiškas patiekalas iš Goa regiono Indijoje. Šis receptas pasižymi intensyviu acto skoniu ir turtingu prieskonių mišiniu, kurio dėka vištiena tampa nuostabiai aromatinga."
+  },
+  "seo": {
+    "metaTitle": "Vištiena Vindalū | Indijos prieskonių receptas",
+    "metaDescription": "Sužinokite, kaip paruošti autentišką Vištieną Vindalū su turtingu prieskonių mišiniu iš Goa regiono. Puikus pasirinkimas aštrių patiekalų mėgėjams.",
+    "keywords": [
+      "vištiena vindalū",
+      "indijos virtuvė",
+      "aštrus patiekalas",
+      "indiski prieskoniai",
+      "pikantiški receptai"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "35g",
+      "fatContent": "25g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "3 filė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "2-3 dideli",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili pipirai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "6 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "4 cm",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltas vyno actas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros milteliai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garam masala"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "1.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodosios garstyčios"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Akmens druska"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežia kalendra"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "200 gramų",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Svogūnų paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir apkepkite plonai pjaustytus svogūnus, kol jie taps auksiniai ir traškūs."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Svogūnų padažo gamyba"
+      },
+      "text": {
+        "lt": "Kai svogūnai auksiniai, sutrinkite juos su šiek tiek aliejaus iki pastos konsistencijos. Tai bus pagrindinis padažas."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Česnako ir čili padažas"
+      },
+      "text": {
+        "lt": "Sutrinkite česnaką, imbierą ir čili pipirus. Įpilkite ciberžolės, kalendros, garam masalos ir cinamono. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Vištienos paruošimas su prieskoniais"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę su aliejumi, įdėkite vištieną ir kepkite su česnako bei čili padažu, kol vištiena bus beveik iškepusi."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Galutinis patiekalo paruošimas"
+      },
+      "text": {
+        "lt": "Į vištieną įpilkite svogūnų padažą ir vandens. Sumažinkite ugnį ir troškinkite apie 30 minučių. Patiekite su ryžiais ir pabarstykite kalendra."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite šviežių ingredientų, naudokite džiovintus, bet tai paveiks skonį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei mėgstate labai aštrius patiekalus, padvigubinkite čili pipirų kiekį."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Galite pridėti daržovių, pavyzdžiui, žirnelių, kad patiekalas būtų dar įvairesnis."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vistiena-vindalu-su-indiskais-prieskoniais.jpg",
+    "alt": "Vištiena Vindalū su intensyviu prieskonių mišiniu",
+    "width": 800,
+    "height": 600
+  },
+  "tags": [
+    "vištiena vindalū",
+    "indijos virtuvė",
+    "aštrus maistas",
+    "pikantiški receptai",
+    "prieskoninis patiekalas"
+  ],
+  "author": {
+    "name": "Carpathia~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Carpathia~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Vindaloo",
+    "pageTitle": "Cookbook:Chicken_Vindaloo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T10:09:30+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Vindaloo&action=history",
+    "originalCreator": {
+      "name": "Carpathia~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Carpathia~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Vindaloo.jpeg",
+    "author": {
+      "name": "Carpathia at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Chicken_Vindaloo.jpeg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Chicken_Vindaloo.jpeg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:09:30+03:00",
+  "createdAt": "2025-12-23T10:09:30+03:00",
+  "updatedAt": "2025-12-23T10:09:30+03:00"
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "melynojo-pelesio-padazas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/melynojo-pelesio-padazas",
+  "title": {
+    "lt": "Mėlynojo pelėsinio sūrio padažas"
+  },
+  "description": {
+    "lt": "Mėlynojo pelėsinio sūrio padažas - tai klasikinis priedas prie salotų ar mėsos patiekalų. Šis receptas sujungia mėlynojo sūrio, grietinės, majonezo ir pasukų skonius. Puikiai tinka kaip užkandis ar garnyras prie įvairių patiekalų."
+  },
+  "seo": {
+    "metaTitle": "Mėlynojo pelėsinio sūrio padažas | Receptas su mėlynojo sūrio",
+    "metaDescription": "Atraskite kaip paruošti mėlynojo pelėsinio sūrio padažą su šiuo paprastu receptu. Idealiai tinka prie salotų ir mėsos patiekalų.",
+    "keywords": [
+      "mėlynojo pelėsinio sūrio padažas",
+      "salotų padažas",
+      "majonezas",
+      "mėlynojo sūrio receptas",
+      "padažai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "JAV",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "4g",
+      "fatContent": "18g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/salotos",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Citrinos sultys arba actas"
+      },
+      "quantity": "30 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pasukos"
+      },
+      "quantity": "160 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Majonezas"
+      },
+      "quantity": "230 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinė"
+      },
+      "quantity": "180 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnako milteliai"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnų milteliai"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mėlynasis pelėsinis sūris"
+      },
+      "quantity": "115 g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite visus ingredientus, išskyrus mėlynąjį pelėsinį sūrį, ir plakite, kol gausite vienalytę masę."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sūrio paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite mėlynąjį pelėsinį sūrį maždaug 1 cm kubeliais. Sūris dažnai būna trapesnis, todėl atsiras daug trupinių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Padažo užbaigimas"
+      },
+      "text": {
+        "lt": "Įpilkite majonezo mišinį į serviravimo indą ir įmaišykite sūrio kubelius ir trupinius."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Padažą galima laikyti šaldytuve iki trijų dienų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekite su šviežiomis salotomis ar kepta mėsa."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/melynojo-pelesio-padazas.jpg",
+    "alt": "Mėlynojo pelėsinio sūrio padažas indelyje",
+    "width": 1875,
+    "height": 1538
+  },
+  "tags": [
+    "mėlynojo pelėsinio sūrio padažas",
+    "salotų padažas",
+    "majonezas",
+    "mėlynojo sūrio receptas",
+    "padažai"
+  ],
+  "author": {
+    "name": "Mahagaja",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mahagaja"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Blue_Cheese_Dressing",
+    "pageTitle": "Cookbook:Blue_Cheese_Dressing",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:10:59.938Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlue_Cheese_Dressing&action=history",
+    "originalCreator": {
+      "name": "Mahagaja",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mahagaja"
+    }
+  },
+  "originalImage": {
+    "fileName": "Blue_cheese_dressing.jpg",
+    "author": {
+      "name": "jules",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Belbury"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Blue_cheese_dressing.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:10:00+03:00",
+  "createdAt": "2025-11-27T16:10:00+03:00",
+  "updatedAt": "2025-11-27T16:10:00+03:00"
+}

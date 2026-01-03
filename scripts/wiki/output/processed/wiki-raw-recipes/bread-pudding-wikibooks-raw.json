@@ -1,0 +1,96 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bread_Pudding",
+    "pageTitle": "Cookbook:Bread_Pudding",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Quillaja",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Quillaja"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABread_Pudding&action=history",
+    "extractedAt": "2025-11-27T13:11:12.937Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bread Pudding",
+    "slug": "bread-pudding",
+    "description": "Category:Recipes using egg Category:Recipes using cow milk Category:Recipes for dessert category:Baking recipes category:easy recipes category:inexpensive recipes Category:Recipes_with_metric_units Category:Recipes for pudding Category:Recipes using butter Category:Recipes using granulated sugar Category:Recipes using ground cinnamon Category:Recipes using bread",
+    "ingredients": [
+      "6 slices of bread, with or without crusts. Slightly stale or new bread is acceptable.",
+      "30 g (2 tbsp) butter, melted",
+      "80 g (½ cup) raisins (optional)",
+      "4 eggs",
+      "150 g (¾ cup) white granulated sugar",
+      "475 ml (2 cups) milk",
+      "2 g (1 tsp) ground cinnamon",
+      "5 ml (1 tsp) vanilla extract"
+    ],
+    "instructions": [
+      "Heat oven to 175°C (350°F).",
+      "Rip bread into small pieces. Cutting into cubes is also okay. Place into baking dish. Mix in raisins while filling the dish.",
+      "Pour melted butter over the bread.",
+      "In a bowl, beat the eggs slightly. Add the sugar, milk, cinnamon, and vanilla. Mix.",
+      "Pour mixture over the bread. Press the bread lightly to help it absorb the mixture, if necessary. All the bread should be wet.",
+      "Bake in preheated oven for 45 minutes.",
+      "Remove and let cool.",
+      "Serve cold, though warm may also be acceptable. Use a spoon, or cut into squares, to serve."
+    ],
+    "notes": [],
+    "servings": 12,
+    "totalTimeMinutes": 60,
+    "difficulty": 2,
+    "category": "Recipes for dessert",
+    "categories": [
+      "Recipes using egg",
+      "Recipes using cow milk",
+      "Recipes for dessert",
+      "Baking recipes",
+      "easy recipes",
+      "inexpensive recipes",
+      "Recipes_with_metric_units",
+      "Recipes for pudding",
+      "Recipes using butter",
+      "Recipes using granulated sugar",
+      "Recipes using ground cinnamon",
+      "Recipes using bread"
+    ]
+  },
+  "image": {
+    "filename": "A_slice_of_bread_pudding.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/A_slice_of_bread_pudding.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_slice_of_bread_pudding.JPG",
+    "localPath": "scripts/wiki/output/A_slice_of_bread_pudding.JPG",
+    "dimensions": {
+      "width": 1600,
+      "height": 1200
+    },
+    "fileSize": 843084,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:A_slice_of_bread_pudding.JPG?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Quillaja",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Quillaja"
+    },
+    "metadata": {
+      "description": "A slice of home-made bread pudding.",
+      "categories": [
+        "Taken with Canon Digital IXUS 70",
+        "Bread puddings",
+        "Self-published work",
+        "PD-self"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "A_slice_of_bread_pudding.JPG"
+  }
+}

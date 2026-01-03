@@ -1,0 +1,102 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar)",
+    "pageTitle": "Cookbook:Chocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "SteinAlive",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SteinAlive"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar)&action=history",
+    "extractedAt": "2025-12-23T07:09:43.753Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chocolate and Custard Layered Dessert (Nanaimo Bar)",
+    "slug": "chocolate-and-custard-layered-dessert-nanaimo-bar",
+    "description": "Nanaimo Bars are a layered chocolate and custard dessert named after the mining town, Nanaimo, British Columbia, Canada. This winning recipe was submitted by Joyce Hardcastle in 1986 when the City of Nanaimo and Harbour Park Mall had a contest to find the best Nanaimo Bar recipe. Variations of this recipe include using different nuts and/or adding flavours to the custard layer.",
+    "ingredients": [
+      "½ cup unsalted butter (European style cultured)",
+      "¼ cup white granulated sugar",
+      "5 tbsp cocoa",
+      "1 egg beaten",
+      "1¼ cups graham wafer crumbs",
+      "½ cups finely-chopped almonds",
+      "1 cup coconut",
+      "½ cup unsalted butter",
+      "2 tbsp and 2 tsp cream",
+      "2 tbsp vanilla custard powder",
+      "2 cups icing sugar",
+      "4 squares (4 oz) semi-sweet chocolate",
+      "2 tbsp unsalted butter"
+    ],
+    "instructions": [
+      "Melt first 3 ingredients in top of double boiler.",
+      "Add egg and stir to cook and thicken.",
+      "Remove from heat. Stir in crumbs, coconut, and nuts.",
+      "Press firmly into an ungreased 8 x 8-inch cake pan.",
+      "Cream butter, cream, custard powder, and icing sugar together well. Beat until light.",
+      "Spread over bottom layer.",
+      "Melt chocolate and butter over low heat. Cool.",
+      "Once cool, but still liquid, pour over second layer and chill in refrigerator.",
+      "Once set, cut into squares and serve. Enjoy."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Canadian recipes",
+      "Recipes using almond",
+      "Recipes for dessert",
+      "Recipes using butter",
+      "Recipes using powdered sugar",
+      "Recipes using granulated sugar",
+      "Recipes using dark chocolate",
+      "Recipes using cocoa powder",
+      "Recipes using coconut",
+      "Recipes using custard powder",
+      "Recipes using egg"
+    ]
+  },
+  "image": {
+    "filename": "Nanaimo_bar.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Nanaimo_bar.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nanaimo_bar.JPG",
+    "localPath": "scripts/wiki/output/Nanaimo_bar.JPG",
+    "dimensions": {
+      "width": 2592,
+      "height": 1952
+    },
+    "fileSize": 1769444,
+    "license": {
+      "code": "cc-by-2.5",
+      "shortName": "CC BY 2.5",
+      "fullName": "Creative Commons Attribution 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Stephanie Spencer",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Miss-Efficiency~commonswiki"
+    },
+    "metadata": {
+      "description": "Two nanaimo bars on a blue plate",
+      "categories": [
+        "GFDL",
+        "Taken with HP PhotoSmart R707",
+        "Nanaimo bars",
+        "License migration redundant",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Nanaimo_bar.JPG"
+  }
+}

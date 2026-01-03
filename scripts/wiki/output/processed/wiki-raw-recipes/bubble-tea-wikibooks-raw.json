@@ -1,0 +1,85 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bubble_Tea",
+    "pageTitle": "Cookbook:Bubble_Tea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "OMouse",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:OMouse"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABubble_Tea&action=history",
+    "extractedAt": "2025-11-27T13:11:20.473Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bubble Tea",
+    "slug": "bubble-tea",
+    "description": "| Cuisines | East Asian cuisines | Cuisine of Taiwan",
+    "ingredients": [
+      "½ cup (125 ml) cooked boba tapioca pearls",
+      "1 cup (250 ml) crushed ice",
+      "1 cup (250 ml) very strong chilled black tea",
+      "1 cup (250 ml) milk, to taste",
+      "Honey or granulated sugar, to taste"
+    ],
+    "instructions": [
+      "Place pearls in a large glass.",
+      "Combine all remaining ingredients in a cocktail shaker. Shake vigorously until mixture is frothy.",
+      "Pour into glass and serve with large-diameter straws."
+    ],
+    "notes": [
+      "If you don't want the drink to be frothy, simply stir the ingredients together instead of shaking."
+    ],
+    "servings": 1,
+    "totalTimeMinutes": 30,
+    "difficulty": 1,
+    "category": "Beverage recipes",
+    "categories": [
+      "Recipes using tea",
+      "Recipes using tapioca|{{PAGENAME}}",
+      "Taiwanese recipes|{{PAGENAME}}",
+      "Vegetarian recipes|{{PAGENAME}}",
+      "Naturally gluten-free recipes",
+      "Recipes for beverages",
+      "Recipes using granulated sugar",
+      "Recipes using honey",
+      "Recipes using cow milk"
+    ]
+  },
+  "image": {
+    "filename": "Classic_bubble_tea.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Classic_bubble_tea.jpg",
+    "localPath": "scripts/wiki/output/Classic_bubble_tea.jpg",
+    "dimensions": {
+      "width": 637,
+      "height": 850
+    },
+    "fileSize": 305589,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Oqmilteashop",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ralf%20Roletschek"
+    },
+    "metadata": {
+      "description": "Clásico Bubble Tea con Tapioca, hecho por OQ Miltea Shop, Madrid",
+      "categories": [
+        "Self-published work",
+        "Bubble milk tea in Taiwan"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Classic_bubble_tea.jpg"
+  }
+}

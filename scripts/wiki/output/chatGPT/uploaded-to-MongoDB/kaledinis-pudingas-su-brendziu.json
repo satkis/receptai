@@ -1,0 +1,256 @@
+{
+  "slug": "kaledinis-pudingas-su-brendziu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kaledinis-pudingas-su-brendziu",
+  "title": {
+    "lt": "Kaledinis pudingas su brendžiu"
+  },
+  "description": {
+    "lt": "Kaledinis pudingas yra tradicinis desertas, mėgstamas per Kalėdas Jungtinėje Karalystėje ir kitose sandraugos šalyse. Šis desertas, dažnai vadinamas slyvų pudingu, yra gaminamas iš razinų, serbentų, cukraus ir brendžio. Skanus ir sotus, puikiai tinka šventiniam stalui."
+  },
+  "seo": {
+    "metaTitle": "Kaledinis pudingas su brendžiu | Tradicinis receptas",
+    "metaDescription": "Tradicinis kaledinis pudingas su razinomis, serbentais ir brendžiu. Puikus desertas šventiniam stalui. Patiekite su brendžio sviestu ar grietinėle.",
+    "keywords": [
+      "kaledinis pudingas",
+      "slyvų pudingas",
+      "tradicinis desertas",
+      "brendžio pudingas",
+      "šventinis desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Anglų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "5g",
+      "fatContent": "12g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 420,
+  "totalTimeMinutes": 450,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Razinos"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Serbentai"
+      },
+      "quantity": "340g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sultanos"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Suetas"
+      },
+      "quantity": "340g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiūvėsiai"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kandžolė"
+      },
+      "quantity": "110g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Migdolai"
+      },
+      "quantity": "55g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "60g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "190ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Brendis"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrina"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Muskato riešutas"
+      },
+      "quantity": "⅓ vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sumaišymas"
+      },
+      "text": {
+        "lt": "Visus ingredientus sudėkite į dubenį ir gerai išmaišykite, kad būtų tolygiai paskirstyta."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Padalijimas"
+      },
+      "text": {
+        "lt": "Tešlą padalykite į du pudingo indelius. Uždenkite drobėmis arba sviestiniu pergamentiniu popieriumi ir tvirtai užriškite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Garinimas"
+      },
+      "text": {
+        "lt": "Garinkite 7 valandas, tada atvėsinkite ir laikykite iki Kalėdų dienos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Paruošimas patiekti"
+      },
+      "text": {
+        "lt": "Norėdami patiekti, garinkite dar 2 valandas. Laiką galima sutrumpinti naudojant slėginį puodą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite sueto, galite naudoti sviestą. Ištirpinkite ir įmaišykite į tešlą."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekite su brendžio sviestu, grietinėle ar kremu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kaledinis-pudingas-su-brendziu.jpg",
+    "alt": "Kaledinis pudingas su liepsnomis ir brendžiu",
+    "width": 1446,
+    "height": 992
+  },
+  "tags": [
+    "kaledinis pudingas",
+    "tradicinis desertas",
+    "brendzio pudingas",
+    "angliski desertai",
+    "šventinis desertas"
+  ],
+  "author": {
+    "name": "Jamzze",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Jamzze"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Christmas_Pudding_II",
+    "pageTitle": "Cookbook:Christmas_Pudding_II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:18+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChristmas_Pudding_II&action=history",
+    "originalCreator": {
+      "name": "Jamzze",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jamzze"
+    }
+  },
+  "originalImage": {
+    "fileName": "Christmas-pudding-flames.jpg",
+    "author": {
+      "name": "Matt Riggott from Edinburgh, Scotland",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Christmas-pudding-flames.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:10:18+03:00",
+  "createdAt": "2025-12-23T07:10:18+03:00",
+  "updatedAt": "2025-12-23T07:10:18+03:00"
+}

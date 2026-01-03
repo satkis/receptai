@@ -1,0 +1,102 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cholley_(Chickpea_Curry)",
+    "pageTitle": "Cookbook:Cholley_(Chickpea_Curry)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "202.161.4.159",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:202.161.4.159"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACholley_(Chickpea_Curry)&action=history",
+    "extractedAt": "2025-12-23T07:10:10.763Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Cholley (Chickpea Curry)",
+    "slug": "cholley-chickpea-curry",
+    "description": "Cholley, also chole, choley, cholay, white cholay, chana, channa, or chana masala, is a popular and versatile Indian and Pakistani chickpea dish. It is commonly cooked in Northern India (especially Punjab) and Pakistan for breakfast, but it is also regularly served at dinner parties, picnics, wedding receptions and other special events. Cholley features chickpeas, onions, tomatoes and spices; variations include additions such as potato (alu). This dish pairs well with a range of grain-based accompaniments including, puri, roti, naan, rice and bhatoora.",
+    "ingredients": [
+      "250 g dried chickpeas",
+      "500 ml water for cooking",
+      "Salt (to taste)",
+      "1 tbsp oil",
+      "1 tsp coriander seeds",
+      "1 tsp cumin seeds (optional)",
+      "1 tsp nigella seeds (optional)",
+      "1 onion, sliced",
+      "1 clove garlic, minced",
+      "1 tbsp garam masala",
+      "2 medium tomatoes, chopped",
+      "2 tsp turmeric",
+      "Fresh coriander leaves (as a garnish)"
+    ],
+    "instructions": [
+      "Wash the chickpeas, then soak overnight in water, allowing them to soften somewhat. Make sure that the chickpeas are well-immersed with at least a few inches of water above them, as they will expand significantly while soaking.",
+      "The next day, drain the water and place the chickpeas in a pressure cooker or large cooking pot. Add the 500 ml fresh water and salt to taste, then cook until the chickpeas are tender (10 minutes at 15 psi in a pressure cooker; if using a regular pot, place the chickpeas in hot water to boil, and then reduce to a simmer for 60–90 minutes).",
+      "Heat the oil in a thick-bottomed pan. Add the coriander seeds, cumin seeds, and nigella seeds, cooking them briefly until they crackle. Quickly add the onions and garlic, reduce the heat to medium, and sauté until the onions are transparent.",
+      "Add garam masala, tomato, turmeric, and salt and cook for 1 minute.",
+      "Add the boiled chickpeas, reduce the heat, and allow the cholley to simmer for around 15 minutes. Check that the gravy has thickened before removing from the heat.",
+      "Once done, place the cholley in a serving bowl, add your coriander garnish, and serve with rice or bread."
+    ],
+    "notes": [
+      "Try adding coconut flakes and black pepper to taste."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 765,
+    "difficulty": 3,
+    "category": "Chickpea recipes",
+    "categories": [
+      "Indian recipes|{{PAGENAME}}",
+      "Pakistani recipes|{{PAGENAME}}",
+      "Vegan recipes|{{PAGENAME}}",
+      "Recipes using chickpea",
+      "Boiled recipes",
+      "Gluten-free recipes|{{PAGENAME}}",
+      "Low-GI recipes|{{PAGENAME}}",
+      "Recipes with metric units",
+      "Recipes using coriander",
+      "Recipes using garam masala",
+      "Recipes using garlic",
+      "Recipes using whole cumin"
+    ]
+  },
+  "image": {
+    "filename": "Chana_masala.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chana_masala.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chana_masala.jpg",
+    "localPath": "scripts/wiki/output/Chana_masala.jpg",
+    "dimensions": {
+      "width": 3072,
+      "height": 2304
+    },
+    "fileSize": 3390271,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Simon Law (sfllaw) from Montréal, QC, Canada",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Grenavitar"
+    },
+    "metadata": {
+      "description": "Picture of chana (chick peas) masala at Le Taj restaurant.Channa masala",
+      "categories": [
+        "Chana masala",
+        "Taken with Canon PowerShot A620",
+        "Flickr images reviewed by FlickreviewR",
+        "Information field template with formatting",
+        "Photographs by Simon Law"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chana_masala.jpg"
+  }
+}

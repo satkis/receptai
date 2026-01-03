@@ -1,0 +1,210 @@
+{
+  "slug": "dambun-masara-tradicinis-hausa-patiekalas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/dambun-masara-tradicinis-hausa-patiekalas",
+  "title": {
+    "lt": "Dambun Masara - Tradicinis Hausa Patiekalas"
+  },
+  "description": {
+    "lt": "Dambun masara - tai tradicinis hausa patiekalas, gaminamas iš kukurūzų miltų, kurie yra garinami ir sumaišomi su daržovėmis bei prieskoniais. Šis patiekalas yra purus ir trapus, dažnai valgomas kaip užkandis ar lengvas patiekalas šiaurės Nigerijoje. Puikiai dera su aštriu padažu ar šviežiomis pomidorais."
+  },
+  "seo": {
+    "metaTitle": "Dambun Masara - Tradicinis Hausa Patiekalas | Receptas su kukurūzų miltais",
+    "metaDescription": "Atraskite tradicinį hausa virtuvės patiekalą Dambun Masara, gaminamą iš kukurūzų miltų, daržovių ir prieskonių. Puikiai tinka su aštriu padažu.",
+    "keywords": [
+      "dambun masara",
+      "hausa patiekalas",
+      "kukurūzų miltai",
+      "tradicinis nigerijos patiekalas",
+      "aštrus užkandis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "6g",
+      "fatContent": "8g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kukurūzų miltai"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 mažas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Špinatai"
+      },
+      "quantity": "1 puodelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Malti pipirai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Į didelį dubenį sudėkite kukurūzų miltus. Palaipsniui įpilkite truputį vandens, kad mišinys būtų trupininis kaip kuskusas, o ne lipnus ar tešlos konsistencijos."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Garų virimas"
+      },
+      "text": {
+        "lt": "Įdėkite sudrėkintus kukurūzų miltus į garintuvą ar sietą virš puodo su verdančiu vandeniu. Garinkite 15–20 minučių, kol kukurūzų miltai taps purūs ir išvirę."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Didelėje keptuvėje įkaitinkite augalinį aliejų ant vidutinės ugnies. Sudėkite svogūnus ir kepkite, kol jie taps auksiniai."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Maišymas"
+      },
+      "text": {
+        "lt": "Į keptuvę su svogūnais įdėkite garintus kukurūzų miltus. Įdėkite smulkintus lapinius žalumynus (jei naudojate), pipirus ir druską. Viską gerai išmaišykite ir kepkite dar 10 minučių, kad skoniai susijungtų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą su aštriu pipirų padažu ar šviežiais pomidorų griežinėliais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite garintuvo, galite naudoti sietą virš puodo."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Lapinių žalumynų naudojimas yra neprivalomas, bet jie prideda patiekalui šviežumo."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/dambun-masara-tradicinis-hausa-patiekalas.jpg",
+    "alt": "Dambun masara - tradicinis hausa patiekalas iš kukurūzų miltų",
+    "width": 1280,
+    "height": 960
+  },
+  "tags": [
+    "dambun masara",
+    "tradicinis hausa patiekalas",
+    "kukurūzų miltai",
+    "aštrus užkandis",
+    "nigerijos virtuvė"
+  ],
+  "author": {
+    "name": "Gwanki",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Gwanki"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dambun_Masara",
+    "pageTitle": "Cookbook:Dambun_Masara",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:26:36.641Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADambun_Masara&action=history",
+    "originalCreator": {
+      "name": "Gwanki",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gwanki"
+    }
+  },
+  "originalImage": {
+    "fileName": "Dambun_hausa.jpg",
+    "author": {
+      "name": "Jamilu Muhammad080",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:SteinsplitterBot"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Dambun_hausa.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T11:26:36+03:00",
+  "createdAt": "2026-01-03T11:26:36+03:00",
+  "updatedAt": "2026-01-03T11:26:36+03:00"
+}

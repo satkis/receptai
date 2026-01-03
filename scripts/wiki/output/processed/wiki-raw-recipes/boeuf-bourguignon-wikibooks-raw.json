@@ -1,0 +1,102 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Boeuf_Bourguignon",
+    "pageTitle": "Cookbook:Boeuf_Bourguignon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Netoholic",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Netoholic"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoeuf_Bourguignon&action=history",
+    "extractedAt": "2025-11-27T13:11:03.630Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Boeuf Bourguignon",
+    "slug": "boeuf-bourguignon",
+    "description": "Boeuf bourguignon (French for Burgundy beef) is a well known, traditional French stew prepared with beef braised in red wine (originally Burgundy wine) and beef broth, flavored with garlic, onions, carrots, a bouquet garni and garnished with mushrooms. It is one of many examples of peasant dishes slowly evolving into haute cuisine. Most likely, the method of slowly simmering beef in wine originated as a means of tenderizing cuts of meat that were too tough to cook any other way. Also, simmering these two ingredients together helps to create a unique and pleasant flavor.",
+    "ingredients": [
+      "1 kg beef (blade steak or stewing shoulder cut)",
+      "3 large onions, chopped",
+      "1–2 cloves of garlic",
+      "300 g of chopped carrot",
+      "300 g of button mushrooms",
+      "Bouquet of herbs: basil, rosemary and thyme tied with string",
+      "2–4 cups of red wine",
+      "Salt",
+      "Pepper",
+      "Olive oil",
+      "Flour"
+    ],
+    "instructions": [],
+    "notes": [
+      "Use leftovers to make meat pies or puff pastries.",
+      "Add a small amount of dried Trompettes de la mort (Craterellus cornucopioides). For a dish serving 4, 4 trompettes can be used depending on taste. Cut off parts that may contain sand, rinse, cut in small pieces, soak for 5 minutes in warm water and add to the dish after adding the wine. Can be used instead of garlic.",
+      "Use a low-fat cut of beef and serve with boiled potatoes or steamed rice on the side to lower the fat and calories of this dish."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 180,
+    "difficulty": 3,
+    "category": "French recipes",
+    "categories": [
+      "French recipes",
+      "Recipes using beef",
+      "Recipes using onion",
+      "Recipes using mushroom",
+      "Recipes using wine",
+      "Recipes for stew",
+      "Baked recipes",
+      "Main course recipes",
+      "Recipes with metric units",
+      "Recipes using bacon",
+      "Recipes using bouquet garni",
+      "Recipes using carrot",
+      "Recipes using wheat flour",
+      "Recipes using garlic"
+    ]
+  },
+  "image": {
+    "filename": "Boeuf_bourguignon_servi_avec_des_pâtes.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Boeuf_bourguignon_servi_avec_des_p%C3%A2tes.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Boeuf_bourguignon_servi_avec_des_p%C3%A2tes.jpg",
+    "localPath": "scripts/wiki/output/Boeuf_bourguignon_servi_avec_des_pâtes.jpg",
+    "dimensions": {
+      "width": 2272,
+      "height": 1704
+    },
+    "fileSize": 702129,
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "DC",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:DocteurCosmos"
+    },
+    "metadata": {
+      "description": "Beef bourguignon made with ox cheek, served with pasta.",
+      "categories": [
+        "Beef bourguignon",
+        "GFDL",
+        "Taken with Canon PowerShot G3",
+        "License migration redundant",
+        "Beef offal dishes",
+        "Self-published work",
+        "Pasta as a side dish",
+        "Offal dishes of France",
+        "Tagliolini",
+        "Beef cheek"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Boeuf_bourguignon_servi_avec_des_pâtes.jpg"
+  }
+}

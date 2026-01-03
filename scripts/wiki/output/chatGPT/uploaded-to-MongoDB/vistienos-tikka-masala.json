@@ -1,0 +1,286 @@
+{
+  "slug": "vistienos-tikka-masala",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vistienos-tikka-masala",
+  "title": {
+    "lt": "Vištienos Tikka Masala"
+  },
+  "description": {
+    "lt": "Vištienos Tikka Masala – tai aromatingas indiškas patiekalas, kurio pagrindą sudaro vištienos gabaliukai, kepti su pomidorų karijaus padažu. Šis patiekalas puikiai tinka tiems, kurie mėgsta aštrų maistą, ir yra pagardinamas grietinėle arba kokosų kremu."
+  },
+  "seo": {
+    "metaTitle": "Vištienos Tikka Masala | Indiškas receptas",
+    "metaDescription": "Atraskite indišką Vištienos Tikka Masala receptą su vištiena, pomidorų karijaus padažu ir prieskoniais. Puikus pasirinkimas egzotiško skonio gerbėjams.",
+    "keywords": [
+      "vištienos tikka masala",
+      "indiškas receptas",
+      "karijaus patiekalas",
+      "prieskoniai",
+      "aštrus maistas"
+    ],
+    "recipeCategory": "vistiena",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 600,
+      "proteinContent": "45g",
+      "fatContent": "30g",
+      "fiberContent": "8g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/vistiena",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "800g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garstyčių sėklų aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "200g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "800g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žaliosios paprikos"
+      },
+      "quantity": "1-4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros lapai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "50ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Actas arba tamarindo ekstraktas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Karijaus pasta"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tandoori masala pasta"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų pasta"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garam masala"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Naan duona"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Aliejaus kaitinimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų didelėje keptuvėje ar wok'e."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Česnakų ir svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Įpilkite česnakus ir svogūnus, ir kepkite, kol jie paruduos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Karijaus pastos maišymas"
+      },
+      "text": {
+        "lt": "Įmaišykite karijaus pastas ir gerai sumaišykite, pridedant šiek tiek vandens ar jogurto."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Vištienos pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite keptą vištienos tikka ir kepkite dar dvi minutes, kad įkaistų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pomidorų ir prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Pridėkite pomidorus, actą, pomidorų pastą ir paprikas, ir troškinkite penkias minutes. Jei reikia, įpilkite daugiau vandens."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Grietinėlės ir prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Įpilkite grietinėlę, garam masala ir smulkintas kalendras, ir dar šiek tiek patroškinkite."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Papuoškite šviežiomis kalendromis ir patiekite su Naan duona ar ryžiais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Garstyčių sėklų aliejus gali būti pakeistas įprastu augaliniu aliejumi."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekalo aštrumą galima reguliuoti, pridedant daugiau ar mažiau paprikų."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vistienos-tikka-masala.jpg",
+    "alt": "Vištienos Tikka Masala - indiškas patiekalas su prieskoniais",
+    "width": 633,
+    "height": 608
+  },
+  "tags": [
+    "vištienos tikka masala",
+    "indiškas receptas",
+    "karijaus patiekalas",
+    "prieskoniai",
+    "aštrus maistas"
+  ],
+  "author": {
+    "name": "David Johnson",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:David%20Johnson"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Tikka_Masala",
+    "pageTitle": "Cookbook:Chicken_Tikka_Masala",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:29.101Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Tikka_Masala&action=history",
+    "originalCreator": {
+      "name": "David Johnson",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:David%20Johnson"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Tikka_Masala_Curry.png",
+    "author": {
+      "name": "Sriyarao22",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Xeverything11"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Chicken_Tikka_Masala_Curry.png"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:00+03:00",
+  "createdAt": "2025-12-23T10:10:00+03:00",
+  "updatedAt": "2025-12-23T10:10:00+03:00"
+}
