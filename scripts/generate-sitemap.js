@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
 
-const BASE_URL = 'https://paragaujam.lt';
+const BASE_URL = 'https://ragaujam.lt';
 const OUTPUT_DIR = path.join(process.cwd(), 'public');
 
 // Generate XML sitemap entry

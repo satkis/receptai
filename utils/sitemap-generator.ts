@@ -226,7 +226,7 @@ Disallow: /paieska?q=
 Disallow: /paieska?q=$
 
 # Lithuanian recipe website - optimized for search engines
-# Contact: info@paragaujam.lt`;
+# Contact: info@ragaujam.lt`;
 }
 
 // Generate sitemap index for large sites
@@ -261,7 +261,7 @@ ${sitemapElements}
 export function validateSitemapUrl(url: string): boolean {
   try {
     const urlObj = new URL(url);
-    return urlObj.protocol === 'https:' && urlObj.hostname.includes('paragaujam');
+    return urlObj.protocol === 'https:' && urlObj.hostname.includes('ragaujam');
   } catch {
     return false;
   }

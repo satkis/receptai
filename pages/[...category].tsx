@@ -481,7 +481,7 @@ export default function CategoryPage({
                 "@type": "ListItem",
                 "position": index + 1,
                 "name": item.title,
-                "item": `https://paragaujam.lt${item.url}`
+                "item": `https://ragaujam.lt${item.url}`
               }))
             })
           }}

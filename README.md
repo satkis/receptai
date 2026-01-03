@@ -1,4 +1,4 @@
-# Paragaujam.lt - Lithuanian Recipe Website
+# Ragaujam.lt - Lithuanian Recipe Website
 
 A modern, mobile-optimized recipe website built with Next.js, featuring interactive recipes, user accounts, and SEO optimization for Lithuanian cuisine.
 
@@ -48,8 +48,8 @@ A modern, mobile-optimized recipe website built with Next.js, featuring interact
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/paragaujam-lt.git
-   cd paragaujam-lt
+   git clone https://github.com/yourusername/ragaujam-lt.git
+   cd ragaujam-lt
    ```
 
 2. **Install dependencies**
@@ -178,7 +178,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email info@paragaujam.lt or create an issue in this repository.
+For support, email info@ragaujam.lt or create an issue in this repository.
 
 ## 🎯 Roadmap
 

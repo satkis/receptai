@@ -366,25 +366,25 @@ RECIPES:
           "@type": "ListItem",
           "position": 1,
           "name": "Receptai",
-          "item": "https://paragaujam.lt/receptai"
+          "item": "https://ragaujam.lt/receptai"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Category Main Name",
-          "item": "https://paragaujam.lt/receptai/category-slug"
+          "item": "https://ragaujam.lt/receptai/category-slug"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Subcategory Name",
-          "item": "https://paragaujam.lt/receptai/category-slug/subcategory-slug"
+          "item": "https://ragaujam.lt/receptai/category-slug/subcategory-slug"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Test Recipe Title",
-          "item": "https://paragaujam.lt/receptai/category-slug/subcategory-slug/recipe-slug-here"
+          "item": "https://ragaujam.lt/receptai/category-slug/subcategory-slug/recipe-slug-here"
         }
       ]
     }

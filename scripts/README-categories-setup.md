@@ -101,12 +101,12 @@ This guide will help you implement the complete category navigation system for y
   canonicalUrl: "https://paragaujam.lt/receptai/karstieji-patiekalai"
 }
 
-// Subcategory Example  
+// Subcategory Example
 {
-  metaTitle: "Kepsniai ir troškiniai receptai - Karštieji patiekalai | Paragaujam.lt",
+  metaTitle: "Kepsniai ir troškiniai receptai - Karštieji patiekalai | Ragaujam.lt",
   metaDescription: "Geriausi kepsniai ir troškiniai receptai su nuotraukomis ir detaliais gaminimo instrukcijomis. Autentiški lietuviški ir tarptautiniai kepsniai ir troškiniai patiekalai.",
   keywords: ["kepsniai ir troškiniai", "kepsniai ir troškiniai receptai", "lietuviški receptai", "maistas", "gaminimas"],
-  canonicalUrl: "https://paragaujam.lt/receptai/karstieji-patiekalai/kepsniai-ir-troskiniai"
+  canonicalUrl: "https://ragaujam.lt/receptai/karstieji-patiekalai/kepsniai-ir-troskiniai"
 }
 ```
 
