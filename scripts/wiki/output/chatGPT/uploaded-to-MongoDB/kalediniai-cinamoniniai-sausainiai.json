@@ -1,0 +1,204 @@
+{
+  "slug": "kalediniai-cinamoniniai-sausainiai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kalediniai-cinamoniniai-sausainiai",
+  "title": {
+    "lt": "Kalėdiniai cinamoniniai sausainiai"
+  },
+  "description": {
+    "lt": "Šie Kalėdiniai cinamoniniai sausainiai – puikus šventinis skanėstas, lengvai pagaminamas ir puikiai tinka Kalėdų šventėms. Migdolų miltai, sviestas ir cinamonas sukuria nepakartojamą skonį, kuris džiugins visą šeimą."
+  },
+  "seo": {
+    "metaTitle": "Kalėdiniai cinamoniniai sausainiai | Greitas ir lengvas receptas",
+    "metaDescription": "Išmokite gaminti Kalėdinius cinamoninius sausainius su migdolų miltais ir sviestu. Puikus šventinis skanėstas, lengvai pagaminamas ir itin skanus!",
+    "keywords": [
+      "Kalėdiniai sausainiai",
+      "cinamoniniai sausainiai",
+      "šventiniai sausainiai",
+      "migdolų miltai",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "2g",
+      "fatContent": "10g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 24,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vaikams"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Migdolų miltai"
+      },
+      "quantity": "130g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "130g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "130g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti cinamonai"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite visus ingredientus, kad susidarytų tešla. Tuomet padėkite ją į šaldytuvą vienai valandai."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Išimkite tešlą iš šaldytuvo ir kočėlu iškočiokite ploną sluoksnį. Išspauskite norimas formas su sausainių formelėmis."
+      }
+    },
+	    {
+      "step": 3,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite sausainius apie 10 minučių, kol jie tampa auksinės spalvos. Leiskite atvėsti."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Tešla gali būti laikoma šaldytuve iki 4 dienų."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kalediniai-cinamoniniai-sausainiai.jpg",
+    "alt": "Kalėdiniai cinamoniniai sausainiai su migdolų miltais ir cinamonu",
+    "width": 2560,
+    "height": 1440
+  },
+  "tags": [
+    "Kalėdiniai sausainiai",
+    "cinamoniniai sausainiai",
+    "šventiniai sausainiai",
+    "migdolų miltai",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "L293D",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:L293D"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Christmas_Cinnamon_Cookies",
+    "pageTitle": "Cookbook:Christmas_Cinnamon_Cookies",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:14.307Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChristmas_Cinnamon_Cookies&action=history",
+    "originalCreator": {
+      "name": "L293D",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:L293D"
+    }
+  },
+  "originalImage": {
+    "fileName": "Christmas_cookies_(2).jpg",
+    "author": {
+      "name": "L293D",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:L293D"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Christmas_cookies_%282%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:10:14+03:00",
+  "createdAt": "2025-12-23T07:10:14+03:00",
+  "updatedAt": "2025-12-23T07:10:14+03:00"
+}

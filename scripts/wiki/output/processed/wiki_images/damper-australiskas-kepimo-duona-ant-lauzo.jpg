@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="12">
+<defs>
+<circle id="disc" cx="6" cy="6" r="5.5" stroke="#c8c8c8" />
+</defs>
+<use fill="#3cc83c" xlink:href="#disc" />
+<use x="13" fill="#84ff01" xlink:href="#disc" />
+<use x="26" fill="#ffff00" xlink:href="#disc" />
+<use x="39" fill="#ffffff" xlink:href="#disc" />
+<use x="52" fill="#ffffff" xlink:href="#disc" />
+</svg>

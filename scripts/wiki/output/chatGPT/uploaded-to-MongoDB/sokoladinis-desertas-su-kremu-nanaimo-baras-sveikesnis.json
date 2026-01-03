@@ -1,0 +1,284 @@
+{
+  "slug": "sokoladinis-desertas-su-kremu-nanaimo-baras-sveikesnis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladinis-desertas-su-kremu-nanaimo-baras-sveikesnis",
+  "title": {
+    "lt": "Šokoladinis desertas su kremu (Nanaimo baras, sveikesnis)"
+  },
+  "description": {
+    "lt": "Šis receptas pritaiko klasikinį kanadietišką desertą - Nanaimo barus. Tradicinis variantas naudoja daug cukraus ir sočiųjų riebalų per kokosą ir sviestą. Šioje versijoje kokosas pakeistas avižomis ir saulėgrąžomis, o saldžiarūgštis kremas - lengvai saldintu graikišku jogurtu."
+  },
+  "seo": {
+    "metaTitle": "Sveikesnis šokoladinis Nanaimo baras su kremu | Receptas",
+    "metaDescription": "Paprastas ir sveikesnis šokoladinis Nanaimo baras su avižomis ir graikišku jogurtu. Lengvas ir skanus desertas visai šeimai.",
+    "keywords": [
+      "Nanaimo baras",
+      "šokoladinis desertas",
+      "sveikesnis desertas",
+      "graikiškas jogurtas",
+      "avižos"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Kanadiečių",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "5g",
+      "fatContent": "15g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 9,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Graham krekerių trupiniai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Avižos"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saulėgrąžos"
+      },
+      "quantity": "0.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Graikiniai riešutai"
+      },
+      "quantity": "0.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kakavos milteliai"
+      },
+      "quantity": "0.25 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kanarų aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Medus"
+      },
+      "quantity": "0.25 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodasis šokoladas"
+      },
+      "quantity": "1 oz",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudas cukrus"
+      },
+      "quantity": "0.25 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Graikiškas jogurtas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Klevų sirupas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kremo milteliai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodasis šokoladas"
+      },
+      "quantity": "4 oz",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pagrindo paruošimas"
+      },
+      "text": {
+        "lt": "Puode ant silpnos ugnies ištirpinkite sviestą su medumi, aliejumi ir šokoladu. Maišykite, kol taps vientisa masė."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Mišinio formavimas"
+      },
+      "text": {
+        "lt": "Nukelkite nuo ugnies ir sudėkite avižas, saulėgrąžas, riešutus, kakavos miltelius ir įmuškite kiaušinį. Viską gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pagrindo šaldymas"
+      },
+      "text": {
+        "lt": "Mišinį tvirtai paspauskite į kepimo popieriumi išklotą 20x20 formą. Atšaldykite 15 minučių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Vidurinio sluoksnio paruošimas"
+      },
+      "text": {
+        "lt": "Dubenyje plakite sviestą iki šviesumo. Įdėkite cukraus pudros, klevų sirupo, pieno ir kremo miltelių. Plakite, kol masė taps puri."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Vidurinio sluoksnio šaldymas"
+      },
+      "text": {
+        "lt": "Tolygiai paskirstykite kremą ant atšaldyto pagrindo. Įdėkite į šaldytuvą 20 minučių."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Apdaila"
+      },
+      "text": {
+        "lt": "Ant vidurinio sluoksnio tolygiai pabarstykite smulkintą šokoladą."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Galutinis šaldymas ir patiekimas"
+      },
+      "text": {
+        "lt": "Desertas geriausiai sustings, jei paliksite jį šaldytuve per naktį. Patiekdami, supjaustykite į gabalėlius aštriu peiliu, panardintu į šiltą vandenį, kad kraštai būtų lygūs."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Desertą laikykite sandariame inde šaldytuve iki 5 dienų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Norėdami stipresnio klevų skonio, naudokite klevų sirupą viduriniame sluoksnyje."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladinis-desertas-su-kremu-nanaimo-baras-sveikesnis.jpg",
+    "alt": "Šokoladinis desertas su graikišku jogurtu ir avižomis",
+    "width": 620,
+    "height": 620
+  },
+  "tags": [
+    "šokoladinis desertas",
+    "nanaimo baras",
+    "sveikesnis receptas",
+    "kanadiečių virtuvė",
+    "lengvas desertas"
+  ],
+  "author": {
+    "name": "Cnrowley",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Cnrowley"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar,_Healthier_Version)",
+    "pageTitle": "Cookbook:Chocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar,_Healthier_Version)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:44.775Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_and_Custard_Layered_Dessert_(Nanaimo_Bar%2C_Healthier_Version)&action=history",
+    "originalCreator": {
+      "name": "Cnrowley",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Cnrowley"
+    }
+  },
+  "originalImage": {
+    "fileName": "Information_icon4.svg",
+    "author": {
+      "name": "penubag (color adjustments)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Srittau"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Information_icon4.svg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Information_icon4.svg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

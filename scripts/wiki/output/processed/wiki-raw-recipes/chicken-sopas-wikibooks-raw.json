@@ -1,0 +1,104 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Sopas",
+    "pageTitle": "Cookbook:Chicken_Sopas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Idril~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Idril~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Sopas&action=history",
+    "extractedAt": "2025-12-23T07:09:25.446Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chicken Sopas",
+    "slug": "chicken-sopas",
+    "description": "Sopas is a Filipino macaroni soup made with elbow macaroni, meat, vegetables, and milk.",
+    "ingredients": [
+      "1 tbsp butter or olive oil",
+      "3 cloves garlic, minced",
+      "1 onion, finely chopped",
+      "250 grams chicken meat, still attached to the bones",
+      "Salt",
+      "Freshly ground black pepper",
+      "3–4 cups water",
+      "1 cup dried elbow macaroni",
+      "1 carrot, diced",
+      "½ head of cabbage, shredded",
+      "375 ml (1½ cups) evaporated milk"
+    ],
+    "instructions": [
+      "Preheat oil in a pot. Add onion and garlic, and sauté them. Be careful not to burn them, as this will give your soup a burnt and bitter taste.",
+      "Add the chicken, salt, and pepper. Let it cook but don't let it brown. Browning the meat will give you a dark broth with an unpleasant taste.",
+      "Pour in water and bring everything to a boil.",
+      "As soon as the water boils, the scum from the chicken will rise to the top—you can skim it off.",
+      "Season again with salt and pepper—this is called \"layering\" in cooking.",
+      "Add the elbow macaroni and cook for 7 minutes or so.",
+      "The macaroni will have absorbed some of the salt by now, so season again with salt.",
+      "Add the carrots and cabbage. Mix well.",
+      "Add in the milk but don't let it boil—boiling will make the milk separate and ruin the soup's texture.",
+      "Serve immediately because the elbow macaroni will absorb most of the milky broth if you let it stand too long.",
+      "Enjoy!"
+    ],
+    "notes": [
+      "Using meat with bones will make the broth tastier without the use of bouillon cubes.",
+      "You can use fish sauce instead of salt for added flavor."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using chicken",
+      "Filipino recipes",
+      "Recipes for soup",
+      "Recipes using butter",
+      "Recipes using pasta",
+      "Recipes using cabbage",
+      "Recipes using carrot",
+      "Recipes using evaporated milk"
+    ]
+  },
+  "image": {
+    "filename": "8475Photos_taken_2020_coronavirus_pandemic_Baliuag,_Bulacan_17.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/8475Photos_taken_2020_coronavirus_pandemic_Baliuag%2C_Bulacan_17.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:8475Photos_taken_2020_coronavirus_pandemic_Baliuag,_Bulacan_17.jpg",
+    "localPath": "scripts/wiki/output/8475Photos_taken_2020_coronavirus_pandemic_Baliuag,_Bulacan_17.jpg",
+    "dimensions": {
+      "width": 4608,
+      "height": 3456
+    },
+    "fileSize": 8329068,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Judgefloro",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "metadata": {
+      "description": "Photos taken during the 2020 coronavirus pandemic in Baliuag, Bulacan Timeline of the 2020 coronavirus pandemic in the Philippines  2020 coronavirus pandemic in the Philippines Bayanihan to Heal as One Act (RA 11469) Bayanihan Act of 2020. Signed on March 24, 2020 7,958 Covid-19 cases in Philippines April 28; 12,933 as of May 19, 2020; 14,669 Covid-19 cases in Philippines May 26;  886 deaths; Covid-19 cases in Philippines June 2 - 18,997 and 966 deaths;  June 10: 23,732, with 4,895 who have recovered and 1,027 who died; 24,175 COVID, 1,036 died June 21 - 29,400 Recovered 7,650 Deaths 1,150;June 21 -30,052 +941 Recovered 7,893 Deaths 1,169 Category:Sitios and puroks of the Philippines Subdivisions of the Philippines Barangay  Poblacion 14°57'17\"N   120°54'2\"E, Bagong Nayon and Pagala, Baliuag, Bulacan, Bulacan province (Note: Judge Florentino Floro, the owner, to repeat, Donor FlorentinoFloro of all these photos hereby donate gratuitously, freely and unconditionally Judge Floro all these photos to and for Wikimedia Commons, exclusively, for public use of the public domain, and again without any condition whatsoever).",
+      "categories": [
+        "Taken with Nikon Coolpix AW100",
+        "CC-Zero",
+        "Self-published work",
+        "Photographs by Judgefloro",
+        "Files with coordinates missing SDC location of creation",
+        "Sopas",
+        "Philippines photographs taken on 2020-06-22"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "8475Photos_taken_2020_coronavirus_pandemic_Baliuag,_Bulacan_17.jpg"
+  }
+}

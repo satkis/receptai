@@ -1,0 +1,104 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Crème_Anglaise",
+    "pageTitle": "Cookbook:Crème_Anglaise",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "69.108.112.236",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:69.108.112.236"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACr%C3%A8me_Anglaise&action=history",
+    "extractedAt": "2025-12-23T07:11:06.778Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Crème Anglaise",
+    "slug": "cr-me-anglaise",
+    "description": "Crème anglaise, frequently referred to by the generic term custard in English, is the most common and versatile dessert sauce, being used as an accompaniment, or as a base for additional treatment, in numerous desserts in the cuisines of countries throughout the world. It's easy to make and can be flavored in a variety of ways.",
+    "ingredients": [
+      "1⅓ cups (315 ml) milk",
+      "4 egg yolks",
+      "3 oz (85 g) white granulated sugar",
+      "Flavoring (typically a vanilla bean or 1 teaspoon of vanilla extract)"
+    ],
+    "instructions": [
+      "Bring the milk and flavoring to a simmer in a medium saucepan. If using a vanilla bean, cut it lengthwise and add to the milk. After a short time and before the milk simmers, scrape the seeds from the inside of the beans and dispose of the husks.",
+      "Meanwhile, whisk the egg yolks and sugar thoroughly. The mixture should be pale yellow.",
+      "When the milk simmers, remove from heat and slowly pour about half of it into the egg mixture, mixing continuously. Pour the egg/milk mixture back into the saucepan with the remaining milk, stirring continuously, and return the saucepan to the stove.",
+      "Cook for a short time over medium heat, stirring continuously. Be careful to scrape the sides and corners regularly, and do not let the mixture boil.",
+      "Test for readiness by dipping a spatula into it and running your finger over the coated spatula. The crème is done when it is thick enough that the trail wiped away by your finger remains.",
+      "Remove the saucepan from heat and strain it through a metal strainer into another bowl. Stir it continuously for another two minutes, cooling it.",
+      "To complete cooling quickly, place the bowl in a larger bowl of ice and stir the crème until cool. If you have more time, you can place the bowl in the freezer, stirring periodically until it's cool. If you don't use one of these methods, a skin will form on top of the creme."
+    ],
+    "notes": [
+      "Uses of crème anglaise are numerous. A classic is to serve it over fresh fruit. In this case, you may want to customize the flavoring to match your fruit (e.g., mint goes well with strawberries and bananas). You can also use the crème as the basis for a rich ice cream.",
+      "Instead of vanilla, you can flavor the creme with a variety of things—herbs, spices, spirits, and coffee among them. For herbs or spices, simply add them to the milk as instructed in step one. For coffee or spirits, omit the flavoring initially and add espresso or spirits after the creme is cooled. Some common variations:\nNut Crème Anglaise: Add ½ cup freshly toasted and broken nuts such as hazelnuts, black walnuts or pecans to the milk during the first step. Discard nuts after straining.\nChocolate Crème Anglaise: Add ½ cup chopped fine-quality chocolate (bittersweet, milk, dark or white) to the sauce. Stir until melted, then strain and proceed as for plain Crème Anglaise.\nCoffee Crème Anglaise: Add 2 tablespoons crushed espresso beans to the milk during the first step and proceed as for regular Crème Anglaise. Discard the crushed coffee after straining.\nHerb- or spice-Infused Crème Anglaise: Add a fresh herb such as rosemary, mint or lavender to the milk in the first step, or 1 tablespoon of a spice such as cinnamon, cloves, juniper berries or green cardamom, broken up. Discard the herbs or spices after straining.\nFruit Crème Anglaise: Add 2 tablespoons of fresh fruit purée to the Crème Anglaise after it's cooked but before it's strained.",
+      "Nut Crème Anglaise: Add ½ cup freshly toasted and broken nuts such as hazelnuts, black walnuts or pecans to the milk during the first step. Discard nuts after straining.",
+      "Chocolate Crème Anglaise: Add ½ cup chopped fine-quality chocolate (bittersweet, milk, dark or white) to the sauce. Stir until melted, then strain and proceed as for plain Crème Anglaise.",
+      "Coffee Crème Anglaise: Add 2 tablespoons crushed espresso beans to the milk during the first step and proceed as for regular Crème Anglaise. Discard the crushed coffee after straining.",
+      "Herb- or spice-Infused Crème Anglaise: Add a fresh herb such as rosemary, mint or lavender to the milk in the first step, or 1 tablespoon of a spice such as cinnamon, cloves, juniper berries or green cardamom, broken up. Discard the herbs or spices after straining.",
+      "Fruit Crème Anglaise: Add 2 tablespoons of fresh fruit purée to the Crème Anglaise after it's cooked but before it's strained."
+    ],
+    "servings": 10,
+    "totalTimeMinutes": 20,
+    "difficulty": 3,
+    "category": "Sauce recipes",
+    "categories": [
+      "Featured recipes",
+      "Inexpensive recipes",
+      "Recipes for custard",
+      "Recipes for sauces and condiments",
+      "Vegetarian recipes",
+      "Recipes using egg yolk",
+      "Recipes using cow milk",
+      "Recipes using vanilla",
+      "Boiled recipes",
+      "Recipes using white sugar",
+      "Naturally gluten-free recipes"
+    ]
+  },
+  "image": {
+    "filename": "Creme_anglaise_et_pain_d'epices_DSC00137.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Creme_anglaise_et_pain_d%27epices_DSC00137.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Creme_anglaise_et_pain_d%27epices_DSC00137.JPG",
+    "localPath": "scripts/wiki/output/Creme_anglaise_et_pain_d'epices_DSC00137.JPG",
+    "dimensions": {
+      "width": 1256,
+      "height": 992
+    },
+    "fileSize": 137745,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "No machine-readable author provided. David.Monniaux assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:David.Monniaux"
+    },
+    "metadata": {
+      "description": "crème anglaise (a kind of custard) and pain d'épices (somewhat like gingerbread)",
+      "categories": [
+        "GFDL",
+        "Taken with Sony DSC-P92",
+        "Crème anglaise",
+        "Files with no machine-readable source",
+        "Pain d'épices",
+        "License migration completed",
+        "Self-published work",
+        "Assumed own work",
+        "Photographs taken on 2005-01-01",
+        "Files tagged CC-by-sa-old"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Creme_anglaise_et_pain_d'epices_DSC00137.JPG"
+  }
+}

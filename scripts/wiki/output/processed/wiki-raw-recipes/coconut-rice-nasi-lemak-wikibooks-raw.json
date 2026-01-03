@@ -1,0 +1,81 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Coconut_Rice_(Nasi_Lemak)",
+    "pageTitle": "Cookbook:Coconut_Rice_(Nasi_Lemak)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "196.202.68.80",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:196.202.68.80"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Rice_(Nasi_Lemak)&action=history",
+    "extractedAt": "2025-12-23T07:10:36.124Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Coconut Rice (Nasi Lemak)",
+    "slug": "coconut-rice-nasi-lemak",
+    "description": "* 6 cups (1450 ml) basmati rice * 7 cups (1680 ml) coconut milk * Salt * 1–2 pandan leaves tied in a knot (optional) * of fresh ginger root (optional)",
+    "ingredients": [
+      "6 cups (1450 ml) basmati rice",
+      "7 cups (1680 ml) coconut milk",
+      "Salt",
+      "1–2 pandan leaves tied in a knot (optional)",
+      "of fresh ginger root (optional)"
+    ],
+    "instructions": [
+      "Rinse the rice and set it aside.",
+      "Meanwhile put the coconut milk on the stove, and add the salt.",
+      "Add the rice, pandan leaves, and ginger. Let it simmer until the coconut milk evaporates.",
+      "Cover it with lid and let it sit for about 15 minutes until it is well cooked."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 2,
+    "category": null,
+    "categories": [
+      "Recipes using rice|{{PAGENAME}}",
+      "Recipes using coconut milk",
+      "Malaysian recipes|{{PAGENAME}}",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes using fresh ginger",
+      "Recipes using pandan"
+    ]
+  },
+  "image": {
+    "filename": "Nasi_Lemak,_Mamak,_Sydney.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Nasi_Lemak%2C_Mamak%2C_Sydney.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nasi_Lemak,_Mamak,_Sydney.jpg",
+    "localPath": "scripts/wiki/output/Nasi_Lemak,_Mamak,_Sydney.jpg",
+    "dimensions": {
+      "width": 3264,
+      "height": 2448
+    },
+    "fileSize": 3395403,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Mw12310",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Takeaway"
+    },
+    "metadata": {
+      "description": "Nasi Lemak sold with Lamb Curry at Mamak in Sydney, Australia",
+      "categories": [
+        "Self-published work",
+        "Nasi lemak in Australia"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Nasi_Lemak,_Mamak,_Sydney.jpg"
+  }
+}

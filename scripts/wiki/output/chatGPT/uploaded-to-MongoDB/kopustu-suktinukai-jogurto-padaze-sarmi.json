@@ -1,0 +1,259 @@
+{
+  "slug": "kopustu-suktinukai-jogurto-padaze-sarmi",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kopustu-suktinukai-jogurto-padaze-sarmi",
+  "title": {
+    "lt": "Kopūstų suktinukai jogurto padaže (Sarmi)"
+  },
+  "description": {
+    "lt": "Sarmi yra bulgariškas patiekalas, pagamintas iš kopūstų lapų įdarytų mėsos ir ryžių mišiniu. Šis receptas puikiai tinka draugų vakarėliams, ypač jei patieksite suktinukus šalia pomidorų padaže keptų sarmų."
+  },
+  "seo": {
+    "metaTitle": "Kopūstų suktinukai jogurto padaže | Sarmi receptas",
+    "metaDescription": "Bulgariški kopūstų suktinukai su mėsos ir ryžių įdaru bei jogurto padažu. Puikus pasirinkimas draugų vakarėliams ar šeimos pietums.",
+    "keywords": [
+      "kopūstų suktinukai",
+      "bulgariški patiekalai",
+      "sarmi",
+      "jogurto padažas",
+      "mėsos įdaras"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Bulgarų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "26g",
+      "fatContent": "22g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+      "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Veršiena"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiauliena"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnų laiškai"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "pusė puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jogurtas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Mėtos"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Vynuogių arba kopūstų lapai"
+      },
+      "quantity": "30-40 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas arba saulėgrąžų aliejus"
+      },
+      "quantity": "100g / pusė puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Lapų paruošimas"
+      },
+      "text": {
+        "lt": "Užvirinkite vynuogių arba kopūstų lapus sūriame vandenyje, kol jie suminkštės. Nukoškite ir leiskite atvėsti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Įdaro paruošimas"
+      },
+      "text": {
+        "lt": "Smulkiai supjaustytus svogūnų laiškus pakepinkite aliejuje. Įdėkite paprikos ir išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mėsos ir ryžių maišymas"
+      },
+      "text": {
+        "lt": "Įdėkite mėsą, ryžius, pipirus, mėtas ir smulkintas petražoles į svogūnus. Kepkite, kol mėsos spalva pasikeis."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Ryžių virimas"
+      },
+      "text": {
+        "lt": "Įpilkite šiek tiek daugiau, nei pusę puodelio vandens, užvirinkite ir tada sumažinkite ugnį. Troškinkite, kol ryžiai sugeria vandenį. Leiskite atvėsti."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Suktinukų formavimas"
+      },
+      "text": {
+        "lt": "Ant kiekvieno lapo dėkite po šaukštelį įdaro, suvyniokite į suktinuką."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Suktinukų troškinimas"
+      },
+      "text": {
+        "lt": "Suktinukus sudėkite į puodą, užpilkite vandeniu ir troškinkite."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Jogurtą sumaišykite su paprika ir kitais prieskoniais."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Atvėsusius suktinukus perkelkite į lėkštę ir užpilkite padažu."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sarmi.jpg",
+    "alt": "Kopūstų suktinukai su jogurto padažu",
+    "width": 1024,
+    "height": 768
+  },
+  "tags": [
+    "kopūstų suktinukai",
+    "bulgariški patiekalai",
+    "sarmi",
+    "jogurto padažas",
+    "mėsos įdaras"
+  ],
+  "author": {
+    "name": "Zornitsa",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cabbage_Rolls_in_Yogurt_Sauce_(Sarmi)",
+    "pageTitle": "Cookbook:Cabbage_Rolls_in_Yogurt_Sauce_(Sarmi)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T19:10:00+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACabbage_Rolls_in_Yogurt_Sauce_(Sarmi)&action=history",
+    "originalCreator": {
+      "name": "Zornitsa",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+    }
+  },
+  "originalImage": {
+    "fileName": "Sarmi.jpg",
+    "author": {
+      "name": "Nk",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Nk"
+    },
+    "license": {
+      "code": "cc-by-2.5",
+      "shortName": "CC BY 2.5",
+      "fullName": "Creative Commons Attribution 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sarmi.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T19:10:00+03:00",
+  "createdAt": "2025-12-21T19:10:00+03:00",
+  "updatedAt": "2025-12-21T19:10:00+03:00"
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "traskus-meduoliai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/traskus-meduoliai",
+  "title": {
+    "lt": "Traškūs meduoliai su imbieru ir cinamonu"
+  },
+  "description": {
+    "lt": "Traškūs meduoliai puikiai tinka šventiniam stalui. Jie išlieka traškūs, jei laikomi sandariame inde. Šiuos meduolius galite dekoruoti karališku glaistu."
+  },
+  "seo": {
+    "metaTitle": "Traškūs meduoliai su imbieru ir cinamonu | Šventinis receptas",
+    "metaDescription": "Išbandykite šį traškių meduolių receptą su imbieru ir cinamonu. Tobulai tinka šventiniam stalui, išlieka traškūs ir gali būti dekoruoti karališku glaistu.",
+    "keywords": [
+      "traškūs meduoliai",
+      "imbiero meduoliai",
+      "cinamono meduoliai",
+      "šventiniai sausainiai",
+      "karališkas glaistas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "3g",
+      "fatContent": "10g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Rudasis cukrus"
+      },
+      "quantity": "160g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Melasa"
+      },
+      "quantity": "160g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Soda"
+      },
+      "quantity": "1.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "160g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "500g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite puode cukrų, melasą, prieskonius ir druską. Užvirinkite ir nuimkite nuo ugnies."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sviesto ir sodos įmaišymas"
+      },
+      "text": {
+        "lt": "Į karštą mišinį įmaišykite sodą ir sviestą. Maišykite, kol sviestas ištirps."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos užbaigimas"
+      },
+      "text": {
+        "lt": "Greitai įmuškite kiaušinį ir tada įmaišykite miltus. Gerai išmaišykite. Atvėsinkite kelias valandas, kol tešla taps kieta."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 170 °C. Iškočiokite tešlą ant lengvai miltuoto paviršiaus ir išpjaukite formeles. Kepkite apie 15 minučių ir atvėsinkite ant grotelių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Meduoliai geriausiai išsilaiko traškūs, jei laikomi sandariame inde."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/traskus-meduoliai.jpg",
+    "alt": "Traškūs meduoliai su imbieru ir cinamonu",
+    "width": 403,
+    "height": 267
+  },
+  "tags": [
+    "traškūs meduoliai",
+    "imbiero meduoliai",
+    "cinamono meduoliai",
+    "šventiniai sausainiai",
+    "karališkas glaistas"
+  ],
+  "author": {
+    "name": "66.30.114.254",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:66.30.114.254"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Crispy_Gingerbread_Cookies",
+    "pageTitle": "Cookbook:Crispy_Gingerbread_Cookies",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:56.100Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACrispy_Gingerbread_Cookies&action=history",
+    "originalCreator": {
+      "name": "66.30.114.254",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:66.30.114.254"
+    }
+  },
+  "originalImage": {
+    "fileName": "CrispyGingerbreadCookies.jpg",
+    "author": {
+      "name": "Alcinoe at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CrispyGingerbreadCookies.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/CrispyGingerbreadCookies.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:56+03:00",
+  "createdAt": "2025-12-23T10:10:56+03:00",
+  "updatedAt": "2025-12-23T10:10:56+03:00"
+}

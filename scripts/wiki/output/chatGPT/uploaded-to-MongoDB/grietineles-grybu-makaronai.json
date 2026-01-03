@@ -1,0 +1,224 @@
+{
+  "slug": "grietineles-grybu-makaronai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/grietineles-grybu-makaronai",
+  "title": {
+    "lt": "Grietinėlės grybų makaronai"
+  },
+  "description": {
+    "lt": "Šis kreminis grybų makaronų receptas patenkins jūsų stipriausius itališko maisto potraukius, suteikdamas puikų skonį ir mitybos privalumus. Puikiai tinka vakarienei, nes paruošiamas vos per dvidešimt minučių."
+  },
+  "seo": {
+    "metaTitle": "Grietinėlės grybų makaronai | Greitai ir lengvai",
+    "metaDescription": "Kreminis grybų makaronų receptas su grietinėlės ir parmezano sūriu. Paruošiamas per 20 minučių, puikiai tinka greitai ir skaniai vakarienei.",
+    "keywords": [
+      "kreminiai grybų makaronai",
+      "itališkas patiekalas",
+      "greita vakarienė",
+      "makaronų receptai",
+      "skanus maistas"
+    ],
+    "recipeCategory": "makaronai",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 380,
+      "proteinContent": "12g",
+      "fatContent": "22g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/makaronai",
+  "secondaryCategories": [
+    "receptai/vakariene",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Makaronai"
+      },
+      "quantity": "75g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "2 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grybai"
+      },
+      "quantity": "230g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausas baltas vynas"
+      },
+      "quantity": "4 šaukštai",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištienos sultinys"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Parmezano sūris"
+      },
+      "quantity": "30g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "Papuošimui",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Makaronų virimas"
+      },
+      "text": {
+        "lt": "Išvirkite makaronus pagal pakuotės instrukcijas, kol bus al dente. Tuo tarpu pradėsi ruošti padažą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Didelėje keptuvėje ištirpinkite sviestą ir apkepkite česnakus. Įdėkite grybus ir kepkite, kol suminkštės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Padažo užbaigimas"
+      },
+      "text": {
+        "lt": "Įpilkite vyno ir leiskite jam šiek tiek išgaruoti. Tada įpilkite grietinėlės ir vištienos sultinio. Pagardinkite druska ir pipirais."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Sumaišykite makaronus su padažu, suberkite parmezaną ir gerai išmaišykite. Papuoškite petražolėmis ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite intensyvesnio skonio, naudokite kreminių grybų mišinį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/grietineles-grybu-makaronai.jpg",
+    "alt": "Kreminiai grybų makaronai patiekiami lėkštėje",
+    "width": 800,
+    "height": 800
+  },
+  "tags": [
+    "grietinėlės grybų makaronai",
+    "itališkas patiekalas",
+    "greita vakarienė",
+    "makaronų receptai",
+    "skanus maistas"
+  ],
+  "author": {
+    "name": "NMaia",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Creamy_Mushroom_Pasta",
+    "pageTitle": "Cookbook:Creamy_Mushroom_Pasta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:52.952Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACreamy_Mushroom_Pasta&action=history",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    }
+  },
+  "originalImage": {
+    "fileName": "Creamy_Mushroom_Pasta.jpg",
+    "author": {
+      "name": "Sharon Chen",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:NMaia"
+    },
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Creamy_Mushroom_Pasta.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:20:00+03:00",
+  "createdAt": "2025-12-23T10:20:00+03:00",
+  "updatedAt": "2025-12-23T10:20:00+03:00"
+}

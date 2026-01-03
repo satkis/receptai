@@ -1,0 +1,287 @@
+{
+  "slug": "klasikinis-prancuziskas-troskinys-kasuletas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/klasikinis-prancuziskas-troskinys-kasuletas",
+  "title": {
+    "lt": "Klasikinis prancūziškas trosškinys kasuletas"
+  },
+  "description": {
+    "lt": "troškinys kasuletas yra tradicinis Langedoko regiono patiekalas, kuris gaminamas naudojant baltąsias pupeles, įvairius mėsos gaminius ir aromatingus prieskonius. Šis receptas leidžia jums patirti tikrąjį prancūziškos virtuvės skonį."
+  },
+  "seo": {
+    "metaTitle": "Klasikinis prancūziškas troškinys kasuletas | Tradicinis receptas",
+    "metaDescription": "Atraskite autentišką prancūzišką kasulį su baltosiomis pupelėmis ir mėsos įvairove. Puikus pasirinkimas šventiniam stalui ar ypatingiems pietums.",
+    "keywords": [
+      "troškinys kasuletas",
+      "prancūziškas patiekalas",
+      "baltosios pupelės",
+      "langedoko virtuvė",
+      "tradicinis receptas"
+    ],
+    "recipeCategory": "trokiniai",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 560,
+      "proteinContent": "30g",
+      "fatContent": "40g",
+      "fiberContent": "12g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 270,
+  "totalTimeMinutes": 300,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/trokiniai",
+  "secondaryCategories": [
+    "receptai/pietus",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baltosios pupelės"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kuminas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kiaulės ausis arba kiaulienos oda"
+      },
+      "quantity": "1 vnt",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Antienos arba žąsies mėsa"
+      },
+      "quantity": "1kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Antienos arba žąsų riebalai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sultinys arba baltas vynas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "trošknio žolelių mišinys"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "1 galva",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gvazdikėliai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kadagio uogos"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Vanduo arba sultinys"
+      },
+      "quantity": "stiklinė",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pupelių paruošimas"
+      },
+      "text": {
+        "lt": "Užpilkite pupeles verdančiu vandeniu ir palaikykite kelias minutes, tuomet perpilkite į šaltą vandenį su kuminų prieskoniu."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Pupelių nukošimas"
+      },
+      "text": {
+        "lt": "Nukoškite pupeles ir atidėkite į šalį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mėsos apkepimas"
+      },
+      "text": {
+        "lt": "Keptuvėje apkepkite mėsą antienos arba žąsų riebaluose, kad apskrustų išorė. Išimkite ir atidėkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Svogūno kepimas"
+      },
+      "text": {
+        "lt": "Tame pačiame inde pakepinkite svogūną iki auksinės ar tamsiai rudos spalvos, tuomet atidėkite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Deglazavimas"
+      },
+      "text": {
+        "lt": "Nupilkite riebalų likučius ir įpilkite į keptuvę sultinio arba baltuojo vyno, kad nusiimtų prikepę prie keptuvės dugno kepta masė. Skystį atidėkite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Sluoksniavimas"
+      },
+      "text": {
+        "lt": "Į puodą sluoksniuokite pupeles, mėsą, svogūną, česnaką, žoleles troškiniui ir kadagio uogas. Užpilkite deglazavimo skysčiu, tada įpilkite verdančio pasūdyto vandens, kad apsemtų pupeles."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 90 °C temperatūroje apie 4 su puse valandos. Jei reikia, papildykite verdančiu vandeniu kepimo metu. Kai susiformuos plona plutelė ir pupelės suminkštės, patiekalas paruoštas."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Poilsis"
+      },
+      "text": {
+        "lt": "Leiskite pastovėti apie 1 valandą prieš patiekdami."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Kasulį galite pašildyti kitą dieną, tačiau saugokite šaltai, kad nesurūgtų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Mėsa gali būti įvairi: kiaulienos konfitas, pigi konservuota kiauliena, kiaulienos kojelės ar rūkyti dešrelės."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/klasikinis-prancuziskas-troskinys-kasuletas.jpg",
+    "alt": "Klasikinis prancūziškas kasuletas su pupelėmis ir mėsa",
+    "width": 1284,
+    "height": 1291
+  },
+  "tags": [
+    "prancūziškas kasuletas",
+    "troškinys su pupelėmis",
+    "tradicinė prancūziška virtuvė",
+    "mėsos troškinys",
+    "prancūziški patiekalai"
+  ],
+  "author": {
+    "name": "Timpo",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Timpo"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cassoulet",
+    "pageTitle": "Cookbook:Cassoulet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:37.421Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACassoulet&action=history",
+    "originalCreator": {
+      "name": "Timpo",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Timpo"
+    }
+  },
+  "originalImage": {
+    "fileName": "Cassoulet.cuit.jpg",
+    "author": {
+      "name": "GD. Guilhem06 21:37, 20 April 2007 (UTC)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rainer%20Zenz"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Cassoulet.cuit.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Cassoulet.cuit.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T17:59:37+03:00",
+  "createdAt": "2025-12-21T17:59:37+03:00",
+  "updatedAt": "2025-12-21T17:59:37+03:00"
+}

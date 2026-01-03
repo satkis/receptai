@@ -1,0 +1,197 @@
+{
+  "slug": "consomme-prancuziskas-sultinys",
+  "canonicalUrl": "https://ragaujam.lt/receptas/consomme-prancuziskas-sultinys",
+  "title": {
+    "lt": "Consommé - Prancūziškas sultinys"
+  },
+  "description": {
+    "lt": "Consommé yra labai skaidrus sultinys, gaminamas iš vištienos, veršienos arba jautienos sultinio. Šis receptas padės jums paruošti nuostabiai skaidrų sultinį, kurį galima patiekti tiek šaltą, tiek karštą. Švelnaus skonio ir subtilios tekstūros, puikiai tinka kaip stilingas pirmasis patiekalas."
+  },
+  "seo": {
+    "metaTitle": "Consommé - Prancūziškas sultinys | Receptas",
+    "metaDescription": "Sužinokite, kaip paruošti Consommé - prancūzišką sultinį, kuris yra itin skaidrus ir gardus. Tinka tiek šaltas, tiek karštas patiekimui.",
+    "keywords": [
+      "consommé",
+      "prancūziškas sultinys",
+      "skaidrus sultinys",
+      "vištienos sultinys",
+      "gardi sriuba"
+    ],
+    "recipeCategory": "sriubos",
+    "recipeCuisine": "prancūzų",
+    "nutrition": {
+      "calories": 70,
+      "proteinContent": "6g",
+      "fatContent": "2g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/sriubos",
+  "secondaryCategories": [
+    "receptai/pietus",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištienos sultinys"
+      },
+      "quantity": "1 litras",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinių baltymai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Madeira vynas"
+      },
+      "quantity": "100 ml",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Atsargiai nuimkite riebalus nuo sultinio ir paragaukite, ar reikia druskos. Jei patieksite šaltą, truputį padidinkite druskos kiekį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kiaušinių baltymų paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite 1 puodelį sultinio su kiaušinių baltymais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sultinio kaitinimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite likusį sultinį iki virimo temperatūros ir po truputį supilkite į kiaušinių baltymų mišinį, nuolat maišydami."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Filtravimas"
+      },
+      "text": {
+        "lt": "Kai sultinys pradeda virti, nustokite maišyti. Perkoškite per marle išklotą sietą į dubenį."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pabaiga"
+      },
+      "text": {
+        "lt": "Į atvėsintą sultinį įpilkite Madeira vyno ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite sodresnio skonio, naudokite jautienos sultinį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekite su šviežiai kepta duonele."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/consomme-prancuziskas-sultinys.jpg",
+    "alt": "Consommé prancūziškas sultinys, patiektas dubenėlyje",
+    "width": 800,
+    "height": 571
+  },
+  "tags": [
+    "consommé",
+    "prancūziškas sultinys",
+    "skaidrus sultinys",
+    "lengvas receptas",
+    "gardi sriuba"
+  ],
+  "author": {
+    "name": "Mike Hayes",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mike%20Hayes"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Consommé",
+    "pageTitle": "Cookbook:Consommé",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:40.972Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AConsomm%C3%A9&action=history",
+    "originalCreator": {
+      "name": "Mike Hayes",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mike%20Hayes"
+    }
+  },
+  "originalImage": {
+    "fileName": "Consomme_de_volaille.jpg",
+    "author": {
+      "name": "Kui-Doraku",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kui-Doraku"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://commons.wikimedia.org/wiki/File:Consomme_de_volaille.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

@@ -1,0 +1,78 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cocoa-Coconut_Bites",
+    "pageTitle": "Cookbook:Cocoa-Coconut_Bites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACocoa-Coconut_Bites&action=history",
+    "extractedAt": "2025-12-23T07:10:25.454Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Cocoa-Coconut Bites",
+    "slug": "cocoa-coconut-bites",
+    "description": "Originally posted to Foodista by Anne Pedersen. Foodista recipes are released under a CC-BY license.",
+    "ingredients": [
+      "⅓ cup (45 g) coconut oil",
+      "¼ cup (25 g) unsweetened cocoa powder",
+      "⅛ cup + 1 tsp (30 ml + 1 tsp) maple syrup",
+      "1 pinch salt"
+    ],
+    "instructions": [],
+    "notes": [
+      "Because these confections are not made of tempered chocolate, they will not hold their shape at room temperature. They must be stored in the fridge or freezer."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using cocoa powder",
+      "Recipes using maple syrup",
+      "Recipes from Foodista",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Recipes using coconut oil"
+    ]
+  },
+  "image": {
+    "filename": "Sugar-free_Homemade_Chocolate.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Sugar-free_Homemade_Chocolate.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sugar-free_Homemade_Chocolate.jpg",
+    "localPath": "scripts/wiki/output/Sugar-free_Homemade_Chocolate.jpg",
+    "dimensions": {
+      "width": 550,
+      "height": 550
+    },
+    "fileSize": 110754,
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Anne Pedersen/Foodista",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:NMaia"
+    },
+    "metadata": {
+      "description": "Sugarfree homemade chocolate",
+      "categories": [
+        "Chocolate",
+        "Files from external sources with reviewed licenses",
+        "Sugar-free products"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Sugar-free_Homemade_Chocolate.jpg"
+  }
+}

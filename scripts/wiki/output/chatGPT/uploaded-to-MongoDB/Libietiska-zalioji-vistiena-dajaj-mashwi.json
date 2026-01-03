@@ -1,0 +1,236 @@
+{
+  "slug": "libietiska-zalioji-vistiena-dajaj-mashwi",
+  "canonicalUrl": "https://ragaujam.lt/receptas/libietiska-zalioji-vistiena-dajaj-mashwi",
+  "title": {
+    "lt": "Libietiška žalia vištiena (Dajaj Mashwi)"
+  },
+  "description": {
+    "lt": "Dajaj mashwi - tai gardus Libietiškas patiekalas, kuriame vištiena yra marinuojama aromatingu žolelių ir prieskonių mišiniu. Grilinta vištiena tampa sultinga ir švelni, su maloniu dūminiu skoniu. Šis patiekalas puikiai tinka šventiniams susibūrimams."
+  },
+  "seo": {
+    "metaTitle": "Libietiška žalia vištiena (Dajaj Mashwi) | Skonių pasaulis",
+    "metaDescription": "Atraskite gardų Libietišką Dajaj Mashwi vištienos receptą, kuriame vištiena marinuojama aromatingu žolelių ir prieskonių mišiniu, grilinama iki tobulo sultingumo.",
+    "keywords": [
+      "Libietiška vištiena",
+      "grilinta vištiena",
+      "Dajaj Mashwi",
+      "vištienos receptas",
+      "Libietiška virtuvė"
+    ],
+    "recipeCategory": "ant-grilio",
+    "recipeCuisine": "Libijos",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "30g",
+      "fatContent": "25g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/ant-grilio",
+  "secondaryCategories": [
+    "receptai/vistiena"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinų sultys"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti kumynai"
+      },
+      "quantity": "2 šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "2 šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti kalendros"
+      },
+      "quantity": "1 šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kajeno pipirai"
+      },
+      "quantity": "0.5 šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "0.25 šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Citrinos"
+      },
+      "quantity": "Pateikti",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Marinato paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite smulkintą česnaką, alyvuogių aliejų, citrinų sultis, kumynus, papriką, kalendrą, kajeno pipirus, druską ir juoduosius pipirus. Gautą marinatą gerai išmaišykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Vištienos marinavimas"
+      },
+      "text": {
+        "lt": "Vištienos gabalėlius gerai įtrinkite paruoštu marinatu ir palikite marinuotis 2-4 valandas, kad skoniai įsigertų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Grilinimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite grilį ar grilinimo keptuvę iki vidutinio karštumo. Sudėkite vištienos gabalėlius ant grilio odelės puse žemyn. Kepkite 10-15 minučių, apverskite ir kepkite dar 10-15 minučių, kol vištiena bus iškepusi ir gražiai apskrudusi."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Nuėmę nuo grilio, leiskite vištienai pailsėti kelias minutes. Patiekite su šviežiomis petražolėmis ir citrinos skiltelėmis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint intensyvesnio dūminio skonio, į grilį galima pridėti mirkytų medienos drožlių."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Vištieną galima grilinti su arba be kaulo, priklausomai nuo pageidavimų."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/Libietiska-zalioji-vistiena-dajaj-mashwi.jpg",
+    "alt": "Libietiška žalia vištiena ant grilio su citrinomis",
+    "width": 4160,
+    "height": 3120
+  },
+  "tags": [
+    "Libietiška vištiena",
+    "grilinta vištiena",
+    "Dajaj Mashwi",
+    "vištienos receptas",
+    "libieskos virtuvė"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dajaj_Mashwi_(Libyan_Grilled_Chicken)",
+    "pageTitle": "Cookbook:Dajaj_Mashwi_(Libyan_Grilled_Chicken)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:26:32.361Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADajaj_Mashwi_(Libyan_Grilled_Chicken)&action=history",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Dajaj_Mashwi.jpg",
+    "author": {
+      "name": "Ayyappannagamani",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ayyappannagamani"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Dajaj_Mashwi.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:00:00+03:00",
+  "createdAt": "2026-01-03T14:00:00+03:00",
+  "updatedAt": "2026-01-03T14:00:00+03:00"
+}

@@ -1,0 +1,212 @@
+{
+  "slug": "cezario-salotos-su-romaine",
+  "canonicalUrl": "https://ragaujam.lt/receptas/cezario-salotos-su-romaine",
+  "title": {
+    "lt": "Cezario salotos su Romaine"
+  },
+  "description": {
+    "lt": "Cezario salotos yra klasikinis patiekalas, dažnai patiekiamas Amerikos restoranuose. Šios salotos yra laikomos \"salotų karaliumi\" dėl savo unikalaus skonio ir paruošimo būdo."
+  },
+  "seo": {
+    "metaTitle": "Cezario salotos su Romaine | Klasikinis receptas",
+    "metaDescription": "Klasikinės Cezario salotos su Romaine salotomis, jūros druska, juodaisiais pipirais ir kiaušiniais. Patiekalas, kuris laikomas salotų karaliumi dėl savo unikalaus skonio.",
+    "keywords": [
+      "cezario salotos",
+      "romaine salotos",
+      "klasikinės salotos",
+      "amerikietiškos salotos",
+      "salotų receptas",
+	  "romaine salotos"
+    ],
+    "recipeCategory": "salotos",
+    "recipeCuisine": "Amerikietiška",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "6g",
+      "fatContent": "28g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 3,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/salotos",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Romaine salotos"
+      },
+      "quantity": "1 galva",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "50 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jūros druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonojo vyno actas"
+      },
+      "quantity": "Pabarstymui",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vorčesterio padažas"
+      },
+      "quantity": "3 šlakeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Krekeriai su česnaku"
+      },
+      "quantity": "Patiekimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Salotų paruošimas"
+      },
+      "text": {
+        "lt": "Apšlakstykite Romaine salotas 2 valgomaisiais šaukštais alyvuogių aliejaus. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Prieskoniai"
+      },
+      "text": {
+        "lt": "Įberkite jūros druskos ir juodųjų pipirų. Vėl gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pridėti actą"
+      },
+      "text": {
+        "lt": "Apšlakstykite raudonojo vyno actu ir vėl sumaišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Vorčesterio padažas"
+      },
+      "text": {
+        "lt": "Vorčesterio padažą užpilkite ant salotų ir gerai sumaišykite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kiaušiniai ir krekeriai"
+      },
+      "text": {
+        "lt": "Ant salotų uždėkite kiaušinius ir sumaišykite. Patiekite su česnakiniais krekeriais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Romaine salotų pjaustymas nesukels jų rudavimo (tai mitas), todėl drąsiai naudokite peilį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/cezario-salotos-su-romaine.jpg",
+    "alt": "Cezario salotos su Romaine salotomis ir česnakiniais krekeriais",
+    "width": 304,
+    "height": 205
+  },
+  "tags": [
+    "cezario salotos",
+    "romaine salotos",
+    "amerikietiškos salotos",
+    "lengvas receptas",
+    "klasikinės salotos"
+  ],
+  "author": {
+    "name": "81.77.77.122",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:81.77.77.122"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Caesar_Salad",
+    "pageTitle": "Cookbook:Caesar_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:19.838Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACaesar_Salad&action=history",
+    "originalCreator": {
+      "name": "81.77.77.122",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:81.77.77.122"
+    }
+  },
+  "originalImage": {
+    "fileName": "CaesarSalad3.jpg",
+    "author": {
+      "name": "User Novellina on en.wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Liftarn"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CaesarSalad3.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/CaesarSalad3.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:30:00+03:00",
+  "createdAt": "2025-12-21T20:30:00+03:00",
+  "updatedAt": "2025-12-21T20:30:00+03:00"
+}

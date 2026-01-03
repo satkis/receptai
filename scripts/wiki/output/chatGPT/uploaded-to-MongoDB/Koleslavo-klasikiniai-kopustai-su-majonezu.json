@@ -1,0 +1,194 @@
+{
+  "slug": "Koleslavo-klasikiniai-kopustai-su-majonezu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/Koleslavo-klasikiniai-kopustai-su-majonezu",
+  "title": {
+    "lt": "Koleslavo klasikiniai kopūstai su majonezu"
+  },
+  "description": {
+    "lt": "Gaivios ir traškios kopūstų salotos su majonezu, puikiai tinkančios kaip garnyras prie įvairių patiekalų. Šios salotos lengvai paruošiamos ir leidžia eksperimentuoti su įvairiomis daržovėmis."
+  },
+  "seo": {
+    "metaTitle": "Klasikiniai kopūstų salotos su majonezu | Paprastas receptas",
+    "metaDescription": "Paruoškite gaivias kopūstų salotas su majonezu. Puikus garnyras prie mėsos ar žuvies patiekalų. Papildykite spalvotomis paprikomis ar morkomis.",
+    "keywords": [
+      "kopūstų salotos",
+      "majonezu salotos",
+      "garnyras",
+      "vegetariškos salotos",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "salotos",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "2g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/salotos",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/vegetariskai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Majonezas"
+      },
+      "quantity": "4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Obuolių sidro actas"
+      },
+      "quantity": "75 ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Baltas kopūstas"
+      },
+      "quantity": "1 galva",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonas svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Jei naudojate obuolių sidro actą, sumaišykite jį su majonezu, kad gautumėte vienalytę masę."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kopūstų paruošimas"
+      },
+      "text": {
+        "lt": "Susmulkinkite arba supjaustykite kopūstą, kaip jums patinka – stambiai arba smulkiai."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sumaišymas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite kopūstą ir svogūną su majonezu."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Brandinimas"
+      },
+      "text": {
+        "lt": "Palikite salotas pastovėti, kad skoniai susijungtų, bent 20 minučių, bet bus skaniau, jei laikysite bent valandą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti Savojos kopūstą vietoje baltojo kopūsto."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Pridėkite tarkuotų morkų ar paprikų, kad salotos būtų spalvingesnės."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Norėdami suteikti salotoms saldumo, įpilkite iki 2 šaukštų cukraus."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/Koleslavo-klasikiniai-kopustai-su-majonezu.jpg",
+    "alt": "Gaivios kopūstų salotos su majonezu ir svogūnu",
+    "width": 1222,
+    "height": 858
+  },
+  "tags": [
+    "kopūstų salotos",
+    "majonezu salotos",
+    "vegetariškos salotos",
+    "lengvas receptas",
+    "garnyras"
+  ],
+  "author": {
+    "name": "70.39.98.223",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:70.39.98.223"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Coleslaw_I",
+    "pageTitle": "Cookbook:Coleslaw_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:38.204Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AColeslaw_I&action=history",
+    "originalCreator": {
+      "name": "70.39.98.223",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.39.98.223"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bowl'o'Coleslaw_modified.jpg",
+    "author": {
+      "name": "Rainer Zenz",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rainer%20Zenz"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bowl%27o%27Coleslaw_modified.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

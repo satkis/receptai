@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Com_Chien_(Vietnamese_Fried_Rice)",
+    "pageTitle": "Cookbook:Com_Chien_(Vietnamese_Fried_Rice)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Triwikanto",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Triwikanto"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACom_Chien_(Vietnamese_Fried_Rice)&action=history",
+    "extractedAt": "2025-12-23T07:10:39.525Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Com Chien (Vietnamese Fried Rice)",
+    "slug": "com-chien-vietnamese-fried-rice",
+    "description": "Category:Recipes using egg Category:Recipes using rice Category:Recipes using shrimp Category:Recipes for fried rice Category:Vegetarian recipes Category:Vietnamese recipes Category:Stir fry recipes Category:Main course recipes Category:Side dish recipes Category:Recipes using carrot Category:Recipes using chile Category:Recipes using garlic Category:Recipes using leek",
+    "ingredients": [
+      "3 tbsp oil",
+      "3 cloves garlic",
+      "2 leeks, chopped finely",
+      "2 red chiles, chopped finely",
+      "2 eggs, beaten",
+      "100 g diced carrot",
+      "200 g prawn, diced small",
+      "100 g green peas",
+      "600 g rice",
+      "1 tbsp salt",
+      "1 tbsp pepper",
+      "2 tbsp chicken powder",
+      "Fried egg"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": 5,
+    "totalTimeMinutes": 30,
+    "difficulty": 2,
+    "category": "Rice recipes",
+    "categories": [
+      "Recipes using egg",
+      "Recipes using rice",
+      "Recipes using shrimp",
+      "Recipes for fried rice",
+      "Vegetarian recipes",
+      "Vietnamese recipes",
+      "Stir fry recipes",
+      "Main course recipes",
+      "Side dish recipes",
+      "Recipes using carrot",
+      "Recipes using chile",
+      "Recipes using garlic",
+      "Recipes using leek"
+    ]
+  },
+  "image": {
+    "filename": "Com_chien.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Com_chien.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Com_chien.jpg",
+    "localPath": "scripts/wiki/output/Com_chien.jpg",
+    "dimensions": {
+      "width": 486,
+      "height": 364
+    },
+    "fileSize": 25945,
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "The original uploader was Triwikanto at English Wikibooks.",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "metadata": {
+      "description": "Com chien, the Vietnamese-style fried rice.",
+      "categories": [
+        "Rice-based food",
+        "Files moved from en.wikibooks to Commons requiring review",
+        "Files moved to Commons requiring review as of 19 August 2017"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Com_chien.jpg"
+  }
+}

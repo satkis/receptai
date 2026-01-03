@@ -1,0 +1,182 @@
+{
+  "slug": "kokosinis-ryziai-nasi-lemak",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kokosinis-ryziai-nasi-lemak",
+  "title": {
+    "lt": "Kokosiniai ryžiai (Nasi Lemak)"
+  },
+  "description": {
+    "lt": "Kokosiniai ryžiai arba Nasi Lemak – tai populiarus Malaizijos virtuvės patiekalas, kuriame derinami basmati ryžiai ir kokosų pienas. Šis receptas leidžia paruošti kvapnius ir kremiškus ryžius, kurie puikiai dera su įvairiais priedais."
+  },
+  "seo": {
+    "metaTitle": "Kokosiniai ryžiai (Nasi Lemak) | Tradicinis receptas",
+    "metaDescription": "Atraskite, kaip pagaminti autentiškus kokosinius ryžius (Nasi Lemak) su basmati ryžiais ir kokosų pienu. Tradicinis Malaizijos patiekalas, tinkantis įvairiems priedams.",
+    "keywords": [
+      "kokosiniai ryžiai",
+      "nasi lemak",
+      "malaizijos virtuvė",
+      "basmati ryžiai",
+      "kokosų pienas"
+    ],
+    "recipeCategory": "ryziai",
+    "recipeCuisine": "Malaizijos",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "6g",
+      "fatContent": "12g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/ryziai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Basmati ryžiai"
+      },
+      "quantity": "1450 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kokosų pienas"
+      },
+      "quantity": "1680 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pandanų lapai"
+      },
+      "quantity": "1-2 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ryžių paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite basmati ryžius ir atidėkite į šalį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kokosų pieno paruošimas"
+      },
+      "text": {
+        "lt": "Į puodą supilkite kokosų pieną ir druską, užkaiskite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Ryžių virimas"
+      },
+      "text": {
+        "lt": "Į pieną suberkite ryžius, pandanų lapus ir imbierą. Virkite ant silpnos ugnies, kol pienas išgaruos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Uždengus puodą, leiskite ryžiams pastovėti apie 15 minučių, kad jie pilnai išvirtų."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Pandanų lapai suteikia subtilų aromatą, bet gali būti praleisti."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kokosinis-ryziai-nasi-lemak.jpg",
+    "alt": "Kokosiniai ryžiai su kokosų pienu ir pandanų lapais",
+    "width": 3264,
+    "height": 2448
+  },
+  "tags": [
+    "kokosiniai ryžiai",
+    "nasi lemak",
+    "malaizijos virtuvė",
+    "lengvas receptas",
+    "tradiciniai patiekalai"
+  ],
+  "author": {
+    "name": "196.202.68.80",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:196.202.68.80"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Coconut_Rice_(Nasi_Lemak)",
+    "pageTitle": "Cookbook:Coconut_Rice_(Nasi_Lemak)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:36.124Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Rice_(Nasi_Lemak)&action=history",
+    "originalCreator": {
+      "name": "196.202.68.80",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:196.202.68.80"
+    }
+  },
+  "originalImage": {
+    "fileName": "Nasi_Lemak,_Mamak,_Sydney.jpg",
+    "author": {
+      "name": "Mw12310",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Takeaway"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Nasi_Lemak%2C_Mamak%2C_Sydney.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:36+03:00",
+  "createdAt": "2025-12-23T10:10:36+03:00",
+  "updatedAt": "2025-12-23T10:10:36+03:00"
+}

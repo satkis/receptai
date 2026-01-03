@@ -1,0 +1,285 @@
+{
+  "slug": "juodojo-misko-tortas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/juodojo-misko-tortas",
+  "title": {
+    "lt": "Juodojo miško tortas - šokoladinis pyragas su vyšniomis"
+  },
+  "description": {
+    "lt": "Juodojo miško tortas - tai gardus šokoladinis pyragas su vyšnių akcentu, kilęs iš Vokietijos. Šis tortas puikiai tiks desertui ir nudžiugins visus šokolado mėgėjus."
+  },
+  "seo": {
+    "metaTitle": "Juodojo miško tortas | Šokoladinis pyragas su vyšniomis",
+    "metaDescription": "Juodojo miško tortas - šokoladinis pyragas su vyšniomis, kilęs iš Vokietijos. Puikus pasirinkimas desertui, kuris sužavės visus šokolado mėgėjus.",
+    "keywords": [
+      "juodojo miško tortas",
+      "šokoladinis pyragas",
+      "tortas su vyšniomis",
+      "vokiškas desertas",
+      "šokolado mėgėjams"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Vokiečių",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "6g",
+      "fatContent": "30g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 150,
+  "totalTimeMinutes": 180,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "sunkus",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudasis cukrus"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokoladas"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "¼ arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinė"
+      },
+      "quantity": "140ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juoda kava"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kremas"
+      },
+      "quantity": "50g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "50g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištos kiaušinio trynys"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės esencija"
+      },
+      "quantity": "keli lašai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "500ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodosios vyšnios"
+      },
+      "quantity": "1 skardinė (450g)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodųjų vyšnių džemas"
+      },
+      "quantity": "4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Brendis arba vyšnių sultys"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas šokoladas"
+      },
+      "quantity": "100g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Sviestą ir cukrų gerai išmaišykite. Ištirpinkite šokoladą ir įmaišykite į sviesto mišinį. Įmuškite kiaušinius ir viską gerai išplakite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Maišymas"
+      },
+      "text": {
+        "lt": "Persijokite miltus, druską ir cinamoną kartu. Sausus ingredientus lengvai įmaišykite į skystus, tada įpilkite grietinės ir kavos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Mišinį supilkite į paruoštą 23 cm apvalią formą ir kepkite 1 valandą ir 25 minutes. Atvėsinkite ant grotelių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Papuošimas"
+      },
+      "text": {
+        "lt": "Išplakite grietinėlę, iki susidaro standžios putos. Pusę vyšnių išimkite iš kauliukų ir padėkite ant grietinėlės."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Surinkimas"
+      },
+      "text": {
+        "lt": "Tortą horizontaliai perpjaukite į tris sluoksnius. Kiekvieną sluoksnį aptepkite grietinėle, vyšniomis ir džemu. Viršutinį sluoksnį papuoškite tarkuotu šokoladu ir vyšniomis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite brendžio, galite naudoti vyšnių sultis."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Vietoj airiško sviesto galite naudoti kitą sviestą ar aliejų."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/juodojo-misko-tortas.jpg",
+    "alt": "Juodojo miško tortas - šokoladinis pyragas su vyšniomis",
+    "width": 3072,
+    "height": 2304
+  },
+  "tags": [
+    "juodojo miško tortas",
+    "šokoladinis pyragas",
+    "vokiškas desertas",
+    "tortas su vyšniomis",
+    "šventinis desertas"
+  ],
+  "author": {
+    "name": "70.246.252.241",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:70.246.252.241"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Black_Forest_Cake",
+    "pageTitle": "Cookbook:Black_Forest_Cake",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-26T21:22:51.403Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlack_Forest_Cake&action=history",
+    "originalCreator": {
+      "name": "70.246.252.241",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.246.252.241"
+    }
+  },
+  "originalImage": {
+    "fileName": "Black_Forest_gateau.jpg",
+    "author": {
+      "name": "Mikelo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ras67"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Black_Forest_gateau.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-26T21:22:51+03:00",
+  "createdAt": "2025-11-26T21:22:51+03:00",
+  "updatedAt": "2025-11-26T21:22:51+03:00"
+}

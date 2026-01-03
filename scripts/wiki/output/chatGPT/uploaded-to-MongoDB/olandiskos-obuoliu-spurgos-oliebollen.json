@@ -1,0 +1,296 @@
+{
+  "slug": "olandiskos-obuoliu-spurgos-oliebollen",
+  "canonicalUrl": "https://ragaujam.lt/receptas/olandiskos-obuoliu-spurgos-oliebollen",
+  "title": {
+    "lt": "Olandiškos obuolių spurgos (Oliebollen)"
+  },
+  "description": {
+    "lt": "Oliebollen yra tradicinės olandiškos obuolių spurgos, populiarios Olandijos šventėse Jungtinėse Amerikos Valstijose, tokiose kaip Holland Happening Festivalis Oak Harbor mieste, Vašingtone. Šis receptas padės jums paruošti šias skanias spurgas su cinamonu ir obuoliais."
+  },
+  "seo": {
+    "metaTitle": "Olandiškos obuolių spurgos | Oliebollen receptas",
+    "metaDescription": "Tradicinės olandiškos obuolių spurgos su cinamonu. Puikiai tinka šventėms ir vakarėliams. Pasigaminkite šias skanias ir purias spurgas namuose!",
+    "keywords": [
+      "olandiskos spurgos",
+      "obuoliu spurgos",
+      "oliebollen",
+      "desertai",
+      "svenciu receptai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Olandų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "7g",
+      "fatContent": "15g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+ 
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "240ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "2 pakeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "5 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "480ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "360ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Margarinas"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "1.2kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Obuoliai"
+      },
+      "quantity": "3 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "600g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Razinos"
+      },
+      "quantity": "240ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "Kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mielių paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite cukrų su šiltu vandeniu ir pabarstykite mieles. Leiskite pastovėti apie 10 minučių."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos ruošimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje išplakite kiaušinius. Įpilkite pašildytą pieną, šiltą vandenį, mielių mišinį ir margariną. Išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Miltų maišymas"
+      },
+      "text": {
+        "lt": "Į masę įdėkite miltus, cukrų ir druską. Gerai išmaišykite. Įdėkite supjaustytus obuolius."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos kilimas"
+      },
+      "text": {
+        "lt": "Leiskite tešlai pakilti šiltoje vietoje, kol padvigubės. Tam puikiai tinka didelis puodas."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Cinamoninio cukraus paruošimas"
+      },
+      "text": {
+        "lt": "Atskirame dubenyje sumaišykite cukrų su cinamonu pagal skonį ir atidėkite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Užpildykite keptuvę aliejumi ir įkaitinkite iki 190°C. Į karštą aliejų dėkite tešlos su šaukštu."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Spurgų kepimas"
+      },
+      "text": {
+        "lt": "Kepkite spurgas, kol taps auksinės spalvos, vartykite, kad tolygiai iškeptų."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Spurgų išėmimas"
+      },
+      "text": {
+        "lt": "Išimkite spurgas ir padėkite ant popierinių rankšluosčių."
+      }
+    },
+    {
+      "step": 9,
+      "name": {
+        "lt": "Spurgų apvoliojimas"
+      },
+      "text": {
+        "lt": "Apvoliokite spurgas cinamoniniame cukruje ir patiekite šiltas."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, galite pridėti razinų arba kitų džiovintų vaisių ryškesniam skoniui."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/olandiskos-obuoliu-spurgos-oliebollen.jpg",
+    "alt": "Olandiškos obuolių spurgos su cinamonu",
+    "width": 600,
+    "height": 450
+  },
+  "tags": [
+    "olandiskos spurgos",
+    "obuoliu spurgos",
+    "oliebollen",
+    "desertai",
+    "cinamonas"
+  ],
+  "author": {
+    "name": "216.177.2.140",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:216.177.2.140"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dutch_Apple_Fritters_(Oliebollen)",
+    "pageTitle": "Cookbook:Dutch_Apple_Fritters_(Oliebollen)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:28:37.301Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADutch_Apple_Fritters_(Oliebollen)&action=history",
+    "originalCreator": {
+      "name": "216.177.2.140",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:216.177.2.140"
+    }
+  },
+  "originalImage": {
+    "fileName": "Oliebollen.jpg",
+    "author": {
+      "name": "Takeaway",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Takeaway"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Oliebollen.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:00:00+03:00",
+  "createdAt": "2026-01-03T14:00:00+03:00",
+  "updatedAt": "2026-01-03T14:00:00+03:00"
+}

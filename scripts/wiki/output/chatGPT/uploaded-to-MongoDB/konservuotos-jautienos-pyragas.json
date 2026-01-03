@@ -1,0 +1,229 @@
+{
+  "slug": "konservuotos-jautienos-pyragas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/konservuotos-jautienos-pyragas",
+  "title": {
+    "lt": "Konservuotos jautienos pyragas"
+  },
+  "description": {
+    "lt": "Konservuotos jautienos pyragas yra tradicinis britų patiekalas. Jis gali būti valgomas karštas arba šaltas, todėl puikiai tinka piknikams ar kaip šildantis žiemos valgis."
+  },
+  "seo": {
+    "metaTitle": "Konservuotos jautienos pyragas | Tradicinis britų receptas",
+    "metaDescription": "Tradicinio konservuotos jautienos pyrago receptas iš Didžiosios Britanijos. Puikus pasirinkimas tiek karštam, tiek šaltam valgymui. Puikiai tinka žiemai.",
+    "keywords": [
+      "konservuotos jautienos pyragas",
+      "britų virtuvė",
+      "tradicinis pyragas",
+      "pyragas su mėsa",
+      "žiemai"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Britų",
+    "nutrition": {
+      "calories": 600,
+      "proteinContent": "25g",
+      "fatContent": "35g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Savaime kylančių miltų"
+      },
+      "quantity": "340g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Taukai"
+      },
+      "quantity": "85g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Margarinas"
+      },
+      "quantity": "85g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Konservuota jautiena"
+      },
+      "quantity": "1 didelė skardinė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 didelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1-2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "pagal poreikį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C temperatūros."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Persijokite miltus į dubenį. Įtrinkite taukus ir margariną."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Įpilkite tiek vandens, kad susidarytų tešla. Pusę tešlos iškočiokite ir ja išklokite didelį pyrago indą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Bulvių paruošimas"
+      },
+      "text": {
+        "lt": "Užvirkite bulves, nusausinkite, įdėkite sviestą ir sutrinkite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Įdaras"
+      },
+      "text": {
+        "lt": "Į bulves įmaišykite svogūną ir konservuotą jautieną."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Pyrago formavimas"
+      },
+      "text": {
+        "lt": "Įdėkite bulvių mišinį į paruoštą indą. Iškočiokite likusią tešlos dalį ir uždenkite pyragą, kraštus gerai užspauskite."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Pyrago kepimas"
+      },
+      "text": {
+        "lt": "Viršuje padarykite kelias įpjovas, aptepkite pienu ir kepkite, kol pyragas taps auksinės spalvos, apie 35-40 minučių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šis pyragas puikiai dera su šviežiomis daržovėmis ar bulvių koše."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/konservuotos-jautienos-pyragas.jpg",
+    "alt": "Konservuotos jautienos pyragas, patiektas su salotomis ir sūrio sriuba",
+    "width": 800,
+    "height": 587
+  },
+  "tags": [
+    "konservuotos jautienos pyragas",
+    "britų virtuvė",
+    "tradicinis pyragas",
+    "pyragas su mėsa",
+    "žiemai"
+  ],
+  "author": {
+    "name": "imported>Josquius",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:imported%3EJosquius"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Corned_Beef_Pie",
+    "pageTitle": "Cookbook:Corned_Beef_Pie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:47.382Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACorned_Beef_Pie&action=history",
+    "originalCreator": {
+      "name": "imported>Josquius",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:imported%3EJosquius"
+    }
+  },
+  "originalImage": {
+    "fileName": "Corned_beef_pie.jpg",
+    "author": {
+      "name": "Ed Bierman",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Corned_beef_pie.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:10:47+03:00",
+  "createdAt": "2025-12-23T07:10:47+03:00",
+  "updatedAt": "2025-12-23T07:10:47+03:00"
+}

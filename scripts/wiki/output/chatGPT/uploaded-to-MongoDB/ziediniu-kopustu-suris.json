@@ -1,0 +1,214 @@
+{
+  "slug": "ziediniu-kopustu-suris",
+  "canonicalUrl": "https://ragaujam.lt/receptas/ziediniu-kopustu-suris",
+  "title": {
+    "lt": "Žiedinių kopūstų sūris"
+  },
+  "description": {
+    "lt": "Žiedinių kopūstų sūris - tai gardus ir sūrus patiekalas, puikiai tinkantis kaip garnyras prie kepsnio ar kitų patiekalų. Šis receptas yra lengvas ir greitai paruošiamas, o sūrėlis sukuria ypatingą skonį."
+  },
+  "seo": {
+    "metaTitle": "Žiedinių kopūstų sūris - Lengvas ir skanus receptas",
+    "metaDescription": "Išbandykite žiedinių kopūstų sūrio receptą. Tai lengvas ir sūrus patiekalas, idealus garnyras prie kepsnio ar kitų patiekalų.",
+    "keywords": [
+      "žiedinių kopūstų sūris",
+      "sūris",
+      "garnyras",
+      "lengvas receptas",
+      "kepsnių garnyras"
+    ],
+    "recipeCategory": "garnyrai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "15g",
+      "fatContent": "20g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/garnyrai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/seimos-pietums"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Žiediniai kopūstai"
+      },
+      "quantity": "1 didelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis salotų padažas"
+      },
+      "quantity": "300 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Parmezanas"
+      },
+      "quantity": "100 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "30 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiūvėsiai"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite žiedinius kopūstus į mažas dalis ir pamerkite į sūdytą vandenį valandai."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Virimas"
+      },
+      "text": {
+        "lt": "Nusausinkite žiedinius kopūstus ir dėkite į verdantį pasūdytą vandenį. Virkite, kol suminkštės, bet dar išliks šiek tiek traškūs."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sumaišymas"
+      },
+      "text": {
+        "lt": "Išvirtus žiedinius kopūstus sudėkite į indą. Sumaišykite baltąjį padažą su 2/3 parmezano ir užpilkite ant kopūstų. Pabarstykite džiūvėsiais ir likusiu parmezanu."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Dėkite į orkaitę ir kepkite apie 20 minučių arba kol gražiai apskrus."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite iš karto, kol dar karšta."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite pridėti daugiau sūrio, kad patiekalas būtų dar sūresnis ir sotesnis."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/ziediniu-kopustu-suris.jpg",
+    "alt": "Žiedinių kopūstų sūris - gardus garnyras",
+    "width": 4011,
+    "height": 3014
+  },
+  "tags": [
+    "žiedinių kopūstų sūris",
+    "sūrio patiekalas",
+    "garnyras",
+    "lengvas receptas",
+    "šeimos pietūs"
+  ],
+  "author": {
+    "name": "Jamzze",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Jamzze"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cauliflower_Cheese",
+    "pageTitle": "Cookbook:Cauliflower_Cheese",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:39.355Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACauliflower_Cheese&action=history",
+    "originalCreator": {
+      "name": "Jamzze",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jamzze"
+    }
+  },
+  "originalImage": {
+    "fileName": "Cauliflower_cheese_side_dish.jpg",
+    "author": {
+      "name": "AnemoneProjectors - Peter O'Connor (talk; Flickr)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:McGeddon"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Cauliflower_cheese_side_dish.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:00:00+03:00",
+  "createdAt": "2025-12-21T20:00:00+03:00",
+  "updatedAt": "2025-12-21T20:00:00+03:00"
+}

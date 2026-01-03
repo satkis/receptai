@@ -1,0 +1,97 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Blueberry_Muffin",
+    "pageTitle": "Cookbook:Blueberry_Muffin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "70.246.252.241",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.246.252.241"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlueberry_Muffin&action=history",
+    "extractedAt": "2025-11-27T13:11:01.980Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Blueberry Muffin",
+    "slug": "blueberry-muffin",
+    "description": "Blueberry muffins are a pastry common in many parts of the world.",
+    "ingredients": [
+      "1¾ cups (250 g) flour",
+      "⅓ cup (65 g) white granulated sugar",
+      "2 teaspoons baking powder",
+      "¼ teaspoon salt",
+      "1 egg, beaten",
+      "¾ cup (180 ml) milk",
+      "¼ cup (60 ml) cooking oil",
+      "¾ cup (180 ml) blueberries, fresh or frozen"
+    ],
+    "instructions": [
+      "Grease muffin cups or line with paper cups; set aside.",
+      "Preheat the oven to 400°F (200°C).",
+      "In a medium bowl, combine  flour, sugar, baking powder, and salt. Make a well in the center of the mixture and set aside.",
+      "In a small bowl, combine beaten egg, milk, and oil. Add this mixture all at once to the flour mixture. Fold in blueberries and stir just until combined. Do not overstir.",
+      "Spoon batter into prepared cups, filling each about two-thirds full.",
+      "Bake for 18 to 20 minutes or until golden. When a wooden toothpick is inserted near the middle, it should come out clean.",
+      "Remove from muffin cups and let cool on a wire rack for 5 minutes."
+    ],
+    "notes": [
+      "The mixture should be lumpy after stirring. Overstirring to make smooth batter will cause the muffins to be tough.",
+      "Leaving the muffins in the muffin cups can make them soggy.",
+      "To make jumbo muffins, reduce the temperature to 350°F (180°C) and bake for 30 minutes.",
+      "To make mini muffins, bake for about 10 minutes at 400°F (200°C)."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 45,
+    "difficulty": 2,
+    "category": "Muffin recipes",
+    "categories": [
+      "Recipes using blueberry",
+      "Recipes for muffins|{{PAGENAME}}",
+      "Vegetarian recipes|{{PAGENAME}}",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes using baking powder",
+      "Recipes using granulated sugar",
+      "Recipes using egg",
+      "Recipes using wheat flour",
+      "Recipes using cow milk"
+    ]
+  },
+  "image": {
+    "filename": "Blueberry_muffins.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Blueberry_muffins.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Blueberry_muffins.jpg",
+    "localPath": "scripts/wiki/output/Blueberry_muffins.jpg",
+    "dimensions": {
+      "width": 600,
+      "height": 450
+    },
+    "fileSize": 277215,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Rob Pongsajapan from Arlington, VA, USA",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:AxelHH"
+    },
+    "metadata": {
+      "description": "Mini blueberry muffins.Blueberry muffins",
+      "categories": [
+        "Flickr images reviewed by trusted users",
+        "Information field template with formatting",
+        "FlickrLickr images",
+        "Blueberry muffins"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Blueberry_muffins.jpg"
+  }
+}

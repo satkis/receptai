@@ -1,0 +1,91 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bryndzové_Halušky_(Slovak_Dumplings_with_Cheese)",
+    "pageTitle": "Cookbook:Bryndzové_Halušky_(Slovak_Dumplings_with_Cheese)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AKeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AKeen"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABryndzov%C3%A9_Halu%C5%A1ky_(Slovak_Dumplings_with_Cheese)&action=history",
+    "extractedAt": "2025-11-27T13:11:17.593Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bryndzové Halušky (Slovak Dumplings with Cheese)",
+    "slug": "bryndzov-halu-ky-slovak-dumplings-with-cheese",
+    "description": "Bryndzové halušky is a Slovak dumpling dish. The ingredient that makes this national dish of Slovakia a favorite is the sheep's milk cheese, which has a slightly sharper taste than the non-flavored goat cheese spread available at many US grocery stores. The most abundant ingredient is the raw potato, which comprises most of the dough that creates the halušky and is a major staple in the Slovak diet.",
+    "ingredients": [
+      "750 g potatoes, peeled and finely grated",
+      "Salt (optional)",
+      "250 g all-purpose flour (hladkej múky)",
+      "250 g bryndze cheese, cut into very small pieces",
+      "100 g bacon (údenej slaniny), cooked and cut into small pieces"
+    ],
+    "instructions": [
+      "Combine the grated potatoes with with the flour and salt to make a dough.",
+      "Shape the dough into small cylindrical pieces less than 3 cm in size.",
+      "Transfer the dumplings to a pot of boiling salted water. When the dumplings rise to the top of the boiling water, remove one to make sure they are thoroughly cooked.",
+      "Remove the dumplings from the pot with a slotted spoon, and transfer to a warmed plate.",
+      "Immediately after dumplings are placed on the plate, scatter the cheese over top, and let the cheese melt over the dumplings. Mix if desired.",
+      "Sprinkle the crispy bacon bits on top of the cheese.",
+      "Serve piping hot."
+    ],
+    "notes": [
+      "If in a hurry, try replacing the from-scratch halusky with store-bought potato gnocchi.",
+      "If unable to find bryndze, you can substitute crumbled goat cheese or one of several types of crumbled feta. Some feta are stronger-flavored, which is preferable here."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using potato",
+      "Recipes using cheese",
+      "Dumpling recipes",
+      "Side dish recipes",
+      "Boiled recipes",
+      "Recipes with metric units",
+      "Recipes using bacon",
+      "Recipes using all-purpose flour"
+    ]
+  },
+  "image": {
+    "filename": "Bryndzové_halušky_so_slaninou.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg",
+    "localPath": "scripts/wiki/output/Bryndzové_halušky_so_slaninou.jpg",
+    "dimensions": {
+      "width": 3264,
+      "height": 2448
+    },
+    "fileSize": 2319310,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Gregory finster",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gyrobo"
+    },
+    "metadata": {
+      "description": "Bryndzové halušky so slaninou",
+      "categories": [
+        "CC-Zero",
+        "Bryndzové halušky",
+        "Self-published work",
+        "Škvarky"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Bryndzové_halušky_so_slaninou.jpg"
+  }
+}

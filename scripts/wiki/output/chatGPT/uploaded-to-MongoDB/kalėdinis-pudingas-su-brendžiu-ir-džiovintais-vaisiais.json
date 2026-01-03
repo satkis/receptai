@@ -1,0 +1,247 @@
+{
+  "slug": "kalėdinis-pudingas-su-brendžiu-ir-džiovintais-vaisiais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kaledinis-pudingas-su-brendziu-ir-dziovintais-vaisiais",
+  "title": {
+    "lt": "Kalėdinis pudingas su brendžiu ir džiovintais vaisiais"
+  },
+  "description": {
+    "lt": "Kalėdinis pudingas - tai tradicinis britų desertas, populiarus švenčių laikotarpiu. Šis receptas su brendžiu ir džiovintais vaisiais suteikia pudingui ypatingo skonio."
+  },
+  "seo": {
+    "metaTitle": "Kalėdinis pudingas | Receptas su brendžiu ir džiovintais vaisiais",
+    "metaDescription": "Tradicinis Kalėdinis pudingas su brendžiu ir džiovintais vaisiais. Puikus pasirinkimas švenčių stalui. Išbandykite šį gardų britų desertą.",
+    "keywords": [
+      "kalėdinis pudingas",
+      "britų desertas",
+      "brendžio pudingas",
+      "džiovintų vaisių pudingas",
+      "šventinis desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Britų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "5g",
+      "fatContent": "20g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 60,
+  "cookTimeMinutes": 540,
+  "totalTimeMinutes": 600,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "sunkus",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Savaime kylantys miltai"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Razinos"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Serbentai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    
+    {
+      "name": {
+        "lt": "Obuolys"
+      },
+      "quantity": "1 mažas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Apelsinas"
+      },
+      "quantity": "1 vienetas (žievelė ir sultys)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrina"
+      },
+      "quantity": "1 vienetas (žievelė ir sultys)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "75g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Muscovado cukrus"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 dideli",
+      "vital": true
+    },
+
+    {
+      "name": {
+        "lt": "Džiūvėsiai"
+      },
+      "quantity": "40g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Migdolai"
+      },
+      "quantity": "40g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Brendis"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Brendžio sviestas"
+      },
+      "quantity": "350g",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Vaisių mirkymas"
+      },
+      "text": {
+        "lt": "Sumaišykite razinas, serbentus, ir obuolį su citrinos ir apelsino žievelėmis bei sultimis. Palikite valandai, kad skoniai susijungtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kremo paruošimas"
+      },
+      "text": {
+        "lt": "Sviestą ir cukrų išplakite iki purumo. Pamažu įplakite kiaušinius."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sijokite miltus ir po truputį įmaišykite į sviesto ir cukraus mišinį kartu su džiūvėsiais ir migdolais. Pridėkite vaisių mišinį."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pudingas virimas"
+      },
+      "text": {
+        "lt": "Gerai sutepkite pudingo formą sviestu ir įdėkite kepimo popierių dugne. Supilkite tešlą, uždenkite kepimo popieriumi ir folija, palikdami vietos pudingo kilimui. Virkite 8 valandas ant garų arba 7 valandas verdančiame vandenyje."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pudingas užbaigimas"
+      },
+      "text": {
+        "lt": "Atvėsinkite pudingą 1–2 valandoms. Pakeiskite popierių ir foliją, laikykite vėsioje vietoje. Patiekimas: šildykite 2 valandas, užpilkite pašildytu brendžiu ir uždekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti romą ar šeri vietoj brendžio, kad suteiktumėte pudingui kitokį skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kaledinis-pudingas-su-brendziu-ir-dziovintais-vaisiais.jpg",
+    "alt": "Kalėdinis pudingas su brendžiu ir džiovintais vaisiais, uždegtas brendžiu",
+    "width": 1446,
+    "height": 992
+  },
+  "tags": [
+    "kalėdinis pudingas",
+    "britų desertas",
+    "brendžio pudingas",
+    "džiovintų vaisių pudingas",
+    "šventinis desertas"
+  ],
+  "author": {
+    "name": "Jamzze",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Jamzze"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Christmas_Pudding_I",
+    "pageTitle": "Cookbook:Christmas_Pudding_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:16.640Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChristmas_Pudding_I&action=history",
+    "originalCreator": {
+      "name": "Jamzze",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jamzze"
+    }
+  },
+  "originalImage": {
+    "fileName": "Christmas-pudding-flames.jpg",
+    "author": {
+      "name": "Matt Riggott from Edinburgh, Scotland",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Christmas-pudding-flames.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:10:16+03:00",
+  "createdAt": "2025-12-23T07:10:16+03:00",
+  "updatedAt": "2025-12-23T07:10:16+03:00"
+}

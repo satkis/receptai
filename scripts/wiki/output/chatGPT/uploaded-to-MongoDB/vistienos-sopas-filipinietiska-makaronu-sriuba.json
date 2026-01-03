@@ -1,0 +1,232 @@
+{
+  "slug": "vistienos-sopas-filipinietiska-makaronu-sriuba",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vistienos-sopas-filipinietiska-makaronu-sriuba",
+  "title": {
+    "lt": "Vištienos Sopas - Filipinietiška Makaronų Sriuba"
+  },
+  "description": {
+    "lt": "Filipinietiška sopas sriuba gaminama su makaronais, vištiena, daržovėmis ir pienu. Šis šiltas ir jaukus receptas puikiai tiks šaltam vakarui, kai norisi kažko ypatingo."
+  },
+  "seo": {
+    "metaTitle": "Vištienos Sopas | Filipinietiška Makaronų Sriuba",
+    "metaDescription": "Atraskite filipinietiškos vištienos sopas sriubos receptą su makaronais ir daržovėmis. Puikus pasirinkimas šaltam vakarui.",
+    "keywords": [
+      "vištienos sopas",
+      "filipinietiška sriuba",
+      "makaronų sriuba",
+      "vištienos sriuba",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "sriubos",
+    "recipeCuisine": "Filipinų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "18g",
+      "fatContent": "15g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/sriubos",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "3 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "3-4 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Elbow makaronai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kopūstai"
+      },
+      "quantity": "1/2 galvos",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "375 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite sviestą puode ir įdėkite česnaką bei svogūną. Kepkite, kol suminkštės, bet neapskrus."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Vištienos virimas"
+      },
+      "text": {
+        "lt": "Įdėkite vištieną, pagardinkite druska ir pipirais. Kepkite, kol vištiena bus pilnai iškeps, bet neapskrus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vandens ir makaronų įdėjimas"
+      },
+      "text": {
+        "lt": "Supilkite vandenį ir užvirkite. Kai vanduo užverda, nugriebkite putas ir įdėkite makaronus. Virkite apie 7 minutes."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Daržovių pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite morkas ir kopūstus, maišykite. Supilkite pieną, bet neleiskite jam užvirti."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite iš karto, nes makaronai sugeria sultinį. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti žuvies padažą vietoje druskos."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vistienos-sopas-filipinietiska-makaronu-sriuba.jpg",
+    "alt": "Vištienos sopas filipinietiška sriuba su makaronais ir daržovėmis",
+    "width": 4608,
+    "height": 3456
+  },
+  "tags": [
+    "vištienos sopas",
+    "filipinietiška sriuba",
+    "makaronų sriuba",
+    "vištienos sriuba",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Idril~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Idril~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Sopas",
+    "pageTitle": "Cookbook:Chicken_Sopas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:25.446Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Sopas&action=history",
+    "originalCreator": {
+      "name": "Idril~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Idril~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "8475Photos_taken_2020_coronavirus_pandemic_Baliuag,_Bulacan_17.jpg",
+    "author": {
+      "name": "Judgefloro",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/8475Photos_taken_2020_coronavirus_pandemic_Baliuag%2C_Bulacan_17.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

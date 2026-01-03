@@ -1,0 +1,87 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Damper_(Australian_Campfire_Bread)",
+    "pageTitle": "Cookbook:Damper_(Australian_Campfire_Bread)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Rosiemary",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Rosiemary"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADamper_(Australian_Campfire_Bread)&action=history",
+    "extractedAt": "2026-01-03T11:26:39.000Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Damper (Australian Campfire Bread)",
+    "slug": "damper-australian-campfire-bread",
+    "description": "250px|thumb|Damper and camp oven used, Walcha, NSW__NOTOC__ | Cuisine of Australia",
+    "ingredients": [
+      "1 large cup self-raising flour",
+      "1 generous pinch salt",
+      "scant ¼ cup water (more and it will be as tough as an old boot)"
+    ],
+    "instructions": [
+      "Add salt to flour.",
+      "Add water, then mix and form into a round loaf.",
+      "Dig a 1 foot-deep hole near a fire, and fill it with 2 shovels of hot coals and ash.",
+      "Add damper mixture to a greased camp oven (traditional cast iron round pot with lid).",
+      "Cook in the hole for a maximum of 40 minutes. If undercooked it will be flat and rubbery.",
+      "Your first try may be inedible. Keep trying, you'll soon be an expert."
+    ],
+    "notes": [
+      "This cookbook also has a Drover's damper recipe.",
+      "You can do this in a barbecue grill with the mixture in greased metal foil as well. During cooking, damper increases in volume by ⅓ to ½, so allow room for expansion.",
+      "If you aren't outdoors, just add mixture to greased oven tray and bake in a moderate oven for 30–40 minutes."
+    ],
+    "servings": 2,
+    "totalTimeMinutes": 50,
+    "difficulty": 3,
+    "category": "Bread recipes",
+    "categories": [
+      "Australian recipes|{{PAGENAME}}",
+      "Recipes for bread",
+      "Baking recipes",
+      "Recipes with images",
+      "Camping recipes",
+      "Recipes using self-raising flour"
+    ]
+  },
+  "image": {
+    "filename": "3o5dots.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:3o5dots.svg",
+    "localPath": "scripts/wiki/output/3o5dots.svg",
+    "dimensions": {
+      "width": 64,
+      "height": 12
+    },
+    "fileSize": 466,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:3o5dots.svg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "metadata": {
+      "description": "3 of 5 dots rating for Wikibooks Cookbook: A recipe rated 3 of 5 dots will be somewhat challenging to an inexperienced cook, or may require a longer amount of time to complete.",
+      "categories": [
+        "Color codes",
+        "Self-published work",
+        "PD-self",
+        "Valid SVG created with Text Editor:Icons"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg"
+  }
+}

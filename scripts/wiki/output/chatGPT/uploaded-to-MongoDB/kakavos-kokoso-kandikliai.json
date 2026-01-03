@@ -1,0 +1,172 @@
+{
+  "slug": "kakavos-kokoso-kasneliai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kakavos-kokoso-kasneliai",
+  "title": {
+    "lt": "Kakavos ir kokoso kasneliai"
+  },
+  "description": {
+    "lt": "Šie kakavos ir kokoso skanėstai yra puikus pasirinkimas tiems, kurie ieško sveikesnių desertų. Jie gaminami su kokosų aliejumi, nesaldinta kakava ir klevų sirupu. Tai ne tik skanūs, bet ir maistingi kasneliai, kuriuos galite laikyti šaldytuve ar šaldiklyje."
+  },
+  "seo": {
+    "metaTitle": "Kakavos ir kokoso kasneliai | Sveikas desertas",
+    "metaDescription": "Kakavos ir kokoso kasneliai – sveikesnis desertų pasirinkimas. Gaminami su kokosų aliejumi, kakava ir klevų sirupu. Puikiai tinka laikyti šaldytuve.",
+    "keywords": [
+      "kakavos kasneliai",
+      "kokoso desertas",
+      "sveiki desertai",
+      "klevų sirupas",
+      "be cukraus"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "1g",
+      "fatContent": "14g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vaikams"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kokosų aliejus"
+      },
+      "quantity": "45g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kakavos milteliai"
+      },
+      "quantity": "25g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Klevų sirupas"
+      },
+      "quantity": "30ml + 1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ingredientų sumaišymas"
+      },
+      "text": {
+        "lt": "Mažame puode ant žemos ugnies ištirpinkite kokosų aliejų. Įmaišykite kakavos miltelius, klevų sirupą ir druską. Gerai išmaišykite, kol masė taps vientisa."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Formavimas ir šaldymas"
+      },
+      "text": {
+        "lt": "Supilkite mišinį į mažas formeles ar ledo kubelių formą. Padėkite į šaldytuvą arba šaldiklį, kad sustingtų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Kai kasneliai sustingsta, išimkite iš formelių ir patiekite. Laikykite šaldytuve, kad išlaikytų formą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šiuos kasnelius galite laikyti šaldiklyje, kad jie būtų dar tvirtesni."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Galite pridėti riešutų ar džiovintų vaisių pagal skonį."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kakavos-kokoso-kasneliai.jpg",
+    "alt": "Kakavos ir kokoso kasneliai - sveikas desertas",
+    "width": 550,
+    "height": 550
+  },
+  "tags": [
+    "kakavos kasneliai",
+    "kokoso desertas",
+    "sveiki desertai",
+    "klevų sirupas",
+    "be cukraus"
+  ],
+  "author": {
+    "name": "NMaia",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cocoa-Coconut_Bites",
+    "pageTitle": "Cookbook:Cocoa-Coconut_Bites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:25.454Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACocoa-Coconut_Bites&action=history",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    }
+  },
+  "originalImage": {
+    "fileName": "Sugar-free_Homemade_Chocolate.jpg",
+    "author": {
+      "name": "Anne Pedersen/Foodista",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:NMaia"
+    },
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Sugar-free_Homemade_Chocolate.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:25+03:00",
+  "createdAt": "2025-12-23T10:10:25+03:00",
+  "updatedAt": "2025-12-23T10:10:25+03:00"
+}

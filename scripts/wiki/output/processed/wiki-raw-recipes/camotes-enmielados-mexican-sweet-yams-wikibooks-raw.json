@@ -1,0 +1,82 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Camotes_Enmielados_(Mexican_Sweet_Yams)",
+    "pageTitle": "Cookbook:Camotes_Enmielados_(Mexican_Sweet_Yams)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mercurywoodrose",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mercurywoodrose"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACamotes_Enmielados_(Mexican_Sweet_Yams)&action=history",
+    "extractedAt": "2025-12-21T17:59:24.908Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Camotes Enmielados (Mexican Sweet Yams)",
+    "slug": "camotes-enmielados-mexican-sweet-yams",
+    "description": "Camotes enmielados, also known as camotes con pilocilo, or camotes enmielados al horno, camotes con piloncilo al horno, is a baked, or stovetop, dessert-style Mexican yam/sweet potato dish. It is traditionally a home-cooked food, not typical restaurant fare. The finished product should have a strong caramel flavor, with a typical hint of bitterness from the molasses component of the sugar used. The sauce should be syrupy and very dark in color. The cinnamon flavor should be an accent, and not dominating.",
+    "ingredients": [
+      "1 large yam or sweet potato, optionally peeled",
+      "1 large piloncilo cone (unrefined Mexican sugar)",
+      "4 sticks cinnamon",
+      "½ water"
+    ],
+    "instructions": [
+      "Place whole or thickly-sliced yams in a large baking dish.",
+      "Place piloncilo cone atop the yams, then add water and cinnamon.",
+      "Cover dish, and bake for about 60 minutes, basting the yams with the now sweetened cooking liquid as needed."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Mexican recipes",
+      "Recipes for dessert",
+      "Recipes using ground cinnamon",
+      "Recipes using piloncillo"
+    ]
+  },
+  "image": {
+    "filename": "CandiedCamotesMX.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/CandiedCamotesMX.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CandiedCamotesMX.JPG",
+    "localPath": "scripts/wiki/output/CandiedCamotesMX.JPG",
+    "dimensions": {
+      "width": 3872,
+      "height": 2592
+    },
+    "fileSize": 2110723,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Thelmadatter",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Thelmadatter"
+    },
+    "metadata": {
+      "description": "Candied yams (called camotes) in syrup for sale at a tianguis market in Metepec, Mexico State",
+      "categories": [
+        "GFDL",
+        "Taken with Nikon D60",
+        "Cuisine of Mexico",
+        "License migration redundant",
+        "Self-published work",
+        "Candy of Mexico",
+        "Baked sweet potatoes"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "CandiedCamotesMX.JPG"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Croque_Monsieur",
+    "pageTitle": "Cookbook:Croque_Monsieur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Visitor7",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Visitor7"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACroque_Monsieur&action=history",
+    "extractedAt": "2025-12-23T07:11:05.168Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Croque Monsieur",
+    "slug": "croque-monsieur",
+    "description": "A croque-monsieur is a French sandwich made of ham, Gruyère cheese, French bread, and Dijon mustard. Croquer means \"to crunch\" in French, so the name literally translates to \"crunch-mister.\" Another translation might be \"crunch on this, my man.\"",
+    "ingredients": [
+      "12 g (1 tablespoon) butter",
+      "12 g (1 tablespoon) flour",
+      "125 ml (½ cup) milk",
+      "1 tsp Dijon mustard",
+      "1 pinch of ground nutmeg (optional)",
+      "Salt to taste",
+      "Pepper to taste",
+      "2 slices of crusty bread",
+      "2 slices of ham",
+      "2 slices of cheese, such as gruyère",
+      "1 egg (for croque madame)"
+    ],
+    "instructions": [
+      "Melt the butter in a small saucepan.",
+      "Add the flour and stir over a medium heat until blended.",
+      "Gradually add the milk, whisking continuously into a smooth sauce.",
+      "Simmer gently for 2–3 minutes until the sauce has thickened.",
+      "Mix in the mustard, nutmeg, salt, and pepper. Set aside.",
+      "Preheat a grill to high. Lightly toast the bread on both sides under the grill.",
+      "Arrange slices of ham and cheese on each slice of bread, then top with béchamel sauce.",
+      "Place back under the grill to brown the béchamel and melt the cheese until golden brown and delicious.",
+      "Serve hot."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for sandwiches",
+      "Recipes using cheese",
+      "Recipes using ham",
+      "French recipes",
+      "Recipes with metric units",
+      "Recipes using butter",
+      "Recipes using bread",
+      "Recipes using egg",
+      "Recipes using wheat flour",
+      "Recipes using gruyère",
+      "Recipes using cow milk"
+    ]
+  },
+  "image": {
+    "filename": "Nue_Croque_Monsieur.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Nue_Croque_Monsieur.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nue_Croque_Monsieur.jpg",
+    "localPath": "scripts/wiki/output/Nue_Croque_Monsieur.jpg",
+    "dimensions": {
+      "width": 1105,
+      "height": 734
+    },
+    "fileSize": 157220,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Visitor7",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Visitor7"
+    },
+    "metadata": {
+      "description": "The croque monsieur with a tomato garnish",
+      "categories": [
+        "Croque-monsieur",
+        "Ham and cheese sandwiches",
+        "Self-published work",
+        "Underexposed images"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Nue_Croque_Monsieur.jpg"
+  }
+}

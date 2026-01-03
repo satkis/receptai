@@ -1,0 +1,172 @@
+{
+  "slug": "kalamansio-sultys",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kalamansio-sultys",
+  "title": {
+    "lt": "Kalamansio sultys - Filipiniečių limonadas"
+  },
+  "description": {
+    "lt": "Kalamansio sultys yra Filipinų limonado versija, nes kalamansi vaisiai yra lengvai prieinami rinkoje. Šis gėrimas gaivus ir kupinas vitamino C."
+  },
+  "seo": {
+    "metaTitle": "Kalamansio sultys | Filipinietiškas limonadas",
+    "metaDescription": "Gaivus kalamansio sulčių gėrimas, panašus į filipinietišką limonadą. Puikus vitamino C šaltinis ir puikiai tinka karštoms vasaros dienoms.",
+    "keywords": [
+      "kalamansio sultys",
+      "filipinietiškas limonadas",
+      "vitamino C gėrimas",
+      "gaivus gėrimas",
+      "vasaros gėrimai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Filipinų",
+    "nutrition": {
+      "calories": 50,
+      "proteinContent": "0g",
+      "fatContent": "0g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 3,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 5,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/garnyrai",
+    "receptai/vasarai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kalamansi"
+      },
+      "quantity": "3-4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "1 stiklinė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "0.5 šaukšto",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ledo kubeliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Kalamansio paruošimas"
+      },
+      "text": {
+        "lt": "Perpjaukite kalamansi vaisius pusiau ir rankomis išspauskite sultis."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Gėrimo paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite kalamansio sultis su šaltu vandeniu stiklinėje. Įdėkite cukraus ir maišykite, kol jis ištirps."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Įdėkite ledo kubelių pagal skonį ir patiekite šaltą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šias sultis taip pat galima patiekti karštas."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Puikus vitamino C šaltinis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kalamansio-sultys.jpg",
+    "alt": "Kalamansio sultys - filipinietiškas limonadas stiklinėje su ledukais",
+    "width": 3080,
+    "height": 2268
+  },
+  "tags": [
+    "kalamansio sultys",
+    "filipinietiškas limonadas",
+    "vasaros gėrimas",
+    "vitamino C šaltinis",
+    "gaivus gėrimas"
+  ],
+  "author": {
+    "name": "Jay Bolero",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Calamansi_Juice_Drink",
+    "pageTitle": "Cookbook:Calamansi_Juice_Drink",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:21.462Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACalamansi_Juice_Drink&action=history",
+    "originalCreator": {
+      "name": "Jay Bolero",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jay%20Bolero"
+    }
+  },
+  "originalImage": {
+    "fileName": "Calamansi_juice_(Filipino_lemonade).jpg",
+    "author": {
+      "name": "Obsidian Soul",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Obsidian%20Soul"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Calamansi_juice_%28Filipino_lemonade%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:00:00+03:00",
+  "createdAt": "2025-12-21T20:00:00+03:00",
+  "updatedAt": "2025-12-21T20:00:00+03:00"
+}

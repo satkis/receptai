@@ -1,0 +1,117 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dal_Makhani_(Black_Gram_with_Cream)",
+    "pageTitle": "Cookbook:Dal_Makhani_(Black_Gram_with_Cream)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "imported>Dumbo3",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:imported%3EDumbo3"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADal_Makhani_(Black_Gram_with_Cream)&action=history",
+    "extractedAt": "2026-01-03T11:26:33.887Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Dal Makhani (Black Gram with Cream)",
+    "slug": "dal-makhani-black-gram-with-cream",
+    "description": "Dal makhani is a delicacy from Punjab, India. Traditionally this dal was cooked slowly, for hours, on charcoal. This gave it a creamy texture. It had ‘malai’ (cream) or fresh butter added to it. When cooked at home these days, more moderate amounts of cream or butter are used. When prepared in restaurants, it is cooked slowly on low heat and often has a large amount of cream and butter added. Lentils and beans were soaked overnight for at least 8 hours and gently simmered on low heat along with ginger, garlic and a few other spices (garam masala). These are then combined with a tangy masala base which includes onions, tomatoes (chopped or puree) or dried mango powder or even pomegranate seeds.",
+    "ingredients": [
+      "1 cup whole dried urad dal (skinless black gram)",
+      "⅓ cup dried kidney beans (rajma)",
+      "5–6 cups water (to cook dal)",
+      "Salt",
+      "Red chile powder (according to taste)",
+      "1 tsp turmeric powder",
+      "1 tbsp grated ginger",
+      "3–4 tbsp ghee or oil",
+      "1 large pinch of hing powder (asafoetida)",
+      "2 bay leaves",
+      "½ cinnamon stick",
+      "3 cloves",
+      "1 medium onion (optional), finely chopped",
+      "1 tbsp ginger garlic paste",
+      "2–3 medium tomatoes, finely chopped",
+      "2 tsp coriander powder",
+      "½ cup fresh cream",
+      "1 tbsp clarified butter",
+      "2 tbsp chopped coriander leaves (optional)",
+      "Salt, to taste"
+    ],
+    "instructions": [
+      "Wash and soak black urad dal and red kidney beans overnight in an adequate amount of lukewarm water.",
+      "Cook the soaked dal, kidney beans, and chickpeas in 5–6 cups of water with the salt, red chili powder, turmeric, and grated ginger until soft.",
+      "Keep the cooked dal aside.",
+      "Heat oil or butter in a thick bottomed pan. Add hing, bay leaves, cinnamon stick, cloves, and chopped onions and cook until light golden brown in color. When the onion turns brown, add ginger garlic paste, and sauté.",
+      "Add chopped tomatoes. Sauté and add coriander powder. Sauté until tomatoes are well mashed.",
+      "Add cooked dal and water as needed.",
+      "Mix it well and simmer for 15–20 minutes.",
+      "Add fresh cream and clarified butter, and let it simmer for 5 minutes. Remove from the heat. Garnish with coriander leaves before serving.",
+      "Serve hot with naan, paratha or rice."
+    ],
+    "notes": [
+      "You can substitute cream with sour cream or low-fat yogurt.",
+      "Use olive oil instead of ghee or butter, and omit cream.",
+      "You can make this recipe in a slow cooker, but make sure that you boil it briskly in a pan for the last 10 minutes, to neutralise the toxins in kidney beans.",
+      "This dal generally requires more salt than usual for other dal, so it should be added as per taste.",
+      "Soaking the beans overnight reduces cooking time."
+    ],
+    "servings": 4,
+    "totalTimeMinutes": 20,
+    "difficulty": 3,
+    "category": "Side dish recipes",
+    "categories": [
+      "Indian recipes",
+      "Recipes using kidney bean",
+      "Recipes for curry",
+      "Side dish recipes",
+      "Recipes using asafoetida",
+      "Recipes using clarified butter",
+      "Recipes using chile",
+      "Recipes using cilantro",
+      "Recipes using cinnamon stick",
+      "Recipes using clove",
+      "Recipes using cream",
+      "Recipes for dal",
+      "Recipes using fresh ginger"
+    ]
+  },
+  "image": {
+    "filename": "Punjabi_style_Dal_Makhani.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Punjabi_style_Dal_Makhani.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Punjabi_style_Dal_Makhani.jpg",
+    "localPath": "scripts/wiki/output/Punjabi_style_Dal_Makhani.jpg",
+    "dimensions": {
+      "width": 1024,
+      "height": 681
+    },
+    "fileSize": 288811,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Radhikamprabhu82",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Radhikamprabhu82"
+    },
+    "metadata": {
+      "description": "Dal Makhani is a spicy and heavy dal preparation a celebrated delicacy from Punjab, made with a combination of rajma(kidney beans) and whole black gram.",
+      "categories": [
+        "Dal makhani",
+        "Rice dishes of India",
+        "Self-published work",
+        "Images from Wiki Loves Food 2015",
+        "Uploaded via Campaign:wlf"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Punjabi_style_Dal_Makhani.jpg"
+  }
+}

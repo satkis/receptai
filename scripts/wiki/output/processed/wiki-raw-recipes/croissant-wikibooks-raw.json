@@ -1,0 +1,96 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Croissant",
+    "pageTitle": "Cookbook:Croissant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Edriiic",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Edriiic"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACroissant&action=history",
+    "extractedAt": "2025-12-23T07:11:03.503Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Croissant",
+    "slug": "croissant",
+    "description": "Croissants, originating from France, are a culinary delight renowned for their buttery richness and flaky layers. Characterized by laminated dough with multiple layers of butter, croissants stand out with their crescent shape and airy texture, enjoyed worldwide in various forms and flavours.",
+    "ingredients": [
+      "1¼ cups warm milk (about 110°F or 45°C)",
+      "2 tablespoons active dry yeast",
+      "¼ cup white granulated sugar",
+      "4 cups all-purpose flour, more for dusting",
+      "1 teaspoon salt",
+      "1¼ cups unsalted butter, cold",
+      "1 egg (for egg wash)"
+    ],
+    "instructions": [
+      "In a bowl, combine warm milk, active dry yeast, and sugar. Let it sit for about 5 minutes until it becomes frothy.",
+      "In a large mixing bowl, combine flour and salt. Gradually add the yeast mixture and mix until a dough forms.",
+      "Flatten the butter between 2 sheets of parchment paper into a thin sheet.",
+      "Roll out the dough on a floured surface into a large rectangle.",
+      "Place the butter sheet on half of the dough rectangle and fold the other half over it.",
+      "Roll out the dough again and fold it into thirds. Repeat this process 3–4 times, chilling the dough between each fold.",
+      "Roll out the laminated dough into a large rectangle.",
+      "Cut the dough into triangles using a sharp knife.",
+      "Roll each triangle from the base to the tip to form a croissant shape.",
+      "Place the shaped croissants on a baking sheet and let them proof for about 1–2 hours, or until puffy.",
+      "Preheat the oven to 400°F (200°C).",
+      "Beat the egg and brush it over the croissants for a golden finish.",
+      "Bake the croissants for 15–20 minutes, or until golden brown and flaky."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using cow milk",
+      "Baking recipes",
+      "Recipes for pastries",
+      "Recipes with metric units",
+      "Recipes using white sugar",
+      "Recipes using butter",
+      "Recipes using egg",
+      "Recipes using all-purpose flour"
+    ]
+  },
+  "image": {
+    "filename": "Freshly_baked_croissants.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Freshly_baked_croissants.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Freshly_baked_croissants.jpg",
+    "localPath": "scripts/wiki/output/Freshly_baked_croissants.jpg",
+    "dimensions": {
+      "width": 1080,
+      "height": 1350
+    },
+    "fileSize": 382747,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Asimilovana",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Asimilovana"
+    },
+    "metadata": {
+      "description": "Freshly baked croissant",
+      "categories": [
+        "Cuisine of France",
+        "Self-published work",
+        "Sweet pastries of France",
+        "Croissants"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Freshly_baked_croissants.jpg"
+  }
+}

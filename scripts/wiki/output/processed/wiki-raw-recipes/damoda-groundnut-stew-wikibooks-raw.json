@@ -1,0 +1,100 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Damoda_(Groundnut_Stew)",
+    "pageTitle": "Cookbook:Damoda_(Groundnut_Stew)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Grace789",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Grace789"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADamoda_(Groundnut_Stew)&action=history",
+    "extractedAt": "2026-01-03T11:26:37.851Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Damoda (Groundnut Stew)",
+    "slug": "damoda-groundnut-stew",
+    "description": "Damoda is a delicious groundnut stew cooked with meat, fish, chicken or vegetables. It is popularly eaten in Senegal or the Gambia.",
+    "ingredients": [
+      "1 medium size onion, finely chopped",
+      "1 medium size bunch of spring onions, neatly chopped",
+      "2 medium size garlic cloves, neatly chopped",
+      "Hot chiles, neatly chopped",
+      "Chicken bouillon cubes, crushed",
+      "Salt to taste",
+      "2 cups peanut butter",
+      "Chicken",
+      "Vinegar to taste",
+      "Mustard powder to taste (optional)",
+      "Vegetable oil",
+      "Vegetables such as tomatoes, carrots, and potatoes although it is not compulsory to put everything, you can put the ones you could easily get( just make sure to cut it into smaller pieces and if you would prefer pounding there is no issue with that you can go ahead and do it.",
+      "26 oz tomato paste",
+      "About 2 cups water"
+    ],
+    "instructions": [
+      "Pound together the onions, spring onions, garlic, chili pepper, bouillon cubes, and salt.",
+      "Dilute the peanut butter with enough water to make it smooth and pourable. If desired, strain it to remove any debris.",
+      "Season the chicken with vinegar and mustard powder.",
+      "Fry the chicken until browned on both sides, making sure it does not burn. Remove and set aside.",
+      "Add the pounded mixture to the pan along with any other vegetables, and fry it.",
+      "Mix in the peanut butter, tomato paste, chicken, and water. Let everything simmer until the sauce becomes thick and oil appears on top.",
+      "When it is fully done you can remove it and serve with white rice or any complimentary one of your choice."
+    ],
+    "notes": [
+      "The method of preparation can vary in the selection of meat and vegetables."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "African recipes",
+      "Recipes using chicken",
+      "Recipes for stew",
+      "Recipes using chile",
+      "Recipes using dehydrated broth"
+    ]
+  },
+  "image": {
+    "filename": "Information_icon4.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Information_icon4.svg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Information_icon4.svg",
+    "localPath": "scripts/wiki/output/Information_icon4.svg",
+    "dimensions": {
+      "width": 620,
+      "height": 620
+    },
+    "fileSize": 1177,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Information_icon4.svg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "penubag (color adjustments)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Srittau"
+    },
+    "metadata": {
+      "description": "An i icon for templates and the like",
+      "categories": [
+        "Self-published work",
+        "PD-self",
+        "Valid SVG created with Inkscape:Icons",
+        "Ambox SVG icons",
+        "Upload protected files",
+        "Blue SVG circle info icons",
+        "Blue and white SVG icons",
+        "Round SVG icons with text"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Information_icon4.svg"
+  }
+}

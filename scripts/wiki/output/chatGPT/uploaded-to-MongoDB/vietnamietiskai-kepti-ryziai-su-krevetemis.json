@@ -1,0 +1,242 @@
+{
+  "slug": "vietnamietiskai-kepti-ryziai-su-krevetemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vietnamietiskai-kepti-ryziai-su-krevetemis",
+  "title": {
+    "lt": "Vietnamietiškai kepti ryžiai su krevetėmis"
+  },
+  "description": {
+    "lt": "Vietnamietiškai kepti ryžiai – tai skanus ir aromatingas patiekalas, kuriame derinami ryžiai, krevetės, česnakai ir daržovės. Idealiai tinka greitiems pietums ar vakarienei."
+  },
+  "seo": {
+    "metaTitle": "Vietnamietiškai kepti ryžiai su krevetėmis | Greitas receptas",
+    "metaDescription": "Paruoškite skanius vietnamietiškai keptus ryžius su krevetėmis. Lengvas ir greitas receptas su daržovėmis ir prieskoniais. Puikiai tinka pietums ar vakarienei.",
+    "keywords": [
+      "vietnamietiškai kepti ryžiai",
+      "ryžiai su krevetėmis",
+      "azijietiška virtuvė",
+      "greitas receptas",
+      "daržovės"
+    ],
+    "recipeCategory": "ryziai",
+    "recipeCuisine": "Vietnam",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "18g",
+      "fatContent": "12g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 5,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "3 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Porai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonieji čili pipirai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "100 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Krevetės"
+      },
+      "quantity": "200 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žirneliai"
+      },
+      "quantity": "100 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "600 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištienos sultinio milteliai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Keptas kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Daržovių ir kiaušinių paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir pakepinkite česnakus, porus ir čili pipirus, kol pradės skleisti malonų aromatą. Tada supilkite plaktus kiaušinius ir maišykite, kol jie iškeps."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Krevečių ir daržovių troškinimas"
+      },
+      "text": {
+        "lt": "Į keptuvę sudėkite morkas, krevetes ir žirnelius. Kepkite ant vidutinės ugnies apie 5 minutes, kol krevetės taps rožinės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Ryžių ir prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Į keptuvę sudėkite virtus ryžius, druską, pipirus ir vištienos sultinio miltelius. Gerai išmaišykite ir kepkite dar 5 minutes, kol visi ingredientai susimaišys."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštus ryžius su keptu kiaušiniu viršuje. Puikiai dera su šviežiomis daržovėmis ar salotomis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite vištienos sultinio miltelių, galite naudoti daržovių sultinį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekalas geriausiai tinka su šviežiomis daržovėmis arba salotomis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vietnamietiskai-kepti-ryziai-su-krevetemis.jpg",
+    "alt": "Vietnamietiškai kepti ryžiai su krevetėmis ir daržovėmis",
+    "width": 486,
+    "height": 364
+  },
+  "tags": [
+    "vietnamietiškai kepti ryžiai",
+    "ryžiai su krevetėmis",
+    "azijietiškas patiekalas",
+    "lengvas receptas",
+    "greiti pietūs"
+  ],
+  "author": {
+    "name": "Triwikanto",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Triwikanto"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Com_Chien_(Vietnamese_Fried_Rice)",
+    "pageTitle": "Cookbook:Com_Chien_(Vietnamese_Fried_Rice)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:39.525Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACom_Chien_(Vietnamese_Fried_Rice)&action=history",
+    "originalCreator": {
+      "name": "Triwikanto",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Triwikanto"
+    }
+  },
+  "originalImage": {
+    "fileName": "Com_chien.jpg",
+    "author": {
+      "name": "The original uploader was Triwikanto at English Wikibooks.",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Com_chien.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:30:00+03:00",
+  "createdAt": "2025-12-23T10:30:00+03:00",
+  "updatedAt": "2025-12-23T10:30:00+03:00"
+}

@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Calzone",
+    "pageTitle": "Cookbook:Calzone",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Bob2",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Bob2"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACalzone&action=history",
+    "extractedAt": "2025-12-21T17:59:22.857Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Calzone",
+    "slug": "calzone",
+    "description": "Calzone is a popular Italian form of pizza. The word means sock because the resulting pizza looks similar to a sock.",
+    "ingredients": [
+      "1 cup (240 ml) ricotta cheese",
+      "1 cup (240 ml) shredded mozzarella cheese",
+      "4 ounces (115 g) any topping (such as ham, bacon, salami, pepperoni, and/or sausage) (optional)",
+      "2 teaspoons (10 ml) oregano",
+      "1 package store-bought pizza dough"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F (200°C).",
+      "Combine ricotta, mozzarella, toppings, and oregano.",
+      "Roll the pizza dough between 2 pieces of waxed paper.",
+      "Spoon the cheese mixture into the center of the dough.",
+      "Moisten edges of dough slightly. Fold the dough over, and seal edges by pressing with a fork.",
+      "Bake until golden brown, about 10 or 12 minutes.",
+      "Serve with marinara sauce."
+    ],
+    "notes": [],
+    "servings": 4,
+    "totalTimeMinutes": 45,
+    "difficulty": 2,
+    "category": "Pizza recipes",
+    "categories": [
+      "Inexpensive recipes",
+      "Italian recipes",
+      "Recipes using low-moisture mozzarella",
+      "Recipes for pizza",
+      "Baked recipes",
+      "Main course recipes",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes using ricotta",
+      "Recipes using pizza dough"
+    ]
+  },
+  "image": {
+    "filename": "20000227--calzone.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/20000227--calzone.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:20000227--calzone.jpg",
+    "localPath": "scripts/wiki/output/20000227--calzone.jpg",
+    "dimensions": {
+      "width": 906,
+      "height": 608
+    },
+    "fileSize": 138529,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Glum~commonswiki",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Glum~commonswiki"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "License migration completed",
+        "Calzone",
+        "Media missing infobox template",
+        "GFDL-en",
+        "2000 in Amsterdam"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "20000227--calzone.jpg"
+  }
+}

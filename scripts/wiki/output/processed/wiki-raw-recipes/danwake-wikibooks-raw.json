@@ -1,0 +1,93 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Danwake",
+    "pageTitle": "Cookbook:Danwake",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Gwanki",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gwanki"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADanwake&action=history",
+    "extractedAt": "2026-01-03T11:26:40.226Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Danwake",
+    "slug": "danwake",
+    "description": "Danwake is a popular Nigerian dish, particularly in the northern regions, made from ground beans (usually black-eyed peas), flour, and spices. It's often served with a variety of sauces or soups, and it is both nutritious and filling. Danwake is traditionally served with spicy sauces like yaji, pepper stew, or simply dressed with vegetable oil and onions. It can be eaten alone or paired with vegetables.",
+    "ingredients": [
+      "½ teaspoon potash",
+      "2 cups wheat flour or guinea corn flour",
+      "2 tablespoons baobab leaf flour (kuka)",
+      "1 cup water (adjust as needed)",
+      "½ teaspoon salt (or to taste)",
+      "3 tablespoons vegetable oil or palm oil (for serving)",
+      "½ onion, chopped (for garnish)",
+      "Shredded cabbage or yaji (Hausa pepper spice; optional)"
+    ],
+    "instructions": [
+      "Dissolve potash in a small bowl with a little water and set aside.",
+      "In a large bowl, mix wheat flour (or chosen flour) with baobab leaf flour.",
+      "Add the dissolved potash solution gradually into the flour mix.",
+      "Slowly add water while stirring until you form a thick, smooth batter.",
+      "Bring a large volume of water to a boil in a pot. Using a spoon or hand, scoop small portions of the batter and drop them into the boiling water.",
+      "Let the dumplings cook for 10–15 minutes, or until they float and are firm to the touch.",
+      "Drain the dumplings and drizzle with vegetable oil.",
+      "Garnish with chopped onions and cabbage."
+    ],
+    "notes": [],
+    "servings": 3,
+    "totalTimeMinutes": 45,
+    "difficulty": 2,
+    "category": "Swallow recipes",
+    "categories": [
+      "Recipes for swallows",
+      "Hausa recipes",
+      "Recipes using vegetable oil",
+      "Recipes using pepper",
+      "Recipes using salt",
+      "Recipes using potash",
+      "Recipes using palm oil",
+      "Recipes using all-purpose flour",
+      "Recipes using baobab",
+      "Recipes using onion",
+      "Recipes using cabbage"
+    ]
+  },
+  "image": {
+    "filename": "Dan_Wake.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Dan_Wake.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dan_Wake.jpg",
+    "localPath": "scripts/wiki/output/Dan_Wake.jpg",
+    "dimensions": {
+      "width": 912,
+      "height": 1080
+    },
+    "fileSize": 132048,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "YusufuAM",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:YusufuAM"
+    },
+    "metadata": {
+      "description": "Wannan shi ake  kira da Dan Wake Ana yinshi Da fulawa ko Da wake koda Gujiya \nAmfi Cinshi a Arewacin Nigeria.",
+      "categories": [
+        "Danwake",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Dan_Wake.jpg"
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "slug": "vistienos-karis-su-kokosu-jogurtu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vistienos-karis-su-kokosu-jogurtu",
+  "title": {
+    "lt": "Vištienos karis su kokosų jogurtu"
+  },
+  "description": {
+    "lt": "Vištienos karis yra aromatingas ir skanus patiekalas, populiarus Indijos ir Pakistano virtuvėse. Šiame recepte vištiena derinama su kokosų jogurtu, kario prieskoniais ir šviežiomis daržovėmis. Patiekite su ryžiais arba naan duona."
+  },
+  "seo": {
+    "metaTitle": "Vištienos karis su kokosų jogurtu | Gardu - išbandyk!",
+    "metaDescription": "Vištienos karis su kokosų jogurtu – aromatingas ir skanus patiekalas. Puikus pasirinkimas egzotiškam pietų stalui. Patiekite su ryžiais arba naan duona.",
+    "keywords": [
+      "vištienos karis",
+      "karis su kokosų jogurtu",
+      "Indijos virtuvė",
+      "Pakistano virtuvė",
+      "egzotiški patiekalai"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "35g",
+      "fatContent": "25g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 70,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "1.5 kg",
+      "vital": true
+    },
+ 
+    {
+      "name": {
+        "lt": "Kokosų aliejus"
+      },
+      "quantity": "1 valg. šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai, pjaustyti"
+      },
+      "quantity": "500 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kokosų jogurtas"
+      },
+      "quantity": "150 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "200 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kario milteliai"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vidutinis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbiero pasta"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnako pasta"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garstyčių sėklos"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kumino sėklos"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pankolio sėklos"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kario milteliai"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+
+   {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "3 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Raudonieji čili milteliai"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Kokosų jogurtas"
+      },
+      "quantity": "100 ml",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Kalendra"
+      },
+      "quantity": "2 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Česnako pasta"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Imbiero pasta"
+      },
+      "quantity": "1.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Čili milteliai"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Garam masala"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Kuminas"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Fenugreek lapai"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Kario milteliai"
+      },
+      "quantity": "1 arb. šaukštelio",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Citrinos sultys"
+      },
+      "quantity": "Iš ½ citrinos",
+      "vital": true
+    },
+    {
+ "category": "Marinatui",
+      "name": {
+        "lt": "Mėta"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Naan duona"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Marinavimas"
+      },
+      "text": {
+        "lt": "Nuvalykite vištieną ir supjaustykite mažais gabalėliais. Sumaišykite su visais marinato ingredientais ir leiskite pastovėti 30 minučių, kad skoniai įsigertų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Prieskonių kepimas"
+      },
+      "text": {
+        "lt": "Didelėje keptuvėje ant vidutinės ugnies apkepkite kumino, pankolio bei garstyčių sėklas."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Česnako ir imbiero kepimas"
+      },
+      "text": {
+        "lt": "Į keptuvę įdėkite česnako ir imbiero pastą ir kepkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Svogūną supjaustykite mažais gabalėliais ir suberkite į keptuvę."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Bulvių įdėjimas"
+      },
+      "text": {
+        "lt": "Supjaustykite bulves smulkesniais gabalėliais. Suberkite į keptuvę ir apkepkite su visais prieskoniais."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Vištienos apkepimas"
+      },
+      "text": {
+        "lt": "Iškepus bulvėms suberkite į atskirą indą. Suberkite į keptuvę vištienos gabalėlius ir iškepkite kol šiek tiek apskrus."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekalo užbaigimas"
+      },
+      "text": {
+        "lt": "Įdėkite kario miltelių, kokosų jogurto ir sumažinkite ugnį. Suberkite bulves kartu su vištiena. Leiskite viskam troškintis 35–40 minučių."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Smulkiai supjaustykite šviežią kalendrą ir pridėkite citrinos sulčių. Patiekite su ryžiais arba naan duona."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite kokosų jogurto, galite naudoti įprastą jogurtą."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Kario skonis bus intensyvesnis, jei leisite jam pastovėti vieną naktį."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vistienos-karis-su-kokosu-jogurtu.jpg",
+    "alt": "Vištienos karis su kokosų jogurtu ir prieskoniais, patiekiamas su ryžiais",
+    "width": 5472,
+    "height": 3648
+  },
+  "tags": [
+    "vištienos karis",
+    "karis su kokosų jogurtu",
+    "Indijos virtuvė",
+    "egzotiški patiekalai",
+    "pietums"
+  ],
+  "author": {
+    "name": "198.37.18.23",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:198.37.18.23"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Curry",
+    "pageTitle": "Cookbook:Chicken_Curry",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T10:09:19+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Curry&action=history",
+    "originalCreator": {
+      "name": "198.37.18.23",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:198.37.18.23"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Karaage_Curry,_Y.Izakaya,_Paris_001.jpg",
+    "author": {
+      "name": "Guilhem Vellut from Paris, France",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Paris%2016"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chicken_Karaage_Curry%2C_Y.Izakaya%2C_Paris_001.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:09:19+03:00",
+  "createdAt": "2025-12-23T10:09:19+03:00",
+  "updatedAt": "2025-12-23T10:09:19+03:00"
+}

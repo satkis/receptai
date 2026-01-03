@@ -1,0 +1,247 @@
+{
+  "slug": "sokoladiniu-laseliu-sausainiai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladiniu-laseliu-sausainiai",
+  "title": {
+    "lt": "Šokoladinių lašelių sausainiai"
+  },
+  "description": {
+    "lt": "Amerikietiški šokoladinių lašelių sausainiai su sviestu ir cukrumi yra traškūs ir saldūs. Šis receptas padės jums paruošti skanius sausainius su šokolado gabalėliais ir riešutais. Puikiai tinka užkandžiui ar desertui su kava."
+  },
+  "seo": {
+    "metaTitle": "Šokoladinių lašelių sausainiai | Receptas su šokolado gabaliukais",
+    "metaDescription": "Amerikietiški šokoladinių lašelių sausainiai su sviestu, cukrumi ir šokolado gabaliukais. Puikus pasirinkimas desertui arba užkandžiui su kava.",
+    "keywords": [
+      "šokoladiniai sausainiai",
+      "sausainiai su šokolado lašeliais",
+      "amerikietiški sausainiai",
+      "desertai su šokoladu",
+      "sviestiniai sausainiai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Amerikos",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "4g",
+      "fatContent": "12g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 12,
+  "totalTimeMinutes": 27,
+  "timeCategory": "iki-30-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "180ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudasis cukrus"
+      },
+      "quantity": "180ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1/4 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "290g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Soda"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokoladiniai lašeliai"
+      },
+      "quantity": "340g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Riešutai"
+      },
+      "quantity": "150g",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės įkaitinimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 195°C, jei norite minkštesnių sausainių. Jei mėgstate traškesnius, įkaitinkite iki 210°C."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sviesto sumaišymas"
+      },
+      "text": {
+        "lt": "Didelėje dubenyje sumaišykite sviestą, baltąjį ir rudąjį cukrų, kol masė taps vientisa."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kiaušinių ir vanilės pridėjimas"
+      },
+      "text": {
+        "lt": "Pridėkite kiaušinius po vieną, gerai išplakdami po kiekvieno. Įmaišykite vanilės ekstraktą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sausų ingredientų įmaišymas"
+      },
+      "text": {
+        "lt": "Atskiram dubenyje sumaišykite miltus, sodą ir druską. Įmaišykite sausus ingredientus į sviesto ir cukraus mišinį dviem dalimis."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Šokolado ir riešutų pridėjimas"
+      },
+      "text": {
+        "lt": "Įmaišykite šokoladinius lašelius ir riešutus, jei naudojate."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Šaukšteliais formuokite tešlos kamuoliukus ir dėkite ant kepimo popieriumi išklotos skardos. Kepkite 10–12 minučių arba kol sausainiai paruduos. Leiskite jiems atvėsti ant grotelių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite sausainių su minkštu viduriu, ištraukite juos iš orkaitės minutę anksčiau."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Norėdami intensyvesnio riešutų skonio, prieš dedant į tešlą, riešutus švelniai paskrudinkite."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Didesnis vanilės ekstrakto kiekis suteiks sausainiams ryškesnį skonį."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladiniu-laseliu-sausainiai.jpg",
+    "alt": "Šokoladinių lašelių sausainiai ant lėkštės",
+    "width": 2206,
+    "height": 1606
+  },
+  "tags": [
+    "šokoladiniai sausainiai",
+    "sausainiai su šokolado lašeliais",
+    "amerikietiški sausainiai",
+    "sviestiniai sausainiai",
+    "desertai su šokoladu"
+  ],
+  "author": {
+    "name": "Kilometers to Verona",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kilometers%20to%20Verona"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Cookies_I",
+    "pageTitle": "Cookbook:Chocolate_Chip_Cookies_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:48.661Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Chip_Cookies_I&action=history",
+    "originalCreator": {
+      "name": "Kilometers to Verona",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kilometers%20to%20Verona"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chocolate_chip_cookies.jpg",
+    "author": {
+      "name": "Rdsmith4",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hohum"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Chocolate_chip_cookies.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:09:48+03:00",
+  "createdAt": "2025-12-23T07:09:48+03:00",
+  "updatedAt": "2025-12-23T07:09:48+03:00"
+}

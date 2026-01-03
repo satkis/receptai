@@ -1,0 +1,208 @@
+{
+  "slug": "kalzonas-su-suriu-ir-desra",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kalzonas-su-suriu-ir-desra",
+  "title": {
+    "lt": "Kalzonas su Sūriu ir Dešra"
+  },
+  "description": {
+    "lt": "Kalzonas – tai populiarus itališkas patiekalas, kuris primena picos pyragą. Šis receptas sujungia rikotą, mocarelą ir mėgstamus mėsos priedus, kad sukurtų skanų ir sotų užkandį."
+  },
+  "seo": {
+    "metaTitle": "Kalzonas su Sūriu ir Dešra | Itališkas receptas",
+    "metaDescription": "Pasigaminkite skanų kalzoną su rikotos, mocarelos sūriu ir mėgstamais mėsos priedais. Puikus itališkas užkandis jūsų stalui.",
+    "keywords": [
+      "kalzonas",
+      "itališkas kalzonas",
+      "sūrio kalzonas",
+      "itališka virtuvė",
+      "užkandžiai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "18g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Rikotos sūris"
+      },
+      "quantity": "240 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mocarelos sūris"
+      },
+      "quantity": "240 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Dešra"
+      },
+      "quantity": "115 g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Raudonėlis"
+      },
+      "quantity": "10 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Picos tešla"
+      },
+      "quantity": "1 pakelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošti orkaitę"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C. Tai užtikrins, kad kalzonas iškeptų tolygiai."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sumaišyti įdarą"
+      },
+      "text": {
+        "lt": "Sumaišykite rikotos sūrį, mocarelą, dešrą ir raudonėlį. Tai bus kalzono įdaras, kuris suteiks skonį ir sultingumą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Paruošti tešlą"
+      },
+      "text": {
+        "lt": "Ant kepimo popieriaus iškočiokite picos tešlą, kad būtų lengviau ją perlenkti."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Įdėti įdarą"
+      },
+      "text": {
+        "lt": "Šaukštu dėkite sūrio mišinį į tešlos centrą. Tai bus pagrindinis kalzono skanumas."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Uždaryti kalzoną"
+      },
+      "text": {
+        "lt": "Šiek tiek sudrėkinkite tešlos kraštus ir perlenkite ją per pusę. Kraštus užspauskite šakute, kad įdaras neišbėgtų."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepti kalzoną"
+      },
+      "text": {
+        "lt": "Kepkite orkaitėje, kol kalzonas taps auksinės rudos spalvos, apie 10–12 minučių."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekti"
+      },
+      "text": {
+        "lt": "Patiekite su mėgstamu marinara padažu. Puikus būdas sustiprinti kalzono skonį."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite rikotos, ją galite pakeisti varške, suteikdami kitokį skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kalzonas-su-suriu-ir-desra.jpg",
+    "alt": "Kalzonas su sūriu ir dešra, patiekiamas su marinara padažu",
+    "width": 906,
+    "height": 608
+  },
+  "tags": [
+    "kalzonas",
+    "itališkas kalzonas",
+    "sūrio kalzonas",
+    "lengvas receptas",
+    "itališka virtuvė"
+  ],
+  "author": {
+    "name": "Bob2",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Bob2"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Calzone",
+    "pageTitle": "Cookbook:Calzone",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:22.857Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACalzone&action=history",
+    "originalCreator": {
+      "name": "Bob2",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Bob2"
+    }
+  },
+  "originalImage": {
+    "fileName": "20000227--calzone.jpg",
+    "author": {
+      "name": "Glum~commonswiki",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Glum~commonswiki"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/20000227--calzone.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T17:59:22+03:00",
+  "createdAt": "2025-12-21T17:59:22+03:00",
+  "updatedAt": "2025-12-21T17:59:22+03:00"
+}

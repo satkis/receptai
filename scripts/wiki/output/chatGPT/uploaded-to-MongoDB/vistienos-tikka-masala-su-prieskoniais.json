@@ -1,0 +1,258 @@
+{
+  "slug": "vistienos-tikka-masala-su-prieskoniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vistienos-tikka-masala-su-prieskoniais",
+  "title": {
+    "lt": "Vištienos Tikka Masala su prieskoniais"
+  },
+  "description": {
+    "lt": "Vištienos Tikka Masala yra skanus patiekalas iš Indijos, gaminamas marinuojant vištieną jogurte ir prieskoniuose, o tada kepant orkaitėje arba ant grilio. Patiekalas puikiai dera su ryžiais ar naan duona."
+  },
+  "seo": {
+    "metaTitle": "Vištienos Tikka Masala su prieskoniais | Indijos virtuvės receptas",
+    "metaDescription": "Skanus Vištienos Tikka Masala receptas iš Indijos, marinuotas jogurte ir prieskoniuose. Kepkite orkaitėje ar ant grilio ir patiekite su ryžiais ar naan duona.",
+    "keywords": [
+      "tikka masala",
+      "indų virtuvė",
+      "prieskoninė vištiena",
+      "naan duona",
+      "marinuota vištiena"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 320,
+      "proteinContent": "35g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/vistiena",
+    "receptai/indai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vištienos krūtinėlė"
+      },
+      "quantity": "800g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garstyčių aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "50ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Graiki6kas jogurtas"
+      },
+      "quantity": "150ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinos sultys"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų pasta"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendra"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonieji pipirai"
+      },
+      "quantity": "1-4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saldžioji paprika"
+      },
+      "quantity": "2 šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garam masala prieskoniai"
+      },
+      "quantity": "2 šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kuminas"
+      },
+      "quantity": "1 šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "1 šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 šaukštelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Marinatas"
+      },
+      "text": {
+        "lt": "Marinarui sumaišykite jogurtą, pieną, pomidorų pastą, citrinos sultis ir prieskonius. Pridėkite česnaką ir kalendrą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Vištienos paruošimas"
+      },
+      "text": {
+        "lt": "Įdėkite vištieną į marinatą, gerai išmaišykite ir palikite marinuotis šaldytuve."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Vištieną kepkite ant grilio arba orkaitėje, kol ji bus visiškai iškepusi."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite su ryžiais ar Naan duona."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Garstyčių aliejų galima pakeisti alyvuogių aliejumi."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Vištiena gali būti marinuojama iki 48 valandų, kad įgautų intensyvesnį skonį."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Vištieną galima pakeisti aviena ar jautiena."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vistienos-tikka-masala-su-prieskoniais.jpg",
+    "alt": "Vištienos Tikka Masala su prieskoniais ir salotomis",
+    "width": 460,
+    "height": 322
+  },
+  "tags": [
+    "vištienos tikka masala",
+    "indų virtuvė",
+    "lengvas receptas",
+    "grilio patiekalas",
+    "prieskoninė vištiena"
+  ],
+  "author": {
+    "name": "David Johnson",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:David%20Johnson"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Tikka",
+    "pageTitle": "Cookbook:Chicken_Tikka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:27.301Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Tikka&action=history",
+    "originalCreator": {
+      "name": "David Johnson",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:David%20Johnson"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Tikka_with_some_salad.jpg",
+    "author": {
+      "name": "Shubhamcr7",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Shubhamcr7"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Chicken_Tikka_with_some_salad.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:09:27+03:00",
+  "createdAt": "2025-12-23T10:09:27+03:00",
+  "updatedAt": "2025-12-23T10:09:27+03:00"
+}
+

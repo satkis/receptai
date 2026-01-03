@@ -1,0 +1,163 @@
+{
+  "slug": "dalgona-kava-pietu-korejos-receptas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/dalgona-kava-pietu-korejos-receptas",
+  "title": {
+    "lt": "Dalgona kava - Pietų Korėjos gaivus gėrimas"
+  },
+  "description": {
+    "lt": "Dalgona kava yra gaivus ir skanus gėrimas, kilęs iš Pietų Korėjos. Šis šaltas kavos gėrimas, pagamintas iš tirpios kavos, cukraus ir pieno, yra puikus būdas pradžiuginti save karštą dieną. Paprastas ir greitas paruošimas leis jums pasimėgauti šiuo desertiniu gėrimu bet kuriuo metu."
+  },
+  "seo": {
+    "metaTitle": "Dalgona kava | Pietų Korėjos receptas",
+    "metaDescription": "Sužinokite, kaip pasigaminti dalgona kavą – gaivų Pietų Korėjos gėrimą su tirpia kava ir pienu. Paprastas ir greitas receptas.",
+    "keywords": [
+      "dalgona kava",
+      "korėjietiška kava",
+      "tirpi kava",
+      "gaivūs gėrimai",
+      "kava su pienu"
+    ],
+    "recipeCategory": "gerimai",
+    "recipeCuisine": "Korėjiečių",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "6g",
+      "fatContent": "5g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 5,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/gerimai",
+  "secondaryCategories": [
+    "receptai/vasarai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Tirpi kava"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ledo kubeliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mišinio ruošimas"
+      },
+      "text": {
+        "lt": "Į dubenį sudėkite tirpią kavą ir cukrų. Po truputį pilkite vandenį ir plakite, kol gausite purią masę. Patartina naudoti elektrinį plaktuvą, tačiau jei jo neturite, teks rankiniu būdu plakti iki 400 kartų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kavos užbaigimas"
+      },
+      "text": {
+        "lt": "Į stiklinę supilkite pieną, įdėkite ledo kubelius ir ant viršaus užpilkite paruoštą kavos kremą. Mėgaukitės!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite šilto gėrimo, pieną pašildykite ir nedėkite ledo kubelių."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/dalgona-kava.jpg",
+    "alt": "Dalgona kava - gaivus Pietų Korėjos gėrimas su tirpia kava ir pienu",
+    "width": 640,
+    "height": 718
+  },
+  "tags": [
+    "dalgona kava",
+    "korėjietiška kava",
+    "gaivus gėrimas",
+    "tirpi kava",
+    "pienas su kava"
+  ],
+  "author": {
+    "name": "SvnnyBvnny",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dalgona_Coffee",
+    "pageTitle": "Cookbook:Dalgona_Coffee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:26:34.945Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADalgona_Coffee&action=history",
+    "originalCreator": {
+      "name": "SvnnyBvnny",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+    }
+  },
+  "originalImage": {
+    "fileName": "Dalgona_Coffee.jpg",
+    "author": {
+      "name": "SvnnyBvnny",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Dalgona_Coffee.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:26:34+03:00",
+  "createdAt": "2026-01-03T14:26:34+03:00",
+  "updatedAt": "2026-01-03T14:26:34+03:00"
+}

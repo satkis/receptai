@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Coconut_Pyramids",
+    "pageTitle": "Cookbook:Coconut_Pyramids",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "ChrisHodgesUK",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:ChrisHodgesUK"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Pyramids&action=history",
+    "extractedAt": "2025-12-23T07:10:31.926Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Coconut Pyramids",
+    "slug": "coconut-pyramids",
+    "description": "Coconut pyramids are cakes simple enough for children to make, and gluten free.",
+    "ingredients": [
+      "100 g desiccated coconut",
+      "50 g castor sugar",
+      "1 egg",
+      "About 6 glacé cherries (optional)",
+      "a few drops pink food colouring (optional)"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C",
+      "Mix the caster sugar and desiccated coconut in a bowl.",
+      "Beat the egg in another bowl.",
+      "Add the egg (and food colouring if using) to the dry ingredients, and stir until evenly mixed.",
+      "Form into 6 or 7 pyramids using your hands or an egg cup, and place on a lined baking sheet (or use cupcake cases).",
+      "Lightly press a glacé cherry (if using) into the top of each pyramid.",
+      "Bake for 15–20 minutes until a pale golden-brown."
+    ],
+    "notes": [
+      "After baking, the pyramids can be decorated with a little melted dark chocolate.",
+      "Coconut pyramids will keep for a few days in an airtight container."
+    ],
+    "servings": 6,
+    "totalTimeMinutes": 20,
+    "difficulty": 2,
+    "category": "Confection recipes",
+    "categories": [
+      "Recipes for confections|{{PAGENAME}}",
+      "Gluten-free recipes|{{PAGENAME}}",
+      "Recipes with metric units",
+      "Recipes using superfine sugar",
+      "Recipes using cherry",
+      "Recipes using coconut",
+      "Recipes using egg",
+      "Recipes using food coloring"
+    ]
+  },
+  "image": {
+    "filename": "Coconut_pyramid_sharp.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Coconut_pyramid_sharp.png",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Coconut_pyramid_sharp.png",
+    "localPath": "scripts/wiki/output/Coconut_pyramid_sharp.png",
+    "dimensions": {
+      "width": 2304,
+      "height": 1844
+    },
+    "fileSize": 5006316,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "ChrisHodgesUK",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:ChrisHodgesUK"
+    },
+    "metadata": {
+      "description": "Coconut pyramids - see cookbook",
+      "categories": [
+        "GFDL",
+        "License migration redundant",
+        "Self-published work",
+        "Coconut cakes",
+        "Gluten-free food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Coconut_pyramid_sharp.png"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Cookies_I",
+    "pageTitle": "Cookbook:Chocolate_Chip_Cookies_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Kilometers to Verona",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kilometers%20to%20Verona"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Chip_Cookies_I&action=history",
+    "extractedAt": "2025-12-23T07:09:48.661Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chocolate Chip Cookies I",
+    "slug": "chocolate-chip-cookies-i",
+    "description": "| Cuisine of the United States | Dessert ==Ingredients== *2 sticks (½ lb / 225 g / 1 cup) butter, softened *¾ cup (180 ml) granulated white sugar *¾ cup (180 ml) packed brown sugar *¼ teaspoon vanilla extract *2 standard (100 g) eggs *2 ¼ cups (600 ml / 290 g) all-purpose flour *1 teaspoon baking soda *1 teaspoon salt *1 teaspoon dry ground lemon or orange peel (optional) *2 cups (480 ml / 12 oz) semi-sweet chocolate morsels / chips *5 oz (150 g) chopped nuts, such as groundnuts (optional)",
+    "ingredients": [
+      "2 sticks (½ lb / 225 g / 1 cup) butter, softened",
+      "¾ cup (180 ml) granulated white sugar",
+      "¾ cup (180 ml) packed brown sugar",
+      "¼ teaspoon vanilla extract",
+      "2 standard (100 g) eggs",
+      "2 ¼ cups (600 ml / 290 g) all-purpose flour",
+      "1 teaspoon baking soda",
+      "1 teaspoon salt",
+      "1 teaspoon dry ground lemon or orange peel (optional)",
+      "2 cups (480 ml / 12 oz) semi-sweet chocolate morsels / chips",
+      "5 oz (150 g) chopped nuts, such as groundnuts (optional)"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (210°C), or 350°F (195°C) if you want chewy cookies.",
+      "Cream butter, granulated sugar, and brown sugar in a large mixer bowl.",
+      "Add eggs one at a time, beating until fully incorporated.",
+      "Add vanilla extract and beat in.",
+      "In a small bowl, sift together the dry ingredients (except chocolate and nuts). Add to the wet mixture in two parts and fold until combined. If you beat this too long, you may get some gluten formation which will change the cookie texture.",
+      "Stir in chocolate morsels (chips), and nuts if using.",
+      "Drop dough by rounded tablespoons onto ungreased baking sheets. There should be enough fat in the cookie dough to prevent sticking, but using parchment paper or non-stick pans may help if you find this not to be the case.",
+      "Bake in the preheated oven for 10–12 minutes or until golden brown (cooking times may vary). Let stand for about 1 minute and remove from hot baking sheet to cool on a wire rack."
+    ],
+    "notes": [
+      "Use cake flour instead of all-purpose, replace granulated sugar with brown sugar and use butter instead of margarine. Using cake flour and brown sugar allows you to use butter without fear of your cookies becoming puddles (which is the only reason to use margarine in the first place).",
+      "Use some vegetable shortening in place of butter/margarine to reduce \"spread\" (cookies will be thicker).",
+      "Add some vegetable oil (no more than 1/5 of total fat) in place of butter/margarine to increase spread, resulting in thinner cookies.",
+      "Using chocolate with a cocoa content greater than 65% will result in a significantly different taste than the \"traditional\" recipe. In general, if you find the raw chocolate to be too bitter or not enjoyable to eat, you may not like them in the cookies (no matter the quality).",
+      "Adding a few shakes of ground cinnamon with the dry ingredients also gives more flavor.",
+      "If you want to use regular flour as well as butter, the trick is to increase the amount of flour to 3+ cups, which should result in a fairly stiff dough that will not spread out very much. This trick even works with whole wheat flour.",
+      "The proportion of granulated to brown sugar may be adjusted to suit taste. More brown sugar will result in chewier cookies. More white sugar will result in crisper cookies.",
+      "Adding a greater quantity of vanilla extract (between ½ and ¾ of a teaspoon, rather than ¼) gives the cookie a more pronounced flavor.",
+      "If vanilla extract is not readily available, substitute two teaspoons of vanilla sugar for granulated sugar.",
+      "Add a small amount of oatmeal to give cookies more flavor and mouth-feel.",
+      "Some people also recommend chilling dough before baking, though this is usually not necessary. Chilling dough may help to reduce spread, resulting in thicker cookies.",
+      "Use an ungreased, non-stick baking sheet instead of a greased sheet to help reduce spread, for thicker cookies. Conversely, grease your sheet if you like thinner (crispier) cookies.",
+      "The quality of the flavoring ingredients makes a great difference in the outcome. Using top-quality butter, chocolate, and vanilla will produce a superior cookie.",
+      "Using chopped bar chocolate instead of pre-formed chips will result in a more rustic texture -- just make sure the pieces are small enough to eat comfortably.",
+      "Do not stack hot cookies otherwise they will bend out of shape and not cool as quickly. Use a cooling rack instead for the best results.",
+      "For a stronger nut flavor, toast the nuts. Spread them evenly on a baking pan and set them in the 350°F oven for ten minutes. Take them out and let them cool before adding them to the dough.",
+      "If you like a soft and squishy middle in your cookie, take them out one minute sooner for a nice soft middle."
+    ],
+    "servings": 10,
+    "totalTimeMinutes": 20,
+    "difficulty": null,
+    "category": "Recipes for dessert",
+    "categories": [
+      "Recipes using dark chocolate",
+      "Recipes for chocolate chip cookies",
+      "Baking recipes",
+      "Recipes using butter",
+      "Recipes using baking soda",
+      "Recipes using brown sugar",
+      "Recipes using white sugar",
+      "Recipes using egg",
+      "Recipes using wheat flour",
+      "Recipes using lemon zest"
+    ]
+  },
+  "image": {
+    "filename": "Chocolate_chip_cookies.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Chocolate_chip_cookies.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chocolate_chip_cookies.jpg",
+    "localPath": "scripts/wiki/output/Chocolate_chip_cookies.jpg",
+    "dimensions": {
+      "width": 2206,
+      "height": 1606
+    },
+    "fileSize": 1173840,
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Rdsmith4",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hohum"
+    },
+    "metadata": {
+      "description": "A plate of chocolate chip cookies",
+      "categories": [
+        "Taken with Nikon D70",
+        "Chocolate chip cookies",
+        "6 of food",
+        "Plates with food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chocolate_chip_cookies.jpg"
+  }
+}

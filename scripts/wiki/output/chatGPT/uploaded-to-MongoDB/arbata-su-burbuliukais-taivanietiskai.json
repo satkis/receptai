@@ -1,0 +1,171 @@
+{
+  "slug": "arbata-su-burbuliukais-taivanietiskai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/arbata-su-burbuliukais-taivanietiskai",
+  "title": {
+    "lt": "Arbata su burbuliukais"
+  },
+  "description": {
+    "lt": "Arbata su burbuliukais yra populiarus gėrimas iš Taivano, kuriame derinama stipri juodoji arbata, pienas ir boba tapiokos perliukai. Šis gaivus ir skanus gėrimas puikiai tinka karštoms vasaros dienoms."
+  },
+  "seo": {
+    "metaTitle": "Arbata su burbuliukais | Taivanietiškas receptas",
+    "metaDescription": "Išbandykite šį gaivų arbatos su burbuliukais receptą iš Taivano. Stipri juodoji arbata, pienas ir boba tapiokos perliukai - puikus derinys karštoms dienoms.",
+    "keywords": [
+      "arbata su burbuliukais",
+      "boba arbata",
+      "taivanietiška arbata",
+      "tapiokos perlai",
+      "gaivus gėrimas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Taivanietiška",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "3g",
+      "fatContent": "5g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/gerimai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Boba tapiokos perlai"
+      },
+      "quantity": "125 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sutrinti ledukai"
+      },
+      "quantity": "250 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Labai stipri šalta juodoji arbata"
+      },
+      "quantity": "250 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "250 ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Medus arba granuliuotas cukrus"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Įdėkite boba perlus į didelę stiklinę."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Maišymas"
+      },
+      "text": {
+        "lt": "Visus likusius ingredientus sudėkite į kokteilinę ir stipriai suplakite, kol mišinys taps putotas."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Supilkite gautą mišinį į stiklinę ir patiekite su plačiais šiaudeliais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei nenorite putoto gėrimo, tiesiog ingredientus sumaišykite šaukštu."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/arbata-su-burbuliukais-taivanietiskai.jpg",
+    "alt": "Klasikinė arbata su burbuliukais",
+    "width": 637,
+    "height": 850
+  },
+  "tags": [
+    "arbata su burbuliukais",
+    "boba arbata",
+    "tapiokos perlai",
+    "taivanietiškas gėrimas",
+    "vasaros gėrimas"
+  ],
+  "author": {
+    "name": "OMouse",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:OMouse"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bubble_Tea",
+    "pageTitle": "Cookbook:Bubble Tea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:20.473Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABubble_Tea&action=history",
+    "originalCreator": {
+      "name": "OMouse",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:OMouse"
+    }
+  },
+  "originalImage": {
+    "fileName": "Classic_bubble_tea.jpg",
+    "author": {
+      "name": "Oqmilteashop",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ralf%20Roletschek"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T13:11:20+03:00",
+  "createdAt": "2025-11-27T13:11:20+03:00",
+  "updatedAt": "2025-11-27T13:11:20+03:00"
+}

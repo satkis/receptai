@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Cookies_III",
+    "pageTitle": "Cookbook:Chocolate_Chip_Cookies_III",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Paulpatience",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulpatience"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Chip_Cookies_III&action=history",
+    "extractedAt": "2025-12-23T07:09:50.319Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chocolate Chip Cookies III",
+    "slug": "chocolate-chip-cookies-iii",
+    "description": "Valerie Patience (née Zipfel) perfected the following chocolate chip cookie by making these cookies for her family for over 20 years. These cookies were enjoyed by her children Sarah, Melanie, and Nicholas as well as her husband Paul. Friends and family also enjoyed these cookies and looked forward to them whenever they had a chance to imbibe.",
+    "ingredients": [
+      "½ cup butter, softened",
+      "½ cup white sugar",
+      "¼ cup packed brown sugar",
+      "1 egg",
+      "1 tsp vanilla",
+      "1 cup flour",
+      "½ tsp salt",
+      "½ tsp baking soda",
+      "Hershey's Chipits semisweet chocolate chips"
+    ],
+    "instructions": [
+      "Cream butter and sugar in a bowl until well combined.",
+      "Mix in egg and vanilla.",
+      "Combine flour, salt, and baking soda. Mix this dry mix into the wet mix.",
+      "Fold in chocolate chips.",
+      "Scoop cookies onto a parchment-lined baking sheet. Bake at 350°F until golden brown.",
+      "Cool slightly, then remove from baking sheet. Cool fully."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using dark chocolate",
+      "Recipes for chocolate chip cookies",
+      "Baking recipes",
+      "Recipes using butter",
+      "Recipes using baking soda",
+      "Recipes using brown sugar",
+      "Recipes using white sugar",
+      "Recipes using egg",
+      "Recipes using wheat flour"
+    ]
+  },
+  "image": {
+    "filename": "Valeries_chocolate_chip_cookies.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Valeries_chocolate_chip_cookies.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Valeries_chocolate_chip_cookies.jpg",
+    "localPath": "scripts/wiki/output/Valeries_chocolate_chip_cookies.jpg",
+    "dimensions": {
+      "width": 640,
+      "height": 478
+    },
+    "fileSize": 246533,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Paulpatience",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Paulpatience"
+    },
+    "metadata": {
+      "description": "Valeries chocolate chip cookies",
+      "categories": [
+        "CC-Zero",
+        "Chocolate chip cookies",
+        "Self-published work",
+        "Files with coordinates missing SDC location of creation"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Valeries_chocolate_chip_cookies.jpg"
+  }
+}

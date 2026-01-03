@@ -1,0 +1,104 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Tikka_Masala",
+    "pageTitle": "Cookbook:Chicken_Tikka_Masala",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "David Johnson",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:David%20Johnson"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Tikka_Masala&action=history",
+    "extractedAt": "2025-12-23T07:09:29.101Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chicken Tikka Masala",
+    "slug": "chicken-tikka-masala",
+    "description": "Chicken tikka masala is a dish based on chunks of Indian-style roasted chicken (Chicken Tikka) cooked in a tomato curry sauce, originating in India. There is no standard recipe for chicken tikka masala; a survey found that, of 48 different recipes, the only common ingredient was chicken. The sauce usually includes tomato and either cream or coconut cream and various spices.",
+    "ingredients": [
+      "675 g (1.5 lb) cooked Chicken Tikka",
+      "2 tbsp mustard seed oil (see notes)",
+      "4 large cloves of garlic, finely chopped",
+      "200 g (7 oz) onions, finely chopped (optional)",
+      "1 tin (28 oz) plum tomatoes, chopped",
+      "1–4 chopped fresh green chiles (depending on strength of the chiles and the desired strength of the sauce)",
+      "2 tbsp chopped fresh cilantro (coriander leaves)",
+      "50 ml (4 fl oz) single cream",
+      "1 tbsp malt vinegar or tamarind extract",
+      "2 tbsp curry paste",
+      "2 tbs<nowiki/>p tandoori masala paste",
+      "1 tbs<nowiki/>p tomato paste",
+      "1 tbs<nowiki/>p garam masala"
+    ],
+    "instructions": [
+      "Heat the oil in a wok or large frying pan.",
+      "Add the garlic and onions and stir-fry until browned.",
+      "Add the curry pastes and mix well, adding a little water or yogurt.",
+      "Add the cooked chicken tikka, and stir-fry for two minutes to heat through.",
+      "Add the tomatoes, vinegar, tomato paste, and chilies and simmer for five minutes. Add more extra water if needed.",
+      "Add the cream, garam masala, and chopped cilantro and simmer for a few times.",
+      "Garnish with fresh coriander and serve with Naan, rice coloured yellow with turmeric, onion bahjis and/or a glass of white wine."
+    ],
+    "notes": [
+      "Mustard seed oil is considered inappropriate for human consumption in many parts of the world and is therefore not always available. A poor alternative can be made by crackling ½ tsp of mustard seeds in approximately 2 tbsp of very hot vegetable or olive oil. Allow to cool, then use in place of mustard seed oil.",
+      "Powdered or concentrated ingredients can be substituted for fresh ones but at the amount of taste."
+    ],
+    "servings": 4,
+    "totalTimeMinutes": 60,
+    "difficulty": 3,
+    "category": "Chicken recipes",
+    "categories": [
+      "Recipes for curry|{{PAGENAME}}",
+      "Indian recipes|{{PAGENAME}}",
+      "Pakistani recipes|{{PAGENAME}}",
+      "English recipes|{{PAGENAME}}",
+      "Recipes using chicken|{{PAGENAME}}",
+      "Main course recipes",
+      "Featured recipes|{{PAGENAME}}",
+      "Recipes using chile",
+      "Recipes using cilantro",
+      "Recipes using light cream",
+      "Recipes using garam masala",
+      "Recipes using garlic"
+    ]
+  },
+  "image": {
+    "filename": "Chicken_Tikka_Masala_Curry.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Chicken_Tikka_Masala_Curry.png",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Tikka_Masala_Curry.png",
+    "localPath": "scripts/wiki/output/Chicken_Tikka_Masala_Curry.png",
+    "dimensions": {
+      "width": 633,
+      "height": 608
+    },
+    "fileSize": 694784,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Sriyarao22",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Xeverything11"
+    },
+    "metadata": {
+      "description": "Spicy and hot chicken Tikka masala garnished with extra spices, rotis and rice.",
+      "categories": [
+        "Chicken dishes of India",
+        "Self-published work",
+        "Images from Wiki Loves Food 2015",
+        "Uploaded via Campaign:wlf",
+        "Images from Wiki Loves Food 2015 in India"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Tikka_Masala_Curry.png"
+  }
+}

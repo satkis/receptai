@@ -1,0 +1,309 @@
+{
+  "slug": "chow-mein-su-darzovemis-ir-seitan",
+  "canonicalUrl": "https://ragaujam.lt/receptas/chow-mein-su-darzovemis-ir-seitan",
+  "title": {
+    "lt": "Chow Mein su daržovėmis ir seitan"
+  },
+  "description": {
+    "lt": "Chow Mein – tai tradicinis kinų patiekalas su keptais makaronais ir įvairiomis daržovėmis. Šis receptas yra veganiškas ir puikus pasirinkimas tiems, kurie mėgsta lengvus ir greitai paruošiamus patiekalus. Patiekalas pagardintas seitan, kuris suteikia papildomos tekstūros ir skonio."
+  },
+  "seo": {
+    "metaTitle": "Chow Mein su daržovėmis ir seitan | Tradicinis kinų receptas",
+    "metaDescription": "Veganiškas Chow Mein receptas su keptais makaronais, daržovėmis ir seitan. Greitai paruošiamas ir sotus patiekalas, puikiai tinkantis pietums ar vakarienei.",
+    "keywords": [
+      "chow mein",
+      "veganiškas chow mein",
+      "kinų patiekalas",
+      "kepti makaronai",
+      "daržovės su seitan"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Kinų",
+    "nutrition": {
+      "calories": 620,
+      "proteinContent": "25g",
+      "fatContent": "18g",
+      "fiberContent": "8g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/vegetariski"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Mung pupų daigai"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Seitanas"
+      },
+      "quantity": "425g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausi wonton makaronai"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saliero stiebas"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bok choy arba brokoliai"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Švieži grybai"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudona paprika"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonas svogūnas"
+      },
+      "quantity": "0.5 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalias svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sezamo sėklos"
+      },
+      "quantity": "60ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Smulkintos šitake grybai"
+      },
+      "quantity": "60ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sezamo aliejus"
+      },
+      "quantity": "2 arbat. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojos padažas"
+      },
+      "quantity": "1 arbat. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kukurūzų krakmolas"
+      },
+      "quantity": "1.5 arbat. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo arba daržovių sultinys"
+      },
+      "quantity": "60ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Daigų paruošimas"
+      },
+      "text": {
+        "lt": "1–2 valandas prieš gaminimą nuplaukite mung pupų daigus, kad jie gerai nusausėtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Marinato paruošimas"
+      },
+      "text": {
+        "lt": "Sutarkuokite seitaną plonais gabaliukais. Sumaišykite marinatui skirtus ingredientus, paskutinį pridėkite kukurūzų krakmolą. Marinuokite seitaną 20–25 minutes."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Padažo ir makaronų paruošimas"
+      },
+      "text": {
+        "lt": "Paruoškite padažą mažame dubenėlyje sumaišydami kukurūzų krakmolą su vandeniu. Įpilkite daržovių sultinio, sojos padažo bei prieskonių ir išmaišykite. Makaronus suminkštinkite verdančiame pasūdytame vandenyje, tada panardinkite į šaltą vandenį ir gerai nusausinkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Daržovių paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite visas daržoves. Salierus ir bok choy supjaustykite 1 cm ilgio gabaliukais įstrižai. Jei naudojate brokolius, nulupkite stiebus ir supjaustykite plonai. Grybus nuvalykite drėgnu skudurėliu ir supjaustykite. Papriką perpjaukite per pusę, pašalinkite sėklas ir supjaustykite gabaliukais. Svogūnus susmulkinkite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Keptuvėje kepti"
+      },
+      "text": {
+        "lt": "Įkaitinkite wok ar keptuvę ant vidutinės aukštos ugnies. Įpilkite 2 šaukštus aliejaus. Kai aliejus įkais, sudėkite makaronus ir kepkite porcijomis, kol jie taps auksiniai. Išimkite makaronus iš keptuvės."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Seitan ir daržovių kepimas"
+      },
+      "text": {
+        "lt": "Įpilkite dar 2 šaukštus aliejaus. Sudėkite svogūną ir seitaną, palikdami marinato likutį vėlesniam naudojimui. Seitaną trumpai parudinkite, tada maišykite, kol seitan beveik visiškai paruoštas. Išimkite iš keptuvės."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Daržovių kepimas"
+      },
+      "text": {
+        "lt": "Atlikite kiekvieną daržovę atskirai, išskyrus žaliąjį svogūną, pagardindami druska, jei norite. Kepdami bok choy ar brokolius, įpilkite 60ml vandens ir uždenkite. Išimkite daržoves kai jos paruoštos. Įpilkite daugiau aliejaus, jei reikia."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Padažo užbaigimas ir patiekimas"
+      },
+      "text": {
+        "lt": "Greitai sumaišykite padažą, sudėkite visus ingredientus atgal į wok, padarykite „šulinėlį“ padažui. Supilkite padažą ir likusį marinatą, greitai maišykite, kad sutirštėtų. Sumaišykite viską kartu. Įmaišykite žalius svogūnus. Supilkite mišrainę ant makaronų ir pabarstykite sezamo sėklomis. Patiekite karštą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite traškesnių chow mein makaronų, naudokite daugiau aliejaus ir ilgiau juos kepkite."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/chow-mein-su-darzovemis-ir-seitan.jpg",
+    "alt": "Chow Mein su daržovėmis ir seitan patiektas lėkštėje",
+    "width": 640,
+    "height": 480
+  },
+  "tags": [
+    "chow mein",
+    "kinų patiekalas",
+    "veganiškas receptas",
+    "daržovės",
+    "kepti makaronai"
+  ],
+  "author": {
+    "name": "207.58.192.150",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:207.58.192.150"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chow_Mein",
+    "pageTitle": "Cookbook:Chow_Mein",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:12.101Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChow_Mein&action=history",
+    "originalCreator": {
+      "name": "207.58.192.150",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:207.58.192.150"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chow_mein_1_by_yuen.jpg",
+    "author": {
+      "name": "♡yuen♫",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hohum"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Chow_mein_1_by_yuen.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:15:00+03:00",
+  "createdAt": "2025-12-23T10:15:00+03:00",
+  "updatedAt": "2025-12-23T10:15:00+03:00"
+}

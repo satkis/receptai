@@ -1,0 +1,238 @@
+{
+  "slug": "chakalaka-pietu-afrikos-darzoviu-troskinys",
+  "canonicalUrl": "https://ragaujam.lt/receptas/chakalaka-pietu-afrikos-darzoviu-troskinys",
+  "title": {
+    "lt": "Chakalaka - Pietų Afrikos daržovių troškinys"
+  },
+  "description": {
+    "lt": "Chakalaka yra aštrus Pietų Afrikos daržovių troškinys, gaminamas iš pupelių, paprikų, morkų ir pomidorų. Dažnai patiekiamas kaip garnyras su duona, papu arba mėsa. Šis universalus patiekalas gali būti pritaikomas pagal įvairius regioninius ar asmeninius pomėgius."
+  },
+  "seo": {
+    "metaTitle": "Chakalaka - Pietų Afrikos daržovių troškinys | Receptas",
+    "metaDescription": "Aštrus Pietų Afrikos daržovių troškinys Chakalaka su pupelėmis, paprikomis, morkomis ir pomidorais. Tobulas garnyras prie mėsiškų patiekalų ar duonos.",
+    "keywords": [
+      "chakalaka",
+      "pietų afrikos troškinys",
+      "daržovių troškinys",
+      "vegetariškas receptas",
+      "aštrus troškinys"
+    ],
+    "recipeCategory": "trokiniai",
+    "recipeCuisine": "Pietų Afrikos",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "4g",
+      "fatContent": "7g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/trokiniai",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kario milteliai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili milteliai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tajų žaliosios paprikos"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žaliosios paprikos"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Daržovių sultinio kubelis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska ir juodieji pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Aliejaus kaitinimas"
+      },
+      "text": {
+        "lt": "Įkaitink aliejų didelėje keptuvėje ant vidutinės ugnies."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Suberkite pjaustytus svogūnus ir kepkite 2–3 minutes, kol jie suminkštės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Prieskonių maišymas"
+      },
+      "text": {
+        "lt": "Įmaišykite kario miltelius, čili miltelius ir smulkintas paprikas. Kepkite dar 1 minutę, kol pradės sklisti aromatas."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Daržovių troškinimas"
+      },
+      "text": {
+        "lt": "Sudėkite pjaustytus pomidorus, tarkuotas morkas ir paprikas. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Troškinio užbaigimas"
+      },
+      "text": {
+        "lt": "Įpilkite sultinio kubelį ir vandenį. Uždenkite ir troškinkite 10–15 minučių, kol daržovės taps minkštos. Paragaukite ir, jei reikia, pagardinkite druska ir pipirais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Chakalaka dar skanesnis kitą dieną, todėl galite gaminti iš anksto."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Galite pridėti tarkuotų kopūstų ar žaliųjų pupelių daugiau įvairovės."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/chakalaka-pietu-afrikos-darzoviu-troskinys.jpg",
+    "alt": "Chakalaka - Pietų Afrikos daržovių troškinys su pupelėmis ir paprikomis",
+    "width": 2112,
+    "height": 2816
+  },
+  "tags": [
+    "chakalaka",
+    "pietų afrikos virtuvė",
+    "daržovių troškinys",
+    "vegetariškas patiekalas",
+    "aštrus receptas"
+  ],
+  "author": {
+    "name": "Bamjos",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Bamjos"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chakalaka_(South_African_Vegetable_Stew)",
+    "pageTitle": "Cookbook:Chakalaka_(South_African_Vegetable_Stew)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:42.686Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChakalaka_(South_African_Vegetable_Stew)&action=history",
+    "originalCreator": {
+      "name": "Bamjos",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Bamjos"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chakalaka.jpg",
+    "author": {
+      "name": "philipp from cape town, south africa",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Atamari"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Chakalaka.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:00:00+03:00",
+  "createdAt": "2025-12-21T20:00:00+03:00",
+  "updatedAt": "2025-12-21T20:00:00+03:00"
+}

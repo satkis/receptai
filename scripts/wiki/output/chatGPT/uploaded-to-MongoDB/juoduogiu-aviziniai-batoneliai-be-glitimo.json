@@ -1,0 +1,230 @@
+{
+  "slug": "juoduogiu-aviziniai-batoneliai-be-glitimo",
+  "canonicalUrl": "https://ragaujam.lt/receptas/juoduogiu-aviziniai-batoneliai-be-glitimo",
+  "title": {
+    "lt": "Juoduogių avižiniai batoneliai be glitimo"
+  },
+  "description": {
+    "lt": "Šie be glitimo, veganiški juoduogių avižiniai batoneliai puikiai tinka pusryčiams. Jie yra sveikas ir skanus pasirinkimas kiekvienai dienai."
+  },
+  "seo": {
+    "metaTitle": "Juoduogių avižiniai batoneliai be glitimo | Veganiškas receptas",
+    "metaDescription": "Pasigaminkite sveikus ir skanius juoduogių avižinius batonelius be glitimo. Šis veganiškas receptas puikiai tinka pusryčiams ar užkandžiams.",
+    "keywords": [
+      "juoduogių batoneliai",
+      "avižiniai batoneliai",
+      "be glitimo",
+      "veganiškas receptas",
+      "sveiki pusryčiai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "4g",
+      "fatContent": "15g",
+      "fiberContent": "6g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/vaikams",
+    "receptai/be-glitimo"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Avižos"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Migdolų miltai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kokosų aliejus"
+      },
+      "quantity": "½ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudas cukrus"
+      },
+      "quantity": "½ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Medus"
+      },
+      "quantity": "¼ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "¼ arbatinio šaukštelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Migdolų sviestas"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežios juoduogės"
+      },
+      "quantity": "2 pintos",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 180°C. Išklokite kepimo formą pergamentiniu popieriumi."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite avižas, migdolų miltus ir druską dideliame dubenyje. Įpilkite ištirpintą kokosų aliejų, ruda cukrų, medų ir vanilės ekstraktą. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Batonėlių formavimas"
+      },
+      "text": {
+        "lt": "Pusę mišinį supilkite į paruoštą kepimo formą ir tolygiai paskirstykite. Ant viršaus uždėkite juoduoges ir pabarstykite cukrumi. Uždenkite likusiu mišiniu ir švelniai prispauskite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite orkaitėje apie 25 minutes, kol batonėliai taps auksinės spalvos. Išimkite iš orkaitės ir leiskite visiškai atvėsti prieš pjaustymą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, galite pakeisti juoduoges kitomis mėgstamomis uogomis."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Batonėliai puikiai tinka kaip sveikas užkandis ar pusryčiai."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/juoduogiu-aviziniai-batoneliai-be-glitimo.jpg",
+    "alt": "Juoduogių avižiniai batoneliai be glitimo",
+    "width": 809,
+    "height": 1214
+  },
+  "tags": [
+    "juoduogių batoneliai",
+    "avižiniai batoneliai",
+    "veganiškas receptas",
+    "sveikas užkandis",
+    "pusryčių receptas"
+  ],
+  "author": {
+    "name": "NMaia",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Blackberry_Oat_Bars_(Gluten-Free)",
+    "pageTitle": "Cookbook:Blackberry_Oat_Bars_(Gluten-Free)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:10:56.646Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlackberry_Oat_Bars_(Gluten-Free)&action=history",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gluten-Free_Blackberry_Oat_Bars.jpg",
+    "author": {
+      "name": "Simmer + Sauce",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:NMaia"
+    },
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Gluten-Free_Blackberry_Oat_Bars.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T13:10:56+03:00",
+  "createdAt": "2025-11-27T13:10:56+03:00",
+  "updatedAt": "2025-11-27T13:10:56+03:00"
+}

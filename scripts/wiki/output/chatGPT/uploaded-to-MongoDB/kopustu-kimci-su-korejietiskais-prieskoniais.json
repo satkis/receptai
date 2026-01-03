@@ -1,0 +1,277 @@
+{
+  "slug": "kopustu-kimci-su-korejietiskais-prieskoniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kopustu-kimci-su-korejietiskais-prieskoniais",
+  "title": {
+    "lt": "Kopūstų kimči su korėjietiškais prieskoniais"
+  },
+  "description": {
+    "lt": "Kimči yra tradicinis korėjietiškas patiekalas, kuriame marinuoti daržovės kaip pekino kopūstas ir korėjietiški ridikėliai. Šis receptas parodys, kaip paruošti klasikinį pekino kopūstų kimči su čili, aekjeot ir kitais aromatingais ingredientais."
+  },
+  "seo": {
+    "metaTitle": "Kopūstų Kimči Receptas | Korėjietiškai",
+    "metaDescription": "Autentiškas kopūstų kimči receptas su korėjietiškais prieskoniais. Idealiai tinka kaip garnyras arba užkandis. Sužinokite, kaip pasigaminti šį fermentuotą patiekalą namuose.",
+    "keywords": [
+      "kimči",
+      "korėjietiškas kimči",
+      "fermentuoti patiekalai",
+      "kopūstų receptai",
+      "korėjietiški prieskoniai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Korėjiečių",
+    "nutrition": {
+      "calories": 30,
+      "proteinContent": "1g",
+      "fatContent": "0g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 480,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/fermentuoti"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Pekino kopūstas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jūros druska"
+      },
+      "quantity": "½ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gochugaru"
+      },
+      "quantity": "½ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aekjeot"
+      },
+      "quantity": "ketvirtis puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "pusė vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morka"
+      },
+      "quantity": "pusė vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Korėjietiškas ridikėlis"
+      },
+      "quantity": "pusė vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalieji svogūnėliai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Kopūstų paruošimas"
+      },
+      "text": {
+        "lt": "Pekino kopūstą perpjaukite į keturias dalis, nuplaukite ir nusausinkite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Druskos tirpalo paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite jūros druską su vandeniu. Įmerkite kopūstus į druskos tirpalą, kad gerai įsigertų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Marinavimas"
+      },
+      "text": {
+        "lt": "Sudėkite kopūstus į indą ir užpilkite likusiu druskos tirpalu. Palikite bent 6-8 valandoms arba per naktį, kol kopūstai taps minkšti."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kimči mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite gochugaru, druską, cukrų, aekjeot, česnaką ir imbierą. Įmaišykite svogūną, morką, ridikėlį ir žaliuosius svogūnėlius."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kopūstų užpildymas prieskoniais"
+      },
+      "text": {
+        "lt": "Kiekvieną kopūsto sluoksnį užpildykite gautu mišiniu. Pabandykite sulenkti kopūstą per pusę ir apvyniokite išoriniais lapais."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Fermentavimas"
+      },
+      "text": {
+        "lt": "Sudėkite kopūstus į sandarų indą ir palikite kambario temperatūroje per naktį. Po to laikykite šaldytuve 2-3 dienas."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Po kelių dienų fermentavimo mėgaukitės savo kimči. Jei pastebite skysčio, tai normalu - kimči bręsta."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Korėjietiškus ridikėlius galite pakeisti daikonu arba mažais europiniais ridikėliais."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Aekjeot galite pakeisti saeujeot arba visiškai atsisakyti jūros gėrybių, pridedant daugiau druskos."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Eksperimentuokite su prieskoniais - galite pridėti azijietiškų kriaušių ar mandarinų."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kopustu-kimci-su-korejietiskais-prieskoniais.jpg",
+    "alt": "Kopūstų kimči su korėjietiškais prieskoniais, patiekti inde",
+    "width": 2016,
+    "height": 1512
+  },
+  "tags": [
+    "kopūstų kimči",
+    "korėjietiškas patiekalas",
+    "fermentuoti produktai",
+    "korėjietiška virtuvė",
+    "užkandžiai"
+  ],
+  "author": {
+    "name": "68.166.38.125",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:68.166.38.125"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cabbage_Kimchi",
+    "pageTitle": "Cookbook:Cabbage_Kimchi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:17.096Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACabbage_Kimchi&action=history",
+    "originalCreator": {
+      "name": "68.166.38.125",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:68.166.38.125"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gimchi.jpg",
+    "author": {
+      "name": "Nagyman, a flickr user",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:IGEL"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Gimchi.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:59:17+03:00",
+  "createdAt": "2025-12-21T20:59:17+03:00",
+  "updatedAt": "2025-12-21T20:59:17+03:00"
+}
