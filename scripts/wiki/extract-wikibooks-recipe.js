@@ -29,8 +29,9 @@ const LOGS_DIR = path.join(OUTPUT_DIR, 'logs');
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
 // Retry configuration
-const MAX_RETRIES = 3;
-const RETRY_DELAY_MS = 3000; // 3 seconds
+const MAX_RETRIES = 5;
+const RETRY_DELAY_MS = 5000; // 5 seconds between retries
+const RATE_LIMIT_DELAY_MS = 10000; // 10 seconds when hitting rate limits (429)
 
 // Create axios instance with proper headers
 const axiosInstance = axios.create({
@@ -742,6 +743,8 @@ async function downloadImage(imageUrl, outputPath, slug, recipeUrl) {
 
     } catch (error) {
       const errorMsg = error.message || 'Unknown error';
+      const statusCode = error.response?.status;
+
       console.error(`❌ Download attempt ${attempt}/${MAX_RETRIES + 1} failed: ${errorMsg}`);
 
       // Clean up partial file
@@ -756,9 +759,17 @@ async function downloadImage(imageUrl, outputPath, slug, recipeUrl) {
         return null;
       }
 
-      // Wait before retrying
-      console.log(`⏳ Waiting ${RETRY_DELAY_MS / 1000} seconds before retry...`);
-      await sleep(RETRY_DELAY_MS);
+      // Determine wait time based on error type
+      let waitTime = RETRY_DELAY_MS;
+      if (statusCode === 429) {
+        // Rate limited - wait longer
+        waitTime = RATE_LIMIT_DELAY_MS;
+        console.log(`⚠️  Rate limited (429). Waiting ${waitTime / 1000} seconds before retry...`);
+      } else {
+        console.log(`⏳ Waiting ${waitTime / 1000} seconds before retry...`);
+      }
+
+      await sleep(waitTime);
     }
   }
 }
@@ -847,10 +858,22 @@ async function extractRecipe(url) {
             // Download failed, try next image
             console.log(`⚠️  Download failed for ${imageName}, trying next image...`);
             mainImage = null;
+
+            // Add delay before trying next image to avoid rate limiting
+            if (i < recipeImages.length - 1) {
+              console.log(`⏳ Waiting 3 seconds before trying next image...`);
+              await sleep(3000);
+            }
           }
         } else {
           // Metadata fetch failed, try next image
           console.log(`⚠️  Could not fetch metadata for ${imageName}, trying next image...`);
+
+          // Add delay before trying next image
+          if (i < recipeImages.length - 1) {
+            console.log(`⏳ Waiting 2 seconds before trying next image...`);
+            await sleep(2000);
+          }
         }
       }
 
@@ -981,6 +1004,12 @@ async function main() {
     } else {
       failureCount++;
       console.log(`\n⚠️  Recipe ${i + 1} extraction failed. Continuing with next recipe...`);
+    }
+
+    // Add delay between recipes to avoid rate limiting
+    if (i < urls.length - 1) {
+      console.log(`\n⏳ Waiting 5 seconds before processing next recipe...`);
+      await sleep(5000);
     }
   }
 
