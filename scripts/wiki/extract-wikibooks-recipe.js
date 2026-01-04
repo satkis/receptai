@@ -29,8 +29,13 @@ const LOGS_DIR = path.join(OUTPUT_DIR, 'logs');
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
 // Retry configuration
+// Rate limiting strategy based on Wikimedia Commons best practices:
+// - Max 10 simultaneous requests per IP
+// - Max 150 requests per 30-second window per IP
+// - When 429 error occurs, wait 10 seconds before retrying
+// - Check Retry-After header if provided by server
 const MAX_RETRIES = 5;
-const RETRY_DELAY_MS = 5000; // 5 seconds between retries
+const RETRY_DELAY_MS = 5000; // 5 seconds between normal retries
 const RATE_LIMIT_DELAY_MS = 10000; // 10 seconds when hitting rate limits (429)
 
 // Create axios instance with proper headers
@@ -698,7 +703,16 @@ async function getImageMetadata(imageName) {
     return metadata;
 
   } catch (error) {
-    console.error(`❌ Error fetching image metadata: ${error.message}`);
+    const statusCode = error.response?.status;
+    const errorMsg = error.message || 'Unknown error';
+
+    if (statusCode === 429) {
+      console.error(`❌ Rate limited (429) while fetching image metadata: ${errorMsg}`);
+      console.log(`⏳ Waiting 10 seconds before next attempt...`);
+      await sleep(10000);
+    } else {
+      console.error(`❌ Error fetching image metadata: ${errorMsg}`);
+    }
     return null;
   }
 }
@@ -744,6 +758,7 @@ async function downloadImage(imageUrl, outputPath, slug, recipeUrl) {
     } catch (error) {
       const errorMsg = error.message || 'Unknown error';
       const statusCode = error.response?.status;
+      const retryAfterHeader = error.response?.headers?.['retry-after'];
 
       console.error(`❌ Download attempt ${attempt}/${MAX_RETRIES + 1} failed: ${errorMsg}`);
 
@@ -761,12 +776,27 @@ async function downloadImage(imageUrl, outputPath, slug, recipeUrl) {
 
       // Determine wait time based on error type
       let waitTime = RETRY_DELAY_MS;
+
       if (statusCode === 429) {
-        // Rate limited - wait longer
-        waitTime = RATE_LIMIT_DELAY_MS;
-        console.log(`⚠️  Rate limited (429). Waiting ${waitTime / 1000} seconds before retry...`);
+        // Rate limited - check for Retry-After header first
+        if (retryAfterHeader) {
+          // Retry-After can be in seconds or HTTP-date format
+          const retryAfterSeconds = parseInt(retryAfterHeader);
+          if (!isNaN(retryAfterSeconds)) {
+            waitTime = (retryAfterSeconds + 1) * 1000; // Add 1 second buffer
+            console.log(`⚠️  Rate limited (429). Server says wait ${retryAfterSeconds}s. Waiting ${waitTime / 1000}s before retry...`);
+          } else {
+            // It's a date, use default rate limit delay
+            waitTime = RATE_LIMIT_DELAY_MS;
+            console.log(`⚠️  Rate limited (429). Waiting ${waitTime / 1000}s before retry...`);
+          }
+        } else {
+          // No Retry-After header, use our default
+          waitTime = RATE_LIMIT_DELAY_MS;
+          console.log(`⚠️  Rate limited (429). Waiting ${waitTime / 1000}s before retry...`);
+        }
       } else {
-        console.log(`⏳ Waiting ${waitTime / 1000} seconds before retry...`);
+        console.log(`⏳ Waiting ${waitTime / 1000}s before retry...`);
       }
 
       await sleep(waitTime);
