@@ -17,7 +17,7 @@ const path = require('path');
 // Parse command line arguments
 const args = process.argv.slice(2);
 let startLetter = 'B';
-let outputFile = 'scripts/wiki/wikibooks-recipes-letter-B.txt';
+let outputFile = null;
 
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--letter' && args[i + 1]) {
@@ -28,6 +28,11 @@ for (let i = 0; i < args.length; i++) {
     outputFile = args[i + 1];
     i++;
   }
+}
+
+// Set default output file based on startLetter if not provided
+if (!outputFile) {
+  outputFile = `scripts/wiki/wikibooks-recipes-letter-${startLetter}.txt`;
 }
 
 // Colors for console output
