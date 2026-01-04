@@ -803,27 +803,60 @@ async function extractRecipe(url) {
     // Fetch recipe data
     const recipeData = await fetchRecipeData(pageTitle);
 
-    // Fetch main image (first image in the list)
+    // Fetch main image - try to find the best recipe image
     let mainImage = null;
     let imageFilename = null;
     let downloadSuccess = false;
 
     if (recipeData.images.length > 0) {
-      const firstImage = recipeData.images[0];
-      mainImage = await fetchMainImage(firstImage);
+      console.log(`\n🔍 Found ${recipeData.images.length} images on page, searching for recipe image...`);
 
-      if (mainImage) {
-        // Download image - use original Wikibooks filename
-        imageFilename = mainImage.filename;
-        const imagePath = path.join(OUTPUT_DIR, imageFilename);
+      // Filter out common non-recipe images (logos, icons, etc.)
+      const excludePatterns = [
+        /^(Wikibooks|Wikipedia|Commons|Wikimedia|Logo|Icon|Flag|Coat_of_arms)/i,
+        /^(Ambox|Padlock|Magnify|Folder|Disambig)/i,
+        /^(Blank|Transparent|Spacer|Divider)/i
+      ];
 
-        const downloadResult = await downloadImage(mainImage.url, imagePath, slug, url);
-        downloadSuccess = downloadResult !== null;
+      const recipeImages = recipeData.images.filter(img => {
+        return !excludePatterns.some(pattern => pattern.test(img));
+      });
 
-        // If download failed, set mainImage to null so image field will be null in JSON
-        if (!downloadSuccess) {
-          mainImage = null;
+      console.log(`✅ Filtered to ${recipeImages.length} potential recipe image(s)`);
+
+      // Try each image until we find one that downloads successfully
+      for (let i = 0; i < recipeImages.length; i++) {
+        const imageName = recipeImages[i];
+        console.log(`\n📸 Attempting image ${i + 1}/${recipeImages.length}: ${imageName}`);
+
+        mainImage = await fetchMainImage(imageName);
+
+        if (mainImage) {
+          // Download image - use original Wikibooks filename
+          imageFilename = mainImage.filename;
+          const imagePath = path.join(OUTPUT_DIR, imageFilename);
+
+          const downloadResult = await downloadImage(mainImage.url, imagePath, slug, url);
+          downloadSuccess = downloadResult !== null;
+
+          // If download succeeded, we're done
+          if (downloadSuccess) {
+            console.log(`✅ Successfully downloaded image: ${imageName}`);
+            break;
+          } else {
+            // Download failed, try next image
+            console.log(`⚠️  Download failed for ${imageName}, trying next image...`);
+            mainImage = null;
+          }
+        } else {
+          // Metadata fetch failed, try next image
+          console.log(`⚠️  Could not fetch metadata for ${imageName}, trying next image...`);
         }
+      }
+
+      // If all downloads failed, set mainImage to null
+      if (!downloadSuccess) {
+        mainImage = null;
       }
     }
 
