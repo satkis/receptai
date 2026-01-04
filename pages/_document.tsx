@@ -20,7 +20,7 @@ export default function Document() {
         {/* url ownership - google search console */}
         <meta name="google-site-verification" content="M10eblvn_OWYGXcV68vhNx8Lxst88O4OruRN5tvR610" />
 
-        {/* Google Analytics */}
+        {/* Google Analytics 4 */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HNHCXHF82"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -28,7 +28,11 @@ export default function Document() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-1HNHCXHF82');
+              gtag('config', 'G-1HNHCXHF82', {
+                'page_path': window.location.pathname,
+                'page_title': document.title
+              });
+              console.log('Google Analytics initialized with ID: G-1HNHCXHF82');
             `,
           }}
         />
