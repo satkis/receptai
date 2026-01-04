@@ -99,20 +99,20 @@ export function generateEnhancedRecipeSchema(recipe: CurrentRecipe) {
 
     // ENHANCED INGREDIENTS with measurements (main + side ingredients)
     recipeIngredient: [
-      ...recipe.ingredients.map(ingredient =>
+      ...(recipe.ingredients || []).map(ingredient =>
         `${ingredient.quantity} ${ingredient.name.lt}`
       ),
-      ...recipe.sideIngredients.map(ingredient =>
+      ...(recipe.sideIngredients || []).map(ingredient =>
         `${ingredient.quantity} ${ingredient.name.lt}`
       )
     ],
     
     // ENHANCED INSTRUCTIONS with HowToStep (Google requirement)
-    recipeInstructions: recipe.instructions.map((instruction: any) => ({
+    recipeInstructions: (recipe.instructions || []).map((instruction: any) => ({
       '@type': 'HowToStep',
       // name: `Žingsnis ${instruction.step}`,
-       name: instruction.name.lt,
-      text: instruction.text.lt,
+       name: instruction.name?.lt || `Žingsnis ${instruction.step}`,
+      text: instruction.text?.lt || '',
       url: `${baseUrl}/receptas/${recipe.slug}#step${instruction.step}`,
       // Only add image if it exists in DB
       ...(instruction.image && { image: instruction.image })
@@ -123,7 +123,7 @@ export function generateEnhancedRecipeSchema(recipe: CurrentRecipe) {
     recipeCuisine: recipe.seo?.recipeCuisine || 'Lietuviška',
 
     // KEYWORDS for better discovery (Google recommendation)
-    keywords: recipe.tags.join(', '),
+    keywords: (recipe.tags || []).join(', '),
     
 
     
