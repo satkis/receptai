@@ -19,14 +19,32 @@ const args = process.argv.slice(2);
 let startLetter = 'B';
 let outputFile = null;
 
-for (let i = 0; i < args.length; i++) {
-  if (args[i] === '--letter' && args[i + 1]) {
-    startLetter = args[i + 1].toUpperCase();
-    i++;
+// Handle both formats:
+// 1. node script.js --letter E --output file.txt
+// 2. npm run script -- --letter E --output file.txt (npm strips -- and passes E as first arg)
+// 3. npm run script -- E (positional argument)
+
+// Check if first arg looks like a letter (single character, no dashes)
+if (args.length > 0 && args[0].length === 1 && !args[0].startsWith('-')) {
+  startLetter = args[0].toUpperCase();
+  // Check for --output flag in remaining args
+  for (let i = 1; i < args.length; i++) {
+    if (args[i] === '--output' && args[i + 1]) {
+      outputFile = args[i + 1];
+      break;
+    }
   }
-  if (args[i] === '--output' && args[i + 1]) {
-    outputFile = args[i + 1];
-    i++;
+} else {
+  // Standard flag parsing
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--letter' && args[i + 1]) {
+      startLetter = args[i + 1].toUpperCase();
+      i++;
+    }
+    if (args[i] === '--output' && args[i + 1]) {
+      outputFile = args[i + 1];
+      i++;
+    }
   }
 }
 
