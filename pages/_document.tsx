@@ -20,6 +20,18 @@ export default function Document() {
         {/* url ownership - google search console */}
         <meta name="google-site-verification" content="M10eblvn_OWYGXcV68vhNx8Lxst88O4OruRN5tvR610" />
 
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HNHCXHF82"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-1HNHCXHF82');
+            `,
+          }}
+        />
 
         {/* Optimized font loading - preload most critical weights only */}
         <link
