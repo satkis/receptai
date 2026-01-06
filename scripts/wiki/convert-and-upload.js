@@ -59,7 +59,7 @@ async function runStep(stepName, command) {
 
 async function convertRecipes() {
   log('\n🔄 Converting recipes...', 'blue');
-  
+
   const files = fs.readdirSync(OUTPUT_DIR)
     .filter(f => f.endsWith('-wikibooks-raw.json'))
     .sort();
@@ -89,11 +89,19 @@ async function convertRecipes() {
       log(`   ✅ Converted successfully`, 'green');
       successful++;
 
-      // Move to processed folder
-      const destPath = path.join(PROCESSED_JSON_DIR, file);
-      fs.copyFileSync(filePath, destPath);
-      fs.unlinkSync(filePath);
-      log(`   📁 Moved to processed folder`, 'green');
+      // Move raw file to processed folder (optional - for cleanup)
+      try {
+        if (!fs.existsSync(PROCESSED_JSON_DIR)) {
+          fs.mkdirSync(PROCESSED_JSON_DIR, { recursive: true });
+        }
+        const destPath = path.join(PROCESSED_JSON_DIR, file);
+        fs.copyFileSync(filePath, destPath);
+        fs.unlinkSync(filePath);
+        log(`   📁 Moved raw file to processed folder`, 'green');
+      } catch (moveError) {
+        // If moving fails, just log it but don't count as conversion failure
+        log(`   ⚠️  Could not move raw file (not critical)`, 'yellow');
+      }
 
       // Wait between requests to avoid rate limiting
       if (i < files.length - 1) {
@@ -101,7 +109,7 @@ async function convertRecipes() {
         await sleep(2000);
       }
     } catch (error) {
-      log(`   ❌ Conversion failed`, 'red');
+      log(`   ❌ Conversion failed: ${error.message}`, 'red');
       failed++;
     }
   }
@@ -140,12 +148,19 @@ async function main() {
   log(`   ❌ Failed: ${results.failed}`, results.failed > 0 ? 'red' : 'green');
 
   if (results.successful > 0) {
+    // Count actual JSON files in chatGPT folder
+    const convertedFiles = fs.readdirSync(CHATGPT_DIR)
+      .filter(f => f.endsWith('.json')).length;
+
     log(`\n📁 Converted recipes saved to:`, 'cyan');
     log(`   ${CHATGPT_DIR}`, 'cyan');
+    log(`   📊 Total JSON files: ${convertedFiles}`, 'cyan');
+
     log(`\n📋 Next steps:`, 'cyan');
     log(`   1. Review converted recipes in ${CHATGPT_DIR}`, 'cyan');
     log(`   2. Import to MongoDB using MongoDB Compass`, 'cyan');
     log(`   3. Verify recipes on website`, 'cyan');
+    log(`\n💡 Tip: Use 'npm run upload-gpt-to-mongodb' to import recipes`, 'cyan');
   }
 
   if (results.failed > 0) {

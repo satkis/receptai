@@ -416,9 +416,9 @@ Convert to this MongoDB recipe schema:
 ## 📋 DETAILED ATTRIBUTE RULES
 
 ### **slug**
-- Format: Lithuanian characters not allowed, lowercase, hyphen-separated
+- Format: Lithuanian characters are not prohibited, lowercase, hyphen-separated
 - Example: `zemaitiski-kepsneliai-su-kiauliena`
-- Rule: at least 3 words.Lithuanian characters not allowed, Must be unique and SEO expanded text, descriptive, max 200 characters, convert to URL-safe format
+- Rule: at least 3 SEO related words. Lithuanian characters are not prohibited, Must be unique and SEO expanded text, descriptive, max 200 characters, convert to URL-safe format
 
 ### **canonicalUrl**
 - Format: `https://ragaujam.lt/receptas/{slug}`
@@ -431,8 +431,8 @@ Convert to this MongoDB recipe schema:
 - Example: `"Santjago tortas - Ispaniškas migdolų pyragas"`
 
 ### **description.lt**
-- Format: 4-7 SEO optimized recipe applicable sentences in Lithuanian. need to sound casually written and not like a robot text.
-- Rule: 100-500 characters, engaging, mentions key ingredients
+- Format: 7-11 SEO optimized recipe applicable sentences in Lithuanian. need to sound casually written and not like a robot text.
+- Rule: 400-1000 characters, engaging, mentions key ingredients
 - Example: `Tradiciniai žemaitiški kepsneliai su rūkytų lašinių įdaru. Skanus ir sotus patiekalas šeimai.`
 
 ### **seo.metaTitle**
@@ -539,13 +539,13 @@ pietus-i-darba
 
 ### **aggregateRating.ratingValue**
 - Format: average rating value
-- Example: 4.8
-- Rule: make random within range [4.5 - 5.0]
+- Example: 5.0
+- Rule: always 5
 
 ### **aggregateRating.reviewCount**
 - Format: count of ratings
-- Example: 9
-- Rule: make random number within range [0-15]
+- Example: 2
+- Rule: make random number within range [0-2]
 
 ### **aggregateRating.bestRating**
 - Format: number 5
@@ -639,7 +639,7 @@ pietus-i-darba
 - Example: `"receptai/desertai"`
 
 ### **secondaryCategories**
-- Format: Array of 2-4 related category paths
+- Format: Array of 1 related category paths which is different than primaryCategoryPath.
 - Rule: Related categories different from primary. Select ONLY from 'seo.recipeCategory' provided list. Do not create new categories/subcategories.
 - Example: `["receptai/Kazane", "receptai/Tofu"]`
 

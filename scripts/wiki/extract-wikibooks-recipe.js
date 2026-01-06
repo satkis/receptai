@@ -105,6 +105,35 @@ function readInputUrls() {
 }
 
 /**
+ * Read already processed URLs
+ */
+function readProcessedUrls() {
+  if (!fs.existsSync(PROCESSED_FILE)) {
+    return [];
+  }
+
+  const content = fs.readFileSync(PROCESSED_FILE, 'utf-8');
+  const processedUrls = content
+    .split('\n')
+    .map(line => {
+      // Extract URL from format: [timestamp] URL - Title
+      const match = line.match(/https:\/\/[^\s]+/);
+      return match ? match[0] : null;
+    })
+    .filter(url => url !== null);
+
+  return processedUrls;
+}
+
+/**
+ * Get only new URLs (not yet processed)
+ */
+function getNewUrls(allUrls, processedUrls) {
+  const processedSet = new Set(processedUrls);
+  return allUrls.filter(url => !processedSet.has(url));
+}
+
+/**
  * Extract page title from Wikibooks URL
  */
 function extractPageTitle(url) {
@@ -1008,23 +1037,33 @@ async function main() {
   console.log('\n🌟 Wikibooks Recipe Extractor v1.0');
   console.log('📁 Reading input file...\n');
 
-  const urls = readInputUrls();
+  const allUrls = readInputUrls();
+  const processedUrls = readProcessedUrls();
+  const newUrls = getNewUrls(allUrls, processedUrls);
 
-  if (urls.length === 0) {
+  if (allUrls.length === 0) {
     console.log('⚠️  No URLs found in wikibooks-urls.txt');
     console.log('📝 Add Wikibooks recipe URLs (one per line) and run again.');
     process.exit(0);
   }
 
-  console.log(`📋 Found ${urls.length} URL(s) to process\n`);
+  console.log(`📋 Total URLs in wikibooks-urls.txt: ${allUrls.length}`);
+  console.log(`✅ Already processed: ${processedUrls.length}`);
+  console.log(`🆕 New URLs to process: ${newUrls.length}\n`);
+
+  if (newUrls.length === 0) {
+    console.log('✨ All recipes have already been processed!');
+    console.log('📝 Add new URLs to wikibooks-urls.txt to process more recipes.');
+    process.exit(0);
+  }
 
   let successCount = 0;
   let failureCount = 0;
 
-  // Process each URL one at a time
-  for (let i = 0; i < urls.length; i++) {
-    const url = urls[i];
-    console.log(`\n🔄 Processing URL ${i + 1}/${urls.length}...\n`);
+  // Process each NEW URL one at a time
+  for (let i = 0; i < newUrls.length; i++) {
+    const url = newUrls[i];
+    console.log(`\n🔄 Processing URL ${i + 1}/${newUrls.length}...\n`);
 
     const result = await extractRecipe(url);
 
@@ -1037,7 +1076,7 @@ async function main() {
     }
 
     // Add delay between recipes to avoid rate limiting
-    if (i < urls.length - 1) {
+    if (i < newUrls.length - 1) {
       console.log(`\n⏳ Waiting 5 seconds before processing next recipe...`);
       await sleep(5000);
     }
@@ -1047,8 +1086,8 @@ async function main() {
   console.log('\n' + '='.repeat(70));
   console.log('📊 BATCH PROCESSING COMPLETE');
   console.log('='.repeat(70));
-  console.log(`✅ Successful: ${successCount}/${urls.length}`);
-  console.log(`❌ Failed: ${failureCount}/${urls.length}`);
+  console.log(`✅ Successful: ${successCount}/${newUrls.length}`);
+  console.log(`❌ Failed: ${failureCount}/${newUrls.length}`);
   console.log(`\n📂 Check output at: scripts/wiki/output/`);
   console.log(`📝 Check processed URLs at: scripts/wiki/processed-wikibooks-urls.txt`);
   console.log(`📋 Check error logs at: scripts/wiki/output/logs/`);
