@@ -112,18 +112,6 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
         priority: '0.5'
       },
       {
-        loc: `${baseUrl}/kontaktai`,
-        lastmod: currentDate,
-        changefreq: 'yearly',
-        priority: '0.5'
-      },
-      {
-        loc: `${baseUrl}/taisykles`,
-        lastmod: currentDate,
-        changefreq: 'yearly',
-        priority: '0.5'
-      },
-      {
         loc: `${baseUrl}/privatumo-politika`,
         lastmod: currentDate,
         changefreq: 'yearly',

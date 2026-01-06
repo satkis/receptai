@@ -155,3 +155,37 @@
 [2026-01-04T16:25:52.743Z] https://en.wikibooks.org/wiki/Cookbook:Fruit_Ice_Pops - Cookbook:Fruit Ice Pops
 [2026-01-04T16:27:00.785Z] https://en.wikibooks.org/wiki/Cookbook:Fruit_Salad_with_Orange_Soda_(Ensalada_de_Fruta) - Cookbook:Fruit Salad with Orange Soda (Ensalada de Fruta)
 [2026-01-04T16:28:08.654Z] https://en.wikibooks.org/wiki/Cookbook:Fry_Bread_II - Cookbook:Fry Bread II
+[2026-01-06T13:35:55.499Z] https://en.wikibooks.org/wiki/Cookbook:Gajjar_Halwa_(Carrot_Pudding) - Cookbook:Gajjar Halwa (Carrot Pudding)
+[2026-01-06T13:36:02.587Z] https://en.wikibooks.org/wiki/Cookbook:Galaktoboureko_(Greek_Semolina_Custard_Pastry) - Cookbook:Galaktoboureko (Greek Semolina Custard Pastry)
+[2026-01-06T13:36:09.803Z] https://en.wikibooks.org/wiki/Cookbook:Galbi - Cookbook:Galbi
+[2026-01-06T13:36:17.177Z] https://en.wikibooks.org/wiki/Cookbook:Gallo_Pinto_(Costa_Rican_Rice_and_Beans) - Cookbook:Gallo Pinto (Costa Rican Rice and Beans)
+[2026-01-06T13:36:23.877Z] https://en.wikibooks.org/wiki/Cookbook:Gambas_al_Ajillo_(Garlic_Shrimp) - Cookbook:Gambas al Ajillo (Garlic Shrimp)
+[2026-01-06T13:36:30.679Z] https://en.wikibooks.org/wiki/Cookbook:Gambian_Baobab_Juice_(Bouye) - Cookbook:Gambian Baobab Juice (Bouye)
+[2026-01-06T13:36:37.855Z] https://en.wikibooks.org/wiki/Cookbook:Gambian_Caldo_(Seafood_soup) - Cookbook:Gambian Caldo (Seafood soup)
+[2026-01-06T13:36:45.055Z] https://en.wikibooks.org/wiki/Cookbook:Gambian_Yassa_Poulet - Cookbook:Gambian Yassa Poulet
+[2026-01-06T13:36:51.964Z] https://en.wikibooks.org/wiki/Cookbook:Garlic_Croutons_I - Cookbook:Garlic Croutons I
+[2026-01-06T13:36:58.789Z] https://en.wikibooks.org/wiki/Cookbook:Germknödel_(Plum_and_Poppy_Seed_Dumpling) - Cookbook:Germknödel (Plum and Poppy Seed Dumpling)
+[2026-01-06T13:37:05.890Z] https://en.wikibooks.org/wiki/Cookbook:Ghavoot_(Iranian_Nut_and_Seed_Powder) - Cookbook:Ghavoot (Iranian Nut and Seed Powder)
+[2026-01-06T13:38:14.690Z] https://en.wikibooks.org/wiki/Cookbook:Ghevar_(Rajasthani_Honeycomb_Fritter) - Cookbook:Ghevar (Rajasthani Honeycomb Fritter)
+[2026-01-06T13:39:22.795Z] https://en.wikibooks.org/wiki/Cookbook:Ghormeh_Sabzi_(Iranian_Herb_Stew) - Cookbook:Ghormeh Sabzi (Iranian Herb Stew)
+[2026-01-06T13:40:31.152Z] https://en.wikibooks.org/wiki/Cookbook:Ghraiba_bil_Loz_(Libyan_Almond_Ghraiba) - Cookbook:Ghraiba bil Loz (Libyan Almond Ghraiba)
+[2026-01-06T13:41:39.554Z] https://en.wikibooks.org/wiki/Cookbook:Gimbap - Cookbook:Gimbap
+[2026-01-06T13:42:47.135Z] https://en.wikibooks.org/wiki/Cookbook:Ginger_Snaps - Cookbook:Ginger Snaps
+[2026-01-06T13:43:55.906Z] https://en.wikibooks.org/wiki/Cookbook:Ginger_Tea - Cookbook:Ginger Tea
+[2026-01-06T13:45:04.028Z] https://en.wikibooks.org/wiki/Cookbook:Gingerbread - Cookbook:Gingerbread
+[2026-01-06T13:46:12.219Z] https://en.wikibooks.org/wiki/Cookbook:Glorified_Mac_and_Cheese - Cookbook:Glorified Mac and Cheese
+[2026-01-06T13:46:18.943Z] https://en.wikibooks.org/wiki/Cookbook:Gravlax - Cookbook:Gravlax
+[2026-01-06T13:46:25.501Z] https://en.wikibooks.org/wiki/Cookbook:Greek_Salad - Cookbook:Greek Salad
+[2026-01-06T13:47:33.821Z] https://en.wikibooks.org/wiki/Cookbook:Green_Bean_Casserole_with_Pimento - Cookbook:Green Bean Casserole with Pimento
+[2026-01-06T13:48:42.218Z] https://en.wikibooks.org/wiki/Cookbook:Green_Mango_and_Cumin_Drink_(Aam_Panna) - Cookbook:Green Mango and Cumin Drink (Aam Panna)
+[2026-01-06T13:49:51.721Z] https://en.wikibooks.org/wiki/Cookbook:Green_Tea_and_Berry_Pavlovas - Cookbook:Green Tea and Berry Pavlovas
+[2026-01-06T13:50:59.783Z] https://en.wikibooks.org/wiki/Cookbook:Grilled_Aubergine - Cookbook:Grilled Aubergine
+[2026-01-06T13:52:08.058Z] https://en.wikibooks.org/wiki/Cookbook:Grilled_Cheese_Sandwich - Cookbook:Grilled Cheese Sandwich
+[2026-01-06T13:53:16.197Z] https://en.wikibooks.org/wiki/Cookbook:Grilled_Cheese_Sandwich_II - Cookbook:Grilled Cheese Sandwich II
+[2026-01-06T13:54:24.099Z] https://en.wikibooks.org/wiki/Cookbook:Guacamole_I - Cookbook:Guacamole I
+[2026-01-06T13:55:32.449Z] https://en.wikibooks.org/wiki/Cookbook:Gulab_Jamun_(Fried_Milk_Balls_in_Syrup) - Cookbook:Gulab Jamun (Fried Milk Balls in Syrup)
+[2026-01-06T13:56:41.237Z] https://en.wikibooks.org/wiki/Cookbook:Gullisuwa_(Nigerian_Milk_Balls) - Cookbook:Gullisuwa (Nigerian Milk Balls)
+[2026-01-06T13:57:49.651Z] https://en.wikibooks.org/wiki/Cookbook:Gunkanmaki_(Topped_Oval_Sushi) - Cookbook:Gunkanmaki (Topped Oval Sushi)
+[2026-01-06T13:58:59.002Z] https://en.wikibooks.org/wiki/Cookbook:Gurasa_(Hausa_Flatbread_with_Vegetables) - Cookbook:Gurasa (Hausa Flatbread with Vegetables)
+[2026-01-06T13:59:05.757Z] https://en.wikibooks.org/wiki/Cookbook:Gyudon_(Japanese_Beef_and_Rice_Bowl) - Cookbook:Gyudon (Japanese Beef and Rice Bowl)
+[2026-01-06T14:00:14.351Z] https://en.wikibooks.org/wiki/Cookbook:Gözleme_(Turkish_Flatbread) - Cookbook:Gözleme (Turkish Flatbread)
