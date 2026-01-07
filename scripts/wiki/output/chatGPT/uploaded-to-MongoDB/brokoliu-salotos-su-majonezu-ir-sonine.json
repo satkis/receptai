@@ -1,0 +1,207 @@
+{
+  "slug": "brokoliu-salotos-su-majonezu-ir-sonine",
+  "canonicalUrl": "https://ragaujam.lt/receptas/brokoliu-salotos-su-majonezu-ir-sonine",
+  "title": {
+    "lt": "Brokolių salotos su majonezu ir šonine"
+  },
+  "description": {
+    "lt": "Šios brokolių salotos yra gardus ir sotus užkandis, puikiai tinkantis šeimos pietums ar vakarėliams. Jas sudaro švieži brokoliai, traški šoninė, saldus razinų skonis ir kreminis majonezas. Šis receptas atneš šviežumo ir skonio prie jūsų stalo."
+  },
+  "seo": {
+    "metaTitle": "Brokolių salotos su majonezu ir šonine | Gardus receptas",
+    "metaDescription": "Išbandykite šį nuostabų brokolių salotų receptą su majonezu, šonine ir razinomis. Puikiai tinka šeimos pietums ar vakarėliams.",
+    "keywords": [
+      "brokolių salotos",
+      "majonezas",
+      "šoninė",
+      "razinos",
+      "salotos"
+    ],
+    "recipeCategory": "salotos",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "5g",
+      "fatContent": "18g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-30-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/salotos",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Brokoliai"
+      },
+      "quantity": "700-800g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šoninė"
+      },
+      "quantity": "7-8 griežinėliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonasis svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Obuolys"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Razinų"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Majonezas"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "110g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pekano riešutai arba saulėgrąžų sėklos"
+      },
+      "quantity": "pusė puodelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Obuolių actas arba citrinų sultys"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite majonezą su cukrumi ir actu dideliame dubenyje. Gerai išmaišykite, kad visi ingredientai susijungtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Salotų sumaišymas"
+      },
+      "text": {
+        "lt": "Į padažą įdėkite likusius ingredientus: brokolius, šoninę, svogūną, obuolį ir razinas. Viską gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Atvėsinimas"
+      },
+      "text": {
+        "lt": "Uždenkite dubenį ir padėkite į šaldytuvą. Leiskite salotoms pastovėti per naktį, kad skonio deriniai susimaišytų."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Laikykite šaldytuve, kad salotos išliktų šviežios."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekite su papildomais pekano riešutais arba saulėgrąžų sėklomis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/brokoliu-salotos-su-majonezu-ir-sonine.jpg",
+    "alt": "Brokolių salotos su majonezu ir šonine",
+    "width": 3230,
+    "height": 2304
+  },
+  "tags": [
+    "brokolių salotos",
+    "majonezo salotos",
+    "šoninė",
+    "šviežios salotos",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Frankatca",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Frankatca"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Broccoli_Salad",
+    "pageTitle": "Cookbook:Broccoli_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:16.222Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABroccoli_Salad&action=history",
+    "originalCreator": {
+      "name": "Frankatca",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Frankatca"
+    }
+  },
+  "originalImage": {
+    "fileName": "MayoBroccoliSalad.jpg",
+    "author": {
+      "name": "Jonathunder",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Jonathunder"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/MayoBroccoliSalad.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T13:11:16+03:00",
+  "createdAt": "2025-11-27T13:11:16+03:00",
+  "updatedAt": "2025-11-27T13:11:16+03:00"
+}

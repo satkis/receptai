@@ -1,0 +1,246 @@
+{
+  "slug": "bulgariska-skrandziu-sriuba-shkembe-chorba",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bulgariska-skrandziu-sriuba-shkembe-chorba",
+  "title": {
+    "lt": "Bulgariška skrandžių sriuba Shkembe Chorba"
+  },
+  "description": {
+    "lt": "Shkembe chorba - tai bulgariška skrandžių sriuba, kuri yra populiarus mėsos patiekalas Bulgarijos virtuvėje. Ši sriuba yra gaminama su skrandžiais, daržovėmis ir prieskoniais, todėl yra labai aromatinga ir soti."
+  },
+  "seo": {
+    "metaTitle": "Bulgariška skrandžių sriuba Shkembe Chorba | Receptas",
+    "metaDescription": "Atraskite autentišką bulgarišką skrandžių sriubą Shkembe Chorba, kuri yra gaminama su skrandžiais, daržovėmis ir prieskoniais. Puikus pasirinkimas mėgstantiems aromatingus patiekalus.",
+    "keywords": [
+      "bulgariška sriuba",
+      "shkembe chorba",
+      "skrandžių sriuba",
+      "bulgariška virtuvė",
+      "aromatinga sriuba"
+    ],
+    "recipeCategory": "sriubos",
+    "recipeCuisine": "Bulgarų",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "20g",
+      "fatContent": "18g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 65,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/sriubos",
+  "secondaryCategories": [
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautienos sultinys"
+      },
+      "quantity": "875 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovintas mairūnas"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų pasta"
+      },
+      "quantity": "180 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnako skiltelė"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Skrandžiai"
+      },
+      "quantity": "675 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kashkaval sūris"
+      },
+      "quantity": "160 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame puode sumaišykite svogūną, papriką ir sviestą. Kepkite, kol daržovės suminkštės."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Padažo gaminimas"
+      },
+      "text": {
+        "lt": "Pabarstykite miltus ant svogūnų mišinio, tada įmaišykite pomidorų pastą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Skrandžių paruošimas"
+      },
+      "text": {
+        "lt": "Skrandžius supjaustykite plonais gabalėliais ir pridėkite prie svogūnų mišinio."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sriubos virimas"
+      },
+      "text": {
+        "lt": "Supilkite sultinį, pridėkite druską, mairūną ir lauro lapą. Uždenkite ir troškinkite apie 30 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite ir išmeskite lauro lapą. Supilkite sriubą į dubenėlius. Maišykite petražoles, česnaką ir sūrį. Pabarstykite ant karštos sriubos ir iškart patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, sriubą galite pagardinti šiek tiek aštraus pipiro."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bulgariska-skrandziu-sriuba-shkembe-chorba.jpg",
+    "alt": "Bulgariška skrandžių sriuba Shkembe Chorba su prieskoniais ir daržovėmis",
+    "width": 1280,
+    "height": 960
+  },
+  "tags": [
+    "bulgariška sriuba",
+    "shkembe chorba",
+    "skrandžių sriuba",
+    "bulgariška virtuvė",
+    "aromatinga sriuba"
+  ],
+  "author": {
+    "name": "Zornitsa",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bulgarian_Tripe_Soup_(Shkembe_Chorba)",
+    "pageTitle": "Cookbook:Bulgarian_Tripe_Soup_(Shkembe_Chorba)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:26.157Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABulgarian_Tripe_Soup_(Shkembe_Chorba)&action=history",
+    "originalCreator": {
+      "name": "Zornitsa",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+    }
+  },
+  "originalImage": {
+    "fileName": "Shkembe-chorba.jpg",
+    "author": {
+      "name": "Kiril Kapustin",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Manuguf"
+    },
+    "license": {
+      "code": "cc-by-2.5",
+      "shortName": "CC BY 2.5",
+      "fullName": "Creative Commons Attribution 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Shkembe-chorba.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:45:00+03:00",
+  "createdAt": "2025-11-27T16:45:00+03:00",
+  "updatedAt": "2025-11-27T16:45:00+03:00"
+}

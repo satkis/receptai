@@ -1,0 +1,83 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Green_Bean_Casserole_with_Pimento",
+    "pageTitle": "Cookbook:Green_Bean_Casserole_with_Pimento",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Kittycataclysm",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kittycataclysm"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreen_Bean_Casserole_with_Pimento&action=history",
+    "extractedAt": "2026-01-06T13:47:33.816Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Green Bean Casserole with Pimento",
+    "slug": "green-bean-casserole-with-pimento",
+    "description": "Category:Recipes for casserole Category:Recipes using green bean Category:Recipes using parmesan Category:Recipes using bread crumb Category:Recipes using onion",
+    "ingredients": [
+      "1 can (about 14.5 oz / 410 g) French-style green beans, drained",
+      "1 can or jar (about 15 oz / 430 g) small whole onions, drained",
+      "2 tablespoons diced drained pimento",
+      "1 can (10.75 oz / 305 g) condensed cream of mushroom soup",
+      "¼ cup fine bread crumbs",
+      "¼ cup grated Parmesan cheese"
+    ],
+    "instructions": [
+      "In a lightly buttered 1½-quart casserole dish, combine green beans, onions, diced pimento, and mushroom soup.",
+      "Combine topping ingredients; sprinkle over the top of the casserole.",
+      "Bake, uncovered, at 350 °F (177 °C) for 25–30 minutes."
+    ],
+    "notes": [],
+    "servings": 4,
+    "totalTimeMinutes": 45,
+    "difficulty": 2,
+    "category": "Casserole recipes",
+    "categories": [
+      "Recipes for casserole",
+      "Recipes using green bean",
+      "Recipes using parmesan",
+      "Recipes using bread crumb",
+      "Recipes using onion"
+    ]
+  },
+  "image": {
+    "filename": "Green_bean_casserole.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Green_bean_casserole.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Green_bean_casserole.jpg",
+    "localPath": "scripts/wiki/output/Green_bean_casserole.jpg",
+    "dimensions": {
+      "width": 1306,
+      "height": 1306
+    },
+    "fileSize": 919195,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Rick Kimpel from Spring, TX, USA",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Holly%20Cheng"
+    },
+    "metadata": {
+      "description": "Green bean casserole",
+      "categories": [
+        "Taken with Panasonic Lumix DMC-FZ5",
+        "Cuisine of the United States",
+        "Fried onion",
+        "Flickr images reviewed by trusted users",
+        "Green bean casserole"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Green_bean_casserole.jpg"
+  }
+}

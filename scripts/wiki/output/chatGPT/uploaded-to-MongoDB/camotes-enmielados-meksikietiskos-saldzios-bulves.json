@@ -1,0 +1,165 @@
+{
+  "slug": "camotes-enmielados-meksikietiskos-saldzios-bulves",
+  "canonicalUrl": "https://ragaujam.lt/receptas/camotes-enmielados-meksikietiskos-saldzios-bulves",
+  "title": {
+    "lt": "Camotes Enmielados - Meksikietiškos saldžios bulvės"
+  },
+  "description": {
+    "lt": "Camotes Enmielados yra tradicinis meksikietiškas desertas, gaminamas iš saldžių bulvių ir piloncilo cukraus. Šis patiekalas puikiai tinka šaltam vakarui, nes jo sirupinis padažas ir cinamono aromatas suteikia šilumos ir jaukumo."
+  },
+  "seo": {
+    "metaTitle": "Camotes Enmielados - Meksikietiškos saldžios bulvės | Tradicinis receptas",
+    "metaDescription": "Camotes Enmielados yra tradicinis meksikietiškas desertas su saldžiosiomis bulvėmis ir piloncilo cukrumi. Išbandykite šį receptą ir mėgaukitės jo sirupiniu padažu ir cinamono aromatu.",
+    "keywords": [
+      "Camotes Enmielados",
+      "meksikietiškos saldžios bulvės",
+      "desertas su piloncilo cukrumi",
+      "meksikietiškas desertas",
+      "cinamono receptai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Meksikiečių",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "2g",
+      "fatContent": "0g",
+      "fiberContent": "6g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 70,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Saldžioji bulvė"
+      },
+      "quantity": "1 didelė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Piloncilo cukrus"
+      },
+      "quantity": "1 didelis kūgis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "4 lazdelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Į didelę kepimo formą sudėkite saldžiąsias bulves, visa arba stambiai supjaustytas."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sudedamųjų dalių pridėjimas"
+      },
+      "text": {
+        "lt": "Ant viršaus uždėkite piloncilo kūgį, įpilkite vandens ir pridėkite cinamono lazdeles."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Uždenkite formą ir kepkite apie 60 minučių. Retkarčiais apipilkite bulves saldžiu skysčiu, kuris susidaro kepant."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite piloncilo, galite naudoti rudojo cukraus mišinį su melisa."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/camotes-enmielados-meksikietiskos-saldzios-bulves.jpg",
+    "alt": "Meksikietiškos saldžios bulvės su piloncilo cukrumi ir cinamonu",
+    "width": 3872,
+    "height": 2592
+  },
+  "tags": [
+    "camotes enmielados",
+    "meksikietiškos saldžios bulvės",
+    "cinamono receptai",
+    "desertas su piloncilo",
+    "meksikietiškas maistas"
+  ],
+  "author": {
+    "name": "Mercurywoodrose",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mercurywoodrose"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Camotes_Enmielados_(Mexican_Sweet_Yams)",
+    "pageTitle": "Cookbook:Camotes_Enmielados_(Mexican_Sweet_Yams)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:24.908Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACamotes_Enmielados_(Mexican_Sweet_Yams)&action=history",
+    "originalCreator": {
+      "name": "Mercurywoodrose",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mercurywoodrose"
+    }
+  },
+  "originalImage": {
+    "fileName": "CandiedCamotesMX.JPG",
+    "author": {
+      "name": "Thelmadatter",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Thelmadatter"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/CandiedCamotesMX.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:59:24+03:00",
+  "createdAt": "2025-12-21T20:59:24+03:00",
+  "updatedAt": "2025-12-21T20:59:24+03:00"
+}

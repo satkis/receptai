@@ -1,0 +1,227 @@
+{
+  "slug": "sokoladiniai-sausainiai-su-gabaliukais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladiniai-sausainiai-su-gabaliukais",
+  "title": {
+    "lt": "Šokoladiniai sausainiai su gabaliukais"
+  },
+  "description": {
+    "lt": "Šie šokoladiniai sausainiai su gabaliukais yra tobulinti daugiau nei 20 metų. Jie puikiai tinka šeimos šventėms ar tiesiog prie kavos puodelio. Mėgaukitės jų gardžiu skoniu!"
+  },
+  "seo": {
+    "metaTitle": "Šokoladiniai sausainiai su gabaliukais | Tobulas receptas",
+    "metaDescription": "Atraskite tobulą šokoladinių sausainių su gabaliukais receptą. Šie sausainiai puikiai tinka šeimos šventėms ar prie kavos puodelio.",
+    "keywords": [
+      "šokoladiniai sausainiai",
+      "sausainiai su šokolado gabaliukais",
+      "buitiniai sausainiai",
+      "desertai su šokoladu",
+      "šokolado receptai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 220,
+      "proteinContent": "3g",
+      "fatContent": "12g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 25,
+  "timeCategory": "iki-30-min",
+  "servings": 24,
+  "servingsUnit": "sausainiai",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudas cukrus"
+      },
+      "quantity": "50g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilė"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo soda"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokolado gabaliukai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Sviestą ir cukrų sumaišykite dubenyje, kol masė taps vienalytė."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kiaušinių ir vanilės įmaišymas"
+      },
+      "text": {
+        "lt": "Įdėkite kiaušinį ir vanilę bei gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sausų ingredientų įmaišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, druską ir kepimo sodą. Šią sausą masę įmaišykite į šlapią masę."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Šokolado gabaliukų įmaišymas"
+      },
+      "text": {
+        "lt": "Įmaišykite šokolado gabaliukus."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Šaukštu dėkite tešlos ant kepimo popieriumi padengtos skardos. Kepkite 180°C temperatūroje, kol sausainiai taps auksinės spalvos."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Atvėsinimas"
+      },
+      "text": {
+        "lt": "Leiskite sausainiams šiek tiek atvėsti, tada perkelkite juos nuo skardos. Visiškai atvėsinkite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, kad sausainiai būtų minkštesni, trumpinkite kepimo laiką."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladiniai-sausainiai-su-gabaliukais.jpg",
+    "alt": "Šokoladiniai sausainiai su šokolado gabaliukais",
+    "width": 640,
+    "height": 478
+  },
+  "tags": [
+    "šokoladiniai sausainiai",
+    "sausainių receptas",
+    "desertai",
+    "lengvas receptas",
+    "šventiniai sausainiai"
+  ],
+  "author": {
+    "name": "Paulpatience",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Paulpatience"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Cookies_III",
+    "pageTitle": "Cookbook:Chocolate_Chip_Cookies_III",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T10:09:50+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Chip_Cookies_III&action=history",
+    "originalCreator": {
+      "name": "Paulpatience",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulpatience"
+    }
+  },
+  "originalImage": {
+    "fileName": "Valeries_chocolate_chip_cookies.jpg",
+    "author": {
+      "name": "Paulpatience",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Paulpatience"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Valeries_chocolate_chip_cookies.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:09:50+03:00",
+  "createdAt": "2025-12-23T10:09:50+03:00",
+  "updatedAt": "2025-12-23T10:09:50+03:00"
+}

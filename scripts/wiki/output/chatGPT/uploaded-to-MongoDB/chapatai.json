@@ -1,0 +1,170 @@
+{
+  "slug": "chapatai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/chapatai",
+  "title": {
+    "lt": "Chapatai - Indijos Plokščia Duona"
+  },
+  "description": {
+    "lt": "Chapatai yra tradicinė Indijos plokščia duona, puikiai tinkanti su lęšių sriuba ar daržovių kariu. Šis receptas yra veganiškas ir paprastas, pagaminamas iš viso grūdo miltų, vandens ir druskos. Galite pagardinti juos ghee sviestu, jei pageidaujate."
+  },
+  "seo": {
+    "metaTitle": "Chapatai | Tradicinė Indijos plokščia duona",
+    "metaDescription": "Sužinokite, kaip paruošti tradicinę Indijos plokščią duoną chapatai. Lengvas veganiškas receptas su viso grūdo miltais, skani su daržovių kariu ar lęšių sriuba.",
+    "keywords": [
+      "chapatai",
+      "Indijos plokščia duona",
+      "veganų receptas",
+      "plokščios duonos receptas",
+      "tradicinė Indijos virtuvė"
+    ],
+    "recipeCategory": "miltiniai",
+    "recipeCuisine": "Indijos",
+    "nutrition": {
+      "calories": 120,
+      "proteinContent": "3g",
+      "fatContent": "1g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/miltiniai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Viso grūdo miltai"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šiltas vanduo"
+      },
+      "quantity": "pusė puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ghee"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus ir druską dideliame dubenyje. Po truputį pilkite šiltą vandenį, minkyti tešlą kol ji taps lygi ir minkšta. Po to uždenkite ir leiskite pailsėti bent 5 minutes."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Padalinkite tešlą į mažus kamuoliukus ir iškočiokite juos į plonus diskelius, šiek tiek storesnius nei džinsinio audinio. Formuodami pabarstykite miltais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę ant vidutinės ugnies. Kai ji labai karšta, uždėkite chapati ir spaudykite su mentele arba sausu skudurėliu, kad jis išsipūstų. Apverskite ir kartokite, kol abi pusės lengvai apskrus. Jei norite, aptepkite ghee."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Chapatai puikiai dera su lęšių sriuba ar daržovių kariu."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei norite, kepimo metu galite naudoti ghee, kad chapatai būtų dar skanesni."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/chapatai.jpg",
+    "alt": "Chapatai kepamas keptuvėje",
+    "width": 703,
+    "height": 469
+  },
+  "tags": [
+    "chapatai",
+    "Indijos plokščia duona",
+    "veganų receptas",
+    "miltiniai gaminiai",
+    "vegetariški patiekalai"
+  ],
+  "author": {
+    "name": "Paulcox",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chapati",
+    "pageTitle": "Cookbook:Chapati",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:48.546Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChapati&action=history",
+    "originalCreator": {
+      "name": "Paulcox",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+    }
+  },
+  "originalImage": {
+    "fileName": "Baking_Chapatis.jpg",
+    "author": {
+      "name": "Claude Renault",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Sandstein"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Baking_Chapatis.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T17:59:48+03:00",
+  "createdAt": "2025-12-21T17:59:48+03:00",
+  "updatedAt": "2025-12-21T17:59:48+03:00"
+}

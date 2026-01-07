@@ -1,0 +1,85 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Bread",
+    "pageTitle": "Cookbook:Fried_Bread",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Laurajit",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Laurajit"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Bread&action=history",
+    "extractedAt": "2026-01-04T16:14:19.082Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fried Bread",
+    "slug": "fried-bread",
+    "description": "Fried bread is a very simple bread recipe that is served mainly for breakfast. These are great served with the same toppings as biscuits, including butter, jam, gravy, or any of your other favorites.",
+    "ingredients": [
+      "Self-rising flour",
+      "Milk or buttermilk plus ⅛ tsp baking soda",
+      "Bacon fat"
+    ],
+    "instructions": [
+      "Mix equal amounts of self-rising flour and milk. The mixture should be the consistency of thick pudding—add more milk or flour to desired consistency.",
+      "Heat enough bacon fat to prevent sticking in an iron skillet until it is very hot.",
+      "Fry spoonfuls of dough in the skillet until brown and crispy on the bottom. Turn and continue frying until done."
+    ],
+    "notes": [
+      "Other oils and types of skillets can be used for frying, but bacon fat and an iron skillet makes the best. A mixture of ½ bacon fat and ½ olive oil is an acceptable substitute."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for bread",
+      "Pan fried recipes",
+      "Breakfast recipes",
+      "Recipes using baking soda",
+      "Recipes using buttermilk",
+      "Recipes using self-raising flour"
+    ]
+  },
+  "image": {
+    "filename": "Chinese_fried_bread.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Chinese_fried_bread.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chinese_fried_bread.jpg",
+    "localPath": "scripts/wiki/output/Chinese_fried_bread.jpg",
+    "dimensions": {
+      "width": 2560,
+      "height": 1920
+    },
+    "fileSize": 741496,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Hohum",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hohum"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Breads of China",
+        "Youtiao",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Media missing infobox template",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs by Stu Spivack"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chinese_fried_bread.jpg"
+  }
+}

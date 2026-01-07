@@ -1,0 +1,98 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gajjar_Halwa_(Carrot_Pudding)",
+    "pageTitle": "Cookbook:Gajjar_Halwa_(Carrot_Pudding)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Nicholasbrady",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Nicholasbrady"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGajjar_Halwa_(Carrot_Pudding)&action=history",
+    "extractedAt": "2026-01-06T13:35:55.493Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gajjar Halwa (Carrot Pudding)",
+    "slug": "gajjar-halwa-carrot-pudding",
+    "description": "# Cut off the blemished ends of the carrots, wash them, and then peel them. # Grate the carrots, and transfer the grated carrots into a saucepan. # Add the cashews, raisins, salt, sugar, cardamom, cinnamon, butter, and milk. # Heat the saucepan and bring the contents to a boil, while mixing. # Cook until the milk has mostly evaporated. # Serve with a sprinkling of cinnamon powder on top.",
+    "ingredients": [
+      "2–3 large carrots",
+      "½ cup (120 g) cashew nuts, broken",
+      "½ cup (120 g) raisins, washed",
+      "1 pinch salt",
+      "2–3 teaspoons sugar",
+      "4 pods cardamom",
+      "1 pinch cinnamon powder",
+      "1 tablespoon butter",
+      "1 cup (240 ml) milk"
+    ],
+    "instructions": [
+      "Cut off the blemished ends of the carrots, wash them, and then peel them.",
+      "Grate the carrots, and transfer the grated carrots into a saucepan.",
+      "Add the cashews, raisins, salt, sugar, cardamom, cinnamon, butter, and milk.",
+      "Heat the saucepan and bring the contents to a boil, while mixing.",
+      "Cook until the milk has mostly evaporated.",
+      "Serve with a sprinkling of cinnamon powder on top."
+    ],
+    "notes": [
+      "When the milk is almost evaporated you can add 50–100g of khoya (dried milk solids) for a richer taste."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Indian recipes|{{PAGENAME}}",
+      "Recipes using cashew|{{PAGENAME}}",
+      "Recipes using raisin",
+      "Recipes using cardamom|{{PAGENAME}}",
+      "Recipes for dessert|{{PAGENAME}}",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes using carrot|{{PAGENAME}}",
+      "Recipes for pudding",
+      "Recipes using butter",
+      "Recipes using sugar",
+      "Recipes using ground cinnamon",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Gajjar_ka_halwa_(carrot_halwa).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Gajjar_ka_halwa_%28carrot_halwa%29.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gajjar_ka_halwa_(carrot_halwa).JPG",
+    "localPath": "scripts/wiki/output/Gajjar_ka_halwa_(carrot_halwa).JPG",
+    "dimensions": {
+      "width": 2448,
+      "height": 2448
+    },
+    "fileSize": 1221583,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Prerna Jaddwani",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Prernaj89"
+    },
+    "metadata": {
+      "description": "Indian dessert",
+      "categories": [
+        "Gajar ka halwa",
+        "Self-published work",
+        "Images from Wiki Loves Food 2015",
+        "Files with coordinates missing SDC location of creation",
+        "Uploaded via Campaign:wlf"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gajjar_ka_halwa_(carrot_halwa).JPG"
+  }
+}

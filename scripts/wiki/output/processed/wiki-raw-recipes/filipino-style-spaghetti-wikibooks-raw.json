@@ -1,0 +1,105 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Filipino-style_Spaghetti",
+    "pageTitle": "Cookbook:Filipino-style_Spaghetti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Me Lendroz",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Me%20Lendroz"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFilipino-style_Spaghetti&action=history",
+    "extractedAt": "2026-01-04T15:58:54.131Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Filipino-style Spaghetti",
+    "slug": "filipino-style-spaghetti",
+    "description": "Filipino-style spaghetti is a favorite among Filipino families for serving during children's birthday parties.",
+    "ingredients": [
+      "2 tbsp vegetable oil",
+      "300 g (10.5 oz) canned hot dogs, sliced",
+      "2 onions, finely chopped",
+      "1 tsp sea salt",
+      "4 garlic cloves, minced",
+      "500 g (1 lb) pork mince",
+      "2½ tbsp tomato paste",
+      "1 cup banana ketchup",
+      "700 g (1 lb 8 oz) tomato purée (you could also try sourcing the Filipino spaghetti sauce, although that will be sweeter)",
+      "½ cup chicken stock",
+      "2½ tbsp soy sauce",
+      "600 g (1 lb 5 oz) dried spaghetti",
+      "1 cup grated cheddar cheese, or to taste"
+    ],
+    "instructions": [
+      "Heat the vegetable oil in the pan over medium-high heat.",
+      "Add the hot dogs, then cook, turning often, for 3–4 minutes until browned.",
+      "Transfer hot dogs to a plate using a slotted spoon, leaving the oil behind.",
+      "Add the onion into the hot oil, along with the salt. Cook, stirring, for 5–6 minutes or until the onion is lovely and soft.",
+      "Add the garlic and cook for a minute until aromatic.",
+      "Add the pork mince, breaking it up with your spatula. Keep cooking until the pork has evenly cooked.",
+      "Add the tomato paste. Cook, stirring, for 1 minute to cook it down slightly.",
+      "Return the cooked hot dogs to the pan, along with the banana ketchup, tomato sauce, chicken stock, and soy sauce. Stir to combine well.",
+      "Bring to a simmer, then reduce the heat to low and cook, stirring often, for 10–15 minutes so the flavours develop. Take care as the mixture can easily burn.",
+      "Meanwhile, cook the spaghetti in a pot of boiling salted water according to packet directions until al dente. Drain and add back into the warm pot that you cooked the pasta in.",
+      "Spoon a few heaped spoonfuls of the cooked sauce over the pasta, then mix so that each spaghetti strand is coated.",
+      "Divide pasta among serving bowls and top with more of the sauce.",
+      "Top with grated cheddar and serve."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Filipino recipes",
+    "categories": [
+      "Recipes using hot dog",
+      "Recipes using onion",
+      "Recipes using garlic",
+      "Recipes using ground pork",
+      "Tomato paste recipes",
+      "Recipes using chicken broth and stock",
+      "Recipes using soy sauce",
+      "Recipes using pasta",
+      "Filipino recipes",
+      "Recipes using cheddar",
+      "Recipes using vegetable oil",
+      "Recipes using ketchup"
+    ]
+  },
+  "image": {
+    "filename": "Spaghetti_Filipino_Recipe.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Spaghetti_Filipino_Recipe.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_Filipino_Recipe.jpg",
+    "localPath": "scripts/wiki/output/Spaghetti_Filipino_Recipe.jpg",
+    "dimensions": {
+      "width": 5058,
+      "height": 3372
+    },
+    "fileSize": 17046649,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "pulaw",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Obsidian%20Soul"
+    },
+    "metadata": {
+      "description": "Spaghetti Filipino Recipe",
+      "categories": [
+        "Flickr images reviewed by FlickreviewR 2",
+        "Filipino spaghetti",
+        "Flickr images missing SDC published in"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Spaghetti_Filipino_Recipe.jpg"
+  }
+}

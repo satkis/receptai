@@ -1,0 +1,230 @@
+{
+  "slug": "vaisiu-salotos-su-apelsinu-limonadu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vaisiu-salotos-su-apelsinu-limonadu",
+  "title": {
+    "lt": "Vaisių salotos su apelsinų limonadu"
+  },
+  "description": {
+    "lt": "Šios vaisių salotos yra populiarus ir tradicinis desertas Urugvajuje per Kalėdas. Jos dažnai patiekiamos visą vasarą, nes yra labai gaivios ir leidžia ilgai išnaudoti nedaug vaisių. Šis receptas pasižymi įvairiais vaisiais, tokiais kaip persikai, ananasai, vyšnios ir kiti. Puikiai tinka vasaros vakarėliams ar šventiniam stalui."
+  },
+  "seo": {
+    "metaTitle": "Vaisių salotos su apelsinų limonadu | Gaivus vasaros desertas",
+    "metaDescription": "Gaivios vaisių salotos su apelsinų limonadu. Tradicinis Urugvajaus desertas, puikiai tinkantis šventėms ir vasaros vakarėliams.",
+    "keywords": [
+      "vaisių salotos",
+      "apelsinų limonadas",
+      "Urugvajaus desertas",
+      "vasaros desertas",
+      "šventinis desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Urugvajaus",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "2g",
+      "fatContent": "1g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Persikai"
+      },
+      "quantity": "400 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ananasai"
+      },
+      "quantity": "150 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vyšnios"
+      },
+      "quantity": "200 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vynuogės"
+      },
+      "quantity": "200 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonasis obuolys"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Didelis apelsinas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Nektarinas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Slyvos"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Didelis bananas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pasifloros"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Braškių indelis"
+      },
+      "quantity": "1 mažas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Fanta apelsinų limonadas"
+      },
+      "quantity": "1.25 l",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Konservuotų vaisių paruošimas"
+      },
+      "text": {
+        "lt": "Konservuotus vaisius sudėkite į didelį dubenį su visu sultiniu. Persikus supjaustykite mažais gabalėliais."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Šviežių vaisių paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite likusius vaisius. Vyšnias ir vynuoges be kotelių sudėkite į dubenį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vaisių pjaustymas"
+      },
+      "text": {
+        "lt": "Supjaustykite likusius vaisius mažais gabalėliais ir sudėkite į dubenį. Atvėsinkite šaldytuve."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Prieš patiekdami lengvai išmaišykite ir užpilkite atšaldytu apelsinų limonadu. Patiekite su kiaurasamčiu kaip gaivų vasaros desertą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Gali būti naudojami bet kokie vaisiai pagal pageidavimą."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vaisiu-salotos-su-apelsinu-limonadu.jpg",
+    "alt": "Vaisių salotos su apelsinų limonadu dubenyje",
+    "width": 320,
+    "height": 240
+  },
+  "tags": [
+    "vaisių salotos",
+    "apelsinų limonadas",
+    "Urugvajaus desertas",
+    "gaivus vasaros desertas",
+    "šventinis desertas"
+  ],
+  "author": {
+    "name": "Natiscakes",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Natiscakes"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fruit_Salad_with_Orange_Soda_(Ensalada_de_Fruta)",
+    "pageTitle": "Cookbook:Fruit_Salad_with_Orange_Soda_(Ensalada_de_Fruta)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T19:27:00+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFruit_Salad_with_Orange_Soda_(Ensalada_de_Fruta)&action=history",
+    "originalCreator": {
+      "name": "Natiscakes",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Natiscakes"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ensaladadefruta.jpg",
+    "author": {
+      "name": "Natiscakes",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Natiscakes"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Ensaladadefruta.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:27:00+03:00",
+  "createdAt": "2026-01-04T19:27:00+03:00",
+  "updatedAt": "2026-01-04T19:27:00+03:00"
+}

@@ -1,0 +1,91 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gullisuwa_(Nigerian_Milk_Balls)",
+    "pageTitle": "Cookbook:Gullisuwa_(Nigerian_Milk_Balls)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGullisuwa_(Nigerian_Milk_Balls)&action=history",
+    "extractedAt": "2026-01-06T13:56:41.229Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gullisuwa (Nigerian Milk Balls)",
+    "slug": "gullisuwa-nigerian-milk-balls",
+    "description": "Gullisuwa is a type of fritter commonly eaten in the northern part of Nigeria during festive periods and weddings, and as street food.",
+    "ingredients": [
+      "½ cup powdered milk",
+      "¼ cup white granulated sugar",
+      "2 tablespoons cornstarch",
+      "Vanilla powder",
+      "Water",
+      "Vegetable oil"
+    ],
+    "instructions": [
+      "Combine powdered milk, sugar, cornstarch, and vanilla powder in a bowl. Mix thoroughly.",
+      "Mix in enough water to form a dough.",
+      "Grease your hands with vegetable oil, and roll the dough into small balls.",
+      "Deep fry the dough in a pan of hot vegetable oil until browned all over.",
+      "Use spoon to remove the fritters from the oil and drain in a sieve.",
+      "Serve fresh."
+    ],
+    "notes": [
+      "Different variety of gullisuwa can be made by adding chilli pepper, cashew nuts, and coconut."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Breakfast recipes|Milk Balls",
+      "Hausa recipes",
+      "Recipes for fritters",
+      "Fried recipes",
+      "Recipes using white sugar",
+      "Recipes using cornstarch",
+      "Recipes using vegetable oil",
+      "Recipes using powdered milk"
+    ]
+  },
+  "image": {
+    "filename": "Gulgule.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gulgule.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gulgule.jpg",
+    "localPath": "scripts/wiki/output/Gulgule.jpg",
+    "dimensions": {
+      "width": 3120,
+      "height": 3120
+    },
+    "fileSize": 4399685,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Suyash Dwivedi",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Suyash.dwivedi"
+    },
+    "metadata": {
+      "description": "Gulgule - Food of India",
+      "categories": [
+        "Taken with ASUS ZenFone 3 Max",
+        "Gulgula",
+        "Self-published work",
+        "Files with coordinates missing SDC location of creation",
+        "Bowls with food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gulgule.jpg"
+  }
+}

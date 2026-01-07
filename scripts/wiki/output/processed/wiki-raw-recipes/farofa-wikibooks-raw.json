@@ -1,0 +1,97 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Farofa",
+    "pageTitle": "Cookbook:Farofa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Croomfolk",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Croomfolk"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFarofa&action=history",
+    "extractedAt": "2026-01-04T15:58:20.640Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Farofa",
+    "slug": "farofa",
+    "description": "Farofa is a typical Brazilian dish made of toasted manioc flour. It's usually served as a side dish along with feijoada or grilled meat.",
+    "ingredients": [
+      "1-2 tbsp butter or vegetable oil, preferably olive oil.",
+      "2 large garlic cloves, minced",
+      "A few pieces of chopped processed fatty meat (typically bacon)",
+      "2 onions, chopped",
+      "500 g manioc (cassava) flour or premade farofa mix",
+      "1–2 tbsp tempero baiano (see notes)",
+      "Salt to taste",
+      "Cilantro to taste, chopped (optional)"
+    ],
+    "instructions": [
+      "Heat a skillet over medium heat. Add the meat and fry for a minute or so. Depending on how much fat is released from it, add up to 1 tbsp of the oil or butter, enough to fry the garlic and onions.",
+      "Add the garlic, and stir for a minute or so, making sure not to let it burn.",
+      "Add the onion and seasonings, and cook for about another minute.",
+      "Add the flour and any additional ingredients. Stir well and continue toasting for a couple minutes more. If using premade farofa mix, stir until the extra ingredients are well-done. If using raw cassava flour, slowly add the remaining butter or oil and stir until toasted and golden.",
+      "Turn off the heat, and add chopped cilantro if desired. Serve hot to warm."
+    ],
+    "notes": [
+      "Additional ingredients may be added for taste and texture. Common additions are green olives, fried plantains, ground ginger, dry textured vegetable protein and onion flakes.",
+      "Tempero baiano (see notes) is a Brazilian spice mix based on cumin, paprika, cilantro and oregano. If you don't have it, you can add the individual components to taste.",
+      "Manioc flour or premade farofa mix may already be salted, so taste when adding more salt.",
+      "Coarse corn flour in flakes can be used as a substitute for the cassava flour."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 10,
+    "difficulty": 2,
+    "category": "Flour recipes",
+    "categories": [
+      "Brazilian recipes",
+      "Recipes using cassava flour",
+      "Recipes using meat",
+      "Recipes with metric units",
+      "Recipes using garlic",
+      "Recipes using onion",
+      "Recipes using cilantro",
+      "Recipes using oil and fat",
+      "Recipes using salt",
+      "Fried recipes",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Farofa_de_cebola.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Farofa_de_cebola.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Farofa_de_cebola.jpg",
+    "localPath": "scripts/wiki/output/Farofa_de_cebola.jpg",
+    "dimensions": {
+      "width": 2575,
+      "height": 2226
+    },
+    "fileSize": 1407268,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Melsj",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Melsj"
+    },
+    "metadata": {
+      "description": "Farofa de cebola (onion farofa)",
+      "categories": [
+        "Vegan food",
+        "Onions as food",
+        "Farofas",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Farofa_de_cebola.jpg"
+  }
+}

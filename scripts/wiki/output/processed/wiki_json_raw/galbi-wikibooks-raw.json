@@ -1,0 +1,63 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Galbi",
+    "pageTitle": "Cookbook:Galbi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Azotochtli",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Azotochtli"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGalbi&action=history",
+    "extractedAt": "2026-01-06T13:36:09.798Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Galbi",
+    "slug": "galbi",
+    "description": "| Korean CuisineKalbi or galbi is a grilled dish in Korean cuisine that is made with marinated beef (or pork) short ribs in a ganjang-based sauce (Korean soy sauce). It is traditionally cooked communally in the center of the table on a small grill.",
+    "ingredients": [],
+    "instructions": [],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": []
+  },
+  "image": {
+    "filename": "Korean.food-Galbi-03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Korean.food-Galbi-03.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Korean.food-Galbi-03.jpg",
+    "localPath": "scripts/wiki/output/Korean.food-Galbi-03.jpg",
+    "dimensions": {
+      "width": 2272,
+      "height": 1704
+    },
+    "fileSize": 2325964,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "ayustety (a flickr user)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Isageum"
+    },
+    "metadata": {
+      "description": "Galbi",
+      "categories": [
+        "Flickr images reviewed by FlickreviewR",
+        "Sogalbigui"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Korean.food-Galbi-03.jpg"
+  }
+}

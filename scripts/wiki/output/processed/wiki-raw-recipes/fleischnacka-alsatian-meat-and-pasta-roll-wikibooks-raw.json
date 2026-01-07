@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fleischnacka_(Alsatian_Meat_and_Pasta_Roll)",
+    "pageTitle": "Cookbook:Fleischnacka_(Alsatian_Meat_and_Pasta_Roll)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mike Hayes",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mike%20Hayes"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFleischnacka_(Alsatian_Meat_and_Pasta_Roll)&action=history",
+    "extractedAt": "2026-01-04T16:02:26.096Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fleischnacka (Alsatian Meat and Pasta Roll)",
+    "slug": "fleischnacka-alsatian-meat-and-pasta-roll",
+    "description": "Fleischnacka or Fleischschnacka, literally \"snails of meat\" (from German \"Fleisch\", meat, and \"Schnecke\", snail) is an Alsatian dish consisting of minced beef (or sometimes other meats, like left over pot-au-feu) rolled in fresh noodle dough and cut into slices, which are then cooked in stock.",
+    "ingredients": [
+      "1 lb flour",
+      "4 ea. eggs",
+      "Salt",
+      "1 cup water",
+      "2½ lb minced beef",
+      "1 large onion",
+      "3 cloves garlic",
+      "Nutmeg",
+      "Salt",
+      "Pepper",
+      "Oil",
+      "2 pints beef stock",
+      "4 cups Riesling wine (optional)"
+    ],
+    "instructions": [
+      "Mix together the flour and eggs, then add the water and salt.",
+      "Knead the dough until smooth and set aside for 1 hour.",
+      "Mince the onion, parsley, and garlic. Mix into the minced meat along with the eggs, nutmeg, salt and pepper.",
+      "Roll out the dough into a rectangle.",
+      "Spread the meat filling evenly over the dough and roll up into a cylinder. Seal the edge with water and cut into slices (not too thick).",
+      "Brown the slices in oil.",
+      "Add the stock (and wine if used), and cook for 20 minutes.",
+      "Serve with a green salad."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using ground beef",
+      "Boiled recipes",
+      "Recipes for pastries",
+      "Main course recipes",
+      "French recipes|{{PAGENAME}}",
+      "Alsatian recipes|{{PAGENAME}}",
+      "Recipes with images",
+      "Recipes using egg",
+      "Recipes using wheat flour",
+      "Recipes using garlic",
+      "Recipes using beef broth and stock"
+    ]
+  },
+  "image": {
+    "filename": "Fleischschnacka.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fleischschnacka.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fleischschnacka.JPG",
+    "localPath": "scripts/wiki/output/Fleischschnacka.JPG",
+    "dimensions": {
+      "width": 2048,
+      "height": 1536
+    },
+    "fileSize": 1045618,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Florival fr",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Florival%20fr"
+    },
+    "metadata": {
+      "description": "Fleischnacka, a elsassische Spezialität !",
+      "categories": [
+        "GFDL",
+        "Taken with Pentax Optio 330GS",
+        "License migration redundant",
+        "Self-published work",
+        "Files by Florival fr",
+        "Plates with food in France",
+        "Fleischschnacka"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fleischschnacka.JPG"
+  }
+}

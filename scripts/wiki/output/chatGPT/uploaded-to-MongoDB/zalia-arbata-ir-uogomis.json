@@ -1,0 +1,261 @@
+{
+  "slug": "zalia-arbata-ir-uogomis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/zalia-arbata-ir-uogomis",
+  "title": {
+    "lt": "Žalia arbata ir uogomis"
+  },
+  "description": {
+    "lt": "Žalia arbata ir uogomis - tai puikus desertas, kuriame susipina skoniai ir tekstūros. Saldus ir traškus morengas, turtingas plakta grietinėlė, gaivus citrinų kremas ir vaisiai sukuria puikų skonio derinį. Nors patiekalas susideda iš kelių komponentų, nė vienas jų nėra sudėtingas paruošti, o daugelį galima paruošti iš anksto."
+  },
+  "seo": {
+    "metaTitle": "Žalia arbata ir uogomis | Puikus desertas su vaisiais",
+    "metaDescription": "Žalia arbata ir uogų pavlova - saldus desertas su morengais, citrinų kremu ir vaisiais. Lengvai paruošiamas ir idealus šventei.",
+    "keywords": [
+      "žalia arbata",
+      "desertas su uogomis",
+      "citrinų kremas",
+      "plakta grietinėlė"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "3g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 120,
+  "totalTimeMinutes": 150,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pupeles"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiaušinių baltymai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Matcha arbatos milteliai"
+      },
+      "quantity": "1 šaukštas",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kiaušinių tryniai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežiai spaustos citrinų sultys"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinų žievelė"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "60g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šaldytos uogos"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kukurūzų krakmolas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamono milteliai"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "250ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1/4 šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "30g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Morengo paruošimas"
+      },
+      "text": {
+        "lt": "Paimkite didelį puodą ir užvirinkite šiek tiek vandens. Kiaušinių baltymus, cukrų ir druską supilkite į švarų karščiui atsparų indą, tada dėkite jį ant puodo viršaus. Maišykite, kol cukrus ištirps. Nepamirškite, kad baltymai neturi sukietėti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Morengų kepimas"
+      },
+      "text": {
+        "lt": "Indą nuimkite nuo puodo ir plakite baltymus iki standžių putų. Įmaišykite matcha ir perkelkite morengą ant kepimo popieriumi iškloto skardos. Kepkite 80°C temperatūroje 2-3 valandas, kol paviršius bus sausas."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Citrinų kremo paruošimas"
+      },
+      "text": {
+        "lt": "Kiaušinių trynius ir cukrų maišykite karščiui atspariame dubenyje virš puodo su verdančiu vandeniu. Pridėkite citrinų sultis ir žievelę. Mišinį maišykite, kol sutirštės, tada įmaišykite sviestą. Perkoškite ir atvėsinkite šaldytuve."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Uogų paruošimas"
+      },
+      "text": {
+        "lt": "Uogas sumaišykite su krakmolu ir cinamonu. Į puodą įpilkite truputį cukraus ir virkite ant vidutinės ugnies, kol uogos išleis sultis. Pagal skonį pridėkite citrinos sulčių ir cukraus."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Grietinėlės plakimas"
+      },
+      "text": {
+        "lt": "Šaltą grietinėlę, vanilę ir cukraus pudrą plakite iki švelnių putų. Nenaudokite ilgai, kad nesigautų per kieta."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Pavlovos surinkimas"
+      },
+      "text": {
+        "lt": "Ant lėkštės uždėkite citrinų kremo, ant viršaus dailiai padėkite morengą. Užpildykite jį plakta grietinėle, uogų mišiniu ir papuoškite šviežiomis uogomis, pabarstykite cukraus pudra."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, galite nenaudoti matcha arbatos miltelių."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/zalia-arbata-ir-uogomis.jpg",
+    "alt": "Žalia arbata ir uogų pavlova - desertas su morengu ir vaisiais",
+    "width": 4032,
+    "height": 3024
+  },
+  "tags": [
+    "žalia arbata",
+    "pavlova desertas",
+    "citrinų kremas",
+    "vaisių desertas",
+    "šventinis desertas"
+  ],
+  "author": {
+    "name": "Kittycataclysm",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kittycataclysm"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Green_Tea_and_Berry_Pavlovas",
+    "pageTitle": "Cookbook:Green_Tea_and_Berry_Pavlovas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:49:51.717Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreen_Tea_and_Berry_Pavlovas&action=history",
+    "originalCreator": {
+      "name": "Kittycataclysm",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kittycataclysm"
+    }
+  },
+  "originalImage": {
+    "fileName": "Green_tea_berry_pavlova.jpg",
+    "author": {
+      "name": "Kittycataclysm",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Green_tea_berry_pavlova.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

@@ -1,0 +1,214 @@
+{
+  "slug": "sokoladines-bandeles-su-sokolado-gabaleliais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladines-bandeles-su-sokolado-gabaleliais",
+  "title": {
+    "lt": "Šokoladinės bandelės su šokolado gabalėliais"
+  },
+  "description": {
+    "lt": "Šios šokoladinės bandelės yra tikras desertas, tačiau nėra perdaug saldžios. Jos kilę iš tradicinio sausainių recepto ir puikiai tinka desertui ar užkandžiams."
+  },
+  "seo": {
+    "metaTitle": "Šokoladinės bandelės su šokolado gabalėliais | Desertas",
+    "metaDescription": "Skanios šokoladinės bandelės su šokolado gabalėliais. Puikus desertas ar užkandis, lengvai pagaminamas iš tradicinio sausainių recepto.",
+    "keywords": [
+      "šokoladinės bandelės",
+      "desertas su šokoladu",
+      "bandelės su šokolado gabalėliais",
+      "tradicinis sausainių receptas",
+      "lengvas desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 120,
+      "proteinContent": "3g",
+      "fatContent": "5g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/miltiniai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Viso grūdo kvietiniai miltai"
+      },
+      "quantity": "240g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Balti kvietiniai miltai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "3 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas arba sojų pienas"
+      },
+      "quantity": "360ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokolado gabalėliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 210°C."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sudedamųjų dalių maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite sausus ingredientus atskirai, tada į juos įpilkite skystus ingredientus ir gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Išverskite tešlą ant miltais pabarstytos drobės ir šiek tiek minkykite. Formuokite tešlą į ritinį ir supjaustykite į 8–12 dalių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Šokolado įdėjimas"
+      },
+      "text": {
+        "lt": "Paskirstykite gabalėlius, pabarstykite šokolado gabalėliais ir susukite, kad šokoladas būtų viduje."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Padėkite bandeles ant riebalais pateptos kepimo skardos ir kepkite 13–15 minučių."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite dar šiltas ir mėgaukitės."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti tik baltus miltus, bet gali reikėti mažiau pieno."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladines-bandeles-su-sokolado-gabaleliais.jpg",
+    "alt": "Šokoladinės bandelės su šokolado gabalėliais, paruoštos valgymui",
+    "width": 2272,
+    "height": 1704
+  },
+  "tags": [
+    "šokoladinės bandelės",
+    "desertas su šokoladu",
+    "lengvas desertas",
+    "tradicinis receptas",
+    "bandelės"
+  ],
+  "author": {
+    "name": "Naib~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Naib~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Rolls",
+    "pageTitle": "Cookbook:Chocolate_Chip_Rolls",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:52.138Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Chip_Rolls&action=history",
+    "originalCreator": {
+      "name": "Naib~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Naib~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chocolate-Chip-Roll-Broken-2006Feb24.JPG",
+    "author": {
+      "name": "No machine-readable author provided. Naib assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Naib"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Chocolate-Chip-Roll-Broken-2006Feb24.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

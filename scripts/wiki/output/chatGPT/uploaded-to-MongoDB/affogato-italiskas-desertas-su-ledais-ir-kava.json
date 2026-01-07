@@ -1,0 +1,133 @@
+{
+  "slug": "affogato-italiskas-desertas-su-ledais-ir-kava",
+  "canonicalUrl": "https://ragaujam.lt/receptas/affogato-italiskas-desertas-su-ledais-ir-kava",
+  "title": {
+    "lt": "Affogato - itališkas desertas su ledais ir kava"
+  },
+  "description": {
+    "lt": "Affogato yra itališkas desertas, kuriame ledai užpilami karšta kava. Šis greitai paruošiamas skanėstas puikiai tinka po pietų desertui."
+  },
+  "seo": {
+    "metaTitle": "Affogato - itališkas desertas su ledais ir kava | Greitas receptas",
+    "metaDescription": "Itališkas affogato desertas su ledais ir espresso kava. Greitas ir lengvas receptas, puikiai tinkantis po pietų deserto akimirkai.",
+    "keywords": [
+      "affogato",
+      "itališkas desertas",
+      "ledai su kava",
+      "greitas desertas",
+      "po pietų desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "4g",
+      "fatContent": "12g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 5,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vaniliniai ledai"
+      },
+      "quantity": "1 rutuliukas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Espresso kava"
+      },
+      "quantity": "1–2 shot'ai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Įdėkite ledų rutuliuką į dubenėlį. Užpilkite karštu espresso ir nedelsdami patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudokite stiprų espresso, kad desertas būtų intensyvesnio skonio."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/affogato-italiskas-desertas-su-ledais-ir-kava.jpg",
+    "alt": "Itališkas affogato desertas su ledais ir espresso kava",
+    "width": 1600,
+    "height": 1200
+  },
+  "tags": [
+    "affogato",
+    "itališkas desertas",
+    "ledai su kava",
+    "greitas desertas",
+    "po pietų desertas"
+  ],
+  "author": {
+    "name": "AnkitaS",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AnkitaS"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Affogato",
+    "pageTitle": "Cookbook:Affogato",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T15:45:03+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAffogato&action=history",
+    "originalCreator": {
+      "name": "AnkitaS",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AnkitaS"
+    }
+  },
+  "originalImage": {
+    "fileName": "Affogato.JPG",
+    "author": {
+      "name": "VR38DETT",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": ""
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Affogato.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T15:45:03+03:00",
+  "createdAt": "2025-11-21T15:45:03+03:00",
+  "updatedAt": "2025-11-21T15:45:03+03:00"
+}

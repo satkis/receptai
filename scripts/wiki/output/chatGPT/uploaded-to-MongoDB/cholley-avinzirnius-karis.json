@@ -1,0 +1,247 @@
+{
+  "slug": "cholley-avinzirniu-karis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/cholley-avinzirniu-karis",
+  "title": {
+    "lt": "Cholley - Avinžirnių Karis"
+  },
+  "description": {
+    "lt": "Cholley yra populiarus Indijos ir Pakistano patiekalas, pagamintas iš avinžirnių, svogūnų, pomidorų ir prieskonių. Šis patiekalas puikiai tinka su ryžiais arba duona."
+  },
+  "seo": {
+    "metaTitle": "Cholley Avinžirnių Karis | Tradicinis Indijos Receptas",
+    "metaDescription": "Autentiškas Cholley avinžirnių karis su pomidorais ir svogūnais. Puikus pasirinkimas veganams, be glitimo. Patiekite su ryžiais ar duona.",
+    "keywords": [
+      "cholley",
+      "avinžirnių karis",
+      "indiškas kario receptas",
+      "veganų patiekalai",
+      "be glitimo"
+    ],
+    "recipeCategory": "trokiniai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "12g",
+      "fatContent": "8g",
+      "fiberContent": "10g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 720,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 765,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/trokiniai",
+  "secondaryCategories": [
+    "receptai/be-glitimo",
+    "receptai/veganų"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Avinžirniai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "500ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendros sėklos"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kmynai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Juodgrūdės sėklos"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt., pjaustytas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "1 skiltelė, smulkinta",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Garam masala"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "2 vidutiniai, smulkinti",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežios kalendros"
+      },
+      "quantity": "dekoracijai",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Avinžirnių mirkymas"
+      },
+      "text": {
+        "lt": "Nuplaukite avinžirnius ir užmerkite juos per naktį. Įsitikinkite, kad avinžirniai yra gerai panardinti į vandenį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Avinžirnių virimas"
+      },
+      "text": {
+        "lt": "Kitą dieną nusausinkite vandenį, sudėkite avinžirnius į puodą ar greitpuodį. Užpilkite 500 ml šviežio vandens ir druskos pagal skonį, virkite, kol avinžirniai suminkštės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Prieskonių kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir sudėkite kalendros, kmynų ir juodgrūdės sėklas. Kai pradės traškėti, pridėkite svogūnus ir česnakus, kepkite, kol svogūnai tampa permatomi."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kario užbaigimas"
+      },
+      "text": {
+        "lt": "Pridėkite garam masala, pomidorus, ciberžolę ir druską. Įmaišykite virtus avinžirnius, sumažinkite ugnį ir troškinkite apie 15 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Pateikite patiekalą dubenyje, papuoškite šviežiomis kalendromis ir patiekite su ryžiais ar duona."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Pridėkite kokoso drožlių ir juodųjų pipirų pagal skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/cholley-avinzirnius-karis.jpg",
+    "alt": "Cholley - avinžirnių karis su pomidorais ir prieskoniais",
+    "width": 3072,
+    "height": 2304
+  },
+  "tags": [
+    "cholley",
+    "avinžirnių karis",
+    "indiškas patiekalas",
+    "veganų receptas",
+    "be glitimo"
+  ],
+  "author": {
+    "name": "202.161.4.159",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:202.161.4.159"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cholley_(Chickpea_Curry)",
+    "pageTitle": "Cookbook:Cholley_(Chickpea_Curry)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T10:10:10+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACholley_(Chickpea_Curry)&action=history",
+    "originalCreator": {
+      "name": "202.161.4.159",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:202.161.4.159"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chana_masala.jpg",
+    "author": {
+      "name": "Simon Law (sfllaw) from Montréal, QC, Canada",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Grenavitar"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chana_masala.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:10+03:00",
+  "createdAt": "2025-12-23T10:10:10+03:00",
+  "updatedAt": "2025-12-23T10:10:10+03:00"
+}

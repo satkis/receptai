@@ -1,0 +1,262 @@
+{
+  "slug": "fritatenu-sriuba-su-jautiena",
+  "canonicalUrl": "https://ragaujam.lt/receptas/fritatenu-sriuba-su-jautiena",
+  "title": {
+    "lt": "Fritatėnų sriuba su jautiena"
+  },
+  "description": {
+    "lt": "Fritatėnų sriuba – tai gardus austriškas patiekalas, kilęs iš 19-ojo amžiaus Vienos kongreso laikų. Ši sriuba yra gaminama iš jautienos sultinio ir plonų blynų juostelių, kurie suteikia sriubai unikalų skonį ir tekstūrą. Patiekiama su smulkintais česnakais – idealiai tinka šildančiam pietų patiekalui."
+  },
+  "seo": {
+    "metaTitle": "Fritatėnų sriuba su jautiena | Austriškas receptas",
+    "metaDescription": "Austriška fritatėnų sriuba su jautienos sultiniu ir plonomis blynų juostelėmis. Puikus pasirinkimas šildančiam pietų patiekalui.",
+    "keywords": [
+      "fritatėnų sriuba",
+      "austriška sriuba",
+      "jautienos sriuba",
+      "blyneliai sriuboje",
+      "šildantys pietūs"
+    ],
+    "recipeCategory": "sriubos",
+    "recipeCuisine": "Austriška",
+    "nutrition": {
+      "calories": 320,
+      "proteinContent": "14g",
+      "fatContent": "16g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 90,
+  "totalTimeMinutes": 120,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/sriubos",
+  "secondaryCategories": [
+    "receptai/jautiena"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "2.5 litrai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautienos kaulai"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "400g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Salieras"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Poras"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kuminas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "400 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "180g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sultinio paruošimas"
+      },
+      "text": {
+        "lt": "Plauti jautienos kaulus šiltu vandeniu. Sudėkite mėsą ir kaulus į šaltą vandenį ir kaitinkite. Virkite 1,5 valandos ant silpnos ugnies, retkarčiais nugriebdami putą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Svogūno paruošimas"
+      },
+      "text": {
+        "lt": "Perpjaukite svogūną per pusę ir apkepkite jį keptuvėje be aliejaus. Apkepintas svogūnas suteikia sriubai tamsesnę spalvą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Daržovių virimas"
+      },
+      "text": {
+        "lt": "Į sultinį įdėkite visas daržoves ir druską. Virkite 20 minučių. Išimkite visas kietąsias dalis."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Blynelių gaminimas"
+      },
+      "text": {
+        "lt": "Sumaišykite kiaušinius, pieną, miltus ir druską. Keptuvėje įkaitinkite sviestą arba aliejų. Supilkite dalį tešlos į keptuvę ir kepkite, kol blynelis sutvirtės."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Blynelių pjaustymas"
+      },
+      "text": {
+        "lt": "Atvėsinkite blynelius ir supjaustykite juos plonomis juostelėmis. Įdėkite į paruoštą sultinį."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Sriubą patiekite su smulkintais česnakais ant viršaus."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, kad sriuba būtų skanesnė, galite pridėti šiek tiek mėgstamų prieskonių."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/fritatenu-sriuba-su-jautiena.jpg",
+    "alt": "Fritatėnų sriuba su jautiena, patiekta dubenyje",
+    "width": 3072,
+    "height": 2304
+  },
+  "tags": [
+    "fritatėnų sriuba",
+    "austriška sriuba",
+    "jautienos sriuba",
+    "blyneliai sriuboje",
+    "šildantys pietūs"
+  ],
+  "author": {
+    "name": "Martina85",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Martina85"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Frittaten_Soup",
+    "pageTitle": "Cookbook:Frittaten_Soup",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:24:44.313Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrittaten_Soup&action=history",
+    "originalCreator": {
+      "name": "Martina85",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Martina85"
+    }
+  },
+  "originalImage": {
+    "fileName": "Frittaten_soup.jpg",
+    "author": {
+      "name": "The original uploader was Martina85M at English Wikibooks.",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Frittaten_soup.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T16:24:44+03:00",
+  "createdAt": "2026-01-04T16:24:44+03:00",
+  "updatedAt": "2026-01-04T16:24:44+03:00"
+}

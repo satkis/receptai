@@ -1,0 +1,243 @@
+{
+  "slug": "chalos-duona-su-sezamo-seklomis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/chalos-duona-su-sezamo-seklomis",
+  "title": {
+    "lt": "Chalos duona su sezamo sėklomis"
+  },
+  "description": {
+    "lt": "Chalos duona – tradicinis žydų duonos receptas, kurio skonis primena vaikystę. Šis receptas leis jums pasiruošti minkštą ir purią duoną, apibarstytą sezamo sėklomis. Puikiai tinka šeimos susibūrimams ar ypatingoms progoms."
+  },
+  "seo": {
+    "metaTitle": "Chalos duona su sezamo sėklomis | Tradicinis receptas",
+    "metaDescription": "Išbandykite tradicinį žydų chalos duonos receptą su sezamo sėklomis. Minkšta, puri ir puikiai tinkanti šeimos susibūrimams.",
+    "keywords": [
+      "chalos duona",
+      "žydų duona",
+      "sezamo sėklos",
+      "tradicinis receptas",
+      "minkšta duona"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "žydų",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "6g",
+      "fatContent": "5g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 300,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/vaikams",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Duonos miltai"
+      },
+      "quantity": "1.2 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "100 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šiltas vanduo"
+      },
+      "quantity": "600 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "27g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "18g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "109g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinio plakinys"
+      },
+      "quantity": "pagal poreikį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sezamo sėklos"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošti tešlą"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, cukrų ir druską dideliame dubenyje."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Mielių paruošimas"
+      },
+      "text": {
+        "lt": "Mažame dubenyje sumaišykite vandenį ir cukrų, tada užberkite mieles. Palaukite 8 minutes, kol susidarys putos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos maišymas"
+      },
+      "text": {
+        "lt": "Į miltų mišinį įpilkite mielių mišinį, kiaušinius ir aliejų. Įpilkite likusį vandenį ir minkykite tešlą apie 10 minučių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pakilimas"
+      },
+      "text": {
+        "lt": "Palikite tešlą kilti uždengtą 2–4 valandoms."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Duonos formavimas"
+      },
+      "text": {
+        "lt": "Padalinkite tešlą į keturias dalis ir suformuokite ilgus virvės. Susukite jas į pynę."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Papildomi ingredientai"
+      },
+      "text": {
+        "lt": "Aptepkite kiaušinio plakiniu ir apibarstykite sezamo sėklomis."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C ir kepkite 25 minutes."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite švelnesnio skonio, galite sumažinti mielių kiekį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Duona puikiai tinka prie sriubų ar tiesiog su sviestu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/chalos-duona-su-sezamo-seklomis.jpg",
+    "alt": "Chalos duona su sezamo sėklomis, šviežiai iškepta ir paruošta patiekimui",
+    "width": 3072,
+    "height": 2304
+  },
+  "tags": [
+    "chalos duona",
+    "žydų virtuvė",
+    "sezamo sėklos",
+    "tradicinis receptas",
+    "minkšta duona"
+  ],
+  "author": {
+    "name": "Yair rand",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Yair%20rand"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Challah",
+    "pageTitle": "Cookbook:Challah",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:45.105Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChallah&action=history",
+    "originalCreator": {
+      "name": "Yair rand",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Yair%20rand"
+    }
+  },
+  "originalImage": {
+    "fileName": "Cookbookchallah4.jpg",
+    "author": {
+      "name": "Yair rand",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Yair%20rand"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cookbookchallah4.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T17:59:45+03:00",
+  "createdAt": "2025-12-21T17:59:45+03:00",
+  "updatedAt": "2025-12-21T17:59:45+03:00"
+}

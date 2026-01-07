@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Onion_Soup",
+    "pageTitle": "Cookbook:French_Onion_Soup",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Risk",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Risk"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Onion_Soup&action=history",
+    "extractedAt": "2026-01-04T16:08:30.188Z"
+  },
+  "recipe": {
+    "title": "Cookbook:French Onion Soup",
+    "slug": "french-onion-soup",
+    "description": "French onion soup is a classic French soup prepared, in its most fundamental form, by boiling sliced onions in water. More complex varieties involve bouillon, wine, and spices. An ordinary food for family meals, it is served as a simple entrée, garnished with grated Gruyére cheese and croutons (or stale French bread) added just before serving. It can also be consumed at the end of the evening, unadorned, in a mug. Every locale in France has its own variation on the idea of onion soup, but this recipe contains many of the fundamental building blocks.",
+    "ingredients": [
+      "3 rounded cups (500g) chopped onion",
+      "A knob of butter (a little less than 2 tbsp or 25g)",
+      "1 tbsp (15g) flour",
+      "1.5 liters (roughly 5¼ cups) beef stock (chicken or vegetable stock is an acceptable alternative)",
+      "1 bouquet garni (fresh bay, thyme, and Herbes de Provence, tied in a bundle or in a temporary sack made of cheesecloth)",
+      "1 slice of stale french bread, per person (or fresh bread, toasted beforehand)",
+      "3 tbsp red (50ml) port wine",
+      "1 cup grated (125g) Gruyère cheese",
+      "Nutmeg",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Melt the butter in a large saucepan. Stir in the onions, and let the onions blonde on moderate heat (which is to say, let them cook until they are light gold and transparent, but do not let them over-caramelize and become dark).",
+      "Add the flour to the onions. Stir gently for 3–4 minutes. The flour will seem to have disappeared, but has been absorbed into the butter. This will give the soup its characteristic slight thickness. Scrape up any of the dark brown butter and flour mixture that has stuck to the bottom of the saucepan; it is called fond, and will add flavour to the soup.",
+      "Pour ⅔ of the beef broth over the onions and mix well. Add the bouquet garni. Bring to a boil, stirring regularly.",
+      "Season with salt and pepper and a little nutmeg, to taste. Add the rest of the broth, and let the soup simmer gently for 10–15 minutes.",
+      "If your bread is fresh, then toast it now over low heat.",
+      "Remove the soup from the heat, and remove the bouquet garni. Add port and stir well.",
+      "Divide the soup into 6 oven-safe ceramic or glass bowls. Press a slice of bread into the top of each bowl of soup. Generously sprinkle grated Gruyère cheese on top. Broil on low for 10 minutes, or until the cheese is melted and browned.",
+      "Serve piping hot."
+    ],
+    "notes": [
+      "You can use plain water instead of stock, but it is less tasty.",
+      "After the flour has had time to mix in butter, you can further brown the mixture in ¾ cup white wine or beer, before adding the broth. If you do this, skip adding the port later on.",
+      "An alternative to the port wine is dry fino sherry (e.g. Tio Pepe). The flavor will be subtly different.",
+      "In Auvergne, this dish was traditionally eaten by shepherds and drovers. Living nomadically, moving with the herds as they went, it was important for them to keep ingredients that would travel well: onions, lard, and fresh cheese made on the spot from the milk of the cows or ewes. If you would like to make a more traditional recipe, you can replace the butter with lard, and replace the Gruyére with Saint-Nectaire or Tomme cheese. As Auvergne is not wine country, you can replace the wine with a fruit brandy, like plum or pear, for a truly exceptional result."
+    ],
+    "servings": 3,
+    "totalTimeMinutes": 10,
+    "difficulty": 2,
+    "category": "Soup recipes",
+    "categories": [
+      "Recipes using beef",
+      "Vegetarian recipes",
+      "French recipes",
+      "Recipes using onion",
+      "Recipes for soup",
+      "Recipes for soup",
+      "French recipes",
+      "Recipes using bouquet garni",
+      "Recipes using butter",
+      "Recipes using gruyère",
+      "Recipes using bread",
+      "Recipes using wheat flour",
+      "Recipes using beef broth and stock"
+    ]
+  },
+  "image": {
+    "filename": "Soupe_à_l'oignon.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Soupe_%C3%A0_l%27oignon.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Soupe_%C3%A0_l%27oignon.jpg",
+    "localPath": "scripts/wiki/output/Soupe_à_l'oignon.jpg",
+    "dimensions": {
+      "width": 5147,
+      "height": 3431
+    },
+    "fileSize": 11050697,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Ludovic Péron",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ludo29"
+    },
+    "metadata": {
+      "description": "Soupe à l'oignon",
+      "categories": [
+        "French onion soup",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Soupe_à_l'oignon.jpg"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bulgarian_Tripe_Soup_(Shkembe_Chorba)",
+    "pageTitle": "Cookbook:Bulgarian_Tripe_Soup_(Shkembe_Chorba)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Zornitsa",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABulgarian_Tripe_Soup_(Shkembe_Chorba)&action=history",
+    "extractedAt": "2025-11-27T13:11:26.157Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bulgarian Tripe Soup (Shkembe Chorba)",
+    "slug": "bulgarian-tripe-soup-shkembe-chorba",
+    "description": "Shkembe chorba is a popular meat dish in Bulgarian cuisine.",
+    "ingredients": [
+      "1 tbsp butter",
+      "3½ cup beef stock",
+      "1 ea. onion, chopped fine",
+      "1 tsp salt",
+      "1 ea. bell pepper, cut into thin-strips",
+      "½ tsp dried marjoram",
+      "1 ea. bay leaf",
+      "2 tbsp flour",
+      "2 tbsp parsley, chopped fine",
+      "1 can (6 oz / 180 g) tomato paste",
+      "1 ea. garlic clove, crushed",
+      "1½ lb (675 g) tripe, cooked",
+      "⅔ cup grated Kashkaval cheese"
+    ],
+    "instructions": [
+      "Combine onion, red pepper, butter in large saucepan.",
+      "Sprinkle flour over onion mixture, then stir in the tomato paste.",
+      "Cut tripe into thin strips.",
+      "Add tripe pieces, stock, salt, marjoram and bay leaf to onion mixture.",
+      "Partially cover the pot and simmer 30 minutes.",
+      "Remove and discard bay leaf.",
+      "Pour soup into a tureen or serve in individual bowls.",
+      "In a small bowl, combine parsley, garlic and cheese. Sprinkle over hot soup and serve immediately."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for soup",
+      "Bulgarian recipes",
+      "Recipes using beef",
+      "Boiled recipes",
+      "Recipes with images",
+      "Recipes_with_metric_units",
+      "Recipes using bay leaf",
+      "Recipes using butter",
+      "Recipes using wheat flour",
+      "Recipes using garlic",
+      "Recipes using beef broth and stock",
+      "Recipes using marjoram"
+    ]
+  },
+  "image": {
+    "filename": "Shkembe-chorba.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Shkembe-chorba.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shkembe-chorba.jpg",
+    "localPath": "scripts/wiki/output/Shkembe-chorba.jpg",
+    "dimensions": {
+      "width": 1280,
+      "height": 960
+    },
+    "fileSize": 918291,
+    "license": {
+      "code": "cc-by-2.5",
+      "shortName": "CC BY 2.5",
+      "fullName": "Creative Commons Attribution 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Kiril Kapustin",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Manuguf"
+    },
+    "metadata": {
+      "description": "Shkembe chorba",
+      "categories": [
+        "Images from ImagesFromBulgaria.com",
+        "Shkembe chorba"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Shkembe-chorba.jpg"
+  }
+}

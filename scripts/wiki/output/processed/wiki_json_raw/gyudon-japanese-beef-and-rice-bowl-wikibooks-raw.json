@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gyudon_(Japanese_Beef_and_Rice_Bowl)",
+    "pageTitle": "Cookbook:Gyudon_(Japanese_Beef_and_Rice_Bowl)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Nesnad",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Nesnad"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGyudon_(Japanese_Beef_and_Rice_Bowl)&action=history",
+    "extractedAt": "2026-01-06T13:59:05.752Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gyudon (Japanese Beef and Rice Bowl)",
+    "slug": "gyudon-japanese-beef-and-rice-bowl",
+    "description": "Gyudon, often literally translated as 'beef bowl', is a Japanese dish consisting of rice topped with beef and onion simmered in a mildly sweet sauce flavored with dashi, soy sauce, and mirin. It also often includes shirataki noodles. Gyudon is a very popular food in Japan, and it is commonly served with beni shōga (pickled ginger), shichimi seasoning, and a side dish of miso soup. Gyū means \"cow\" or \"beef\", and don is short for donburi, the Japanese word for \"bowl\".",
+    "ingredients": [
+      "2 eggs",
+      "200 g thinly-sliced beef",
+      "½ onion, cut into wedges",
+      "1 tablespoon sake",
+      "1 tablespoon sugar",
+      "1 tablespoon mirin",
+      "2 tablespoons soy sauce",
+      "100 ml water",
+      "½ teaspoon dashi",
+      "5 g ginger, grated",
+      "Steamed rice",
+      "Beni shōga (pickled ginger)",
+      "Shichimi seasoning",
+      "Scallions, chopped"
+    ],
+    "instructions": [
+      "Cover the eggs in boiling water, and let them sit for 20 minutes so they are soft inside and not hard. Carefully peel off the shell.",
+      "Boil the beef and drain the water.",
+      "Combine sake, mirin, soy sauce, and sugar in a frying pan. Stir over at medium heat.",
+      "Add beef and cook. Before all the sauce evaporates, remove the beef.",
+      "Add water, dashi, grated ginger, and onions to the sauce. Cover and boil.",
+      "Mix in the beef.",
+      "Put the steamed rice in a bowl, and top with the sauced meat.",
+      "Arrange the soft egg and pickled ginger on top. Top with scallions and shichimi seasoning."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Japanese recipes",
+    "categories": [
+      "Japanese recipes|Gyudon",
+      "Recipes using beef|Gyudon",
+      "Recipes using rice",
+      "Boiled recipes",
+      "Main course recipes",
+      "Recipes with metric units",
+      "Recipes using egg",
+      "Recipes using sugar",
+      "Recipes using fresh ginger",
+      "Recipes using green onion",
+      "Recipes using mirin"
+    ]
+  },
+  "image": {
+    "filename": "Gyudon_by_jetalone_in_Higashi-Ginza,_Tokyo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Gyudon_by_jetalone_in_Higashi-Ginza%2C_Tokyo.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gyudon_by_jetalone_in_Higashi-Ginza,_Tokyo.jpg",
+    "localPath": "scripts/wiki/output/Gyudon_by_jetalone_in_Higashi-Ginza,_Tokyo.jpg",
+    "dimensions": {
+      "width": 640,
+      "height": 480
+    },
+    "fileSize": 112231,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "jetalone from Higashi-Ginza, Tokyo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Opponent"
+    },
+    "metadata": {
+      "description": "Gyudon at the Yoshinoya.",
+      "categories": [
+        "Red pickled ginger",
+        "Raw eggs",
+        "Flickr images reviewed by FlickreviewR",
+        "Information field template with formatting",
+        "Files from Hajime Nakano Flickr stream",
+        "Yoshinoya products in Japan"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gyudon_by_jetalone_in_Higashi-Ginza,_Tokyo.jpg"
+  }
+}

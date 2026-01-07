@@ -1,0 +1,248 @@
+{
+  "slug": "frijoles-antioquenos-kolumbijos-pupeliu-troskinys",
+  "canonicalUrl": "https://ragaujam.lt/receptas/frijoles-antioquenos-kolumbijos-pupeliu-troskinys",
+  "title": {
+    "lt": "Frijoles Antioqueños - Kolumbijos pupelių troškinys"
+  },
+  "description": {
+    "lt": "Frijoles Antioqueños - tai skanus ir maistingas Kolumbijos pupelių troškinys, kuriame derinamos raudonos pupelės, pomidorai, svogūnai ir kvapnūs prieskoniai. Šis tradicinis Kolumbijos patiekalas puikiai tinka šiltam ir sočiam maistui. Patiekiamas su avokadu, ryžiais arba keptu bananu, jis sužavės jūsų skonio receptorius."
+  },
+  "seo": {
+    "metaTitle": "Frijoles Antioqueños (Kolumbijos pupelių troškinys) | Tradicinis receptas",
+    "metaDescription": "Skanus Kolumbijos pupelių troškinys Frijoles Antioqueños su raudonomis pupelėmis, pomidorais ir kvapniais prieskoniais. Patiekiamas su ryžiais ar avokadu.",
+    "keywords": [
+      "frijoles antioquenos",
+      "kolumbijos pupelių troškinys",
+      "pupelių troškinys",
+      "tradicinis receptas",
+      "kolumbijos virtuvė"
+    ],
+    "recipeCategory": "trokiniai",
+    "recipeCuisine": "Kolumbiečių",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "15g",
+      "fatContent": "8g",
+      "fiberContent": "10g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/trokiniai",
+  "secondaryCategories": [
+    "receptai/pupeles"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Pupelės"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kuminai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kvapieji pipirai"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "1.5l",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sultinio kubelis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Plantanas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautienos šoninė"
+      },
+      "quantity": "250g",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Baltieji ryžiai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Avokadas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pupelių paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite pupeles ir mirkykite per naktį užpylus dvigubai daugiau vandens nei pupelių."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Hogao gaminimas"
+      },
+      "text": {
+        "lt": "Kitą dieną pašalinkite plaukiojančias pupeles. Įkaitinkite aliejų puode, sudėkite svogūnus ir kepkite, kol paruduos. Įdėkite pomidorus, kumino, sultinio kubelį ir kvapniųjų pipirų. Tai vadinama 'hogao' – pagrindinis Kolumbijos patiekalas."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Troškinimo pradžia"
+      },
+      "text": {
+        "lt": "Įpilkite 6 puodelius vandens, pridėkite pupeles ir plantaną. Užvirinkite ant vidutinės ugnies."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Slėginio puodo naudojimas"
+      },
+      "text": {
+        "lt": "Uždenkite slėginį puodą ir troškinkite 30 minučių. Leiskite atvėsti, tada atidarykite puodą."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Troškinimo užbaigimas"
+      },
+      "text": {
+        "lt": "Patikrinkite vandens lygį, pridėkite mėsą, jei naudojate, ir vėl uždenkite. Troškinkite dar 30 minučių. Pabandykite ir, jei reikia, pridėkite druskos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Papuoškite papildomu hogao ant viršaus prieš patiekdami."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekite su baltaisiais ryžiais, avokadu arba keptu plantanu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/frijoles-antioquenos-kolumbijos-pupeliu-troskinys.jpg",
+    "alt": "Frijoles Antioqueños - Kolumbijos pupelių troškinys dubenyje",
+    "width": 1280,
+    "height": 960
+  },
+  "tags": [
+    "frijoles antioquenos",
+    "kolumbijos pupelių troškinys",
+    "tradicinis receptas",
+    "kolumbijos virtuvė",
+    "lengvas gaminimas"
+  ],
+  "author": {
+    "name": "Lgvanegas",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Lgvanegas"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Frijoles_Antioqueños_(Colombian_Bean_Stew)",
+    "pageTitle": "Cookbook:Frijoles_Antioqueños_(Colombian_Bean_Stew)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:22:17.901Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrijoles_Antioque%C3%B1os_(Colombian_Bean_Stew)&action=history",
+    "originalCreator": {
+      "name": "Lgvanegas",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Lgvanegas"
+    }
+  },
+  "originalImage": {
+    "fileName": "Frijoles_Vanegas.jpg",
+    "author": {
+      "name": "Lgvanegas at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Frijoles_Vanegas.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Frijoles_Vanegas.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:22:17+03:00",
+  "createdAt": "2026-01-04T18:22:17+03:00",
+  "updatedAt": "2026-01-04T18:22:17+03:00"
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "keptas-frito-pyragas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/keptas-frito-pyragas",
+  "title": {
+    "lt": "Keptas Frito pyragas"
+  },
+  "description": {
+    "lt": "Frito pyragas yra populiarus JAV užkandis, pagamintas iš kukurūzų traškučių ir čili. Šis receptas leidžia jums paruošti skanią ir sultingą kombinaciją su čederiu, čili ir pasirinktomis daržovėmis. Puikiai tinka piknikams ar šeimos vakarėliams."
+  },
+  "seo": {
+    "metaTitle": "Keptas Frito pyragas | Receptas su kukurūzų traškučiais ir čili",
+    "metaDescription": "Skanus keptas Frito pyragas su kukurūzų traškučiais, čili ir čederio sūriu. Puiki idėja šeimos vakarėliams ar pietums.",
+    "keywords": [
+      "frito pyragas",
+      "keptas frito pyragas",
+      "kukurūzų traškučių receptas",
+      "čili pyragas",
+      "amerikietiškas užkandis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "14g",
+      "fatContent": "28g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kukurūzų traškučiai"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čederio sūris"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175 °C."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Traškučių sluoksniavimas"
+      },
+      "text": {
+        "lt": "Paskleiskite 2 puodelius kukurūzų traškučių į kepimo indą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Čederio ir čili dėjimas"
+      },
+      "text": {
+        "lt": "Pabarstykite pusę čederio sūrio ant traškučių ir užpilkite čili."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 15–20 minučių, kol sūris bus burbuliuojantis."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Papildomi sluoksniai"
+      },
+      "text": {
+        "lt": "Užberkite likusį sūrį ir traškučius ant pyrago viršaus."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite pridėti jalapeños ar svogūnų pagal skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/keptas-frito-pyragas.jpg",
+    "alt": "Keptas Frito pyragas su čederiu ir čili",
+    "width": 329,
+    "height": 400
+  },
+  "tags": [
+    "keptas frito pyragas",
+    "kukurūzų traškučių receptas",
+    "čili pyragas",
+    "lengvas užkandis",
+    "šeimos užkandis"
+  ],
+  "author": {
+    "name": "Eoghanacht",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Eoghanacht"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Frito_Pie_(Baked)",
+    "pageTitle": "Cookbook:Frito_Pie_(Baked)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:23:33.097Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrito_Pie_(Baked)&action=history",
+    "originalCreator": {
+      "name": "Eoghanacht",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Eoghanacht"
+    }
+  },
+  "originalImage": {
+    "fileName": "Frito_Pie_as_Seen_Today.jpg",
+    "author": {
+      "name": "Solsticed",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Solsticed"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Frito_Pie_as_Seen_Today.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:23:33+03:00",
+  "createdAt": "2026-01-04T18:23:33+03:00",
+  "updatedAt": "2026-01-04T18:23:33+03:00"
+}

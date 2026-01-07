@@ -1,0 +1,105 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Anzac_Biscuits_I",
+    "pageTitle": "Cookbook:Anzac_Biscuits_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAnzac_Biscuits_I&action=history",
+    "extractedAt": "2025-11-21T14:04:03.901Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Anzac Biscuits I",
+    "slug": "anzac-biscuits-i",
+    "description": "__NOTOC__ | Cuisine of Australia | Cuisine of New Zealand",
+    "ingredients": [
+      "2 cups plain (non-self raising) flour",
+      "1 cup white or brown sugar",
+      "2 cups rolled or instant oats",
+      "1 cup desiccated coconut flakes",
+      "4 tablespoons golden syrup, corn syrup, or honey",
+      "225 grams butter or margarine",
+      "1 teaspoon baking soda",
+      "2 tablespoons of water"
+    ],
+    "instructions": [
+      "Mix the flour, sugar, oats, and coconut in a bowl.",
+      "Melt the syrup and butter in a saucepan. Add the baking soda and water to the syrup mix.",
+      "Mix the wet and dry ingredients, adding water if necessary.",
+      "Separate and roll the mixture into small balls, and flatten them on oven trays.",
+      "Bake at 150°C (300°F) for about 20 minutes or until golden brown."
+    ],
+    "notes": [
+      "Using brown sugar instead of white sugar gives more colour and flavour.",
+      "You can replace coconut with more syrup and oats.",
+      "Don't omit the baking soda and water. They give the biscuits crispness and colour.",
+      "See https://www.awm.gov.au/articles/encyclopedia/anzac/biscuit/recipe for the official ANZAC recipe."
+    ],
+    "servings": 25,
+    "totalTimeMinutes": 15,
+    "difficulty": 2,
+    "category": "Cookie recipes",
+    "categories": [
+      "New Zealand recipes",
+      "Australian recipes",
+      "Recipes for cookies",
+      "Recipes using oat",
+      "Vegetarian recipes",
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes for dessert",
+      "Recipes using baking soda",
+      "Recipes using white sugar",
+      "Recipes using coconut",
+      "Recipes using corn syrup",
+      "Recipes using all-purpose flour",
+      "Recipes using golden syrup",
+      "Recipes using honey",
+      "Recipes using margarine",
+      "Recipes using brown sugar"
+    ]
+  },
+  "image": {
+    "filename": "Single_ANZAC_biscuit.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Single_ANZAC_biscuit.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Single_ANZAC_biscuit.jpg",
+    "localPath": "scripts/wiki/output/Single_ANZAC_biscuit.jpg",
+    "dimensions": {
+      "width": 2304,
+      "height": 1712
+    },
+    "fileSize": 1685312,
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "me (w:User:pfctdayelise)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Pfctdayelise"
+    },
+    "metadata": {
+      "description": "A single freshly cooked ANZAC biscuit sitting on my kitchen table. Not for long, though :). Note that it was made without coconut which is a traditional ingredient.",
+      "categories": [
+        "Taken with Casio QV-R41",
+        "CC-BY-SA-2.5,2.0,1.0",
+        "Pictures by pfctdayelise",
+        "ANZAC biscuits"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Single_ANZAC_biscuit.jpg"
+  }
+}

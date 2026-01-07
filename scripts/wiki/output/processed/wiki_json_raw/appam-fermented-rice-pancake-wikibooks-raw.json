@@ -1,0 +1,97 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Appam_(Fermented_Rice_Pancake)",
+    "pageTitle": "Cookbook:Appam_(Fermented_Rice_Pancake)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Paulcox",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAppam_(Fermented_Rice_Pancake)&action=history",
+    "extractedAt": "2025-11-21T14:04:09.171Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Appam (Fermented Rice Pancake)",
+    "slug": "appam-fermented-rice-pancake",
+    "description": "Appam, a fermented rice pancake, is a speciality of the South Indian coastal state of Kerala. It is especially popular among the Christian communities of that state. Appam are often served along with a coconut-flavoured vegetable stew. It is also very popular in Sri Lanka, where it is known as \"appa\" (or \"hopper\") and often served with an added egg.",
+    "ingredients": [
+      "1½ cups uncooked white rice",
+      "1½ cups fresh grated coconut",
+      "1 tablespoon sugar",
+      "1 teaspoon salt, or to taste",
+      "2 tablespoons white rice, cooked",
+      "water for soaking rice, and 2 to 2½ cups for grinding",
+      "½ teaspoon yeast or kefir, to start the ferment (optional)"
+    ],
+    "instructions": [
+      "Soak the raw rice in water.",
+      "Grind the soaked rice until about ¼ ground.",
+      "Add the grated coconut along with a little water and continue grinding.",
+      "Add the sugar, cooked rice and yeast or kefir, and keep grinding until the whole mixture becomes smooth. It should be thinner than pancake batter.",
+      "Transfer it to a wide open container and leave it to rise overnight.",
+      "The next morning, add salt and refrigerate the batter until use.",
+      "To fry the appams, use a tava or a small bowl-shaped pan with either a non-stick coating or a little oil (coconut or any other refined oil) or ghee.",
+      "Pour a full serving spoon of batter into the middle of the pan and swirl it around a single time so that a little of the batter sticks to the sides.",
+      "Cover the pan with a hot lid and remove the appam with a spatula after 2–3 minutes, when it becomes slightly browned around the edges. It should be round, with a thick centre and thin, lacy edges."
+    ],
+    "notes": [
+      "The batter should ferment overnight without any added starter, but often won't. Yeast (or better still, kefir) can be added to help it ferment.",
+      "The grinding can be done in a blender. Make sure that there is enough liquid so that it all swirls around in the blender, mixing properly."
+    ],
+    "servings": 12,
+    "totalTimeMinutes": 3,
+    "difficulty": 3,
+    "category": "Flatbread recipes",
+    "categories": [
+      "Vegan recipes",
+      "South Indian recipes",
+      "Sri Lankan recipes",
+      "Recipes for flatbread",
+      "Recipes using coconut",
+      "Recipes using rice",
+      "Gluten-free recipes",
+      "Fermented recipes",
+      "Pan fried recipes",
+      "Recipes for pancakes",
+      "Recipes using sugar",
+      "Recipes using kefir"
+    ]
+  },
+  "image": {
+    "filename": "Appam_served_with_Coconut_Milk_in_Tamil_Nadu.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Appam_served_with_Coconut_Milk_in_Tamil_Nadu.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Appam_served_with_Coconut_Milk_in_Tamil_Nadu.JPG",
+    "localPath": "scripts/wiki/output/Appam_served_with_Coconut_Milk_in_Tamil_Nadu.JPG",
+    "dimensions": {
+      "width": 2362,
+      "height": 1064
+    },
+    "fileSize": 1517388,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "KARTY JazZ",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:KARTY%20JazZ"
+    },
+    "metadata": {
+      "description": "Appam served with Coconut Milk in Tamil Nadu",
+      "categories": [
+        "Appam",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Appam_served_with_Coconut_Milk_in_Tamil_Nadu.JPG"
+  }
+}

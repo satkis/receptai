@@ -1,0 +1,232 @@
+{
+  "slug": "gambijos-yassa-poulet-su-citrinomis-ir-vistiena",
+  "canonicalUrl": "https://ragaujam.lt/receptas/gambijos-yassa-poulet-su-citrinomis-ir-vistiena",
+  "title": {
+    "lt": "Gambijos Yassa Poulet su citrinomis ir vištiena"
+  },
+  "description": {
+    "lt": "Gambijos Yassa Poulet yra puikus ir gaivus patiekalas, kuris sujungia sultingą vištieną su ryškiu svogūnų ir citrusinių vaisių marinatu. Šis patiekalas žinomas dėl savo išskirtinių skonių ir yra populiarus pasirinkimas ypatingoms progoms ir susibūrimams. Yassa Poulet dažniausiai patiekiamas su garintais ryžiais arba kuskusu, sukuriant sotų ir skanų valgį."
+  },
+  "seo": {
+    "metaTitle": "Gambijos Yassa Poulet su citrinomis ir vištiena | Receptas",
+    "metaDescription": "Gambijos Yassa Poulet receptas su sultinga vištiena ir citrusiniu marinatu. Patiekiama su ryžiais arba kuskusu. Išskirtinis patiekalas ypatingoms progoms.",
+    "keywords": [
+      "Yassa Poulet",
+      "Gambijos virtuvė",
+      "vištiena",
+      "citrusinis marinatas",
+      "ryžiai"
+    ],
+    "recipeCategory": "vistiena",
+    "recipeCuisine": "Gambijos",
+    "nutrition": {
+      "calories": 690,
+      "proteinContent": "48g",
+      "fatContent": "40g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/vistiena",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "4 dideli",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinų sultys"
+      },
+      "quantity": "iš 2–3 citrinų",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "3–4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Dijon garstyčios"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "1 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės arba kalendra"
+      },
+      "quantity": "šviežiai kapotos",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Marinato paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite svogūnus, česnaką, imbierą, citrinų sultis, alyvuogių aliejų, garstyčias, pipirus ir druską. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Vištienos marinavimas"
+      },
+      "text": {
+        "lt": "Į marinatą įdėkite vištieną, uždenkite ir palikite šaldytuve marinuotis bent 2 valandas ar per naktį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vištienos kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite augalinį aliejų keptuvėje ant vidutinės ugnies. Išimkite vištieną iš marinato, jį pasilikite. Kepkite vištieną, kol apskrus, apie 5-7 minutes iš kiekvienos pusės."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Vištienos troškinimas"
+      },
+      "text": {
+        "lt": "Sumažinkite ugnį, įpilkite pasilikusį marinatą į keptuvę. Uždengę troškinkite apie 20-25 minutes, kol vištiena bus minkšta. Kartkartėmis vištieną apverskite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite vištieną su troškintais svogūnais ir padažu, papuoškite žolelėmis. Puikiai dera su ryžiais ar kuskusu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite pridėti morkų, bulvių ar paprikų papildomam skoniui ir tekstūrai."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/gambijos-yassa-poulet-su-citrinomis-ir-vistiena.jpg",
+    "alt": "Gambijos Yassa Poulet su citrinomis ir vištiena, patiekiama su ryžiais",
+    "width": 3024,
+    "height": 4032
+  },
+  "tags": [
+    "Gambijos Yassa Poulet",
+    "vištienos patiekalas",
+    "citrusinis marinatas",
+    "lengvas receptas",
+    "patiekalas ypatingoms progoms"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gambian_Yassa_Poulet",
+    "pageTitle": "Cookbook:Gambian_Yassa_Poulet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:36:45.042Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Yassa_Poulet&action=history",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Poulet_yassa.jpg",
+    "author": {
+      "name": "InspiFood",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:InspiFood"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Poulet_yassa.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:36:45+03:00",
+  "createdAt": "2026-01-06T16:36:45+03:00",
+  "updatedAt": "2026-01-06T16:36:45+03:00"
+}

@@ -1,0 +1,233 @@
+{
+  "slug": "croque-monsieur-prancuziskas-sumustinis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/croque-monsieur-prancuziskas-sumustinis",
+  "title": {
+    "lt": "Croque Monsieur: Prancūziškas sumuštinis su kumpiu ir sūriu"
+  },
+  "description": {
+    "lt": "Croque Monsieur - tai skanus prancūziškas sumuštinis su kumpiu, Gruyère sūriu ir Dižono garstyčiomis. Puikus pasirinkimas greitam užkandžiui ar pietums."
+  },
+  "seo": {
+    "metaTitle": "Croque Monsieur: Prancūziškas sumuštinis su kumpiu | Ragaujam?",
+    "metaDescription": "Atraskite autentišką Croque Monsieur receptą, prancūzišką sumuštinį su kumpiu, Gruyère sūriu ir Dižono garstyčiomis. Idealiai tinka greitam užkandžiui.",
+    "keywords": [
+      "croque monsieur",
+      "prancūziškas sumuštinis",
+      "kumpis su sūriu",
+      "greitas užkandis",
+      "prancūzų virtuvė"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "25g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "12g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "12g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "125ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Dižono garstyčios"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Muskatas"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "2 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kumpis"
+      },
+      "quantity": "2 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gruyère sūris"
+      },
+      "quantity": "2 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Bešamelio padažo paruošimas"
+      },
+      "text": {
+        "lt": "Ištirpink sviestą mažame puode, įmaišyk miltus ir maišyk ant vidutinės ugnies, kol susimaišys. Pamažu pilk pieną, nuolat maišydamas, kol gausis vientisas padažas."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Padažo pagardinimas"
+      },
+      "text": {
+        "lt": "Leisk padažui troškintis 2-3 minutes, kol sutirštės. Įmaišyk garstyčias, muskatą, druską ir pipirus. Atidėk į šalį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sumuštinio paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitink orkaitės grilių. Skrudink duoną po griliu iš abiejų pusių. Ant kiekvienos riekės dėk kumpio ir sūrio, užpilk jau paruoštu bešamelio padažu."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Dėk sumuštinį atgal po griliu ir kepk, kol bešamelis paruduos, o sūris ištirps ir taps auksinės spalvos."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiek karštą, puikiai tiks kaip užkandis arba lengvi pietūs."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite Croque Madame, įdėkite ant viršaus keptą kiaušinį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/croque-monsieur-prancuziskas-sumustinis.jpg",
+    "alt": "Croque Monsieur sumuštinis su kumpiu ir Gruyère sūriu",
+    "width": 1105,
+    "height": 734
+  },
+  "tags": [
+    "croque monsieur",
+    "prancūziškas sumuštinis",
+    "kumpis su sūriu",
+    "greitas užkandis",
+    "prancūzų virtuvė"
+  ],
+  "author": {
+    "name": "Visitor7",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Visitor7"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Croque_Monsieur",
+    "pageTitle": "Cookbook:Croque_Monsieur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:11:05.168Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACroque_Monsieur&action=history",
+    "originalCreator": {
+      "name": "Visitor7",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Visitor7"
+    }
+  },
+  "originalImage": {
+    "fileName": "Nue_Croque_Monsieur.jpg",
+    "author": {
+      "name": "Visitor7",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Visitor7"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Nue_Croque_Monsieur.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:11:05+03:00",
+  "createdAt": "2025-12-23T07:11:05+03:00",
+  "updatedAt": "2025-12-23T07:11:05+03:00"
+}

@@ -1,0 +1,108 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cassoulet",
+    "pageTitle": "Cookbook:Cassoulet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Timpo",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Timpo"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACassoulet&action=history",
+    "extractedAt": "2025-12-21T17:59:37.421Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Cassoulet",
+    "slug": "cassoulet",
+    "description": "Cassoulet (Pays D'OC caçolet) is a speciality of the region of Languedoc and named after the clay stew-pot in which it is made. It is possibly related to cocido in Spain. Cocido is said to have originated from the Jewish and Muslim tradition of preparing food the a day or two previously in order to rest on the Sabbath. The pork was reputedly substituted as demonstration of Christian fidelity after the \"reconquest\".",
+    "ingredients": [
+      "500 g (about 1 lb) dried white haricot/navy beans",
+      "Cumin",
+      "1 pig ear or pork rind (optional)",
+      "1 kg (about 2 lb) mixture of duck or goose meat, Toulouse sausages (strong garlic sausage), pork, and/or mutton",
+      "Duck fat, goose fat, or olive oil",
+      "1 onion, chopped",
+      "Stock or white wine",
+      "Bouquet garni",
+      "1 head of garlic, peeled",
+      "Salt",
+      "Pepper",
+      "Cloves",
+      "Juniper berries",
+      "Water or stock"
+    ],
+    "instructions": [
+      "Blanch the beans for a few minutes by immersing them in plenty of boiling water for a few minutes and then into cold water seasoned with cumin.",
+      "Drain the beans and reserve.",
+      "Sear the meat in a pan with duck or goose fat—brown only the outside. Remove the meat and reserve.",
+      "Sauté or stir-fry the onion in the same pan until golden or dark brown, then set aside.",
+      "Drain and discard any residual fat from the pan. Deglaze the dark residue in the pan using stock or white wine. Reserve the deglazing liquid.",
+      "In a casserole dish, pan, or pot, layer beans, meat, cooked onion, garlic cloves, bouquet garni, and juniper berries. Add the deglazing liquid then enough boiling salted water to cover the beans by about an inch.",
+      "Bake at 90 °C (195°F) for about 4½ hours. If necessary, add additional boiling water during the baking. When a light crust has formed and the beans have absorbed all the water and become tender, the preparation is done.",
+      "Let stand for about 1 hour before serving."
+    ],
+    "notes": [
+      "If kept cool, cassoulet may be reheated next day, but thereafter is likely to go sour.",
+      "The meats used can also include confits of pork, cheap canned pork, pig's trotters, cured sausages, and/or green bacon."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using white bean",
+      "Recipes for stew",
+      "Recipes using meat",
+      "Recipes using garlic",
+      "French recipes",
+      "Recipes with metric units",
+      "Recipes using bouquet garni",
+      "Recipes using duck",
+      "Recipes using cumin",
+      "Recipes using goose",
+      "Recipes using broth and stock",
+      "Recipes using juniper",
+      "Recipes using navy bean"
+    ]
+  },
+  "image": {
+    "filename": "Cassoulet.cuit.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Cassoulet.cuit.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cassoulet.cuit.jpg",
+    "localPath": "scripts/wiki/output/Cassoulet.cuit.jpg",
+    "dimensions": {
+      "width": 1284,
+      "height": 1291
+    },
+    "fileSize": 718526,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Cassoulet.cuit.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "GD. Guilhem06 21:37, 20 April 2007 (UTC)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rainer%20Zenz"
+    },
+    "metadata": {
+      "description": "Cassoulet cuit",
+      "categories": [
+        "Cassoulet",
+        "Cazuela",
+        "Cuisine of Occitania",
+        "Self-published work",
+        "PD-self",
+        "Bowls with food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Cassoulet.cuit.jpg"
+  }
+}

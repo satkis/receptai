@@ -1,0 +1,209 @@
+{
+  "slug": "indiskas-morku-halva-desertas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/indiskas-morku-halva-desertas",
+  "title": {
+    "lt": "Indiškas morkų halva desertas"
+  },
+  "description": {
+    "lt": "Indiškas morkų halva desertas – tai saldus ir aromatingas patiekalas, pagamintas iš šviežių morkų, anakardžių, razinų ir kvapnaus kardamono. Šis desertas, dažnai patiekiamas šventėms, puikiai dera su cinamonu ir sviestu. Pasiruoškite šį skanėstą ir mėgaukitės Indijos virtuvės skoniais."
+  },
+  "seo": {
+    "metaTitle": "Indiškas morkų halva desertas | Skanus ir aromatingas receptas",
+    "metaDescription": "Skanus ir aromatingas indiškas morkų halva desertas su anakardžiais, razinomis ir kardamonu. Idealiai tinka šventėms ar ypatingoms progoms.",
+    "keywords": [
+      "morkų halva",
+      "indiškas desertas",
+      "anakardžiai",
+      "kardamonas",
+      "saldus patiekalas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "6g",
+      "fatContent": "15g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pienas-ir-pieno-produktai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "2-3 didelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Anakardžiai"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Razinų"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "2-3 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kardamonas"
+      },
+      "quantity": "4 ankštys",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "240ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Morkų paruošimas"
+      },
+      "text": {
+        "lt": "Nupjaukite morkų galus, nuplaukite jas ir nulupkite. Tada sutarkuokite ir sudėkite į puodą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Ingredientų sumaišymas"
+      },
+      "text": {
+        "lt": "Pridėkite anakardžius, razinas, druską, cukrų, kardamoną, cinamoną, sviestą ir pieną į puodą su morkomis."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Virimas"
+      },
+      "text": {
+        "lt": "Užvirkite puodą ant vidutinės ugnies, nuolat maišydami. Virkite, kol pienas beveik išgaruos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite su cinamono milteliais ant viršaus. Mėgaukitės šiuo puikiu desertu!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite sodresnio skonio, galite pridėti 50–100g khoya beveik išgaravus pienui."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/indiskas-morku-halva-desertas.jpg",
+    "alt": "Indiškas morkų halva desertas su anakardžiais ir razinomis",
+    "width": 2448,
+    "height": 2448
+  },
+  "tags": [
+    "indiškas desertas",
+    "morkų halva",
+    "anakardžiai",
+    "kardamonas",
+    "saldus patiekalas"
+  ],
+  "author": {
+    "name": "Nicholasbrady",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Nicholasbrady"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gajjar_Halwa_(Carrot_Pudding)",
+    "pageTitle": "Cookbook:Gajjar_Halwa_(Carrot_Pudding)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:35:55.493Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGajjar_Halwa_(Carrot_Pudding)&action=history",
+    "originalCreator": {
+      "name": "Nicholasbrady",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Nicholasbrady"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gajjar_ka_halwa_(carrot_halwa).JPG",
+    "author": {
+      "name": "Prerna Jaddwani",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Prernaj89"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Gajjar_ka_halwa_%28carrot_halwa%29.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T13:35:55+03:00",
+  "createdAt": "2026-01-06T13:35:55+03:00",
+  "updatedAt": "2026-01-06T13:35:55+03:00"
+}

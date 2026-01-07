@@ -1,0 +1,180 @@
+{
+  "slug": "brigadeiro–brazilijos-sokoladinis-skanestas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/brigadeiro–brazilijos-sokoladinis-skanestas",
+  "title": {
+    "lt": "Brigadeiro - Brazilietiškas šokoladinis desertas"
+  },
+  "description": {
+    "lt": "Brigadeiro - tai paprastas brazilų šokoladinis skanėstas, sukurtas 1920-aisiais. Šis skanėstas pavadintas Brazilijos aviacijos karininko Eduardo Gomeso vardu. Brigadeiro dažnai patiekiamas su soda, kava ar pienu."
+  },
+  "seo": {
+    "metaTitle": "Brigadeiro - Brazilietiškas šokoladinis skanėstas | Receptas",
+    "metaDescription": "Brazilietiško šokoladinio saldainio Brigadeiro receptas. Skanėstas iš kondensuoto pieno, kakavos ir šokolado pabarstukų. Puikiai tinka su kava ar pienu.",
+    "keywords": [
+      "brigadeiro",
+      "brazilietiškas skanėstas",
+      "šokoladinis desertas",
+      "kondensuotas pienas",
+      "kakavos milteliai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Brazilų",
+    "nutrition": {
+      "calories": 110,
+      "proteinContent": "2g",
+      "fatContent": "4g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 11,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 35,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 20,
+  "servingsUnit": "vienetai",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/vegetariskas"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kondensuotas pienas"
+      },
+      "quantity": "1 skardinė (395 g)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kakavos milteliai"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokolado pabarstukai"
+      },
+      "quantity": "1 dėžutė (482 g)",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sudėkite ingredientus"
+      },
+      "text": {
+        "lt": "Sunkiame puode sumaišykite kondensuotą pieną, kakavos miltelius ir sviestą. Gerai išmaišykite, kad ištirptų šokoladas."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kaitinkite mišinį"
+      },
+      "text": {
+        "lt": "Kaitinkite ant silpnos ugnies, nuolat maišydami, kad nesusidarytų gumulėlių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Virimo procesas"
+      },
+      "text": {
+        "lt": "Tęskite maišymą 10–12 minučių, kol pamatysite puodo dugną, kai su šaukštu brauksite iš šono į šoną. Kuo ilgiau virsite, tuo kietesnis bus saldainis."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Formuokite saldainius"
+      },
+      "text": {
+        "lt": "Palikite mišinį atvėsti. Sviestu patepkite rankas ir iš mišinio suformuokite mažus rutuliukus (apie 2 cm skersmens). Apvoliokite juos šokolado pabarstukuose."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite minkštesnio saldainio, virkite trumpiau."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Brigadeiro puikiai tinka su kava ar pienu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/brigadeiro–brazilijos-sokoladinis-skanestas.jpg",
+    "alt": "Brigadeiro - Brazilietiškas šokoladinis saldainis",
+    "width": 2272,
+    "height": 1704
+  },
+  "tags": [
+    "brigadeiro",
+    "brazilietiškas desertas",
+    "šokoladinis saldainis",
+    "lengvas receptas",
+    "šventinis skanėstas"
+  ],
+  "author": {
+    "name": "HappyDog",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:HappyDog"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Brigadeiro_(Brazilian_Chocolate_Fudge)",
+    "pageTitle": "Cookbook:Brigadeiro_(Brazilian_Chocolate_Fudge)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:14.349Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABrigadeiro_(Brazilian_Chocolate_Fudge)&action=history",
+    "originalCreator": {
+      "name": "HappyDog",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:HappyDog"
+    }
+  },
+  "originalImage": {
+    "fileName": "Brigadeiro.jpg",
+    "author": {
+      "name": "User Mayra (Maych) on Flickr",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gmaxwell"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Brigadeiro.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T13:11:14+03:00",
+  "createdAt": "2025-11-27T13:11:14+03:00",
+  "updatedAt": "2025-11-27T13:11:14+03:00"
+}

@@ -1,0 +1,91 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Grilled_Aubergine",
+    "pageTitle": "Cookbook:Grilled_Aubergine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mmckenzie",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mmckenzie"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGrilled_Aubergine&action=history",
+    "extractedAt": "2026-01-06T13:50:59.774Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Grilled Aubergine",
+    "slug": "grilled-aubergine",
+    "description": "| Japanese Cuisine | Vegetarian == Ingredients == * 1 ea. (375 g) large aubergine (eggplant) * Vegetable oil * 2 tablespoons miso paste * 1½ tablespoons sugar * 2 tablespoons soup stock * 1 teaspoon white sesame seeds",
+    "ingredients": [
+      "1 ea. (375 g) large aubergine (eggplant)",
+      "Vegetable oil",
+      "2 tablespoons miso paste",
+      "1½ tablespoons sugar",
+      "2 tablespoons soup stock",
+      "1 teaspoon white sesame seeds"
+    ],
+    "instructions": [
+      "Wash the aubergine, and cut it into 2.5 cm slices lengthwise.",
+      "Brush the cut surfaces with oil.",
+      "Grill 7–10 cm from the source of the heat until the aubergine is tender and browned all over (about 5 minutes).",
+      "In a small saucepan combine the miso, sugar, and soup stock. Cook, stirring, over low heat until the mixture is smooth and hot. Do not let it boil.",
+      "Pour the sauce mixture over the aubergine.",
+      "In a small frying pan toast the sesame seeds until they jump, then sprinkle them over the aubergine."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Japanese recipes",
+      "Vegan recipes",
+      "Recipes using eggplant",
+      "Grilled recipes",
+      "Side dish recipes",
+      "Recipes using sugar",
+      "Recipes using broth and stock",
+      "Recipes using vegetable oil",
+      "Recipes using miso"
+    ]
+  },
+  "image": {
+    "filename": "Grilled_Aubergine_and_Pesto_Sandwich03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Grilled_Aubergine_and_Pesto_Sandwich03.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Grilled_Aubergine_and_Pesto_Sandwich03.jpg",
+    "localPath": "scripts/wiki/output/Grilled_Aubergine_and_Pesto_Sandwich03.jpg",
+    "dimensions": {
+      "width": 852,
+      "height": 640
+    },
+    "fileSize": 185942,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Homemade-Flavours",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Homemade-Flavours"
+    },
+    "metadata": {
+      "description": "GRILLED AUBERGINE AND PESTO SANDWICH\n(Toasted spelt-bread stuffed with grilled aubergine, zucchini and bell peppers in pesto sauce, served with cranberry mustard)",
+      "categories": [
+        "Sandwiches of the United States",
+        "Self-published work",
+        "Images from Wiki Loves Food 2015",
+        "Grilled sandwiches",
+        "Uploaded via Campaign:wlf",
+        "Images from Wiki Loves Food 2015 in India"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Grilled_Aubergine_and_Pesto_Sandwich03.jpg"
+  }
+}

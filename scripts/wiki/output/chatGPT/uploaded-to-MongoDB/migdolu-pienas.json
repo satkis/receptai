@@ -1,0 +1,176 @@
+{
+  "slug": "migdolu-pienas-netolerruojoantiems-laktozes",
+  "canonicalUrl": "https://ragaujam.lt/receptas/migdolu-pienas-netolerruojoantiems-laktozes",
+  "title": {
+    "lt": "Migdolų pienas"
+  },
+  "description": {
+    "lt": "Migdolų pienas – tai augalinis pienas, puikiai tinkantis veganams arba žmonėms, netoleruojantiems laktozės. Pagaminkite patys namuose su migdolais ir datulėmis."
+  },
+  "seo": {
+    "metaTitle": "Migdolų pienas | Namų receptas",
+    "metaDescription": "Pasigaminkite migdolų pieną namuose. Puikus pasirinkimas veganams ir tiems, kurie ieško alternatyvos karvės pienui.",
+    "keywords": [
+      "migdolų pienas",
+      "augalinis pienas",
+      "veganams",
+      "namų receptas",
+      "pieno alternatyva"
+    ],
+    "recipeCategory": "gerimai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 70,
+      "proteinContent": "2g",
+      "fatContent": "5g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 480,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 490,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 3,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/gerimai",
+  "secondaryCategories": [
+    "receptai/be-laktozes"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Migdolai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Datulės"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Migdolų mirkymas"
+      },
+      "text": {
+        "lt": "Migdolus sudėkite į dubenį ir užpilkite vandeniu, kad apsemtų bent 2.5 cm. Palikite šaldytuve per naktį, tada nupilkite vandenį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Migdolų plakimas"
+      },
+      "text": {
+        "lt": "Nupiltus migdolus sudėkite į blenderį ir įpilkite 3 puodelius vandens. Plakite, kol mišinys taps vienalytis."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pieno filtravimas"
+      },
+      "text": {
+        "lt": "Perkoškite mišinį per smulkų sietelį arba riešutų pieno maišelį į indą. Galite išmesti arba panaudoti likusią masę kitur."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pieno pagardinimas"
+      },
+      "text": {
+        "lt": "Į perkoštą migdolų pieną įdėkite datules ir dar kartą suplakite, kol datulės susimaišys."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Supilkite į stiklines ir mėgaukitės arba laikykite šaldytuve."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti medų vietoj datulių, tačiau tuomet receptas nebebus veganiškas."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/migdolu-pienas-netolerruojoantiems-laktozes.jpg",
+    "alt": "Migdolų pienas stiklinėje su datulėmis",
+    "width": 800,
+    "height": 726
+  },
+  "tags": [
+    "migdolų pienas",
+    "augalinis pienas",
+    "veganams",
+    "namų receptas",
+    "pieno alternatyva"
+  ],
+  "author": {
+    "name": "Taric25",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Taric25"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Almond_Milk_II",
+    "pageTitle": "Cookbook:Almond_Milk_II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T17:04:00+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlmond_Milk_II&action=history",
+    "originalCreator": {
+      "name": "Taric25",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taric25"
+    }
+  },
+  "originalImage": {
+    "fileName": "Raw_almond_milk.jpg",
+    "author": {
+      "name": "Tiffany Washko",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Grayshi"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Raw_almond_milk.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:04:00+03:00",
+  "createdAt": "2025-11-21T17:04:00+03:00",
+  "updatedAt": "2025-11-21T17:04:00+03:00"
+}

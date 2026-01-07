@@ -1,0 +1,100 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Crispy_Gingerbread_Cookies",
+    "pageTitle": "Cookbook:Crispy_Gingerbread_Cookies",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "66.30.114.254",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:66.30.114.254"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACrispy_Gingerbread_Cookies&action=history",
+    "extractedAt": "2025-12-23T07:10:56.100Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Crispy Gingerbread Cookies",
+    "slug": "crispy-gingerbread-cookies",
+    "description": "This recipe makes crispy gingerbread cookies that are used for gingerbread men. To keep the cookies crisp, store them in an air-tight container. They can be decorated with royal icing.",
+    "ingredients": [
+      "⅔ cup (~160 g) packed light brown sugar",
+      "⅔ cup (~160 g) molasses",
+      "1 teaspoon ginger",
+      "1 teaspoon cinnamon",
+      "½ teaspoon salt",
+      "1 ½ teaspoon (½ tablespoon) baking soda",
+      "⅔ cup (~160 g) butter",
+      "1 egg",
+      "4 cups (1 quart/ 500g) flour"
+    ],
+    "instructions": [
+      "Pour sugar, molasses, spices, and salt into large saucepan.",
+      "Bring to boil and remove from heat.",
+      "Add the baking soda and butter and stir until butter melts.",
+      "Quickly stir in egg, and then add flour. Mix well.",
+      "Chill for several hours until firm enough to roll.",
+      "Preheat oven to 325 °F (170 °C).",
+      "Roll out until thin on lightly-floured surface.",
+      "Cut with cookie cutters and place on cookie sheet sprayed with non-stick cooking spray.",
+      "Bake for about 15 minutes at 325 °F (170 °C) and cool on racks."
+    ],
+    "notes": [],
+    "servings": 2,
+    "totalTimeMinutes": 15,
+    "difficulty": null,
+    "category": "Cookie recipes",
+    "categories": [
+      "Recipes for dessert",
+      "Recipes for cookies",
+      "Recipes using ground ginger",
+      "Baking recipes",
+      "Featured recipes",
+      "Recipes with metric units",
+      "Recipes using butter",
+      "Recipes using baking soda",
+      "Recipes using light brown sugar",
+      "Recipes using ground cinnamon",
+      "Recipes using cooking spray",
+      "Recipes using egg",
+      "Recipes using wheat flour",
+      "Recipes using molasses"
+    ]
+  },
+  "image": {
+    "filename": "CrispyGingerbreadCookies.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/CrispyGingerbreadCookies.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CrispyGingerbreadCookies.jpg",
+    "localPath": "scripts/wiki/output/CrispyGingerbreadCookies.jpg",
+    "dimensions": {
+      "width": 403,
+      "height": 267
+    },
+    "fileSize": 31896,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CrispyGingerbreadCookies.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Alcinoe at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": "Crispy Gingerbread Cookies\nSee Recipe\n \n\nPhoto by alcinoe",
+      "categories": [
+        "PD-user",
+        "Gingerbread men",
+        "Royal icing",
+        "White icing (food)"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "CrispyGingerbreadCookies.jpg"
+  }
+}

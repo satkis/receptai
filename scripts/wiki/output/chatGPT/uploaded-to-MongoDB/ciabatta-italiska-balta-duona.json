@@ -1,0 +1,196 @@
+{
+  "slug": "ciabatta-italiska-balta-duona",
+  "canonicalUrl": "https://ragaujam.lt/receptas/ciabatta-italiska-balta-duona",
+  "title": {
+    "lt": "Ciabatta - Itališka balta duona"
+  },
+  "description": {
+    "lt": "Ciabatta - tai itališka balta duona, pagaminta iš kvietinių miltų ir mielių. Jos forma primena šlepetę - ilga, plati ir šiek tiek suplotų šonų. Ši duona yra populiari Europoje ir JAV, dažnai naudojama sumuštiniams."
+  },
+  "seo": {
+    "metaTitle": "Ciabatta - Itališka balta duona | Receptas su kvietiniais miltais",
+    "metaDescription": "Pagaminkite itališką ciabatta duoną su kvietiniais miltais ir mielėmis. Puikiai tinka sumuštiniams ar kaip garnyras prie įvairių patiekalų.",
+    "keywords": [
+      "ciabatta",
+      "itališka duona",
+      "kvietiniai miltai",
+      "sumuštinių duona",
+      "duonos receptas"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "italų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "9g",
+      "fatContent": "8g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 120,
+  "cookTimeMinutes": 18,
+  "totalTimeMinutes": 138,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/sumuštiniai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "350 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "280 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukšt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "40 ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "1 arb. šaukšt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Ištirpinkite druską ir mieles šiltame vandenyje. Įpilkite kvietinius miltus ir alyvuogių aliejų. Sumaišykite, kad gautųsi vienalytė tešla. Uždenkite ir palikite 45 minutėms šiltoje vietoje."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Minkymas"
+      },
+      "text": {
+        "lt": "Išminkykite tešlą, traukdami ir lenkdami kampus. Įberkite šiek tiek miltų, kad nepriliptų. Uždenkite ir palikite 30 minučių, kad pakiltų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pakartotinis minkymas"
+      },
+      "text": {
+        "lt": "Pakartokite minkymo procesą dar kartą, kad susidarytų oro kišenės. Uždenkite ir palikite dar 30 minučių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Padalykite tešlą į mažesnius kepinius ir sudėkite ant kepimo skardos."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 220 °C ir kepkite ciabatta 18 minučių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Prieš uždarant orkaitę, apšlakstykite tešlą vandeniu, kad gautųsi traški plutelė."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Įdomus faktas: kai kurie ciabatta tešlos gaminimo būdai reikalauja fermentacijos 18-24 valandas."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/ciabatta-italiska-balta-duona.jpg",
+    "alt": "Ciabatta - itališka balta duona su traškia plutele",
+    "width": 636,
+    "height": 435
+  },
+  "tags": [
+    "ciabatta",
+    "itališka duona",
+    "kvietiniai miltai",
+    "sumuštinių duona",
+    "duonos receptas"
+  ],
+  "author": {
+    "name": "Burschik",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Burschik"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ciabatta",
+    "pageTitle": "Cookbook:Ciabatta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T10:10:21+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACiabatta&action=history",
+    "originalCreator": {
+      "name": "Burschik",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Burschik"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ciabatta.jpg",
+    "author": {
+      "name": "Laurent van Roy",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Melsj"
+    },
+    "license": {
+      "code": "cc-by-2.5",
+      "shortName": "CC BY 2.5",
+      "fullName": "Creative Commons Attribution 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ciabatta.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:10:21+03:00",
+  "createdAt": "2025-12-23T10:10:21+03:00",
+  "updatedAt": "2025-12-23T10:10:21+03:00"
+}

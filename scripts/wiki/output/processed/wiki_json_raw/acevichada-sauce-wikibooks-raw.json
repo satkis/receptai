@@ -1,0 +1,100 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Acevichada_Sauce",
+    "pageTitle": "Cookbook:Acevichada_Sauce",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "FalcãoTKD",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Falc%C3%A3oTKD"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAcevichada_Sauce&action=history",
+    "extractedAt": "2025-11-17T19:23:58.637Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Acevichada Sauce",
+    "slug": "acevichada-sauce",
+    "description": "thumb|right|300px|Acevichado sauce as a topping of uramakizushi.thumb|right|300px|Acevichado sauce as a topping of hot roll",
+    "ingredients": [
+      "100 ml key lime juice (from 8–10 limes)",
+      "20 g sea salt",
+      "20 g red onions",
+      "20 g ají amarillo chile",
+      "10 g ají limo chile",
+      "10 g garlic",
+      "5 g cilantro leaves",
+      "5 g hondashi (Japanese dehydrated broth)",
+      "5 g black pepper powder",
+      "5 g togarashi pepper powder",
+      "375 ml soybean oil",
+      "2 pasteurized eggs"
+    ],
+    "instructions": [
+      "Pour the lime juice into a bowl.",
+      "Add the salt and test the flavor. It should be neither too salty nor too acidic. If needed, rectify by adding more salt or lime juice to find the right balance.",
+      "Add the onions, chiles, garlic, cilantro, hondashi, black pepper, and togarashi.",
+      "Cover with plastic wrap and reserve in the fridge for at least 15 minutes, so the flavors from the vegetables and spices can integrate into the lime juice.",
+      "Crack the eggs into a blender, and start blending at low speed.",
+      "While running the blender, very gradually start adding 250 ml of the oil until the mixture thickens to a mayonnaise consistency. Use more or less oil as needed.",
+      "Pause the blender, pour your leche de tigre into the mix, and start blending again.",
+      "Gradually stream in the remaining 125 ml oil until the mix thickens again.",
+      "Turn off the blender and taste for salt. If needed, add a little more salt, and blend again until it suits your taste."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using lime juice",
+      "Recipes using salt",
+      "Recipes using onion",
+      "Recipes using aji amarillo",
+      "Recipes using garlic",
+      "Recipes using cilantro",
+      "Recipes using pepper",
+      "Recipes using egg",
+      "Recipes for sauces and condiments",
+      "Peruvian recipes",
+      "Recipes for mayonnaise"
+    ]
+  },
+  "image": {
+    "filename": "Nitrogen_Frozen_Tuna_Acevichado_Maki.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:3o5dots.svg",
+    "localPath": "scripts/wiki/output/3o5dots.svg",
+    "dimensions": {
+      "width": 64,
+      "height": 12
+    },
+    "fileSize": 466,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "metadata": {
+      "description": "3 of 5 dots rating for Wikibooks Cookbook: A recipe rated 3 of 5 dots will be somewhat challenging to an inexperienced cook, or may require a longer amount of time to complete.",
+      "categories": [
+        "Color codes",
+        "Self-published work",
+        "PD-self",
+        "Valid SVG created with Text Editor:Icons"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg"
+  }
+}

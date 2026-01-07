@@ -1,0 +1,179 @@
+{
+  "slug": "damper-australiska-kepimo-duona-ant-lauzo",
+  "canonicalUrl": "https://ragaujam.lt/receptas/damper-australiska-kepimo-duona-ant-lauzo",
+  "title": {
+    "lt": "Damper - Australijos stovyklavimo duona"
+  },
+  "description": {
+    "lt": "Damper yra tradicinė Australijos stovyklavimo duona, kepama ant laužo. Ji pagaminta iš savikylančių miltų, šiek tiek druskos ir vandens. Paprasta, tačiau skani duona, puikiai tinkanti stovyklavimui gamtoje."
+  },
+  "seo": {
+    "metaTitle": "Damper - Australijos stovyklavimo duona | Paprastas receptas",
+    "metaDescription": "Išmokite gaminti australietišką damper duoną ant laužo su savikylančiais miltais. Puikus pasirinkimas stovyklaujant ar kepant ant grotelių.",
+    "keywords": [
+      "damper",
+      "australijos duona",
+      "stovyklavimo duona",
+      "laužo duona",
+      "paprastas receptas"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "Australų",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "4g",
+      "fatContent": "1g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/kepimas-ant-lauzo"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Savikylančių miltų"
+      },
+      "quantity": "1 didelis puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "ketvirtis puodelio",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pagrindinių ingredientų paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite savikylančius miltus su druska. Įpilkite vandens ir sumaišykite, kad suformuotumėte apvalų kepaliuką."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas laužo duobėje"
+      },
+      "text": {
+        "lt": "Iškaskite apie 30 cm gylio duobutę prie laužo ir užpildykite ją dviem kastuvais karštų žarijų ir pelenų. Įdėkite tešlą į suteptą stovyklos ketaus puodą ir uždenkite dangčiu."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimo procesas"
+      },
+      "text": {
+        "lt": "Kepkite duobėje ne ilgiau kaip 40 minučių. Jei duona nepakankamai iškepusi, ji bus plokščia ir guminė."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patarimai pradedantiesiems"
+      },
+      "text": {
+        "lt": "Jūsų pirmasis bandymas gali būti nevalgomas. Nenuleiskite rankų, greitai tapsite ekspertu!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite stovyklos ketaus puodo, galite naudoti metalinę foliją."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Duona kepant išsiplečia ⅓ iki ½, todėl palikite vietos plėtimuisi."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Jei kepate namuose, įdėkite tešlą į suteptą orkaitės skardą ir kepkite vidutiniškai karštoje orkaitėje 30-40 minučių."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/damper-australiskas-kepimo-duona-ant-lauzo.jpg",
+    "alt": "Damper - Australijos stovyklavimo duona ant laužo",
+    "width": 64,
+    "height": 12
+  },
+  "tags": [
+    "damper",
+    "australijos duona",
+    "laužo kepimas",
+    "paprastas receptas",
+    "stovyklavimo patiekalas"
+  ],
+  "author": {
+    "name": "Rosiemary",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Rosiemary"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Damper_(Australian_Campfire_Bread)",
+    "pageTitle": "Cookbook:Damper_(Australian_Campfire_Bread)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T14:26:39+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADamper_(Australian_Campfire_Bread)&action=history",
+    "originalCreator": {
+      "name": "Rosiemary",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Rosiemary"
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg",
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:3o5dots.svg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:26:39+03:00",
+  "createdAt": "2026-01-03T14:26:39+03:00",
+  "updatedAt": "2026-01-03T14:26:39+03:00"
+}

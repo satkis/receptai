@@ -1,0 +1,191 @@
+{
+  "slug": "algerietiska-metu-arbata",
+  "canonicalUrl": "https://ragaujam.lt/receptas/algerietiska-metu-arbata",
+  "title": {
+    "lt": "Algerietiška mėtų arbata"
+  },
+  "description": {
+    "lt": "Algerietiška mėtų arbata – tai populiarus šiaurės Afrikos gėrimas, gaminamas verdant džiovintą žaliąją arbatą ir šviežias mėtų lapus. Patiekiama mažose stiklinėse, kad aromatai atsiskleistų, o viršuje susidarytų švelni puta."
+  },
+  "seo": {
+    "metaTitle": "Algerietiška mėtų arbata | Tradicinis receptas",
+    "metaDescription": "Algerietiškos mėtų arbatos receptas su džiovinta žaliąja arbata, mėtų lapais ir cukraus kubeliais. Gaivus ir aromatingas šiaurės Afrikos gėrimas.",
+    "keywords": [
+      "algerietiška arbata",
+      "mėtų arbata",
+      "šiaurės Afrikos gėrimas",
+      "arbatos receptas",
+      "tradicinė arbata"
+    ],
+    "recipeCategory": "arbata",
+    "recipeCuisine": "Alžyriečių",
+    "nutrition": {
+      "calories": 40,
+      "proteinContent": "0g",
+      "fatContent": "0g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 7,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/arbata",
+  "secondaryCategories": [
+    "receptai/gerimai",
+    "receptai/uzkandziai",
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Džiovinta žalioji arbata"
+      },
+      "quantity": "2 arbat. šaukšteliai",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Švieži mėtų lapai"
+      },
+      "quantity": "1 pundelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus kubeliai"
+      },
+      "quantity": "10 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Vandens virimas"
+      },
+      "text": {
+        "lt": "Užvirinkite vandenį puode."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Arbatos paruošimas"
+      },
+      "text": {
+        "lt": "Įdėkite 2 arbat. šaukštelius džiovintos žaliosios arbatos į arbatinuką."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Arbatos plovimas"
+      },
+      "text": {
+        "lt": "Supilkite pusę stiklinės verdančio vandens į arbatinuką, pamaišykite ir išpilkite vandenį, kad nuplautumėte kartų poskonį."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Mėtų ir cukraus pridėjimas"
+      },
+      "text": {
+        "lt": "Užpildykite arbatinuką verdančiu vandeniu, pridėkite šviežius mėtų lapus ir cukraus kubelius, palaikykite ant mažos ugnies keletą minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Arbatos užbaigimas"
+      },
+      "text": {
+        "lt": "Arbata paruošta, kai vanduo užverda. Patiekite nedidelėse stiklinėse."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint išgauti geriausią skonį, arbatos lapus rekomenduojama nuplauti."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Mėtų lapai turėtų būti švieži ir gerai nuplauti."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/algerietiska-metu-arbata.jpg",
+    "alt": "Algerietiška mėtų arbata stiklinėje",
+    "width": 600,
+    "height": 450
+  },
+  "tags": [
+    "algerietiška arbata",
+    "mėtų arbata",
+    "šiaurės Afrikos gėrimas",
+    "tradicinis gėrimas",
+    "arbatos receptas"
+  ],
+  "author": {
+    "name": "SvnnyBvnny",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Mint_Tea",
+    "pageTitle": "Cookbook:Algerian_Mint_Tea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T14:03:57.051Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlgerian_Mint_Tea&action=history",
+    "originalCreator": {
+      "name": "SvnnyBvnny",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+    }
+  },
+  "originalImage": {
+    "fileName": "Tea_in_sahara(algerian_desert).jpg",
+    "author": {
+      "name": "Houhou",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Houhou"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tea_in_sahara%28algerian_desert%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:03:57+03:00",
+  "createdAt": "2025-11-21T17:03:57+03:00",
+  "updatedAt": "2025-11-21T17:03:57+03:00"
+}

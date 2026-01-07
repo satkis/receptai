@@ -1,0 +1,186 @@
+{
+  "slug": "bekonas-salotos-pomidoras-sumustinis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/bekonas-salotos-pomidoras-sumustinis",
+  "title": {
+    "lt": "Sumuštinis su bekonu, salotomis ir pamidorais"
+  },
+  "description": {
+    "lt": "Klasikinis sumuštinis su bekonu, salotomis ir pomidorais, kuris yra populiarus visame pasaulyje. Puikus pasirinkimas greitai užkąsti ar pietauti."
+  },
+  "seo": {
+    "metaTitle": "Bekonas, salotos ir pomidoras sumuštinis | Klasikinis BLT receptas",
+    "metaDescription": "Greitas ir skanus sumuštinis su bekonu, salotomis ir pomidorais. Idealiai tinka greitam užkandžiui ar pietums. Sužinokite, kaip lengvai paruošti šį populiarų receptą.",
+    "keywords": [
+      "bekonas salotos pomidoras",
+      "BLT sumuštinis",
+      "klasikinis sumuštinis",
+      "greitas receptas",
+      "sumuštiniai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 400,
+      "proteinContent": "18g",
+      "fatContent": "25g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 7,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/pusryciai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bekonas"
+      },
+      "quantity": "2 juostelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Salotos"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidoras"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "2 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Majonezas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Malti juodieji pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Bekono kepimas"
+      },
+      "text": {
+        "lt": "Kepkite bekoną keptuvėje ant vidutinės ugnies, kol jis taps traškus. Išimkite ir padėkite ant popierinio rankšluosčio, kad nusausėtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sumuštinio paruošimas"
+      },
+      "text": {
+        "lt": "Ant vienos duonos riekės padenkite majonezo sluoksnį. Uždėkite salotas, pomidorų griežinėlius ir bekoną. Pagardinkite pipirais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sumuštinio užbaigimas"
+      },
+      "text": {
+        "lt": "Uždėkite antrą duonos riekę ant viršaus ir lengvai paspauskite. Patiekite iš karto."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite švelnesnio skonio, vietoj majonezo galite naudoti sviestą."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Sumuštinį galite papildyti avokadu arba sūriu, kad būtų dar skanesnis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/bekonas-salotos-pomidoras-sumustinis.jpg",
+    "alt": "Klasikinis BLT sumuštinis su bekonu, salotomis ir pomidorais",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "BLT sumuštinis",
+    "klasikinis sumuštinis",
+    "bekonas",
+    "greitas užkandis",
+    "sumuštiniai"
+  ],
+  "author": {
+    "name": "OMouse",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:OMouse"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:BLT_Sandwich",
+    "pageTitle": "Cookbook:BLT_Sandwich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:10:58.492Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABLT_Sandwich&action=history",
+    "originalCreator": {
+      "name": "OMouse",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:OMouse"
+    }
+  },
+  "originalImage": {
+    "fileName": "BLT_sandwich_(1).jpg",
+    "author": {
+      "name": "Edward",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Edward"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/BLT_sandwich_%281%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:10:58+03:00",
+  "createdAt": "2025-11-27T16:10:58+03:00",
+  "updatedAt": "2025-11-27T16:10:58+03:00"
+}

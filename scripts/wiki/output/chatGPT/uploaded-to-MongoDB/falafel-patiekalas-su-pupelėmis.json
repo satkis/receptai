@@ -1,0 +1,240 @@
+{
+  "slug": "falafel-patiekalas-su-pupelemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/falafel-patiekalas-su-pupelemis",
+  "title": {
+    "lt": "Falafel - populiarus Viduržemio jūros patiekalas"
+  },
+  "description": {
+    "lt": "Falafel - tai skanus Viduržemio jūros regiono patiekalas, dažniausiai gaminamas iš avinžirnių arba pupelių. Šis receptas parodo, kaip lengvai pasigaminti falafelius namuose, naudojant šviežius ingredientus."
+  },
+  "seo": {
+    "metaTitle": "Falafel receptas | Kaip pasigaminti falafelius namuose",
+    "metaDescription": "Atraskite, kaip pasigaminti falafelius iš avinžirnių. Šis Viduržemio jūros patiekalas yra puikus pasirinkimas pietums ar vakarienei.",
+    "keywords": [
+      "falafel",
+      "avinžirnių patiekalas",
+      "vegetariškas receptas",
+      "Viduržemio jūros virtuvė",
+      "lengvas pietų receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Viduržemio jūros"
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 3,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "nutrition": {
+    "calories": 350,
+    "proteinContent": "15g",
+    "fatContent": "18g",
+    "fiberContent": "9g"
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Avinžirniai"
+      },
+      "quantity": "480g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendra"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kmynai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kajeno pipirai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "6 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "125ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Pita duona"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Avinžirnių paruošimas"
+      },
+      "text": {
+        "lt": "Iš vakaro avinžirnius užmerkite vandenyje, kad jie išbrinktų. Prieš gaminant, nusausinkite ir gerai nuplaukite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Avinžirnius sumalkite smulkintuvu iki tyrimo konsistencijos. Įdėkite česnaką, petražoles, svogūną, kalendrą, kmynus, kajeno pipirus, kepimo miltelius ir miltus. Viską gerai sumaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Formavimas"
+      },
+      "text": {
+        "lt": "Iš paruoštos masės formuokite mažus rutuliukus, naudodami maždaug šaukštą mišinio kiekvienam."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje. Į jį dėkite rutuliukus ir kepkite, kol gražiai apskrus iš visų pusių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Falafelius patiekite su pita duona arba mėgstamais pagardais. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite smulkintuvo, galite naudoti trintuvą."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Falafeliai puikiai tiks su šviežiomis daržovėmis ir humusu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/falafel-patiekalas-su-pupelemis.jpg",
+    "alt": "Falafel - Viduržemio jūros patiekalas, paruoštas su avinžirniais",
+    "width": 3024,
+    "height": 4032
+  },
+  "tags": [
+    "falafel",
+    "avinžirnių patiekalas",
+    "viduržemio jūros virtuvė",
+    "vegetariškas receptas",
+    "lengvas pietų receptas"
+  ],
+  "author": {
+    "name": "Fasten",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Fasten"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Falafel",
+    "pageTitle": "Cookbook:Falafel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:58:05.841Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFalafel&action=history",
+    "originalCreator": {
+      "name": "Fasten",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Fasten"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bowl_of_falafel.jpg",
+    "author": {
+      "name": "EvanProdromou",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:EvanProdromou"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Bowl_of_falafel.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:58:05+03:00",
+  "createdAt": "2026-01-04T18:58:05+03:00",
+  "updatedAt": "2026-01-04T18:58:05+03:00"
+}

@@ -1,0 +1,76 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fry_Bread_II",
+    "pageTitle": "Cookbook:Fry_Bread_II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Nesnad",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Nesnad"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFry_Bread_II&action=history",
+    "extractedAt": "2026-01-04T16:28:08.643Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fry Bread II",
+    "slug": "fry-bread-ii",
+    "description": "Frybread (also spelled fry bread) is a flatbread fried or deep-fried in oil, shortening, or lard. The dough is generally leavened by yeast or baking powder. Frybread can be eaten alone or with various toppings such as honey, jam, or hot beef. It can also be made into tacos (Indian tacos). It is a simple complement to meals.",
+    "ingredients": [
+      "2 cups flour",
+      "1 tablespoon baking powder",
+      "1 teaspoon seasoning salt or table salt",
+      "1 cup hot tap water",
+      "Vegetable oil (to fry)"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for flatbread",
+      "Fried recipes",
+      "Native American recipes",
+      "Recipes using baking powder",
+      "Recipes using wheat flour",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Frybread_template.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Frybread_template.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frybread_template.jpg",
+    "localPath": "scripts/wiki/output/Frybread_template.jpg",
+    "dimensions": {
+      "width": 175,
+      "height": 63
+    },
+    "fileSize": 2745,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "John Pozniak",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:The%20Banner"
+    },
+    "metadata": {
+      "description": "Work derived from Frybread.jpg, made by John Pozniak and changed by me with the purpose of suggesting it for \"Template:American cuisine\"\nA Native American frybread, at the West Valley Powwow in Saratoga, California, United States. Photograph taken by John Pozniak on October 1, 2005, and published and released under the terms of the GFDL on December 20, 2005.",
+      "categories": [
+        "Breads of the United States",
+        "Frybread"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Frybread_template.jpg"
+  }
+}

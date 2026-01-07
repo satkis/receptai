@@ -1,0 +1,77 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Affogato",
+    "pageTitle": "Cookbook:Affogato",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AnkitaS",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AnkitaS"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAffogato&action=history",
+    "extractedAt": "2025-11-21T12:45:03.665Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Affogato",
+    "slug": "affogato",
+    "description": "Affogato, or \"affogato al caffe\", is an Italian preparation consisting of gelato or ice cream topped with espresso.",
+    "ingredients": [
+      "1 scoop gelato, typically vanilla",
+      "1–2 shots espresso, or one long pull shot"
+    ],
+    "instructions": [
+      "Either pour espresso over gelato and serve, or serve them side by side for diner to mix at the table."
+    ],
+    "notes": [],
+    "servings": 1,
+    "totalTimeMinutes": 10,
+    "difficulty": 1,
+    "category": "Recipes for dessert",
+    "categories": [
+      "Italian recipes",
+      "Recipes for dessert",
+      "Recipes using ice cream",
+      "Recipes using brewed coffee"
+    ]
+  },
+  "image": {
+    "filename": "Affogato.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Affogato.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Affogato.JPG",
+    "localPath": "scripts/wiki/output/Affogato.JPG",
+    "dimensions": {
+      "width": 1600,
+      "height": 1200
+    },
+    "fileSize": 835924,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "VR38DETT",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": "一般的なアフォガート",
+      "categories": [
+        "Taken with Pentax Optio X",
+        "Pitchers (containers)",
+        "PD-user",
+        "Affogato",
+        "Coffee in Italy",
+        "Beverages from Italy"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Affogato.JPG"
+  }
+}

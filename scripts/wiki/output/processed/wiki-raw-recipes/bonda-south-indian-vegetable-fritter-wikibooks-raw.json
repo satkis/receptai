@@ -1,0 +1,113 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bonda_(South_Indian_Vegetable_Fritter)",
+    "pageTitle": "Cookbook:Bonda_(South_Indian_Vegetable_Fritter)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "209.142.208.98",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:209.142.208.98"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABonda_(South_Indian_Vegetable_Fritter)&action=history",
+    "extractedAt": "2025-11-27T13:11:08.057Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Bonda (South Indian Vegetable Fritter)",
+    "slug": "bonda-south-indian-vegetable-fritter",
+    "description": "Bonda is a typical South Indian snack. The process of making Bonda involves deep frying a filling of potato (or other vegetables) dipped in gram flour batter.",
+    "ingredients": [
+      "2 medium-sized potatoes",
+      "1 medium-sized onions",
+      "3–4 medium-sized green chiles",
+      "2 tbsp, finely-chopped coriander leaves",
+      "1 tsp finely-chopped ginger",
+      "1 tsp finely-chopped Garlic",
+      "Salt to taste",
+      "4 portions gram flour (besan)",
+      "1 portion rice flour",
+      "½ tsp baking soda",
+      "Salt to taste",
+      "Water or beer",
+      "Oil for frying"
+    ],
+    "instructions": [
+      "Boil potatoes, remove skin, and mash coarsely.",
+      "Heat 2 tbsp of oil in a pan. When the oil is hot, throw in green chilies and fry for a few seconds.",
+      "Add onions and fry until browned.",
+      "Add ginger and garlic and fry for a minute.",
+      "Add the chopped coriander leaves and mashed potatoes and fold well.",
+      "Allow it to cool and shape into small golf ball-sized balls.",
+      "Mix the gram flour and the rice flour with baking soda. Add salt to taste.",
+      "Add enough water or beer to make a smooth batter. The batter consistency should be slightly thicker than ketchup.",
+      "Once the batter and filling are ready, heat some oil in a deep pan. The oil should be at least 1½ inch (4 cm) deep for deep-frying.",
+      "Dip the filling balls in the batter, making sure they are completely coated, and drop into the hot oil. Don't overcrowd the pan.",
+      "Fry the bonda until golden, then remove from the oil.",
+      "Serve with ketchup or chutney."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Indian recipes",
+    "categories": [
+      "Indian recipes",
+      "Appetizer recipes",
+      "Deep fried recipes",
+      "Vegan recipes",
+      "Vegetarian recipes",
+      "Recipes with metric units",
+      "South Indian recipes",
+      "Vegetarian recipes",
+      "Vegan recipes",
+      "Recipes using baking soda",
+      "Recipes using beer",
+      "Recipes using chickpea flour",
+      "Recipes using chile",
+      "Recipes using cilantro",
+      "Recipes using garlic",
+      "Recipes using fresh ginger"
+    ]
+  },
+  "image": {
+    "filename": "Bonda2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bonda2.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bonda2.jpg",
+    "localPath": "scripts/wiki/output/Bonda2.jpg",
+    "dimensions": {
+      "width": 1632,
+      "height": 1173
+    },
+    "fileSize": 290172,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bonda2.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "No machine-readable author provided. Pamri assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Pamri"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Taken with Sony DSC-P72",
+        "Files with no machine-readable source",
+        "Media lacking a description",
+        "Self-published work",
+        "PD-self",
+        "Assumed own work",
+        "Photographs taken on 2005-11-14",
+        "Bonda (snack)"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Bonda2.jpg"
+  }
+}

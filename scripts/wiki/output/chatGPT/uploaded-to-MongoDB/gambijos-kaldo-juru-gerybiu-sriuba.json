@@ -1,0 +1,273 @@
+{
+  "slug": "gambijos-kaldo-juru-gerybiu-sriuba",
+  "canonicalUrl": "https://ragaujam.lt/receptas/gambijos-kaldo-juru-gerybiu-sriuba",
+  "title": {
+    "lt": "Gambijos Kaldo - jūros gėrybių sriuba"
+  },
+  "description": {
+    "lt": "Gambijos Kaldo yra tradicinė sriuba, garsėjanti savo turtingu ir jaukiausiu skoniu. Ji dažnai ruošiama su įvairiais ingredientais, tokiais kaip mėsa, daržovės ir prieskoniai, todėl yra soti ir maistinga. Ši sriuba ypač populiari šaltuoju metų laiku arba kaip jaukus patiekalas bet kuriuo metu."
+  },
+  "seo": {
+    "metaTitle": "Gambijos Kaldo - jūros gėrybių sriuba | Tradicinis receptas",
+    "metaDescription": "Gambijos Kaldo - tradicinė sriuba su mėsa, daržovėmis ir prieskoniais. Puikus pasirinkimas šaltuoju metų laiku ar jaukiam patiekalui bet kuriuo metų laiku.",
+    "keywords": [
+      "Gambijos Kaldo",
+      "jūros gėrybių sriuba",
+      "tradicinė sriuba",
+      "sočios sriubos",
+      "Gambijos virtuvė"
+    ],
+    "recipeCategory": "juros-gerybes",
+    "recipeCuisine": "Gambijos",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "25g",
+      "fatContent": "15g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 90,
+  "totalTimeMinutes": 110,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/juros-gerybes",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "3 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautiena arba vištiena"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saliero stiebas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautienos arba vištienos sultinys"
+      },
+      "quantity": "1 l",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maltas kuminas"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovintas raudonėlis"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska ir pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežias kalendras arba petražolės"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Aliejaus įkaitinimas"
+      },
+      "text": {
+        "lt": "Dideliame puode ant vidutinės ugnies įkaitinkite augalinį aliejų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Svogūnų ir česnakų pakepinimas"
+      },
+      "text": {
+        "lt": "Į puodą suberkite smulkintą svogūną ir česnaką. Kepkite, kol svogūnas taps permatomas ir česnakas aromatingas."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mėsos apkepimas"
+      },
+      "text": {
+        "lt": "Pridėkite jautieną arba vištieną į puodą ir kepkite, kol mėsa apskrus iš visų pusių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Daržovių pridėjimas"
+      },
+      "text": {
+        "lt": "Į puodą pridėkite morkas, bulves, salierą, papriką ir pomidorus. Kepkite kelias minutes, kad daržovės šiek tiek suminkštėtų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Sultinio supylimas"
+      },
+      "text": {
+        "lt": "Supilkite sultinį į puodą, užtikrinkite, kad visi ingredientai būtų padengti."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Į puodą įberkite maltą kuminą, džiovintą raudonėlį, druską ir pipirus. Gerai išmaišykite, kad prieskoniai pasiskirstytų."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Sriubos virimas"
+      },
+      "text": {
+        "lt": "Užvirinkite sriubą, tada sumažinkite ugnį ir uždenkite. Leiskite sriubai virti apie 1–1,5 valandos, kol mėsa taps minkšta, o skoniai susijungs."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Paragaukite sriubą ir, jei reikia, pakoreguokite prieskonius. Išimkite puodą nuo ugnies ir supilstykite sriubą į dubenėlius. Papuoškite šviežiais kalendrais ar petražolėmis. Patiekite karštą."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/gambijos-kaldo-juru-gerybiu-sriuba.jpg",
+    "alt": "Gambijos Kaldo - jūros gėrybių sriuba tradiciniame dubenyje",
+    "width": 2736,
+    "height": 3648
+  },
+  "tags": [
+    "Gambijos Kaldo",
+    "jūros gėrybių sriuba",
+    "Gambijos virtuvė",
+    "tradicinė sriuba",
+    "sočios sriubos"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gambian_Caldo_(Seafood_soup)",
+    "pageTitle": "Cookbook:Gambian_Caldo_(Seafood_soup)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:36:37.850Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Caldo_(Seafood_soup)&action=history",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Caldo_de_res.jpg",
+    "author": {
+      "name": "Wotancito",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Wotancito"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Caldo_de_res.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T15:00:00+03:00",
+  "createdAt": "2026-01-06T15:00:00+03:00",
+  "updatedAt": "2026-01-06T15:00:00+03:00"
+}

@@ -1,0 +1,86 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Creamy_Mushroom_Pasta",
+    "pageTitle": "Cookbook:Creamy_Mushroom_Pasta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACreamy_Mushroom_Pasta&action=history",
+    "extractedAt": "2025-12-23T07:10:52.952Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Creamy Mushroom Pasta",
+    "slug": "creamy-mushroom-pasta",
+    "description": "This creamy mushroom pasta recipe will satisfy your strongest Italian food cravings while providing epic flavor and a boost of nutrition. Best of all, it's ready in twenty minutes, making it a perfect weeknight dinner.",
+    "ingredients": [
+      "1 serving uncooked pasta (⅔ cup / 75 g / 2.6 oz) (suggestion: whole wheat linguine)",
+      "1 tablespoon unsalted butter",
+      "2 garlic cloves, minced",
+      "8 oz (230 g) white button mushroom, stems removed",
+      "2 tablespoons dry white wine",
+      "¼ cup (60 ml / 2 oz) heavy cream",
+      "¼ cup (60 ml / 2 oz) low-sodium chicken bone broth",
+      "Salt to taste",
+      "¼ cup (30 g / 1.1 oz) grated parmesan cheese",
+      "Freshly-ground black pepper",
+      "Chopped fresh parsley for garnishing"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": 1,
+    "totalTimeMinutes": 20,
+    "difficulty": 2,
+    "category": "Pasta recipes",
+    "categories": [
+      "Recipes using pasta and noodles",
+      "Recipes using mushroom",
+      "Recipes from Foodista",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes using heavy cream",
+      "Recipes using pepper",
+      "Recipes using parsley",
+      "Recipes using chicken broth and stock"
+    ]
+  },
+  "image": {
+    "filename": "Creamy_Mushroom_Pasta.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Creamy_Mushroom_Pasta.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Creamy_Mushroom_Pasta.jpg",
+    "localPath": "scripts/wiki/output/Creamy_Mushroom_Pasta.jpg",
+    "dimensions": {
+      "width": 800,
+      "height": 800
+    },
+    "fileSize": 160728,
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Sharon Chen",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:NMaia"
+    },
+    "metadata": {
+      "description": "Creamy Mushroom Pasta",
+      "categories": [
+        "Files from external sources with reviewed licenses",
+        "Noodle dishes with mushrooms",
+        "Cream sauce pasta"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Creamy_Mushroom_Pasta.jpg"
+  }
+}

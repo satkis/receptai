@@ -1,0 +1,199 @@
+{
+  "slug": "creme-brulee-su-karamelizuotu-cukrumi",
+  "canonicalUrl": "https://ragaujam.lt/receptas/creme-brulee-su-karamelizuotu-cukrumi",
+  "title": {
+    "lt": "Crème Brûlée su karamelizuotu cukrumi"
+  },
+  "description": {
+    "lt": "Crème Brûlée – tai klasikinis prancūziškas desertas, pasižymintis traškia karamelizuoto cukraus plutele ir švelniu kremu viduje. Šis receptas padės jums paruošti autentišką Crème Brûlée, kuris ne tik puikiai atrodo, bet ir skaniai tirpsta burnoje."
+  },
+  "seo": {
+    "metaTitle": "Crème Brûlée su karamelizuotu cukrumi | Prancūziškas desertas",
+    "metaDescription": "Išmokite gaminti autentišką Crème Brûlée su traškia karamelizuoto cukraus plutele ir švelniu kremu viduje. Tinkamas ypatingoms progoms ar desertų mėgėjams.",
+    "keywords": [
+      "Crème Brûlée",
+      "prancūziškas desertas",
+      "karamelizuotas cukrus",
+      "kremas",
+      "desertai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "5g",
+      "fatContent": "25g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 80,
+  "timeCategory": "iki-120-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pienas-ir-pieno-produktai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "1.4 l",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "240 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ankštys"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinių tryniai"
+      },
+      "quantity": "18 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Turbinado cukrus"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 150°C. Išdėliokite formeles dideliame kepimo inde su virtuviniu rankšluosčiu dugne."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Grietinėlės mišinys"
+      },
+      "text": {
+        "lt": "Sumaišykite dalį grietinėlės su cukrumi ir vanilės sėklomis. Užvirinkite ir palikite įsigerti skonį 20 minučių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Trynių paruošimas"
+      },
+      "text": {
+        "lt": "Trynius plakite, kol jie taps vientisi. Įpilkite šiek tiek grietinėlės mišinio ir gerai išmaišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Mišinio pylimas į formeles"
+      },
+      "text": {
+        "lt": "Perkoškite mišinį ir supilkite į formeles. Uždenkite aliuminio folija."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite, kol kremas sutvirtės. Atvėsinkite ir laikykite šaldytuve."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Karamelizavimas"
+      },
+      "text": {
+        "lt": "Pabarstykite cukrumi ir karamelizuokite su degikliu prieš patiekiant."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Svarbu, kad grietinėlė nebūtų per karšta, kai įdedate ją į trynius."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/creme-brulee-su-karamelizuotu-cukrumi.jpg",
+    "alt": "Crème Brûlée su karamelizuotu cukrumi ir švelniu kremu viduje",
+    "width": 2272,
+    "height": 1704
+  },
+  "tags": [
+    "Crème Brûlée",
+    "prancūziškas desertas",
+    "karamelizuotas cukrus",
+    "lengvas receptas",
+    "skanus kremas"
+  ],
+  "author": {
+    "name": "Gentgeen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Crème_Brûlée_I",
+    "pageTitle": "Cookbook:Crème_Brûlée_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:11:08.616Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACr%C3%A8me_Br%C3%BBl%C3%A9e_I&action=history",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Crem_brule_closeup.jpg",
+    "author": {
+      "name": "No machine-readable author provided. BenFrantzDale~commonswiki assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:BenFrantzDale~commonswiki"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Crem_brule_closeup.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:11:08+03:00",
+  "createdAt": "2025-12-23T07:11:08+03:00",
+  "updatedAt": "2025-12-23T07:11:08+03:00"
+}

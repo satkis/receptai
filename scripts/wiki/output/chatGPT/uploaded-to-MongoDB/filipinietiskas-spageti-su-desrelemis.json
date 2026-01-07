@@ -1,0 +1,266 @@
+{
+  "slug": "filipinietiskas-spageti-su-desrelemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/filipinietiskas-spageti-su-desrelemis",
+  "title": {
+    "lt": "Filipinietiški spagečiai su dešrelėmis"
+  },
+  "description": {
+    "lt": "Filipinietiški spagečiai yra mėgstamas patiekalas tarp filipinų šeimų, ypač vaikų gimtadieniams. Šis receptas jungia saldžius ir sūrus elementus, naudojant dešreles, bananų kečupą ir pomidorų padažą, sukuriant unikalų skonį."
+  },
+  "seo": {
+    "metaTitle": "Filipinietiški spagečiai su dešrelėmis | Autentiškas receptas",
+    "metaDescription": "Išbandykite filipinietišką spagečių receptą su dešrelėmis, bananų kečupu ir sūriu. Puikiai tinka vaikų gimtadieniams ir šeimos vakarienėms.",
+    "keywords": [
+      "Filipinietiški spagečiai",
+      "spagečiai su dešrelėmis",
+      "bananų kečupas",
+      "vaikų gimtadienis",
+      "filipinų virtuvė"
+    ],
+    "recipeCategory": "makaronai",
+    "recipeCuisine": "Filipinų",
+    "nutrition": {
+      "calories": 600,
+      "proteinContent": "25g",
+      "fatContent": "30g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/makaronai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Dešrelės"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jūros druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malta kiauliena"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų pasta"
+      },
+      "quantity": "2.5 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bananų kečupas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų tyrė"
+      },
+      "quantity": "700g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištienos sultinys"
+      },
+      "quantity": "0.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojų padažas"
+      },
+      "quantity": "2.5 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovinti spagečiai"
+      },
+      "quantity": "600g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas čedario sūris"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Aliejaus kaitinimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite augalinį aliejų keptuvėje ant vidutinės ugnies."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Dešrelių kepimas"
+      },
+      "text": {
+        "lt": "Įdėkite dešreles ir kepkite, dažnai maišydami, apie 3–4 minutes, kol apskrus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Svogūnų ir česnakų kepimas"
+      },
+      "text": {
+        "lt": "Išimkite dešreles, palikdami aliejų, ir sudėkite svogūnus bei druską. Kepkite 5–6 minutes, kol suminkštės. Tada pridėkite česnakus ir kepkite dar minutę."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Maltos kiaulienos kepimas"
+      },
+      "text": {
+        "lt": "Įdėkite maltą kiaulieną ir kepkite, maišydami, kol ji taps vienodai iškepusi."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Įdėkite pomidorų pastą ir kepkite minutę. Grąžinkite dešreles į keptuvę, pridėkite bananų kečupą, pomidorų tyrę, vištienos sultinį ir sojų padažą. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Padažo troškinimas"
+      },
+      "text": {
+        "lt": "Užvirkite, tada sumažinkite ugnį ir troškinkite 10–15 minučių, kad skoniai susimaišytų."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Spagečių virimas"
+      },
+      "text": {
+        "lt": "Kol padažas troškinasi, virkite spagečius pagal pakuotės nurodymus iki al dente. Nusausinkite ir grąžinkite į puodą."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Įmaišykite kelis šaukštus padažo į spagečius, kad jie būtų padengti. Patiekite lėkštėse, užpilkite likusį padažą ir pabarstykite tarkuotu čedario sūriu."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/filipinietiskas-spageti-su-desrelemis.jpg",
+    "alt": "Filipinietiški spagečiai su dešrelėmis ir sūriu",
+    "width": 5058,
+    "height": 3372
+  },
+  "tags": [
+    "Filipinietiški spagečiai",
+    "spagečiai su dešrelėmis",
+    "bananų kečupas",
+    "filipinų virtuvė",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Me Lendroz",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Me%20Lendroz"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Filipino-style_Spaghetti",
+    "pageTitle": "Cookbook:Filipino-style_Spaghetti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T18:58:54+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFilipino-style_Spaghetti&action=history",
+    "originalCreator": {
+      "name": "Me Lendroz",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Me%20Lendroz"
+    }
+  },
+  "originalImage": {
+    "fileName": "Spaghetti_Filipino_Recipe.jpg",
+    "author": {
+      "name": "pulaw",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Obsidian%20Soul"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Spaghetti_Filipino_Recipe.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:58:54+03:00",
+  "createdAt": "2026-01-04T18:58:54+03:00",
+  "updatedAt": "2026-01-04T18:58:54+03:00"
+}

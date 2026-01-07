@@ -1,0 +1,308 @@
+{
+  "slug": "kepti-ryziai-su-darzovemis-ir-sojos-padazu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kepti-ryziai-su-darzovemis-ir-sojos-padazu",
+  "title": {
+    "lt": "Kepti ryžiai su daržovėmis ir sojos padažu"
+  },
+  "description": {
+    "lt": "Kepti ryžiai - tai paprastas ir greitas patiekalas, kurį galima pritaikyti pagal turimus ingredientus. Jis puikiai tinka pasinaudoti likučiais iš vakarienės, o sojos padažas ir įvairios daržovės suteikia skonio ir maistingumo. Galite pridėti tofu, vištieną ar jūros gėrybes - kiekvienas ras sau tinkamą variantą."
+  },
+  "seo": {
+    "metaTitle": "Kepti ryžiai su daržovėmis ir sojos padažu | Greitas receptas",
+    "metaDescription": "Greitas ir lengvas keptų ryžių receptas su daržovėmis ir sojos padažu. Puikiai tinka pasinaudoti likučiais ir eksperimentuoti su ingredientais.",
+    "keywords": [
+      "kepti ryžiai",
+      "ryžių receptas",
+      "sojos padažas",
+      "greitas maistas",
+      "daržovės"
+    ],
+    "recipeCategory": "ryziai",
+    "recipeCuisine": "Rytų Azijos",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "10g",
+      "fatContent": "15g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/ryziai",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Virti ryžiai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojos padažas"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žirneliai"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pupelių daigai"
+      },
+      "quantity": "100g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Bok choy"
+      },
+      "quantity": "100g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Inkstų pupelės"
+      },
+      "quantity": "100g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Grybai"
+      },
+      "quantity": "100g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Morka"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Vakuoti kukurūzai"
+      },
+      "quantity": "100g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Keptas tofu"
+      },
+      "quantity": "100g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Aromatinės daržovės"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "žiupsnelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Čili pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Keptų ryžių prieskoniai"
+      },
+      "quantity": "žiupsnelis",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pasiruošimas"
+      },
+      "text": {
+        "lt": "Jei naudojate tofu, jį apkepkite. Jei naudojate svogūnus, supjaustykite juos norimo dydžio gabaliukais."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Daržovių paruošimas"
+      },
+      "text": {
+        "lt": "Jei naudojate bok choy, atskirkite lapus nuo kotelių. Supjaustykite lapus skersai į juostas."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mėsos paruošimas"
+      },
+      "text": {
+        "lt": "Jei naudojate mėsą, supjaustykite ją gabaliukais ir pakepinkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Keptuvės paruošimas"
+      },
+      "text": {
+        "lt": "Į didelę keptuvę įpilkite daug aliejaus, kad ryžiai nepriliptų. Įkaitinkite ant vidutinės-aukštos ugnies."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Ryžių kepimas"
+      },
+      "text": {
+        "lt": "Į keptuvę sudėkite ryžius. Virkite maišydami, kol jie bus karšti ir šiek tiek apskrudę."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Ingredientų pridėjimas"
+      },
+      "text": {
+        "lt": "Įpilkite sojos padažo, pridėkite mėsą, kiaušinius ir visas daržoves, išskyrus svogūnus ir pupelių daigus."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Pagardinimas"
+      },
+      "text": {
+        "lt": "Pagardinkite pipirais, cukrumi ir, jei norite, druska."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Baigiamieji darbai"
+      },
+      "text": {
+        "lt": "Kai ryžiai beveik paruošti, pridėkite tofu, pupelių daigus ir svogūnus. Būkite atsargūs, kad neperkeptumėte."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Kepti ryžiai puikiai tinka pasinaudoti vakarienės likučiais ir eksperimentuoti su ingredientais."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kepti-ryziai-su-darzovemis-ir-sojos-padazu.jpg",
+    "alt": "Kepti ryžiai su daržovėmis ir sojos padažu",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "kepti ryžiai",
+    "ryžių receptas",
+    "sojos padažas",
+    "greitas maistas",
+    "daržovės"
+  ],
+  "author": {
+    "name": "AlbertCahalan",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Rice",
+    "pageTitle": "Cookbook:Fried_Rice",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:20:00.496Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Rice&action=history",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_rice_by_Adonis_Chen_in_Keelung,_Taiwan.jpg",
+    "author": {
+      "name": "Adonis Chen from Keelung, Taiwan",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Opponent"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fried_rice_by_Adonis_Chen_in_Keelung%2C_Taiwan.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:20:00+03:00",
+  "createdAt": "2026-01-04T19:20:00+03:00",
+  "updatedAt": "2026-01-04T19:20:00+03:00"
+}

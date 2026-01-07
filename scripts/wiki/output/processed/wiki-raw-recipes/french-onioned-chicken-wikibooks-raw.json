@@ -1,0 +1,81 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Onioned_Chicken",
+    "pageTitle": "Cookbook:French_Onioned_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Onioned_Chicken&action=history",
+    "extractedAt": "2026-01-04T16:09:39.491Z"
+  },
+  "recipe": {
+    "title": "Cookbook:French Onioned Chicken",
+    "slug": "french-onioned-chicken",
+    "description": "French onioned chicken is a type of dish made from chicken breast.",
+    "ingredients": [
+      "Egg, beaten",
+      "Boneless chicken breast",
+      "French-fried onions, crushed",
+      "Paprika (optional)"
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C.",
+      "Dip the chicken into the beaten, then dip it into the crushed onions. Make sure the chicken is well-coated, then transfer to parchment-lined baking sheet.",
+      "Bake the chicken for 20 minutes or until it's no longer pink on the inside.",
+      "Serve hot."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "National Nigerian recipes",
+      "Recipes using chicken breast",
+      "Recipes using egg"
+    ]
+  },
+  "image": {
+    "filename": "Fried_chicken_and_french_fries_-_Summer_Shack_-_Cambridge,_MA.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Fried_chicken_and_french_fries_-_Summer_Shack_-_Cambridge%2C_MA.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fried_chicken_and_french_fries_-_Summer_Shack_-_Cambridge,_MA.jpg",
+    "localPath": "scripts/wiki/output/Fried_chicken_and_french_fries_-_Summer_Shack_-_Cambridge,_MA.jpg",
+    "dimensions": {
+      "width": 3780,
+      "height": 2835
+    },
+    "fileSize": 3194153,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Daderot",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Daderot"
+    },
+    "metadata": {
+      "description": "Fried chicken and french fries - Summer Shack - Cambridge, Massachusetts, USA.",
+      "categories": [
+        "CC-Zero",
+        "Southern fried chicken",
+        "Self-published work",
+        "Uploaded with Mobile/Android",
+        "Photographs taken on 2021-09-28",
+        "Food in Cambridge, Massachusetts"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_chicken_and_french_fries_-_Summer_Shack_-_Cambridge,_MA.jpg"
+  }
+}

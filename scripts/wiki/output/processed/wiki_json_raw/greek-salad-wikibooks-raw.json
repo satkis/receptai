@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Greek_Salad",
+    "pageTitle": "Cookbook:Greek_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Philby",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Philby"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreek_Salad&action=history",
+    "extractedAt": "2026-01-06T13:46:25.497Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Greek Salad",
+    "slug": "greek-salad",
+    "description": "Category:Recipes for salad Category:Recipes using green bell pepper Category:Recipes using cucumber Category:Recipes using tomato Category:Recipes using onion Category:Recipes using olive Category:Recipes using salt Category:Recipes using cheese Category:Recipes using oregano Category:Recipes using feta",
+    "ingredients": [
+      "Red tomatoes, chopped",
+      "Cucumber, sliced into rounds",
+      "Red or white onions, sliced into half-moons",
+      "Green bell peppers, cut into small pieces",
+      "Greek olives",
+      "Extra-virgin or virgin olive oil",
+      "Vinegar or lemon juice",
+      "Salt",
+      "Feta cheese",
+      "Oregano"
+    ],
+    "instructions": [
+      "Combine tomatoes, cucumbers, onions, peppers, and olives in a deep bowl.",
+      "Add enough olive oil, vinegar or lemon juice, and salt to taste. Toss the ingredients for half a minute.",
+      "Place a feta cheese slice on top and season with a splash of olive oil.",
+      "Top with a sprig of oregano if desired."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for salad",
+      "Recipes using green bell pepper",
+      "Recipes using cucumber",
+      "Recipes using tomato",
+      "Recipes using onion",
+      "Recipes using olive",
+      "Recipes using salt",
+      "Recipes using cheese",
+      "Recipes using oregano",
+      "Recipes using feta"
+    ]
+  },
+  "image": {
+    "filename": "GreekSalad.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/GreekSalad.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:GreekSalad.jpg",
+    "localPath": "scripts/wiki/output/GreekSalad.jpg",
+    "dimensions": {
+      "width": 400,
+      "height": 388
+    },
+    "fileSize": 21915,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "en:User:Action st",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Alensha"
+    },
+    "metadata": {
+      "description": "Greek salad",
+      "categories": [
+        "GFDL",
+        "Greek salad",
+        "License migration completed",
+        "GFDL-en"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "GreekSalad.jpg"
+  }
+}

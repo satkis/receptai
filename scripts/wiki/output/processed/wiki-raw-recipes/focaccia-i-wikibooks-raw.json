@@ -1,0 +1,128 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Focaccia_I",
+    "pageTitle": "Cookbook:Focaccia_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "67.101.36.29",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:67.101.36.29"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFocaccia_I&action=history",
+    "extractedAt": "2026-01-04T16:03:34.716Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Focaccia I",
+    "slug": "focaccia-i",
+    "description": "Focaccia is a flat, leavened bread native to Italy.",
+    "ingredients": [
+      "{| class=\"wikitable\" style=\"background: none\"",
+      "!Ingredient",
+      "!Count",
+      "!Volume<ref group=\"note\">Weight conversions from USDA National Nutrient Database. Original recipe text and ingredient order preserved. </ref>",
+      "!Weight",
+      "!Baker's %<ref group=\"note\">Baker's percentages. This column represents the total formula. The procedure section describes a modified sponge and dough process.</ref>",
+      "|-",
+      "|Active dry yeast (non-instant) <ref group=\"note\">This amount of yeast will result in a perceptible yeast flavor. To reduce this flavor, it is recommend to use no more than 1.05% active dry yeast, although you can expect fermentation time to increase somewhat. Further reductions will result in less yeast flavor and longer bulk fermentation times.</ref>",
+      "|",
+      "|2 teaspoons",
+      "|8 g",
+      "|1.6%",
+      "|-",
+      "|Warm water (approx. 110°F / 43°C)",
+      "|",
+      "|1 ½ cups",
+      "|355.5 g",
+      "|71.1%",
+      "|-",
+      "|Unbleached all-purpose flour",
+      "|",
+      "|4 cups",
+      "|500 g",
+      "|100%",
+      "|-",
+      "|Extra-virgin olive oil",
+      "|",
+      "|5 tablespoons",
+      "|67.5 g",
+      "|13.5%",
+      "|-",
+      "|Sea salt",
+      "|",
+      "|3 teaspoons",
+      "|18 g",
+      "|3.6%",
+      "|-",
+      "|Total",
+      "|",
+      "|n/a",
+      "|949 g",
+      "|190%",
+      "|}"
+    ],
+    "instructions": [
+      "Sprinkle one teaspoon of the yeast over ½ cup of the water in a medium bowl. Stir to mix, and let stand 10 minutes. Stir in ¾ cup flour, cover tightly with plastic and let rise in warm place until doubled, about 45 minutes.",
+      "In a large bowl, sprinkle the remaining teaspoon of yeast over 1 cup of warm water, mix and let stand 10 minutes. Add the first yeast mixture (now risen) along with 3 tablespoons of olive oil and 2 teaspoons of salt, mix well. Add the remaining flour gradually, mixing well after each addition until well incorporated.",
+      "On a lightly floured work surface, turn the dough out and knead until soft, about 10 minutes.",
+      "Place the dough in a lightly oiled bowl, cover tightly and let rise in warm place until doubled, about 1 ½ hours.",
+      "Oil an 11\" x 14\" (28 cm x 36 cm) baking pan and turn the risen dough out onto the pan, flattening it out to the edges. If the dough springs back too much to cover the pan, allow it to rest for 10 minutes before resuming. Cover with a clean towel and let rise 45 minutes to an hour.",
+      "Preheat oven to 425 °F (220 °C). Remove towel and press indentations into the dough with your fingertips, then drizzle with the remaining 2 tablespoons of olive oil, sprinkle with sea salt and place pan in oven. Bake 20 to 25 minutes, or until the top is golden.",
+      "Remove the focaccia from the pan as soon as it is out of the oven and let cool on a rack before serving."
+    ],
+    "notes": [
+      "↑ Weight conversions from USDA National Nutrient Database. Original recipe text and ingredient order preserved.",
+      "↑ Baker's percentages. This column represents the total formula.  The procedure section describes a modified sponge and dough process.",
+      "↑ This amount of yeast will result in a perceptible yeast flavor.  To reduce this flavor, it is recommend to use no more than 1.05% active dry yeast, although you can expect fermentation time to increase somewhat.  Further reductions will result in less yeast flavor and longer bulk fermentation times."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for focaccia",
+      "Baking recipes",
+      "Italian recipes",
+      "Recipes with metric units",
+      "Recipes using all-purpose flour"
+    ]
+  },
+  "image": {
+    "filename": "Focaccia.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Focaccia.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Focaccia.jpg",
+    "localPath": "scripts/wiki/output/Focaccia.jpg",
+    "dimensions": {
+      "width": 1536,
+      "height": 2048
+    },
+    "fileSize": 1470501,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jeremy Keith",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "metadata": {
+      "description": "A variety of breads including Focaccia.",
+      "categories": [
+        "Focaccia",
+        "Taken with Canon Digital IXUS 50",
+        "Flickr images uploaded by Flickr upload bot",
+        "Cheese bread",
+        "Files from Jeremy Keith Flickr stream"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Focaccia.jpg"
+  }
+}

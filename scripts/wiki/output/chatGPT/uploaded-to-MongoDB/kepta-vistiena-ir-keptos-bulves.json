@@ -1,0 +1,190 @@
+{
+  "slug": "kepta-vistiena-ir-keptos-bulves",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kepta-vistiena-ir-keptos-bulves",
+  "title": {
+    "lt": "Keptas vištiena ir keptos bulvės"
+  },
+  "description": {
+    "lt": "Keptas vištiena ir keptos bulvės – tai skanus ir sotus patiekalas, kuris puikiai tinka šeimos vakarienei. Traškios bulvių skiltelės ir aromatinga vištiena su kuminu sukuria nepamirštamą skonį."
+  },
+  "seo": {
+    "metaTitle": "Keptas vištiena ir keptos bulvės | Tradicinis receptas",
+    "metaDescription": "Traškios keptos bulvės ir aromatinga vištiena su kuminu – puikus patiekalas šeimos vakarienei. Paprastas ir skanus receptas.",
+    "keywords": [
+      "keptas vištiena",
+      "keptos bulvės",
+      "patiekalas su kuminu",
+      "tradicinis receptas",
+      "šeimos vakarienė"
+    ],
+    "recipeCategory": "seimai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "25g",
+      "fatContent": "20g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 80,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/seimai",
+  "secondaryCategories": [
+    "receptai/kepta-keptuveje"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "3.5 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "0.5 l",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištiena"
+      },
+      "quantity": "1.1 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kuminas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Bulvių paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite bulves ir supjaustykite jas skiltelėmis. Jos gali būti mažos arba didelės, kaip jums patinka."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Bulvių kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje iki maždaug 175°C. Kepkite bulves aliejuje, kol jos taps šviesiai rudos. Kai bulvės iškeps, pasūdykite jas pagal skonį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Vištienos kepimas"
+      },
+      "text": {
+        "lt": "Kepkite vištieną apie 5 minutes. Išleiskite aliejų arba perkelkite vištieną į kitą keptuvę."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Vištienos troškinimas"
+      },
+      "text": {
+        "lt": "Pabarstykite vištieną druska, įpilkite 180 ml vandens ir troškinkite 15–20 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Galutinis paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite vištieną ir bulves (bulvės viršuje). Įdėkite kumino ir troškinkite dar apie 20 minučių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, kad bulvės būtų traškesnės, galite jas šiek tiek paspausti prieš kepdami."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kepta-vistiena-ir-keptos-bulves.jpg",
+    "alt": "Keptas vištiena ir traškios keptos bulvės",
+    "width": 613,
+    "height": 609
+  },
+  "tags": [
+    "keptas vištiena",
+    "keptos bulvės",
+    "vištienos receptas",
+    "traškios bulvės",
+    "šeimos patiekalas"
+  ],
+  "author": {
+    "name": "Omegarad~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Omegarad~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Chicken_and_Fried_Potatoes",
+    "pageTitle": "Cookbook:Fried_Chicken_and_Fried_Potatoes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:15:27.396Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Chicken_and_Fried_Potatoes&action=history",
+    "originalCreator": {
+      "name": "Omegarad~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Omegarad~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Qurighan.jpg",
+    "author": {
+      "name": "w:User:Omegarad",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Mike.lifeguard"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Qurighan.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Qurighan.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:15:27+03:00",
+  "createdAt": "2026-01-04T19:15:27+03:00",
+  "updatedAt": "2026-01-04T19:15:27+03:00"
+}

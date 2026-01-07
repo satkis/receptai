@@ -1,0 +1,114 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Coca",
+    "pageTitle": "Cookbook:Algerian_Coca",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "SvnnyBvnny",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:SvnnyBvnny"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlgerian_Coca&action=history",
+    "extractedAt": "2025-11-21T14:03:55.597Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Algerian Coca",
+    "slug": "algerian-coca",
+    "description": "Algerian coca (كوكة) is a savory pastry that is popular in Algeria, particularly in the city of Oran. It is similar to a thin-crust pizza or a flatbread, often topped with a variety of ingredients such as onions, tomatoes, peppers, and sometimes meat or fish.",
+    "ingredients": [
+      "500 g (4 cups) all-purpose flour",
+      "1 teaspoon salt",
+      "1 tablespoon sugar",
+      "1 packet (7 g) active dry yeast",
+      "250 ml (1 cup) warm water",
+      "3 tablespoons olive oil",
+      "2 large onions, thinly sliced",
+      "2 large tomatoes, thinly sliced",
+      "1 bell pepper, thinly sliced",
+      "2–3 cloves garlic, minced",
+      "2 tablespoons olive oil",
+      "1 teaspoon paprika",
+      "1 teaspoon ground cumin",
+      "Salt and pepper to taste",
+      "Black olives, whole or sliced",
+      "Chopped fresh parsley (optional)"
+    ],
+    "instructions": [
+      "In a bowl, dissolve the sugar in warm water, then sprinkle the yeast. Let sit 10 minutes until frothy.",
+      "In a large mixing bowl, combine the flour and salt. Make a well in the center and pour in the yeast mixture and olive oil. Mix until a dough forms.",
+      "Turn the dough out onto a floured surface and knead for about 10 minutes until it becomes smooth and elastic.",
+      "Place the dough in a lightly oiled bowl, cover with a clean kitchen towel, and let it rise in a warm place for about 1 hour or until it doubles in size.",
+      "Heat the olive oil over medium heat in a large skillet. Add the sliced onions and cook until they become soft and translucent, about 10 minutes.",
+      "Add the garlic, paprika, cumin, salt, and pepper to the onions. Stir well and cook for another 2–3 minutes.",
+      "Add the sliced tomatoes and bell peppers to the skillet. Cook for another 5–7 minutes until the vegetables are soft but not mushy. Remove from heat and let it cool slightly.",
+      "Preheat your oven to 200°C (400°F).",
+      "Press the risen dough to deflate it, then divide it into two equal portions. Roll out each portion into a thin rectangle or oval shape, about ¼ inch thick.",
+      "Transfer the rectangles to one or more baking sheets lined with parchment paper. Spread the cooked vegetable mixture evenly over the rolled-out dough.",
+      "Bake in the preheated oven for about 20–25 minutes, or until the edges are golden brown and the dough is cooked through.",
+      "Remove the coca from the oven and let it cool slightly. Garnish with chopped fresh parsley and olives if desired.",
+      "Cut into squares or slices and serve warm."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Baked recipes",
+      "Algerian recipes",
+      "Vegetarian recipes",
+      "Recipes for pastries",
+      "Snacks recipes",
+      "Recipes_with_metric_units",
+      "Recipes using all-purpose flour",
+      "Recipes using salt",
+      "Recipes using sugar",
+      "Recipes using yeast",
+      "Recipes using olive oil",
+      "Recipes using onion",
+      "Recipes using tomato",
+      "Recipes using bell pepper",
+      "Recipes using garlic",
+      "Recipes using paprika",
+      "Recipes using cumin",
+      "Recipes using olive",
+      "Recipes using pepper"
+    ]
+  },
+  "image": {
+    "filename": "Coca_argelina.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Coca_argelina.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Coca_argelina.jpg",
+    "localPath": "scripts/wiki/output/Coca_argelina.jpg",
+    "dimensions": {
+      "width": 664,
+      "height": 415
+    },
+    "fileSize": 123916,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Galjundi7",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Galjundi7"
+    },
+    "metadata": {
+      "description": "Algerian \"Coca\"",
+      "categories": [
+        "Cuisine of Algeria",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Coca_argelina.jpg"
+  }
+}

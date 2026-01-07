@@ -1,0 +1,89 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Blackberry_Oat_Bars_(Gluten-Free)",
+    "pageTitle": "Cookbook:Blackberry_Oat_Bars_(Gluten-Free)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlackberry_Oat_Bars_(Gluten-Free)&action=history",
+    "extractedAt": "2025-11-27T13:10:56.646Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Blackberry Oat Bars (Gluten-Free)",
+    "slug": "blackberry-oat-bars-gluten-free",
+    "description": "Gluten-free, vegan-friendly blackberry oat bars that could be breakfast Monday morning.",
+    "ingredients": [
+      "3 cups whole grain oats",
+      "1 cup almond flour",
+      "1 dash of salt",
+      "½ cup coconut oil, melted",
+      "½ cup packed brown sugar",
+      "¼ cup honey",
+      "1 teaspoon vanilla extract",
+      "¼ teaspoon ground cinnamon",
+      "2 teaspoons almond butter",
+      "2 pints fresh blackberries",
+      "2 tablespoons sugar"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using blackberry",
+      "Vegan recipes",
+      "Gluten-free recipes",
+      "Recipes from Foodista",
+      "Recipes with images",
+      "Recipes using almond butter",
+      "Recipes using almond flour",
+      "Recipes using brown sugar",
+      "Recipes using ground cinnamon",
+      "Recipes using coconut oil",
+      "Recipes using honey"
+    ]
+  },
+  "image": {
+    "filename": "Gluten-Free_Blackberry_Oat_Bars.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Gluten-Free_Blackberry_Oat_Bars.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gluten-Free_Blackberry_Oat_Bars.jpg",
+    "localPath": "scripts/wiki/output/Gluten-Free_Blackberry_Oat_Bars.jpg",
+    "dimensions": {
+      "width": 809,
+      "height": 1214
+    },
+    "fileSize": 432246,
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Simmer + Sauce",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:NMaia"
+    },
+    "metadata": {
+      "description": "Gluten-Free Blackberry Oat Bars",
+      "categories": [
+        "Bars (dessert)",
+        "Files from external sources with reviewed licenses",
+        "Blackberries as food",
+        "Vegan sweet food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gluten-Free_Blackberry_Oat_Bars.jpg"
+  }
+}

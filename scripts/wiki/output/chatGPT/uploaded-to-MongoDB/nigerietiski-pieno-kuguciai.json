@@ -1,0 +1,197 @@
+{
+  "slug": "nigerietiski-pieno-kuguciai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/nigerietiski-pieno-kuguciai",
+  "title": {
+    "lt": "Nigerietiški pieno kūguciai"
+  },
+  "description": {
+    "lt": "Nigerietiški pieno kūguciai yra skanūs kepiniai, dažniausiai valgomi šiaurinėje Nigerijos dalyje per įvairias šventes ir vestuves. Jie taip pat dažnai randami kaip gatvės maistas. Šis receptas padės jums paruošti traškius ir saldžius pieno kūgucius, kurie puikiai tinka prie kavos ar arbatos."
+  },
+  "seo": {
+    "metaTitle": "Nigerietiški pieno kūguciai | Tradicinis receptas",
+    "metaDescription": "Paruoškite traškius ir saldžius nigeriškus pieno kūgucius. Puikus skanėstas prie kavos ar arbatos.",
+    "keywords": [
+      "nigerietiški pieno kūguciai",
+      "pieno kūguciai",
+      "nigerietiškas desertas",
+      "fritters",
+      "nigerietiški kepiniai"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Nigeriečių",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "3g",
+      "fatContent": "8g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 0,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 25,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/desertai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Pieno milteliai"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "50g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kukurūzų krakmolas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės milteliai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "Gausiai kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sudedamųjų dalių maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite pieno miltelius, cukrų, kukurūzų krakmolą ir vanilės miltelius dubenyje. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Įpilkite pakankamai vandens, kad susidarytų tešla. Gerai išmaišykite, kol tešla taps vientisa."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kūgučių formavimas"
+      },
+      "text": {
+        "lt": "Sutepkite rankas augaliniu aliejumi ir suformuokite mažus tešlos rutuliukus."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite augalinį aliejų keptuvėje ir kepkite tešlos rutuliukus, kol jie taps auksinės spalvos."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite kūgucius iš aliejaus, nusausinkite ant popierinių rankšluosčių ir patiekite šviežius."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Į tešlą galite pridėti čili pipirų, anakardžių riešutų arba kokoso, kad sukurtumėte skirtingus skonius."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/nigerietiski-pieno-kuguciai.jpg",
+    "alt": "Nigerietiški pieno kūguciai indelyje",
+    "width": 3120,
+    "height": 3120
+  },
+  "tags": [
+    "nigerietiški pieno kūguciai",
+    "pieno kūguciai",
+    "nigerietiškas desertas",
+    "fritters",
+    "nigeriški kepiniai"
+  ],
+  "author": {
+    "name": "Tesleemah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gullisuwa_(Nigerian_Milk_Balls)",
+    "pageTitle": "Cookbook:Gullisuwa_(Nigerian_Milk_Balls)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:56:41.229Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGullisuwa_(Nigerian_Milk_Balls)&action=history",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gulgule.jpg",
+    "author": {
+      "name": "Suyash Dwivedi",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Suyash.dwivedi"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gulgule.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

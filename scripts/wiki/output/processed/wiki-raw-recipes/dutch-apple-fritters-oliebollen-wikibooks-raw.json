@@ -1,0 +1,111 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dutch_Apple_Fritters_(Oliebollen)",
+    "pageTitle": "Cookbook:Dutch_Apple_Fritters_(Oliebollen)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "216.177.2.140",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:216.177.2.140"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADutch_Apple_Fritters_(Oliebollen)&action=history",
+    "extractedAt": "2026-01-03T11:28:37.301Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Dutch Apple Fritters (Oliebollen)",
+    "slug": "dutch-apple-fritters-oliebollen",
+    "description": "Oliebollen (literally: oil dumplings) are a type of Dutch apple fritter. They are served at Dutch festivals in the United States, such as the Holland Happening Festival in Oak Harbor, Washington.",
+    "ingredients": [
+      "2 tbsp sugar",
+      "1 cup warm water",
+      "2 package active dry yeast",
+      "5 eggs",
+      "2 cups scalded milk",
+      "1 ½ cups warm water",
+      "½ cup margarine, softened",
+      "10 cups flour",
+      "1 cup white granulated sugar",
+      "1½ tsp salt",
+      "3 Granny Smith apples (optional), diced",
+      "3 cups sugar",
+      "Ground cinnamon to taste",
+      "1 cup raisins (optional)",
+      "Canola oil or shortening for frying"
+    ],
+    "instructions": [
+      "Dissolve sugar in warm water. Sprinkle yeast on top. Let stand for about 10 minutes.",
+      "In a large mixing bowl, beat eggs until mixed. Add scalded milk, warm water, yeast mixture, and margarine. Beat well.",
+      "Add flour, sugar, and salt. Mix well. Add diced apple.",
+      "Let dough rise in a warm place until doubled in size. A lobster pot works well for this.",
+      "In a separate bowl, mix the sugar with cinnamon to taste. Set aside.",
+      "Fill a fryer pot with 4 inches of canola oil or melted shortening. Heat to 375°F (190°C).",
+      "Scoop large spoonfuls of dough into the hot oil. Dipping the spoons in the hot oil before scooping the dough keeps the spoons from getting too sticky.",
+      "Fry the oliebollen until golden brown, turning them to ensure even cooking.",
+      "Remove the oliebollen, and place on paper towels on paper bags.",
+      "Roll oliebollen in the cinnamon sugar mixture, and serve warm."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Dutch recipes",
+    "categories": [
+      "Dumpling recipes|{{PAGENAME}}",
+      "Dutch recipes|{{PAGENAME}}",
+      "Deep fried recipes",
+      "Recipes for pastries",
+      "Recipes for dessert",
+      "Recipes using egg",
+      "Recipes using apple",
+      "Recipes using ground cinnamon",
+      "Recipes using wheat flour",
+      "Recipes using white sugar",
+      "Recipes using margarine",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Oliebollen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Oliebollen.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Oliebollen.jpg",
+    "localPath": "scripts/wiki/output/Oliebollen.jpg",
+    "dimensions": {
+      "width": 600,
+      "height": 450
+    },
+    "fileSize": 227202,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Takeaway",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Takeaway"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "GFDL",
+        "User-created GFDL images",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Oliebollen",
+        "Images of low quality",
+        "License migration completed",
+        "Media missing infobox template",
+        "Self-published work",
+        "Low quality food and drink pictures"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Oliebollen.jpg"
+  }
+}

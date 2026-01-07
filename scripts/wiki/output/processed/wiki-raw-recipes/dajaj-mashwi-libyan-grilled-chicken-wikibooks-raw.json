@@ -1,0 +1,105 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dajaj_Mashwi_(Libyan_Grilled_Chicken)",
+    "pageTitle": "Cookbook:Dajaj_Mashwi_(Libyan_Grilled_Chicken)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADajaj_Mashwi_(Libyan_Grilled_Chicken)&action=history",
+    "extractedAt": "2026-01-03T11:26:32.361Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Dajaj Mashwi (Libyan Grilled Chicken)",
+    "slug": "dajaj-mashwi-libyan-grilled-chicken",
+    "description": "Dajaj mashwi is a mouthwatering Libyan dish featuring grilled chicken that is marinated in a flavorful blend of herbs and spices. This dish is popular in Libyan cuisine and is often enjoyed during festive occasions and gatherings. The marinated chicken is grilled to perfection, resulting in juicy and tender meat with a delightful smoky flavor.",
+    "ingredients": [
+      "4 cloves of garlic, minced",
+      "¼ cup olive oil",
+      "2 tablespoons freshly squeezed lemon juice",
+      "2 teaspoons ground cumin",
+      "2 teaspoons ground paprika",
+      "1 teaspoon ground coriander",
+      "½ teaspoon ground cayenne pepper (adjust according to spice preference)",
+      "½ teaspoon salt",
+      "¼ teaspoon black pepper",
+      "1 whole chicken, cut into pieces",
+      "Fresh parsley or cilantro, chopped, for garnish",
+      "Lemon wedges, for serving"
+    ],
+    "instructions": [
+      "In a mixing bowl, combine the minced garlic, olive oil, lemon juice, ground cumin, paprika, coriander, cayenne pepper, salt, and black pepper. Mix well to form a smooth marinade.",
+      "Place the chicken pieces in the marinade and rub them well, ensuring that each piece is coated with the marinade. Let the chicken marinate for at least 2–4 hours, allowing the flavors to infuse.",
+      "Preheat the grill or grill pan over medium-high heat.",
+      "Place the marinated chicken pieces on the grill, skin side down. Cook for about 10–15 minutes, then flip the pieces and continue grilling for another 10–15 minutes, or until the chicken is cooked through and nicely charred.",
+      "While grilling, use a basting brush to brush any remaining marinade onto the chicken for added flavor and moisture.",
+      "Once cooked, remove the chicken from the grill and let it rest for a few minutes.",
+      "Garnish the dajaj mashwi with fresh chopped parsley or cilantro, and serve it with lemon wedges on the side."
+    ],
+    "notes": [
+      "You can use bone-in chicken pieces or boneless chicken, depending on your preference. Adjust the grilling time accordingly.",
+      "For a smokier flavor, you can add a small amount of soaked wood chips to the grill.",
+      "Ensure that the grill or grill pan is well preheated to achieve nice grill marks and prevent the chicken from sticking.",
+      "If using a charcoal grill, arrange the coals to create two zones: direct heat for searing and indirect heat for slower cooking. Start grilling the chicken over direct heat and then move it to the indirect heat zone to finish cooking.",
+      "For a spicier kick, add additional cayenne pepper or chile powder to the marinade.",
+      "Serve the dajaj mashwi with a side of traditional Libyan dips such as baba ganoush or hummus."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Libyan recipes",
+      "Recipes using whole chicken",
+      "Grilled recipes",
+      "Recipes using cilantro",
+      "Recipes using lemon juice",
+      "Recipes using coriander",
+      "Recipes using cayenne",
+      "Recipes using ground cumin"
+    ]
+  },
+  "image": {
+    "filename": "Dajaj_Mashwi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Dajaj_Mashwi.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dajaj_Mashwi.jpg",
+    "localPath": "scripts/wiki/output/Dajaj_Mashwi.jpg",
+    "dimensions": {
+      "width": 4160,
+      "height": 3120
+    },
+    "fileSize": 2262423,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Ayyappannagamani",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ayyappannagamani"
+    },
+    "metadata": {
+      "description": "It is dajaj mashwi, an Arabian Kabab",
+      "categories": [
+        "Pages with maps",
+        "Self-published work",
+        "Images from Wiki Loves Food 2015",
+        "Files with coordinates missing SDC location of creation",
+        "Cuisine of Chennai",
+        "Uploaded via Campaign:wlf",
+        "Arabian food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Dajaj_Mashwi.jpg"
+  }
+}

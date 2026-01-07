@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Agedashi_Tofu",
+    "pageTitle": "Cookbook:Agedashi_Tofu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "WhisperToMe",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:WhisperToMe"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAgedashi_Tofu&action=history",
+    "extractedAt": "2025-11-21T12:45:07.052Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Agedashi Tofu",
+    "slug": "agedashi-tofu",
+    "description": "Agedashi tofu (or agedashi dofu) &#25562;&#12370;&#20986;&#12375;&#35910;&#33104; is a simple Japanese way to serve hot tofu. Silken (kinugoshi) firm tofu, cut into cubes, is lightly dusted with potato starch or cornstarch and then deep fried until golden brown. It's then served in a hot tentsuyu broth made of dashi, mirin, and shoyu (Japanese soy sauce), and topped with finely chopped green onions or grated daikon. It is eaten with chopsticks.",
+    "ingredients": [
+      "4–6 oz (~115–170 g) soft tofu",
+      "Potato starch or corn starch",
+      "Oil for deep frying",
+      "½ cup (120 ml) dashi",
+      "2 Tbsp (30 ml) light soy sauce",
+      "1½ Tbsp (22.5 ml) mirin",
+      "Green onions, thinly sliced",
+      "Grated ginger",
+      "Grated daikon (white radish)"
+    ],
+    "instructions": [
+      "Cut the soft tofu into rectangular pieces about 1 inch thick.",
+      "Arrange the layers on rack with paper towels and leave for 10–15 minutes to drain. Change the paper and turn over the slices.",
+      "In pan, mix sauce ingredients, and heat in a pan until boiling. Turn off the heat.",
+      "Sprinkle starch on a plate. Arrange the tofu slices on it. Sprinkle more starch over the tofu.",
+      "Heat the oil to 355°F (180°C) for deep frying.",
+      "Pat any excess starch off the tofu slices and slide them into the hot oil, one by one. Don't add too many slices at once, because the tofu lowers the oil temperature. Fry until golden, turning once.",
+      "Remove and drain on paper towels.",
+      "Arrange the tofu in a dish, and pour the sauce over top. Top with a mound of grated daikon (radish), a bit of grated ginger, and sliced green onions."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using tofu",
+      "Japanese recipes",
+      "Deep fried recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Recipes using cornstarch",
+      "Recipes using white radish",
+      "Recipes using fresh ginger",
+      "Recipes using mirin"
+    ]
+  },
+  "image": {
+    "filename": "Agedashi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Agedashi.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Agedashi.jpg",
+    "localPath": "scripts/wiki/output/Agedashi.jpg",
+    "dimensions": {
+      "width": 220,
+      "height": 220
+    },
+    "fileSize": 15310,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Megwoo at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": "Agedashi Tofu",
+      "categories": [
+        "PD-user",
+        "Agedashi dofu"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Agedashi.jpg"
+  }
+}

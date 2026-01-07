@@ -1,0 +1,231 @@
+{
+  "slug": "kruasanai-prancuziskai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kruasanai-prancuziskai",
+  "title": {
+    "lt": "Kruasanai prancūziškai"
+  },
+  "description": {
+    "lt": "Kruasanai yra prancūziškas kulinarijos stebuklas, garsėjantis savo sviestine skoniu ir sluoksniuota tešla. Šie traškūs ir purūs kepiniai turi pusmėnulio formą ir yra mėgstami visame pasaulyje."
+  },
+  "seo": {
+    "metaTitle": "Kruasanai prancūziškai | Sviestiniai sluoksniuoti kepiniai",
+    "metaDescription": "Autentiškas prancūziškų kruasanų receptas su sviestine tešla. Idealiai tinka rytinei kavai ar šventiniam stalui.",
+    "keywords": [
+      "kruasanai",
+      "prancūziški kepiniai",
+      "sviestiniai kruasanai",
+      "sluoksniuota tešla",
+      "pusryčiai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "6g",
+      "fatContent": "18g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 60,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 240,
+  "timeCategory": "iki-120-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pusryciai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "300ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "50g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite šiltą pieną su sausomis mielėmis ir cukrumi. Palikite apie 30 minučių, kol mielės suputos."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos maišymas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite miltus ir druską. Palaipsniui įpilkite mielių mišinį ir maišykite, kol susidarys tešla."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sviesto paruošimas"
+      },
+      "text": {
+        "lt": "Sviestą tarp dviejų kepimo popieriaus lapų suplokite į ploną lakštą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos laminavimas"
+      },
+      "text": {
+        "lt": "Ant miltuoto paviršiaus iškočiokite tešlą į didelį stačiakampį. Uždenkite pusę tešlos sviesto lakštu ir perlenkite per pusę."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Tešlos sluoksniavimas"
+      },
+      "text": {
+        "lt": "Tešlą vėl iškočiokite ir sulenkite į tris dalis. Kartokite šį procesą 3–4 kartus, tarp kiekvieno lenkimo tešlą atvėsindami."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kruasanų formavimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą į didelį stačiakampį ir supjaustykite trikampiais. Kiekvieną trikampį suvyniokite nuo bazės iki viršūnės, suformuodami kruasaną."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kildinimas"
+      },
+      "text": {
+        "lt": "Paruoštus kruasanus sudėkite ant kepimo skardos ir leiskite jiems pakilti apie 1–2 valandas, kol išsipūs."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C. Išplakite kiaušinį ir aptepkite juo kruasanus. Kepkite 15–20 minučių, kol gražiai paruduos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti šokolado gabalėlius, kad įdarytumėte kruasanus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kruasanai-prancuziskai.jpg",
+    "alt": "Šviežiai iškepti prancūziški kruasanai",
+    "width": 1080,
+    "height": 1350
+  },
+  "tags": [
+    "kruasanai",
+    "prancūziški kepiniai",
+    "sviestiniai kruasanai",
+    "sluoksniuota tešla",
+    "pusryčiai"
+  ],
+  "author": {
+    "name": "Edriiic",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Edriiic"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Croissant",
+    "pageTitle": "Cookbook:Croissant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:11:03.503Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACroissant&action=history",
+    "originalCreator": {
+      "name": "Edriiic",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Edriiic"
+    }
+  },
+  "originalImage": {
+    "fileName": "Freshly_baked_croissants.jpg",
+    "author": {
+      "name": "Asimilovana",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Asimilovana"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Freshly_baked_croissants.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

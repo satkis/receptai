@@ -1,0 +1,87 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Carrot_Salad",
+    "pageTitle": "Cookbook:Carrot_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Ragesoss",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Ragesoss"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACarrot_Salad&action=history",
+    "extractedAt": "2025-12-21T17:59:35.898Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Carrot Salad",
+    "slug": "carrot-salad",
+    "description": "*Fresh greens like matzumi or baby Chinese mustard, or even Boston lettuce (optional) *Chives (optional)",
+    "ingredients": [
+      "Carrots (about 4 medium sized)",
+      "Almond oil",
+      "White balsalmic vinegar (or a mix of two parts red wine vinegar to one part balsamic vinegar)",
+      "Coarse salt",
+      "Freshly-ground pepper",
+      "Pine nuts",
+      "Fresh greens like matzumi or baby Chinese mustard, or even Boston lettuce (optional)",
+      "Chives (optional)"
+    ],
+    "instructions": [
+      "Julliene the carrots (or grate them if julienning is not feasible).",
+      "Coat with about 1–2 tablespoons of almond oil.",
+      "Sprinkle generously with vinegar, salt, and pepper.",
+      "Add a hefty serving of pine nuts."
+    ],
+    "notes": [
+      "Carrot salad wrapped in greens: Place a little bit of the carrot salad on a green leaf and wrap it up, tying it with a chive. They make about 2-bite hors d'œuvres that are light, healthy, and surprisingly filling. If you can get a-hold of the young mustard greens, they add a fantastic spiciness to it that can't be matched."
+    ],
+    "servings": 2,
+    "totalTimeMinutes": 5,
+    "difficulty": 1,
+    "category": "Salad recipes",
+    "categories": [
+      "Recipes using carrot",
+      "Recipes for salad",
+      "Vegan recipes",
+      "Recipes with images",
+      "Recipes using chive"
+    ]
+  },
+  "image": {
+    "filename": "Nest_of_Carrot_Salad,_by_LadyofProcrastination.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Nest_of_Carrot_Salad%2C_by_LadyofProcrastination.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nest_of_Carrot_Salad,_by_LadyofProcrastination.jpg",
+    "localPath": "scripts/wiki/output/Nest_of_Carrot_Salad,_by_LadyofProcrastination.jpg",
+    "dimensions": {
+      "width": 2592,
+      "height": 1944
+    },
+    "fileSize": 1849632,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Melinda",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "metadata": {
+      "description": "A carrot salad, made according to this recipe",
+      "categories": [
+        "Taken with Canon PowerShot S2 IS",
+        "Carrot salads",
+        "Flickr images uploaded by Flickr upload bot",
+        "Grated carrots"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Nest_of_Carrot_Salad,_by_LadyofProcrastination.jpg"
+  }
+}

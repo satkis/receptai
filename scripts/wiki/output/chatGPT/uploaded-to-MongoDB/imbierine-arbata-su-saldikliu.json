@@ -1,0 +1,158 @@
+{
+  "slug": "imbierine-arbata-su-saldikliu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/imbierine-arbata-su-saldikliu",
+  "title": {
+    "lt": "Imbiero arbata su saldikliu"
+  },
+  "description": {
+    "lt": "Imbiero arbata – tai gaivus gėrimas, gaminamas iš šviežio imbiero. Jis gali padėti nuraminti kosulį ir gerklės skausmą, taip pat šildyti kūną šaltuoju metų laiku. Šį receptą galite pagardinti saldikliu pagal skonį."
+  },
+  "seo": {
+    "metaTitle": "Imbiero arbata | Šildantis gėrimas su imbieru",
+    "metaDescription": "Atraskite imbiero arbatos receptą, kuris gali šildyti ir nuraminti. Šis gėrimas puikiai tinka šaltuoju metų laiku, pagardintas saldikliu.",
+    "keywords": [
+      "imbiero arbata",
+      "šildantis gėrimas",
+      "imbieras",
+      "namų arbata",
+      "saldiklis"
+    ],
+    "recipeCategory": "gerimai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 10,
+      "proteinContent": "0g",
+      "fatContent": "0g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 2,
+  "servingsUnit": "puodeliai",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/gerimai",
+  "secondaryCategories": [
+    "receptai/naujuju-metu-stalui"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "50g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "500ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saldiklis"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Imbiero paruošimas"
+      },
+      "text": {
+        "lt": "Imbiero šaknį supjaustykite nedideliais gabaliukais ir nuplaukite, kad pašalintumėte nešvarumus."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Arbatos virimas"
+      },
+      "text": {
+        "lt": "Įdėkite imbierą į puodą su vandeniu ir užvirinkite. Leiskite arbatai šiek tiek pavirti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Arbatos patiekimas"
+      },
+      "text": {
+        "lt": "Nukoškite arbatos užpilą, kad pašalintumėte imbiero gabaliukus. Pagal skonį pridėkite saldiklio ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Imbiero arbata puikiai dera su medumi, jei norite natūralaus saldiklio."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/imbierine-arbata-su-saldikliu.jpg",
+    "alt": "Imbiero arbata puodelyje su šviežiu imbieru šalia",
+    "width": 4096,
+    "height": 2304
+  },
+  "tags": [
+    "imbiero arbata",
+    "šildantis gėrimas",
+    "imbiero gėrimas",
+    "saldiklis",
+    "namų receptas"
+  ],
+  "author": {
+    "name": "Taoheedah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ginger_Tea",
+    "pageTitle": "Cookbook:Ginger_Tea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:43:55.901Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGinger_Tea&action=history",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ginger_Tea_.jpg",
+    "author": {
+      "name": "Trupti.gauns",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Trupti.gauns"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ginger_Tea_.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T13:43:55+03:00",
+  "createdAt": "2026-01-06T13:43:55+03:00",
+  "updatedAt": "2026-01-06T13:43:55+03:00"
+}

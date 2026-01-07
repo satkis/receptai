@@ -1,0 +1,96 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Frikadeller_(Danish_Meatballs)",
+    "pageTitle": "Cookbook:Frikadeller_(Danish_Meatballs)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "70.26.230.242",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.26.230.242"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrikadeller_(Danish_Meatballs)&action=history",
+    "extractedAt": "2026-01-04T16:23:26.506Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Frikadeller (Danish Meatballs)",
+    "slug": "frikadeller-danish-meatballs",
+    "description": "Frikadeller are as Danish as the Dannebrog. This is standard Danish fare, made of ground pork and veal and traditionally served with boiled potatoes, gravy and rødkål (braised red cabbage). Originally, this dish was made so that the meat would feed more people, and thus, the possibilities as to what can be added are numerous.",
+    "ingredients": [
+      "250 grams (about 0.5 lb) ground veal",
+      "250 grams ground pork",
+      "1 large egg",
+      "1 onion, finely chopped",
+      "20% by volume (about ¾ cup) of bread crumbs",
+      "Pepper to taste",
+      "Salt to taste",
+      "Minced garlic (optional)",
+      "Ground parsley to taste",
+      "Butter"
+    ],
+    "instructions": [
+      "Mix all ingredients except butter together.",
+      "Shape mixture into small patties.",
+      "Fry in hot skillet with lots of butter."
+    ],
+    "notes": [
+      "These can be frozen and reheated.",
+      "You can substitute bread crumbs with wheat germ and/or oat bran.",
+      "Any ingredient will work. Many people add a quantity of milk also, and the mixture is then thickened again with more flour, bread crumbs and/or oat bran."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 2,
+    "category": "Meat recipes",
+    "categories": [
+      "Danish recipes|{{PAGENAME}}",
+      "Recipes using veal|{{PAGENAME}}",
+      "Recipes using ground pork|{{PAGENAME}}",
+      "Pan fried recipes",
+      "Main course recipes",
+      "Recipes with metric units|{{PAGENAME}}",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes using bread crumb",
+      "Recipes using egg"
+    ]
+  },
+  "image": {
+    "filename": "Frikadeller.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Frikadeller.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frikadeller.jpg",
+    "localPath": "scripts/wiki/output/Frikadeller.jpg",
+    "dimensions": {
+      "width": 2048,
+      "height": 1536
+    },
+    "fileSize": 911877,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "This image was taken by Kenneth Jorgensen (gallery).Please attribute this image with \"Kenneth Jorgensen\".An  email would also be appreciated.",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:KennethJorgensen"
+    },
+    "metadata": {
+      "description": "A batch of Danish meatballs, also known as \"w:frikadeller\"",
+      "categories": [
+        "GFDL",
+        "Taken with Kodak EasyShare V530",
+        "License migration redundant",
+        "Self-published work",
+        "Frikadelle of Denmark"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Frikadeller.jpg"
+  }
+}

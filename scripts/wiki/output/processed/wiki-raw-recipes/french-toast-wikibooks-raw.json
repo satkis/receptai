@@ -1,0 +1,120 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Toast",
+    "pageTitle": "Cookbook:French_Toast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Klaus",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Klaus"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Toast&action=history",
+    "extractedAt": "2026-01-04T16:09:46.126Z"
+  },
+  "recipe": {
+    "title": "Cookbook:French Toast",
+    "slug": "french-toast",
+    "description": "French toast is a common breakfast or dessert item made by frying a piece of bread soaked in an egg batter. French toast was developed as a way to use day-old stale bread. The literal translation of pain perdu is lost bread, referring to old or stale bread. When lacking stale bread, toasting your bread lightly will help it absorb more of the egg and milk batter.",
+    "ingredients": [
+      "1 egg",
+      "About ¼ cup (60 ml / 2 oz) milk or cream (more for softer, less eggy French toast; less for firmer, more eggy toast)",
+      "2–3 slices bread (see notes)",
+      "Butter, margarine, or cooking oil",
+      "½ teaspoon vanilla extract or similar",
+      "¼–1 teaspoon nutmeg, cinnamon or other powdered spices suitable for sweet foods",
+      "½ teaspoon sugar or honey",
+      "¼ teaspoon salt",
+      "¼ teaspoon pepper",
+      "Maple syrup",
+      "Jam, jelly, fruit syrup",
+      "Whipped cream",
+      "Powdered sugar",
+      "Nuts",
+      "Honey",
+      "Bacon",
+      "Raspberries, strawberries, blueberries, and/or bananas"
+    ],
+    "instructions": [
+      "In a bowl, mix eggs and milk, and optional ingredients.",
+      "Heat up a frying pan, skillet, or griddle to medium-low heat.",
+      "Grease the pan with butter, margarine, or cooking spray.",
+      "Soak a slice of bread in the egg-milk mixture and place on pan; repeat until pan is full or desired amount is placed.",
+      "Cook, turning once, until both sides of the bread are browned and the inside is cooked through.",
+      "Serve on plates, with toppings as desired."
+    ],
+    "notes": [
+      "The goal is to get both sides of the French toast nicely browned, while making sure the center is cooked. Using excessive heat could scorch the outside of the toast while leaving the inside undercooked.",
+      "If making a small batch, soak the two slices until almost all of the mixture has been absorbed. If the bowl is small, place the two slices on top of each other, and keep switching and flipping them, so that all four sides will absorb the mixture.",
+      "The cooking process is too short to use most raw spices, but some fresh herbs might be very tasty.",
+      "If using sandwich bread, a plastic sandwich container may be used for the egg-milk mixture. This allows maximum use of the mixture, as the container is a good size and shape.",
+      "Toast your bread before dipping it into the mix to create a solid base.",
+      "The following types of bread are good used for French toast. Hard crust breads are recommended. Softer breads will create a soggy toast.\nSourdough\nChallah\nSchiacciata\nPortuguese sweet bread (\"Massa Suvada\"). This bread will take your french toast to new heights.\nWhole-wheat raisin bread or schiacciata.\nKing's Hawaiian Sweet Bread\nPanettone (bread with raisin, but may be too sweet for some)\nBrioche (weaved bread)\nChinese bakery loaves of bread. Ask to get it cut thick or uncut.",
+      "Sourdough",
+      "Challah",
+      "Schiacciata",
+      "Portuguese sweet bread (\"Massa Suvada\"). This bread will take your french toast to new heights.",
+      "Whole-wheat raisin bread or schiacciata.",
+      "King's Hawaiian Sweet Bread",
+      "Panettone (bread with raisin, but may be too sweet for some)",
+      "Brioche (weaved bread)",
+      "Chinese bakery loaves of bread. Ask to get it cut thick or uncut."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 10,
+    "difficulty": 2,
+    "category": "Breakfast recipes",
+    "categories": [
+      "Breakfast recipes|French Toast",
+      "Recipes using egg",
+      "Recipes using bread",
+      "Pan fried recipes",
+      "Vegetarian recipes|French Toast",
+      "Featured recipes|{{PAGENAME}}",
+      "Recipes with metric units|{{PAGENAME}}",
+      "Recipes for dessert|{{PAGENAME}}",
+      "Kid-friendly recipes",
+      "Recipes using ground cinnamon",
+      "Recipes using cream",
+      "Recipes using sugar",
+      "Recipes using cooking spray",
+      "Recipes using fruit preserves",
+      "Recipes using maple syrup"
+    ]
+  },
+  "image": {
+    "filename": "Frenchtoast.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Frenchtoast.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frenchtoast.jpg",
+    "localPath": "scripts/wiki/output/Frenchtoast.jpg",
+    "dimensions": {
+      "width": 401,
+      "height": 300
+    },
+    "fileSize": 90184,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "jspatchwork",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rhetth~commonswiki"
+    },
+    "metadata": {
+      "description": "Picture of french toast",
+      "categories": [
+        "French toast",
+        "Flickr images reviewed by trusted users"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Frenchtoast.jpg"
+  }
+}

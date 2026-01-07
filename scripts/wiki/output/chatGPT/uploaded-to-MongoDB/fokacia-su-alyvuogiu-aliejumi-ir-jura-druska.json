@@ -1,0 +1,214 @@
+{
+  "slug": "fokacia-su-alyvuogiu-aliejumi-ir-juros-druska",
+  "canonicalUrl": "https://ragaujam.lt/receptas/fokacia-su-alyvuogiu-aliejumi-ir-juros-druska",
+  "title": {
+    "lt": "Fokacia su alyvuogių aliejumi ir jūros druska"
+  },
+  "description": {
+    "lt": "Fokacia – tai plokščia, rauginta duona, kilusi iš Italijos. Šis receptas leidžia jums paruošti minkštą ir kvapnią fokacią, pagardintą alyvuogių aliejumi ir jūros druska. Puikiai tinka kaip užkandis ar duona prie pietų stalo."
+  },
+  "seo": {
+    "metaTitle": "Fokacia su alyvuogių aliejumi ir jūros druska | Receptas",
+    "metaDescription": "Itališka fokacia, gaminama su alyvuogių aliejumi ir jūros druska. Minkšta ir kvapni plokščia duona, puikiai tinkanti užkandžiui ar prie pietų stalo.",
+    "keywords": [
+      "fokacia",
+      "itališka duona",
+      "alyvuogių aliejus",
+      "jūros druska",
+      "minkšta duona"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 180,
+      "proteinContent": "5g",
+      "fatContent": "6g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 115,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "8g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "350g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "70 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jūros druska"
+      },
+      "quantity": "18g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mielių paruošimas"
+      },
+      "text": {
+        "lt": "Apibarstykite vieną arbatinį šaukštelį mielių ant ½ puodelio vandens vidutinio dydžio dubenyje. Išmaišykite ir palikite 10 minučių. Sudėkite ¾ puodelio miltų, uždenkite ir leiskite kilti šiltoje vietoje apie 45 minutes."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje apibarstykite likusį mielių arbatinį šaukštelį ant 1 puodelio šilto vandens, išmaišykite ir palikite 10 minučių. Įdėkite paruoštą mielių mišinį, 3 šaukštus alyvuogių aliejaus ir 2 arbatinius šaukštelius druskos. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos minkymas"
+      },
+      "text": {
+        "lt": "Ant lengvai miltais pabarstyto paviršiaus minkykite tešlą apie 10 minučių, kol ji taps minkšta."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos kilimas"
+      },
+      "text": {
+        "lt": "Padėkite tešlą į lengvai aliejumi išteptą dubenį, uždenkite ir leiskite kilti šiltoje vietoje apie 1,5 valandos."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Aliejumi ištepkite 28x36 cm kepimo skardą. Išverskite pakilusią tešlą ant skardos ir išlyginkite iki kraštų. Jei tešla susitraukia, leiskite pailsėti 10 minučių ir bandykite dar kartą. Uždenkite ir leiskite kilti 45 minutes."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 220 °C. Nuimkite rankšluostį ir pirštais įspauskite įdubas į tešlą. Apšlakstykite likusiu alyvuogių aliejumi, pabarstykite jūros druska ir kepkite 20-25 minutes, kol viršus taps auksinis."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite fokacią iš skardos, kai tik ji iškeps, ir leiskite atvėsti ant grotelių prieš patiekdami."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudojant mažiau mielių, reikia ilgesnio fermentacijos laiko."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šiltoje vietoje tešla kyla greičiau."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/fokacia-su-alyvuogiu-aliejumi-ir-juros-druska.jpg",
+    "alt": "Fokacia su alyvuogių aliejumi ir jūros druska, patiekiama ant lentelės",
+    "width": 1536,
+    "height": 2048
+  },
+  "tags": [
+    "fokacia",
+    "itališka duona",
+    "receptas su alyvuogių aliejumi",
+    "jūros druska",
+    "minkšta duona"
+  ],
+  "author": {
+    "name": "67.101.36.29",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:67.101.36.29"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Focaccia_I",
+    "pageTitle": "Cookbook:Focaccia_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:03:34.716Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFocaccia_I&action=history",
+    "originalCreator": {
+      "name": "67.101.36.29",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:67.101.36.29"
+    }
+  },
+  "originalImage": {
+    "fileName": "Focaccia.jpg",
+    "author": {
+      "name": "Jeremy Keith",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Focaccia.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T16:03:34+03:00",
+  "createdAt": "2026-01-04T16:03:34+03:00",
+  "updatedAt": "2026-01-04T16:03:34+03:00"
+}

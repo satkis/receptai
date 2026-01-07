@@ -1,0 +1,230 @@
+{
+  "slug": "austru-buchteln-saldzios-bandeles",
+  "canonicalUrl": "https://ragaujam.lt/receptas/austru-buchteln-saldzios-bandeles",
+  "title": {
+    "lt": "Austriškos Buchteln - saldžios bandelės"
+  },
+  "description": {
+    "lt": "Buchteln - tai tradicinės austriškos saldžios bandelės, kurios puikiai tinka desertui. Jos yra minkštos, su skaniu džemo įdaru, o viršuje pabarstytos cukraus pudra."
+  },
+  "seo": {
+    "metaTitle": "Austriškos Buchteln | Saldžios bandelės su džemu",
+    "metaDescription": "Išmėginkite tradicines austriškas Buchteln bandeles su džemo įdaru. Idealus desertas su cukraus pudra arba vaniliniu padažu.",
+    "keywords": [
+      "buchteln",
+      "austriškos bandelės",
+      "saldžios bandelės",
+      "bandelės su džemu",
+      "tradicinis desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Austriška",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "6g",
+      "fatContent": "10g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mielės"
+      },
+      "quantity": "20g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltas cukrus"
+      },
+      "quantity": "40g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "120g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrina"
+      },
+      "quantity": "2 arbatiniai šaukšteliai žievelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džemas"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus arba sviestas"
+      },
+      "quantity": "kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pieno paruošimas"
+      },
+      "text": {
+        "lt": "Užvirkite pieną iki 82°C ir leiskite atvėsti. Atskirame dubenėlyje sumaišykite mieles su trupučiu šilto pieno ir cukraus. Leiskite pailsėti, kol mielės suputos."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos ruošimas"
+      },
+      "text": {
+        "lt": "Į dubenį suberkite miltus, įpilkite mielių mišinį ir likusį cukrų. Kai mišinys pasieks kambario temperatūrą, įmuškite kiaušinius, įberkite žiupsnelį druskos ir citrinos žievelę. Minkykite iki vientisos, lygios tešlos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos kildinimas"
+      },
+      "text": {
+        "lt": "Uždenkite dubenį audiniu ir palikite šiltoje vietoje, kol tešla padvigubės."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Bandelės formavimas"
+      },
+      "text": {
+        "lt": "Ištepkite kepimo formą aliejumi arba sviestu. Iškočiokite tešlą iki 1 cm storio ir supjaustykite 4x4 cm kvadratėliais. Kiekvieną kvadratą užpildykite džemu, sujunkite kampus ir suformuokite apvalias bandeles."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Dėkite bandeles į paruoštą formą, uždenkite audiniu ir leiskite pailsėti 20 minučių. Tada kepkite įkaitintoje orkaitėje, kol bandelės taps auksinės."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Pabarstykite bandeles cukraus pudra prieš patiekdami."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Bandelės puikiai dera su vaniliniu padažu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/austru-buchteln-saldzios-bandeles.jpg",
+    "alt": "Austriškos Buchteln saldžios bandelės lėkštėje",
+    "width": 2126,
+    "height": 1597
+  },
+  "tags": [
+    "buchteln",
+    "austriškos bandelės",
+    "saldžios bandelės",
+    "tradicinis desertas",
+    "vanilinis padažas"
+  ],
+  "author": {
+    "name": "Primaballerina85",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Primaballerina85"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Buchteln_(Austrian_Sweet_Buns)",
+    "pageTitle": "Cookbook:Buchteln_(Austrian_Sweet_Buns)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:22.171Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuchteln_(Austrian_Sweet_Buns)&action=history",
+    "originalCreator": {
+      "name": "Primaballerina85",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Primaballerina85"
+    }
+  },
+  "originalImage": {
+    "fileName": "Buchteln_on_plate.jpg",
+    "author": {
+      "name": "primaballerina85",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Buchteln_on_plate.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:00:00+03:00",
+  "createdAt": "2025-11-27T16:00:00+03:00",
+  "updatedAt": "2025-11-27T16:00:00+03:00"
+}

@@ -1,0 +1,83 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Almond_Milk_II",
+    "pageTitle": "Cookbook:Almond_Milk_II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Taric25",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taric25"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlmond_Milk_II&action=history",
+    "extractedAt": "2025-11-21T14:04:00.267Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Almond Milk II",
+    "slug": "almond-milk-ii",
+    "description": "Almond milk is a plant milk used in a variety of cultures. Plant milks are often a vegan substitute for dairy, and are suitable for people with lactose intolerance or who want a dairy milk alternative.",
+    "ingredients": [
+      "1 cup (236 ml) almonds",
+      "pure water, such as , orange blossom water, spring water, distilled water, or iodized water",
+      "3 dates"
+    ],
+    "instructions": [
+      "Put the almonds into a bowl, and cover them with at least one 1 inch (2.5 cm) of water. Leave them in the refrigerator overnight, and then drain the water. This is called sprouting or steeping.",
+      "Put the drained almonds into a blender, and blend in the 3 cups (708 ml) of water. The mixture will start clear and quickly change color. Stop blending after a few minutes when there is no visible change in color or consistency anymore.",
+      "Strain this mixture over a pitcher. You can either strain it through a fine sieve by squeezing the milk from the moist mixture through the sieve with a wooden spoon, or simply place mesh sometimes called a sprout or nut-milk bag that is usually made of nylon on top of the pitcher in order to squeeze the mixture through the mesh by hand. You may either discard the pulp or use it for other recipes, such as mixing it into almond agar jelly.",
+      "Return the strained almond milk into the blender. Add the dates and blend until there is no longer any visible change in color or consistency.",
+      "Refrigerate or pour into a drinking cup and consume."
+    ],
+    "notes": [
+      "If you would like to substitute a different sweetener for the dates, try natural sweeteners, such or stevia or honey instead of sugar or syrup, if you can. Just bear in mind that using honey would make this recipe not vegan."
+    ],
+    "servings": 3,
+    "totalTimeMinutes": null,
+    "difficulty": 2,
+    "category": "Beverage recipes",
+    "categories": [
+      "Recipes using almond",
+      "Recipes using date",
+      "Recipes for plant milk",
+      "Raw recipes",
+      "Recipes with metric units"
+    ]
+  },
+  "image": {
+    "filename": "Raw_almond_milk.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Raw_almond_milk.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Raw_almond_milk.jpg",
+    "localPath": "scripts/wiki/output/Raw_almond_milk.jpg",
+    "dimensions": {
+      "width": 800,
+      "height": 726
+    },
+    "fileSize": 299693,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Tiffany Washko",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Grayshi"
+    },
+    "metadata": {
+      "description": "Raw Almond Milk",
+      "categories": [
+        "Raw food",
+        "Almond milk",
+        "Flickr images reviewed by FlickreviewR",
+        "Beverage bottles"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Raw_almond_milk.jpg"
+  }
+}

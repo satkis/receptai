@@ -1,0 +1,268 @@
+{
+  "slug": "fleischkrapfen-austriski-mesos-pyrageliai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/fleischkrapfen-austriski-mesos-pyrageliai",
+  "title": {
+    "lt": "Fleischkrapfen - austriški mėsos pyragėliai"
+  },
+  "description": {
+    "lt": "Fleischkrapfen yra tradicinis patiekalas iš Zalcburgo, kuriame naudojama įvairių rūšių mėsa, supjaustyta smulkiais gabalėliais ir dedama į keptą pyragėlį. Tai puikus būdas panaudoti likusią mėsą."
+  },
+  "seo": {
+    "metaTitle": "Fleischkrapfen - austriški mėsos pyragėliai | Tradicinis receptas",
+    "metaDescription": "Atraskite austriškų mėsos pyragėlių receptą. Fleischkrapfen yra tradicinis patiekalas iš Zalcburgo, puikus būdas panaudoti likusią mėsą.",
+    "keywords": [
+      "fleischkrapfen",
+      "austriški mėsos pyragėliai",
+      "tradiciškas austrų patiekalas",
+      "mėsos pyragėliai",
+      "giliavandeniai receptai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Austrų",
+    "nutrition": {
+      "calories": 550,
+      "proteinContent": "23g",
+      "fatContent": "35g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Ruginių miltų"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kviečių miltų"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "40g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "250ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "400g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šoninė"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rūkyta mėsa"
+      },
+      "quantity": "400g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mažaramo"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinė aliejus"
+      },
+      "quantity": "Giliavandeniui kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Rauginti kopūstai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite ruginių ir kviečių miltus, įberkite druskos. Užvirkite pieną su sviestu ir supilkite į miltus. Greitai užminkykite tešlą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Įdaro paruošimas"
+      },
+      "text": {
+        "lt": "Smulkiai supjaustykite svogūną ir apkepkite svieste. Sudėkite šoninę, rūkytą mėsą ir virtas, smulkintas bulves. Pagardinkite druska, pipirais, mažaramu ir petražolėmis. Leiskite šiek tiek atvėsti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pyragėlių formavimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą į 4 cm storio gabalą. Supjaustykite į 2 cm storio griežinėlius ir iškočiokite į apskritimus. Įdėkite įdarą ant vienos pusės, uždenkite kita puse ir tvirtai suspauskite kraštus."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų iki 180°C. Kepkite pyragėlius iki auksinės spalvos, kol bus traškūs."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite su raugintais kopūstais šalia. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite mažaramo, galite naudoti čiobrelius."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šie pyragėliai puikiai tinka tiek karšti, tiek atšalę."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/fleischkrapfen-austriski-mesos-pyrageliai.jpg",
+    "alt": "Fleischkrapfen - austriški mėsos pyragėliai su raugintais kopūstais",
+    "width": 600,
+    "height": 401
+  },
+  "tags": [
+    "fleischkrapfen",
+    "austriški pyragėliai",
+    "mėsos pyragėliai",
+    "giliavandeniai kepiniai",
+    "tradicinis receptas"
+  ],
+  "author": {
+    "name": "Cooking lady",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Cooking%20lady"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fleischkrapfen_(Austrian_Meat_Pasties)",
+    "pageTitle": "Cookbook:Fleischkrapfen_(Austrian_Meat_Pasties)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:01:17.640Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFleischkrapfen_(Austrian_Meat_Pasties)&action=history",
+    "originalCreator": {
+      "name": "Cooking lady",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Cooking%20lady"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fleischkrapfen_on_plate.jpg",
+    "author": {
+      "name": "cooking_lady",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Abigor"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Fleischkrapfen_on_plate.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:01:17+03:00",
+  "createdAt": "2026-01-04T19:01:17+03:00",
+  "updatedAt": "2026-01-04T19:01:17+03:00"
+}

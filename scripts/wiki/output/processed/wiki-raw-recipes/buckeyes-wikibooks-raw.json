@@ -1,0 +1,89 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Buckeyes",
+    "pageTitle": "Cookbook:Buckeyes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Rodasmith",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Rodasmith"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuckeyes&action=history",
+    "extractedAt": "2025-11-27T13:11:23.617Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Buckeyes",
+    "slug": "buckeyes",
+    "description": "Buckeyes are an easy snack named from their resemblance to the nut of the Buckeye tree.",
+    "ingredients": [
+      "1 cup (320 g/11 oz) peanut butter",
+      "2 tablespoons melted butter",
+      "1 teaspoon vanilla",
+      "3 cups () powdered sugar",
+      "1 small bag () semi-sweet chocolate chips",
+      "25 toothpicks"
+    ],
+    "instructions": [
+      "Mix peanut butter, melted butter, vanilla, and powdered sugar in a bowl.",
+      "Form the mixture into 1-inch balls.",
+      "Place a toothpick into each ball.",
+      "Refrigerate or freeze for an hour.",
+      "Melt the semi-sweet chocolate chips in a double boiler.",
+      "Dip the balls in the melted chocolate, leaving a small exposed circle at the top.",
+      "Place on wax paper and remove toothpick.",
+      "Refrigerate or freeze."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": 12,
+    "difficulty": 1,
+    "category": "Confection recipes",
+    "categories": [
+      "Recipes for confections|{{PAGENAME}}",
+      "Recipes using dark chocolate",
+      "Recipes using peanut butter|{{PAGENAME}}",
+      "Vegetarian recipes|{{PAGENAME}}",
+      "Recipes using powdered sugar|{{PAGENAME}}"
+    ]
+  },
+  "image": {
+    "filename": "Buckeyes_Peanut_Butter_Balls.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Buckeyes_Peanut_Butter_Balls.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Buckeyes_Peanut_Butter_Balls.jpg",
+    "localPath": "scripts/wiki/output/Buckeyes_Peanut_Butter_Balls.jpg",
+    "dimensions": {
+      "width": 427,
+      "height": 640
+    },
+    "fileSize": 345389,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Steven Depolo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "metadata": {
+      "description": "These are some peanut butter balls or buckeyes that Qiqi's aunt made",
+      "categories": [
+        "Peanut butter-based dishes",
+        "Taken with Canon EOS 350D",
+        "Images with extracted images",
+        "Flickr images uploaded by Flickr upload bot",
+        "Chocolate lollipops",
+        "Photographs by Steven Depolo"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Buckeyes_Peanut_Butter_Balls.jpg"
+  }
+}

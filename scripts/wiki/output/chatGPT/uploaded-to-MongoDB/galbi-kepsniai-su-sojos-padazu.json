@@ -1,0 +1,185 @@
+{
+  "slug": "galbi-kepsniai-su-sojos-padazu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/galbi-kepsniai-su-sojos-padazu",
+  "title": {
+    "lt": "Galbi - Korėjietiški kepsniai su sojos padažu"
+  },
+  "description": {
+    "lt": "Galbi yra tradiciniai korėjietiški kepsniai, pagaminti iš marinuotų jautienos arba kiaulienos šonkaulių su sojų padažu. Šis patiekalas dažnai kepamas ant grotelių, įspūdingai pristatant jį ant stalo su mažais griliaus indeliais."
+  },
+  "seo": {
+    "metaTitle": "Galbi - Korėjietiški kepsniai | Receptas su sojos padažu",
+    "metaDescription": "Tradicinis korėjietiškas galbi receptas su marinuotais šonkauliais ir sojos padažu. Puikiai tinka šeimos vakarienei ar draugų susibūrimams.",
+    "keywords": [
+      "galbi",
+      "korėjietiški kepsniai",
+      "sojos padažas",
+      "jautienos šonkauliai",
+      "korėjietiška virtuvė"
+    ],
+    "recipeCategory": "kepsniai",
+    "recipeCuisine": "Korėjiečių",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "25g",
+      "fatContent": "30g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/kepsniai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Jautienos šonkauliai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojos padažas"
+      },
+      "quantity": "100ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "3 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sezamo aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Marinavimas"
+      },
+      "text": {
+        "lt": "Sumaišykite sojos padažą, cukrų, smulkintą česnaką, sezamo aliejų ir smulkintą svogūną dubenyje. Įdėkite šonkaulius ir gerai juos aptepkite marinatu. Palikite marinuotis šaltai bent 2 valandas arba per naktį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite grilį ar keptuvę. Kepkite šonkaulius ant vidutinės ugnies, kol jie bus gerai apskrudę ir iškepę, maždaug 5-7 minutes iš kiekvienos pusės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite galbi karštus, apibarstykite juodaisiais pipirais pagal skonį. Puikiai tinka su ryžiais ar šviežiomis daržovėmis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite intensyvesnio skonio, marinuokite šonkaulius per naktį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/galbi-kepsniai-su-sojos-padazu.jpg",
+    "alt": "Galbi - korėjietiški kepsniai su sojos padažu",
+    "width": 2272,
+    "height": 1704
+  },
+  "tags": [
+    "galbi",
+    "korėjietiški kepsniai",
+    "sojos padažas",
+    "jautienos šonkauliai",
+    "korėjietiška virtuvė"
+  ],
+  "author": {
+    "name": "Azotochtli",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Azotochtli"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Galbi",
+    "pageTitle": "Cookbook:Galbi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:36:09.798Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGalbi&action=history",
+    "originalCreator": {
+      "name": "Azotochtli",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Azotochtli"
+    }
+  },
+  "originalImage": {
+    "fileName": "Korean.food-Galbi-03.jpg",
+    "author": {
+      "name": "ayustety (a flickr user)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Isageum"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Korean.food-Galbi-03.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T15:00:00+03:00",
+  "createdAt": "2026-01-06T15:00:00+03:00",
+  "updatedAt": "2026-01-06T15:00:00+03:00"
+}

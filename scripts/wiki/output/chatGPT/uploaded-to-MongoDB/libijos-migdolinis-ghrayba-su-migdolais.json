@@ -1,0 +1,212 @@
+{
+  "slug": "libijos-migdolinis-ghrayba-su-migdolais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/libijos-migdolinis-ghrayba-su-migdolais",
+  "title": {
+    "lt": "Libijos migdolinis Ghrayba su migdolais"
+  },
+  "description": {
+    "lt": "Libijos migdolinis Ghrayba - tai skanūs migdoliniai sausainiai, išsiskiriantys švelnia tekstūra ir turtingu migdolų skoniu. Šie sausainiai dažnai mėgstami per šventes ir yra populiarus Libijos virtuvės patiekalas. Jie tirpsta burnoje ir puikiai tinka patiekti su arbata ar kava."
+  },
+  "seo": {
+    "metaTitle": "Libijos migdolinis Ghrayba | Migdoliniai sausainiai receptas",
+    "metaDescription": "Autentiškas Libijos migdolinis Ghrayba receptas. Migdoliniai sausainiai su migdolais, puikiai tinkantys šventėms. Džiaukitės subtiliu skoniu su arbata ar kava.",
+    "keywords": [
+      "migdoliniai sausainiai",
+      "ghrayba su migdolais",
+      "libijos virtuvė",
+      "šventiniai sausainiai",
+      "migdolų receptai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Libijos",
+    "nutrition": {
+      "calories": 120,
+      "proteinContent": "2g",
+      "fatContent": "7g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 stiklinė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "0.5 stiklinės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "2 stiklinės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Migdolai"
+      },
+      "quantity": "0.5 stiklinės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Migdolai"
+      },
+      "quantity": "Pagal dekoraciją",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175°C ir paruoškite kepimo skardą su kepimo popieriumi arba silikoniniu kilimėliu."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sviesto ir cukraus maišymas"
+      },
+      "text": {
+        "lt": "Dubenyje sumaišykite sviestą ir cukraus pudrą, kol mišinys taps šviesus ir purus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos ruošimas"
+      },
+      "text": {
+        "lt": "Į sviesto mišinį įdėkite miltus, maltus migdolus ir vanilės ekstraktą. Maišykite, kol gausite minkštą tešlą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sausainių formavimas"
+      },
+      "text": {
+        "lt": "Nuimkite mažus tešlos gabalėlius ir suformuokite juos į riešuto dydžio rutuliukus. Padėkite rutuliukus ant paruoštos kepimo skardos, palikdami tarp jų šiek tiek vietos."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Dekoravimas ir kepimas"
+      },
+      "text": {
+        "lt": "Į kiekvieno sausainio centrą įspauskite migdolą ir šiek tiek suplokite. Kepkite orkaitėje apie 12-15 minučių, kol sausainių kraštai taps auksiniai."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Atvėsinimas"
+      },
+      "text": {
+        "lt": "Išimkite iš orkaitės ir leiskite sausainiams atvėsti ant kepimo skardos kelias minutes, tada perkelkite ant grotelių, kad visiškai atvėstų."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite stipresnio migdolų skonio, į tešlą galite pridėti keletą lašų migdolų ekstrakto."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Sausainiai bus minkšti išėmus iš orkaitės, bet sukietės atvėsę."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/libijos-migdolinis-ghrayba-su-migdolais.jpg",
+    "alt": "Libijos migdoliniai Ghrayba sausainiai, dekoruoti migdolais",
+    "width": 1797,
+    "height": 1671
+  },
+  "tags": [
+    "migdoliniai sausainiai",
+    "libijos migdolinis ghrayba",
+    "šventiniai sausainiai",
+    "migdolų receptai",
+    "desertai"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ghraiba_bil_Loz_(Libyan_Almond_Ghraiba)",
+    "pageTitle": "Cookbook:Ghraiba_bil_Loz_(Libyan_Almond_Ghraiba)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:40:31.143Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhraiba_bil_Loz_(Libyan_Almond_Ghraiba)&action=history",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ghribia_(algerian_cookie).jpg",
+    "author": {
+      "name": "وهراني",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:%D9%88%D9%87%D8%B1%D8%A7%D9%86%D9%8A"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ghribia_%28algerian_cookie%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

@@ -1,0 +1,83 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Crispy_Chicken",
+    "pageTitle": "Cookbook:Crispy_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "128.113.200.27",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:128.113.200.27"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACrispy_Chicken&action=history",
+    "extractedAt": "2025-12-23T07:10:54.500Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Crispy Chicken",
+    "slug": "crispy-chicken",
+    "description": "* For easy clean-up, put parchment paper between the chicken and the pan.",
+    "ingredients": [
+      "4 bone-in chicken thighs",
+      "⅓ cup Italian dressing",
+      "1½–2 cups bread crumbs"
+    ],
+    "instructions": [
+      "Remove the skin and fat from the chicken thighs with kitchen shears.",
+      "Place thighs in a container with Italian dressing. Seal and shake to coat.",
+      "If you have the time, allow the chicken to marinate for extra flavor.",
+      "While chicken marinates, put bread crumbs in a medium bowl.",
+      "Put marinated chicken thighs in the bowl one at a time, and coat them with crumbs, adding extra bread crumbs as needed.",
+      "Place breaded chicken on a cookie sheet or other baking pan.",
+      "Bake on the oven's center rack at 350°F for 45 to 55 minutes or until bread crumbs are browned."
+    ],
+    "notes": [
+      "For easy clean-up, put parchment paper between the chicken and the pan."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using chicken breast",
+      "Baked recipes",
+      "Main course recipes",
+      "Recipes using bread crumb"
+    ]
+  },
+  "image": {
+    "filename": "Burger_King_Chicken_Nuggets_(15423233415).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Burger_King_Chicken_Nuggets_%2815423233415%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Burger_King_Chicken_Nuggets_(15423233415).jpg",
+    "localPath": "scripts/wiki/output/Burger_King_Chicken_Nuggets_(15423233415).jpg",
+    "dimensions": {
+      "width": 1600,
+      "height": 1200
+    },
+    "fileSize": 495532,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Willis Lam",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ser%20Amantio%20di%20Nicolao"
+    },
+    "metadata": {
+      "description": "10 count",
+      "categories": [
+        "Burger King Crispy Chicken Tenders",
+        "September 2014 photographs",
+        "Flickr images reviewed by FlickreviewR 2"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Burger_King_Chicken_Nuggets_(15423233415).jpg"
+  }
+}

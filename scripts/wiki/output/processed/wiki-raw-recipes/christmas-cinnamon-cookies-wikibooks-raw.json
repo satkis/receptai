@@ -1,0 +1,92 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Christmas_Cinnamon_Cookies",
+    "pageTitle": "Cookbook:Christmas_Cinnamon_Cookies",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "L293D",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:L293D"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChristmas_Cinnamon_Cookies&action=history",
+    "extractedAt": "2025-12-23T07:10:14.307Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Christmas Cinnamon Cookies",
+    "slug": "christmas-cinnamon-cookies",
+    "description": "Christmas cookies are traditional biscuits generally used during the holiday season. These Christmas cookies are quick and easy to make and can be easily cut into any shape with cookie cutters. They make a great holiday snacks and are perfect for Christmas celebrations. == Ingredients == * 130 grams (4.5 oz) almond flour * 130 grams (4.5 oz) butter, softened * 130 grams (4.5 oz) powdered sugar * 300 grams (10.5 oz) wheat flour * 2 eggs * 1 teaspoon vanilla extract * 2 teaspoons ground cinnamon * ½ teaspoon salt",
+    "ingredients": [
+      "130 grams (4.5 oz) almond flour",
+      "130 grams (4.5 oz) butter, softened",
+      "130 grams (4.5 oz) powdered sugar",
+      "300 grams (10.5 oz) wheat flour",
+      "2 eggs",
+      "1 teaspoon vanilla extract",
+      "2 teaspoons ground cinnamon",
+      "½ teaspoon salt"
+    ],
+    "instructions": [
+      "Preheat oven to 400°F (200°C).",
+      "Mix all the ingredients together, in any order, to make a dough.",
+      "Cool dough in a refrigerator for 1 hour.",
+      "Flatten dough with a rolling pin.",
+      "Cut out desired shapes with a cookie cutter.",
+      "Bake for 10 minutes. Cool."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": 20,
+    "difficulty": 2,
+    "category": "Recipes for dessert",
+    "categories": [
+      "Recipes for dessert",
+      "Very Easy recipes",
+      "Recipes",
+      "Recipes for cookies",
+      "Christmas recipes",
+      "Recipes using almond",
+      "Recipes using butter",
+      "Recipes using almond flour",
+      "Recipes using powdered sugar",
+      "Recipes using ground cinnamon",
+      "Recipes using egg"
+    ]
+  },
+  "image": {
+    "filename": "Christmas_cookies_(2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Christmas_cookies_%282%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Christmas_cookies_(2).jpg",
+    "localPath": "scripts/wiki/output/Christmas_cookies_(2).jpg",
+    "dimensions": {
+      "width": 2560,
+      "height": 1440
+    },
+    "fileSize": 1221768,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "L293D",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:L293D"
+    },
+    "metadata": {
+      "description": "Christmas cinnamon cookies",
+      "categories": [
+        "Taken with LG Optimus F6",
+        "Christmas cookies",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Christmas_cookies_(2).jpg"
+  }
+}

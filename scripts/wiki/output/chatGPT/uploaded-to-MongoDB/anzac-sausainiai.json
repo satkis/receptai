@@ -1,0 +1,216 @@
+{
+  "slug": "anzac-sausainiai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/anzac-sausainiai",
+  "title": {
+    "lt": "ANZAC sausainiai"
+  },
+  "description": {
+    "lt": "ANZAC sausainiai yra populiarūs Australijoje ir Naujojoje Zelandijoje. Šie sausainiai gaminami iš avižų, kokoso ir medaus. Puikus pasirinkimas saldžiam užkandžiui."
+  },
+  "seo": {
+    "metaTitle": "ANZAC sausainiai | Australijos ir Naujosios Zelandijos receptas",
+    "metaDescription": "Išbandykite ANZAC sausainių receptą su avižomis, kokosu ir medumi. Skani ir maistinga alternatyva desertui, kilusi iš Australijos ir Naujosios Zelandijos.",
+    "keywords": [
+      "anzac sausainiai",
+      "australiški sausainiai",
+      "avižiniai sausainiai",
+      "kokosiniai sausainiai",
+      "naujosios zelandijos receptai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Australų"
+  },
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "nutrition": {
+    "calories": 110,
+    "proteinContent": "1g",
+    "fatContent": "5g",
+    "fiberContent": "1g"
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 25,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/saldumynai",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/seimai",
+    "receptai/desertai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis arba rudas cukrus"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Avižiniai dribsniai"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kokoso drožlės"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Auksinio sirupo, kukurūzų sirupo arba medaus"
+      },
+      "quantity": "4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas arba margarinas"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo soda"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sausų ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, cukrų, avižinius dribsnius ir kokoso drožles dubenyje."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sviesto ir sirupo lydymas"
+      },
+      "text": {
+        "lt": "Puode išlydykite sirupą ir sviestą. Į sirupo mišinį įpilkite kepimo sodą ir vandens."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Sumaišykite šlapius ir sausus ingredientus, prireikus pridėkite vandens. Formuokite mažus rutuliukus ir plokštinkite juos ant kepimo skardos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 150°C temperatūroje apie 20 minučių arba kol sausainiai taps auksinės spalvos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Rudas cukrus suteikia sausainiams daugiau spalvos ir skonio."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei neturite kokoso, galite jį pakeisti daugiau sirupo ir avižų."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Kepimo soda ir vanduo suteikia sausainiams traškumo ir spalvos."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/anzac-sausainiai.jpg",
+    "alt": "ANZAC sausainiai ant virtuvės stalo",
+    "width": 2304,
+    "height": 1712
+  },
+  "tags": [
+    "anzac sausainiai",
+    "australiški sausainiai",
+    "avižiniai sausainiai",
+    "kokosiniai sausainiai",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Gentgeen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Anzac_Biscuits_I",
+    "pageTitle": "Cookbook:Anzac_Biscuits_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T17:04:03+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAnzac_Biscuits_I&action=history",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Single_ANZAC_biscuit.jpg",
+    "author": {
+      "name": "me (w:User:pfctdayelise)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Pfctdayelise"
+    },
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Single_ANZAC_biscuit.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:04:03+03:00",
+  "createdAt": "2025-11-21T17:04:03+03:00",
+  "updatedAt": "2025-11-21T17:04:03+03:00"
+}

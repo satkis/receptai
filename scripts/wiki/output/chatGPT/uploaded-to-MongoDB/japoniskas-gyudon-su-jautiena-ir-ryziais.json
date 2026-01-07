@@ -1,0 +1,271 @@
+{
+  "slug": "japoniskas-gyudon-su-jautiena-ir-ryziais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/japoniskas-gyudon-su-jautiena-ir-ryziais",
+  "title": {
+    "lt": "Japoniškas Gyudon su jautiena ir ryžiais"
+  },
+  "description": {
+    "lt": "Gyudon – tai japoniškas patiekalas, kuriame ryžiai apdėti jautiena ir svogūnais, troškintais saldžiame padaže su dashi, sojų padažu ir mirinu. Šis populiarus patiekalas Japonijoje dažnai patiekiamas su marinuotu imbieru ir shichimi pagardais. Paruošimas paprastas, o skonis unikalus."
+  },
+  "seo": {
+    "metaTitle": "Japoniškas Gyudon | Jautienos ir ryžių dubenėlis",
+    "metaDescription": "Išbandykite japonišką Gyudon – ryžių dubenėlį su troškinta jautiena, sojų padažu ir dashi. Populiarus patiekalas Japonijoje.",
+    "keywords": [
+      "gyudon",
+      "japoniškas patiekalas",
+      "jautienos dubenėlis",
+      "ryžiai su jautiena",
+      "japonijos virtuvė"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Japonų",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "25g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/jautiena"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautiena"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "0.5 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sake"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mirinas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sojų padažas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "100ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Dashi"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "5g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Virti ryžiai"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Beni shōga"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Shichimi pagardai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Svogūnlaiškiai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruoškite kiaušinius"
+      },
+      "text": {
+        "lt": "Užpilkite kiaušinius verdančiu vandeniu ir palikite 20 minučių, kad jie išliktų minkšti. Atsargiai nulupkite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Paruoškite jautieną"
+      },
+      "text": {
+        "lt": "Užvirkite jautieną ir nupilkite vandenį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Paruoškite padažą"
+      },
+      "text": {
+        "lt": "Sumaišykite sake, miriną, sojų padažą ir cukrų keptuvėje. Kaitinkite vidutinėje temperatūroje."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Troškinkite jautieną"
+      },
+      "text": {
+        "lt": "Į padažą įdėkite jautieną ir troškinkite. Prieš išgaruojant visam padažui, išimkite jautieną."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Baigiamasis troškinimas"
+      },
+      "text": {
+        "lt": "Pridėkite vandenį, dashi, tarkuotą imbierą ir svogūnus į padažą. Uždenkite ir užvirkite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Sumaišykite ingredientus"
+      },
+      "text": {
+        "lt": "Sumaišykite jautieną su padažu."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekite"
+      },
+      "text": {
+        "lt": "Įdėkite virtus ryžius į dubenį, ant viršaus uždėkite troškintą jautieną su padažu. Ant viršaus uždėkite minkštą kiaušinį ir marinuotą imbierą. Papuoškite svogūnlaiškiais ir shichimi pagardais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite sake, galite naudoti baltąjį vyną kaip pakaitalą."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/japoniskas-gyudon-su-jautiena-ir-ryziais.jpg",
+    "alt": "Japoniškas Gyudon su jautiena ir ryžiais",
+    "width": 640,
+    "height": 480
+  },
+  "tags": [
+    "gyudon",
+    "japoniškas receptas",
+    "jautienos dubenėlis",
+    "ryžių patiekalas",
+    "japonų virtuvė"
+  ],
+  "author": {
+    "name": "Nesnad",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Nesnad"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gyudon_(Japanese_Beef_and_Rice_Bowl)",
+    "pageTitle": "Cookbook:Gyudon_(Japanese_Beef_and_Rice_Bowl)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:59:05.752Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGyudon_(Japanese_Beef_and_Rice_Bowl)&action=history",
+    "originalCreator": {
+      "name": "Nesnad",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Nesnad"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gyudon_by_jetalone_in_Higashi-Ginza,_Tokyo.jpg",
+    "author": {
+      "name": "jetalone from Higashi-Ginza, Tokyo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Opponent"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Gyudon_by_jetalone_in_Higashi-Ginza%2C_Tokyo.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

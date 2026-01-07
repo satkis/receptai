@@ -1,0 +1,188 @@
+{
+  "slug": "keptas-surio-sumustinis-su-cederio-suriu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/keptas-surio-sumustinis-su-cederio-suriu",
+  "title": {
+    "lt": "Keptas Sūrio Sumuštinis su Cezario Padažu"
+  },
+  "description": {
+    "lt": "Šis keptas sūrio sumuštinis yra tobulas pasirinkimas greitam užkandžiui arba vakarienei. Naudojant švelnų čedario sūrį ir tvirtą mažai drėgmės duoną, gausite traškų ir skanų patiekalą. Įdarą galite praturtinti sausu tunu, šonine ar pastrami, o po kepimo pridėti raugintų kopūstų, agurkų ar saldaus čili padažo."
+  },
+  "seo": {
+    "metaTitle": "Keptas Sūrio Sumuštinis su Cezario Padažu | Greitas Receptas",
+    "metaDescription": "Greitas kepto sūrio sumuštinis su čedario sūriu ir tvirta duona. Tobulas užkandis ar vakarienė. Praturtinkite šonine, tunu ar pastrami.",
+    "keywords": [
+      "keptas sūrio sumuštinis",
+      "čedario sūris",
+      "greitas užkandis",
+      "amerikietiška virtuvė",
+      "traškus sumuštinis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "12g",
+      "fatContent": "18g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/pusryciai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Čederio sūris"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "30g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "4 riekės",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sūrio paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite čederio sūrį plonais, maždaug 3 mm storio griežinėliais."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Duonos paruošimas"
+      },
+      "text": {
+        "lt": "Užtepkite sviestą ant duonos riekelių vienos pusės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sumuštinio formavimas"
+      },
+      "text": {
+        "lt": "Ant vienos duonos riekės su sviestu pusės uždėkite sūrį, o viršų uždenkite kita riekele, sviestu į išorę."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įdėkite sumuštinį į šaltą grilio keptuvę ar sumuštinių keptuvę. Kepkite, kol sūris išsilydys, o duona taps traški ir ruda."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite iš karto. Jei reikia palikti, naudokite šiltą lėkštę arba popierinį rankšluostį, kad nesusidarytų kondensatas."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudokite mažai drėgmės turintį sūrį, kad išvengtumėte šlapios duonos."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Galite naudoti įvairių rūšių duoną, pavyzdžiui, raugintą."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Prieš kepimą galite užpilti šiek tiek Vorčesterio padažo ant sūrio."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/keptas-surio-sumustinis-su-cederio-suriu.jpg",
+    "alt": "Keptas sūrio sumuštinis su traškia duona ir lydytu čedario sūriu",
+    "width": 1600,
+    "height": 1200
+  },
+  "tags": [
+    "keptas sūrio sumuštinis",
+    "greitas užkandis",
+    "čedario sūris",
+    "traškus sumuštinis",
+    "amerikietiška virtuvė"
+  ],
+  "author": {
+    "name": "AlbertCahalan",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Grilled_Cheese_Sandwich_II",
+    "pageTitle": "Cookbook:Grilled_Cheese_Sandwich_II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:53:16.192Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGrilled_Cheese_Sandwich_II&action=history",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    }
+  },
+  "originalImage": {
+    "fileName": "Grilled_Cheese_Sandwich_(16938984390).jpg",
+    "author": {
+      "name": "Willis Lam",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ser%20Amantio%20di%20Nicolao"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Grilled_Cheese_Sandwich_%2816938984390%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

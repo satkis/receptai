@@ -1,0 +1,164 @@
+{
+  "slug": "grilyje-keptas-surio-sumustinis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/grilyje-keptas-surio-sumustinis",
+  "title": {
+    "lt": "Grilyje keptas sūrio sumuštinis"
+  },
+  "description": {
+    "lt": "Grilyje keptas sūrio sumuštinis – tai paprastas ir skanus karštas sumuštinis, kuriame pagrindinis vaidmuo tenka sūriui. Svarbiausia yra teisingai pasirinkti sūrio ir duonos santykį, kad duona neužgožtų sūrio skonio. Šis receptas padės jums pasiekti tobulą, gražiai paruduotą sumuštinį su išsilydžiusiu sūriu viduje."
+  },
+  "seo": {
+    "metaTitle": "Grilyje keptas sūrio sumuštinis | Skanių sumuštinių receptas",
+    "metaDescription": "Sužinokite, kaip paruošti tobulą grilyje keptą sūrio sumuštinį su išsilydžiusiu sūriu. Paprastas ir skanus receptas, puikiai tinkantis greitam užkandžiui.",
+    "keywords": [
+      "grilyje keptas sumuštinis",
+      "sūrio sumuštinis",
+      "karšti sumuštiniai",
+      "greitas užkandis",
+      "paprastas receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Amerikos",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "15g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "2 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sūris"
+      },
+      "quantity": "1-3 riekės",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę ant vidutinės ugnies. Aptepkite duonos riekes sviestu ir padėkite į keptuvę sviesto puse žemyn."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kai duona gražiai paruduos, apverskite vieną riekę ir uždėkite ant jos sūrį. Ant viršaus uždėkite kitą duonos riekę, sviesto puse žemyn."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sumuštinio užbaigimas"
+      },
+      "text": {
+        "lt": "Paspauskite sumuštinį mentele. Kai viena pusė apkeps, apverskite ir kepkite, kol abi pusės bus auksinės spalvos. Išimkite iš keptuvės, perpjaukite ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti majonezą vietoj sviesto – jis suteikia ypatingą skonį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Eksperimentuokite su įvairiais sūriais ir priedais, pavyzdžiui, pomidorais ar kumpiu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/grilyje-keptas-surio-sumustinis.jpg",
+    "alt": "Grilyje keptas sūrio sumuštinis su išsilydžiusiu sūriu",
+    "width": 600,
+    "height": 526
+  },
+  "tags": [
+    "grilyje keptas sumuštinis",
+    "sūrio sumuštinis",
+    "karšti sumuštiniai",
+    "greitas užkandis",
+    "paprastas receptas"
+  ],
+  "author": {
+    "name": "Gentgeen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Grilled_Cheese_Sandwich",
+    "pageTitle": "Cookbook:Grilled_Cheese_Sandwich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:52:08.053Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGrilled_Cheese_Sandwich&action=history",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Grilled_Cheese_with_hoisin.jpg",
+    "author": {
+      "name": "No machine-readable author provided. Riffraffselbow assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Riffraffselbow"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Grilled_Cheese_with_hoisin.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T13:52:08+03:00",
+  "createdAt": "2026-01-06T13:52:08+03:00",
+  "updatedAt": "2026-01-06T13:52:08+03:00"
+}

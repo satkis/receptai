@@ -1,0 +1,245 @@
+{
+  "slug": "sicilietiska-caponata-su-baklazanais-ir-darzovemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sicilietiska-caponata-su-baklazanais-ir-darzovemis",
+  "title": {
+    "lt": "Sicilietiška Caponata su Baklažanais ir Daržovėmis"
+  },
+  "description": {
+    "lt": "Sicilietiška caponata – tai skanus ir aromatingas patiekalas iš baklažanų ir daržovių, pagardintas alyvuogėmis, kaparėliais ir saldžiu actu. Šis patiekalas puikiai tinka kaip užkandis, garnyras ar lengvas pagrindinis patiekalas."
+  },
+  "seo": {
+    "metaTitle": "Sicilietiška Caponata su Baklažanais | Receptas ir Paruošimas",
+    "metaDescription": "Atraskite autentišką sicilietiškos caponatos receptą su baklažanais, alyvuogėmis, kaparėliais ir saldžiu actu. Puikus užkandis ar garnyras, tinkamas ir veganiškai virtuvei.",
+    "keywords": [
+      "caponata",
+      "sicilietiška caponata",
+      "baklažanai",
+      "itališka virtuvė",
+      "veganiškas patiekalas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "5g",
+      "fatContent": "18g",
+      "fiberContent": "7g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baklažanai"
+      },
+      "quantity": "1 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalios alyvuogės"
+      },
+      "quantity": "225 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kaparėliai"
+      },
+      "quantity": "170 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saliero stiebai"
+      },
+      "quantity": "570 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų padažas"
+      },
+      "quantity": "1 puodelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "300 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "300 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Actas"
+      },
+      "quantity": "80 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bazilikas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kedro riešutai"
+      },
+      "quantity": "100 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Salierų paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite salierų stiebus ir blanširuokite juos šiek tiek pasūdytame vandenyje 5 minutes. Nusausinkite ir supjaustykite kąsnio dydžio gabalėliais, šiek tiek pakepinkite aliejuje ir atidėkite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Baklažanų paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite ir supjaustykite baklažanus, pabarstykite druska ir palikite kelias valandas, kad ištrauktų kartumą. Tuo metu blanširuokite, nulupti, išimkite sėklas ir supjaustykite pomidorus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Ingredientų derinimas"
+      },
+      "text": {
+        "lt": "Kai baklažanai pastovi, nuplaukite druską ir nusausinkite. Smulkiai supjaustykite svogūnus ir pakepinkite alyvuogių aliejuje; kai jie taps permatomi, įdėkite kaparėlius, kedro riešutus, alyvuoges ir pomidorus. Tęskite kepimą, maišydami mediniu šaukštu, kol pomidorai bus paruošti, apie 15 minučių, tada nuimkite puodą nuo ugnies."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Galutinis paruošimas"
+      },
+      "text": {
+        "lt": "Kol pomidorai kepa, kitame puode įkaitinkite aliejų ir kepkite baklažanus porcijomis, kad nesumažėtų kepimo temperatūra. Kai paskutinė partija bus paruošta, grąžinkite pomidorų puodą į ugnį ir įmaišykite baklažanus kartu su anksčiau pakepintais salierais. Keletą minučių troškinkite ant mažos ugnies, švelniai maišydami, tada įmaišykite actą ir cukrų; kai actas beveik visiškai išgaruos, nuimkite puodą nuo ugnies ir leiskite atvėsti."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Caponatą patiekite šaltą su šviežio baziliko puošmena. Ji puikiai laikosi šaldytuve kelias dienas."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Caponatą galite patiekti ant skrebučių kaip užkandį arba kaip garnyrą."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sicilietiska-caponata-su-baklazanais-ir-darzovemis.jpg",
+    "alt": "Sicilietiška caponata su baklažanais ir daržovėmis",
+    "width": 1280,
+    "height": 853
+  },
+  "tags": [
+    "sicilietiška caponata",
+    "baklažanai",
+    "veganiškas patiekalas",
+    "itališka virtuvė",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "152.130.11.197",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:152.130.11.197"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Caponata_(Sicilian_Eggplant_and_Vegetables)",
+    "pageTitle": "Cookbook:Caponata_(Sicilian_Eggplant_and_Vegetables)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:29.915Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACaponata_(Sicilian_Eggplant_and_Vegetables)&action=history",
+    "originalCreator": {
+      "name": "152.130.11.197",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:152.130.11.197"
+    }
+  },
+  "originalImage": {
+    "fileName": "Sicilian_caponata.jpg",
+    "author": {
+      "name": "Massimoweb",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Massimoweb"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Sicilian_caponata.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:00:00+03:00",
+  "createdAt": "2025-12-21T20:00:00+03:00",
+  "updatedAt": "2025-12-21T20:00:00+03:00"
+}

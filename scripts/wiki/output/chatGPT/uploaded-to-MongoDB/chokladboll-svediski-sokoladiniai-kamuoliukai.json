@@ -1,0 +1,221 @@
+{
+  "slug": "chokladboll-svediski-sokoladiniai-kamuoliukai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/chokladboll-svediski-sokoladiniai-kamuoliukai",
+  "title": {
+    "lt": "Chokladboll - švediški šokoladiniai kamuoliukai"
+  },
+  "description": {
+    "lt": "Švediški šokoladiniai kamuoliukai, dar vadinami chokladboll, yra tradicinis Švedijos desertas, dažnai valgomas su kava per fika. Jie greitai ir lengvai paruošiami, nes nereikia kepti ir naudojami tik keli įprasti ingredientai."
+  },
+  "seo": {
+    "metaTitle": "Chokladboll - Švediški šokoladiniai kamuoliukai | Tradicinis receptas",
+    "metaDescription": "Atraskite, kaip paruošti švediškus šokoladinius kamuoliukus chokladboll. Greitas ir lengvas receptas, puikiai tinkantis desertui su kava ar arbata.",
+    "keywords": [
+      "chokladboll",
+      "švediški šokoladiniai kamuoliukai",
+      "tradicinis švediškas desertas",
+      "šokoladiniai kamuoliukai",
+      "greitas desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Švedų",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "3g",
+      "fatContent": "8g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 20,
+  "servingsUnit": "kamuoliukai",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Avižiniai dribsniai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "275g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kakava"
+      },
+      "quantity": "75g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilinis cukrus"
+      },
+      "quantity": "15g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas arba margarinas"
+      },
+      "quantity": "160g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kava"
+      },
+      "quantity": "90ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Dekoracijai",
+      "name": {
+        "lt": "Kokoso drožlės arba perlinis cukrus"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite avižinius dribsnius, cukrų, vanilinį cukrų ir kakavą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Rankomis arba bulvių grūstuvu įmaišykite sviestą į sausą mišinį, kol tešla bus vientisa."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kavos pridėjimas"
+      },
+      "text": {
+        "lt": "Įpilkite kavą ir maišykite, kol viskas susijungs."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kamuoliukų formavimas"
+      },
+      "text": {
+        "lt": "Rankomis formuokite 3 cm skersmens kamuoliukus."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Dekoravimas"
+      },
+      "text": {
+        "lt": "Kiekvieną kamuoliuką apvoliokite kokoso drožlėse arba perlinėje cukruje."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Atvėsinimas"
+      },
+      "text": {
+        "lt": "Padėkite šokoladinius kamuoliukus į šaldytuvą bent valandai prieš patiekimą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Chokladboll gali būti laikomi šaldytuve iki savaitės, todėl jie puikiai tinka iš anksto pasiruošti."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Eksperimentuokite su skirtingais priedais, tokiais kaip riešutai ar džiovinti vaisiai."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/chokladboll-svediski-sokoladiniai-kamuoliukai.jpg",
+    "alt": "Švediški šokoladiniai kamuoliukai dekoruoti kokoso drožlėmis",
+    "width": 1000,
+    "height": 688
+  },
+  "tags": [
+    "chokladboll",
+    "švediški desertai",
+    "šokoladiniai kamuoliukai",
+    "lengvi desertai",
+    "tradiciniai švediški desertai"
+  ],
+  "author": {
+    "name": "Kellen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kellen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chokladboll_(Swedish_Chocolate_Balls)",
+    "pageTitle": "Cookbook:Chokladboll_(Swedish_Chocolate_Balls)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:10:03.981Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChokladboll_(Swedish_Chocolate_Balls)&action=history",
+    "originalCreator": {
+      "name": "Kellen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kellen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chokladbollar.jpg",
+    "author": {
+      "name": "No machine-readable author provided. Stefan w~commonswiki assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Stefan%20w~commonswiki"
+    },
+    "license": {
+      "code": "cc-by-2.5",
+      "shortName": "CC BY 2.5",
+      "fullName": "Creative Commons Attribution 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Chokladbollar.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:10:03+03:00",
+  "createdAt": "2025-12-23T07:10:03+03:00",
+  "updatedAt": "2025-12-23T07:10:03+03:00"
+}

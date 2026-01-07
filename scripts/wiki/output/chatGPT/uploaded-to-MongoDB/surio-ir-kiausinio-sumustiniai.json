@@ -1,0 +1,189 @@
+{
+  "slug": "surio-ir-kiausinio-sumustiniai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/surio-ir-kiausinio-sumustiniai",
+  "title": {
+    "lt": "Sūrio ir kiaušinio sumuštiniai"
+  },
+  "description": {
+    "lt": "Šis receptas skirtas greitai paruoštiems sūrio ir kiaušinio sumuštiniams. Tai puikus pasirinkimas greitiems pusryčiams ar užkandžiams, kai norisi kažko skanaus ir šilto. Viskas ko jums reikia – tai duonos, sūrio ir kiaušinių."
+  },
+  "seo": {
+    "metaTitle": "Sūrio ir kiaušinio sumuštiniai | Greitas receptas",
+    "metaDescription": "Lengvai ir greitai paruošiami sūrio ir kiaušinio sumuštiniai. Tobulas pasirinkimas pusryčiams ar užkandžiams. Sužinokite, kaip pasigaminti šį gardų patiekalą.",
+    "keywords": [
+      "sūrio sumuštiniai",
+      "kiaušinio sumuštiniai",
+      "greiti pusryčiai",
+      "užkandžiai su sūriu",
+      "greiti sumuštiniai"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "15g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 3,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "4 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sūris"
+      },
+      "quantity": "2 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "Pagal poreikį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Kiaušinių paruošimas"
+      },
+      "text": {
+        "lt": "Dubenyje išplakite kiaušinius su druska ir pipirais. Tai suteiks sumuštiniams skonio."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sumuštinių formavimas"
+      },
+      "text": {
+        "lt": "Ant duonos riekės uždėkite sūrio gabalėlį, apibarstykite pipirais ir uždenkite kita duonos riekele. Sumuštinį perpjaukite įstrižai per pusę."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Keptuvėje ant vidutinės ugnies ištirpinkite sviestą. Sumuštinį mirkykite į kiaušinių plakinį ir dėkite į keptuvę. Apkepkite iš abiejų pusių, kol gražiai apskrus."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštus sumuštinius iš karto po kepimo. Jie puikiai tinka pusryčiams ar greitiems užkandžiams."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Sūrio ir kiaušinio sumuštiniai puikiai tinka su šviežiomis daržovėmis ar salotomis."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/surio-ir-kiausinio-sumustiniai.jpg",
+    "alt": "Sūrio ir kiaušinio sumuštiniai keptuvėje, paruošti patiekimui",
+    "width": 4258,
+    "height": 2845
+  },
+  "tags": [
+    "sūrio sumuštiniai",
+    "kiaušinio sumuštiniai",
+    "pusryčiai",
+    "užkandžiai",
+    "greitas receptas"
+  ],
+  "author": {
+    "name": "AnkitaS",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AnkitaS"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cheese_Egg_Toast",
+    "pageTitle": "Cookbook:Cheese_Egg_Toast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:51.105Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACheese_Egg_Toast&action=history",
+    "originalCreator": {
+      "name": "AnkitaS",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AnkitaS"
+    }
+  },
+  "originalImage": {
+    "fileName": "Cheese_egg_toast.jpg",
+    "author": {
+      "name": "AnkitaS",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:AnkitaS"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cheese_egg_toast.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T17:59:51+03:00",
+  "createdAt": "2025-12-21T17:59:51+03:00",
+  "updatedAt": "2025-12-21T17:59:51+03:00"
+}

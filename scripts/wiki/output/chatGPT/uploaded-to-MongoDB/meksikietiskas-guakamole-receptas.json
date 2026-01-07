@@ -1,0 +1,223 @@
+{
+  "slug": "meksikietiskas-guakamole-receptas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/meksikietiskas-guakamole-receptas",
+  "title": {
+    "lt": "Meksikietiškas guakamolės receptas"
+  },
+  "description": {
+    "lt": "Guakamolė - tai meksikietiškas padažas, gaminamas iš avokadų ir įvairių prieskonių, dažniausiai įskaitant svogūnus, pipirus, česnaką ir pomidorus. Jis naudojamas kaip padažas, ingredientas bei užkandis, patiekiamas su tortilijų traškučiais."
+  },
+  "seo": {
+    "metaTitle": "Meksikietiškas guakamolės receptas | Gardus avokadų padažas",
+    "metaDescription": "Sužinokite, kaip paruošti tradicinę meksikietišką guakamolę iš avokadų, svogūnų, česnako ir pomidorų. Puikiai tinka kaip užkandis ar padažas tortilijų traškučiams.",
+    "keywords": [
+      "guakamolė",
+      "meksikietiškas padažas",
+      "avokadų receptas",
+      "tortilijų traškučiai",
+      "užkandis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Meksikiečių",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "3g",
+      "fatContent": "18g",
+      "fiberContent": "7g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/avokadas"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Avokadai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pico de gallo"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Laimo sultys"
+      },
+      "quantity": "½ laimo",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jalapeño"
+      },
+      "quantity": "2 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "4 arbatiniai šaukšteliai",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "1 ½ arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti juodieji pipirai"
+      },
+      "quantity": "½ arbatinio šaukštelio",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Avokadų paruošimas"
+      },
+      "text": {
+        "lt": "Perpjaukite avokadus per pusę ir išimkite kauliukus. Supjaustykite avokadų minkštimą kvadratėliais, neperpjaudami žievės."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Avokadų sutrynimas"
+      },
+      "text": {
+        "lt": "Išimkite minkštimą dideliu šaukštu ir sudėkite į dubenį. Įpilkite laimo sulčių ir gerai išmaišykite, kad avokadai būtų tolygiai padengti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Pridėkite pico de gallo, česnaką, aliejų, jalapeño, druską ir maltus juoduosius pipirus. Gerai išmaišykite, sutrinkite ir sumaišykite avokado gabaliukus, kol ingredientai gerai susimaišys."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Guakamolės užbaigimas"
+      },
+      "text": {
+        "lt": "Išimkite likusius avokadų gabaliukus ir švelniai įmaišykite į masę. Guakamolė yra tinkamos konsistencijos, kai daugiau didelių gabaliukų nei sutrintų dalių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Papuoškite guakamolę kalendros šakele ir patiekite su tortilijų traškučiais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Guakamolė geriausiai tinka vartoti iš karto, tačiau laimo sultys ir aliejus padeda ją ilgiau išlaikyti šviežią."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Pridėkite graikiško jogurto arba trintų juodųjų pupelių, kad patiekalas būtų sodresnis ir turtingesnis baltymų."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Norėdami išvengti oksidacijos, uždenkite guakamolės paviršių plastikine plėvele."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/meksikietiskas-guakamole-receptas.jpg",
+    "alt": "Meksikietiškas guakamolės padažas su avokadais ir kalendros šakele",
+    "width": 1024,
+    "height": 768
+  },
+  "tags": [
+    "guakamolė",
+    "meksikietiškas padažas",
+    "avokadų receptas",
+    "lengvas užkandis",
+    "tortilijų traškučiai"
+  ],
+  "author": {
+    "name": "Zanimum",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Zanimum"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Guacamole_I",
+    "pageTitle": "Cookbook:Guacamole_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:54:24.096Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGuacamole_I&action=history",
+    "originalCreator": {
+      "name": "Zanimum",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Zanimum"
+    }
+  },
+  "originalImage": {
+    "fileName": "Guacamole.jpg",
+    "author": {
+      "name": "Jon Sullivan",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Conscious"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Guacamole.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Guacamole.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T13:54:24+03:00",
+  "createdAt": "2026-01-06T13:54:24+03:00",
+  "updatedAt": "2026-01-06T13:54:24+03:00"
+}

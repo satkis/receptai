@@ -1,0 +1,101 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fribourg_Omelet",
+    "pageTitle": "Cookbook:Fribourg_Omelet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Jarrod Baniqued",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jarrod%20Baniqued"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFribourg_Omelet&action=history",
+    "extractedAt": "2026-01-04T16:12:02.340Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fribourg Omelet",
+    "slug": "fribourg-omelet",
+    "description": "__NOTOC__ A Fribourg omelet is a mix of eggs, crunchy greens, and ham, with the Swiss canton of Fribourg’s native Gruyère cheese adding an acidic punch to bind the flavors together. ==Ingredients== *4 large eggs *1 pinch salt *1 pinch ground black pepper *2 tbsp milk *1 pinch ground nutmeg *2 tbsp butter or olive oil *3 thin slices of ham, cut in small squares * 1 handful roughly chopped fresh kale * 6 thin 8-cm (3-inch)-wide slices of Gruyère cheese",
+    "ingredients": [
+      "4 large eggs",
+      "1 pinch salt",
+      "1 pinch ground black pepper",
+      "2 tbsp milk",
+      "1 pinch ground nutmeg",
+      "2 tbsp butter or olive oil",
+      "3 thin slices of ham, cut in small squares",
+      "1 handful roughly chopped fresh kale",
+      "6 thin 8-cm (3-inch)-wide slices of Gruyère cheese"
+    ],
+    "instructions": [
+      "In a large bowl, whisk together the eggs, salt, pepper, milk and nutmeg, until even and glossy.",
+      "Place half the butter in the skillet on medium heat. Swirl the pan to coat evenly with butter.",
+      "Add ham and cook until deep brown.",
+      "Stir in kale for 30 seconds, or until slightly wilted but still crunchy. Set aside the ham and greens.",
+      "Add the remainder of the butter to the skillet over low heat.",
+      "Pour egg mixture into the skillet, moving skillet to create a flat, even layer. Heat until the eggs have begun to set, with some fluff on top.",
+      "Scatter the ham and kale evenly over the top of the eggs.",
+      "Lay the Gruyère slices over the open omelet. Heat until the edges of the cheese have melted slightly.",
+      "Gently push the edges of the omelet less than half a centimeter toward the center of the skillet with two spatulas, making sure not to break it. Turn the heat off.",
+      "Use the spatulas to lift half the omelet and fold over the other half. Move the entire omelet carefully onto a plate and serve."
+    ],
+    "notes": [],
+    "servings": 1,
+    "totalTimeMinutes": 15,
+    "difficulty": 3,
+    "category": "Breakfast recipes",
+    "categories": [
+      "Recipes using butter",
+      "Recipes using milk",
+      "Recipes using kale",
+      "Recipes using ham",
+      "Recipes using gruyère",
+      "Recipes for omelettes",
+      "Breakfast recipes",
+      "Recipes using egg",
+      "Recipes using salt",
+      "Recipes using pepper",
+      "Recipes using nutmeg",
+      "Recipes using olive oil"
+    ]
+  },
+  "image": {
+    "filename": "Fribourg_omelet.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Fribourg_omelet.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fribourg_omelet.jpg",
+    "localPath": "scripts/wiki/output/Fribourg_omelet.jpg",
+    "dimensions": {
+      "width": 3022,
+      "height": 3802
+    },
+    "fileSize": 1967081,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jarrod Baniqued",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Jarrod%20Baniqued"
+    },
+    "metadata": {
+      "description": "Gruyère, ham and kale omelet",
+      "categories": [
+        "Omelettes",
+        "CC-Zero",
+        "Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license",
+        "Self-published work",
+        "Self-published work missing SDC copyright license",
+        "Ham and cheese omelettes"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fribourg_omelet.jpg"
+  }
+}

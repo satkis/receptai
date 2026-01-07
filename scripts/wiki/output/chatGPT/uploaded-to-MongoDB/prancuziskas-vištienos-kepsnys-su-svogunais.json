@@ -1,0 +1,174 @@
+{
+  "slug": "prancuziskas-vištienos-kepsnys-su-svogunais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/prancuziskas-vistienos-kepsnys-su-svogunais",
+  "title": {
+    "lt": "Prancūziškas vištienos kepsnys su svogūnais"
+  },
+  "description": {
+    "lt": "Prancūziškas vištienos kepsnys su svogūnais yra lengvas ir skanus patiekalas, pagamintas iš vištienos krūtinėlės, apvoliotos traškiuose svogūnuose. Šis receptas puikiai tinka greitai vakarienei ar pietums. Paprika prideda papildomo skonio akcento."
+  },
+  "seo": {
+    "metaTitle": "Prancūziškas vištienos kepsnys su svogūnais | Greitas ir skanus receptas",
+    "metaDescription": "Greitas prancūziško vištienos kepsnio receptas su svogūnais. Puikiai tinka pietums ar vakarienei. Išbandykite šį paprastą ir skanų receptą.",
+    "keywords": [
+      "prancūziškas vištienos kepsnys",
+      "vištienos krūtinėlė",
+      "svogūnai",
+      "greitas receptas",
+      "kepsnys"
+    ],
+    "recipeCategory": "vistiena",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "35g",
+      "fatContent": "19g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/vistiena",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištienos krūtinėlė"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C. Tai padės vištienai iškepti tolygiai ir traškiai."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Vištienos paruošimas"
+      },
+      "text": {
+        "lt": "Panardinkite vištienos krūtinėlę į plaktą kiaušinį, tada apvoliokite susmulkintuose svogūnuose. Įsitikinkite, kad vištiena yra gerai padengta."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Sudėkite vištieną ant pergamentu išklotos kepimo skardos ir kepkite orkaitėje apie 20 minučių, kol vidus nebebus rausvas."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą su mėgstamais garnyrais ar salotomis. Papriką galite pridėti pagal skonį."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite papildomo traškumo, svogūnus galite pakepinti prieš naudojant."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/prancuziskas-vistienos-kepsnys-su-svogunais.jpg",
+    "alt": "Prancūziškas vištienos kepsnys su svogūnais, patiekiamas lėkštėje",
+    "width": 3780,
+    "height": 2835
+  },
+  "tags": [
+    "prancūziškas vištienos kepsnys",
+    "vištienos krūtinėlė",
+    "svogūnai",
+    "greitas receptas",
+    "kepsnys"
+  ],
+  "author": {
+    "name": "Tesleemah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Onioned_Chicken",
+    "pageTitle": "Cookbook:French_Onioned_Chicken",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T19:09:39+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Onioned_Chicken&action=history",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_chicken_and_french_fries_-_Summer_Shack_-_Cambridge,_MA.jpg",
+    "author": {
+      "name": "Daderot",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Daderot"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Fried_chicken_and_french_fries_-_Summer_Shack_-_Cambridge%2C_MA.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:09:39+03:00",
+  "createdAt": "2026-01-04T19:09:39+03:00",
+  "updatedAt": "2026-01-04T19:09:39+03:00"
+}

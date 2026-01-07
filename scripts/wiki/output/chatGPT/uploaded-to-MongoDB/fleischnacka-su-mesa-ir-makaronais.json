@@ -1,0 +1,257 @@
+{
+  "slug": "fleischnacka-su-mesa-ir-makaronais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/fleischnacka-su-mesa-ir-makaronais",
+  "title": {
+    "lt": "Fleischnacka su mėsa ir makaronais"
+  },
+  "description": {
+    "lt": "Fleischnacka yra klasikinis Elzaso patiekalas, kurio pagrindą sudaro maltos jautienos įdaras, susuktas į šviežią makaronų tešlą ir supjaustytas riekelėmis. Šios skanios \"mėsos sraigės\" yra verdamos sultinyje, kad būtų dar sultingesnės. Patiekalą galima pagardinti Riesling vynu ir patiekti su šviežiomis žalios salotomis."
+  },
+  "seo": {
+    "metaTitle": "Fleischnacka su mėsa ir makaronais | Elzaso virtuvės receptas",
+    "metaDescription": "Atraskite Elzaso virtuvės šedevrą - Fleischnacka su mėsa ir makaronais. Klasikinis patiekalas su maltos jautienos įdaru, puikiai tinka šventiniam stalui.",
+    "keywords": [
+      "fleischnacka",
+      "elzaso virtuvė",
+      "mėsos ir makaronų patiekalas",
+      "jautienos receptas",
+      "tradicinis prancūziškas patiekalas"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 600,
+      "proteinContent": "32g",
+      "fatContent": "28g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/miltiniai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "250ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malta jautiena"
+      },
+      "quantity": "1100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 didelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "3 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Muskato riešutas"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautienos sultinys"
+      },
+      "quantity": "1 litras",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Riesling vynas"
+      },
+      "quantity": "1 litras (nebūtina)",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Žalios salotos"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus ir kiaušinius, tada įpilkite vandens ir druskos. Minkykite tešlą, kol ji taps lygi, ir palikite pailsėti 1 valandai."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Įdaro paruošimas"
+      },
+      "text": {
+        "lt": "Susmulkinkite svogūną, česnaką ir sumaišykite su malta jautiena, kiaušiniais, muskatiniu riešutu, druska ir pipirais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos kočiojimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą į stačiakampį. Tolygiai paskleiskite mėsos įdarą ir suvyniokite į cilindrą. Užsandarinkite kraštą vandeniu."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Supjaustykite ritinį riekelėmis ir pasikepkite aliejuje, kol pagels."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Virimas sultinyje"
+      },
+      "text": {
+        "lt": "Įpilkite sultinio (ir vyno, jei naudojate) ir virkite apie 20 minučių."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Patiekite su žaliosiomis salotomis. Skanaus!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, galite įdėti daugiau prieskonių pagal savo skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/fleischnacka-su-mesa-ir-makaronais.jpg",
+    "alt": "Fleischnacka su mėsa ir makaronais - elzaso virtuvės patiekalas",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "fleischnacka",
+    "elzaso receptas",
+    "prancūziškas patiekalas",
+    "mėsa ir makaronai",
+    "tradicinis patiekalas"
+  ],
+  "author": {
+    "name": "Mike Hayes",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mike%20Hayes"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fleischnacka_(Alsatian_Meat_and_Pasta_Roll)",
+    "pageTitle": "Cookbook:Fleischnacka_(Alsatian_Meat_and_Pasta_Roll)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:02:26.096Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFleischnacka_(Alsatian_Meat_and_Pasta_Roll)&action=history",
+    "originalCreator": {
+      "name": "Mike Hayes",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mike%20Hayes"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fleischschnacka.JPG",
+    "author": {
+      "name": "Florival fr",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Florival%20fr"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fleischschnacka.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T16:02:26+03:00",
+  "createdAt": "2026-01-04T16:02:26+03:00",
+  "updatedAt": "2026-01-04T16:02:26+03:00"
+}

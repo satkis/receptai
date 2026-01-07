@@ -1,0 +1,211 @@
+{
+  "slug": "morku-salotos-su-puikiais-priedais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/morku-salotos-su-puikiais-priedais",
+  "title": {
+    "lt": "Morkų salotos su puikiais priedais"
+  },
+  "description": {
+    "lt": "Gaivios morkų salotos su migdolų aliejumi ir pušų riešutais. Šios salotos yra lengvos ir sveikos, puikiai tinkančios kaip užkandis ar šoninis patiekalas. Jei norite aštresnio skonio, pridėkite šviežių garstyčių lapų."
+  },
+  "seo": {
+    "metaTitle": "Morkų salotos su migdolų aliejumi ir pušų riešutais | Gaivios ir sveikos salotos",
+    "metaDescription": "Išbandykite šias gaivias morkų salotas su migdolų aliejumi ir pušų riešutais. Puikus pasirinkimas lengvam užkandžiui ar garnyrui. Sveikas ir skanus patiekalas visai šeimai.",
+    "keywords": [
+      "morkų salotos",
+      "migdolų aliejus",
+      "pušų riešutai",
+      "veganas",
+      "lengvi užkandžiai"
+    ],
+    "recipeCategory": "salotos",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "3g",
+      "fatContent": "12g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 5,
+  "timeCategory": "iki-15-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/salotos",
+  "secondaryCategories": [
+    "receptai/uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "4 vidutinės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Migdolų aliejus"
+      },
+      "quantity": "1-2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis balzaminis actas"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pušų riešutai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Papildomi priedai",
+      "name": {
+        "lt": "Švieži žalumynai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Papildomi priedai",
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Morkų paruošimas"
+      },
+      "text": {
+        "lt": "Pjaustykite morkas į plonas juosteles arba tarkuokite, jei tai patogiau."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Salotų pagardinimas"
+      },
+      "text": {
+        "lt": "Apšlakstykite morkas migdolų aliejumi. Tai suteiks salotoms malonaus riešutų aromato."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Pagardinkite druska, pipirais ir actu. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Riešutų pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite pušų riešutus, kad salotos būtų traškios ir dar gardesnės."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jeigu norite, salotas galite patiekti suvyniotus į žalumynų lapus."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jauni garstyčių lapai suteikia aštrumo, kuris puikiai dera su morkomis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/morku-salotos-su-puikiais-priedais.jpg",
+    "alt": "Morkų salotos su migdolų aliejumi ir pušų riešutais",
+    "width": 2592,
+    "height": 1944
+  },
+  "tags": [
+    "morkų salotos",
+    "lengvas receptas",
+    "veganas",
+    "sveikas maistas",
+    "greiti užkandžiai"
+  ],
+  "author": {
+    "name": "Ragesoss",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Ragesoss"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Carrot_Salad",
+    "pageTitle": "Cookbook:Carrot_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:35.898Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACarrot_Salad&action=history",
+    "originalCreator": {
+      "name": "Ragesoss",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Ragesoss"
+    }
+  },
+  "originalImage": {
+    "fileName": "Nest_of_Carrot_Salad,_by_LadyofProcrastination.jpg",
+    "author": {
+      "name": "Melinda",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Nest_of_Carrot_Salad%2C_by_LadyofProcrastination.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:59:35+03:00",
+  "createdAt": "2025-12-21T20:59:35+03:00",
+  "updatedAt": "2025-12-21T20:59:35+03:00"
+}

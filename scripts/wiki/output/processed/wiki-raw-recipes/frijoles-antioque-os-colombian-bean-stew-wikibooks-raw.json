@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Frijoles_Antioqueños_(Colombian_Bean_Stew)",
+    "pageTitle": "Cookbook:Frijoles_Antioqueños_(Colombian_Bean_Stew)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Lgvanegas",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Lgvanegas"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrijoles_Antioque%C3%B1os_(Colombian_Bean_Stew)&action=history",
+    "extractedAt": "2026-01-04T16:22:17.901Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Frijoles Antioqueños (Colombian Bean Stew)",
+    "slug": "frijoles-antioque-os-colombian-bean-stew",
+    "description": "Category:Colombian recipes Category:Recipes using pulses Category:Recipes for stew Category:Recipes for soup Category:Boiled recipes Category:Recipes using allspice Category:Recipes using dehydrated broth Category:Recipes using cargamanto bean Category:Recipes using cumin Category:Recipes using green onion",
+    "ingredients": [
+      "1 lb red or Cargamanto beans",
+      "2 red tomatoes",
+      "1 cup chopped scallions",
+      "¼ cup oil",
+      "2 tbsp cumin",
+      "1 tbsp allspice",
+      "6 cups water",
+      "1 chicken broth cube",
+      "1 large plantain",
+      "½ lb flank steak, pork legs, or pork rinds (optional)"
+    ],
+    "instructions": [
+      "Wash beans and let hydrate overnight by covering with twice its volume of water.",
+      "The next day, remove any floating beans.",
+      "Heat the oil in a pressure cooker. Add scallions and let fry until they start to brown. Add tomato, cumin, broth cube, and allspice. This is called \"hogao\", a basic sauce for many Colombian dishes.",
+      "Add 6 cups water, the beans, and plantain. Bring to a boil over medium heat.",
+      "Cover the pressure cooker, and let cook for 30 minutes.",
+      "Let cool, then open the pressure cooker.",
+      "Check water level, add the meat if using, and cover again. Cook for another 30 minutes.",
+      "Taste for salt. If you want a thicker mixture, you can cook uncovered over low heat."
+    ],
+    "notes": [
+      "When serving, you can put additional hogao on top.",
+      "You can serve with white rice, avocado, ground beef, roasted beef, fried plantain, roasted chicken, corn arepas, and many other combinations.",
+      "Trasnochado beans, eaten one day after being cooked, are a great option to eat the beans with a delicious concentrated flavor.",
+      "To make bandeja paisa, serve a portion of Antioqueño beans, a portion of white rice, a portion of ground beef, a slice of avocado, one fried chorizo sausage, fried ripe plantain, one fried blood sausage, pork rind, and one fried egg on top of the rice.",
+      "Another delicious way to serve these beans is with cazuelitas: serve half of a cazuelita with the beans, and add to it corn, shredded beef (ropa vieja), avocado, and ground pork rind."
+    ],
+    "servings": 6,
+    "totalTimeMinutes": 60,
+    "difficulty": 3,
+    "category": "Stew recipes",
+    "categories": [
+      "Colombian recipes",
+      "Recipes using pulses",
+      "Recipes for stew",
+      "Recipes for soup",
+      "Boiled recipes",
+      "Recipes using allspice",
+      "Recipes using dehydrated broth",
+      "Recipes using cargamanto bean",
+      "Recipes using cumin",
+      "Recipes using green onion"
+    ]
+  },
+  "image": {
+    "filename": "Frijoles_Vanegas.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Frijoles_Vanegas.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frijoles_Vanegas.jpg",
+    "localPath": "scripts/wiki/output/Frijoles_Vanegas.jpg",
+    "dimensions": {
+      "width": 1280,
+      "height": 960
+    },
+    "fileSize": 1581905,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Frijoles_Vanegas.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Lgvanegas at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Taken with Sony DSC-P200",
+        "PD-user",
+        "Cuisine of Colombia",
+        "Media lacking a description",
+        "Bean dishes"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Frijoles_Vanegas.jpg"
+  }
+}

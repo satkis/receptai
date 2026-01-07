@@ -1,0 +1,86 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Brigadeiro_(Brazilian_Chocolate_Fudge)",
+    "pageTitle": "Cookbook:Brigadeiro_(Brazilian_Chocolate_Fudge)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "HappyDog",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:HappyDog"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABrigadeiro_(Brazilian_Chocolate_Fudge)&action=history",
+    "extractedAt": "2025-11-27T13:11:14.349Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Brigadeiro (Brazilian Chocolate Fudge)",
+    "slug": "brigadeiro-brazilian-chocolate-fudge",
+    "description": "Brigadeiro is a simple Brazilian chocolate fudge candy created in the 1920s. It is named after Brazilian airman Eduardo Gomes (brigadeiro being his rank in the Air Force). It's commonly served with soda, coffee or milk. == Ingredients ==",
+    "ingredients": [
+      "1 can (395 g) of sweetened condensed milk",
+      "1 tablespoon of butter",
+      "3 tablespoons of cocoa powder",
+      "1 box (482 g) of chocolate sprinkles"
+    ],
+    "instructions": [
+      "In a heavy saucepan, combine the milk, cocoa powder, and butter. Stir to dissolve the chocolate.",
+      "Put over low heat and stir constantly to avoid formation of lumps.",
+      "Continue stirring for 10–12 minutes, or until you are able to see the bottom of the pot for one second when you scratch it side-to-side with the spoon. The more you cook, the harder the resulting candy will be—it may vary from liquid fudge to hard candy.",
+      "Allow mixture to cool.",
+      "Butter your hands, and roll the mixture into small balls (around 2 cm in diameter). Alternatively, you can use two metal spoons to shape the candies. Roll them in the chocolate sprinkles."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": 45,
+    "difficulty": 1,
+    "category": "Confection recipes",
+    "categories": [
+      "Recipes using cocoa powder",
+      "Recipes for confections",
+      "Brazilian recipes",
+      "Vegetarian recipes",
+      "Recipes_with_metric_units",
+      "Recipes using butter",
+      "Recipes using sweetened condensed milk"
+    ]
+  },
+  "image": {
+    "filename": "Brigadeiro.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Brigadeiro.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Brigadeiro.jpg",
+    "localPath": "scripts/wiki/output/Brigadeiro.jpg",
+    "dimensions": {
+      "width": 2272,
+      "height": 1704
+    },
+    "fileSize": 892905,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "User Mayra (Maych) on Flickr",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gmaxwell"
+    },
+    "metadata": {
+      "description": "Picture of Brazililan sweet Brigadeiro",
+      "categories": [
+        "Brigadeiros",
+        "Taken with Canon PowerShot G3",
+        "Flickr images reviewed by trusted users",
+        "Aluminium foil candy cups",
+        "Photos in Flickr Explore",
+        "Zigzag patterns"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Brigadeiro.jpg"
+  }
+}

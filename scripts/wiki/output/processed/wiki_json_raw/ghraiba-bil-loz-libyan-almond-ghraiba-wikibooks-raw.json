@@ -1,0 +1,94 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ghraiba_bil_Loz_(Libyan_Almond_Ghraiba)",
+    "pageTitle": "Cookbook:Ghraiba_bil_Loz_(Libyan_Almond_Ghraiba)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhraiba_bil_Loz_(Libyan_Almond_Ghraiba)&action=history",
+    "extractedAt": "2026-01-06T13:40:31.143Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Ghraiba bil Loz (Libyan Almond Ghraiba)",
+    "slug": "ghraiba-bil-loz-libyan-almond-ghraiba",
+    "description": "Ghreyba bil loz is a delicious Libyan almond cookie loved for its delicate texture and rich almond flavor. These cookies are often enjoyed during festive occasions and are a popular treat in Libyan cuisine. Ghreyba bil loz melts in your mouth and is perfect for serving with a cup of tea or coffee.",
+    "ingredients": [
+      "1 cup butter, softened",
+      "½ cup powdered sugar",
+      "2 cups all-purpose flour",
+      "½ cup finely ground almonds",
+      "1 teaspoon vanilla extract",
+      "Whole almonds, for decoration"
+    ],
+    "instructions": [
+      "Preheat the oven to 350°F (175°C) and line a baking sheet with parchment paper or a silicone baking mat.",
+      "In a mixing bowl, cream together the softened butter and powdered sugar until light and fluffy.",
+      "Add the flour, ground almonds, and vanilla extract to the butter mixture. Mix until well combined and a soft dough forms.",
+      "Pinch off small portions of the dough and roll them into balls about the size of a walnut. Place the balls on the prepared baking sheet, leaving some space between them.",
+      "Press a whole almond into the center of each cookie ball, gently flattening the cookies slightly.",
+      "Bake in the preheated oven for 12–15 minutes, or until the edges of the cookies turn golden brown.",
+      "Remove from the oven and let the cookies cool on the baking sheet for a few minutes, then transfer them to a wire rack to cool completely."
+    ],
+    "notes": [
+      "Ghribia bil loz are delicate and crumbly, so handle them gently when transferring to the wire rack.",
+      "The cookies will firm up as they cool, so don't worry if they seem soft right out of the oven.",
+      "Make sure the butter is softened at room temperature to easily cream it with the powdered sugar.",
+      "If you prefer a more pronounced almond flavor, you can add a few drops of almond extract to the dough along with the vanilla extract.",
+      "For a touch of citrus, add the zest of 1 lemon or orange to the dough.",
+      "Dust the cooled cookies with a sprinkle of powdered sugar for an elegant presentation."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Libyan recipes",
+      "Recipes for cookies",
+      "Recipes using almond",
+      "Recipes for dessert",
+      "Recipes using powdered sugar",
+      "Recipes using butter",
+      "Recipes using all-purpose flour"
+    ]
+  },
+  "image": {
+    "filename": "Ghribia_(algerian_cookie).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ghribia_%28algerian_cookie%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ghribia_(algerian_cookie).jpg",
+    "localPath": "scripts/wiki/output/Ghribia_(algerian_cookie).jpg",
+    "dimensions": {
+      "width": 1797,
+      "height": 1671
+    },
+    "fileSize": 747320,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "وهراني",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:%D9%88%D9%87%D8%B1%D8%A7%D9%86%D9%8A"
+    },
+    "metadata": {
+      "description": "Ghribia, algerian cookie",
+      "categories": [
+        "Ghraiba",
+        "Self-published work",
+        "Underexposed images"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Ghribia_(algerian_cookie).jpg"
+  }
+}

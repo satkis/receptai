@@ -1,0 +1,257 @@
+{
+  "slug": "galaktoburekas-graikiskas-semolinos-pyragas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/galaktoburekas-graikiskas-semolinos-pyragas",
+  "title": {
+    "lt": "Galaktoburekas - Graikiškas semolinos pyragas"
+  },
+  "description": {
+    "lt": "Galaktoburekas yra tradicinis graikiškas desertas, pagamintas su filo tešla ir semolinos kremu, pagardintu vanile ir citrina. Patiekiamas su saldžiu sirupu. Tai puikus desertas, kuris džiugins jūsų skonio receptorius."
+  },
+  "seo": {
+    "metaTitle": "Galaktoburekas - Graikiškas desertas su semolinos kremu",
+    "metaDescription": "Tradicinis galaktobureko receptas su filo tešla, semolinos kremu ir saldžiu sirupu. Išbandykite šį gardų graikišką desertą namuose.",
+    "keywords": [
+      "galaktoburekas",
+      "graikiškas desertas",
+      "semolinos pyragas",
+      "filo tešla",
+      "saldus sirupas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Graikų",
+    "nutrition": {
+      "calories": 320,
+      "proteinContent": "7g",
+      "fatContent": "15g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+   
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "6 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Semolina"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "1 litras",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ankštys"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinos sultys"
+      },
+      "quantity": "½ vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Filo tešla"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "Ištirpintas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "125ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinos sultys"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Kremo paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite cukrų, kiaušinius ir semoliną puode. Įpilkite pieno ir vanilės ankštis. Įmaišykite citrinos sultis."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kremo virimas"
+      },
+      "text": {
+        "lt": "Užvirinkite mišinį, visą laiką maišydami. Kai pradės virti, sumažinkite ugnį ir maišykite dar 10 minučių. Atvėsinkite mišinį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Ištepkite tirpintu sviestu kiekvieną filo tešlos lapą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pyrago formavimas"
+      },
+      "text": {
+        "lt": "Sviestu patepkite kepimo formą ir įdėkite pusę filo tešlos. Užpilkite atvėsintą semolinos kremą ir uždenkite likusiais filo tešlos lakštais."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Pabarstykite pyragą šiek tiek vandens ir kepkite 180°C temperatūroje 1 valandą. Atvėsinkite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Sirupo paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite vandenį ir cukrų puode. Užvirinkite ir virkite apie 10 minučių. Atvėsinkite sirupą ir įmaišykite citrinos sultis."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Pyragą aptepkite sirupu ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galaktobureką galite laikyti šaldytuve iki 3 dienų."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/galaktoburekas-graikiskas-semolinos-pyragas.jpg",
+    "alt": "Galaktoburekas - Graikiškas semolinos pyragas su sirupu",
+    "width": 3264,
+    "height": 2448
+  },
+  "tags": [
+    "galaktoburekas",
+    "graikiškas desertas",
+    "semolinos pyragas",
+    "filo tešla",
+    "saldus sirupas"
+  ],
+  "author": {
+    "name": "89.246.180.213",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:89.246.180.213"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Galaktoboureko_(Greek_Semolina_Custard_Pastry)",
+    "pageTitle": "Cookbook:Galaktoboureko_(Greek_Semolina_Custard_Pastry)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:36:02.583Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGalaktoboureko_(Greek_Semolina_Custard_Pastry)&action=history",
+    "originalCreator": {
+      "name": "89.246.180.213",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:89.246.180.213"
+    }
+  },
+  "originalImage": {
+    "fileName": "Galaktoboureko.jpg",
+    "author": {
+      "name": "Badseed",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Badseed"
+    },
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "wikimediaCommonsUrl": "https://commons.wikimedia.org/wiki/File:Galaktoboureko.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:36:02+03:00",
+  "createdAt": "2026-01-06T16:36:02+03:00",
+  "updatedAt": "2026-01-06T16:36:02+03:00"
+}

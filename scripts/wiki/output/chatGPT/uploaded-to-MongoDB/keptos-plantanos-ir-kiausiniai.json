@@ -1,0 +1,174 @@
+{
+  "slug": "keptos-plantanos-ir-kiausiniai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/keptos-plantanos-ir-kiausiniai",
+  "title": {
+    "lt": "Keptos plantanos ir kiaušiniai"
+  },
+  "description": {
+    "lt": "Keptos plantanos su kiaušiniais – tai sotus ir maistingas Nigerijos patiekalas, dažnai valgomas pusryčiams. Plantanų saldumas derinamas su švelniai keptais kiaušiniais, sukuriant puikų skonio derinį. Šis receptas idealiai tinka greitam ir skaniam rytmečio pradžiai."
+  },
+  "seo": {
+    "metaTitle": "Keptos plantanos ir kiaušiniai | Nigerijos pusryčių receptas",
+    "metaDescription": "Sužinokite, kaip paruošti keptas plantanas su kiaušiniais – tradicinį Nigeria patiekalą, puikiai tinkantį pusryčiams. Paprastas ir greitas receptas.",
+    "keywords": [
+      "keptos plantanos",
+      "plantanos su kiaušiniais",
+      "Nigerijos pusryčiai",
+      "greitas pusryčių receptas",
+      "vegetariškas receptas"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "8g",
+      "fatContent": "15g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 25,
+  "timeCategory": "iki-30-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/vegetariska"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Plantanos"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "3 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Plantanų paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite ir supjaustykite plantanas. Pagardinkite druska ir gerai sumaišykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Plantanų kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite truputį aliejaus keptuvėje. Kai karštas, pridėkite plantanas. Kepkite, kartais apversdami, kol apskrus. Išimkite ir atidėkite į šalį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kiaušinių kepimas"
+      },
+      "text": {
+        "lt": "Įplakite kiaušinius su trupučiu druskos. Supilkite į keptuvę ir kepkite, kaip norite, kad būtų standūs."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite keptus kiaušinius kartu su plantanomis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norėdami daugiau skonio, į kiaušinius galite pridėti pjaustytų daržovių."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/keptos-plantanos-ir-kiausiniai.jpg",
+    "alt": "Keptos plantanos su kiaušiniais - Nigerijos pusryčių patiekalas",
+    "width": 720,
+    "height": 876
+  },
+  "tags": [
+    "keptos plantanos",
+    "Nigerijos pusryčiai",
+    "vegetariškas receptas",
+    "pusryčių patiekalas",
+    "greitas receptas"
+  ],
+  "author": {
+    "name": "Stephanie cheks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Stephanie%20cheks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Plantain_and_Egg",
+    "pageTitle": "Cookbook:Fried_Plantain_and_Egg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:18:51.817Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Plantain_and_Egg&action=history",
+    "originalCreator": {
+      "name": "Stephanie cheks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Stephanie%20cheks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_plantain,_potatoes_and_egg.jpg",
+    "author": {
+      "name": "Bukky658",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Bukky658"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fried_plantain%2C_potatoes_and_egg.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:18:51+03:00",
+  "createdAt": "2026-01-04T19:18:51+03:00",
+  "updatedAt": "2026-01-04T19:18:51+03:00"
+}

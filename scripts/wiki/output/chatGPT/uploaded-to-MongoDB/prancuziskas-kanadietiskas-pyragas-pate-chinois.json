@@ -1,0 +1,242 @@
+{
+  "slug": "prancuziskas-kanadietiskas-pyragas-pate-chinois",
+  "canonicalUrl": "https://ragaujam.lt/receptas/prancuziskas-kanadietiskas-pyragas-pate-chinois",
+  "title": {
+    "lt": "Prancūziškas Kanadietiškas Pyragas (Pâté Chinois)"
+  },
+  "description": {
+    "lt": "Pâté chinois yra tradicinis prancūziškas kanadietiškas patiekalas, dažnai tiekiamas šaltuoju metų laiku. Šis patiekalas puikiai dera su marinuotais burokėliais ir yra sotus bei gardus."
+  },
+  "seo": {
+    "metaTitle": "Prancūziškas Kanadietiškas Pyragas (Pâté Chinois) | Tradicinis Receptas",
+    "metaDescription": "Sužinokite, kaip paruošti prancūzišką kanadietišką pyragą Pâté Chinois su bulvėmis, malta jautiena ir kukurūzais. Idealus šaltuoju metų laiku.",
+    "keywords": [
+      "prancūziškas pyragas",
+      "kanadietiškas pyragas",
+      "pâté chinois",
+      "tradicinis receptas",
+      "malta jautiena"
+    ],
+    "recipeCategory": "jautiena",
+    "recipeCuisine": "Kanados",
+    "nutrition": {
+      "calories": 400,
+      "proteinContent": "25g",
+      "fatContent": "20g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 0,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/jautiena",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "8 vidutinės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malta jautiena"
+      },
+      "quantity": "900g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 mažas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žalioji paprika"
+      },
+      "quantity": "1 mažas",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Konservuoti kukurūzai"
+      },
+      "quantity": "1 skardinė (425g)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Marinuoti burokėliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Bulvių paruošimas"
+      },
+      "text": {
+        "lt": "Virkite bulves lengvai pasūdytame vandenyje, kol jos suminkštės. Nusausinkite ir sutrinkite, įpilkite sviesto ir tiek pieno, kad gautumėte tepamos konsistencijos masę. Atidėkite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Jautienos paruošimas"
+      },
+      "text": {
+        "lt": "Apkepkite maltą jautieną su svogūnais ir paprikomis. Nusausinkite riebalus ir sudėkite jautienos mišinį į troškintuvo indą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kukurūzų sluoksnis"
+      },
+      "text": {
+        "lt": "Sumaišykite konservuotus kukurūzus ir uždėkite ant jautienos sluoksnio."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Bulvių sluoksnis"
+      },
+      "text": {
+        "lt": "Uždėkite bulvių košę ant viršaus, kad susidarytų „pluta“. Pabarstykite druska ir pipirais pagal skonį, galima pabarstyti paprika."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite atidengtą 200°C temperatūroje, kol bulvės taps auksinės spalvos (apie 30 minučių)."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą su gausiu kiekiu pjaustytų atvėsintų marinuotų burokėlių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Prieš kepimą galite įdėti tarkuoto kietojo sūrio ant bulvių sluoksnio."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekalas puikiai tinka šaltuoju metų laiku."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/prancuziskas-kanadietiskas-pyragas-pate-chinois.jpg",
+    "alt": "Prancūziškas kanadietiškas pyragas - Pâté Chinois",
+    "width": 176,
+    "height": 132
+  },
+  "tags": [
+    "prancūziškas pyragas",
+    "pâté chinois",
+    "kanados receptas",
+    "šaltuoju metų laiku",
+    "sotūs pietūs"
+  ],
+  "author": {
+    "name": "24.163.155.80",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:24.163.155.80"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Canadian_Shepherd's_Pie_(Pâté_Chinois)",
+    "pageTitle": "Cookbook:French_Canadian_Shepherd's_Pie_(Pâté_Chinois)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:06:06.801Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Canadian_Shepherd's_Pie_(P%C3%A2t%C3%A9_Chinois)&action=history",
+    "originalCreator": {
+      "name": "24.163.155.80",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:24.163.155.80"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chinese_pie.jpg",
+    "author": {
+      "name": "Jerry lavoie at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Chinese_pie.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:06:06+03:00",
+  "createdAt": "2026-01-04T19:06:06+03:00",
+  "updatedAt": "2026-01-04T19:06:06+03:00"
+}

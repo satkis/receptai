@@ -1,0 +1,228 @@
+{
+  "slug": "faten-wake-hausa-pupeliu-kose",
+  "canonicalUrl": "https://ragaujam.lt/receptas/faten-wake-hausa-pupeliu-kose",
+  "title": {
+    "lt": "Faten Wake - Hausa pupelių košė"
+  },
+  "description": {
+    "lt": "Faten wake yra tradicinė Hausa pupelių košė iš Šiaurės Nigerijos. Šis sotus ir maistingas patiekalas gaminamas su minkštai virtomis pupelėmis, daržovėmis ir prieskoniais. Jis paprastai patiekiamas kaip pagrindinis patiekalas pietums ar vakarienei. Gali būti patiekiamas vienas arba su garnyrais, tokiais kaip duona, kepti bananai ar kukurūzų pudingas."
+  },
+  "seo": {
+    "metaTitle": "Faten Wake - Hausa pupelių košė | Tradicinis receptas",
+    "metaDescription": "Tradicinis Faten Wake receptas iš Šiaurės Nigerijos su pupelėmis, daržovėmis ir prieskoniais. Patiekiamas kaip pagrindinis patiekalas pietums ar vakarienei.",
+    "keywords": [
+      "faten wake",
+      "hausa pupelių košė",
+      "pupelių košė",
+      "nigerietiška virtuvė",
+      "tradicinis receptas"
+    ],
+    "recipeCategory": "pietus",
+    "recipeCuisine": "Nigerietiška",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "15g",
+      "fatContent": "10g",
+      "fiberContent": "12g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 75,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pietus",
+  "secondaryCategories": [
+    "receptai/pupeles"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Džiovintos pupelės"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "Pakankamai virti pupelėms",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vidutinis, smulkintas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "2–3 vnt., smulkinti",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili pipiras"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žemės riešutų aliejus arba palmių aliejus"
+      },
+      "quantity": "1–2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lapai (špinatai, rūgštynės, amaranto lapai ar kartieji lapai)"
+      },
+      "quantity": "1 mažas ryšulys, smulkintas (neprivaloma)",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Prieskonių kubeliai"
+      },
+      "quantity": "1–2 vnt. (neprivaloma)",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Krevetės milteliai"
+      },
+      "quantity": "Pagal skonį (neprivaloma)",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pupelių paruošimas"
+      },
+      "text": {
+        "lt": "Gerai nuplaukite pupeles, pašalinkite bet kokius nešvarumus ar akmenukus. Sudėkite pupeles į puodą, užpilkite pakankamai vandens ir virkite ant vidutinės ugnies, kol suminkštės ir vanduo beveik susigers (apie 40–60 minučių)."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Pagrindinio mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Į virtas pupeles įdėkite smulkintus svogūnus, pomidorus, čili ir aliejų. Gerai išmaišykite ir leiskite troškintis dar 10–15 minučių, kol mišinys sutirštės ir skoniai susijungs."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Papildomų ingredientų pridėjimas"
+      },
+      "text": {
+        "lt": "Įmaišykite smulkintus lapus, krevečių miltelius, prieskonių kubelius ir druską. Toliau virkite dar 5–10 minučių, kartais pamaišydami, kol košė sutirštės ir gerai susimaišys."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite karštą, galima valgyti vieną arba su duona, keptais bananais ar kukurūzų pudingu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei naudojate rudas pupeles, gali prireikti kiek ilgesnio virimo laiko nei juodosioms pupelėms."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Palmių aliejus suteikia tradicinį skonį, o žemės riešutų aliejus lengvesnį."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Pridedant krevečių miltelius, sustiprėja sūrus skonis, ypač jei nenaudojama mėsa."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/faten-wake-hausa-pupeliu-kose.jpg",
+    "alt": "Faten Wake - tradicinė Hausa pupelių košė iš Nigerijos",
+    "width": 600,
+    "height": 643
+  },
+  "tags": [
+    "faten wake",
+    "hausa pupelių košė",
+    "nigerietiška virtuvė",
+    "tradicinis receptas",
+    "pupelių patiekalas"
+  ],
+  "author": {
+    "name": "Ibrahim Sani Mustapha",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Ibrahim%20Sani%20Mustapha"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Faten_Wake_(Hausa_Bean_Porridge)",
+    "pageTitle": "Cookbook:Faten_Wake_(Hausa_Bean_Porridge)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:58:27.798Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFaten_Wake_(Hausa_Bean_Porridge)&action=history",
+    "originalCreator": {
+      "name": "Ibrahim Sani Mustapha",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Ibrahim%20Sani%20Mustapha"
+    }
+  },
+  "originalImage": {
+    "fileName": "Faten_wake.png",
+    "author": {
+      "name": "Zahrah0",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Zahrah0"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Faten_wake.png"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:58:27+03:00",
+  "createdAt": "2026-01-04T18:58:27+03:00",
+  "updatedAt": "2026-01-04T18:58:27+03:00"
+}

@@ -1,0 +1,213 @@
+{
+  "slug": "fanke-nigerijos-kiausiniai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/fanke-nigerijos-kiausiniai",
+  "title": {
+    "lt": "Fanke - Nigerijos kiaušiniai"
+  },
+  "description": {
+    "lt": "Fanke yra Nigerijos skanėstas, gaminamas iš kvietinių miltų arba semovitos. Dažniausiai valgomas šiauriniame Nigerijos regione, ypač tarp Hausų. Šis receptas padės jums paruošti šiuos auksinius ir skanius giliai keptus kiaušinius, kurie puikiai tinka kaip užkandis ar desertui."
+  },
+  "seo": {
+    "metaTitle": "Fanke - Nigerijos kiaušiniai | Tradicinis receptas",
+    "metaDescription": "Tradicinis Nigerijos Fanke kiaušinių receptas, gaminamas iš kvietinių miltų arba semovitos. Puikiai tinka kaip užkandis ar desertui.",
+    "keywords": [
+      "fanke",
+      "nigerijos kiaušiniai",
+      "hausų virtuvė",
+      "giliai kepti",
+      "tradiciniai receptai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigerijos",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "5g",
+      "fatContent": "12g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/desertai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mielės"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltas cukrus"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "1.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "Giliai kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Persijokite miltus į švarų dubenį. Sumaišykite juos su mielėmis, cukrumi ir kepimo milteliais. Tai padės viską tolygiai paskirstyti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos maišymas"
+      },
+      "text": {
+        "lt": "Įmaišykite šiltą vandenį ir vanilę, kad susidarytų tiršta tešla. Gerai išmaišykite, kad nebūtų jokių gumulų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos kildinimas"
+      },
+      "text": {
+        "lt": "Uždenkite dubenį ir palikite kilti apie 1 valandą. Tešla turėtų padvigubėti."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite pakankamai aliejaus keptuvėje giliai kepimui. Formuokite tešlos rutuliukus ir dėkite juos į karštą aliejų dalimis."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Fanke kepimas"
+      },
+      "text": {
+        "lt": "Giliai kepkite fanke, kol jos taps auksinės spalvos iš visų pusių."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Fanke nusausinimas"
+      },
+      "text": {
+        "lt": "Išimkite iš aliejaus ir leiskite nusausėti ant popierinių rankšluosčių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite daugiau skonio, į tešlą galite pridėti prieskonių, pavyzdžiui, cinamono."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/fanke-nigerijos-kiausiniai.jpg",
+    "alt": "Auksinės spalvos Nigerijos fanke kiaušiniai",
+    "width": 3120,
+    "height": 4160
+  },
+  "tags": [
+    "fanke",
+    "nigerijos virtuvė",
+    "giliai kepti kiaušiniai",
+    "hausų virtuvė",
+    "tradicinis receptas"
+  ],
+  "author": {
+    "name": "Tesleemah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fanke_(Hausa_Puff_Puff)",
+    "pageTitle": "Cookbook:Fanke_(Hausa_Puff_Puff)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:58:13.478Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFanke_(Hausa_Puff_Puff)&action=history",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Hausa_Food_Fanke.jpg",
+    "author": {
+      "name": "Anasskoko",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Anasskoko"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Hausa_Food_Fanke.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T15:58:13+03:00",
+  "createdAt": "2026-01-04T15:58:13+03:00",
+  "updatedAt": "2026-01-04T15:58:13+03:00"
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "kepta-duona-pusryciams",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kepta-duona-pusryciams",
+  "title": {
+    "lt": "Kepta duona pusryčiams"
+  },
+  "description": {
+    "lt": "Kepta duona yra paprastas ir gardus pusryčių pasirinkimas. Ji puikiai dera su sviestu, uogiene, padažu ar kitais jūsų mėgstamais priedais."
+  },
+  "seo": {
+    "metaTitle": "Kepta duona pusryčiams | Paprastas keptos duonos receptas",
+    "metaDescription": "Atraskite gardų keptos duonos receptą, kuris puikiai tinka pusryčiams. Patiekalas, kuris dera su sviestu, uogiene ar mėgstamu padažu.",
+    "keywords": [
+      "kepta duona",
+      "pusryčiai",
+      "paprastas receptas",
+      "duona su sviestu",
+      "pusryčių receptas"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "3g",
+      "fatContent": "8g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/duona"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Savaime kylantys miltai"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas arba pasukos"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo soda"
+      },
+      "quantity": "Trečdalis arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šoninės riebalai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite vienodą kiekį savaime kylančius miltus ir pieną. Konsistencija turėtų būti panaši į tirštą pudingą – jei reikia, pridėkite daugiau pieno ar miltų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Riebalų pašildymas"
+      },
+      "text": {
+        "lt": "Įkaitinkite pakankamai šoninės riebalų, kad jie neleistų tešlai prilipti, keptuvėje, kol taps labai karšti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite tešlą keptuvėje, kol dugnas taps rudas ir traškus. Apverskite ir kepkite, kol bus iškepę."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti kitus aliejus ir keptuves, tačiau šoninės riebalai ir ketaus keptuvė geriausi."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei norite sveikesnio varianto, šoninės riebalus galite pakeisti alyvuogių aliejumi."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/keptas-duona-pusryciams.jpg",
+    "alt": "Kepta duona patiekiama ant lėkštės su sviestu ir uogiene",
+    "width": 2560,
+    "height": 1920
+  },
+  "tags": [
+    "kepta duona",
+    "pusryčių receptas",
+    "lengvas receptas",
+    "duona su sviestu",
+    "paprastas patiekalas"
+  ],
+  "author": {
+    "name": "Laurajit",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Laurajit"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Bread",
+    "pageTitle": "Cookbook:Fried_Bread",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:14:19.082Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Bread&action=history",
+    "originalCreator": {
+      "name": "Laurajit",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Laurajit"
+    }
+  },
+  "originalImage": {
+    "fileName": "Chinese_fried_bread.jpg",
+    "author": {
+      "name": "Hohum",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hohum"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Chinese_fried_bread.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:14:19+03:00",
+  "createdAt": "2026-01-04T19:14:19+03:00",
+  "updatedAt": "2026-01-04T19:14:19+03:00"
+}

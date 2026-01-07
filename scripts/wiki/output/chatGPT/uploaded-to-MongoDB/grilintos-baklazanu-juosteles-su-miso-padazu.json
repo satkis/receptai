@@ -1,0 +1,203 @@
+{
+  "slug": "grilintos-baklazanu-juosteles-su-miso-padazu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/grilintos-baklazanu-juosteles-su-miso-padazu",
+  "title": {
+    "lt": "Grilintos baklažanų juostelės su miso padažu"
+  },
+  "description": {
+    "lt": "Šios grilintos baklažanų juostelės su miso padažu – tai puikus japoniškas vegetariškas patiekalas. Baklažanai yra supjaustomi ir kepami grilyje, o vėliau pagardinami miso ir sezamų sėklų padažu. Paprasta, greita ir labai skanu!"
+  },
+  "seo": {
+    "metaTitle": "Grilintos baklažanų juostelės su miso padažu | Japoniškas receptas",
+    "metaDescription": "Japoniškas receptas, kuriame baklažanai yra grilinami ir patiekiami su miso padažu ir sezamų sėklomis. Puikus vegetariškas patiekalas.",
+    "keywords": [
+      "grilinti baklažanai",
+      "miso padažas",
+      "japoniškas patiekalas",
+      "vegetariškas receptas",
+      "sezamų sėklos"
+    ],
+    "recipeCategory": "darzoves",
+    "recipeCuisine": "Japonų",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "4g",
+      "fatContent": "10g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 25,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/darzoves",
+  "secondaryCategories": [
+    "receptai/ant-grilio"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baklažanas"
+      },
+      "quantity": "1 vnt. (375 g)",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miso pasta"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1.5 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sultinio kubeliai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sezamų sėklos"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Baklažanų paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite baklažaną ir supjaustykite jį 2,5 cm storio juostelėmis išilgai. Aptepkite alyvuogių aliejumi."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Grilinimas"
+      },
+      "text": {
+        "lt": "Grilinkite baklažanus 7-10 cm nuo tiesioginės ugnies, kol jie taps minkšti ir apskrudę (apie 5 minutes)."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Mažame puode sumaišykite miso pastą, cukrų ir sultinio kubelius. Kaitinkite ant mažos ugnies, kol mišinys taps sklandus ir karštas. Neužvirinkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Padažo užpylimas"
+      },
+      "text": {
+        "lt": "Užpilkite padažą ant grilintų baklažanų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Sezamų sėklų paskrudinimas"
+      },
+      "text": {
+        "lt": "Mažoje keptuvėje paskrudinkite sezamų sėklas, kol jos pradeda šokti. Pabarstykite jomis baklažanus."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite naudoti ir kitokį aliejų, pavyzdžiui, sezamų ar saulėgrąžų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Miso pastą galite pakeisti sojų padažu, jei norite kitokio skonio."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/grilintos-baklazanu-juosteles-su-miso-padazu.jpg",
+    "alt": "Grilintos baklažanų juostelės su miso padažu ir sezamų sėklomis",
+    "width": 852,
+    "height": 640
+  },
+  "tags": [
+    "grilinti baklažanai",
+    "miso padažas",
+    "japoniška virtuvė",
+    "vegetariškas patiekalas",
+    "sezamų sėklos"
+  ],
+  "author": {
+    "name": "Mmckenzie",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mmckenzie"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Grilled_Aubergine",
+    "pageTitle": "Cookbook:Grilled_Aubergine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:50:59.774Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGrilled_Aubergine&action=history",
+    "originalCreator": {
+      "name": "Mmckenzie",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mmckenzie"
+    }
+  },
+  "originalImage": {
+    "fileName": "Grilled_Aubergine_and_Pesto_Sandwich03.jpg",
+    "author": {
+      "name": "Homemade-Flavours",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Homemade-Flavours"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Grilled_Aubergine_and_Pesto_Sandwich03.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

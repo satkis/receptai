@@ -1,0 +1,214 @@
+{
+  "slug": "sluoksniuota-pyrago-pluta",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sluoksniuota-pyrago-pluta",
+  "title": {
+    "lt": "Sluoksniuota pyrago pluta"
+  },
+  "description": {
+    "lt": "Šis sluoksniuotos pyrago plutos receptas yra puikus pasirinkimas tiek saldiems, tiek sūriems pyragams. Jis pagamintas iš paprastų ingredientų: miltų, sviesto ir vandens. Naudojant šaltą sviestą ir vandenį, pasiekiamas ypatingas trapumas. Plutą galima naudoti kaip vieną sluoksnį arba dviejų sluoksnių pyrago pagrindui."
+  },
+  "seo": {
+    "metaTitle": "Sluoksniuota pyrago pluta | Receptas su sviestu ir miltais",
+    "metaDescription": "Išmokite pagaminti sluoksniuotą pyrago plutą su šiuo lengvu receptu. Tobulas pagrindas tiek saldiems, tiek sūriems pyragams.",
+    "keywords": [
+      "sluoksniuota pyrago pluta",
+      "pyrago pluta",
+      "pyrago pagrindas",
+      "sviesto pluta",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 2500,
+      "proteinContent": "32g",
+      "fatContent": "182g",
+      "fiberContent": "10g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 1,
+  "servingsUnit": "pyragas",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/miltiniai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "310g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "6g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "4g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "95ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sausų ingredientų sumaišymas"
+      },
+      "text": {
+        "lt": "Giliame dubenyje sumaišykite miltus, druską ir cukrų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sviesto įmaišymas"
+      },
+      "text": {
+        "lt": "Supjaustykite sviestą mažais gabalėliais ir įmaišykite į miltų mišinį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos suformavimas"
+      },
+      "text": {
+        "lt": "Įpilkite šaltą vandenį ir maišykite, kol tešla taps vienalytė ir ją galima bus suformuoti į rutulį."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos atšaldymas"
+      },
+      "text": {
+        "lt": "Suformuotą tešlą įvyniokite į plėvelę ir padėkite į šaldytuvą 10–20 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Tešlos iškočiojimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą ant lengvai miltuoto paviršiaus, kad ji būtų tinkamo dydžio pyrago formai."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Pyrago formavimas"
+      },
+      "text": {
+        "lt": "Tešlą dėkite į pyrago formą, supildami norimą įdarą, uždenkite antru tešlos sluoksniu."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite pyragą 30 minučių 220 °C temperatūroje, tada sumažinkite temperatūrą iki 180 °C ir kepkite dar 30 minučių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Vietoj sviesto galite naudoti margariną veganiškam variantui."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Kad pluta būtų spalvingesnė, vietoj pieno naudokite kiaušinio baltymą."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sluoksniuota-pyrago-pluta.jpg",
+    "alt": "Sluoksniuota pyrago pluta keptuvėje",
+    "width": 768,
+    "height": 576
+  },
+  "tags": [
+    "sluoksniuota pyrago pluta",
+    "pyrago pluta",
+    "pyrago pagrindas",
+    "sviesto pluta",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Kellen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kellen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Flaky_Pie_Crust",
+    "pageTitle": "Cookbook:Flaky_Pie_Crust",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:00:09.618Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFlaky_Pie_Crust&action=history",
+    "originalCreator": {
+      "name": "Kellen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kellen"
+    }
+  },
+  "originalImage": {
+    "fileName": "07-crust_dry_ingredients.jpg",
+    "author": {
+      "name": "Kellen",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kellen"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/07-crust_dry_ingredients.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:00:00+03:00",
+  "createdAt": "2026-01-04T19:00:00+03:00",
+  "updatedAt": "2026-01-04T19:00:00+03:00"
+}

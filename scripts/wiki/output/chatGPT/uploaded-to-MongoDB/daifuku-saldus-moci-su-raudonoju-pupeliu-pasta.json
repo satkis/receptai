@@ -1,0 +1,214 @@
+{
+  "slug": "daifuku-saldus-moci-su-raudonoju-pupeliu-pasta",
+  "canonicalUrl": "https://ragaujam.lt/receptas/daifuku-saldus-moci-su-raudonoju-pupeliu-pasta",
+  "title": {
+    "lt": "Daifuku - saldus moci su raudonųjų pupelių pasta"
+  },
+  "description": {
+    "lt": "Daifuku yra tradicinis japonų desertas, sudarytas iš minkšto ryžių pyrago, įdaryto saldžia raudonųjų pupelių pasta. Šis gardus skanėstas dažnai valgomas per šventes ar tiesiog kaip saldus užkandis."
+  },
+  "seo": {
+    "metaTitle": "Daifuku - japoniškas saldus desertas | Receptas su raudonųjų pupelių pasta",
+    "metaDescription": "Sužinokite, kaip paruošti japonišką daifuku desertą su saldžia raudonųjų pupelių pasta. Puikiai tinka kaip saldi užkanda ar šventinis desertas.",
+    "keywords": [
+      "daifuku",
+      "japoniškas desertas",
+      "raudonųjų pupelių pasta",
+      "saldus moci",
+      "japonų virtuvė"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Japonų",
+    "nutrition": {
+      "calories": 90,
+      "proteinContent": "1g",
+      "fatContent": "0g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 25,
+  "timeCategory": "iki-30-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/japonu-virtuve"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Raudonųjų pupelių pasta"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvių krakmolas"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lipnių ryžių miltai"
+      },
+      "quantity": "240 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "160 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltas cukrus"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "raudonųjų pupelių pastos paruošimas"
+      },
+      "text": {
+        "lt": "Paruoškite raudonųjų pupelių pastą pagal šį receptą (spausti čia). Suformuokite 12 mažų rutuliukų ir atidėkite į šoną."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Paviršiaus paruošimas"
+      },
+      "text": {
+        "lt": "Paruoškite lygų paviršių, pabarstydami jį bulvių krakmolu. Būkite dosnūs, nes tešla bus labai lipni."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos gaminimas"
+      },
+      "text": {
+        "lt": "Šildykite vandenį su cukrumi mikrobangų krosnelėje, kol cukrus ištirps. Įpilkite ryžių miltus ir gerai sumaišykite. Mikrobangų krosnelėje kaitinkite 2 minutes, tada išimkite ir sumaišykite. Mikrobangų krosnelėje kaitinkite dar 2 minutes arba tol, kol tešla pradės plėstis. Išimkite, maišykite ir perkelkite tešlą ant bulvių krakmolu padengto paviršiaus. Tešla, vadinama moči, bus labai karšta."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Iškočiokite arba paskleiskite moči tešlą, kol ji taps plona. Naudodami peilį, supjaustykite ją į 12 vienodo dydžio gabaliukų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "raudonųjų pupelių rutuliiukų įvyniojimas"
+      },
+      "text": {
+        "lt": "Bulvių krakmolu ištepkite delnus ir pirštus. Kiekvieną gabalėlį paskleiskite kuo ploniau. Viduryje uždėkite raudonųjų pupelių pastos rutuliuką ir apvyniokite moči aplink jį, suformuodami didesnį rutulį."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Galutinis paruošimas"
+      },
+      "text": {
+        "lt": "Suformuotus daifuku apvoliokite bulvių krakmole ir padėkite ant krakmolu pabarstytos lėkštės arba vaško popieriaus."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite šiltus arba atvėsusius. Laikykite sandariame inde. Labai greitai gendantis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jeigu neturite raudonųjų pupelių pastos, galite naudoti šokoladinį ganache."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Į vandenį galite pridėti maistinių dažų prieš dedant ryžių miltus."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/daifuku-saldus-moci-su-raudonoju-pupeliu-pasta.jpg",
+    "alt": "Japoniškas Daifuku desertas su raudonųjų pupelių pasta",
+    "width": 1600,
+    "height": 1200
+  },
+  "tags": [
+    "daifuku",
+    "japoniškas desertas",
+    "raudonųjų pupelių pasta",
+    "saldus moci",
+    "japonų virtuvė"
+  ],
+  "author": {
+    "name": "Paxsimius",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Paxsimius"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_(Sweet_Filled_Mochi)",
+    "pageTitle": "Cookbook:Daifuku_(Sweet_Filled_Mochi)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T14:26:30+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADaifuku_(Sweet_Filled_Mochi)&action=history",
+    "originalCreator": {
+      "name": "Paxsimius",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paxsimius"
+    }
+  },
+  "originalImage": {
+    "fileName": "Soft-rice-cake-stuffed-with-sweetened-bean-jam,daifuku,katori-city,japan.JPG",
+    "author": {
+      "name": "katorisi",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Katorisi"
+    },
+    "license": {
+      "code": "cc-by-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Soft-rice-cake-stuffed-with-sweetened-bean-jam%2Cdaifuku%2Ckatori-city%2Cjapan.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:26:30+03:00",
+  "createdAt": "2026-01-03T14:26:30+03:00",
+  "updatedAt": "2026-01-03T14:26:30+03:00"
+}

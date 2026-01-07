@@ -1,0 +1,203 @@
+{
+  "slug": "braziliska-farofa-su-manioku-miltais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/braziliska-farofa-su-manioku-miltais",
+  "title": {
+    "lt": "Braziliška farofa su maniokų miltais"
+  },
+  "description": {
+    "lt": "Farofa – tai populiarus brazilų patiekalas, pagamintas iš skrudintų maniokų miltų. Dažniausiai patiekiamas kaip garnyras kartu su feijoada arba kepta mėsa. Šis receptas leis jums lengvai pasigaminti autentišką farofą su česnakais, svogūnais ir pasirinktais priedais kaip kalendra ar šoninė."
+  },
+  "seo": {
+    "metaTitle": "Braziliška Farofa su Maniokų Miltai | Autentiškas Receptas",
+    "metaDescription": "Išbandykite braziliškos farofos receptą su maniokų miltais, česnakais, svogūnais ir šonine. Puikus garnyras prie keptos mėsos ar feijoada.",
+    "keywords": [
+      "braziliška farofa",
+      "maniokų miltai",
+      "brazilų virtuvė",
+      "tradicinis garnyras",
+      "kepta mėsa"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Brazilų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "5g",
+      "fatContent": "14g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1-2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakai"
+      },
+      "quantity": "2 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šoninė"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maniokų miltai"
+      },
+      "quantity": "500 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tempero baiano"
+      },
+      "quantity": "1-2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendra"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mėsos ir česnako kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę ant vidutinės ugnies. Sudėkite šoninę ir kepkite minutę. Jei reikia, įpilkite šaukštą aliejaus arba sviesto, kad galėtumėte kepti česnaką ir svogūną."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Svogūnų ir prieskonių kepimas"
+      },
+      "text": {
+        "lt": "Įdėkite česnaką ir maišykite apie minutę, saugokite, kad neprikeptų. Tada įdėkite svogūnus ir prieskonius. Kepkite dar minutę."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Miltų pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite miltus ir visus papildomus ingredientus. Gerai išmaišykite ir toliau skrudinkite kelias minutes. Jei naudojate žalius maniokų miltus, po truputį įpilkite likusį sviestą arba aliejų ir maišykite, kol miltai įgaus auksinę spalvą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Papuošimas ir patiekimas"
+      },
+      "text": {
+        "lt": "Išjunkite ugnį ir, jei norite, įdėkite kapotą kalendrą. Patiekite karštą arba šiltą."
+      }
+    }
+  ],
+  "notes": [
+
+    {
+      "text": {
+        "lt": "Maniokų miltai gali būti jau sūdyti, todėl prieš dedant daugiau druskos paragaukite."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/braziliska-farofa-su-manioku-miltais.jpg",
+    "alt": "Braziliška farofa su skrudintais maniokų miltais",
+    "width": 2575,
+    "height": 2226
+  },
+  "tags": [
+    "braziliška farofa",
+    "maniokų miltai",
+    "brazilų virtuvė",
+    "garnyras su šonine",
+    "greitas receptas"
+  ],
+  "author": {
+    "name": "Croomfolk",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Croomfolk"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Farofa",
+    "pageTitle": "Cookbook:Farofa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:58:20.640Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFarofa&action=history",
+    "originalCreator": {
+      "name": "Croomfolk",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Croomfolk"
+    }
+  },
+  "originalImage": {
+    "fileName": "Farofa_de_cebola.jpg",
+    "author": {
+      "name": "Melsj",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Melsj"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Farofa_de_cebola.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:58:20+03:00",
+  "createdAt": "2026-01-04T18:58:20+03:00",
+  "updatedAt": "2026-01-04T18:58:20+03:00"
+}

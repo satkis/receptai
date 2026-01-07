@@ -1,0 +1,229 @@
+{
+  "slug": "cazuela-gallega-su-kiausiniu-kumpiu-ir-surio",
+  "canonicalUrl": "https://ragaujam.lt/receptas/cazuela-gallega-su-kiausiniu-kumpiu-ir-surio",
+  "title": {
+    "lt": "Cazuela Gallega su kiaušiniu, kumpiu ir sūriu"
+  },
+  "description": {
+    "lt": "Cazuela Gallega - tai skanus kiaušinių, kumpio ir sūrio apkepas, puikiai tinkantis pusryčiams ar vakarienei. Šis receptas yra lengvas ir greitai paruošiamas, todėl puikiai tinka užimtiems rytams."
+  },
+  "seo": {
+    "metaTitle": "Cazuela Gallega su kiaušiniu, kumpiu ir sūriu | Lengvas receptas",
+    "metaDescription": "Skanus Cazuela Gallega apkepas su kiaušiniu, kumpiu ir sūriu. Puikiai tinkantis pusryčiams ar vakarienei. Atraskite šį lengvą ir greitai paruošiamą receptą.",
+    "keywords": [
+      "cazuela gallega",
+      "kiaušinių apkepas",
+      "kumpio apkepas",
+      "sūrio apkepas",
+      "kolumbijos virtuvė"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Kolumbijos",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "20g",
+      "fatContent": "28g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 40,
+  "timeCategory": "iki-60-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kumpis"
+      },
+      "quantity": "2 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žirneliai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų padažas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Parmezano sūris"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Paimkite 3 aliuminio folijos lapus ir padėkite juos į dubenį, kad sudarytumėte formą. Švelniai prispauskite prie sienelių."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Užtepimas sviestu"
+      },
+      "text": {
+        "lt": "Visą dubens vidų ištepkite sviestu, kad neliptų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kumpio sluoksnis"
+      },
+      "text": {
+        "lt": "Vieną kumpio riekę padėkite dugne, o kitą supjaustykite juostelėmis ir išklokite sieneles."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pridėti kiaušinius"
+      },
+      "text": {
+        "lt": "Į dubenį sudėkite abu kiaušinius."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pridėti žirnelius"
+      },
+      "text": {
+        "lt": "Apibarstykite žirnelius ant kiaušinių, atsargiai, kad nesudužtų tryniai."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Pridėti prieskonius ir padažą"
+      },
+      "text": {
+        "lt": "Pridėkite druskos ir pomidorų padažo, kad apsemtų visą plotą."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Išimkite foliją su apkepu, užberkite sūrį ir kepkite 30 minučių įkaitintoje orkaitėje 205°C temperatūroje."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite parmezano, galite naudoti kitą kietą sūrį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šis patiekalas puikiai dera su šviežiomis salotomis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/cazuela-gallega-su-kiausiniu-kumpiu-ir-surio.jpg",
+    "alt": "Cazuela Gallega apkepas su kiaušiniu, kumpiu ir parmezano sūriu",
+    "width": 1280,
+    "height": 960
+  },
+  "tags": [
+    "cazuela gallega",
+    "kiaušinių apkepas",
+    "kolumbijos virtuvė",
+    "pusryčiai",
+    "greitas receptas"
+  ],
+  "author": {
+    "name": "Lgvanegas",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Lgvanegas"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cazuela_Gallega_(Egg,_Ham,_and_Cheese_Casserole)",
+    "pageTitle": "Cookbook:Cazuela_Gallega_(Egg,_Ham,_and_Cheese_Casserole)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:40.547Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACazuela_Gallega_(Egg%2C_Ham%2C_and_Cheese_Casserole)&action=history",
+    "originalCreator": {
+      "name": "Lgvanegas",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Lgvanegas"
+    }
+  },
+  "originalImage": {
+    "fileName": "Cazuela_Gallega.jpg",
+    "author": {
+      "name": "Lgvanegas at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Cazuela_Gallega.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cazuela_Gallega.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:00:00+03:00",
+  "createdAt": "2025-12-21T20:00:00+03:00",
+  "updatedAt": "2025-12-21T20:00:00+03:00"
+}

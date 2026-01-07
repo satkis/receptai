@@ -1,0 +1,101 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Feuerzangenbowle_(German_Wine_Punch)",
+    "pageTitle": "Cookbook:Feuerzangenbowle_(German_Wine_Punch)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "68.64.65.89",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:68.64.65.89"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFeuerzangenbowle_(German_Wine_Punch)&action=history",
+    "extractedAt": "2026-01-04T15:58:34.435Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Feuerzangenbowle (German Wine Punch)",
+    "slug": "feuerzangenbowle-german-wine-punch",
+    "description": "Feuerzangenbowle is a traditional German alcoholic drink, often part of a Christmas or New Year's tradition. The name translates literally as \"fire-tongs punch\". Pay attention to the preparation and don't let drunks light the rum—it can cause nasty burns and you don't want that. The flambéed and caramelised \"Zuckerhut\" adds the unique flavour to the \"Feuerzangenbowle\".right|thumb|Ingredients and Utensils == Ingredients == right|thumb|More raw ingredients * 2–3 bottles of dry red wine (e.g. Rioja) * 0.4 L rum (at least 54% alcohol; 80% would be better) * 2 oranges * 2 lemons (optional) * 1 cinnamon stick * 5 cloves * 1 pinch ground gingerbread spices (optional) * 1 zuckerhut (lump of white sugar)",
+    "ingredients": [
+      "right|thumb|More raw ingredients",
+      "2–3 bottles of dry red wine (e.g. Rioja)",
+      "0.4 L rum (at least 54% alcohol; 80% would be better)",
+      "2 oranges",
+      "2 lemons (optional)",
+      "1 cinnamon stick",
+      "5 cloves",
+      "1 pinch ground gingerbread spices (optional)",
+      "1 zuckerhut (lump of white sugar)"
+    ],
+    "instructions": [
+      "Put the wine into the feuerzangenbowle bowl, and heat it to about 70 °C.",
+      "Wash the fruit with hot water.",
+      "Peel the oranges and lemons into thin strips, and add the peel to the wine along with the spices.",
+      "Place the feuerzange on the bowl and place the zuckerhut on it.",
+      "Put the rum into a soup ladle and pour it over the zuckerhut. Then, carefully light it on fire.",
+      "When the flame on the sugar has stopped burning, repeat the process with a fresh ladle of rum. Add the rum very slowly this time or you will burn your hand.",
+      "When the sugar has completely dissolved, remove the feuerzange and add another ladle of unburnt rum to the bowl.",
+      "Remove all solids (oranges, lemons, cloves, and cinnamon stick) from the bowl from the drink."
+    ],
+    "notes": [
+      "The rum has to have at least 50% alcohol; otherwise the flambeing won't work. If the rum has a higher percentage of alcohol (>60%) the flame will be very big. Proceed with caution and add the rum slowly.",
+      "If you can't obtain a zuckerhut, substitute sugar cubes.",
+      "If you can't obtain a feuerzange, replace it with a grate.",
+      "Instead of the feuerzangenbowle bowl and heater, you can also use a big pot on a normal cooking plate. A very appealing solution for a feuerzangenbowle bowl is a large (5 L or so) lab glass beaker (not previously used for its original purpose). It combines heat resistance and transparency, adding to the effect."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using rum",
+      "Recipes using wine",
+      "Recipes using orange",
+      "Recipes using lemon",
+      "Recipes for alcoholic beverages",
+      "German recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Recipes using cinnamon stick",
+      "Recipes using clove",
+      "Recipes using white sugar"
+    ]
+  },
+  "image": {
+    "filename": "3o5dots.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:3o5dots.svg",
+    "localPath": "scripts/wiki/output/3o5dots.svg",
+    "dimensions": {
+      "width": 64,
+      "height": 12
+    },
+    "fileSize": 466,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:3o5dots.svg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "metadata": {
+      "description": "3 of 5 dots rating for Wikibooks Cookbook: A recipe rated 3 of 5 dots will be somewhat challenging to an inexperienced cook, or may require a longer amount of time to complete.",
+      "categories": [
+        "Color codes",
+        "Self-published work",
+        "PD-self",
+        "Valid SVG created with Text Editor:Icons"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg"
+  }
+}

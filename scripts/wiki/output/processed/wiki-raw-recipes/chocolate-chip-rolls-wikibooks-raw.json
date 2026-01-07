@@ -1,0 +1,145 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Rolls",
+    "pageTitle": "Cookbook:Chocolate_Chip_Rolls",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Naib~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Naib~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Chip_Rolls&action=history",
+    "extractedAt": "2025-12-23T07:09:52.138Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chocolate Chip Rolls",
+    "slug": "chocolate-chip-rolls",
+    "description": "This is a recipe grown out of an experiment on a traditional biscuit recipe; they're not extremely sweet, but fall closer to dessert than just rolls or biscuits.",
+    "ingredients": [
+      "{| class=\"wikitable\" style=\"background: none\"",
+      "!Ingredient",
+      "!Count",
+      "!Volume",
+      "<ref group=\"note\">Weight conversions from USDA National Nutrient Database. Ingredient order preserved. Whole milk with a milkfat content of 3.25% used for conversion to weight, U.S. customary measures used for conversions. The mL volumes given are based on a 240 mL cup, the FDA size, while the USDA database appears to use the 237 mL cup.</ref>",
+      "!Weight",
+      "!Baker's %",
+      "|-",
+      "|Whole-wheat flour",
+      "|",
+      "|2 cups",
+      "|240 g",
+      "|49%",
+      "|-",
+      "|White unbleached flour",
+      "|",
+      "|2 cups",
+      "|250 g",
+      "|51%",
+      "|-",
+      "|Salt",
+      "|",
+      "|1 tsp",
+      "|6 g",
+      "|1.2%",
+      "|-",
+      "|Baking powder",
+      "|",
+      "|3 tsp",
+      "|13.8 g",
+      "|2.8%",
+      "|-",
+      "|Milk or soy milk<ref group=\"note\">This percentage (74.69%) is a little high, it might be helpful for handling purposes to reduce slightly.</ref>",
+      "|",
+      "|1 ½ cup (360 ml)",
+      "|366 g",
+      "|75%",
+      "|-",
+      "|Vegetable oil",
+      "|",
+      "|½ cup (120 ml)",
+      "|109 g",
+      "|22%",
+      "|-",
+      "|Chocolate chips (or small chocolate pieces)",
+      "|",
+      "|",
+      "|",
+      "|",
+      "|-",
+      "|Total",
+      "|",
+      "|",
+      "|985 g",
+      "|201%",
+      "|}"
+    ],
+    "instructions": [
+      "Preheat oven to 425°F (210°C)",
+      "Mix dry ingredients together.",
+      "Mix liquid ingredients into dry.",
+      "Turn dough out onto floured baking cloth and knead slightly.",
+      "Roll dough into log, then cut into 8–12 pieces",
+      "Press pieces flat, sprinkle with chocolate chips, and roll up to enclose the chocolate.",
+      "Place rolls on greased baking sheet, and bake 13–15 minutes.",
+      "Serve fresh."
+    ],
+    "notes": [
+      "The recipe should work fine with all white flour as well (probably a little less milk)."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for dessert|{{PAGENAME}}",
+      "Recipes for bread",
+      "Recipes using chocolate|{{PAGENAME}}",
+      "Baking recipes",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes with images",
+      "Recipes using whole-wheat flour",
+      "Recipes using vegetable oil",
+      "Recipes using cow milk"
+    ]
+  },
+  "image": {
+    "filename": "Chocolate-Chip-Roll-Broken-2006Feb24.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Chocolate-Chip-Roll-Broken-2006Feb24.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chocolate-Chip-Roll-Broken-2006Feb24.JPG",
+    "localPath": "scripts/wiki/output/Chocolate-Chip-Roll-Broken-2006Feb24.JPG",
+    "dimensions": {
+      "width": 2272,
+      "height": 1704
+    },
+    "fileSize": 944568,
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "No machine-readable author provided. Naib assumed (based on copyright claims).",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Naib"
+    },
+    "metadata": {
+      "description": "A chocolate chip roll ready to eat, photographed (and baked) by Mark Fickett.",
+      "categories": [
+        "Taken with Konica Minolta Dimage G400",
+        "Files with no machine-readable source",
+        "Chocolate chips",
+        "Self-published work",
+        "Assumed own work",
+        "Photographs taken on 2006-02-24"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chocolate-Chip-Roll-Broken-2006Feb24.JPG"
+  }
+}

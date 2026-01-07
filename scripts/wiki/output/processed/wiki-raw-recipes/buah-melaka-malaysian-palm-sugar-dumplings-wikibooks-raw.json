@@ -1,0 +1,95 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Buah_Melaka_(Malaysian_Palm_Sugar_Dumplings)",
+    "pageTitle": "Cookbook:Buah_Melaka_(Malaysian_Palm_Sugar_Dumplings)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Ahmad Shazlan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Ahmad%20Shazlan"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuah_Melaka_(Malaysian_Palm_Sugar_Dumplings)&action=history",
+    "extractedAt": "2025-11-27T13:11:19.284Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Buah Melaka (Malaysian Palm Sugar Dumplings)",
+    "slug": "buah-melaka-malaysian-palm-sugar-dumplings",
+    "description": "# Combine the grated coconut and a pinch of salt together, then place it in a dish. Set aside for later. # Use a blender or mortar to grind together the pandan leaves and water. Strain the mixture and discard the solids. # Combine the rice flour and pandan liquid in a bowl, and knead well to make a dough. # Pinch off pieces of the dough, and roll them into balls. They should be about 1–2 inches (2.5–5 cm) in diameter. # Use your hands to flatten a ball or create a small pocket in the center, making space for a piece of the sugar. Place a piece of sugar in the center, then pinch the dough closed around the sugar. # Gently roll the filled dumpling into a ball again. # Repeat the filling and shaping process for all of the dough pieces. # Bring 2 L water to a boil in a deep pot. # Add the dumplings to the pot, working in batches if needed to avoid crowding the pan. Boil until the dumplings rise to the surface—don't boil too hard, as you don't want to burst the dumplings. # Remove and drain the dumplings. # While still hot, roll the cooked dumplings in the plate of coconut until they are completely coated.",
+    "ingredients": [
+      "15 pandan leaves",
+      "3 cups water",
+      "3 cups glutinous rice flour",
+      "Gula melaka palm sugar, cut into small pieces",
+      "Grated coconut",
+      "Salt"
+    ],
+    "instructions": [
+      "Combine the grated coconut and a pinch of salt together, then place it in a dish. Set aside for later.",
+      "Use a blender or mortar to grind together the pandan leaves and water. Strain the mixture and discard the solids.",
+      "Combine the rice flour and pandan liquid in a bowl, and knead well to make a dough.",
+      "Pinch off pieces of the dough, and roll them into balls. They should be about 1–2 inches (2.5–5 cm) in diameter.",
+      "Use your hands to flatten a ball or create a small pocket in the center, making space for a piece of the sugar. Place a piece of sugar in the center, then pinch the dough closed around the sugar.",
+      "Gently roll the filled dumpling into a ball again.",
+      "Repeat the filling and shaping process for all of the dough pieces.",
+      "Bring 2 L water to a boil in a deep pot.",
+      "Add the dumplings to the pot, working in batches if needed to avoid crowding the pan. Boil until the dumplings rise to the surface—don't boil too hard, as you don't want to burst the dumplings.",
+      "Remove and drain the dumplings.",
+      "While still hot, roll the cooked dumplings in the plate of coconut until they are completely coated."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Malaysian recipes",
+      "Dumpling recipes",
+      "Recipes for dessert",
+      "Recipes using rice flour",
+      "Recipes using gula melaka",
+      "Recipes using coconut",
+      "Recipes using salt"
+    ]
+  },
+  "image": {
+    "filename": "Onde-onde.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Onde-onde.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Onde-onde.jpg",
+    "localPath": "scripts/wiki/output/Onde-onde.jpg",
+    "dimensions": {
+      "width": 2848,
+      "height": 2136
+    },
+    "fileSize": 3044624,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Yun Huang Yong from Harbord, Australia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Midori"
+    },
+    "metadata": {
+      "description": "Onde-onde filled in grated coconut and gula melaka (a palm sugar).  The green bit is a glutinous rice flour mixed with sweet potato and flavoured with pandan (screwpine).",
+      "categories": [
+        "Taken with Fujifilm FinePix F31fd",
+        "Coconut dishes",
+        "Grated coconut",
+        "Flickr images reviewed by FlickreviewR",
+        "Pandanus amaryllifolius as food",
+        "Buah melaka(Kuih)",
+        "Food on banana leaves in Malaysia"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Onde-onde.jpg"
+  }
+}

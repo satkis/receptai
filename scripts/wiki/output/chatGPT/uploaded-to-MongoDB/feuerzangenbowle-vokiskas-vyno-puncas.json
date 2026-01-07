@@ -1,0 +1,216 @@
+{
+  "slug": "feuerzangenbowle-vokiskas-vyno-puncas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/feuerzangenbowle-vokiskas-vyno-puncas",
+  "title": {
+    "lt": "Feuerzangenbowle - Vokiškas vyno punčas"
+  },
+  "description": {
+    "lt": "Feuerzangenbowle yra tradicinis vokiškas alkoholinis gėrimas, dažnai patiekiamas per Kalėdas ar Naujuosius metus. Šis receptas apima vyno ir romo mišinį su prieskoniais ir karamelizuotu cukrumi. Atsargiai flambe, kad išvengtumėte nudegimų."
+  },
+  "seo": {
+    "metaTitle": "Feuerzangenbowle | Vokiškas vyno punčas su romu ir prieskoniais",
+    "metaDescription": "Tradicinis vokiškas gėrimas Feuerzangenbowle – punčas su vynu, romu ir prieskoniais. Puikus pasirinkimas šventėms ir ypatingoms progoms.",
+    "keywords": [
+      "feuerzangenbowle",
+      "vokiškas punčas",
+      "vyno punčas su romu",
+      "šventinis gėrimas",
+      "vokiška virtuvė"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Vokiečių",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "1g",
+      "fatContent": "0g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "timeCategory": "iki-60-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/gerimai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Raudonas vynas"
+      },
+      "quantity": "2-3 buteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Romas"
+      },
+      "quantity": "400 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Apelsinai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinos"
+      },
+      "quantity": "2 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "1 lazdelė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gvazdikėliai"
+      },
+      "quantity": "5 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbierinių prieskonių"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Zuckerhut cukraus gabalas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Vyno pašildymas"
+      },
+      "text": {
+        "lt": "Supilkite vyną į puodą ir pašildykite iki maždaug 70 °C."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Vaisių paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite vaisius karštu vandeniu, nulupkite apelsinus ir citrinas, ir pridėkite žieveles į vyną kartu su prieskoniais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Cukraus uždegimas"
+      },
+      "text": {
+        "lt": "Ant puodo uždėkite feuerzange ir ant jo padėkite Zuckerhut. Supilkite romą ant cukraus ir atsargiai uždekite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Romos pridėjimas"
+      },
+      "text": {
+        "lt": "Kai liepsna užgęsta, lėtai pridėkite dar šiek tiek romo, kol cukrus visiškai ištirps."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Gėrimo užbaigimas"
+      },
+      "text": {
+        "lt": "Pašalinkite vaisių žieveles, gvazdikėlius ir cinamono lazdelę prieš patiekdami."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Romas turi būti bent 50% stiprumo, kad liepsnotų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei neturite Zuckerhut, galite naudoti cukraus kubelius."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/feuerzangenbowle-vokiskas-vyno-puncas.jpg",
+    "alt": "Feuerzangenbowle - vokiškas vyno punčas su romu ir prieskoniais",
+    "width": 64,
+    "height": 12
+  },
+  "tags": [
+    "feuerzangenbowle",
+    "vokiškas punčas",
+    "vyno punčas su romu",
+    "šventinis gėrimas",
+    "tradicinis vokiškas receptas"
+  ],
+  "author": {
+    "name": "68.64.65.89",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:68.64.65.89"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Feuerzangenbowle_(German_Wine_Punch)",
+    "pageTitle": "Cookbook:Feuerzangenbowle_(German_Wine_Punch)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:58:34.435Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFeuerzangenbowle_(German_Wine_Punch)&action=history",
+    "originalCreator": {
+      "name": "68.64.65.89",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:68.64.65.89"
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg",
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:3o5dots.svg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:58:34+03:00",
+  "createdAt": "2026-01-04T18:58:34+03:00",
+  "updatedAt": "2026-01-04T18:58:34+03:00"
+}

@@ -1,0 +1,273 @@
+{
+  "slug": "prancuziska-svogunu-sriuba",
+  "canonicalUrl": "https://ragaujam.lt/receptas/prancuziska-svogunu-sriuba",
+  "title": {
+    "lt": "Prancūziška svogūnų sriuba"
+  },
+  "description": {
+    "lt": "Prancūziška svogūnų sriuba – tai klasikinė prancūziška sriuba, kurioje pagrindinį vaidmenį atlieka svogūnai, virti sultinyje. Šiame recepte naudojamas jautienos sultinys, raudonas vynas ir Gruyère sūris, kurie suteikia sriubai ypatingo skonio. Patiekiama su duona ir sūriu, ši sriuba yra puikus pasirinkimas tiek paprastiems pietums, tiek vakarienei."
+  },
+  "seo": {
+    "metaTitle": "Prancūziška svogūnų sriuba | Klasikinis receptas",
+    "metaDescription": "Klasikinės prancūziškos svogūnų sriubos receptas su Gruyère sūriu ir raudonu vynu. Puikiai tiks tiek pietums, tiek vakarienei.",
+    "keywords": [
+      "prancūziška svogūnų sriuba",
+      "svogūnų sriuba",
+      "klasikinis receptas",
+      "Gruyère sūris",
+      "prancūziška virtuvė"
+    ],
+    "recipeCategory": "sriubos",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "10g",
+      "fatContent": "12g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 3,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/sriubos",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "25g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "15g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautienos sultinys"
+      },
+      "quantity": "1.5 litrai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bouquet garni"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonas vynas"
+      },
+      "quantity": "50ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gruyère sūris"
+      },
+      "quantity": "125g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Muskatas"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "1 riekė vienam asmeniui",
+      "vital": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Svogūnų paruošimas"
+      },
+      "text": {
+        "lt": "Ištirpinkite sviestą dideliame puode. Įdėkite svogūnus ir leiskite jiems šviesiai auksuoti ant vidutinės ugnies, kol jie taps permatomi, bet ne per daug karamelizuoti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Miltų pridėjimas"
+      },
+      "text": {
+        "lt": "Į svogūnus įberkite miltų ir švelniai maišykite 3–4 minutes. Miltai susigers į sviestą, suteikdami sriubai šiek tiek tirštumo. Nuvalykite puodo dugną nuo susidariusio rudo mišinio, tai suteiks sriubai skonį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Sultinio pridėjimas"
+      },
+      "text": {
+        "lt": "Supilkite ⅔ jautienos sultinio ant svogūnų ir gerai išmaišykite. Įdėkite bouquet garni. Užvirkite, reguliariai maišydami."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Pagardinkite druska, pipirais ir šiek tiek muskato riešutais pagal skonį. Įpilkite likusį sultinį ir leiskite sriubai švelniai troškintis 10–15 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Duonos skrudinimas"
+      },
+      "text": {
+        "lt": "Jei jūsų duona šviežia, tuomet dabar ją paskrudinkite ant mažos ugnies."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Porto pridėjimas"
+      },
+      "text": {
+        "lt": "Pašalinkite sriubą nuo ugnies ir išimkite bouquet garni. Įpilkite portą ir gerai išmaišykite."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Sriubos patiekimas"
+      },
+      "text": {
+        "lt": "Padalinkite sriubą į 6 karščiui atsparias keramikinės ar stiklines lėkštes. Įspauskite duonos riekę į kiekvieną sriubos lėkštę. Generuokite Gruyère sūrį ant viršaus. Kepkite 10 minučių, arba kol sūris išsilydys ir apskrus."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Patiekiama"
+      },
+      "text": {
+        "lt": "Patiekite karštą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jeigu neturite sultinio, galite naudoti vandenį, bet skonis bus mažiau intensyvus."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Vietoje porto vyno galite naudoti sausą šeri, skonis bus subtiliai kitoks."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Tradiciškai ši sriuba buvo valgoma su lardu ir šviežiu sūriu, pagamintu vietoje."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/prancuziska-svogunu-sriuba.jpg",
+    "alt": "Prancūziška svogūnų sriuba su sūriu ir duona",
+    "width": 5147,
+    "height": 3431
+  },
+  "tags": [
+    "prancūziška svogūnų sriuba",
+    "svogūnų sriuba",
+    "klasikinis receptas",
+    "Gruyère sūris",
+    "prancūziška virtuvė"
+  ],
+  "author": {
+    "name": "Risk",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Risk"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Onion_Soup",
+    "pageTitle": "Cookbook:French_Onion_Soup",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T19:08:30+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Onion_Soup&action=history",
+    "originalCreator": {
+      "name": "Risk",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Risk"
+    }
+  },
+  "originalImage": {
+    "fileName": "Soupe_à_l'oignon.jpg",
+    "author": {
+      "name": "Ludovic Péron",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ludo29"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Soupe_%C3%A0_l%27oignon.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:08:30+03:00",
+  "createdAt": "2026-01-04T19:08:30+03:00",
+  "updatedAt": "2026-01-04T19:08:30+03:00"
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "datuliu-batoneliai-su-avizomis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/datuliu-batoneliai-su-avizomis",
+  "title": {
+    "lt": "Datulių batonėliai su avižomis"
+  },
+  "description": {
+    "lt": "Skanūs datulių batonėliai, kurių viršus ir apačia yra trapūs, o viduje - saldi datulių įdaras. Puikus desertas su avižomis ir rudu cukrumi, kuris puikiai tiks prie kavos ar arbatos."
+  },
+  "seo": {
+    "metaTitle": "Datulių batonėliai su avižomis | Skanus desertas",
+    "metaDescription": "Išbandykite šiuos skanius datulių batonėlius su avižomis ir rudu cukrumi. Idealiai tinka desertui ar užkandžiui.",
+    "keywords": [
+      "datulių batonėliai",
+      "avižiniai batonėliai",
+      "saldus desertas",
+      "trapūs batonėliai",
+      "desertas su datulėmis"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "3g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/kepta-orkaiteje"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Datulės"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "375ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Taukai/riebalai"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas arba margarinas"
+      },
+      "quantity": "120ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudasis cukrus"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo soda"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "220g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Avižiniai dribsniai"
+      },
+      "quantity": "130g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Datulių įdaro paruošimas"
+      },
+      "text": {
+        "lt": "Į puodą sudėkite datules, baltąjį cukrų ir vandenį. Kaitinkite ant mažos ugnies, nuolat maišydami, apie 10 minučių, kol masė sutirštės. Leiskite atvėsti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Trapios viršutinės ir apatinės dalies paruošimas"
+      },
+      "text": {
+        "lt": "Atskirame inde sumaišykite sviestą, taukus ir rudąjį cukrų. Sudėkite miltus, druską, kepimo sodą ir avižinius dribsnius. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Formavimas ir kepimas"
+      },
+      "text": {
+        "lt": "Ištepkite 33x23 cm dydžio kepimo formą. Pusę trapios masės įspauskite į formos dugną. Ant viršaus paskleiskite datulių įdarą. Ant viršaus užberkite likusią trapios masės dalį ir švelniai paspauskite. Kepkite 200°C temperatūroje apie 25-30 minučių, kol paviršius taps šviesiai rudas. Supjaustykite batonėliais, kol dar šilta."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite šviežių datulių, galite naudoti džiovintas."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/datuliu-batoneliai-su-avizomis.jpg",
+    "alt": "Datulių batonėliai su avižomis ir rudu cukrumi",
+    "width": 640,
+    "height": 440
+  },
+  "tags": [
+    "datulių batonėliai",
+    "avižiniai batonėliai",
+    "saldus desertas",
+    "trapūs batonėliai",
+    "desertas su datulėmis"
+  ],
+  "author": {
+    "name": "AlbertCahalan",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Date_Bars",
+    "pageTitle": "Cookbook:Date_Bars",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-03T11:26:41.842Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADate_Bars&action=history",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    }
+  },
+  "originalImage": {
+    "fileName": "CookbookDatebar.jpg",
+    "author": {
+      "name": "Ubcule",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ubcule"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CookbookDatebar.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/CookbookDatebar.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-03T14:00:00+03:00",
+  "createdAt": "2026-01-03T14:00:00+03:00",
+  "updatedAt": "2026-01-03T14:00:00+03:00"
+}

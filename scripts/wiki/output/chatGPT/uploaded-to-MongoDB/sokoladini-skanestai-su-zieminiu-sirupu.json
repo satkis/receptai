@@ -1,0 +1,227 @@
+{
+  "slug": "sokoladini-skanestai-su-zieminiu-sirupu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/sokoladini-skanestai-su-zieminiu-sirupu",
+  "title": {
+    "lt": "Šokoladiniai skanėstai su žieminiu sirupu"
+  },
+  "description": {
+    "lt": "Šokoladiniai skanėstai su žieminiu sirupu - tai saldūs ir skanūs žemės riešutų sviesto ir šokolado gabalėliai. Jie primena Rice Krispie užkandžius, tačiau vietoj zefyrų naudojamas žemės riešutų sviestas. Šie skanėstai gaminami ant viryklės, todėl jų nereikia kepti."
+  },
+  "seo": {
+    "metaTitle": "Šokoladiniai skanėstai su žieminiu sirupu | Skanus receptas",
+    "metaDescription": "Skanių šokoladinių skanėstų su žieminiu sirupu receptas - puikus desertas su žemės riešutų sviestu ir šokoladu. Greitai paruošiamas ir gardus užkandis.",
+    "keywords": [
+      "šokoladiniai skanėstai",
+      "žemės riešutų sviestas",
+      "cereal bar",
+      "saldūs užkandžiai",
+      "desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "5g",
+      "fatContent": "12g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 25,
+  "timeCategory": "iki-30-min",
+  "servings": 36,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kukurūzų sirupas"
+      },
+      "quantity": "240ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Žemės riešutų sviestas"
+      },
+      "quantity": "275g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pūstų ryžių dribsniai"
+      },
+      "quantity": "6 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokolado gabalėliai"
+      },
+      "quantity": "175g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Karamelės gabalėliai"
+      },
+      "quantity": "175g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Išpurškite kepimo skardą aliejumi arba lengvai patepkite sviestu. Atidėkite į šalį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Supilkite kukurūzų sirupą ir cukrų į puodą. Kaitinkite ant vidutinės ugnies, kol cukrus ištirps ir pradės burbuliuoti. Nuimkite nuo ugnies, kad nesukietėtų skanėstai."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pridėkite riešutų sviestą"
+      },
+      "text": {
+        "lt": "Įdėkite žemės riešutų sviestą ir maišykite, kol viskas gerai susimaišys."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Įmaišykite dribsnius"
+      },
+      "text": {
+        "lt": "Įmaišykite pūstų ryžių dribsnius. Geriau maišykite po pusę, kad būtų lengviau."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Formavimas"
+      },
+      "text": {
+        "lt": "Visą mišinį perkelkite į kepimo skardą ir švelniai suspauskite į lygų sluoksnį. Neprispauskite per stipriai, kad skanėstai nebūtų kieti."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Šokolado užtepimas"
+      },
+      "text": {
+        "lt": "Puode ištirpinkite šokolado ir karamelės gabalėlius. Kai jie ištirps, paskleiskite mišinį ant dribsnių sluoksnio."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Atvėsinimas ir patiekimas"
+      },
+      "text": {
+        "lt": "Leiskite sustingti šaldytuve apie valandą. Supjaustykite į mažus gabalėlius ir patiekite kambario temperatūroje."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Laikykite kambario temperatūroje sandariai uždengtus. Gali būti laikomi iki savaitės."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Galite sumažinti cukraus kiekį per pusę, jei norite minkštesnių skanėstų."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Šokolado ir karamelės gabalėlius galima ištirpinti mikrobangų krosnelėje."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/sokoladini-skanestai-su-zieminiu-sirupu.jpg",
+    "alt": "Šokoladiniai skanėstai su žieminiu sirupu skardoje",
+    "width": 612,
+    "height": 612
+  },
+  "tags": [
+    "šokoladiniai skanėstai",
+    "žemės riešutų sviestas",
+    "saldus desertas",
+    "greitas receptas",
+    "cereal bar"
+  ],
+  "author": {
+    "name": "WhatamIdoing",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:WhatamIdoing"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Scotcheroos",
+    "pageTitle": "Cookbook:Chocolate_Scotcheroos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:09:59+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Scotcheroos&action=history",
+    "originalCreator": {
+      "name": "WhatamIdoing",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:WhatamIdoing"
+    }
+  },
+  "originalImage": {
+    "fileName": "XXX_Chocolate_Scotcheroos_(6564988783).jpg",
+    "author": {
+      "name": "Amber DeGrace from Red Lion, PA, USA",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Mx.%20Granger"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://commons.wikimedia.org/wiki/File:XXX_Chocolate_Scotcheroos_(6564988783).jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T07:09:59+03:00",
+  "createdAt": "2025-12-23T07:09:59+03:00",
+  "updatedAt": "2025-12-23T07:09:59+03:00"
+}

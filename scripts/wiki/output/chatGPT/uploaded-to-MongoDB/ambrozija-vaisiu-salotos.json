@@ -1,0 +1,188 @@
+{
+  "slug": "ambrozija-vaisiu-salotos",
+  "canonicalUrl": "https://ragaujam.lt/receptas/ambrozija-vaisiu-salotos",
+  "title": {
+    "lt": "Ambrozija vaisių salotos"
+  },
+  "description": {
+    "lt": "Ambrozija salotos – tai saldžios vaisių salotos iš mandarinų, ananasų, vynuogių, kokoso ir zefyrų, padengtos plakta grietinėle. Puikiai tinka šeimos susibūrimams."
+  },
+  "seo": {
+    "metaTitle": "Ambrozija vaisių salotos | Tradicinis receptas",
+    "metaDescription": "Tradicinės ambrozijos vaisių salotos su mandarinais, ananasais, vynuogėmis ir zefyrais. Puikiai tinka šeimos susibūrimams ir desertui.",
+    "keywords": [
+      "ambrozija salotos",
+      "vaisių salotos",
+      "desertas",
+      "mandarinai",
+      "ananasai"
+    ],
+    "recipeCategory": "salotos",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 180,
+      "proteinContent": "2g",
+      "fatContent": "5g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 7,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 5,
+  "timeCategory": "iki-15-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/salotos",
+  "secondaryCategories": [
+    "receptai/uzkandziai",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Mandarinai"
+      },
+      "quantity": "4 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ananasai"
+      },
+      "quantity": "2 skardinės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vynuogės"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Plakta grietinėlė"
+      },
+      "quantity": "3 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Grietinė"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mini zefyrai"
+      },
+      "quantity": "6-8 puodeliai",
+      "vital": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sumaišymas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje sumaišykite mandarinus, ananasus ir vynuoges."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Grietinėlės įmaišymas"
+      },
+      "text": {
+        "lt": "Įmaišykite plaktą grietinėlę, grietinę ir zefyrus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Atšaldymas"
+      },
+      "text": {
+        "lt": "Salotas atšaldykite mažiausiai valandai."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Prieš patiekdami dar kartą išmaišykite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, salotas galite pagardinti kokoso drožlėmis."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/ambrozija-vaisiu-salotos.jpg",
+    "alt": "Ambrozija vaisių salotos su mandarinais, ananasais ir zefyrais",
+    "width": 709,
+    "height": 604
+  },
+  "tags": [
+    "ambrozija salotos",
+    "vaisių salotos",
+    "desertas",
+    "saldžios salotos",
+    "šeimos susibūrimai"
+  ],
+  "author": {
+    "name": "Reubenbarton~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Reubenbarton~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ambrosia_Fruit_Salad",
+    "pageTitle": "Cookbook:Ambrosia_Fruit_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T14:04:02.025Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAmbrosia_Fruit_Salad&action=history",
+    "originalCreator": {
+      "name": "Reubenbarton~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Reubenbarton~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ambrosia_salad.jpg",
+    "author": {
+      "name": "Marshall Astor",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Tholme"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ambrosia_salad.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:04:02+03:00",
+  "createdAt": "2025-11-21T17:04:02+03:00",
+  "updatedAt": "2025-11-21T17:04:02+03:00"
+}

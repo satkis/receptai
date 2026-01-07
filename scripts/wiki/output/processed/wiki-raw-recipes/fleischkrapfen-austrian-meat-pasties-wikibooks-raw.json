@@ -1,0 +1,101 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fleischkrapfen_(Austrian_Meat_Pasties)",
+    "pageTitle": "Cookbook:Fleischkrapfen_(Austrian_Meat_Pasties)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Cooking lady",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Cooking%20lady"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFleischkrapfen_(Austrian_Meat_Pasties)&action=history",
+    "extractedAt": "2026-01-04T16:01:17.640Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fleischkrapfen (Austrian Meat Pasties)",
+    "slug": "fleischkrapfen-austrian-meat-pasties",
+    "description": "Fleischkrapfen is a traditional dish originating in Salzburg. In this preparation, meat of all kinds is cut into small pieces and used to fill a fried hand pie. It is an ideal way to make use of leftover meat.",
+    "ingredients": [
+      "200 g rye flour",
+      "200 g wheat flour",
+      "Salt to taste",
+      "40 g butter",
+      "¼ litres milk",
+      "400 g potatoes",
+      "100 g bacon",
+      "400 g smoked meat",
+      "1 onion",
+      "Salt",
+      "Pepper",
+      "Marjoram",
+      "Parsley",
+      "4 tbsp butter",
+      "Shortening or oil for deep frying"
+    ],
+    "instructions": [
+      "For the dough, mix the two kinds of flour, and season the mixture with a pinch of salt.",
+      "Boil up milk and butter, then pour it over the flour and knead it quickly.",
+      "For the stuffing, chop the onion and brown it in butter. Add the chopped bacon, the smoked meat, and the boiled and chopped potatoes. Season with salt, pepper, marjoram, and parsley, and let it cool down a little.",
+      "Roll the dough into one 4 cm thick piece. Cut it into 2 cm thick slices, and roll into a circle with a rolling pin. Overlay one half of each dough circle with a medium amount of the filling and put the other half over it. Press the edges firmly together.",
+      "Heat the oil or shortening to 180°C (350°F). Deep fry the Fleischkrapfen in hot oil until golden brown on all sides.",
+      "Serve with sauerkraut on the side (see image)."
+    ],
+    "notes": [],
+    "servings": 4,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Recipes for pastries",
+    "categories": [
+      "Recipes using potato",
+      "Recipes for pastries",
+      "Deep fried recipes",
+      "Main course recipes",
+      "Austrian recipes",
+      "Holiday recipes",
+      "Recipes with metric units",
+      "Recipes using bacon",
+      "Recipes using butter",
+      "Recipes using wheat flour",
+      "Recipes using rye flour",
+      "Recipes using marjoram",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Fleischkrapfen_on_plate.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Fleischkrapfen_on_plate.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fleischkrapfen_on_plate.jpg",
+    "localPath": "scripts/wiki/output/Fleischkrapfen_on_plate.jpg",
+    "dimensions": {
+      "width": 600,
+      "height": 401
+    },
+    "fileSize": 27018,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "cooking_lady\n\nOriginal uploader was Brite33bb at en.wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Abigor"
+    },
+    "metadata": {
+      "description": "fleischkrapfen on plate",
+      "categories": [
+        "Sauerkraut",
+        "CC-BY-SA-3.0,2.5,2.0,1.0",
+        "Fleischkrapfen"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fleischkrapfen_on_plate.jpg"
+  }
+}

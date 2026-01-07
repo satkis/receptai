@@ -1,0 +1,242 @@
+{
+  "slug": "melyniu-keksiukai-desertas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/melyniu-keksiukai-desertas",
+  "title": {
+    "lt": "Mėlynių keksiukai"
+  },
+  "description": {
+    "lt": "Mėlynių keksiukai yra skanus ir lengvai pagaminamas desertas, populiarus visame pasaulyje. Šis receptas suteiks jums minkštus ir drėgnus keksiukus su šviežiomis arba šaldytomis mėlynėmis. Puikiai tinka prie arbatos ar kavos."
+  },
+  "seo": {
+    "metaTitle": "Mėlynių keksiukai | Lengvas receptas su mėlynėmis",
+    "metaDescription": "Skanūs ir minkšti mėlynių keksiukai, pagaminti su šviežiomis arba šaldytomis mėlynėmis. Idealus desertas su kava ar arbata.",
+    "keywords": [
+      "mėlynių keksiukai",
+      "keksiukai su mėlynėmis",
+      "minkšti keksiukai",
+      "lengvas desertas",
+      "muffin receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 220,
+      "proteinContent": "4g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/desertai",
+    "receptai/vakariene"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "65g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.25 arbatinio šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "180ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mėlynės"
+      },
+      "quantity": "180ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Patepkite keksiukų formeles aliejumi arba išklokite popierinėmis formelėmis; atidėkite į šalį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 200°C."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mišinio ruošimas"
+      },
+      "text": {
+        "lt": "Vidutinio dydžio dubenyje sumaišykite miltus, cukrų, kepimo miltelius ir druską. Padarykite duobutę mišinio viduryje ir atidėkite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Skystų ingredientų sumaišymas"
+      },
+      "text": {
+        "lt": "Mažame dubenyje sumaišykite plakta kiaušinį, pieną ir aliejų. Supilkite šį mišinį į miltų mišinį ir įmaišykite mėlynes. Maišykite tik tol, kol ingredientai susimaišys. Nepersistenkite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Keksiukų formavimas"
+      },
+      "text": {
+        "lt": "Tešlą sudėkite į paruoštas formeles, užpildydami apie du trečdalius jų talpos."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 18-20 minučių arba kol keksiukai taps auksinės spalvos. Įkišus medinį dantų krapštuką į keksiuko vidurį jis turėtų išeiti švarus."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Atvėsinimas"
+      },
+      "text": {
+        "lt": "Išimkite keksiukus iš formelių ir leiskite jiems atvėsti ant vielinės lentynos apie 5 minutes."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Mišinys po maišymo turi likti su gumulėliais. Per daug maišant keksiukai gali būti kieti."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei paliksite keksiukus formelėse, jie gali permirkti."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Norėdami pagaminti didesnius keksiukus, sumažinkite temperatūrą iki 180°C ir kepkite 30 minučių."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/melyniu-keksiukai-desertas.jpg",
+    "alt": "Mėlynių keksiukai, patiekiami ant stalo",
+    "width": 600,
+    "height": 450
+  },
+  "tags": [
+    "mėlynių keksiukai",
+    "keksiukai",
+    "lengvas desertas",
+    "minkšti keksiukai",
+    "muffin receptas"
+  ],
+  "author": {
+    "name": "70.246.252.241",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:70.246.252.241"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Blueberry_Muffin",
+    "pageTitle": "Cookbook:Blueberry_Muffin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:01.980Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlueberry_Muffin&action=history",
+    "originalCreator": {
+      "name": "70.246.252.241",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.246.252.241"
+    }
+  },
+  "originalImage": {
+    "fileName": "Blueberry_muffins.jpg",
+    "author": {
+      "name": "Rob Pongsajapan from Arlington, VA, USA",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:AxelHH"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Blueberry_muffins.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T13:11:01+03:00",
+  "createdAt": "2025-11-27T13:11:01+03:00",
+  "updatedAt": "2025-11-27T13:11:01+03:00"
+}

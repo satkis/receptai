@@ -1,0 +1,234 @@
+{
+  "slug": "imbieriniai-sausainiai-su-prieskoniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/imbieriniai-sausainiai-su-prieskoniais",
+  "title": {
+    "lt": "Imbieriniai sausainiai su prieskoniais"
+  },
+  "description": {
+    "lt": "Imbieriniai sausainiai - tai klasikinis desertų pasirinkimas, kurio skanumas priklauso nuo prieskonių gausos. Šie sausainiai gaminami su tamsiu melasa, rudu cukrumi ir daugybe aromatingų prieskonių. Jei norite intensyvesnio imbiero skonio, tiesiog padidinkite jo kiekį. Šių sausainių tešla subręsta šaldytuve, o iškepus jie tampa traškūs ir kvapnūs. Tobuli šaltuoju metų laiku su puodeliu arbatos ar kavos."
+  },
+  "seo": {
+    "metaTitle": "Imbieriniai sausainiai su prieskoniais | Traškūs ir kvapnūs receptas",
+    "metaDescription": "Gaminame imbierinius sausainius su melasa, ruduoju cukrumi ir prieskoniais. Tobuli desertui ar šventiniam stalui. Intensyvus imbiero skonis pagal norą!",
+    "keywords": [
+      "imbieriniai sausainiai",
+      "sausainiai su prieskoniais",
+      "desertai su melasa",
+      "šventiniai sausainiai",
+      "imbiero receptas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 140,
+      "proteinContent": "2g",
+      "fatContent": "6g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 7,
+  "totalTimeMinutes": 147,
+  "timeCategory": "iki-120-min",
+  "servings": 40,
+  "servingsUnit": "vnt.",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/duona"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tamsi melasa"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tamsus rudas cukrus"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "2 arb. šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kvapieji pipirai"
+      },
+      "quantity": "truputį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gvazdikėliai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Muskato riešutas"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Imbieras"
+      },
+      "quantity": "1 valg. šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "truputį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "10–12 puodelių",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sviesto ir prieskonių maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite tirpintą sviestą, melasą, cukrų ir prieskonius dideliame dubenyje. Tai bus jūsų sausainių bazė."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Įmaišykite miltus, po vieną puodelį vienu metu, iki 10 puodelių, naudodami šakutę, o paskui ir rankomis. Jei tešla vis dar lipni, pridėkite dar 1–2 puodelius miltų, kol tešla taps vientisa."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos atvėsinimas"
+      },
+      "text": {
+        "lt": "Tešlą padėkite į šaldytuvą bent 2 valandoms, kad ji sutvirtėtų. Tai padės sausainiams išlaikyti formą kepant."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Orkaitės paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175°C. Tai pasiruošimas kepimui."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą kuo ploniau ir išpjaukite formeles su sausainių formelėmis. Tai užtikrins gražius sausainius."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Sausainių formeles perkelkite ant kepimo popieriumi išklotos skardos ir kepkite 7 minutes. Leiskite sausainiams atvėsti ant grotelių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite stipresnio imbiero skonio, galite padidinti jo kiekį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/imbieriniai-sausainiai-su-prieskoniais.jpg",
+    "alt": "Imbieriniai sausainiai su prieskoniais, iškepti ir paruošti patiekimui",
+    "width": 64,
+    "height": 12
+  },
+  "tags": [
+    "imbieriniai sausainiai",
+    "prieskonių sausainiai",
+    "melasa",
+    "rudasis cukrus",
+    "šventiniai desertai"
+  ],
+  "author": {
+    "name": "BenFrantzDale~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:BenFrantzDale~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ginger_Snaps",
+    "pageTitle": "Cookbook:Ginger_Snaps",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:42:47.131Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGinger_Snaps&action=history",
+    "originalCreator": {
+      "name": "BenFrantzDale~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:BenFrantzDale~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg",
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:3o5dots.svg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

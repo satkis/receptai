@@ -1,0 +1,213 @@
+{
+  "slug": "graikiskos-salotos-su-feta",
+  "canonicalUrl": "https://ragaujam.lt/receptas/graikiskos-salotos-su-feta",
+  "title": {
+    "lt": "Graikiškos salotos su feta sūriu"
+  },
+  "description": {
+    "lt": "Graikiškos salotos - tai gaivus ir spalvingas patiekalas, idealiai tinkantis vasaros pietums ar vakarienei. Su šviežiais pomidorais, agurkais, paprikomis ir alyvuogėmis, šios salotos yra pagardintos feta sūriu ir alyvuogių aliejumi. Puikus pasirinkimas, jei ieškote lengvo ir sveiko patiekalo."
+  },
+  "seo": {
+    "metaTitle": "Graikiškos salotos su feta sūriu | Lengvas receptas",
+    "metaDescription": "Paruoškite gaivias graikiškas salotas su feta sūriu, pomidorais, agurkais ir alyvuogėmis. Puikus vasaros patiekalas!",
+    "keywords": [
+      "graikiškos salotos",
+      "feta sūris",
+      "salotos su pomidorais",
+      "vasaros patiekalai",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "salotos",
+    "recipeCuisine": "Graikų",
+    "nutrition": {
+      "calories": 180,
+      "proteinContent": "5g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/salotos",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Agurkai"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Paprikos"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Graikiškos alyvuogės"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Actas arba citrinos sultys"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Feta sūris"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Raudonėlis"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ingredientų paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite pomidorus, agurkus, svogūnus ir paprikas. Sudėkite juos į didelį dubenį kartu su alyvuogėmis."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Pagardinimas"
+      },
+      "text": {
+        "lt": "Įpilkite alyvuogių aliejaus, acto ar citrinos sulčių, ir pagardinkite druska. Gerai išmaišykite, kad visi ingredientai pasidengtų padažu."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Ant salotų viršaus uždėkite fetos sūrį ir apšlakstykite alyvuogių aliejumi. Jei norite, papuoškite raudonėliu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite intensyvesnio skonio, naudokite daugiau alyvuogių aliejaus ir prieskonių."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šios salotos puikiai dera su grūdų duona ar pita."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/graikiskos-salotos-su-feta.jpg",
+    "alt": "Gaivios graikiškos salotos su feta sūriu",
+    "width": 400,
+    "height": 388
+  },
+  "tags": [
+    "graikiškos salotos",
+    "feta sūris",
+    "vasaros patiekalai",
+    "lengvas receptas",
+    "salotos su pomidorais"
+  ],
+  "author": {
+    "name": "Philby",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Philby"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Greek_Salad",
+    "pageTitle": "Cookbook:Greek_Salad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:46:25.497Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreek_Salad&action=history",
+    "originalCreator": {
+      "name": "Philby",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Philby"
+    }
+  },
+  "originalImage": {
+    "fileName": "GreekSalad.jpg",
+    "author": {
+      "name": "en:User:Action st",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Alensha"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/GreekSalad.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:46:25+03:00",
+  "createdAt": "2026-01-06T16:46:25+03:00",
+  "updatedAt": "2026-01-06T16:46:25+03:00"
+}

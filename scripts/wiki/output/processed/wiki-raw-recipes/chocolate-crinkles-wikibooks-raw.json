@@ -1,0 +1,98 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Crinkles",
+    "pageTitle": "Cookbook:Chocolate_Crinkles",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "24.3.101.51",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:24.3.101.51"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Crinkles&action=history",
+    "extractedAt": "2025-12-23T07:09:57.793Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chocolate Crinkles",
+    "slug": "chocolate-crinkles",
+    "description": "These chocolate crinkles are easy to make, but do require chilling the dough for several hours before forming into cookies and baking. They have a strong chocolate taste and a dramatic black and white appearance. One recipe makes 3 to 4 dozen cookies.",
+    "ingredients": [
+      "½ cup (120 ml) vegetable oil",
+      "4 squares (4 oz / 115 g) unsweetened chocolate, melted",
+      "2 cups (480 ml) white granulated sugar",
+      "4 eggs",
+      "2 tsp (10 ml) vanilla extract",
+      "2 cups (480 ml) all purpose flour",
+      "2 tsp (10 ml) baking powder",
+      "½ tsp (2.5 ml) salt",
+      "1 cup (240 ml) confectioners' sugar"
+    ],
+    "instructions": [
+      "Mix oil, chocolate, and granulated sugar.",
+      "Blend in one egg at a time until well mixed. Add vanilla.",
+      "Stir flour, baking powder, and salt into chocolate mixture.",
+      "Chill several hours or overnight.",
+      "Heat oven to 350°F (175°C).",
+      "Drop teaspoonfuls of dough into confectioners' sugar.",
+      "Roll in sugar; shape into balls.",
+      "Place about 2 inches (5 cm) apart on greased baking sheet.",
+      "Bake 10 to 12 minutes."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": 45,
+    "difficulty": 3,
+    "category": "Cookie recipes",
+    "categories": [
+      "Recipes using unsweetened chocolate",
+      "Recipes for cookies",
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Featured recipe candidates",
+      "Kid-friendly recipes",
+      "Recipes using egg",
+      "Recipes for dessert",
+      "Recipes using baking powder",
+      "Recipes using white sugar",
+      "Recipes using powdered sugar",
+      "Recipes using all-purpose flour",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Melting_Chocolate_in_Double_Boiler.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Melting_Chocolate_in_Double_Boiler.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Melting_Chocolate_in_Double_Boiler.jpg",
+    "localPath": "scripts/wiki/output/Melting_Chocolate_in_Double_Boiler.jpg",
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "fileSize": 3777985,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "John V. Pozniak",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gentgeen"
+    },
+    "metadata": {
+      "description": "A 4 oz bar of unsweetened chocolate being melted in a double boiler",
+      "categories": [
+        "Chocolate",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Melting_Chocolate_in_Double_Boiler.jpg"
+  }
+}

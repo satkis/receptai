@@ -1,0 +1,109 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Tikka",
+    "pageTitle": "Cookbook:Chicken_Tikka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "David Johnson",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:David%20Johnson"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Tikka&action=history",
+    "extractedAt": "2025-12-23T07:09:27.301Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chicken Tikka",
+    "slug": "chicken-tikka",
+    "description": "Chicken tikka is a chicken dish originating in the Punjab region of the Indian Subcontinent made by baking chicken which has been marinated in spices and yoghurt. It should not be confused with Chicken Tikka Masala (of which it is an ingredient). It is traditionally cooked on skewers in a tandoor and is usually boneless. It is tasty when served with yellow rice and a spicy salad.",
+    "ingredients": [
+      "675 g (1.5 lb) skinless and boneless chicken breast, diced into cubes",
+      "1 tbsp mustard seed oil (see notes)",
+      "50 ml (2 fl oz) milk",
+      "150 ml (5 fl oz) natural yoghurt",
+      "2 tbsp lemon juice",
+      "1 tbsp tomato paste",
+      "2 tbsp chopped fresh cilantro (coriander leaves)",
+      "4 large cloves of garlic, finely chopped",
+      "1–4 chopped fresh red chillis (depending on strength of the chillis and the desired strength of the marinade)",
+      "2 tsp paprika",
+      "2 tsp garam masala",
+      "1 tsp cumin powder",
+      "½ tsp turmeric",
+      "1 tsp salt (use rock salt for best results)"
+    ],
+    "instructions": [
+      "Add all of the ingredients except the chicken to a non-metallic mixing bowl, and mix well.",
+      "Add the chicken and mix until fully coated.",
+      "Ideally, the chicken should now be left in a refrigerator to marinate for at least 24 hours. It may not be safe to leave chicken which has previously been frozen for longer than 24 hours, but fresh chicken should be left to marinate for 48 hours for best results. If you do not wish to leave the chicken to marinate, simply continue to the next step.",
+      "For best results, place on skewers and cook in a tandoor or ceramic pot oven. The chicken can also be cooked on skewers under a medium grill for 5–8 minutes on each side or barbecued (cooking times depend on the temperature of the barbecue). Always ensure the chicken is cooked throughout before serving. It should come apart easily when pressed down with the side of a fork.",
+      "Serve with naan, with rice or use in a Chicken Tikka Masala."
+    ],
+    "notes": [
+      "Mustard seed oil is considered unfit for human consumption in many parts of the world and is therefore not readily available. A poor alternative can be made by crackling 1 tsp of mustard seeds in approximately 2 tbs of very hot vegetable or olive oil. Allow to cool then use in place of mustard seed oil.",
+      "It is possible to make a tikka with almost any meat, the most commonly used other than chicken being lamb and mutton.",
+      "Tikka can be served either as main meal or as an appetiser.",
+      "Powdered or dried ingredients can be substituted for fresh, but at the expense of taste.",
+      "Some people prefer to make tikka with meat on-the-bone for improved flavour."
+    ],
+    "servings": 4,
+    "totalTimeMinutes": 30,
+    "difficulty": 2,
+    "category": "Chicken recipes",
+    "categories": [
+      "Indian recipes|{{PAGENAME}}",
+      "Pakistani recipes|{{PAGENAME}}",
+      "Afghan recipes|{{PAGENAME}}",
+      "Pashtun recipes|{{PAGENAME}}",
+      "Punjabi recipes|{{PAGENAME}}",
+      "Recipes using chicken breast",
+      "Appetizer recipes|{{PAGENAME}}",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Featured recipes|{{PAGENAME}}",
+      "Kid-friendly recipes",
+      "Recipes using cilantro",
+      "Recipes using lemon juice",
+      "Recipes using garam masala",
+      "Recipes using ground cumin",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Chicken_Tikka_with_some_salad.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Chicken_Tikka_with_some_salad.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Tikka_with_some_salad.jpg",
+    "localPath": "scripts/wiki/output/Chicken_Tikka_with_some_salad.jpg",
+    "dimensions": {
+      "width": 460,
+      "height": 322
+    },
+    "fileSize": 149686,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Shubhamcr7",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Shubhamcr7"
+    },
+    "metadata": {
+      "description": "This is chicken tikka 1 of the best non-veg chicken dish in india my favorite.This dish is easy to make and the taste is so good i thinkthis dish can compete to KFC.If i won money in this competition i am going to eat some Chicken Tikka",
+      "categories": [
+        "Chicken dishes of India",
+        "Self-published work",
+        "Images from Wiki Loves Food 2015",
+        "Uploaded via Campaign:wlf",
+        "Images from Wiki Loves Food 2015 in India"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Tikka_with_some_salad.jpg"
+  }
+}

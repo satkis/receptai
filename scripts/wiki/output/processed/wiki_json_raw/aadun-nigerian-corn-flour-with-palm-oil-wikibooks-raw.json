@@ -1,0 +1,79 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil)",
+    "pageTitle": "Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAadun_(Nigerian_Corn_Flour_with_Palm_Oil)&action=history",
+    "extractedAt": "2025-11-17T19:23:55.648Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Aadun (Nigerian Corn Flour with Palm Oil)",
+    "slug": "aadun-nigerian-corn-flour-with-palm-oil",
+    "description": "Aadun is a snack common amongst Yoruba-speaking people of Nigeria. There are two types of aadun: one made from pure corn flour and one made from corn flour mixed with palm oil and salt. This recipe is for the latter. The Kogi people add ground beans to modify the taste.",
+    "ingredients": [
+      "1 cup corn flour",
+      "¼ cup palm oil",
+      "½ teaspoon chile pepper",
+      "½ teaspoon salt"
+    ],
+    "instructions": [
+      "Combine the corn flour, palm oil, chili pepper, and salt in a bowl.",
+      "Leave the mixture to sit for 2–3 hours.",
+      "Shape the mixture as desired, and serve with drinks."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Yoruba recipes",
+      "Recipes using chile",
+      "Recipes using corn flour",
+      "Recipes using palm oil",
+      "Recipes using salt"
+    ]
+  },
+  "image": {
+    "filename": "Àádùn2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%C3%80%C3%A1d%C3%B9n2.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%C3%80%C3%A1d%C3%B9n2.jpg",
+    "localPath": "scripts/wiki/output/Àádùn2.jpg",
+    "dimensions": {
+      "width": 1920,
+      "height": 1920
+    },
+    "fileSize": 840506,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Gbolahan Adebayo",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Sheys%20Ditty"
+    },
+    "metadata": {
+      "description": "This picture is for the article creation of Àádùn in Nigeria",
+      "categories": [
+        "Taken with Tecno WX3 Pro",
+        "Cuisine of Nigeria",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Àádùn2.jpg"
+  }
+}

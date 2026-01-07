@@ -1,0 +1,94 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Coleslaw_I",
+    "pageTitle": "Cookbook:Coleslaw_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "70.39.98.223",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.39.98.223"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AColeslaw_I&action=history",
+    "extractedAt": "2025-12-23T07:10:38.204Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Coleslaw I",
+    "slug": "coleslaw-i",
+    "description": "* 4 tablespoons mayonnaise or 2 dL olive oil * ¼&ndash;½ cup (about 50–100ml) cider vinegar (optional) * 1 head white cabbage * 1 medium red onion, thinly sliced",
+    "ingredients": [
+      "4 tablespoons mayonnaise or 2 dL olive oil",
+      "¼&ndash;½ cup (about 50–100ml) cider vinegar (optional)",
+      "1 head white cabbage",
+      "1 medium red onion, thinly sliced"
+    ],
+    "instructions": [
+      "If adding cider vinegar, add it to the mayonnaise and mix together well.",
+      "Slice or shred the cabbage, as coarsely or finely as desired.",
+      "In a large bowl, mix cabbage and onion together with mayonnaise.",
+      "Set aside to allow the flavours to merge at least 20 minutes but preferably for a couple of hours."
+    ],
+    "notes": [
+      "Savoy cabbage can be used instead of white cabbage",
+      "Other vegetables can be added to the coleslaw for greater variety, including:\nSliced bell peppers (red, yellow, and orange)\nGrated carrots\nChopped nuts (e.g. almonds, walnuts)",
+      "Sliced bell peppers (red, yellow, and orange)",
+      "Grated carrots",
+      "Chopped nuts (e.g. almonds, walnuts)",
+      "Some people prefer to sweeten the dressing by adding up to 2 tablespoons of sugar to the mayonnaise and vinegar",
+      "Spices can be added to the dressing to \"liven it up\" (e.g. ground black pepper, celery seeds)"
+    ],
+    "servings": 6,
+    "totalTimeMinutes": 10,
+    "difficulty": 1,
+    "category": null,
+    "categories": [
+      "Inexpensive recipes",
+      "Recipes for salad",
+      "Vegetarian recipes",
+      "Naturally gluten-free recipes",
+      "Recipes using cabbage",
+      "Recipes using onion",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes using mayonnaise"
+    ]
+  },
+  "image": {
+    "filename": "Bowl'o'Coleslaw_modified.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bowl%27o%27Coleslaw_modified.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bowl%27o%27Coleslaw_modified.jpg",
+    "localPath": "scripts/wiki/output/Bowl'o'Coleslaw_modified.jpg",
+    "dimensions": {
+      "width": 1222,
+      "height": 858
+    },
+    "fileSize": 910654,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Rainer Zenz",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rainer%20Zenz"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Coleslaw",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Media missing infobox template",
+        "Flickr images reviewed by FlickreviewR",
+        "Photographs by Stu Spivack"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Bowl'o'Coleslaw_modified.jpg"
+  }
+}

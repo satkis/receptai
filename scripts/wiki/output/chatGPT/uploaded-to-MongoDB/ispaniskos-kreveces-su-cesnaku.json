@@ -1,0 +1,192 @@
+{
+  "slug": "ispaniskos-krevetes-su-cesnaku",
+  "canonicalUrl": "https://ragaujam.lt/receptas/ispaniskos-krevetes-su-cesnaku",
+  "title": {
+    "lt": "Ispaniškos krevetės su česnaku"
+  },
+  "description": {
+    "lt": "Ispaniškos krevetės su česnaku yra populiarus patiekalas Pietų ir centrinėje Ispanijoje. Krevetės, česnakas ir alyvuogių aliejus yra pagrindiniai ingredientai, tačiau yra daug šio patiekalo variantų. Dažnai patiekiamos kaip užkandis Ispanijos tapas baruose. Šis patiekalas toks populiarus, kad kartais siūlomas kaip pagrindinis patiekalas."
+  },
+  "seo": {
+    "metaTitle": "Ispaniškos krevetės su česnaku | Lengvas receptas",
+    "metaDescription": "Ispaniškų krevečių su česnaku receptas su alyvuogių aliejumi ir citrinos sultimis. Populiarus tapas patiekalas, lengvai paruošiamas ir puikiai tinkantis vakarėliams.",
+    "keywords": [
+      "ispaniškos krevetės",
+      "krevetės su česnaku",
+      "tapas receptas",
+      "ispaniška virtuvė",
+      "lengvas užkandis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Ispanų",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "25g",
+      "fatContent": "12g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/zuvis"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Krevetės"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "4-6 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saldžioji paprika"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausas cheresas arba konjakas"
+      },
+      "quantity": "60-90ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "60ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežios petražolės"
+      },
+      "quantity": "3 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrinos sultys"
+      },
+      "quantity": "50ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite alyvuogių aliejų ant vidutinės ugnies keptuvėje. Įdėkite česnaką ir kepkite apie minutę, kol jis pradės ruduoti. Saugokite, kad česnakas nesudegtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Pakelkite ugnį ir įdėkite krevetes, citrinos sultis, cheresą arba konjaką ir papriką. Gerai išmaišykite ir kepkite, kol krevetės taps rožinės ir susisuks (apie 3 minutes)."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Nukelkite nuo ugnies ir perkelkite krevetes su aliejumi ir padažu į šiltą lėkštę arba patiekite tiesiai iš keptuvės. Pagardinkite druska ir šviežiai maltais juodaisiais pipirais. Pabarstykite petražolėmis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite nulupti krevetes prieš jas kepdami, jeigu norite."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jeigu norite didesnių krevečių, rinkitės mažesnį kiekį svorio vienai krevetėms."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/ispaniskos-krevetes-su-cesnaku.jpg",
+    "alt": "Ispaniškos krevetės su česnaku ir alyvuogių aliejumi",
+    "width": 1024,
+    "height": 683
+  },
+  "tags": [
+    "ispaniškos krevetės",
+    "krevetės su česnaku",
+    "tapas receptas",
+    "ispaniška virtuvė",
+    "lengvas užkandis"
+  ],
+  "author": {
+    "name": "World-food-and-wine.com",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:World-food-and-wine.com"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gambas_al_Ajillo_(Garlic_Shrimp)",
+    "pageTitle": "Cookbook:Gambas_al_Ajillo_(Garlic_Shrimp)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T16:36:23+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambas_al_Ajillo_(Garlic_Shrimp)&action=history",
+    "originalCreator": {
+      "name": "World-food-and-wine.com",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:World-food-and-wine.com"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gambas_al_ajillo.jpg",
+    "author": {
+      "name": "Javier Lastras from España/Spain",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Lobo"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Gambas_al_ajillo.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:36:23+03:00",
+  "createdAt": "2026-01-06T16:36:23+03:00",
+  "updatedAt": "2026-01-06T16:36:23+03:00"
+}

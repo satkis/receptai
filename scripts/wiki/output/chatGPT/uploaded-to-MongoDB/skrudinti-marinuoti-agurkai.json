@@ -1,0 +1,225 @@
+{
+  "slug": "skrudinti-marinuoti-agurkai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/skrudinti-marinuoti-agurkai",
+  "title": {
+    "lt": "Skrudinti marinuoti agurkai"
+  },
+  "description": {
+    "lt": "Skrudinti marinuoti agurkai – tai puikus amerikietiškas užkandis, kilęs iš Pietų. Jis gaminamas giliai kepant tešloje apvoliotus marinuotus agurkus. Pasinerkite į pietietišką skonį ir išbandykite šį traškų užkandį!"
+  },
+  "seo": {
+    "metaTitle": "Skrudinti marinuoti agurkai | Amerikietiškas užkandis",
+    "metaDescription": "Traškūs skrudinti marinuoti agurkai iš Amerikos pietų. Lengvai paruošiamas užkandis, puikiai tinkantis vakarėliams ar užkandžiavimui.",
+    "keywords": [
+      "skrudinti marinuoti agurkai",
+      "amerikietiškas užkandis",
+      "užkandžiai vakarėliams",
+      "traškūs agurkai",
+      "marinuoti agurkai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Amerikiečių",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "5g",
+      "fatContent": "10g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/pietus-i-darba"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "240ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Worcestershire padažas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aštrus padažas"
+      },
+      "quantity": "6 lašai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "3.5 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.75 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "0.75 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Marinuoti agurkai"
+      },
+      "quantity": "1 litras",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovintas krapas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "Giliam kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruoškite pieno mišinį"
+      },
+      "text": {
+        "lt": "Sumaišykite pieną, kiaušinį, miltus, Worcestershire padažą ir aštrų padažą. Gerai išmaišykite ir atidėkite į šalį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Paruoškite miltų mišinį"
+      },
+      "text": {
+        "lt": "Kitame dubenyje sumaišykite miltus, druską ir pipirus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Apvoliokite agurkus"
+      },
+      "text": {
+        "lt": "Pamerkite marinuotus agurkus į pieno mišinį, tada apvoliokite miltų mišinyje. Pakartokite procesą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepkite agurkus"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų iki 175 °C ir giliai kepkite agurkus, kol jie iškyla į paviršių ir tampa auksiniai. Nusausinkite ant popierinių rankšluosčių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekite"
+      },
+      "text": {
+        "lt": "Pabarstykite agurkus džiovintis krapais pagal skonį. Patiekite šiltus."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/skrudinti-marinuoti-agurkai.jpg",
+    "alt": "Skrudinti marinuoti agurkai - traškus užkandis iš Amerikos pietų",
+    "width": 1280,
+    "height": 813
+  },
+  "tags": [
+    "skrudinti marinuoti agurkai",
+    "amerikietiškas užkandis",
+    "užkandžiai vakarėliams",
+    "traškūs agurkai",
+    "marinuoti agurkai"
+  ],
+  "author": {
+    "name": "Lexein",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Lexein"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Pickle",
+    "pageTitle": "Cookbook:Fried_Pickle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T19:17:43+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Pickle&action=history",
+    "originalCreator": {
+      "name": "Lexein",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Lexein"
+    }
+  },
+  "originalImage": {
+    "fileName": "FRIED_PICKLES,_HONEY.jpg",
+    "author": {
+      "name": "Belinda Hankins Miller from U.S.A.",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/FRIED_PICKLES%2C_HONEY.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:17:43+03:00",
+  "createdAt": "2026-01-04T19:17:43+03:00",
+  "updatedAt": "2026-01-04T19:17:43+03:00"
+}

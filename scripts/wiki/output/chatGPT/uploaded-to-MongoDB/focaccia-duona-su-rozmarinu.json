@@ -1,0 +1,242 @@
+{
+  "slug": "focaccia-duona-su-rozmarinu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/focaccia-duona-su-rozmarinu",
+  "title": {
+    "lt": "Focaccia duona su rozmarinu"
+  },
+  "description": {
+    "lt": "Focaccia – tai itališka plokščia mielių duona, dažnai pagardinama alyvuogių aliejumi, žolelėmis, sūriu ar daržovėmis. Ji puikiai tinka sumuštiniams ar kaip garnyras. Šis receptas leis jums paruošti minkštą ir aromatingą focaccia su rozmarinu."
+  },
+  "seo": {
+    "metaTitle": "Focaccia su rozmarinu | Itališkos duonos receptas",
+    "metaDescription": "Itališkos focaccia duonos receptas su rozmarinu. Minkšta ir aromatinga duona, puikiai tinkanti sumuštiniams ir garnyrams.",
+    "keywords": [
+      "focaccia",
+      "italų duona",
+      "rozmarino duona",
+      "itališki receptai",
+      "duonos receptas"
+    ],
+    "recipeCategory": "duona",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "8g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 27,
+  "totalTimeMinutes": 47,
+  "timeCategory": "iki-60-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/duona",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "600 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "1 valg. šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "240ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "2 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "3 valg. šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovintas rozmarinas"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite 1 puodelį miltų, cukrų, druską ir mieles. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Skystų ingredientų maišymas"
+      },
+      "text": {
+        "lt": "Pakaitinkite vandenį ir augalinį aliejų iki šiltumo, tada įpilkite į mielių mišinį kartu su kiaušiniu."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos plakimas"
+      },
+      "text": {
+        "lt": "Maišykite elektriniu plaktuvu žemiausiu greičiu, kol sudrėks. Plakite dar 2 minutes."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos minkymas"
+      },
+      "text": {
+        "lt": "Įmaišykite 1 ¾ puodelio miltų, kol tešla pradės atšokti nuo dubens kraštų. Minkykite ant miltuoto paviršiaus."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Padėkite tešlą ant riebaluoto kepimo skardos ir iškočiokite į 30 cm apskritimą. Uždenkite riebaluota plastikine plėvele ir rankšluosčiu. Palikite šiltoje vietoje 30 minučių."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Tešlos puošimas"
+      },
+      "text": {
+        "lt": "Nuimkite dangą, ištieskite skylutes per visą tešlą kas 2.5 cm. Užpilkite alyvuogių aliejų ir pabarstykite rozmarinu."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 205 °C temperatūroje 17-27 minutes, kol taps šiek tiek auksinė. Išimkite iš skardos ir atvėsinkite ant grotelių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Kad sumažintumėte mielių skonį, naudokite mažiau nei 1.05% sausų mielių."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Ši duona geriausiai tinka sumuštiniams arba kaip garnyras prie sriubų."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/focaccia-duona-su-rozmarinu.jpg",
+    "alt": "Focaccia duona su rozmarinu, itališka duona",
+    "width": 1569,
+    "height": 777
+  },
+  "tags": [
+    "focaccia",
+    "itališka duona",
+    "rozmarino duona",
+    "lengvas receptas",
+    "mielinė duona"
+  ],
+  "author": {
+    "name": "24.91.156.140",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:24.91.156.140"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Focaccia_II",
+    "pageTitle": "Cookbook:Focaccia_II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:04:43.452Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFocaccia_II&action=history",
+    "originalCreator": {
+      "name": "24.91.156.140",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:24.91.156.140"
+    }
+  },
+  "originalImage": {
+    "fileName": "Focaccia.png",
+    "author": {
+      "name": "Dvortygirl",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Dvortygirl"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Focaccia.png"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:00:00+03:00",
+  "createdAt": "2026-01-04T18:00:00+03:00",
+  "updatedAt": "2026-01-04T18:00:00+03:00"
+}

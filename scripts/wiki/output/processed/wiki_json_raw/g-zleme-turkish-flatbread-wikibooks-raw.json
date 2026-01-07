@@ -1,0 +1,102 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gözleme_(Turkish_Flatbread)",
+    "pageTitle": "Cookbook:Gözleme_(Turkish_Flatbread)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "imported>Brallan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:imported%3EBrallan"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AG%C3%B6zleme_(Turkish_Flatbread)&action=history",
+    "extractedAt": "2026-01-06T14:00:14.346Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gözleme (Turkish Flatbread)",
+    "slug": "g-zleme-turkish-flatbread",
+    "description": "__NOTOC__ Gözleme is a savoury traditional Turkish flatbread, made of hand-rolled dough that is lightly brushed with butter and eggs, filled with various toppings, sealed, and cooked over a griddle. The name derives from the Turkish word \"göz\", meaning \"compartment\", in reference to the pocket of dough in which the various toppings are sealed and cooked. Traditionally, this is done over a saç griddle.",
+    "ingredients": [
+      "5¼ cups (600 grams) all-purpose flour",
+      "2½ teaspoons (15 grams) salt",
+      "2 teaspoons (7 grams) dry yeast",
+      "1 teaspoon (4 grams) white granulated sugar",
+      "1¼ cups (300 grams) water",
+      "½ cup (100 grams) oil",
+      "⅓ cup (65 grams) butter"
+    ],
+    "instructions": [
+      "Sift flour in a large bowl, reserving 1 cup of flour.",
+      "Sprinkle with salt and mix. Make a well in the centre.",
+      "Combine yeast and sugar in a small bowl. Stir in ¼ cup warm water.",
+      "Pour the liquid into the well in the centre of the flour.",
+      "Cover yeast with some flour. Let stand for 10 minutes to rise.",
+      "Stir in remaining liquid, blending thoroughly. Knead for 5 minutes to form a medium-soft dough.",
+      "Cover and let rise in a warm place for 1 hour or until doubled in bulk.",
+      "Place dough on lightly floured board. Divide into 10 portions with floured hands.",
+      "Shape portions into balls; roll each ball out with rolling pin into a 5 mm thick rectangle. Brush with oil.",
+      "Fold opposite edges over, bringing edges together in centre.",
+      "Spread filling over half of pastry. Then fold other half over filling, shaping into an oblong.",
+      "Seal edges well, pressing slightly.",
+      "Heat griddle or a cast iron skillet.",
+      "Grease with butter and place gözleme on griddle.",
+      "Brown on both sides.",
+      "Serve hot with ayran."
+    ],
+    "notes": [],
+    "servings": 10,
+    "totalTimeMinutes": 60,
+    "difficulty": 3,
+    "category": "Turkish recipes",
+    "categories": [
+      "Turkish recipes",
+      "Recipes for flatbread",
+      "Pan fried recipes",
+      "Appetizer recipes",
+      "Side dish recipes",
+      "Recipes using granulated sugar",
+      "Recipes using butter",
+      "Recipes using all-purpose flour"
+    ]
+  },
+  "image": {
+    "filename": "Gözleme.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/G%C3%B6zleme.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6zleme.JPG",
+    "localPath": "scripts/wiki/output/Gözleme.JPG",
+    "dimensions": {
+      "width": 3072,
+      "height": 2304
+    },
+    "fileSize": 3122553,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Maderibeyza",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Maderibeyza"
+    },
+    "metadata": {
+      "description": "Gözleme from Turkish cuisine",
+      "categories": [
+        "GFDL",
+        "Taken with Sony DSC-W70",
+        "CC-BY-SA-2.5,2.0,1.0",
+        "Gözleme",
+        "License migration redundant",
+        "Self-published work",
+        "Files by User:Maderibeyza from tr.wikipedia"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gözleme.JPG"
+  }
+}

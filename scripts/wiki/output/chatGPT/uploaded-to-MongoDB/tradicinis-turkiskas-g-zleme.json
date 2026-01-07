@@ -1,0 +1,197 @@
+{
+  "slug": "tradicinis-turkiskas-gozleme",
+  "canonicalUrl": "https://ragaujam.lt/receptas/tradicinis-turkiskas-gozleme",
+  "title": {
+    "lt": "Tradicinis turkiškas Gözleme"
+  },
+  "description": {
+    "lt": "Gözleme - tai turkiškas plokščias duonos gaminys, pagamintas iš rankomis kočiotos tešlos, kuri yra užpildyta įvairiais įdarais. Šis receptas naudoja sviestą, miltus ir mieles, kad sukurtų gardų ir minkštą duonos gaminį. Gözleme gausiai gardinamas ir keptas ant grilio, todėl jis tampa traškus ir aromatingas."
+  },
+  "seo": {
+    "metaTitle": "Tradicinis turkiškas Gözleme | Receptas su sviestu ir miltais",
+    "metaDescription": "Sužinokite, kaip pasigaminti tradicinį turkišką Gözleme su sviestu ir miltais. Šis receptas naudoja rankomis kočiotą tešlą ir įvairius įdarus - puikiai tinka užkandžiams.",
+    "keywords": [
+      "Gözleme",
+      "turkiškas plokščias duonos gaminys",
+      "tradicinis turkiškas receptas",
+      "plokščia duona",
+      "užkandžiai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Turkų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "8g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/miltiniai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "600g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "15g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mielės"
+      },
+      "quantity": "7g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "4g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "65g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje persijokite miltus, palikdami 1 puodelį miltų atsargai. Sumaišykite su druska ir centre padarykite duobutę. Mieles ir cukrų sumaišykite mažame dubenėlyje, įpilkite ¼ puodelio šilto vandens ir supilkite į duobutę. Uždenkite mieles miltais ir palikite 10 minučių, kad iškiltų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos minkymas"
+      },
+      "text": {
+        "lt": "Įmaišykite likusį vandenį ir gerai išmaišykite. Minkykite tešlą 5 minutes, kol ji taps minkšta ir vidutiniškai elastinga. Uždenkite ir palikite šiltoje vietoje 1 valandai, kol tešla padvigubės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Ant lengvai miltais pabarstyto paviršiaus padalinkite tešlą į 10 dalių ir suformuokite kamuoliukus. Kiekvieną kamuoliuką iškočiokite į 5 mm storio stačiakampį ir aptepkite aliejumi."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Užpildo įdėjimas"
+      },
+      "text": {
+        "lt": "Užlenkite priešingus kraštus į centrą, užtepkite įdarą ant pusės tešlos ir užlenkite kitą pusę, suformuodami pailgą formą. Kraštelius gerai užspauskite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite grilį arba ketaus keptuvę, patepkite sviestu ir dėkite gözleme. Kepkite, kol abi pusės paruduos. Patiekite karštą su ayran."
+      }
+    }
+  ],
+  "notes": [],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/tradicinis-turkiskas-gozleme.jpg",
+    "alt": "Tradicinis turkiškas Gözleme, keptas ir karštas patiektas ant stalo",
+    "width": 3072,
+    "height": 2304
+  },
+  "tags": [
+    "tradicinis Gözleme",
+    "turkiškas plokščias duonos gaminys",
+    "rankų darbo tešla",
+    "turkiškas receptas",
+    "užkandžiai"
+  ],
+  "author": {
+    "name": "imported>Brallan",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:imported%3EBrallan"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gözleme_(Turkish_Flatbread)",
+    "pageTitle": "Cookbook:Gözleme_(Turkish_Flatbread)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T14:00:14.346Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AG%C3%B6zleme_(Turkish_Flatbread)&action=history",
+    "originalCreator": {
+      "name": "imported>Brallan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:imported%3EBrallan"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gözleme.JPG",
+    "author": {
+      "name": "Maderibeyza",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Maderibeyza"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/G%C3%B6zleme.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T17:00:00+03:00",
+  "createdAt": "2026-01-06T17:00:00+03:00",
+  "updatedAt": "2026-01-06T17:00:00+03:00"
+}

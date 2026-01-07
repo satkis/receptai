@@ -1,0 +1,84 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Acorn_Crusted_Salmon",
+    "pageTitle": "Cookbook:Acorn_Crusted_Salmon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Wilhele4",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Wilhele4"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAcorn_Crusted_Salmon&action=history",
+    "extractedAt": "2025-11-21T12:45:00.380Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Acorn Crusted Salmon",
+    "slug": "acorn-crusted-salmon",
+    "description": "You can use any type of salmon for this dish. Typical seasons are June/July for Sockeye Salmon, July-November for Coho Salmon, and August/September for Chinook Salmon.",
+    "ingredients": [
+      "2 salmon fillets",
+      "1½ cups (320 ml) of shelled acorns",
+      "2 egg whites"
+    ],
+    "instructions": [
+      "Use a food processor, blender or other method (meat tenderizer, etc.) to pulverize the acorns into a fine meal. If desired, toast the acorn meal for 5-7 minutes at 375°F/190°C/gas mark 5. Transfer the acorn meal to a dish.",
+      "Place the egg whites in a shallow dish. Coat each salmon fillet in egg white.",
+      "Coat each fillet with the acorn meal.",
+      "Transfer coated fillets to a slightly greased or non-stick baking sheet.",
+      "Bake for 10-15 minutes in a 425°F/220°C/gas mark 7 oven, or until the fish is flaky when pulled apart with a fork.",
+      "Serve.",
+      "Heat a few tablespoons of oil in in a frying pan over medium-high heat. When the oil is hot, add the coated salmon fillets.",
+      "Pan fry the salmon for 2–3 minutes per side, depending on the thickness of the fillet, until fish is flaky when pulled apart with a fork.",
+      "Serve."
+    ],
+    "notes": [
+      "Serve over brown rice and/or add steamed vegetables and roasted potatoes to complete the plate."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using acorn",
+      "Recipes using egg white",
+      "Recipes using salmon"
+    ]
+  },
+  "image": {
+    "filename": "Acorn_crust_salmon.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Acorn_crust_salmon.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Acorn_crust_salmon.jpg",
+    "localPath": "scripts/wiki/output/Acorn_crust_salmon.jpg",
+    "dimensions": {
+      "width": 2883,
+      "height": 2154
+    },
+    "fileSize": 2553881,
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Ryczka",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ryczka"
+    },
+    "metadata": {
+      "description": "Acorn-crusted salmon, served with carrots and pearl barley.",
+      "categories": [
+        "CC-Zero",
+        "Salmon dishes",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Acorn_crust_salmon.jpg"
+  }
+}

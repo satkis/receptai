@@ -1,0 +1,277 @@
+{
+  "slug": "barsciai-su-burokeliais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/barsciai-su-burokeliais",
+  "title": {
+    "lt": "Barščiai su burokėliais"
+  },
+  "description": {
+    "lt": "Barščiai – tai soti burokėlių sriuba, kilusi iš Ukrainos. Šis patiekalas tapo Rytų ir Centrinės Europos virtuvės dalimi, o žydų imigrantai jį atnešė ir į Jungtines Amerikos Valstijas. Patiekiama karšta su grietine arba jogurtu, pabarstyta krapais."
+  },
+  "seo": {
+    "metaTitle": "Tradiciniai barščiai su burokėliais | Rytų Europos receptas",
+    "metaDescription": "Atraskite tradicinį barščiai receptą su burokėliais, bulvėmis ir kopūstais. Ši soti ir gardi sriuba puikiai tinka šaltoms dienoms.",
+    "keywords": [
+      "Barščiai",
+      "burokėlių sriuba",
+      "vegetariška sriuba",
+      "rytų europos virtuvė",
+      "sotūs pietūs"
+    ],
+    "recipeCategory": "sriubos",
+    "recipeCuisine": "Ukrainiečių",
+    "nutrition": {
+      "calories": 180,
+      "proteinContent": "5g",
+      "fatContent": "8g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 12,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 75,
+  "timeCategory": "iki-120-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/sriubos",
+  "secondaryCategories": [
+    "receptai/darzoves",
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "350g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Burokėliai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "1l",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "1-2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1.5 arb. šaukštelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Salieras"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morka"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kopūstas"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Krapai"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Obuolių sidro actas"
+      },
+      "quantity": "1-2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudas cukrus arba medus"
+      },
+      "quantity": "1-2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorų tyrė arba pomidorų pasta"
+      },
+      "quantity": "250ml arba 60-120ml pastos",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Grietinė arba jogurtas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Švieži krapai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Sudėkite bulves, burokėlius ir vandenį į vidutinio dydžio puodą. Uždenkite ir virkite ant vidutinės ugnies, kol daržovės suminkštės (apie 20–30 minučių). Tuo metu tęskite kitus žingsnius."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Ištirpinkite sviestą dideliame puode. Sudėkite svogūnus ir druską. Kepkite ant vidutinės ugnies, kol svogūnai taps permatomi, tai užtruks apie 8–10 minučių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Daržovių troškinimas"
+      },
+      "text": {
+        "lt": "Į puodą su svogūnais suberkite salierus, morkas, kopūstus ir 500ml vandens, kuriame verda bulvės bei burokėliai. Uždenkite ir troškinkite apie 8–10 minučių, kol daržovės suminkštės."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sujungimas"
+      },
+      "text": {
+        "lt": "Sudėkite likusius ingredientus, įskaitant virtas bulves, burokėlius ir likusį jų vandenį. Uždenkite ir virkite dar bent 15 minučių. Paragaukite ir pakoreguokite prieskonius."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite sriubą karštą, ant viršaus uždėkite šaukštą grietinės arba jogurto bei pabarstykite krapais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Rūgšti terpė yra svarbi autentiškam skoniui ir burokėlių spalvos išsaugojimui. Obuolių sidro actą galite pakeisti raugintais kopūstais arba didesniu kiekiu pomidorų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Ši sriuba puikiai tinka šaltoms dienoms ir gali būti saugoma šaldytuve kelias dienas."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/barsciai-su-burokeliais.jpg",
+    "alt": "Barščiai su burokėliais ir grietine",
+    "width": 1280,
+    "height": 960
+  },
+  "tags": [
+    "Barščiai",
+    "burokėlių sriuba",
+    "rytų europos virtuvė",
+    "vegetariška sriuba",
+    "sotūs pietūs"
+  ],
+  "author": {
+    "name": "Gentgeen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Borscht",
+    "pageTitle": "Cookbook:Borscht",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:09+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABorscht&action=history",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Borscht.jpg",
+    "author": {
+      "name": "Karmosin~commonswiki",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Karmosin~commonswiki"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Borscht.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T13:11:09+03:00",
+  "createdAt": "2025-11-27T13:11:09+03:00",
+  "updatedAt": "2025-11-27T13:11:09+03:00"
+}

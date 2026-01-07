@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gambian_Caldo_(Seafood_soup)",
+    "pageTitle": "Cookbook:Gambian_Caldo_(Seafood_soup)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Caldo_(Seafood_soup)&action=history",
+    "extractedAt": "2026-01-06T13:36:37.850Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gambian Caldo (Seafood soup)",
+    "slug": "gambian-caldo-seafood-soup",
+    "description": "Caldo is a traditional Gambian soup known for its rich and comforting flavors. It is typically made with a variety of ingredients such as meat, vegetables, and spices, resulting in a hearty and nourishing dish. Caldo is a popular choice during the colder months or as a comforting meal any time of the year.",
+    "ingredients": [
+      "2 tablespoons vegetable oil",
+      "1 onion, finely chopped",
+      "3 cloves garlic, minced",
+      "1 pound beef or chicken, cut into bite-sized pieces",
+      "2 carrots, peeled and sliced",
+      "2 potatoes, peeled and cubed",
+      "1 celery stalk, sliced",
+      "1 bell pepper, seeded and chopped",
+      "2 tomatoes, diced",
+      "4 cups beef or chicken broth",
+      "1 teaspoon ground cumin",
+      "1 teaspoon dried oregano",
+      "Salt and pepper to taste",
+      "Fresh cilantro or parsley, chopped (for garnish)"
+    ],
+    "instructions": [
+      "Heat the vegetable oil in a large pot over medium heat.",
+      "Add the finely chopped onion and minced garlic to the pot. Sauté until the onion becomes translucent and the garlic is fragrant.",
+      "Add the beef or chicken pieces to the pot and cook until they are browned on all sides.",
+      "Stir in the sliced carrots, cubed potatoes, sliced celery, chopped bell pepper, and diced tomatoes. Cook for a few minutes to allow the vegetables to soften slightly.",
+      "Pour in the beef or chicken broth, ensuring that the ingredients are fully covered.",
+      "Add the ground cumin, dried oregano, salt, and pepper to the pot. Stir well to incorporate the spices.",
+      "Bring the soup to a boil, then reduce the heat to low. Cover the pot and let it simmer for about 1–1.5 hours, or until the meat is tender and the flavors have melded together.",
+      "Taste the soup and adjust the seasoning if needed.",
+      "Remove the pot from heat and ladle the caldo into serving bowls.",
+      "Garnish each bowl with freshly chopped cilantro or parsley. Serve hot."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Gambian recipes",
+      "Recipes using bell pepper",
+      "Recipes for soup",
+      "Recipes using meat",
+      "Recipes using carrot",
+      "Recipes using celery",
+      "Recipes using cilantro",
+      "Recipes using ground cumin",
+      "Recipes using beef broth and stock",
+      "Recipes using chicken broth and stock",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Caldo_de_res.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Caldo_de_res.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Caldo_de_res.jpg",
+    "localPath": "scripts/wiki/output/Caldo_de_res.jpg",
+    "dimensions": {
+      "width": 2736,
+      "height": 3648
+    },
+    "fileSize": 2680841,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Wotancito",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Wotancito"
+    },
+    "metadata": {
+      "description": "Caldo de res",
+      "categories": [
+        "Self-published work",
+        "Files with coordinates missing SDC location of creation",
+        "Wiki Loves México 2021",
+        "Uploaded via Campaign:Wiki Loves México 2021"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Caldo_de_res.jpg"
+  }
+}

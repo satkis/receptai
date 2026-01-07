@@ -1,0 +1,314 @@
+{
+  "slug": "ghormeh-sabzi-iranu-zalumynu-troskinys",
+  "canonicalUrl": "https://ragaujam.lt/receptas/ghormeh-sabzi-iranu-zalumynu-troskinys",
+  "title": {
+    "lt": "Ghormeh Sabzi - Iranu žaliųjų žolelių troškinys"
+  },
+  "description": {
+    "lt": "Ghormeh sabzi yra vienas populiariausių patiekalų Irano persiškoje dalyje. Šis troškinys yra lengvai paruošiamas ir gali būti valgomas kelias dienas. Žolelės ir džiovintos laimai suteikia unikalų skonį. Ilgai virinant mėsą, ji tampa švelni ir minkšta, kad galima valgyti tik su šakute ir šaukštu."
+  },
+  "seo": {
+    "metaTitle": "Ghormeh Sabzi - Iraniškas žolelių troškinys | Receptas",
+    "metaDescription": "Atraskite ghormeh sabzi - tradicinį Irano žolelių troškinį su mėsa, žolelėmis ir džiovintais laimais. Unikalus skonis ir lengvas paruošimas.",
+    "keywords": [
+      "ghormeh sabzi",
+      "iraniškas troškinys",
+      "žolelių troškinys",
+      "tradiciniai receptai",
+      "Irano virtuvė"
+    ],
+    "recipeCategory": "troskiniai",
+    "recipeCuisine": "Irano",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "25g",
+      "fatContent": "20g",
+      "fiberContent": "8g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 60,
+  "cookTimeMinutes": 240,
+  "totalTimeMinutes": 300,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/troskiniai",
+  "secondaryCategories": [
+    "receptai/Irano"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Raudonosios pupelės"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jautiena arba aviena"
+      },
+      "quantity": "800g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "1 ryšelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Špinatai"
+      },
+      "quantity": "1 ryšelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kalendrų lapai"
+      },
+      "quantity": "1 ryšelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ghormeh sabzi žolelės"
+      },
+      "quantity": "400g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiovinti laimai"
+      },
+      "quantity": "8 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ciberžolė"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ryžiai"
+      },
+      "quantity": "800g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šafranas"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pupelių virimas"
+      },
+      "text": {
+        "lt": "Užvirkite raudonąsias pupeles 1 valandą. Tuo metu galite pasiruošti kitus ingredientus."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Mėsos paruošimas"
+      },
+      "text": {
+        "lt": "Pašalinkite nereikalingus riebalus iš mėsos ir supjaustykite ją mažesniais gabalėliais."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Svogūnų kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite alyvuogių aliejų dideliame puode ir apkepkite svogūnus aukštoje temperatūroje 1–2 minutes."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Mėsos kepimas"
+      },
+      "text": {
+        "lt": "Įdėkite mėsą į puodą, kepkite dar 1–2 minutes, tada sumažinkite ugnį iki minimumo."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Žolelių pridėjimas"
+      },
+      "text": {
+        "lt": "Į puodą įmaišykite petražoles, špinatus, kalendras ir ghormeh sabzi žoleles."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Vandens pridėjimas"
+      },
+      "text": {
+        "lt": "Įpilkite verdantį vandenį (apie 0.5 L) ir gerai išmaišykite."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Pupelių pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite virtas pupeles į troškinį ir virkite ant mažos ugnies 30 minučių - 3 valandas."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Džiovintų laimų paruošimas"
+      },
+      "text": {
+        "lt": "Mirkinkite džiovintus laimus karštame vandenyje 15 minučių, tada pradurkite juos šakute."
+      }
+    },
+    {
+      "step": 9,
+      "name": {
+        "lt": "Prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Įdėkite džiovintus laimus, ciberžolę, druską ir pipirus į troškinį, virkite dar 30–60 minučių."
+      }
+    },
+    {
+      "step": 10,
+      "name": {
+        "lt": "Ryžių paruošimas"
+      },
+      "text": {
+        "lt": "Išvirkite ryžius, susmulkinkite šafraną su cukrumi, įpilkite 1 šaukštą verdančio vandens ir sumaišykite su dalimi ryžių."
+      }
+    },
+    {
+      "step": 11,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite troškinį karštą, atskirame inde. Ryžius patiekite atskirai, ant viršaus uždėkite šafrano ryžius."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Mažesni džiovinti laimai turi geresnį skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/ghormeh-sabzi-iranu-zalumynu-troksinys.jpg",
+    "alt": "Ghormeh Sabzi - Irano žaliųjų žolelių troškinys su mėsa ir ryžiais",
+    "width": 960,
+    "height": 1280
+  },
+  "tags": [
+    "ghormeh sabzi",
+    "Irano troškinys",
+    "žolelių troškinys",
+    "tradicinis receptas",
+    "lengvas paruošimas"
+  ],
+  "author": {
+    "name": "Ckling",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Ckling"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ghormeh_Sabzi_(Iranian_Herb_Stew)",
+    "pageTitle": "Cookbook:Ghormeh_Sabzi_(Iranian_Herb_Stew)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:39:22.791Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhormeh_Sabzi_(Iranian_Herb_Stew)&action=history",
+    "originalCreator": {
+      "name": "Ckling",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Ckling"
+    }
+  },
+  "originalImage": {
+    "fileName": "Ghormeh_sabzi.jpg",
+    "author": {
+      "name": "Ckling",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ckling"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ghormeh_sabzi.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T13:39:22+03:00",
+  "createdAt": "2026-01-06T13:39:22+03:00",
+  "updatedAt": "2026-01-06T13:39:22+03:00"
+}

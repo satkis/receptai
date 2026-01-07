@@ -1,0 +1,105 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gimbap",
+    "pageTitle": "Cookbook:Gimbap",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Stan the fisher~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Stan%20the%20fisher~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGimbap&action=history",
+    "extractedAt": "2026-01-06T13:41:39.549Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gimbap",
+    "slug": "gimbap",
+    "description": "Gimbap is a popular snack or lunch dish in Korea. Its primary ingredients are gim (sheets of dried seaweed) and bap (rice).",
+    "ingredients": [
+      "Yellow pickled daikon radish",
+      "Spinach",
+      "Salt",
+      "Sesame oil",
+      "Sesame seeds",
+      "Carrots",
+      "Ground pepper",
+      "Vegetable oil",
+      "Eggs",
+      "Steamed short-grain or sushi rice",
+      "Gim seaweed",
+      "Tuna, ham, sausage, or any other kind of cooked meat"
+    ],
+    "instructions": [
+      "Slice radish lengthwise, about 1 cm thick.",
+      "Boil water and add spinach. Boil for about 10 seconds, then drain it.",
+      "Rinse the spinach with cold water, and squeeze all the water out. Season with salt, sesame oil, and sesame seeds.",
+      "Shred carrots about 2 inches (5 cm) long. Stir-fry it with salt, pepper, and vegetable oil. You don’t have to cook it all the way through.",
+      "Crack about 4–5 eggs into a little bowl. Mix well, and season with salt and pepper. Transfer beaten eggs to a hot greased skillet, and cook like an omelet until it is solid. Cut lengthwise, about 1 cm thick.",
+      "Mix rice, 2 tbsp of oil, and sesame seed together.",
+      "Place the mat on a flat surface and place a sheet of seaweed on top. Spread a layer of seasoned rice on top of the seaweed, and arrange the eggs, carrots, spinach, radish, and meat on top of that in long strips.",
+      "Use the bamboo mat to tightly roll everything up, with the fillings on the inside and the seaweed on the outside.",
+      "If desired, slice the roll into rounds."
+    ],
+    "notes": [
+      "Avoid spreading the rice too thick on the seaweed, which will make it hard to roll up.",
+      "Gimbap is good to pack for lunch or a snack, and it makes great picnic food."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 30,
+    "difficulty": 3,
+    "category": "Side dish recipes",
+    "categories": [
+      "Korean recipes|Gimbap",
+      "Recipes using rice|Gimbap",
+      "Recipes for sushi",
+      "Side dish recipes",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes using seaweed",
+      "Recipes using carrot",
+      "Recipes using white radish",
+      "Recipes using egg"
+    ]
+  },
+  "image": {
+    "filename": "Korean_food_7.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Korean_food_7.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Korean_food_7.jpg",
+    "localPath": "scripts/wiki/output/Korean_food_7.jpg",
+    "dimensions": {
+      "width": 2560,
+      "height": 1920
+    },
+    "fileSize": 1153436,
+    "license": {
+      "code": "cc-by-sa-2.0-fr",
+      "shortName": "CC BY-SA 2.0 fr",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0 fr",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Feth",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Feth"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Gimbap",
+        "Taken with Pentax Optio S55",
+        "GPL",
+        "CeCILL",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Images with annotations",
+        "Media missing infobox template"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Korean_food_7.jpg"
+  }
+}

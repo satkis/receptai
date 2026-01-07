@@ -1,0 +1,80 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Plantain_and_Egg",
+    "pageTitle": "Cookbook:Fried_Plantain_and_Egg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Stephanie cheks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Stephanie%20cheks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Plantain_and_Egg&action=history",
+    "extractedAt": "2026-01-04T16:18:51.817Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fried Plantain and Egg",
+    "slug": "fried-plantain-and-egg",
+    "description": "Fried plantain and egg is a Nigerian dish mostly eaten as breakfast.",
+    "ingredients": [
+      "Plantain",
+      "Vegetable oil",
+      "Egg",
+      "Salt"
+    ],
+    "instructions": [
+      "Peel and slice the plantain. Season with salt and toss to mix.",
+      "Heat a little oil in a frying pan. When hot, add the plantain. Cook, turning occasionally, until browned. Remove the plantain and set aside.",
+      "Whisk the egg with a pinch of salt. Add the egg to the pan, and cook like scrambled eggs.",
+      "Serve the eggs and plantain together."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "National Nigerian recipes",
+      "Recipes using plantain",
+      "Recipes using egg",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Fried_plantain,_potatoes_and_egg.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fried_plantain%2C_potatoes_and_egg.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fried_plantain,_potatoes_and_egg.jpg",
+    "localPath": "scripts/wiki/output/Fried_plantain,_potatoes_and_egg.jpg",
+    "dimensions": {
+      "width": 720,
+      "height": 876
+    },
+    "fileSize": 324745,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Bukky658",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Bukky658"
+    },
+    "metadata": {
+      "description": "This is an image with the theme \"Health and Wellness in Africa\" from:",
+      "categories": [
+        "Cuisine of Nigeria",
+        "Images from Wiki Loves Africa 2021",
+        "Self-published work",
+        "Images from Wiki Loves Africa 2021 in Nigeria"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_plantain,_potatoes_and_egg.jpg"
+  }
+}

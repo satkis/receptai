@@ -1,0 +1,215 @@
+{
+  "slug": "brusketos-su-sviezia-mocarela",
+  "canonicalUrl": "https://ragaujam.lt/receptas/brusketos-su-sviezia-mocarela",
+  "title": {
+    "lt": "Brusketos su šviežia mocarela"
+  },
+  "description": {
+    "lt": "Brusketos – tai nedideli atviri sumuštiniai su pomidorais ir mocarela. Jie yra skanūs, greitai ir lengvai pagaminami bei puikiai tinka kaip užkandis."
+  },
+  "seo": {
+    "metaTitle": "Brusketos su šviežia mocarela | Lengvas užkandis",
+    "metaDescription": "Lengvai paruošiamos brusketos su šviežia mocarela, pomidorais ir baziliku. Puikus itališkas užkandis vakarėliams ar šeimos susibūrimams.",
+    "keywords": [
+      "brusketos",
+      "mocarela",
+      "itališki užkandžiai",
+      "pomidorai",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "12g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 5,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Prancūziška duona"
+      },
+      "quantity": "1 ilgasis kepalas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Roma pomidorai"
+      },
+      "quantity": "3 vidutiniai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mocarela"
+      },
+      "quantity": "3 dideli rutuliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bazilikas"
+      },
+      "quantity": "24 lapeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jūros druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Oregano"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Balzaminis actas"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Duonos paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite duoną į 1,5 cm storio riekeles įstrižai. Truputį paskrudinkite orkaitėje iš abiejų pusių."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Pomidorų ir sūrio paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite pomidorus į 0,5 cm storio griežinėlius ir dėkite po vieną ant kiekvienos duonos riekelės. Supjaustykite mocarelą tokio pat storio griežinėliais ir uždėkite ant pomidorų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Baziliko ir prieskonių pridėjimas"
+      },
+      "text": {
+        "lt": "Plonai supjaustykite baziliką ir pabarstykite ant brusketų kartu su oregano."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Padažo paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite alyvuogių aliejų su balzaminiu actu pagal skonį nedideliame dubenėlyje. Užpilkite šį mišinį ant brusketų ir pabarstykite druska bei pipirais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Papildomas paskrudinimas su priedais padės mocarelai išsilydyti ir bus dar skaniau."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Autentiškos itališkos brusketos prasideda nuo įtrynimo keptomis česnakais ant skrebučių."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/brusketos-su-sviezia-mocarela.jpg",
+    "alt": "Brusketos su šviežia mocarela ir pomidorais",
+    "width": 503,
+    "height": 353
+  },
+  "tags": [
+    "brusketos",
+    "itališki užkandžiai",
+    "mocarela",
+    "pomidorai",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "66.30.112.169",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:66.30.112.169"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fresh_Mozzarella_Bruschetta",
+    "pageTitle": "Cookbook:Fresh_Mozzarella_Bruschetta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:10:54.041Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFresh_Mozzarella_Bruschetta&action=history",
+    "originalCreator": {
+      "name": "66.30.112.169",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:66.30.112.169"
+    }
+  },
+  "originalImage": {
+    "fileName": "FreshMozzarellaBruschetta.jpg",
+    "author": {
+      "name": "B:User:Alcinoe",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Jerem43"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FreshMozzarellaBruschetta.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/FreshMozzarellaBruschetta.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:10:54+03:00",
+  "createdAt": "2026-01-04T19:10:54+03:00",
+  "updatedAt": "2026-01-04T19:10:54+03:00"
+}

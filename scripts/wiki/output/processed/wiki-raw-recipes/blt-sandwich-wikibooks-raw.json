@@ -1,0 +1,100 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:BLT_Sandwich",
+    "pageTitle": "Cookbook:BLT_Sandwich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "OMouse",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:OMouse"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABLT_Sandwich&action=history",
+    "extractedAt": "2025-11-27T13:10:58.492Z"
+  },
+  "recipe": {
+    "title": "Cookbook:BLT Sandwich",
+    "slug": "blt-sandwich",
+    "description": "The bacon, lettuce and tomato sandwich, commonly referred to as the BLT, is a classic sandwich that can be found almost everywhere.",
+    "ingredients": [
+      "Bacon, sliced into rashers",
+      "Lettuce, washed and shredded, torn, or in whole leaves",
+      "Ripe tomato, sliced into thin disks",
+      "2 slices of any type of bread",
+      "Sandwich spread or condiments (e.g., butter, margarine, mayonnaise, cream cheese, or mustard, although mayonnaise is traditional)",
+      "Ground black pepper, if desired"
+    ],
+    "instructions": [],
+    "notes": [
+      "The lettuce, if shredded, may be mixed with the mayonnaise before layering the toast.",
+      "The lettuce may be omitted, or another green substituted. Watercress is a nice addition.",
+      "You may add slivers of ripe avocado or raw or cooked red onion to the sandwich, or may substitute them for the lettuce or tomato.",
+      "You may top the hot bacon in the sandwich with a slice of cheese, such as cheddar, American, muenster, or pepper jack, or use it to replace the tomato (a sandwich prepared in this way is called a BLC sandwich, for \"bacon, lettuce, and cheese.\")",
+      "You may place a fried egg in the sandwich. If the egg is fried over-easy or sunny-side-up, the egg's yolk may be broken just before serving so that it dresses the contents of the sandwich.",
+      "The slices of bread do not need to be toasted, although toast adds a nice texture.",
+      "You may spread the bread with peanut butter for an interesting variation.",
+      "You may top the sandwich or its contents with hollandaise sauce.",
+      "Add ham, turkey and Swiss cheese for a BLT club sandwich.",
+      "For a vegan variation on the BLT, use marinated and fried or grilled strips of tempeh to substitute for the bacon. Vegetable protein-based false bacon products are also available in some grocery freezers. Use mayonnaise, a vegan mayonnaise substitute, in place of the mayo.",
+      "A BLT sandwich can also be served on a (non-toasted) hot dog bun or larger variation thereof (although in this case the bacon, lettuce, and tomato should all be shredded.)"
+    ],
+    "servings": 1,
+    "totalTimeMinutes": 15,
+    "difficulty": 2,
+    "category": "Sandwich recipes",
+    "categories": [
+      "Recipes using bacon|BLT Sandwich",
+      "Recipes for sandwiches|BLT Sandwich",
+      "Recipes using tomato|BLT Sandwich",
+      "Recipes using meat",
+      "Recipes using bread",
+      "Recipes using lettuce"
+    ]
+  },
+  "image": {
+    "filename": "BLT_sandwich_(1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/BLT_sandwich_%281%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BLT_sandwich_(1).jpg",
+    "localPath": "scripts/wiki/output/BLT_sandwich_(1).jpg",
+    "dimensions": {
+      "width": 2048,
+      "height": 1536
+    },
+    "fileSize": 1097597,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Edward",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Edward"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "BLT",
+        "Taken with Canon PowerShot A70",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Toasted sandwiches",
+        "Media missing infobox template",
+        "Files from Flickr with changed licenses",
+        "Flickr images reviewed by FlickreviewR",
+        "Flickr images missing SDC creator",
+        "Flickr images missing SDC inception",
+        "Flickr images missing SDC source of file",
+        "Flickr images missing SDC Flickr photo ID",
+        "Flickr images missing SDC published in"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "BLT_sandwich_(1).jpg"
+  }
+}

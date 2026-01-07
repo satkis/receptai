@@ -1,0 +1,75 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ginger_Tea",
+    "pageTitle": "Cookbook:Ginger_Tea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGinger_Tea&action=history",
+    "extractedAt": "2026-01-06T13:43:55.901Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Ginger Tea",
+    "slug": "ginger-tea",
+    "description": "Ginger tea is a drink brewed from fresh ginger. Some use it to soothe coughs and sore throats. It is also sometimes sipped to warm up the body.",
+    "ingredients": [
+      "Fresh ginger",
+      "Water",
+      "Sweetener (optional)"
+    ],
+    "instructions": [
+      "Cut ginger into small pieces, and rinse to remove dirt.",
+      "Add water to the sliced ginger and bring to a boil.",
+      "Allow to simmer for a few minutes, then strain the drink to remove ginger particles.",
+      "Add sweetener to taste, and serve."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for tea and tisanes",
+      "Recipes using fresh ginger"
+    ]
+  },
+  "image": {
+    "filename": "Ginger_Tea_.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ginger_Tea_.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Tea_.jpg",
+    "localPath": "scripts/wiki/output/Ginger_Tea_.jpg",
+    "dimensions": {
+      "width": 4096,
+      "height": 2304
+    },
+    "fileSize": 1701652,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Trupti.gauns",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Trupti.gauns"
+    },
+    "metadata": {
+      "description": "Ginger tea, a home remedy for cold, cough, and sore throat.",
+      "categories": [
+        "Ginger tea",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Ginger_Tea_.jpg"
+  }
+}

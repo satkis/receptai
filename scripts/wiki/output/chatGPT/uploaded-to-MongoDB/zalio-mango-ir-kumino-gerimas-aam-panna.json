@@ -1,0 +1,206 @@
+{
+  "slug": "zalio-mango-ir-kumino-gerimas-aam-panna",
+  "canonicalUrl": "https://ragaujam.lt/receptas/zalio-mango-ir-kumino-gerimas-aam-panna",
+  "title": {
+    "lt": "Žalio mango ir kumino gėrimas (Aam Panna)"
+  },
+  "description": {
+    "lt": "Aam Panna – tai gaivus žalio mango gėrimas, populiarus šiaurės Indijoje per vasaros mėnesius. Šis gėrimas ne tik skanus ir gaivus, bet ir turintis daug naudingų savybių sveikatai. Jis gaminamas iš žalių mango vaisių, cukraus, kumino ir šviežių mėtų lapelių, suteikiančių malonų skonį ir aromatą."
+  },
+  "seo": {
+    "metaTitle": "Žalio mango ir kumino gėrimas (Aam Panna) | Gaivus Indijos gėrimas",
+    "metaDescription": "Gaivus žalio mango gėrimas su kuminu ir mėtomis. Puikiai tinkantis vasaros karščiams malšinti. Sužinokite, kaip pasigaminti šį tradicinį Indijos gėrimą.",
+    "keywords": [
+      "žalio mango gėrimas",
+      "aam panna",
+      "indijos receptai",
+      "gaivus gėrimas",
+      "kumino gėrimas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "2g",
+      "fatContent": "1g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 25,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/vaisiai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Žalieji mangai"
+      },
+      "quantity": "4 vidutiniai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "30 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kumino sėklos"
+      },
+      "quantity": "5 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Čili pipiras"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Mėtos"
+      },
+      "quantity": "Sauja",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mango paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite mangus į tris dalis. Virkite juos spaudimo puode su nedideliu kiekiu vandens, kol puodas sušvilps. Palikite atvėsti."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Prieskonių malimas"
+      },
+      "text": {
+        "lt": "Sumalkite cukrų, kumino sėklas ir, jei naudojate, čili pipirą maisto smulkintuvu."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mėtų paruošimas"
+      },
+      "text": {
+        "lt": "Susmulkinkite mėtas maisto smulkintuvu."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Mango tyrės gamyba"
+      },
+      "text": {
+        "lt": "Kai mangai atvės, rankomis išspauskite jų masę į blenderį, atskirkite žievę ir sėklas. Sutrinkite iki vientisos masės."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Ingredientų sumaišymas"
+      },
+      "text": {
+        "lt": "Į mango tyrę įdėkite maltą cukrų, druską, kumino sėklas, čili pipirą ir smulkintas mėtas. Viską gerai išmaišykite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Gėrimo saugojimas ir patiekimas"
+      },
+      "text": {
+        "lt": "Supilkite gėrimą į švarų plastikinį ar stiklinį butelį ir laikykite šaldytuve. Patiekdami, į stiklinę vandens įdėkite 4–5 arbatinius šaukštelius mango mišinio."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Vietoj spaudimo virimo, mangus galite kepti ant atviros liepsnos, kad suteiktumėte dūmo skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/zalio-mango-ir-kumino-gerimas-aam-panna.jpg",
+    "alt": "Žalio mango ir kumino gėrimas stiklinėje su mėtomis",
+    "width": 4896,
+    "height": 3672
+  },
+  "tags": [
+    "žalio mango gėrimas",
+    "aam panna",
+    "kumino gėrimas",
+    "indijos receptas",
+    "gaivus gėrimas"
+  ],
+  "author": {
+    "name": "Kleo.skywalker",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Kleo.skywalker"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Green_Mango_and_Cumin_Drink_(Aam_Panna)",
+    "pageTitle": "Cookbook:Green_Mango_and_Cumin_Drink_(Aam_Panna)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:48:42.213Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreen_Mango_and_Cumin_Drink_(Aam_Panna)&action=history",
+    "originalCreator": {
+      "name": "Kleo.skywalker",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kleo.skywalker"
+    }
+  },
+  "originalImage": {
+    "fileName": "Keri_Ka_Sharbat.JPG",
+    "author": {
+      "name": "Miansari66",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Miansari66"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Keri_Ka_Sharbat.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

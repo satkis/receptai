@@ -1,0 +1,104 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chimichurri",
+    "pageTitle": "Cookbook:Chimichurri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Inductiveload",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Inductiveload"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChimichurri&action=history",
+    "extractedAt": "2025-12-23T07:09:39.641Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chimichurri",
+    "slug": "chimichurri",
+    "description": "Chimichurri is a South American sauce for meats, consisting primarily of oil, vinegar, parsley, red chilli, and herbs. There are many different variants of chimichurri, and every cook will have their own private recipe. Chimichurri can be used as a marinade or sauce for grilled or roasted meats, or as a dipping sauce for empanadas.",
+    "ingredients": [
+      "100 ml olive oil",
+      "50 ml white wine vinegar",
+      "50 ml water",
+      "1 bunch flat-leaf parsley, chopped",
+      "1 medium onion, finely chopped",
+      "4 cloves garlic, finely minced",
+      "Red chile flakes, to taste",
+      "1 tbsp oregano",
+      "1 tbsp paprika",
+      "1 tbsp sea salt flakes",
+      "1 tsp ground black pepper",
+      "Depending on taste you can add any combination of the following:",
+      "1 tbsp thyme, finely chopped",
+      "1 tsp lemon juice",
+      "1 tsp bay leaf, small flakes",
+      "1 tbsp coriander, finely chopped",
+      "½ green bell pepper, seeded and finely chopped"
+    ],
+    "instructions": [
+      "Combine all the ingredients except the oil, vinegar and water in a large bowl and mix together well, ensuring all the herbs and spices (especially the salt) are distributed evenly.",
+      "Allow to rest for 30 minutes.",
+      "Bring the vinegar and water to the boil, add to the other ingredients and mix well. This helps to soften the taste of the onion and garlic.",
+      "Allow to rest for 30 minutes.",
+      "Add the oil and mix well. If the liquid part doesn't cover the ingredients add oil water and vinegar in a 2:1:1 ratio to cover them.",
+      "Transfer to an air-tight container and refrigerate overnight at least, or better, for a few days.",
+      "When needed, remove from refrigerator about 30 minutes ahead of time to allow the oil to thin out again. Stir well and serve."
+    ],
+    "notes": [
+      "For red chimichurri, use 50 ml red wine vinegar instead of white wine vinegar, and add 1 peeled, seeded, finely chopped tomato and ½ red bell pepper, seeded and finely chopped, instead of green pepper."
+    ],
+    "servings": 2,
+    "totalTimeMinutes": 75,
+    "difficulty": 1,
+    "category": "Argentine recipes",
+    "categories": [
+      "Argentine recipes",
+      "Vegetarian recipes",
+      "Recipes using olive oil",
+      "Recipes using parsley",
+      "Recipes using vinegar",
+      "Recipes using bay leaf",
+      "Recipes using chile flake",
+      "Recipes using lemon juice"
+    ]
+  },
+  "image": {
+    "filename": "Chimichurri3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Chimichurri3.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chimichurri3.jpg",
+    "localPath": "scripts/wiki/output/Chimichurri3.jpg",
+    "dimensions": {
+      "width": 2048,
+      "height": 1536
+    },
+    "fileSize": 649587,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Gveret Tered",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Gveret%20Tered"
+    },
+    "metadata": {
+      "description": "Chimichurri. my mother-in-law made it.",
+      "categories": [
+        "GFDL",
+        "Taken with Canon PowerShot A530",
+        "CC-BY-SA-2.5,2.0,1.0",
+        "Chimichurri",
+        "License migration redundant",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chimichurri3.jpg"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Cookies_(Gluten-Free)",
+    "pageTitle": "Cookbook:Chocolate_Chip_Cookies_(Gluten-Free)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Dropframe",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Dropframe"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Chip_Cookies_(Gluten-Free)&action=history",
+    "extractedAt": "2025-12-23T07:09:46.165Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Chocolate Chip Cookies (Gluten-Free)",
+    "slug": "chocolate-chip-cookies-gluten-free",
+    "description": "These gluten-free chocolate chip cookies use sweet rice flour, also known as glutinous rice flour. Don't be fooled by the name; there's no gluten in glutinous rice flour (or any rice flour, for that matter). This flour, like most gluten-free flours, is easy to find if an Asian grocery can be located. It can also be found in many boutique grocery stores, such as Trader Joe's or Whole Foods. Other gluten-free flours may be substituted, but be prepared to adjust the amount of flour needed to compensate for variations in starchiness.",
+    "ingredients": [
+      "½ cup (1 stick / 120 ml) butter",
+      "½ cup (120 ml) white granulated sugar",
+      "½ cup (120 ml) brown sugar",
+      "2 ea. (100 g) eggs",
+      "½ tsp vanilla extract",
+      "1¼ cup (300 ml / 1 cup + 2 tablespoons) sweet rice flour",
+      "1 tsp xanthan gum",
+      "¾ tsp baking powder",
+      "½ tsp baking soda",
+      "Chocolate chips (as many as you like)"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (180°C).",
+      "Mix the sweet rice flour, xanthan gum, baking powder and baking soda in a large mixing bowl.",
+      "In a smaller mixing bowl or stand mixer, cream the butter, sugar, and brown sugar. Add the eggs and vanilla and continue mixing.",
+      "Add the wet ingredients to the dry ingredients and mix thoroughly with a wooden spoon. Don't worry about over-mixing; since there is no gluten in the flour, there is no danger of overworking it.",
+      "Fold in the chocolate chips.",
+      "Line cookie sheet with silicone mat and spoon on balls of dough, about 1½ inches (4 cm) in diameter.",
+      "Put cookie dough in the fridge for 30–40 minutes or into the freezer for 10–20 minutes.",
+      "Bake until golden brown."
+    ],
+    "notes": [
+      "These will likely take longer to bake than gluten-containing cookies—perhaps about 25 minutes. Baking time will depend on the flour you use, since the protein content of the flour will determine the rate of browning from the Maillard reaction.",
+      "The silicone baking sheet liner is important, as these cookies tend to stick to the pan more than most. If you don't have one, parchment paper might also work."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 10,
+    "difficulty": 2,
+    "category": "Cookie recipes",
+    "categories": [
+      "Recipes for dessert",
+      "Gluten-free recipes",
+      "Recipes for chocolate chip cookies",
+      "Recipes using chocolate",
+      "Baking recipes",
+      "Recipes_with_metric_units",
+      "Recipes using butter",
+      "Recipes using baking powder",
+      "Recipes using baking soda",
+      "Recipes using brown sugar",
+      "Recipes using white sugar",
+      "Recipes using egg",
+      "Recipes using rice flour"
+    ]
+  },
+  "image": {
+    "filename": "Gluten-free_chocolate_chip_cookies.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Gluten-free_chocolate_chip_cookies.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gluten-free_chocolate_chip_cookies.jpg",
+    "localPath": "scripts/wiki/output/Gluten-free_chocolate_chip_cookies.jpg",
+    "dimensions": {
+      "width": 500,
+      "height": 350
+    },
+    "fileSize": 62021,
+    "license": {
+      "code": "cc-by-sa-2.5",
+      "shortName": "CC BY-SA 2.5",
+      "fullName": "Creative Commons Attribution-Share Alike 2.5",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Dropframe at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "metadata": {
+      "description": "Photo of the first incarnation of my gluten-free chocolate chip cookies. The cookies look somewhat different from each other because of various additions and subtractions.\nPhoto taken by myself (and cookies made by myself). Dropframe 17:53, 27 July 2006 (UTC)",
+      "categories": [
+        "Chocolate chip cookies",
+        "Self-published work",
+        "Files moved from en.wikibooks to Commons requiring review",
+        "Files moved to Commons requiring review as of 19 August 2017"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gluten-free_chocolate_chip_cookies.jpg"
+  }
+}

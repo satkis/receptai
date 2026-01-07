@@ -1,0 +1,226 @@
+{
+  "slug": "daniski-frikadeliai-kiaulienos-ir-versienos-kotletai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/daniski-frikadeliai-kiaulienos-ir-versienos-kotletai",
+  "title": {
+    "lt": "Daniški frikadeliai - kiaulienos ir veršienos kotletai"
+  },
+  "description": {
+    "lt": "Frikadeliai - tai Danijos kilmės kotletai, gaminami iš maltos kiaulienos ir veršienos. Jie dažnai patiekiami su virtomis bulvėmis, padažu ir braškių kopūstais. Šis tradicinis patiekalas yra labai populiarus Danijoje dėl savo paprastumo ir universalumo. Galite pridėti įvairių prieskonių ar ingredientų, kad pritaikytumėte savo skonį."
+  },
+  "seo": {
+    "metaTitle": "Daniški frikadeliai su kiauliena ir veršiena | Tradicinis receptas",
+    "metaDescription": "Atraskite tradicinį daniškų frikadelių receptą su maltos kiaulienos ir veršienos mišiniu. Puikus pagrindinis patiekalas su bulvėmis ir padažu.",
+    "keywords": [
+      "daniški frikadeliai",
+      "kiaulienos kotletai",
+      "veršienos kotletai",
+      "tradicinis daniškas receptas",
+      "frikadeliai su mėsa"
+    ],
+    "recipeCategory": "kepta-keptuveje",
+    "recipeCuisine": "Danų",
+    "nutrition": {
+      "calories": 290,
+      "proteinContent": "23g",
+      "fatContent": "20g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 35,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/kepta-keptuveje",
+  "secondaryCategories": [
+    "receptai/kiauliena"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Veršiena"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiauliena"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džiūvėsėliai"
+      },
+      "quantity": "¾ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "Pakankamai kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Virti bulvės"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Padažas"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Braškės kopūstai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite visus ingredientus, išskyrus sviestą, dideliame dubenyje. Gerai išmaišykite, kad viskas susijungtų į vienalytę masę."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Formavimas"
+      },
+      "text": {
+        "lt": "Iš gautos masės suformuokite nedidelius kotletukus, kurie lengvai tilps į keptuvę."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę su dideliu kiekiu sviesto ir kepkite kotletukus, kol jie gražiai apskrus iš abiejų pusių."
+      }
+    }
+  ],
+  "notes": [
+],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/daniski-frikadeliai-kiaulienos-ir-versienos-kotletai.jpg",
+    "alt": "Daniški frikadeliai su kiauliena ir veršiena, patiekiamos lėkštėje",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "daniški frikadeliai",
+    "kiaulienos kotletai",
+    "veršienos kotletai",
+    "tradicinis daniškas receptas",
+    "frikadeliai su mėsa"
+  ],
+  "author": {
+    "name": "70.26.230.242",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:70.26.230.242"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Frikadeller_(Danish_Meatballs)",
+    "pageTitle": "Cookbook:Frikadeller_(Danish_Meatballs)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T19:23:26+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrikadeller_(Danish_Meatballs)&action=history",
+    "originalCreator": {
+      "name": "70.26.230.242",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:70.26.230.242"
+    }
+  },
+  "originalImage": {
+    "fileName": "Frikadeller.jpg",
+    "author": {
+      "name": "Kenneth Jorgensen",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:KennethJorgensen"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Frikadeller.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:23:26+03:00",
+  "createdAt": "2026-01-04T19:23:26+03:00",
+  "updatedAt": "2026-01-04T19:23:26+03:00"
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "auksiniu-kiaušinio-siulu-desertas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/auksiniu-kiausinio-siulu-desertas",
+  "title": {
+    "lt": "Auksinių kiaušinio siūlų desertas"
+  },
+  "description": {
+    "lt": "Auksinių kiaušinio siūlų desertas, dar žinomas kaip Foi Thong, yra populiarus tailandietiškas skanėstas su portugališkais kulinariniais elementais. Šis saldus ir gardus patiekalas gaminamas iš kiaušinių trynių, kurie virsta siūlais, panardinus juos į jazminais kvapnų cukraus sirupą."
+  },
+  "seo": {
+    "metaTitle": "Auksinių kiaušinio siūlų desertas | Foi Thong receptas",
+    "metaDescription": "Atraskite tailandietišką Auksinių kiaušinio siūlų desertą su portugališkais elementais. Saldaus skonio iš kiaušinių trynių ir cukraus sirupo.",
+    "keywords": [
+      "auksinių kiaušinio siūlų desertas",
+      "foi thong",
+      "tailandietiškas desertas",
+      "kiaušinių trynių receptas",
+      "saldus desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tailandiečių",
+    "nutrition": {
+      "calories": 120,
+      "proteinContent": "2g",
+      "fatContent": "3g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Anties kiaušinių tryniai"
+      },
+      "quantity": "6 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vištos kiaušinių tryniai"
+      },
+      "quantity": "3 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "1 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "1 l",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pandanų lapai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinio baltymas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sirupo paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite vandenį su baltuoju cukrumi ir pandano lapais dideliame puode. Užvirinkite ir palikite troškintis ant mažos ugnies, kol sirupas sutirštės."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kiaušinių paruošimas"
+      },
+      "text": {
+        "lt": "Atskirai suplakite anties ir vištos kiaušinių trynius. Supilkite juos į maišymo indą kartu su kiaušinio baltymais ir gerai išmaišykite, kad gautumėte vienalytę masę."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kiaušinių siūlų gaminimas"
+      },
+      "text": {
+        "lt": "Supilkite trynių masę į konditerinį maišelį su labai mažu nukirptu galiuku. Lėtai leiskite masę į verdantį sirupą, formuodami plonus siūlus. Leiskite virti apie 1 minutę, tada atsargiai išimkite ir leiskite nusausėti."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Paruoštus auksinius kiaušinio siūlus sudėkite į lėkštę ir patiekite kaip desertą. Galite dekoruoti šviežiomis vaisių skiltelėmis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite pandanų lapų, galite naudoti vanilinį cukrų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Desertas puikiai tinka ypatingoms progoms ar šventėms."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/auksiniu-kiausinio-siulu-desertas.jpg",
+    "alt": "Auksinių kiaušinio siūlų desertas - tailandietiškas skanėstas",
+    "width": 1920,
+    "height": 1920
+  },
+  "tags": [
+    "auksinių kiaušinio siūlų desertas",
+    "foi thong",
+    "tailandietiškas desertas",
+    "saldus skanėstas",
+    "kiaušinių trynių desertas"
+  ],
+  "author": {
+    "name": "TeamSWU801",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:TeamSWU801"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Foithong_(Egg_Threads_in_Syrup)",
+    "pageTitle": "Cookbook:Foithong_(Egg_Threads_in_Syrup)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:04:50.355Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFoithong_(Egg_Threads_in_Syrup)&action=history",
+    "originalCreator": {
+      "name": "TeamSWU801",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:TeamSWU801"
+    }
+  },
+  "originalImage": {
+    "fileName": "Foi_thong.jpg",
+    "author": {
+      "name": "Takeaway",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Takeaway"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Foi_thong.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:04:50+03:00",
+  "createdAt": "2026-01-04T19:04:50+03:00",
+  "updatedAt": "2026-01-04T19:04:50+03:00"
+}

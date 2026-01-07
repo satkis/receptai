@@ -1,0 +1,215 @@
+{
+  "slug": "friburgo-omletas-su-gruyere-suriu-ir-kumpiu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/friburgo-omletas-su-gruyere-suriu-ir-kumpiu",
+  "title": {
+    "lt": "Friburgo omletas su Gruyère sūriu ir kumpiu"
+  },
+  "description": {
+    "lt": "Friburgo omletas yra gardus patiekalas, kuriame susijungia kiaušiniai, šviežias kopūstas ir kumpis, o Gruyère sūris suteikia švelnų rūgštumą, kuris sujungia visus skonius. Šis receptas yra puikus pasirinkimas pusryčiams arba lengvoms pietums, nes omletas paruošiamas greitai ir lengvai. Svarbiausi ingredientai yra kiaušiniai, Gruyère sūris, kumpis ir šviežias kale kopūstas, kurie kartu sukuria puikiai subalansuotą skonį."
+  },
+  "seo": {
+    "metaTitle": "Friburgo omletas su Gruyère sūriu ir kumpiu | Gardus receptas",
+    "metaDescription": "Pasigaminkite gardų Friburgo omletą su Gruyère sūriu, kumpiu ir kale kopūstu. Puikus receptas pusryčiams ar lengvoms pietums.",
+    "keywords": [
+      "friburgo omletas",
+      "gruyère sūris",
+      "kumpis",
+      "pusryčiai",
+      "lengvas receptas"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Šveicarų",
+    "nutrition": {
+      "calories": 450,
+      "proteinContent": "32g",
+      "fatContent": "35g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 1,
+  "servingsUnit": "porcija",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Juodieji pipirai"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Muskatas"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas arba alyvuogių aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kumpis"
+      },
+      "quantity": "3 griežinėliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kale kopūstas"
+      },
+      "quantity": "1 sauja",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Gruyère sūris"
+      },
+      "quantity": "6 griežinėliai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Kiaušinių plakimas"
+      },
+      "text": {
+        "lt": "Dideliame dubenyje išplakite kiaušinius su druska, pipirais, pienu ir muskatu, kol masė taps vientisa ir blizgi."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kumpio ir kopūsto troškinimas"
+      },
+      "text": {
+        "lt": "Į keptuvę įdėkite pusę sviesto ir kaitinkite ant vidutinės ugnies. Sudėkite kumpį ir kepkite, kol jis taps tamsiai rudas. Įmaišykite kale kopūstą ir troškinkite 30 sekundžių, kol jis šiek tiek suglebs, bet išliks traškus. Atidėkite į šalį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Omleto kepimas"
+      },
+      "text": {
+        "lt": "Likusią sviesto dalį ištirpinkite keptuvėje ant žemos ugnies. Supilkite kiaušinių mišinį ir paskirstykite visą keptuvės paviršių. Kaitinkite, kol kiaušiniai pradės stingti, palikdami šiek tiek pūkštumo viršuje."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Omleto užbaigimas"
+      },
+      "text": {
+        "lt": "Ant viršaus tolygiai paskirstykite kumpį ir kale kopūstą, o po to - Gruyère sūrio griežinėlius. Šildykite, kol sūrio kraštai šiek tiek ištirps. Atsargiai sulenkite omletą per pusę su dviem mentelėmis ir perkelkite į lėkštę. Patiekite iš karto."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite keisti Gruyère sūrį kitu mėgstamu sūriu."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Šis omletas puikiai dera su šviežiomis daržovėmis arba žalumynais."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/friburgo-omletas-su-gruyere-suriu-ir-kumpiu.jpg",
+    "alt": "Friburgo omletas su Gruyère sūriu ir kumpiu",
+    "width": 3022,
+    "height": 3802
+  },
+  "tags": [
+    "friburgo omletas",
+    "gruyère sūris",
+    "kumpis",
+    "pusryčių receptas",
+    "lengvas omletas"
+  ],
+  "author": {
+    "name": "Jarrod Baniqued",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Jarrod%20Baniqued"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fribourg_Omelet",
+    "pageTitle": "Cookbook:Fribourg_Omelet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:12:02.340Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFribourg_Omelet&action=history",
+    "originalCreator": {
+      "name": "Jarrod Baniqued",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Jarrod%20Baniqued"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fribourg_omelet.jpg",
+    "author": {
+      "name": "Jarrod Baniqued",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Jarrod%20Baniqued"
+    },
+    "license": {
+      "code": "cc0",
+      "shortName": "CC0",
+      "fullName": "Creative Commons Zero, Public Domain Dedication",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Fribourg_omelet.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:12:02+03:00",
+  "createdAt": "2026-01-04T19:12:02+03:00",
+  "updatedAt": "2026-01-04T19:12:02+03:00"
+}

@@ -1,0 +1,83 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Green_Tomatoes",
+    "pageTitle": "Cookbook:Fried_Green_Tomatoes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "64.128.132.2",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:64.128.132.2"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Green_Tomatoes&action=history",
+    "extractedAt": "2026-01-04T16:16:35.513Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fried Green Tomatoes",
+    "slug": "fried-green-tomatoes",
+    "description": "Category:Recipes using tomato| Category:Pan fried recipes Category:Side dish recipes Category:Recipes with images Category:Recipes with metric units| Category:Southern U.S. recipes Category:Recipes using cornmeal",
+    "ingredients": [
+      "4–6 green tomatoes",
+      "Salt",
+      "Pepper",
+      "Yellow cornmeal",
+      "Vegetable or olive oil"
+    ],
+    "instructions": [
+      "Slice the tomatoes ¼–½ inch (0.75–1.25 cm) thick.",
+      "Salt and pepper tomato slices to taste.",
+      "Dip slices in cornmeal and shallow fry in hot grease or oil over medium heat for about 3 minutes or until golden on bottom.",
+      "Gently turn over, and fry the other side.",
+      "Serve by themselves or, for a elegant addition, add a little goat cheese."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using tomato|{{PAGENAME}}",
+      "Pan fried recipes",
+      "Side dish recipes",
+      "Recipes with images",
+      "Recipes with metric units|{{PAGENAME}}",
+      "Southern U.S. recipes",
+      "Recipes using cornmeal"
+    ]
+  },
+  "image": {
+    "filename": "Fried_green_tomatoes.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Fried_green_tomatoes.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fried_green_tomatoes.jpg",
+    "localPath": "scripts/wiki/output/Fried_green_tomatoes.jpg",
+    "dimensions": {
+      "width": 1024,
+      "height": 716
+    },
+    "fileSize": 431772,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "ninjapoodles",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hovev"
+    },
+    "metadata": {
+      "description": "fried green tomatoes",
+      "categories": [
+        "Fried green tomatoes",
+        "Flickr images reviewed by FlickreviewR"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_green_tomatoes.jpg"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "slug": "falafel-su-pupelemis-ir-prieskoniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/falafel-su-pupelemis-ir-prieskoniais",
+  "title": {
+    "lt": "Falafel su avinžirniais ir prieskoniais"
+  },
+  "description": {
+    "lt": "Falafel – tai populiarus Viduržemio jūros regiono patiekalas. Šie traškūs avinžirnių kotletukai yra pagardinti česnakais, kalendra, kmynais ir petražolėmis. Jie yra puikus pasirinkimas tiek keptiems, tiek keptiems orkaitėje. Patiekite su pita ir mėgaukitės šiuo skaniu užkandžiu."
+  },
+  "seo": {
+    "metaTitle": "Falafel su avinžirniais | Skanus Viduržemio jūros receptas",
+    "metaDescription": "Išbandykite autentišką falafel receptą su avinžirniais ir prieskoniais. Puikus Viduržemio jūros užkandis, kurį galima patiekti su pita duona.",
+    "keywords": [
+      "falafel",
+      "avinžirniai",
+      "viduržemio jūros virtuvė",
+      "vegetariškas užkandis",
+      "prieskoniai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Viduržemio jūros"
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "nutrition": {
+    "calories": 350,
+    "proteinContent": "12g",
+    "fatContent": "18g",
+    "fiberContent": "9g"
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/vegetariski"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Avinžirniai"
+      },
+      "quantity": "480g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "4 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malta kalendra"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti kmynai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kajeno pipirai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "6 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "120ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Avinžirnių paruošimas"
+      },
+      "text": {
+        "lt": "Iš vakaro užmerkite avinžirnius dubenyje ir užpilkite vandeniu. Jie išbrinks, tad užpilkite daugiau vandens. Prieš naudojant nusausinkite ir nuskalaukite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Mišinio gaminimas"
+      },
+      "text": {
+        "lt": "Maisto smulkintuvu arba trintuvu sutrinkite avinžirnius. Į juos įdėkite likusius ingredientus, išskyrus aliejų, ir gerai sumaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Formavimas"
+      },
+      "text": {
+        "lt": "Formuokite kamuoliukus, naudodami apie 1 šaukštą mišinio kiekvienam."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ant vidutinės ugnies. Įdėkite kamuoliukus ir apkepkite iš visų pusių, kol taps traškūs."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite su pita duona ir mėgaukitės skoniu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Falafel taip pat galima kepti orkaitėje, kad būtų sveikesnis variantas."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/falafel-su-pupelemis-ir-prieskoniais.jpg",
+    "alt": "Falafel su avinžirniais ir prieskoniais, patiekti dubenyje",
+    "width": 3024,
+    "height": 4032
+  },
+  "tags": [
+    "falafel",
+    "avinžirniai",
+    "viduržemio jūros virtuvė",
+    "vegetariškas užkandis",
+    "prieskoniai"
+  ],
+  "author": {
+    "name": "Fasten",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Fasten"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Falafel",
+    "pageTitle": "Cookbook:Falafel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:58:05.841Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFalafel&action=history",
+    "originalCreator": {
+      "name": "Fasten",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Fasten"
+    }
+  },
+  "originalImage": {
+    "fileName": "Bowl_of_falafel.jpg",
+    "author": {
+      "name": "EvanProdromou",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:EvanProdromou"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Bowl_of_falafel.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:58:05+03:00",
+  "createdAt": "2026-01-04T18:58:05+03:00",
+  "updatedAt": "2026-01-04T18:58:05+03:00"
+}

@@ -1,0 +1,248 @@
+{
+  "slug": "israiskingas-makaronu-ir-surio-patiekalas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/israiskingas-makaronu-ir-surio-patiekalas",
+  "title": {
+    "lt": "išraiškingas makaronų ir sūrio patiekalas"
+  },
+  "description": {
+    "lt": "išraiškingas makaronų ir sūrio patiekalas paverčia tradicinį garnyrą į pagrindinį patiekalą. Jame derinami makaronai, sūris, karštos dešrelės ir žalios daržovės. Puikiai tinka šeimos pietums ar vakarienei."
+  },
+  "seo": {
+    "metaTitle": "išraiškingas makaronų ir sūrio patiekalas | Receptas su dešrelėmis",
+    "metaDescription": "Atraskite išraiškingą makaronų ir sūrio receptą su dešrelėmis ir daržovėmis. Tobulas pasirinkimas pietums ar vakarienei.",
+    "keywords": [
+      "makaronų ir sūrio patiekalas",
+      "makaronai su sūriu",
+      "dešrelės su makaronais",
+      "kepiniai",
+      "šeimos pietūs"
+    ],
+    "recipeCategory": "makaronai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 700,
+      "proteinContent": "30g",
+      "fatContent": "40g",
+      "fiberContent": "5g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/makaronai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Makaronai"
+      },
+      "quantity": "250g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "30g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "45g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "240ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Tarkuotas sūris"
+      },
+      "quantity": "140g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Karštos dešrelės"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šaldytos žalios daržovės"
+      },
+      "quantity": "140g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "2 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Parmezano sūris"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Paprika"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Įkaitinimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 180°C ir ištepkite kepimo indą riebalais."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Makaronų virimas"
+      },
+      "text": {
+        "lt": "Dideliame puode užvirinkite 2 litrus pasūdyto vandens. Sudėkite makaronus ir virkite 9 minutes arba kol jie taps al dente."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Padažo ruošimas"
+      },
+      "text": {
+        "lt": "Kol makaronai verda, pasiruoškite padažą. Puode sumaišykite miltus su sviestu ir kaitinkite ant mažos ugnies, maišydami, kol mišinys taps vienalytis ir burbuliuojantis."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Sūrio padažas"
+      },
+      "text": {
+        "lt": "Į miltų ir sviesto mišinį įpilkite pieno, druskos ir pipirų. Maišykite, kol sutirštės. Sumažinkite ugnį iki minimalios ir įdėkite sūrį, dešreles ir šaldytas daržoves."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimo paruošimas"
+      },
+      "text": {
+        "lt": "Kai makaronai išvirs, nupilkite vandenį ir sudėkite į paruoštą kepimo indą. Užpilkite padažą ant makaronų ir viską gerai išmaišykite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Papuošimas ir kepimas"
+      },
+      "text": {
+        "lt": "Ant viršaus sudėkite pomidorų griežinėlius, pabarstykite parmezanu ir paprika. Kepkite 40 minučių."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Vietoje dešrelių galite naudoti kitą mėsą arba vegetariškus pakaitalus, kaip tofu ar sojų baltymus."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/israiskingas-makaronu-ir-surio-patiekalas.jpg",
+    "alt": "išraiškingas makaronų ir sūrio patiekalas su dešrelėmis ir daržovėmis",
+    "width": 3120,
+    "height": 3298
+  },
+  "tags": [
+    "makaronų ir sūrio patiekalas",
+    "dešrelės su makaronais",
+    "kepiniai su sūriu",
+    "tarptautinė virtuvė",
+    "pietūs šeimai"
+  ],
+  "author": {
+    "name": "Mahagaja",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Mahagaja"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Glorified_Mac_and_Cheese",
+    "pageTitle": "Cookbook:Glorified_Mac_and_Cheese",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:46:12.215Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGlorified_Mac_and_Cheese&action=history",
+    "originalCreator": {
+      "name": "Mahagaja",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mahagaja"
+    }
+  },
+  "originalImage": {
+    "fileName": "Glorified_mac_and_cheese.jpg",
+    "author": {
+      "name": "Mahagaja",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Mahagaja"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Glorified_mac_and_cheese.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T13:46:12+03:00",
+  "createdAt": "2026-01-06T13:46:12+03:00",
+  "updatedAt": "2026-01-06T13:46:12+03:00"
+}

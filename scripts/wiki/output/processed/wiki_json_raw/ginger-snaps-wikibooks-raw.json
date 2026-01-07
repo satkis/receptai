@@ -1,0 +1,100 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ginger_Snaps",
+    "pageTitle": "Cookbook:Ginger_Snaps",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "BenFrantzDale~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:BenFrantzDale~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGinger_Snaps&action=history",
+    "extractedAt": "2026-01-06T13:42:47.131Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Ginger Snaps",
+    "slug": "ginger-snaps",
+    "description": "* For a spicier ginger flavor, increase the amount of ginger as desired.",
+    "ingredients": [
+      "2 cups butter, melted",
+      "2 cups dark molasses",
+      "1 lb dark brown sugar",
+      "2 tsp cinnamon",
+      "a little allspice",
+      "1 tsp ground cloves",
+      "1 tsp nutmeg",
+      "1 tbsp ground ginger",
+      "a little black pepper",
+      "10–12 cups all-purpose flour"
+    ],
+    "instructions": [
+      "Combine melted butter, molasses, sugar, and spices.",
+      "Add flour, mixing in 1 cup at a time up to 10 cups, working first with a fork, then by hand. Add another 1–2 cups flour just until the dough holds together.",
+      "Chill dough at least 2 hours in the refrigerator.",
+      "Preheat oven to 350°F.",
+      "Roll the dough out as thin as possible, and cut out shapes with cookie cutters.",
+      "Transfer cookie cutouts to a pan lined with parchment paper.",
+      "Bake cookies in the preheated oven for 7 minutes. Let cool on a rack."
+    ],
+    "notes": [
+      "For a spicier ginger flavor, increase the amount of ginger as desired."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for cookies",
+      "Recipes using ground ginger",
+      "Recipes using dark molasses",
+      "Baking recipes",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes for dessert",
+      "Recipes using allspice",
+      "Recipes using brown sugar",
+      "Recipes using ground cinnamon",
+      "Recipes using clove",
+      "Recipes using all-purpose flour",
+      "Recipes using ground ginger"
+    ]
+  },
+  "image": {
+    "filename": "3o5dots.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:3o5dots.svg",
+    "localPath": "scripts/wiki/output/3o5dots.svg",
+    "dimensions": {
+      "width": 64,
+      "height": 12
+    },
+    "fileSize": 466,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:3o5dots.svg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jmoellenhoff",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:TintoMeches"
+    },
+    "metadata": {
+      "description": "3 of 5 dots rating for Wikibooks Cookbook: A recipe rated 3 of 5 dots will be somewhat challenging to an inexperienced cook, or may require a longer amount of time to complete.",
+      "categories": [
+        "Color codes",
+        "Self-published work",
+        "PD-self",
+        "Valid SVG created with Text Editor:Icons"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "3o5dots.svg"
+  }
+}

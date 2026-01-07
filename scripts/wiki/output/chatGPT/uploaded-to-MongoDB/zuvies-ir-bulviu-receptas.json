@@ -1,0 +1,238 @@
+{
+  "slug": "zuvies-ir-bulviu-receptas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/zuvies-ir-bulviu-receptas",
+  "title": {
+    "lt": "Žuvies ir bulvių receptas - tradicinis angliškas patiekalas"
+  },
+  "description": {
+    "lt": "Žuvies ir bulvių patiekalas yra populiarus Anglijoje, Naujojoje Zelandijoje ir Australijoje. Tradiciškai Anglijoje naudojama menkė, nors ji gali subyrėti arba ne iki galo iškepti. Šis receptas padės jums paruošti gardžią žuvį su traškiomis bulvytėmis."
+  },
+  "seo": {
+    "metaTitle": "Žuvies ir bulvių receptas | Tradicinis angliškas patiekalas",
+    "metaDescription": "Išmokite gaminti tradicinį anglišką žuvies ir bulvių patiekalą. Gardžios žuvys su traškiomis bulvytėmis ir citrinos skoniu.",
+    "keywords": [
+      "žuvies receptas",
+      "bulvių receptas",
+      "angliškas patiekalas",
+      "menkė",
+      "traškios bulvytės"
+    ],
+    "recipeCategory": "zuvis",
+    "recipeCuisine": "Anglų",
+    "nutrition": {
+      "calories": 850,
+      "proteinContent": "45g",
+      "fatContent": "30g",
+      "fiberContent": "10g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/zuvis",
+  "secondaryCategories": [
+    "receptai/pietus"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "125 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kukurūzų miltai"
+      },
+      "quantity": "125 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "kiek reikia tešlai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Skumbrės filė"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "1 litras",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Citrina"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "1 šakelė",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Jūros druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Actas"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Aliejaus paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite augalinį aliejų giliame keptuvėje iki 180°C. Tai patikrinsite įmetę duonos gabalėlį, kuris paruduos per 15 sekundžių."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Bulvių paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite bulves ir supjaustykite storais griežinėliais. Kepkite bulves aliejuje partijomis 6-8 minutes, kol taps traškios ir auksinės spalvos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Žuvies paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, kukurūzų miltus, druską ir pakankamai šalto vandens, kad būtų tešla. Supjaustykite žuvį storais griežinėliais ir panardinkite į tešlą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Žuvies kepimas"
+      },
+      "text": {
+        "lt": "Kepkite žuvį aliejuje partijomis 5-6 minutes, priklausomai nuo žuvies dydžio. Išimkite ir nusausinkite ant popierinio rankšluosčio."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Sudėkite žuvį ir bulves į lėkštes. Papuoškite citrinos griežinėliais ir petražolėmis. Pabarstykite druska ir (arba) actu pagal skonį."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Bulves kepkite mažomis partijomis, kad būtų traškios."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Naudokite jūsų mėgstamą žuvies rūšį."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/zuvies-ir-bulviu-receptas.jpg",
+    "alt": "Tradicinis angliškas žuvies ir bulvių patiekalas su citrina",
+    "width": 2272,
+    "height": 1704
+  },
+  "tags": [
+    "žuvies receptas",
+    "angliškas patiekalas",
+    "traškios bulvytės",
+    "menkė",
+    "greitas receptas"
+  ],
+  "author": {
+    "name": "65.34.186.143",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:65.34.186.143"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fish_and_Chips",
+    "pageTitle": "Cookbook:Fish_and_Chips",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T18:59:01+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFish_and_Chips&action=history",
+    "originalCreator": {
+      "name": "65.34.186.143",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:65.34.186.143"
+    }
+  },
+  "originalImage": {
+    "fileName": "Beer_Battered_Fish_and_Chips.jpg",
+    "author": {
+      "name": "Gordon Joly",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:LoopZilla"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Beer_Battered_Fish_and_Chips.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:59:01+03:00",
+  "createdAt": "2026-01-04T18:59:01+03:00",
+  "updatedAt": "2026-01-04T18:59:01+03:00"
+}

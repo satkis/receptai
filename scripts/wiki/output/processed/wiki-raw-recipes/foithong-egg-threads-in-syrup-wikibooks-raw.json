@@ -1,0 +1,82 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Foithong_(Egg_Threads_in_Syrup)",
+    "pageTitle": "Cookbook:Foithong_(Egg_Threads_in_Syrup)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "TeamSWU801",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:TeamSWU801"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFoithong_(Egg_Threads_in_Syrup)&action=history",
+    "extractedAt": "2026-01-04T16:04:50.355Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Foithong (Egg Threads in Syrup)",
+    "slug": "foithong-egg-threads-in-syrup",
+    "description": "Foi Thong (Golden Egg Yolk Thread) is a famous Thai dessert.The word foi means thread, and the word thong means gold. It is very delicious and sweet. It has Portuguese culinary influences and it's based on a Portuguese treat called fios de ovos.",
+    "ingredients": [
+      "6 duck egg yolks",
+      "3 chicken egg yolks",
+      "1 kilogram white granulated sugar",
+      "1 liter water",
+      "2 pandan leaves",
+      "2 tablespoons egg white"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using egg yolk",
+      "Recipes using duck egg",
+      "Recipes for dessert",
+      "Thai recipes",
+      "Recipes using granulated sugar"
+    ]
+  },
+  "image": {
+    "filename": "Foi_thong.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Foi_thong.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Foi_thong.jpg",
+    "localPath": "scripts/wiki/output/Foi_thong.jpg",
+    "dimensions": {
+      "width": 1920,
+      "height": 1920
+    },
+    "fileSize": 756894,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Takeaway",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Takeaway"
+    },
+    "metadata": {
+      "description": "Foi thong (Thai script: ฝอยทอง) are strands of egg yolk dropped in to a jasmine scented sugar syrup. The, originally Portuguese, delicacy was introduced to Thailand in the 17th century by Maria Guyomar de Pinha, a Catholic Siamese woman who was born to a Japanese mother and a Portuguese/Bengali father. The original Portuguese dish is called \"fios de ovos\" (egg threads).",
+      "categories": [
+        "Taken with Nikon D7000",
+        "Taken with AF-S DX Nikkor 35mm f/1.8G",
+        "Self-published work",
+        "Orange food",
+        "Egg dishes of Thailand",
+        "Images of Thailand by User:Takeaway",
+        "Foi thong",
+        "Square photos of food in Thailand"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Foi_thong.jpg"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "slug": "britiski-pasakiski-keksiukai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/britiski-pasakiski-keksiukai",
+  "title": {
+    "lt": "Britiški pasakiškieji keksiukai"
+  },
+  "description": {
+    "lt": "Pasakiškieji keksiukai – tai britiška amerikietiškų keksiukų versija. Šie gardumynai dažnai paverčiami drugelio formos pyragaičiais, kai viršus išimamas ir suformuojamas į drugelio sparnus. Jie puikiai tinka desertui, o jų saldus skonis ir švelni tekstūra džiugins tiek vaikus, tiek suaugusius."
+  },
+  "seo": {
+    "metaTitle": "Britiški pasakiškieji keksiukai | Lengvas receptas",
+    "metaDescription": "Išbandykite britiškus pasakiškuosius keksiukus. Švelnūs ir saldūs, puikiai tinka desertui ar šventėms. Receptas su sviestu ir saviraise miltais.",
+    "keywords": [
+      "pasakiškieji keksiukai",
+      "britiški keksiukai",
+      "lengvas desertas",
+      "keksiukai su kremu",
+      "drugelio formos keksiukai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Britų",
+    "nutrition": {
+      "calories": 290,
+      "proteinContent": "4g",
+      "fatContent": "15g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 18,
+  "servingsUnit": "keksiukai",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pusryciai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "125g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "165g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Savirašiai miltai"
+      },
+      "quantity": "275g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "125ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Uogienė"
+      },
+      "quantity": "140g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Grietinėlė"
+      },
+      "quantity": "125ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sviestą, cukrų ir vanilės ekstraktą išplakite iki kreminės masės. Po vieną įmuškite kiaušinius ir gerai išplakite."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos maišymas"
+      },
+      "text": {
+        "lt": "Įmaišykite persijotus miltus, pakaitomis su pienu, kol gausite vienalytę tešlą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Tešlą supilstykite į 18 paruoštų keksiukų formelių, užpildydami apie ¾ tūrio. Kepkite 180 °C temperatūroje 12–15 minučių, kol keksiukai pakils ir taps auksiniai. Atvėsinkite ant grotelių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Drugelio formos kūrimas"
+      },
+      "text": {
+        "lt": "Iškirpkite mažą apskritimą iš kiekvieno keksiuko viršaus ir padalykite jį į pusę, kad susidarytų drugelio sparnai. Į keksiuko vidurį dėkite šiek tiek uogienės ir ant jos uždėkite plaką grietinėlę."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Puošimas"
+      },
+      "text": {
+        "lt": "Įstatykite sparnus į grietinėlę ir pabarstykite cukraus pudra prieš patiekdami."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, galite naudoti citrinos ekstraktą vietoj vanilės."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Keksiukus galite patiekti su šviežiomis uogomis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/britiski-pasakiski-keksiukai.jpg",
+    "alt": "Britiški pasakiškieji keksiukai su drugelio sparnais",
+    "width": 2304,
+    "height": 1536
+  },
+  "tags": [
+    "pasakiškieji keksiukai",
+    "britiški desertai",
+    "lengvas receptas",
+    "keksiukai su kremu",
+    "drugelio formos keksiukai"
+  ],
+  "author": {
+    "name": "Gentgeen",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fairy_Cakes",
+    "pageTitle": "Cookbook:Fairy_Cakes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:57:56.078Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFairy_Cakes&action=history",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fairy_cakes_close_up_on_tray.jpg",
+    "author": {
+      "name": "User:Lcarsdata",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Lcarsdata"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Fairy_cakes_close_up_on_tray.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T15:57:56+03:00",
+  "createdAt": "2026-01-04T15:57:56+03:00",
+  "updatedAt": "2026-01-04T15:57:56+03:00"
+}

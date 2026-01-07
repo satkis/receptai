@@ -1,0 +1,94 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Faten_Wake_(Hausa_Bean_Porridge)",
+    "pageTitle": "Cookbook:Faten_Wake_(Hausa_Bean_Porridge)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Ibrahim Sani Mustapha",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Ibrahim%20Sani%20Mustapha"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFaten_Wake_(Hausa_Bean_Porridge)&action=history",
+    "extractedAt": "2026-01-04T15:58:27.798Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Faten Wake (Hausa Bean Porridge)",
+    "slug": "faten-wake-hausa-bean-porridge",
+    "description": "Faten wake is a traditional Hausa bean porridge from Northern Nigeria. This hearty and nutritious dish is made with soft-cooked beans, vegetables, and spices, and it is typically served as a main meal for lunch or dinner. It can be enjoyed on its own or with sides like bread, fried plantains, or pap.",
+    "ingredients": [
+      "2 cups dried beans (black-eyed peas or brown beans)",
+      "Water (enough to cook the beans)",
+      "1 medium onion, chopped",
+      "2–3 fresh tomatoes, chopped",
+      "1–2 Scotch bonnet chiles or chile powder to taste",
+      "1–2 tablespoons groundnut oil or palm oil",
+      "1 small bunch of leafy greens, such as spinach, sorrel, ugu, amaranth, or bitterleaf, chopped (optional)",
+      "1–2 seasoning cubes (optional)",
+      "Salt, to taste",
+      "Ground crayfish (optional)"
+    ],
+    "instructions": [
+      "Rinse the beans thoroughly, removing any dirt or stones.",
+      "Place the beans in a pot, cover with enough water, and simmer over medium heat until soft and the water is almost absorbed (about 40–60 minutes).",
+      "Add chopped onions, tomatoes, chile, and oil to the cooked beans. Stir and allow to simmer for 10–15 minutes, until the mixture thickens and the flavors combine.",
+      "Stir in chopped leafy vegetables, ground crayfish, seasoning cubes, and salt. Continue cooking for another 5–10 minutes, stirring occasionally until the porridge thickens and is well blended.",
+      "Serve hot."
+    ],
+    "notes": [
+      "If using brown beans, you may need a slightly longer cooking time than for black-eyed peas.",
+      "Palm oil gives a more traditional taste, while groundnut oil offers a lighter flavor.",
+      "Adding crayfish enhances the savory taste, especially if no meat is used."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Hausa recipes",
+      "Recipes using pulses",
+      "Recipes using spinach",
+      "Recipes using tomato",
+      "Recipes using onion",
+      "Recipes using vegetable oil",
+      "Recipes using palm oil",
+      "Main course recipes",
+      "Recipes using Scotch bonnet chile"
+    ]
+  },
+  "image": {
+    "filename": "Faten_wake.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Faten_wake.png",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Faten_wake.png",
+    "localPath": "scripts/wiki/output/Faten_wake.png",
+    "dimensions": {
+      "width": 600,
+      "height": 643
+    },
+    "fileSize": 715072,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Zahrah0",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Zahrah0"
+    },
+    "metadata": {
+      "description": "Hotona Faten wake da plantain",
+      "categories": [
+        "Self-published work",
+        "Faten wake"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Faten_wake.png"
+  }
+}

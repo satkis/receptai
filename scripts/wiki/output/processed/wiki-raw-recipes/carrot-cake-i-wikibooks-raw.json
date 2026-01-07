@@ -1,0 +1,101 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Carrot_Cake_I",
+    "pageTitle": "Cookbook:Carrot_Cake_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "DavidFraser",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:DavidFraser"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACarrot_Cake_I&action=history",
+    "extractedAt": "2025-12-21T17:59:33.967Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Carrot Cake I",
+    "slug": "carrot-cake-i",
+    "description": "Category:Recipes using carrot Category:Recipes for cake Category:Recipes for dessert Category:Recipes with metric units Category:Recipes using butter Category:Recipes using baking powder Category:Recipes using brown sugar Category:Recipes using powdered sugar Category:Recipes using cream cheese Category:Recipes using ground cinnamon Category:Recipes using lemon juice Category:Recipes using egg Category:Recipes using wheat flour Category:Recipes using margarine",
+    "ingredients": [
+      "100 g icing sugar",
+      "50 g cream cheese or creamy cottage cheese",
+      "25 g margarine or butter",
+      "2.5 ml vanilla essence",
+      "225 g flour",
+      "225 g grated carrot",
+      "150 g margarine or butter",
+      "250 g brown sugar",
+      "2 teaspoons cinnamon",
+      "1 tablespoon lemon juice",
+      "1.5 teaspoons baking powder",
+      "1 egg",
+      "Raisins (optional)",
+      "Nuts (optional)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Melt the butter and sugar together, then mix in the dry ingredients.",
+      "Beat the egg and add it to the batter.",
+      "Stir in raisins and nuts until everything is well combined.",
+      "Bake at 180°C (355°F) for about 50 minutes in a greased tin with greaseproof paper on the bottom.",
+      "When cake has cooled, top with cream cheese frosting."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using carrot",
+      "Recipes for cake",
+      "Recipes for dessert",
+      "Recipes with metric units",
+      "Recipes using butter",
+      "Recipes using baking powder",
+      "Recipes using brown sugar",
+      "Recipes using powdered sugar",
+      "Recipes using cream cheese",
+      "Recipes using ground cinnamon",
+      "Recipes using lemon juice",
+      "Recipes using egg",
+      "Recipes using wheat flour",
+      "Recipes using margarine"
+    ]
+  },
+  "image": {
+    "filename": "0112_Karottenkuchen,_ciasto_marchwiowe.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/0112_Karottenkuchen%2C_ciasto_marchwiowe.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:0112_Karottenkuchen,_ciasto_marchwiowe.JPG",
+    "localPath": "scripts/wiki/output/0112_Karottenkuchen,_ciasto_marchwiowe.JPG",
+    "dimensions": {
+      "width": 3111,
+      "height": 2236
+    },
+    "fileSize": 474651,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Silar",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Silar"
+    },
+    "metadata": {
+      "description": "Cuisine of Silesia",
+      "categories": [
+        "Carrot cakes",
+        "Self-published work",
+        "Sweet food of Silesia"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "0112_Karottenkuchen,_ciasto_marchwiowe.JPG"
+  }
+}

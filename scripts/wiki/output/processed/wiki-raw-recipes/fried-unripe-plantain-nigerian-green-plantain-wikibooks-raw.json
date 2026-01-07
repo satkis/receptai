@@ -1,0 +1,79 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Unripe_Plantain_(Nigerian_Green_Plantain)",
+    "pageTitle": "Cookbook:Fried_Unripe_Plantain_(Nigerian_Green_Plantain)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Unripe_Plantain_(Nigerian_Green_Plantain)&action=history",
+    "extractedAt": "2026-01-04T16:21:08.661Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fried Unripe Plantain (Nigerian Green Plantain)",
+    "slug": "fried-unripe-plantain-nigerian-green-plantain",
+    "description": "Fried unripe plantain is prepared from unripe plantain, hence the name green plantain. It is served with fried yam, egg sauce or fried potatoes.",
+    "ingredients": [
+      "Unripe plantain, peeled",
+      "Ground pepper",
+      "Salt to taste",
+      "Vegetable oil"
+    ],
+    "instructions": [
+      "Slice unripe plantain into small rounds, then season with ground pepper and salt to taste.",
+      "Heat enough vegetable oil in a pan for deep-frying.",
+      "Deep-fry plantain, ensuring all sides are golden and cooked.",
+      "Remove from oil, and serve hot with fried yam and egg sauce."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using plantain",
+      "Nigerian recipes",
+      "Fried recipes",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Fried_plantains.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Fried_plantains.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fried_plantains.jpg",
+    "localPath": "scripts/wiki/output/Fried_plantains.jpg",
+    "dimensions": {
+      "width": 648,
+      "height": 486
+    },
+    "fileSize": 143220,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Dmitri Lytov",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Dmitri%20Lytov"
+    },
+    "metadata": {
+      "description": "Жареный кормовой банан (plantain)",
+      "categories": [
+        "Taken with Canon PowerShot A610",
+        "Fried plantains",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_plantains.jpg"
+  }
+}

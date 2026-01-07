@@ -1,0 +1,172 @@
+{
+  "slug": "vaisiu-ledinukai-su-sultimis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/vaisiu-ledinukai-su-sultimis",
+  "title": {
+    "lt": "Vaisių ledinukai su sultimis"
+  },
+  "description": {
+    "lt": "Vaisių ledinukai – tai gaivūs ir skanūs užkandžiai karštą vasaros dieną. Šiame recepte naudojame šviežius vaisius: mango, persikus, braškes ir arbūzus, o viską apjungiame kriaušių sultimis. Puikiai tinka vaikams ir suaugusiems!"
+  },
+  "seo": {
+    "metaTitle": "Vaisių ledinukai su sultimis | Gaivus vasaros receptas",
+    "metaDescription": "Gaivūs vaisių ledinukai su mango, persikais, braškėmis ir arbūzu, apjungti kriaušių sultimis. Tobulas užkandis karštą dieną!",
+    "keywords": [
+      "vaisių ledinukai",
+      "vasaros užkandis",
+      "gaivus desertas",
+      "mango receptai",
+      "aromatingi ledinukai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 50,
+      "proteinContent": "1g",
+      "fatContent": "0g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 0,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 6,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/vasarai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Mango"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Persikas"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Braškės"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Arbūzas"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kriaušių sultys"
+      },
+      "quantity": "100ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Vaisių paruošimas"
+      },
+      "text": {
+        "lt": "Sudėkite visus vaisius į blenderį ir supilkite kriaušių sultis. Išplakite iki vientisos masės."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Ledinukų formavimas"
+      },
+      "text": {
+        "lt": "Supilkite vaisių masę į ledinukų formeles, įdėkite pagaliukus ir šaldykite, kol visiškai sustings."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite ledinukus iš formelių ir mėgaukitės. Puikiai tinka karštą dieną!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudokite tik prinokusius vaisius – tai užtikrina geriausią skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/vaisiu-ledinukai-su-sultimis.jpg",
+    "alt": "Spalvingi vaisių ledinukai, pagaminti iš šviežių vaisių ir sultimis",
+    "width": 2272,
+    "height": 1704
+  },
+  "tags": [
+    "vaisių ledinukai",
+    "gaivus desertas",
+    "vasaros užkandis",
+    "mango receptai",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Taoheedah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fruit_Ice_Pops",
+    "pageTitle": "Cookbook:Fruit_Ice_Pops",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:25:52.732Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFruit_Ice_Pops&action=history",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fruit_ice_lollies_(8588758339).jpg",
+    "author": {
+      "name": "Lablascovegmenu from London",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:John%20Cummings"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Fruit_ice_lollies_%288588758339%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:25:52+03:00",
+  "createdAt": "2026-01-04T19:25:52+03:00",
+  "updatedAt": "2026-01-04T19:25:52+03:00"
+}

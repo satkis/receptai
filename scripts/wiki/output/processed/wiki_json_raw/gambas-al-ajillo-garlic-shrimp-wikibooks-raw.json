@@ -1,0 +1,95 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gambas_al_Ajillo_(Garlic_Shrimp)",
+    "pageTitle": "Cookbook:Gambas_al_Ajillo_(Garlic_Shrimp)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "World-food-and-wine.com",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:World-food-and-wine.com"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambas_al_Ajillo_(Garlic_Shrimp)&action=history",
+    "extractedAt": "2026-01-06T13:36:23.869Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gambas al Ajillo (Garlic Shrimp)",
+    "slug": "gambas-al-ajillo-garlic-shrimp",
+    "description": "'''Gambas al ajillo (garlic shrimp)''' is a popular Spanish dish found principally in the south and center of Spain. The primary ingredients consist of shrimp, garlic and olive oil but there are many variations. It's often served in Spain's tapas bars as an appetizer. However, this dish is so popular that it's occasionally offered as an entrée.",
+    "ingredients": [
+      "1 pound shrimp",
+      "4–6 large cloves of garlic, finely minced",
+      "1 teaspoon sweet Spanish paprika",
+      "2–3 oz dry sherry (you may substitute cognac instead)",
+      "¼ cup virgin olive oil",
+      "3 teaspoon chopped fresh parsley",
+      "1 oz fresh lemon juice"
+    ],
+    "instructions": [
+      "In a sauté pan or other heavy frying pan, warm the olive oil over medium heat. Add the garlic and sauté for about one minute or until it begins to brown. Be careful not to burn the garlic.",
+      "Raise the heat to high and add the shrimp, lemon juice, sherry or cognac and paprika. Stir well, then sauté, stirring briskly until the shrimp turn pink and curl (about 3 minutes).",
+      "Remove from heat and transfer shrimp with oil and sauce to a warm plate or serve right from the pan.",
+      "Season to taste with salt and freshly ground black pepper. Sprinkle with parsley."
+    ],
+    "notes": [
+      "The shrimp can be peeled first, before cooking them if you prefer.",
+      "If you like larger shrimp, you may purchase shrimp with fewer count to a pound. However, 25 to a pound are about the right size for this tapa."
+    ],
+    "servings": 4,
+    "totalTimeMinutes": 20,
+    "difficulty": 1,
+    "category": "Spanish recipes",
+    "categories": [
+      "Appetizer recipes|{{PAGENAME}}",
+      "Spanish recipes|{{PAGENAME}}",
+      "Recipes using shrimp",
+      "Naturally gluten-free recipes",
+      "Pan fried recipes",
+      "Recipes using lemon juice",
+      "Recipes using sherry",
+      "Recipes using olive oil",
+      "Recipes using parsley",
+      "Recipes using garlic"
+    ]
+  },
+  "image": {
+    "filename": "Gambas_al_ajillo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Gambas_al_ajillo.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gambas_al_ajillo.jpg",
+    "localPath": "scripts/wiki/output/Gambas_al_ajillo.jpg",
+    "dimensions": {
+      "width": 1024,
+      "height": 683
+    },
+    "fileSize": 391037,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Javier Lastras from España/Spain",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Lobo"
+    },
+    "metadata": {
+      "description": "Gambas al ajillo, plato típico de la gastronomía española. Elaborado en el Restaurante La Vieja, en Adeje, Canarias. Ver artículo en el blog ellaboratoriogastronomico",
+      "categories": [
+        "Taken with Canon EOS 450D",
+        "Cazuela",
+        "Cuisine of the Canary Islands",
+        "Gambas al ajillo",
+        "Flickr images reviewed by FlickreviewR",
+        "Files with coordinates missing SDC location of creation",
+        "Food in Spain photographed in 2009"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gambas_al_ajillo.jpg"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Canadian_Shepherd's_Pie_(Pâté_Chinois)",
+    "pageTitle": "Cookbook:French_Canadian_Shepherd's_Pie_(Pâté_Chinois)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "24.163.155.80",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:24.163.155.80"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Canadian_Shepherd's_Pie_(P%C3%A2t%C3%A9_Chinois)&action=history",
+    "extractedAt": "2026-01-04T16:06:06.801Z"
+  },
+  "recipe": {
+    "title": "Cookbook:French Canadian Shepherd's Pie (Pâté Chinois)",
+    "slug": "french-canadian-shepherd-s-pie-p-t-chinois",
+    "description": "Pâté chinois (Chinese pie) is a traditional French Canadian main course, and is often served during the cold months of the year. It is typically served with pickled beets.",
+    "ingredients": [
+      "8 medium fresh whole white potatoes",
+      "2 lbs ground beef",
+      "1 small yellow or Spanish onion, chopped",
+      "1 small green bell pepper (optional), chopped",
+      "1 can (15 oz) whole kernel corn, drained, or creamed sweet corn with sauce",
+      "2 tbsp butter",
+      "½ cup milk",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Boil potatoes in lightly salted water until soft, drain. Mash potatoes, adding 2 tbsp butter and just enough milk to achieve a spreadable consistency. Set aside.",
+      "Brown ground beef with onions and peppers. Drain fat and put ground beef mixture in bottom of casserole dish.",
+      "Mix creamed corn and whole kernel corn, then spread over beef.",
+      "Spread the mashed potatoes across the top to form a 'crust'.  Lightly sprinkle with paprika, and salt/pepper to taste, and make tracks with a fork, if desired.",
+      "Bake uncovered at 400°F until the potatoes are golden brown (approximately 30 minutes).",
+      "Serve hot with a generous portion of sliced chilled pickled beets."
+    ],
+    "notes": [
+      "Mix ½ cup grated Parmesan cheese with potatoes, or place shredded sharp cheddar cheese on top of potatoes before cooking.",
+      "See also Shepherd's Pie."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 45,
+    "difficulty": 2,
+    "category": "Beef recipes",
+    "categories": [
+      "Recipes using ground beef",
+      "Recipes using potato|Pate chinois",
+      "Canadian recipes|Pate chinois",
+      "Recipes using green bell pepper",
+      "Recipes using butter",
+      "Recipes using corn",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Chinese_pie.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Chinese_pie.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chinese_pie.jpg",
+    "localPath": "scripts/wiki/output/Chinese_pie.jpg",
+    "dimensions": {
+      "width": 176,
+      "height": 132
+    },
+    "fileSize": 22749,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jerry lavoie at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": "Picture that I took using my Motorola iPod cellular telephone of a Chines Pie that my sister-in-law made.",
+      "categories": [
+        "GFDL",
+        "User-created GFDL images",
+        "Savoury pies",
+        "Pâté chinois",
+        "License migration completed",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chinese_pie.jpg"
+  }
+}

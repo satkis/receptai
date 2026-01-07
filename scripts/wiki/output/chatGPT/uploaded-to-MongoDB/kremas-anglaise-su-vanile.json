@@ -1,0 +1,190 @@
+{
+  "slug": "kremas-anglaise-su-vanile",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kremas-anglaise-su-vanile",
+  "title": {
+    "lt": "Kremas Anglaise su vanile"
+  },
+  "description": {
+    "lt": "Kremas anglaise – tai klasikinis desertų padažas, dažnai naudojamas kaip papildomas ingredientas arba pagrindas daugelyje desertų. Šis lengvai pagaminamas kremas gali būti pagardintas įvairiais skoniais, pavyzdžiui, vanile ar kava."
+  },
+  "seo": {
+    "metaTitle": "Kremas Anglaise su vanile | Lengvas receptas",
+    "metaDescription": "Kremas anglaise – klasikinis desertų padažas. Lengvai pagaminamas ir pritaikomas įvairiems skoniams, pavyzdžiui, vanilei ar kavai. Puikus papildas desertams.",
+    "keywords": [
+      "kremas anglaise",
+      "desertų padažas",
+      "vanilinis kremas",
+      "kremo receptas",
+      "lengvas kremas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Prancūzų",
+    "nutrition": {
+      "calories": 160,
+      "proteinContent": "4g",
+      "fatContent": "8g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/pienas-ir-pieno-produktai",
+    "receptai/desertai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "315 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinių tryniai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "85 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilė"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pieno pašildymas"
+      },
+      "text": {
+        "lt": "Puode ant mažesnės ugnies šildykite pieną su vanile, kol užvirs. Jei naudojate vanilės ankštį, perpjaukite ją perpus ir pašalinkite sėklas."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kiaušinių ir cukraus plakimas"
+      },
+      "text": {
+        "lt": "Kol pienas šyla, plakite kiaušinių trynius su cukrumi, kol mišinys taps šviesiai gelsvas."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pieno įmaišymas"
+      },
+      "text": {
+        "lt": "Kai pienas užverda, pusę jo lėtai supilkite į kiaušinių mišinį, nuolat maišydami. Tuomet grąžinkite mišinį į puodą su likusiu pienu."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kremo virimas"
+      },
+      "text": {
+        "lt": "Virinkite ant vidutinės ugnies, nuolat maišydami. Neleiskite kremui užvirti, o kai sutirštės, nuimkite nuo ugnies."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kremo perkošimas"
+      },
+      "text": {
+        "lt": "Kremą perkoškite per sietelį į kitą indą ir nuolat maišykite, kol atvės."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šis kremas puikiai tinka patiekti su šviežiais vaisiais ar kaip ledų pagrindas."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Galite pridėti šviežių žolelių ar prieskonių, kad išgautumėte naujus skonius."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kremas-anglaise-su-vanile.jpg",
+    "alt": "Kremas anglaise su vanile",
+    "width": 1256,
+    "height": 992
+  },
+  "tags": [
+    "kremas anglaise",
+    "vanilinis kremas",
+    "desertų padažas",
+    "klasikinis receptas",
+    "lengvai pagaminamas"
+  ],
+  "author": {
+    "name": "69.108.112.236",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:69.108.112.236"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Crème_Anglaise",
+    "pageTitle": "Cookbook:Crème_Anglaise",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-23T07:11:06.778Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACr%C3%A8me_Anglaise&action=history",
+    "originalCreator": {
+      "name": "69.108.112.236",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:69.108.112.236"
+    }
+  },
+  "originalImage": {
+    "fileName": "Creme_anglaise_et_pain_d'epices_DSC00137.JPG",
+    "author": {
+      "name": "David.Monniaux",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:David.Monniaux"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Creme_anglaise_et_pain_d%27epices_DSC00137.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-23T10:00:00+03:00",
+  "createdAt": "2025-12-23T10:00:00+03:00",
+  "updatedAt": "2025-12-23T10:00:00+03:00"
+}

@@ -1,0 +1,202 @@
+{
+  "slug": "karameliniai-kvadrateliai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/karameliniai-kvadrateliai",
+  "title": {
+    "lt": "Karameliniai kvadratėliai"
+  },
+  "description": {
+    "lt": "Karameliniai kvadratėliai – tai nepaprastai gardus ir klasikinis desertas, populiarus visoje Didžiojoje Britanijoje ir Airijoje. Jie puikiai tinka piknikams, pietums ir jūsų svečiams tikrai patiks! Kvadratėliai turi traškų pagrindą, kreminį karamelinį įdarą ir šokolado viršų."
+  },
+  "seo": {
+    "metaTitle": "Karameliniai kvadratėliai | Gardus desertas su šokoladu",
+    "metaDescription": "Klasikiniai karameliniai kvadratėliai su traškiu pagrindu, karameliniu įdaru ir šokolado viršumi. Puikus desertas piknikams ir pietums. Išbandykite receptą!",
+    "keywords": [
+      "karameliniai kvadratėliai",
+      "karamelinis desertas",
+      "šokolado desertas",
+      "britiškas desertas",
+      "sausainių pagrindas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Britų",
+    "nutrition": {
+      "calories": 500,
+      "proteinContent": "5g",
+      "fatContent": "30g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "sunkus",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Savaime kylančių miltų"
+      },
+      "quantity": "350g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "225g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "335g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Auksaspalvis sirupas"
+      },
+      "quantity": "5 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kondensuotas pienas"
+      },
+      "quantity": "400ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokoladas"
+      },
+      "quantity": "340g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 180°C. Sudėkite miltus, sviestą ir cukrų į dubenį ir trinkite, kol  duonos trupiniai pasiskirstys tolygiai masėje. Paskleiskite mišinį į 25x38 cm dydžio formą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite 20 minučių arba kol taps auksinės spalvos. Leiskite atvėsti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Karamelės gamyba"
+      },
+      "text": {
+        "lt": "Ištirpinkite sviestą puode ant silpnos ugnies, įdėkite cukrų, auksaspalvį sirupą ir kondensuotą pieną. Nuolat maišykite 40–50 minučių, kol karamelė taps auksinė. Norint patikrinti, ar karamelė paruošta, įlašinkite lašą į šaltą vandenį ir patikrinkite ar sukietėja."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Karamelės užpylimas"
+      },
+      "text": {
+        "lt": "Supilkite karamelę ant kepinio pagrindo ir leiskite atvėsti."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Šokolado užpylimas"
+      },
+      "text": {
+        "lt": "Ant viršaus užpilkite ištirpintą šokoladą ir tolygiai paskleiskite. Leiskite šokoladui sukietėti."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite auksaspalvio sirupo, vietoj jo galite naudoti medų."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Naudokite kokybišką šokoladą, kad desertas būtų dar skanesnis."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/karameliniai-kvadrateliai.jpg",
+    "alt": "Karameliniai kvadratėliai su šokolado sluoksniu",
+    "width": 665,
+    "height": 1000
+  },
+  "tags": [
+    "karameliniai kvadratėliai",
+    "šokolado desertas",
+    "britiškas desertas",
+    "saldumynai",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "imported>Suitgirl",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:imported%3ESuitgirl"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Caramel_Squares",
+    "pageTitle": "Cookbook:Caramel_Squares",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:31.463Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACaramel_Squares&action=history",
+    "originalCreator": {
+      "name": "imported>Suitgirl",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:imported%3ESuitgirl"
+    }
+  },
+  "originalImage": {
+    "fileName": "Millionaire's_shortbread.jpg",
+    "author": {
+      "name": "Aurore D",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Flickr%20upload%20bot"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Millionaire%27s_shortbread.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T17:59:31+03:00",
+  "createdAt": "2025-12-21T17:59:31+03:00",
+  "updatedAt": "2025-12-21T17:59:31+03:00"
+}

@@ -1,0 +1,87 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Frito_Pie_(Baked)",
+    "pageTitle": "Cookbook:Frito_Pie_(Baked)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Eoghanacht",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Eoghanacht"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrito_Pie_(Baked)&action=history",
+    "extractedAt": "2026-01-04T16:23:33.097Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Frito Pie (Baked)",
+    "slug": "frito-pie-baked",
+    "description": "Frito pie is a corn chip and chili con carne dish popular in the United States. Frito pie may be made with just corn chips, chili, and shredded cheese, but often has other condiments added as well. Sour cream, jalapeños, onions, hot sauce, tomatoes, and various other Latin American ingredients are often used.",
+    "ingredients": [
+      "3 cups (710 ml) Fritos corn chips",
+      "1 cup (240 ml) grated cheddar cheese",
+      "2 cups (590 ml) chili (homemade or canned)"
+    ],
+    "instructions": [
+      "Preheat oven to 350 °F (175 °C).",
+      "Spread 2 cups of Fritos in a baking dish.",
+      "Sprinkle half of the cheese over the Fritos.",
+      "Spread the chili over the Fritos.",
+      "Bake for 15–20 minutes until cheese is bubbly.",
+      "Add remaining cheese and Fritos to top of pie.",
+      "Serve hot."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Southwestern recipes|Frito pie",
+      "Texas recipes",
+      "Recipes using cheddar",
+      "Baked recipes",
+      "Recipes for chili",
+      "Main course recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Recipes using jalapeño chile"
+    ]
+  },
+  "image": {
+    "filename": "Frito_Pie_as_Seen_Today.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Frito_Pie_as_Seen_Today.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frito_Pie_as_Seen_Today.jpg",
+    "localPath": "scripts/wiki/output/Frito_Pie_as_Seen_Today.jpg",
+    "dimensions": {
+      "width": 329,
+      "height": 400
+    },
+    "fileSize": 36824,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Solsticed",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Solsticed"
+    },
+    "metadata": {
+      "description": "Frito pie as  one would commonly see it in the home. \"It is exactly as complicated as it sounds – chili on Fritos. Other accoutrements are optional.\"",
+      "categories": [
+        "GFDL",
+        "Frito pies",
+        "License migration redundant",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Frito_Pie_as_Seen_Today.jpg"
+  }
+}

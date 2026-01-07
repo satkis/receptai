@@ -1,0 +1,159 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Focaccia_II",
+    "pageTitle": "Cookbook:Focaccia_II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "24.91.156.140",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:24.91.156.140"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFocaccia_II&action=history",
+    "extractedAt": "2026-01-04T16:04:43.452Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Focaccia II",
+    "slug": "focaccia-ii",
+    "description": "Focaccia is a type of a somewhat flat yeast bread from Italy. The basic bread is often topped with any of the following: herbs, olive oil, cheese, meats, and vegetables, and can be seen as a precursor to pizza. Focaccia is commonly used for sandwiches.",
+    "ingredients": [
+      "{| class=\"wikitable\" style=\"background: none\"",
+      "!Ingredient",
+      "!Count",
+      "!Volume<ref group=\"note\">Weight conversions from USDA National Nutrient Database. Original recipe text and ingredient order preserved. Egg size presumed as large. </ref>",
+      "!Weight",
+      "!Baker's % (optional)",
+      "|-",
+      "|All-purpose flour",
+      "|",
+      "|4 ½ cups",
+      "|562.5 g",
+      "|100%",
+      "|-",
+      "|White sugar",
+      "|",
+      "|1 teaspoon",
+      "|4.2 g",
+      "|0.75%",
+      "|-",
+      "|Salt",
+      "|",
+      "|1 teaspoon",
+      "|6 g",
+      "|1.07%",
+      "|-",
+      "|Active dry yeast <ref group=\"note\">This excessive amount of yeast will result in a strong yeast flavor. To reduce this flavor, it is recommend to use no more than 1.05% active dry yeast, although you can expect fermentation time to increase. Further reductions will result in less yeast flavor and longer bulk fermentation times.</ref>",
+      "|",
+      "|1 tablespoon",
+      "|12 g",
+      "|2.13%",
+      "|-",
+      "|Water <ref group=\"note\">This hydration is a little dry for this bread style which is somewhat flattish.</ref>",
+      "|",
+      "|1 cup",
+      "|237 g",
+      "|42.13%",
+      "|-",
+      "|Vegetable oil",
+      "|",
+      "|2 tablespoons",
+      "|27.2 g",
+      "|4.84%",
+      "|-",
+      "|Egg",
+      "|1 ea.",
+      "|",
+      "|50 g",
+      "|8.89%",
+      "|-",
+      "|Olive oil",
+      "|",
+      "|3 tablespoons",
+      "|40.5 g",
+      "|7.2%",
+      "|-",
+      "|Dried rosemary, crushed",
+      "|",
+      "|1 teaspoon",
+      "|1.2 g",
+      "|0.21%",
+      "|-",
+      "|Total",
+      "|",
+      "|n/a",
+      "|940.6 g",
+      "|167.22%",
+      "|}"
+    ],
+    "instructions": [
+      "Combine 1 cup flour, sugar, salt, and yeast. Mix well.",
+      "Heat water and vegetable oil until warm, and add to yeast mixture along with the egg.",
+      "Mix with an electric mixer at low speed until moistened. Beat for 2 additional minutes.",
+      "Stir in 1 ¾ cup flour (half of remaining total) while beating, until dough pulls away from side of bowl.",
+      "Knead in 1 ¾ cup flour on floured surface. Cover dough with a bowl, and let sit for 5 minutes.",
+      "Place dough on a greased baking sheet. Roll out to 12-inch circle. Cover with greased plastic wrap and a cloth towel. Place in a warm place for 30 minutes.",
+      "Uncover dough, and poke holes in it with a spoon handle at 1 inch intervals. Drizzle olive oil on dough, and sprinkle with crushed rosemary.",
+      "Bake at 400 °F (205 °C) for 17 to 27 minutes, until just golden. Remove from baking sheet, and cool on rack."
+    ],
+    "notes": [
+      "↑ Weight conversions from USDA National Nutrient Database. Original recipe text and ingredient order preserved. Egg size presumed as large.",
+      "↑ This excessive amount of yeast will result in a strong yeast flavor.  To reduce this flavor, it is recommend to use no more than 1.05% active dry yeast, although you can expect fermentation time to increase.  Further reductions will result in less yeast flavor and longer bulk fermentation times.",
+      "↑ This hydration is a little dry for this bread style which is somewhat flattish."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for focaccia",
+      "Baking recipes",
+      "Italian recipes",
+      "Featured recipes",
+      "Recipes with metric units",
+      "Recipes with images",
+      "Kid-friendly recipes",
+      "Recipes using white sugar",
+      "Recipes using egg",
+      "Recipes using all-purpose flour",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Focaccia.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Focaccia.png",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Focaccia.png",
+    "localPath": "scripts/wiki/output/Focaccia.png",
+    "dimensions": {
+      "width": 1569,
+      "height": 777
+    },
+    "fileSize": 1601851,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Dvortygirl",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Dvortygirl"
+    },
+    "metadata": {
+      "description": "Photo of focaccia bread, made and taken by Dvortygirl, 19 June 2005",
+      "categories": [
+        "Focaccia",
+        "GFDL",
+        "Cuisine of Liguria",
+        "License migration redundant",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Focaccia.png"
+  }
+}

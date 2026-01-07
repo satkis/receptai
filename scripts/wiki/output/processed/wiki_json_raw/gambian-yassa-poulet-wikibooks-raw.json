@@ -1,0 +1,95 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gambian_Yassa_Poulet",
+    "pageTitle": "Cookbook:Gambian_Yassa_Poulet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Yassa_Poulet&action=history",
+    "extractedAt": "2026-01-06T13:36:45.042Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gambian Yassa Poulet",
+    "slug": "gambian-yassa-poulet",
+    "description": "Yassa poulet is a delightful and tangy Gambian dish that combines succulent chicken with a vibrant onion and citrus marinade. This dish is known for its distinctive flavors and is a popular choice for special occasions and gatherings. Yassa poulet is typically served with steamed rice or couscous, creating a satisfying and flavorful meal.",
+    "ingredients": [
+      "4 large onions, thinly sliced",
+      "4 cloves garlic, minced",
+      "2 teaspoons grated ginger",
+      "2–3 lemons, juiced",
+      "3–4 tablespoons olive oil",
+      "1 teaspoon Dijon mustard",
+      "1 teaspoon black pepper",
+      "Salt to taste",
+      "2 pounds chicken pieces (preferably chicken thighs or drumsticks)",
+      "2 tablespoons vegetable oil",
+      "Fresh parsley or cilantro, chopped (for garnish)"
+    ],
+    "instructions": [
+      "In a mixing bowl, combine the thinly sliced onions, minced garlic, grated ginger, lemon juice, olive oil, Dijon mustard, black pepper, and a pinch of salt. Mix well to create a marinade.",
+      "Add the chicken pieces to the marinade, ensuring they are evenly coated. Cover the bowl and let the chicken marinate in the refrigerator for at least 2 hours, but preferably overnight, to allow the flavors to meld.",
+      "Heat the vegetable oil in a large skillet or frying pan over medium-high heat.",
+      "Remove the chicken pieces from the marinade, reserving the marinade for later use.",
+      "Place the chicken in the skillet and cook until browned on all sides, about 5–7 minutes per side.",
+      "Once the chicken is browned, reduce the heat to medium and add the reserved marinade to the skillet.",
+      "Cover the skillet and let the chicken simmer in the marinade for about 20–25 minutes, or until the chicken is cooked through and tender. Occasionally, turn the chicken pieces and stir the onions to prevent burning and ensure even cooking.",
+      "Once the chicken is cooked, transfer it to a serving dish and garnish with freshly chopped parsley or cilantro.",
+      "Serve the yassa poulet hot with steamed rice or couscous."
+    ],
+    "notes": [
+      "Yassa poulet can be made with variations such as adding diced carrots, potatoes, or bell peppers to the dish for added flavor and texture. Additionally, the marinade can be adjusted according to personal taste preferences."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using chicken",
+      "Gambian recipes",
+      "Recipes using cilantro",
+      "Recipes using fresh ginger",
+      "Recipes using vegetable oil",
+      "Recipes using lemon juice"
+    ]
+  },
+  "image": {
+    "filename": "Poulet_yassa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Poulet_yassa.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Poulet_yassa.jpg",
+    "localPath": "scripts/wiki/output/Poulet_yassa.jpg",
+    "dimensions": {
+      "width": 3024,
+      "height": 4032
+    },
+    "fileSize": 1086310,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "InspiFood",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:InspiFood"
+    },
+    "metadata": {
+      "description": "Yassa poulet from Senegal or Gambia",
+      "categories": [
+        "Chicken yassa",
+        "Self-published work",
+        "Plates with food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Poulet_yassa.jpg"
+  }
+}

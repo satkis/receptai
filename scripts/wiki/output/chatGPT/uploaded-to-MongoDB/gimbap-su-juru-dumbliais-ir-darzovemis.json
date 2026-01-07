@@ -1,0 +1,272 @@
+{
+  "slug": "gimbap-su-juru-dumbliais-ir-darzovemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/gimbap-su-juru-dumbliais-ir-darzovemis",
+  "title": {
+    "lt": "Gimbap su jūrų dumbliais ir daržovėmis"
+  },
+  "description": {
+    "lt": "Gimbap – tai skanus ir populiarus Korėjos užkandis ar pietų patiekalas. Pagrindiniai ingredientai yra jūrų dumbliai ir ryžiai, kurie derinami su įvairiomis daržovėmis ir mėsa. Šis patiekalas puikiai tinka iškyloms ar lengviems pietums."
+  },
+  "seo": {
+    "metaTitle": "Gimbap su jūrų dumbliais | Korėjietiškas receptas",
+    "metaDescription": "Autentiškas gimbap receptas su jūrų dumbliais, ryžiais, daržovėmis ir mėsa. Puikiai tinka pietums ar užkandžiams.",
+    "keywords": [
+      "gimbap",
+      "korėjietiškas receptas",
+      "jūrų dumbliai",
+      "ryžiai",
+      "užkandžiai"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Korėjietiška",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "12g",
+      "fatContent": "8g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Marinuoti ridikai"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Špinatai"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sezamo aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sezamo sėklos"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Morkos"
+      },
+      "quantity": "100g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti pipirai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "4-5 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Virti ryžiai"
+      },
+      "quantity": "600g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jūrų dumbliai"
+      },
+      "quantity": "4 lapeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Tunas arba kita virta mėsa"
+      },
+      "quantity": "200g",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ridikėlių paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite marinuotus ridikus išilgai maždaug 1 cm storio juostelėmis."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Špinatų paruošimas"
+      },
+      "text": {
+        "lt": "Į verdantį vandenį įdėkite špinatus ir virkite apie 10 sekundžių, tada nusausinkite. Nuplaukite šaltu vandeniu, išspauskite vandenį ir pagardinkite druska, sezamo aliejumi ir sezamo sėklomis."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Morkų paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite morkas apie 5 cm ilgio juostelėmis. Kepkite jas su druska, pipirais ir augaliniu aliejumi. Nebūtina pilnai iškepti."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kiaušinių paruošimas"
+      },
+      "text": {
+        "lt": "Išplakite kiaušinius su druska ir pipirais. Supilkite į karštą aliejumi pateptą keptuvę ir iškepkite kaip omletą. Supjaustykite išilgai apie 1 cm storio juostelėmis."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Ryžių paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite ryžius su 2 šaukštais aliejaus ir sezamo sėklomis."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Gimbap formavimas"
+      },
+      "text": {
+        "lt": "Ant lygaus paviršiaus padėkite bambukinį kilimėlį ir ant jo jūrų dumblių lapą. Užtepkite sluoksnį paruoštų ryžių, o ant jų išdėliokite kiaušinių, morkų, špinatų, ridikų ir mėsos juosteles."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Gimbap susukimas"
+      },
+      "text": {
+        "lt": "Naudodamiesi bambukiniu kilimėliu, tvirtai susukite viską į ritinį, kad įdaras būtų viduje, o jūrų dumbliai išorėje."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Jei norite, galite ritinį supjaustyti gabalėliais ir patiekti kaip užkandį."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Nepilkite per daug ryžių ant jūrų dumblių, nes bus sunku suvynioti."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Gimbap puikiai tinka iškyloms ar lengviems pietums."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/gimbap-su-juru-dumbliais-ir-darzovemis.jpg",
+    "alt": "Gimbap su jūrų dumbliais ir daržovėmis patiektas lėkštėje",
+    "width": 2560,
+    "height": 1920
+  },
+  "tags": [
+    "gimbap",
+    "korėjietiškas užkandis",
+    "jūrų dumbliai",
+    "ryžių patiekalas",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "Stan the fisher~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Stan%20the%20fisher~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gimbap",
+    "pageTitle": "Cookbook:Gimbap",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:41:39.549Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGimbap&action=history",
+    "originalCreator": {
+      "name": "Stan the fisher~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Stan%20the%20fisher~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Korean_food_7.jpg",
+    "author": {
+      "name": "Feth",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Feth"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0-fr",
+      "shortName": "CC BY-SA 2.0 fr",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0 fr",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Korean_food_7.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:45:00+03:00",
+  "createdAt": "2026-01-06T16:45:00+03:00",
+  "updatedAt": "2026-01-06T16:45:00+03:00"
+}

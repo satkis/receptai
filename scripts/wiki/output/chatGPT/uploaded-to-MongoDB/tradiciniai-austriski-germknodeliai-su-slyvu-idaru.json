@@ -1,0 +1,275 @@
+{
+  "slug": "tradiciniai-austriski-germknodeliai-su-slyvu-idaru",
+  "canonicalUrl": "https://ragaujam.lt/receptas/tradiciniai-austriski-germknodeliai-su-slyvu-idaru",
+  "title": {
+    "lt": "Tradiciniai austriški Germknödeliai su slyvų įdaru"
+  },
+  "description": {
+    "lt": "Germknödeliai – tai tradicinis austriškas patiekalas, kilęs iš Vienos ir Bohemijos virtuvių. Tai mieliniai kukuliai, įdaryti slyvų uogiene ir patiekiami su aguonomis, cukraus pudra ir gausiai užpilti ištirpintu sviestu arba vaniliniu padažu."
+  },
+  "seo": {
+    "metaTitle": "Germknödeliai su slyvų įdaru | Tradicinis austriškas receptas",
+    "metaDescription": "Atraskite tradicinį austrų Germknödel receptą su slyvų įdaru. Šie mieliniai kukuliai puikiai dera su aguonomis ir cukraus pudra.",
+    "keywords": [
+      "germknödeliai",
+      "austriški kukuliai",
+      "slyvų uogienė",
+      "aguonų kukuliai",
+      "dessertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Austriška",
+    "nutrition": {
+      "calories": 453,
+      "proteinContent": "9g",
+      "fatContent": "19g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/miltiniai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "4 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arb. šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "⅓ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "⅓ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinio trynys"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilinis cukrus"
+      },
+      "quantity": "1 pakelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Slyvų uogienė"
+      },
+      "quantity": "1 ¼ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Romas"
+      },
+      "quantity": "1 šaukštas",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Aguonos"
+      },
+      "quantity": "¾ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukraus pudra"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ištirpintas sviestas"
+      },
+      "quantity": "½ puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilinis kremas"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, druską, vanilinį cukrų, kiaušinius ir cukrų dubenyje. Kitame inde sumaišykite šiltą pieną su mielėmis ir maišykite, kol mielės ištirps."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos minkymas"
+      },
+      "text": {
+        "lt": "Supilkite skystą mišinį į miltus ir suminkykite tešlą su sviestu. Jei tešla lipni, pridėkite daugiau miltų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos kildinimas"
+      },
+      "text": {
+        "lt": "Uždenkite tešlą ir palikite vienai valandai, kad ji padvigubėtų."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kukulių formavimas"
+      },
+      "text": {
+        "lt": "Padalinkite tešlą į 8 dalis, suformuokite jas į maždaug 10 cm skersmens apskritimus ir užpildykite slyvų uogiene. Atsargiai suformuokite apvalius kukulius, užtikrinant, kad siūlės būtų uždarytos."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kukulių virimas"
+      },
+      "text": {
+        "lt": "Dideliame puode užvirkite pasūdytą vandenį. Įdėkite kukulius, po 4 vienu metu, ir virkite 20 minučių su uždengtu dangčiu."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite kukulius, apibarstykite aguonomis ir cukraus pudra. Užpilkite sviestu arba vaniliniu padažu ir patiekite iš karto. Mėgaukitės!"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Dėl geresnio skonio, naudokite kokybišką slyvų uogienę."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Germknödel patiekti galima su vaniliniu kremu arba ištirpintu sviestu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/tradiciniai-austriski-germknodeliai-su-slyvu-idaru.jpg",
+    "alt": "Austriškas germknödel su slyvų įdaru, apibarstytas aguonomis ir cukraus pudra",
+    "width": 640,
+    "height": 480
+  },
+  "tags": [
+    "germknödeliai",
+    "austriški kukuliai",
+    "slyvų uogienė",
+    "aguonų kukuliai",
+    "tradicinis desertas"
+  ],
+  "author": {
+    "name": "Austria3~enwikibooks",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Austria3~enwikibooks"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Germknödel_(Plum_and_Poppy_Seed_Dumpling)",
+    "pageTitle": "Cookbook:Germknödel_(Plum_and_Poppy_Seed_Dumpling)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:36:58.784Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGermkn%C3%B6del_(Plum_and_Poppy_Seed_Dumpling)&action=history",
+    "originalCreator": {
+      "name": "Austria3~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Austria3~enwikibooks"
+    }
+  },
+  "originalImage": {
+    "fileName": "Germknödel.JPG",
+    "author": {
+      "name": "Original uploader was Austria3 at en.wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Germkn%C3%B6del.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-11-17T19:23:55+03:00",
+  "createdAt": "2026-11-17T19:23:55+03:00",
+  "updatedAt": "2026-11-17T19:23:55+03:00"
+}

@@ -1,0 +1,104 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gurasa_(Hausa_Flatbread_with_Vegetables)",
+    "pageTitle": "Cookbook:Gurasa_(Hausa_Flatbread_with_Vegetables)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Inyor4mr",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Inyor4mr"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGurasa_(Hausa_Flatbread_with_Vegetables)&action=history",
+    "extractedAt": "2026-01-06T13:58:58.998Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gurasa (Hausa Flatbread with Vegetables)",
+    "slug": "gurasa-hausa-flatbread-with-vegetables",
+    "description": "Gurasa or \"light bread\" is a traditional Hausa/Fulani Food in northern Nigeria and other parts of West Africa. It is eaten as a light dish for lunch or breakfast.",
+    "ingredients": [
+      "1 teaspoon active dry yeast",
+      "1 cup warm water",
+      "2 cups wheat flour",
+      "2 teaspoons powdered milk",
+      "1 teaspoon salt",
+      "Oil",
+      "Tomatoes, chopped",
+      "Onions, chopped",
+      "Red and green bell peppers, chopped",
+      "Yaji (chile flakes or powder) to taste",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Combine the yeast and warm water. Let rest for 5 minutes to activate the yeast.",
+      "Combine the flour, milk powder, and salt in a bowl. Stir in the yeast mixture to get a very thick and smooth batter.",
+      "Cover the bowl, and let the mixture rise for 1 hour.",
+      "Heat a skillet over medium heat, and add a thin coating of oil.",
+      "Scoop some batter into the skillet, and use the scoop to spread it into a circle.",
+      "Cook the gurasa until golden on the bottom. Flip it and cook until golden on the other side.",
+      "Remove the gurasa, and repeat the cooking process until you use up the rest of the batter.",
+      "Toss together the tomatoes, onions, peppers, chile powder, and a dash of oil. Season to taste with salt if desired.",
+      "Cut or tear the gurasa into pieces, and serve with the vegetable salad."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Cookbook",
+      "Medium Difficulty recipes",
+      "Hausa recipes",
+      "Recipes using wheat flour",
+      "Recipes for pancakes",
+      "Recipes using salt",
+      "Recipes using chile flake",
+      "Recipes using yeast",
+      "Recipes using oil and fat",
+      "Recipes using tomato",
+      "Recipes using onion",
+      "Recipes using red bell pepper",
+      "Recipes using green bell pepper",
+      "Recipes using powdered milk"
+    ]
+  },
+  "image": {
+    "filename": "Gurasa_spiced_with_kulikuli_sauce.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Gurasa_spiced_with_kulikuli_sauce.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gurasa_spiced_with_kulikuli_sauce.jpg",
+    "localPath": "scripts/wiki/output/Gurasa_spiced_with_kulikuli_sauce.jpg",
+    "dimensions": {
+      "width": 780,
+      "height": 1040
+    },
+    "fileSize": 82981,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Bukky658",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Bukky658"
+    },
+    "metadata": {
+      "description": "This is an image with the theme \"Health and Wellness in Africa\" from:",
+      "categories": [
+        "Kuli-kuli",
+        "Hausa cuisine",
+        "Images from Wiki Loves Africa 2021",
+        "Self-published work",
+        "Images from Wiki Loves Africa 2021 in Nigeria",
+        "Gurasa"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gurasa_spiced_with_kulikuli_sauce.jpg"
+  }
+}

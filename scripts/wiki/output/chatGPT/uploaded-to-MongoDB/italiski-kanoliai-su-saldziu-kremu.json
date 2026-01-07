@@ -1,0 +1,189 @@
+{
+  "slug": "italiski-kanoliai-pyrageliai-su-saldziu-kremu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/italiski-kanoliai-pyrageliai-su-saldziu-kremu",
+  "title": {
+    "lt": "Itališki kanoliai pyragėliai su saldžiu kremu"
+  },
+  "description": {
+    "lt": "Itališki kanoliai pyragėliai – tai saldūs desertai su traškiu tešlos apvalkalu ir kreminiu sūrio įdaru. Šis receptas padės jums pasigaminti puikius kanolius su rikotos, grietinėlės ir šokolado drožlių mišiniu."
+  },
+  "seo": {
+    "metaTitle": "Itališki kanoliai su rikotos kremu | Saldus desertas",
+    "metaDescription": "Pasigaminkite itališkus kanolius su traškiu tešlos apvalkalu ir saldžiu rikotos, grietinėlės ir šokolado drožlių įdaru. Puikiai tinkantis šventiniams vakarams ar desertui po vakarienės.",
+    "keywords": [
+      "itališki kanoliai",
+      "kanolių receptas",
+      "rikotos kremas",
+      "saldūs desertai",
+      "itališkas desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Italų",
+    "nutrition": {
+      "calories": 120,
+      "proteinContent": "2g",
+      "fatContent": "7g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 3,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/italu-virtuve",
+    "receptai/saldus-desertai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kanolių apvalkalai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rikota"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Plakta grietinėlė"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šokolado drožlės"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Glajus"
+      },
+      "quantity": "0.5 šaukšto",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruoškite kanolių apvalkalus"
+      },
+      "text": {
+        "lt": "Jei gaminate kanolių apvalkalus patys, pasiruoškite juos iš anksto. Jei naudojate pirktinius, tiesiog paruoškite juos naudojimui pagal pateiktas instrukcijas ant pakuotės."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Paruoškite kremą"
+      },
+      "text": {
+        "lt": "Sumaišykite rikotą su cukrumi, tada įmaišykite plaktą grietinėlę ir šokolado drožles. Mišinį gerai išmaišykite."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Užpildykite kanolius"
+      },
+      "text": {
+        "lt": "Įdėkite rikotos mišinį į konditerinį maišelį ir pripildykite kanolių apvalkalus. Tai padės išlaikyti švarą ir tikslumą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Atvėsinkite kanolius"
+      },
+      "text": {
+        "lt": "Atvėsinkite kanolius šaldytuve bent 30 minučių prieš patiekdami, kad įdaras sustingtų ir skonis būtų optimalus."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite pakeisti šokolado drožles džiovintais vaisiais, kad suteiktumėte kitokį skonį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/italiski-kanoliai-pyrageliai-su-saldziu-kremu.jpg",
+    "alt": "Itališki kanoliai su traškiu tešlos apvalkalu ir saldžiu rikotos kremu",
+    "width": 1919,
+    "height": 1536
+  },
+  "tags": [
+    "itališki kanoliai",
+    "kanolių receptas",
+    "rikotos kremas",
+    "saldūs desertai",
+    "itališkas desertas"
+  ],
+  "author": {
+    "name": "68.59.80.111",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:68.59.80.111"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cannoli",
+    "pageTitle": "Cookbook:Cannoli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-12-21T17:59:26.400Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACannoli&action=history",
+    "originalCreator": {
+      "name": "68.59.80.111",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:68.59.80.111"
+    }
+  },
+  "originalImage": {
+    "fileName": "Cannoli_siciliani.jpg",
+    "author": {
+      "name": "Stefano Mortellaro from Catania, Italy",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:FlickrLickr"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Cannoli_siciliani.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-12-21T20:59:26+03:00",
+  "createdAt": "2025-12-21T20:59:26+03:00",
+  "updatedAt": "2025-12-21T20:59:26+03:00"
+}

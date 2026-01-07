@@ -1,0 +1,261 @@
+{
+  "slug": "lengvas-alaus-receptas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/lengvas-alaus-receptas",
+  "title": {
+    "lt": "lengvas alus - Vores Øl receptas"
+  },
+  "description": {
+    "lt": "lengvas alus arba Vores Øl, danų kalboje, yra alus, kurio receptas licencijuotas pagal CC-BY-SA licenciją. Šis receptas apima įvairias salyklo rūšis ir guaranos uogas, kurios suteikia unikalų skonį. Puikus pasirinkimas alaus mėgėjams, norintiems išbandyti kažką naujo savo virtuvėje."
+  },
+  "seo": {
+    "metaTitle": "lengvas alus - Vores Øl receptas | Namų aludarystė",
+    "metaDescription": "Laisvo alaus receptas su įvairiomis salyklo rūšimis ir guaranos uogomis. Aludarystė namuose su unikaliu skoniu ir CC-BY-SA licencija.",
+    "keywords": [
+      "lengvas alus",
+      "vores øl",
+      "namų aludarystė",
+      "alaus receptas",
+      "guarana"
+    ],
+    "recipeCategory": "gerimai",
+    "recipeCuisine": "Danų",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "2g",
+      "fatContent": "0g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 60,
+  "cookTimeMinutes": 180,
+  "totalTimeMinutes": 240,
+  "timeCategory": "iki-120-min",
+  "servings": 20,
+  "servingsUnit": "porcijos",
+  "difficulty": "sunkus",
+  "primaryCategoryPath": "receptai/gerimai",
+  "secondaryCategories": [
+    "receptai/be-kepimo"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Maris Otter"
+      },
+      "quantity": "3.8 kg",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miuncheno salyklas"
+      },
+      "quantity": "800 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kristalinis salyklas"
+      },
+      "quantity": "200 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudas salyklas"
+      },
+      "quantity": "100 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Carafa Special Type III"
+      },
+      "quantity": "80 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šiaurės virimo apyniai"
+      },
+      "quantity": "7.48 AAU",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Williamette apyniai"
+      },
+      "quantity": "2.92 AAU",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Guaranos uogos"
+      },
+      "quantity": "35 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Londono alaus mielės"
+      },
+      "quantity": "1 pakuotė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "90 g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Guaranos paruošimas"
+      },
+      "text": {
+        "lt": "Sutrinkite guaranos uogas ir užpilkite jas 1 litru karšto, bet ne verdančio vandens (maksimaliai 78 °C)."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Guaranos įmaišymas"
+      },
+      "text": {
+        "lt": "Perkoškite mišinį ir įpilkite jį į verdantį misą paskutines 15 minučių."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Salyklo maišymas"
+      },
+      "text": {
+        "lt": "Sutrinkite salyklą ir sumaišykite su 135 litrais vandens, laikykite 66 °C temperatūroje 60 minučių."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Temperatūros kėlimas"
+      },
+      "text": {
+        "lt": "Pakelkite temperatūrą iki 72 °C ir laikykite 5 minutes, tada pakelkite iki 78 °C ir laikykite 10 minučių."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Sparginimas"
+      },
+      "text": {
+        "lt": "Naudokite 15.5 litrų 78 °C vandens sparginimui ir surinkite 22.7 litrų misos."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Misos virimas"
+      },
+      "text": {
+        "lt": "Virkite misą 60 minučių, įdėkite Guaranos mišinį paskutines 15 minučių ir Willamette apynius paskutines 7 minutes."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Vėsinimas ir fermentacija"
+      },
+      "text": {
+        "lt": "Atvėsinkite misą iki 19.5 °C ir supilkite į švarų fermentatoriaus indą. Įdėkite mieles ir fermentuokite 7–10 dienų."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Karbonizavimas ir buteliavimas"
+      },
+      "text": {
+        "lt": "Ištirpinkite cukrų karštame vandenyje ir įpilkite į fermentuotą alų. Supilkite alų į butelius, leiskite karbonizuotis 7–10 dienų 19.5 °C temperatūroje."
+      }
+    },
+    {
+      "step": 9,
+      "name": {
+        "lt": "Laikymas ir pateikimas"
+      },
+      "text": {
+        "lt": "Laikykite butelius 4–8 °C temperatūroje 14–30 dienų, patiekite šaltą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Šis alus puikiai dera su sūria mėsa ar aštriais patiekalais."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/lengvas-alaus-receptas.jpg",
+    "alt": "Vores Øl - lengvas alus, pagamintas su guarana ir įvairiais salyklų mišiniais",
+    "width": 3264,
+    "height": 2448
+  },
+  "tags": [
+    "lengvas alus",
+    "vores øl",
+    "namų aludarystė",
+    "guarana",
+    "salyklo mišiniai"
+  ],
+  "author": {
+    "name": "NMaia",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Free_Beer",
+    "pageTitle": "Cookbook:Free_Beer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T19:06:00+03:00",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFree_Beer&action=history",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    }
+  },
+  "originalImage": {
+    "fileName": "RMLLBiereLibre.jpg",
+    "author": {
+      "name": "Quentin THEURET",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:VortBot"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/RMLLBiereLibre.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:06:00+03:00",
+  "createdAt": "2026-01-04T19:06:00+03:00",
+  "updatedAt": "2026-01-04T19:06:00+03:00"
+}

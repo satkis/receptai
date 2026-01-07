@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Date_Bars",
+    "pageTitle": "Cookbook:Date_Bars",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AlbertCahalan",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AlbertCahalan"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADate_Bars&action=history",
+    "extractedAt": "2026-01-03T11:26:41.842Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Date Bars",
+    "slug": "date-bars",
+    "description": "Date bars have crumbly upper and lower surfaces with a date filling in the middle. Also see the Date Squares recipe.",
+    "ingredients": [
+      "¼ cup white granulated sugar",
+      "3 cups (1 pound) cut-up dates",
+      "1½ cup water",
+      "¼ cup shortening",
+      "½ cup butter or margarine",
+      "1 cup brown sugar",
+      "½ tsp baking soda",
+      "1¾ cup flour",
+      "1½ cup quick-cooking oatmeal",
+      "1 tsp salt"
+    ],
+    "instructions": [
+      "Mix the dates, sugar, and water in a saucepan.",
+      "Cook over low heat, stirring constantly for about 10 minutes or until thickened. Cool.",
+      "Cream together the butter, shortening, and brown sugar in a separate container.",
+      "Mix the flour, salt, baking soda, and oats into the crumble crust mix.",
+      "Grease a 13x9-inch pan.",
+      "Evenly press half of the crumble mixture into the bottom of the pan.",
+      "Spread the date filling on top.",
+      "Evenly place remaining crumble mixture into the pan, pressing lightly.",
+      "Bake for 25 to 30 minutes at 400°F, or until light brown.",
+      "Cut into bars while still warm."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for cookies",
+      "Recipes for dessert",
+      "Recipes using date",
+      "Baking recipes",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes for bars",
+      "Recipes using baking soda",
+      "Recipes using brown sugar",
+      "Recipes using granulated sugar",
+      "Recipes using wheat flour",
+      "Recipes using margarine"
+    ]
+  },
+  "image": {
+    "filename": "CookbookDatebar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/CookbookDatebar.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CookbookDatebar.jpg",
+    "localPath": "scripts/wiki/output/CookbookDatebar.jpg",
+    "dimensions": {
+      "width": 640,
+      "height": 440
+    },
+    "fileSize": 126409,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CookbookDatebar.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Ubcule",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ubcule"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Bars (dessert)",
+        "Media missing infobox template",
+        "Self-published work",
+        "PD-self",
+        "Low quality food and drink pictures"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "CookbookDatebar.jpg"
+  }
+}

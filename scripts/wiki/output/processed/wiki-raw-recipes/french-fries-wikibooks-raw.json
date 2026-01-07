@@ -1,0 +1,95 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Fries",
+    "pageTitle": "Cookbook:French_Fries",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Johnleemk",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Johnleemk"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Fries&action=history",
+    "extractedAt": "2026-01-04T16:07:21.302Z"
+  },
+  "recipe": {
+    "title": "Cookbook:French Fries",
+    "slug": "french-fries",
+    "description": "French fries (or chips) are a well-known element of fast food.",
+    "ingredients": [
+      "Potatoes (those with a high dry matter content such as Russet or Maris Piper work best)",
+      "Cooking oil",
+      "Salt"
+    ],
+    "instructions": [
+      "Peel potatoes, and cut into thin straw-like pieces.",
+      "Wash potatoes well with water to remove excess starch.",
+      "Place fries in a saucepan with water, and simmer or parboil on the stove for about 15 minutes.",
+      "Drain the fries, and dry them well.",
+      "Deep fry in 175°C vegetable oil, lard, or drippings for 4–5 minutes until light golden and crisp.",
+      "Remove from oil, and place on plate with paper towels to absorb the leftover cooking oil. Transfer to another plate if necessary.",
+      "Add salt and shake to ensure all French fries are evenly salted."
+    ],
+    "notes": [
+      "You can vary the size of the potato slices. Thick wedge shapes are home-style fries or English-style chips, while thinly julienned potatoes make for shoestring potatoes. Cooking times will need to be adjusted accordingly.",
+      "Try adding other spices after cooking. Minced garlic is popular in California cuisine.",
+      "Instead of ketchup, serve with mayonnaise, gravy, barbecue sauce, or salt, hummus, and vinegar.",
+      "For poutine (a French-Canadian treat), toss cooked fries with cheese curds and smother with gravy.",
+      "Some cook the fries a single time in a generous amount of oil pre-heated to a temperature around 375 °F (190 °C) until they are golden and slightly crisp.",
+      "The method recommended by most cookbooks and used by many restaurants, is to cook them in two stages: first at around 350 °F (177 °C) until the fries are nearly cooked but limp and pale; after they have been removed from the oil and allowed to cool, they are briefly fried at a higher temperature of around 375 °F (190 °C) until golden and crisp.",
+      "A method attributed to the celebrated French chef Joël Robuchon for the home cook says to put the sliced potatoes into a saucepan with just enough cold oil in it to cover the potatoes, then to cook them over high heat until golden, stirring occasionally.[1]"
+    ],
+    "servings": 2,
+    "totalTimeMinutes": 30,
+    "difficulty": null,
+    "category": "Side dish recipes",
+    "categories": [
+      "Belgian recipes",
+      "Recipes using potato",
+      "Deep fried recipes",
+      "Side dish recipes",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Pommes-1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pommes-1.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pommes-1.jpg",
+    "localPath": "scripts/wiki/output/Pommes-1.jpg",
+    "dimensions": {
+      "width": 2605,
+      "height": 1788
+    },
+    "fileSize": 1024571,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Rainer Zenz",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rainer%20Zenz"
+    },
+    "metadata": {
+      "description": "Chips (BE), French fries (AE), French fried potatoes (AE)",
+      "categories": [
+        "French fries in Germany",
+        "GFDL",
+        "Taken with Nikon Coolpix 7900",
+        "CC-BY-SA-2.5,2.0,1.0",
+        "License migration redundant",
+        "Self-published work",
+        "Photographs taken on 2006-04-05"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Pommes-1.jpg"
+  }
+}

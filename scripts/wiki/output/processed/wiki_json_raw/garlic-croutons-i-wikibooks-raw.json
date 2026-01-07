@@ -1,0 +1,89 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Garlic_Croutons_I",
+    "pageTitle": "Cookbook:Garlic_Croutons_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "69.3.232.112",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:69.3.232.112"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGarlic_Croutons_I&action=history",
+    "extractedAt": "2026-01-06T13:36:51.959Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Garlic Croutons I",
+    "slug": "garlic-croutons-i",
+    "description": "Garlic croutons can be purchased but are much better when made from old bread. They are a crucial ingredient of Caesar Salad.",
+    "ingredients": [
+      "4 slices day-old French bread, cubed",
+      "2 cloves garlic, minced",
+      "4 tablespoons olive oil",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Pour the olive oil into a shallow bowl over the garlic and let it soak. Soaking it longer will yield more garlic flavor.",
+      "Preheat the oven to 350 °F (~180 °C).",
+      "Strain the olive oil into a frying pan and fry the bread cubes in it, tossing to coat with oil.",
+      "Spread the bread cubes on a baking sheet and sprinkle with salt. Bake for 10 minutes or until crispy and dry."
+    ],
+    "notes": [
+      "To make non-garlic croutons, simply omit the garlic.",
+      "One may omit the prep work of mincing the garlic by adding the whole cloves of garlic to the oil and then crushing the garlic (either with a mortar or a fork).",
+      "By using very small bread cubes, frying crisp, and omitting the baking, these croutons may be used in place of potatoes."
+    ],
+    "servings": 4,
+    "totalTimeMinutes": 20,
+    "difficulty": 1,
+    "category": "Bread recipes",
+    "categories": [
+      "Recipes using bread",
+      "Recipes using garlic",
+      "Pan fried recipes",
+      "Baking recipes",
+      "Vegan recipes",
+      "Recipes for croutons"
+    ]
+  },
+  "image": {
+    "filename": "Semmelwuerfel_geroestet.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Semmelwuerfel_geroestet.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Semmelwuerfel_geroestet.jpg",
+    "localPath": "scripts/wiki/output/Semmelwuerfel_geroestet.jpg",
+    "dimensions": {
+      "width": 1636,
+      "height": 1243
+    },
+    "fileSize": 398899,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Hutschi",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hutschi"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "GFDL",
+        "Taken with Praktica luxmedia 5003",
+        "Croutons",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "License migration completed",
+        "Media missing infobox template"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Semmelwuerfel_geroestet.jpg"
+  }
+}

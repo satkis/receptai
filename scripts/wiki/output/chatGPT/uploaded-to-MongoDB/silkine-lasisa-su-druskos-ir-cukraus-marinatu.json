@@ -1,0 +1,225 @@
+{
+  "slug": "silkine-lasisa-su-druskos-ir-cukraus-marinatu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/silkine-lasisa-su-druskos-ir-cukraus-marinatu",
+  "title": {
+    "lt": "Šilkinė lašiša su druskos ir cukraus marinatu"
+  },
+  "description": {
+    "lt": "Šilkinė lašiša yra skanėstas, kuris yra paplitęs Skandinavijos virtuvėje. Šis patiekalas yra ruošiamas lašišą marinavus druskoje ir cukruje, dažnai pridedant krapų ir kadagio uogų. Tai puikus pasirinkimas šventėms ar draugų susitikimams. Lašišos marinavimo metodas tinka ne tik lašišai, bet ir bet kuriai riebiai žuviai. Šis receptas yra kilęs iš šiaurinių Švedijos regionų, kur šviežia ir kokybiška lašiša yra dažna. Šilkinė lašiša gali būti patiekiama kaip pagrindinis patiekalas su bulvėmis ir padažu ar kaip užkandis ant skrebučio."
+  },
+  "seo": {
+    "metaTitle": "Šilkinė lašiša su druskos ir cukraus marinatu | Skandinavijos receptas",
+    "metaDescription": "Raskite skanų šilkinės lašišos receptą, marinuotą druskos ir cukraus mišiniu. Puikiai tinka šventiniams pietums ar vakarienei.",
+    "keywords": [
+      "šilkinė lašiša",
+      "lašiša su druska ir cukrumi",
+      "skandinaviškas receptas",
+      "marinuota žuvis",
+      "lašišos užkandis"
+    ],
+    "recipeCategory": "juros-gerybes",
+    "recipeCuisine": "Skandinaviška",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "30g",
+      "fatContent": "20g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 5760,
+  "totalTimeMinutes": 5780,
+  "timeCategory": "daugiau-nei-2-val",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/juros-gerybes",
+  "secondaryCategories": [
+    "receptai/uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Lašiša"
+      },
+      "quantity": "800g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "30ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "30ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kadagio uogos"
+      },
+      "quantity": "45ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Džinas"
+      },
+      "quantity": "300ml",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Baltieji pipirai"
+      },
+      "quantity": "5ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Krapai"
+      },
+      "quantity": "20–40g",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Lašišos paruošimas"
+      },
+      "text": {
+        "lt": "Lašišą supjaustykite į dvi vienodas dalis arba naudokite du file. Užšaldykite mažiausiai 4 dienoms, kad sunaikintumėte parazitus."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Atšildymas"
+      },
+      "text": {
+        "lt": "Išimkite lašišą iš šaldiklio ir leiskite jai atšilti šaldytuve per naktį. Ji neturi visiškai atšilti, kad galėtumėte tęsti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Marinatų paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite druską ir cukrų. Lašišą, oda žemyn, uždėkite ant stalo ir įtrinkite mišiniu. Užberkite kadagio uogas ir pipirus, tada uždenkite krapais."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Įvyniojimas ir laikymas"
+      },
+      "text": {
+        "lt": "Sujunkite lašišos gabalus, oda į išorę, įdėkite į plastikinį maišelį. Pridėkite likusius ingredientus ir džiną. Uždarykite maišelį ir padėkite į šaldytuvą."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Brandinimas"
+      },
+      "text": {
+        "lt": "Leiskite lašišai bręsti šaldytuve 4 dienas, kasdien apversdami maišelį."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite lašišą iš maišelio, pašalinkite susidariusį skystį. Supjaustykite lašišą plonais gabalėliais ir patiekite su bulvėmis ar ant skrebučio."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudokite storą lašišos dalį nuo galvos."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Džiną galite pakeisti citrinos ar laimo sultimis."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Lašišą supjausčius plonai, brandinimo laikas sutrumpėja iki 4 valandų."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/silkine-lasisa-su-druskos-ir-cukraus-marinatu.jpg",
+    "alt": "Šilkinė lašiša su druskos ir cukraus marinatu, patiekta ant lėkštės",
+    "width": 640,
+    "height": 445
+  },
+  "tags": [
+    "šilkinė lašiša",
+    "skandinaviškas receptas",
+    "lašišos marinavimas",
+    "užkandis su žuvimi",
+    "šventinis užkandis"
+  ],
+  "author": {
+    "name": "202.12.108.1",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:202.12.108.1"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gravlax",
+    "pageTitle": "Cookbook:Gravlax",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:46:18.935Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGravlax&action=history",
+    "originalCreator": {
+      "name": "202.12.108.1",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:202.12.108.1"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gravlax1.jpg",
+    "author": {
+      "name": "Aarno at English Wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Gravlax1.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

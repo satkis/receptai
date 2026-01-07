@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Free_Beer",
+    "pageTitle": "Cookbook:Free_Beer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "NMaia",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:NMaia"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFree_Beer&action=history",
+    "extractedAt": "2026-01-04T16:06:00.187Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Free Beer",
+    "slug": "free-beer",
+    "description": "Free beer, also known as Vores Øl in Danish, is a beer with its recipe licensed under a CC-BY-SA license.",
+    "ingredients": [
+      "3.8 kg Maris Otter (3.0 SRM)",
+      "800 g Munich Malt (7.1 SRM)",
+      "200 g Crystal Malt (66.0 SRM)",
+      "100 g Brown Malt (95.4 SRM)",
+      "80 g Carafa Special Type III (710.7 SRM)",
+      "7.48 AAU Northern Brewer hop pellets (FWH.)",
+      "25 g of 8.5% alpha acid",
+      "2.92 AAU Williamette hop pellets (7 min.)",
+      "15 g of 5.5% alpha acid",
+      "35 g guaraná berries",
+      "London ale (White Labs #WLP013)"
+    ],
+    "instructions": [
+      "Crush guaraná beans and infuse in 1 quart of hot boiled water (max temperature 78 °C).",
+      "Filter the mixture and add to the boiling wort the last 15 minutes.",
+      "Mash crushed grains at 66 °C in 135 L of water.",
+      "Hold mash at 66 °C for 60 minutes.",
+      "Heat to 72 °C.",
+      "Hold mash at 72 °C for 5 minutes.",
+      "Heat to 78 °C.",
+      "Hold mash at 78 °C for 10 minutes.",
+      "Sparge with 15.5 L of 78 °C water.",
+      "Collect 22.7 L of wort.",
+      "Remember to add Northern Brewer hops at the beginning of sparge a.k.a. First Wort Hops/FWH.",
+      "Boil wort for 60 minutes.",
+      "Add the Guaraná mixture the last 15 minutes and the Willamette hops the last 7 minutes.",
+      "Cool wort to 19.5 °C and transfer to clean and disinfected fermenter. Remember to aerate the cooled wort, dissolving as much oxygen as possible in the wort.",
+      "Pitch yeast.",
+      "Ferment at 19.5 °C until fermentation is completed (about 7–10 days).",
+      "Dissolve 90 g of sugar in a small amount boiling water.",
+      "Put the sugar mixture in a clean and disinfected container, and transfer the fermented beer to it. This will ensure even distribution of carbonation sugar. Leave as much yeast sediment/trub as possible in the fermenter. Be careful not to aerate the fermented beer in the process.",
+      "Bottle for carbonation, and leave at 19.5 °C for 7–10 days.",
+      "Store bottles at 4–8 °C for another 14–30 days.",
+      "Serve cold and enjoy."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 4,
+    "category": "Beverage recipes",
+    "categories": [
+      "Recipes for beer",
+      "Recipes_with_metric_units",
+      "Recipes using hops",
+      "Recipes using malt"
+    ]
+  },
+  "image": {
+    "filename": "RMLLBiereLibre.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/RMLLBiereLibre.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:RMLLBiereLibre.jpg",
+    "localPath": "scripts/wiki/output/RMLLBiereLibre.jpg",
+    "dimensions": {
+      "width": 3264,
+      "height": 2448
+    },
+    "fileSize": 1751357,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Quentin THEURET",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:VortBot"
+    },
+    "metadata": {
+      "description": "A cup of \"Affichage libre\", the CC-BY-SA beer brewed for the 2011 RMLL free software meeting.",
+      "categories": [
+        "Free beer",
+        "Flickr images uploaded by Flickr upload bot",
+        "Libre Software Meeting 2011"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "RMLLBiereLibre.jpg"
+  }
+}

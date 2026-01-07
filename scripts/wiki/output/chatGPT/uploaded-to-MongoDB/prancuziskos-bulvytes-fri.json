@@ -1,0 +1,182 @@
+{
+  "slug": "prancuziskos-bulvytes-fri",
+  "canonicalUrl": "https://ragaujam.lt/receptas/prancuziskos-bulvytes-fri",
+  "title": {
+    "lt": "Prancūziškos bulvytės (fri)"
+  },
+  "description": {
+    "lt": "Prancūziškos bulvytės – tai populiarus greito maisto elementas, kurį mėgsta visi. Šios bulvytės yra traškios išorėje ir minkštos viduje. Jos gaminamos iš bulvių su aukštu sausųjų medžiagų kiekiu, tokių kaip Russet arba Maris Piper. Kepamos aliejuje iki auksinės spalvos ir patiekiamos su druska."
+  },
+  "seo": {
+    "metaTitle": "Prancūziškos bulvytės | Traškios ir skanios fri bulvytės",
+    "metaDescription": "Traškios prancūziškos bulvytės, pagamintos iš bulvių su sausųjų medžiagų kiekiu, kepamos aliejuje iki auksinės spalvos. Puikus greito maisto užkandis!",
+    "keywords": [
+      "prancūziškos bulvytės",
+      "fri bulvytes",
+      "bulvių užkandis",
+      "greitas maistas",
+      "traškios bulvytės"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Belgų",
+    "nutrition": {
+      "calories": 365,
+      "proteinContent": "5g",
+      "fatContent": "17g",
+      "fiberContent": "4g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/bulves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bulvės"
+      },
+      "quantity": "500g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Aliejus"
+      },
+      "quantity": "500ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Bulvių paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite bulves ir supjaustykite jas plonais šiaudeliais. Nuplaukite jas šaltame vandenyje, kad pašalintumėte perteklinį krakmolą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Bulvių virimas"
+      },
+      "text": {
+        "lt": "Dėkite bulvytes į puodą su vandeniu ir virkite apie 15 minučių, kol jos bus beveik paruoštos."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Bulvių džiovinimas"
+      },
+      "text": {
+        "lt": "Nusausinkite bulvytes ir gerai jas išdžiovinkite popieriniu rankšluosčiu."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Giliau keptuvėje įkaitinkite aliejų iki 175°C ir kepkite bulvytes 4-5 minutes, kol jos taps auksinės spalvos ir traškios."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite bulvytes iš aliejaus ir padėkite ant popierinio rankšluosčio, kad sugertų perteklinį aliejų. Pabarstykite druska ir patiekite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Galite eksperimentuoti su prieskoniais, pavyzdžiui, česnaku ar paprikos milteliais."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekite su jūsų mėgstamu padažu, pavyzdžiui, majonezu ar kečupu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/prancuziskos-bulvytes-fri.jpg",
+    "alt": "Prancūziškos bulvytės, traškios ir auksinės spalvos",
+    "width": 2605,
+    "height": 1788
+  },
+  "tags": [
+    "prancūziškos bulvytės",
+    "frytės",
+    "bulvių užkandis",
+    "greitas maistas",
+    "traškios bulvytės"
+  ],
+  "author": {
+    "name": "Johnleemk",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Johnleemk"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Fries",
+    "pageTitle": "Cookbook:French_Fries",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:07:21.302Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Fries&action=history",
+    "originalCreator": {
+      "name": "Johnleemk",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Johnleemk"
+    }
+  },
+  "originalImage": {
+    "fileName": "Pommes-1.jpg",
+    "author": {
+      "name": "Rainer Zenz",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rainer%20Zenz"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pommes-1.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T16:07:21+03:00",
+  "createdAt": "2026-01-04T16:07:21+03:00",
+  "updatedAt": "2026-01-04T16:07:21+03:00"
+}

@@ -1,0 +1,87 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fanke_(Hausa_Puff_Puff)",
+    "pageTitle": "Cookbook:Fanke_(Hausa_Puff_Puff)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFanke_(Hausa_Puff_Puff)&action=history",
+    "extractedAt": "2026-01-04T15:58:13.478Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fanke (Hausa Puff Puff)",
+    "slug": "fanke-hausa-puff-puff",
+    "description": "Fanke is a Nigerian fritter made with wheat flour or semovita. It is commonly eaten in the Northern part of Nigeria, especially among the Hausa people.",
+    "ingredients": [
+      "3 cups all-purpose flour or semovita",
+      "1 tablespoon instant yeast",
+      "1 cup white granulated sugar",
+      "1 ½ tsp baking powder",
+      "2 cups warm water",
+      "Vanilla flavor to taste",
+      "Vegetable oil"
+    ],
+    "instructions": [
+      "Sift the flour into a clean bowl. Mix in the yeast, sugar, and baking powder.",
+      "Stir in the warm water and vanilla to make a thick batter.",
+      "Cover the bowl, and let rise for about 1 hour.",
+      "Heat enough oil in a pan for deep-frying. Shape the batter into balls, and drop them into the hot oil in batches.",
+      "Deep fry the fritters until golden brown on all sides.",
+      "Remove from the oil and let drain."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Hausa recipes",
+      "Recipes for fritters",
+      "Fried recipes",
+      "Recipes using baking powder",
+      "Recipes using white sugar",
+      "Recipes using all-purpose flour",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Hausa_Food_Fanke.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Hausa_Food_Fanke.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hausa_Food_Fanke.jpg",
+    "localPath": "scripts/wiki/output/Hausa_Food_Fanke.jpg",
+    "dimensions": {
+      "width": 3120,
+      "height": 4160
+    },
+    "fileSize": 4183474,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Anasskoko",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Anasskoko"
+    },
+    "metadata": {
+      "description": "One of the Hausa food in Northen Nigeria 🇳🇬",
+      "categories": [
+        "Hausa cuisine",
+        "Self-published work",
+        "Anasskoko"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Hausa_Food_Fanke.jpg"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Chicken_and_Fried_Potatoes",
+    "pageTitle": "Cookbook:Fried_Chicken_and_Fried_Potatoes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Omegarad~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Omegarad~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Chicken_and_Fried_Potatoes&action=history",
+    "extractedAt": "2026-01-04T16:15:27.396Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fried Chicken and Fried Potatoes",
+    "slug": "fried-chicken-and-fried-potatoes",
+    "description": "Category:Recipes using chicken Category:Recipes using potato Category:Pan Fried recipes Category:Main course recipes Category:Recipes using cumin Category:Recipes using vegetable oil",
+    "ingredients": [
+      "8 lbs potatoes",
+      "½ quart vegetable oil",
+      "2 ½ lbs chicken, cut into small pieces",
+      "Salt to taste",
+      "Cumin to taste"
+    ],
+    "instructions": [
+      "Peel potatoes, and slice into small or large wedges.",
+      "Heat oil in a pan to about 350°F. Fry potatoes in oil until they are light brown. Once done, salt the potatoes to desired level.",
+      "Fry the chicken for about 5 minutes. Drain the oil or move the chicken to a different pan.",
+      "Salt the chicken, add ¾ cup of water and let simmer for 15–20 minutes.",
+      "Combine chicken and potatoes (potatoes on top).",
+      "Add cumin and let simmer for about 20 minutes."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using chicken",
+      "Recipes using potato",
+      "Pan Fried recipes",
+      "Main course recipes",
+      "Recipes using cumin",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "Qurighan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Qurighan.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Qurighan.jpg",
+    "localPath": "scripts/wiki/output/Qurighan.jpg",
+    "dimensions": {
+      "width": 613,
+      "height": 609
+    },
+    "fileSize": 79605,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Qurighan.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "w:User:Omegarad",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Mike.lifeguard"
+    },
+    "metadata": {
+      "description": "Photo taken by Lenny Abramov in December 2006 for use in a Bukharan Online cookbook.",
+      "categories": [
+        "PD-user",
+        "Chicken dishes",
+        "Potato as side dish"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Qurighan.jpg"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Green_Tea_and_Berry_Pavlovas",
+    "pageTitle": "Cookbook:Green_Tea_and_Berry_Pavlovas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Kittycataclysm",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kittycataclysm"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreen_Tea_and_Berry_Pavlovas&action=history",
+    "extractedAt": "2026-01-06T13:49:51.717Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Green Tea and Berry Pavlovas",
+    "slug": "green-tea-and-berry-pavlovas",
+    "description": "These individual pavlovas make for a beautiful and well-balanced dessert, with a nice contrast between flavors and textures. You get sweet crunchy meringue, rich whipped cream, tangy lemon curd and fruits, all rounded out with a faint bitterness from the matcha. While it has multiple components, none are particularly tricky to prepare, and many components can be made in advance.",
+    "ingredients": [
+      "4 ea. egg whites",
+      "1 cup white granulated sugar",
+      "Tiny pinch of salt",
+      "1 tbsp matcha powder, sifted",
+      "4 ea. egg yolks",
+      "½ cup white granulated sugar",
+      "½ cup fresh lemon juice, strained",
+      "Zest from juiced lemons",
+      "4 tbsp unsalted butter",
+      "1 lb frozen mixed berries (blueberries, blackberries, raspberries)",
+      "1 tbsp cornstarch",
+      "1 pinch ground cinnamon",
+      "Lemon juice",
+      "White granulated sugar",
+      "1 cup heavy cream, cold",
+      "¼ tsp vanilla extract",
+      "1–2 tbsp powdered sugar",
+      "Fresh berries (e.g. blueberries, blackberries, raspberries)",
+      "Powdered sugar"
+    ],
+    "instructions": [
+      "Bring an inch or two of water to a simmer in a pot.",
+      "Whisk together the egg whites, sugar, and salt in a clean heat-safe mixing bowl.",
+      "Place the bowl of egg whites over the simmering water. The bottom of the bowl should not touch the water itself.",
+      "Stir the mixture until all the sugar is dissolved. Rub a little bit between your fingers—it should be warm, and you shouldn't feel any grains. Make sure not to go too far and let the whites coagulate, since you don't want them to cook.",
+      "Remove the bowl from the pot. Use a mixer to whip the egg whites to stiff peaks.",
+      "Beat in the matcha for about 30 seconds. Then, use a rubber spatula to make sure everything is well-incorporated and even.",
+      "Line a baking sheet with parchment paper. Use a piping bag or two spoons to make dollops of meringue on the parchment. The size is up to you—they should be single-serving.",
+      "Use the back of a spoon to create a divot in each meringue. This will hold your fillings later. Don't just press down and pull away with the spoon—you need to rotate it and pull away at an angle in order to create the divot.",
+      "Bake the meringues at 175°F (80°C) for 2–3 hours or until they are dry on the outside and easily pull off the parchment. Turn the oven off and let them sit for about 8 hours to fully dry.",
+      "Store the meringues in an airtight container until use.",
+      "Combine the yolks and sugar in a heat-safe mixing bowl. Whisk in the lemon juice and zest.",
+      "Like with the meringue, place the bowl over a pot of simmering water. Stir the mixture until all the sugar is dissolved and the mixture is hot and opaque yellow (several minutes). It should thicken very slightly but not significantly. Again, do not let it curdle.",
+      "Remove the bowl from the simmering water. Add the butter, and whisk until fully emulsified.",
+      "Strain the curd and let cool.",
+      "Chill in the refrigerator—it will thicken somewhat.",
+      "Toss together the frozen berries and cornstarch, then transfer them to a saucepan.",
+      "Add the cinnamon and ⅛ cup sugar to start, then place the pot over medium heat.",
+      "Cook the berries, stirring occasionally, until they start releasing their juice and breaking down.",
+      "Mix in lemon juice and sugar to taste—it shouldn't be too sweet or sour, since you'll be pairing it with meringue and lemon curd.",
+      "Let the mixture simmer for a minute or two, making sure it doesn't burn at the bottom.",
+      "If desired, use a fork to mash any whole berries remaining.",
+      "Cool completely and store in the fridge.",
+      "When ready to assemble the pavlovas, combine the cold cream, vanilla, and 1 tbsp powdered sugar in a mixing bowl.",
+      "Whip until starting to thicken and foam. Taste and add more sugar as desired.",
+      "Continue whipping to soft peaks—don't let it go grainy or curdle.",
+      "Use as soon as possible.",
+      "Place a spoonful of lemon curd onto a plate, and use a spoon to decoratively streak it across the plate.",
+      "Place one meringue decoratively on top of the lemon curd.",
+      "Spoon some whipped cream into the divot, and top with a dab of compotes.",
+      "Decoratively arrange berries on top, then use a sieve to dust with powdered sugar.",
+      "Serve as soon as possible, as the meringue will soften under the cream."
+    ],
+    "notes": [
+      "If desired, you can omit the matcha powder."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for pavlova",
+      "Recipes using lemon juice",
+      "Recipes using berries",
+      "Recipes using granulated sugar",
+      "Recipes using vanilla",
+      "Recipes using ground cinnamon",
+      "Recipes using egg",
+      "Recipes using matcha",
+      "Recipes using butter",
+      "Recipes using powdered sugar",
+      "Recipes using heavy cream",
+      "Recipes using cornstarch",
+      "Recipes using whipped cream",
+      "Recipes for whipped cream",
+      "Recipes using lemon zest"
+    ]
+  },
+  "image": {
+    "filename": "Green_tea_berry_pavlova.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Green_tea_berry_pavlova.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Green_tea_berry_pavlova.jpg",
+    "localPath": "scripts/wiki/output/Green_tea_berry_pavlova.jpg",
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "fileSize": 8414952,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Kittycataclysm",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "metadata": {
+      "description": "A pavlova topped with berries, as described in wikibooks:Cookbook:Green Tea and Berry Pavlovas",
+      "categories": [
+        "Desserts",
+        "Meringue",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Green_tea_berry_pavlova.jpg"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "slug": "duonos-pudingas-su-cinamono-skoniu",
+  "canonicalUrl": "https://ragaujam.lt/receptas/duonos-pudingas-su-cinamono-skoniu",
+  "title": {
+    "lt": "Duonos pudingas su cinamono skoniu"
+  },
+  "description": {
+    "lt": "Duonos pudingas – tai gardus ir paprastas desertinis patiekalas, pagamintas iš duonos, pieno, kiaušinių ir cinamono. Šis receptas puikiai tinka, kai reikia sunaudoti likusią duoną, ir gali būti patiekiamas tiek šiltas, tiek šaltas."
+  },
+  "seo": {
+    "metaTitle": "Duonos pudingas su cinamonu | Lengvas receptas",
+    "metaDescription": "Paruoškite skanų duonos pudingą su cinamonu. Puikus būdas sunaudoti likusią duoną, šis desertas yra paprastas ir nebrangus. Tinka tiek šeimos vakarienei, tiek šventėms.",
+    "keywords": [
+      "duonos pudingas",
+      "cinamoninis pudingas",
+      "desertas su pienu",
+      "paprastas pudingo receptas",
+      "saldus desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "7g",
+      "fatContent": "8g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "6 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "30g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Razinos"
+      },
+      "quantity": "80g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "150g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "475ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "2g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "5ml",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Kepimo paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 175°C. Duoną suplėšykite į mažus gabaliukus arba supjaustykite kubeliais ir sudėkite į kepimo formą. Įmaišykite razinas."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sviesto užpylimas"
+      },
+      "text": {
+        "lt": "Ant duonos gabaliukų užpilkite tirpintą sviestą, kad jie būtų gerai padengti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Mišinio paruošimas"
+      },
+      "text": {
+        "lt": "Dubenyje lengvai išplakite kiaušinius, pridėkite cukrų, pieną, cinamoną ir vanilės ekstraktą. Gerai išmaišykite."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Mišinio užpylimas"
+      },
+      "text": {
+        "lt": "Supilkite mišinį ant duonos ir švelniai paspauskite, kad duona gerai sugertų skystį."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepkite įkaitintoje orkaitėje apie 45 minutes, kol pudingas taps auksinės spalvos."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Leiskite atvėsti ir patiekite šaltą arba šiltą. Galima patiekti su šaukštu arba supjaustyti kvadratėliais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei neturite razinų, galite naudoti kitus džiovintus vaisius."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Pudingą galite patiekti su ledais arba plakta grietinėle."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/duonos-pudingas-su-cinamono-skoniu.jpg",
+    "alt": "Duonos pudingas su cinamonu ir razinomis, patiektas ant lėkštės",
+    "width": 1600,
+    "height": 1200
+  },
+  "tags": [
+    "duonos pudingas",
+    "cinamoninis pudingas",
+    "desertas su pienu",
+    "paprastas pudingo receptas",
+    "saldus desertas"
+  ],
+  "author": {
+    "name": "Quillaja",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Quillaja"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Bread_Pudding",
+    "pageTitle": "Cookbook:Bread_Pudding",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:12.937Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABread_Pudding&action=history",
+    "originalCreator": {
+      "name": "Quillaja",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Quillaja"
+    }
+  },
+  "originalImage": {
+    "fileName": "A_slice_of_bread_pudding.JPG",
+    "author": {
+      "name": "Quillaja",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Quillaja"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:A_slice_of_bread_pudding.JPG?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/A_slice_of_bread_pudding.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T13:11:12+03:00",
+  "createdAt": "2025-11-27T13:11:12+03:00",
+  "updatedAt": "2025-11-27T13:11:12+03:00"
+}

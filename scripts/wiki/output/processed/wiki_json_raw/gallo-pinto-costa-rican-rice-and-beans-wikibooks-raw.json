@@ -1,0 +1,98 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gallo_Pinto_(Costa_Rican_Rice_and_Beans)",
+    "pageTitle": "Cookbook:Gallo_Pinto_(Costa_Rican_Rice_and_Beans)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "BoldLuis",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:BoldLuis"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGallo_Pinto_(Costa_Rican_Rice_and_Beans)&action=history",
+    "extractedAt": "2026-01-06T13:36:17.173Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gallo Pinto (Costa Rican Rice and Beans)",
+    "slug": "gallo-pinto-costa-rican-rice-and-beans",
+    "description": "The main Costa Rica staple, known as gallo pinto, consists of rice and black beans, which in many households is eaten at all three meals during the day.",
+    "ingredients": [
+      "1 package (450 g / 16 oz) dry beans (black beans preferred)",
+      "1 onion, chopped",
+      "1 red pepper, chopped",
+      "1 bulb garlic, minced",
+      "2 bay leaves",
+      "1 tsp cumin",
+      "Olive oil",
+      "Salt to taste",
+      "Pepper to taste",
+      "1–2 whole dried or fresh hot peppers (optional)",
+      "1–2 cups uncooked rice (you can use the same amount of rice than beans; this is, 3 cups of beans for 3 cups of rice)."
+    ],
+    "instructions": [
+      "Soak beans overnight, or, bring them to a boil and let sit for 1 hour.",
+      "In a Dutch oven or large pot, sauté onions and garlic in olive oil on medium heat until onions are translucent.",
+      "Add red pepper, and sauté for a few minutes more.",
+      "Add beans and enough water to cover all ingredients.",
+      "Add spices, bring to a boil, then lower heat and cover, stirring occasionally until done (1–2 hours, depending on the age of your beans).",
+      "Add rice and twice as much water to a pot (e.g. 1 cup rice + 2 cups water, 1 ½ cups rice + 3 cups water, etc).",
+      "Cook at a rolling boil until the water has boiled down to the level of the rice.",
+      "Reduce heat to a light simmer, cover, and cook for 20 minutes.",
+      "Serve the beans over the rice and enjoy!"
+    ],
+    "notes": [
+      "Use canned beans instead of dry (greatly reduces cooking time, but doesn't allow for the flavor to soak into the beans as well).",
+      "You can employ Instant Pot in pressure cooker mode to cook beans in advance instead of using canned beans. You can cook more beans that needed and store them in the fridge upto a week, to make more gallo pinto later.",
+      "Use a crockpot: Sauté vegetables in a skillet, then add all ingredients (except rice, mainly the soaked beans) for 5 minutes to the crockpot before you leave for work, go to school, whatever. When you come home, beans are ready! Then, fry the cooked rice for 3 minutes with the other ingredients (or fry the cooked rice for 3 minutes and put the beans an the other hot ingredients over it). If using kidney beans, you must cook them for 30 minutes at a vigorous boil before adding to the crockpot."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Vegan recipes",
+      "Recipes using pulses",
+      "Recipes using rice",
+      "Boiled recipes",
+      "Louisiana recipes",
+      "Side dish recipes",
+      "Recipes using cumin",
+      "Recipes using black bean"
+    ]
+  },
+  "image": {
+    "filename": "Gallo_pinto_(4711592666).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Gallo_pinto_%284711592666%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gallo_pinto_(4711592666).jpg",
+    "localPath": "scripts/wiki/output/Gallo_pinto_(4711592666).jpg",
+    "dimensions": {
+      "width": 2048,
+      "height": 1536
+    },
+    "fileSize": 585561,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Lablascovegmenu from London",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:John%20Cummings"
+    },
+    "metadata": {
+      "description": "Gallo pinto\n\nBaked frozen vegetable sausages and peas",
+      "categories": [
+        "Vegan food",
+        "Flickr images reviewed by FlickreviewR"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Gallo_pinto_(4711592666).jpg"
+  }
+}

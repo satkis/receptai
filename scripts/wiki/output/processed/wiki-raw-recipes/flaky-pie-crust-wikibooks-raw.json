@@ -1,0 +1,102 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Flaky_Pie_Crust",
+    "pageTitle": "Cookbook:Flaky_Pie_Crust",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Kellen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Kellen"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFlaky_Pie_Crust&action=history",
+    "extractedAt": "2026-01-04T16:00:09.618Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Flaky Pie Crust",
+    "slug": "flaky-pie-crust",
+    "description": "This recipe makes enough dough for one 23 cm (9 inch) covered pie. If your pie only requires a bottom crust, use half this recipe. However, for best results, make the full recipe. If only a single crust is required, make the full recipe and freeze half for later.",
+    "ingredients": [
+      "310 g (2 ½ cups) flour",
+      "6 g (1 tsp) salt",
+      "4 g (1 tsp) white granulated sugar (optional)",
+      "225 g (1 cup) cold butter",
+      "95 ml (⅓ cup + 1 tbsp) cold water"
+    ],
+    "instructions": [
+      "Whisk flour, salt and sugar together in a deep bowl.",
+      "Cut the butter into small pieces and add to the flour mixture.",
+      "Using a pastry blender or two butter knives, cut the butter into the flour until the butter is in small pea-sized pieces.",
+      "Add cold water; cut the water into the flour-butter mixture with the edge of a rubber spatula until it is evenly moistened and will hold together when pressed.",
+      "Form the dough into a ball with your hands, kneading in any loose flour. This should be done as quickly as possible to avoid melting the butter in the dough.",
+      "Chill the dough for 10–20 minutes.",
+      "Cut the dough evenly in half.",
+      "On a lightly floured board, roll each half out until it will cover a 20 cm (9 inch) pie dish, with about 2 cm (¾\" inch) overhang.",
+      "Lay the bottom crust in the pie dish, ensuring that there are no gaps between the crust and the bottom of the dish.",
+      "Fill the crust with the pie filling.",
+      "Place the top crust on top, leaving equal overhang on all sides.",
+      "Cut the overhang to about 2 cm (¾\" inch) all around the pie.",
+      "Working around the pie, hold the bottom and top crust overhangs together and tuck the combined overhang into the pie dish behind the bottom crust.",
+      "With the forefinger and thumb of each hand, pinch the ridge formed by the tuck into a decorative edge, or press this ridge with a fork.",
+      "Brush the top of the pie with milk, and sprinkle with sugar.",
+      "Cut vents in the top crust so that steam can escape.",
+      "For a fruit pie, bake on the lower-middle rack of an oven at 220 °C (425 °F) for 30 minutes to set the crust, then at 180 °C (350 °F) for 30 minutes to cook the filling."
+    ],
+    "notes": [
+      "Vegan crust: Use a hard vegan fat, such as margarine in place of the butter (used for the images shown above)",
+      "Traditional crust: Use lard, which is less saturated than butter and produces the flakiest crusts.",
+      "Top Crust Colouring: Brush on lightly beaten egg white to colour crust instead of milk.",
+      "When baking two pies at once, rotate the pies 180 degrees at 15 minutes and 45 minutes of baking to ensure the crust does not burn due to its proximity to the oven walls."
+    ],
+    "servings": 1,
+    "totalTimeMinutes": 90,
+    "difficulty": 3,
+    "category": "Pastry recipes",
+    "categories": [
+      "Vegetarian recipes",
+      "Recipes for dough",
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes using butter",
+      "Recipes using granulated sugar",
+      "Recipes using wheat flour"
+    ]
+  },
+  "image": {
+    "filename": "07-crust_dry_ingredients.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/07-crust_dry_ingredients.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:07-crust_dry_ingredients.jpg",
+    "localPath": "scripts/wiki/output/07-crust_dry_ingredients.jpg",
+    "dimensions": {
+      "width": 768,
+      "height": 576
+    },
+    "fileSize": 69526,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Kellen",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kellen"
+    },
+    "metadata": {
+      "description": "tockene Zutaten für das Pastetenbacken",
+      "categories": [
+        "GFDL",
+        "Taken with Canon PowerShot G6",
+        "License migration completed",
+        "Pie preparation and baking"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "07-crust_dry_ingredients.jpg"
+  }
+}

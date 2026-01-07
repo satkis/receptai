@@ -1,0 +1,187 @@
+{
+  "slug": "kepta-duona",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kepta-duona",
+  "title": {
+    "lt": "Kepta duona"
+  },
+  "description": {
+    "lt": "Keptaa duona yra plokščia duona, kepama aliejuje, svieste arba taukuose. Ši duona gali būti valgoma viena arba su įvairiais priedais, tokiais kaip medus, džemas ar karštas jautiena. Be to, ji gali būti naudojama kaip takos pagrindas. Tai paprastai ir lengvai paruošiamas patiekalas, puikiai tinkantis prie įvairių valgių."
+  },
+  "seo": {
+    "metaTitle": "Kepta Duona | Receptas",
+    "metaDescription": "Kepta duona - plokščia duona, kepama aliejuje. Puikiai dera su medumi, džemu ar kaip takos pagrindas. Lengvai paruošiamas patiekalas.",
+    "keywords": [
+      "kepta duona",
+      "plokščia duona",
+      "duona aliejuje",
+      "paprastas receptas",
+      "duona su priedais"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Vietinė Amerikos",
+    "nutrition": {
+      "calories": 360,
+      "proteinContent": "7g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/miltiniai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Prieskonių druska arba stalo druska"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Karštas vanduo"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, kepimo miltelius ir druską. Įpilkite karštą vandenį ir gerai išmaišykite, kol gausite vientisą tešlą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos formavimas"
+      },
+      "text": {
+        "lt": "Iš tešlos formuokite mažus rutuliukus ir lengvai suplokite juos į plokščias duoneles."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite aliejų keptuvėje ir kepkite duoneles iš abiejų pusių, kol jos taps auksinės spalvos."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite keptą duoną kaip užkandį arba su mėgstamais priedais, tokiais kaip medus ar džemas."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Vandens kiekį galite šiek tiek reguliuoti, kad pasiektumėte norimą tešlos konsistenciją."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Keptą duoną galite naudoti kaip pagrindą takams ar kitoms užkandėlėms."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kepta-duona.jpg",
+    "alt": "Kepta duona - plokščia duona, kepama aliejuje",
+    "width": 175,
+    "height": 63
+  },
+  "tags": [
+    "kepta duona",
+    "plokščia duona",
+    "paprastas receptas",
+    "duona aliejuje",
+    "vietinė Amerikos virtuvė"
+  ],
+  "author": {
+    "name": "Nesnad",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Nesnad"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fry_Bread_II",
+    "pageTitle": "Cookbook:Fry_Bread_II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:28:08.643Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFry_Bread_II&action=history",
+    "originalCreator": {
+      "name": "Nesnad",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Nesnad"
+    }
+  },
+  "originalImage": {
+    "fileName": "Frybread_template.jpg",
+    "author": {
+      "name": "John Pozniak",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:The%20Banner"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Frybread_template.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:28:08+03:00",
+  "createdAt": "2026-01-04T19:28:08+03:00",
+  "updatedAt": "2026-01-04T19:28:08+03:00"
+}

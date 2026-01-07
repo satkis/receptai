@@ -1,0 +1,90 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Alkubus_(Nigerian_Steamed_Bread)",
+    "pageTitle": "Cookbook:Alkubus_(Nigerian_Steamed_Bread)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Tesleemah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Tesleemah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlkubus_(Nigerian_Steamed_Bread)&action=history",
+    "extractedAt": "2025-11-21T14:03:58.617Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Alkubus (Nigerian Steamed Bread)",
+    "slug": "alkubus-nigerian-steamed-bread",
+    "description": "Alkubus is a steamed wheat bread from northern Nigeria. It originated from Arabs.",
+    "ingredients": [
+      "2 cups wheat flour",
+      "1 teaspoon instant yeast",
+      "½ teaspoon salt",
+      "1 teaspoon baking powder",
+      "½ cup water",
+      "2 teaspoons vegetable oil"
+    ],
+    "instructions": [
+      "Sift the flour into a mixing bowl. Mix in the yeast, salt, and baking powder.",
+      "Mix in the water to make a dough, and knead it until cohesive and fully combined.",
+      "Cover the dough and let rise for 1 hour.",
+      "Gently deflate the dough.",
+      "Grease a cooking mold, and transfer the dough to the mold.",
+      "Cover the mold and place it in a steamer setup. Steam until cooked through and a skewer inserted into the center comes out clean.",
+      "Remove from the heat and let cool.",
+      "Unmold the steamed bread and serve."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Inexpensive recipes",
+      "Hausa recipes",
+      "Recipes using baking powder",
+      "Steamed recipes",
+      "Recipes using wheat flour",
+      "Recipes using yeast",
+      "Recipes using salt",
+      "Recipes for bread",
+      "Recipes using vegetable oil"
+    ]
+  },
+  "image": {
+    "filename": "10_Steamed_Bread_-_Congee_Village_House.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/10_Steamed_Bread_-_Congee_Village_House.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:10_Steamed_Bread_-_Congee_Village_House.jpg",
+    "localPath": "scripts/wiki/output/10_Steamed_Bread_-_Congee_Village_House.jpg",
+    "dimensions": {
+      "width": 640,
+      "height": 480
+    },
+    "fileSize": 57915,
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "jasonlam",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Ser%20Amantio%20di%20Nicolao"
+    },
+    "metadata": {
+      "description": "Me So Hungry food blog",
+      "categories": [
+        "Mantou",
+        "Chinese cuisine in the United States",
+        "Flickr images reviewed by FlickreviewR 2"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "10_Steamed_Bread_-_Congee_Village_House.jpg"
+  }
+}

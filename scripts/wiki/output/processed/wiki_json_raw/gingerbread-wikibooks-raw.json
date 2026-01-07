@@ -1,0 +1,99 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gingerbread",
+    "pageTitle": "Cookbook:Gingerbread",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Carandol",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Carandol"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGingerbread&action=history",
+    "extractedAt": "2026-01-06T13:45:04.024Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gingerbread",
+    "slug": "gingerbread",
+    "description": "This recipe produces a soft gingerbread cake, not gingerbread cookies. Gingerbread is a type of spice cake. Parkin, a variation traditionally eaten in England around Bonfire Night, is partially oat-based.",
+    "ingredients": [
+      "110 g (4 oz) butter",
+      "110 g (4 oz) brown sugar",
+      "220 g (8 oz) golden syrup",
+      "220 g (8 oz) all-purpose flour",
+      "5 ml (1 level teaspoon) baking powder",
+      "5 ml (1 level teaspoon) mixed spice",
+      "10 ml (2 level teaspoon) ground ginger",
+      "2 eggs",
+      "120 ml (4 fluid oz) milk"
+    ],
+    "instructions": [
+      "Put the butter, sugar, and syrup in a saucepan. Heat gently until the butter melts.",
+      "Place the dry ingredients in a bowl. Pour the melted butter mixture into the bowl, and beat thoroughly.",
+      "Warm the milk in a saucepan (so it will dissolve the syrup).",
+      "Add the milk to the bowl, and beat thoroughly.",
+      "Beat the eggs, and then stir them in to the mixture.",
+      "Pour the mixture into an 8-inch (20 cm) greased square cake tin.",
+      "Bake at 170°C (325°F) for 1 hour.",
+      "Cool in the tin for 15 minutes, then remove.",
+      "Leave at least 1 day before cutting into squares. Serve."
+    ],
+    "notes": [
+      "To make parkin, replace half of the flour by weight with 110 g (4 oz) coarse oat flour."
+    ],
+    "servings": 10,
+    "totalTimeMinutes": 20,
+    "difficulty": 3,
+    "category": "Cake recipes",
+    "categories": [
+      "Recipes for dessert",
+      "Recipes for cake",
+      "Recipes using ground ginger",
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes using butter",
+      "Recipes using egg",
+      "Recipes using baking powder",
+      "Recipes using brown sugar",
+      "Recipes using all-purpose flour",
+      "Recipes using golden syrup",
+      "Recipes using cow milk"
+    ]
+  },
+  "image": {
+    "filename": "GingerbreadCake.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/GingerbreadCake.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:GingerbreadCake.jpg",
+    "localPath": "scripts/wiki/output/GingerbreadCake.jpg",
+    "dimensions": {
+      "width": 2048,
+      "height": 1536
+    },
+    "fileSize": 319546,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "cj from Vancouver, Canada",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": "gingerbread cake",
+      "categories": [
+        "Taken with Sony DSC-W80",
+        "Gingerbread",
+        "Flickr images reviewed by File Upload Bot (Magnus Manske)"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "GingerbreadCake.jpg"
+  }
+}

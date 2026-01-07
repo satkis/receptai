@@ -1,0 +1,109 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Germknödel_(Plum_and_Poppy_Seed_Dumpling)",
+    "pageTitle": "Cookbook:Germknödel_(Plum_and_Poppy_Seed_Dumpling)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Austria3~enwikibooks",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Austria3~enwikibooks"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGermkn%C3%B6del_(Plum_and_Poppy_Seed_Dumpling)&action=history",
+    "extractedAt": "2026-01-06T13:36:58.784Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Germknödel (Plum and Poppy Seed Dumpling)",
+    "slug": "germkn-del-plum-and-poppy-seed-dumpling",
+    "description": "The Germknödel is a traditional Austrian dish, originating from Viennese and Bohemian cuisines. It is a yeast dumpling filled with plum jam and served with poppy seeds, powdered sugar, and lots of melted butter or vanilla sauce on top.",
+    "ingredients": [
+      "2 tbsp active dry yeast",
+      "4 cups all-purpose flour",
+      "1 tsp salt",
+      "⅓ cup white sugar",
+      "⅓ cup softened butter",
+      "1 cup lukewarm milk",
+      "1 egg yolk",
+      "1 egg",
+      "1 package vanilla sugar or 1 tbsp vanilla extract",
+      "1 ¼ cups plum jam",
+      "1 tbsp rum (optional)",
+      "¾ cup ground poppy seeds",
+      "Powdered sugar",
+      "½ cup melted butter",
+      "Vanilla custard sauce"
+    ],
+    "instructions": [
+      "Mix the flour, salt, vanilla, eggs, and sugar in a bowl.",
+      "In another bowl, mix the lukewarm milk with the yeast, and stir until all of the yeast has dissolved.",
+      "Pour the liquid mixture into the flour, and knead everything together with the softened butter. If the dough is too sticky, add more flour.",
+      "Cover the dough and leave it to rise for one hour until it has doubled its size.",
+      "Divide the dough into 8 pieces. Pat them flat and round on a board until they are about 4 inches in diameter.",
+      "Fill each of the pieces of dough with a tablespoon of the plum jam, and carefully form round dumplings. Make sure that the seam is completely closed.",
+      "Place the dumplings on a board with a dishtowel covering them, and let them rest for 10 minutes.",
+      "Boil salted water in a large pot.",
+      "Add the dumplings to the pot. Depending on the size of the pot, only add about 4 at a time so they have space to rise.",
+      "Let them simmer for 20 minutes with the lid on. Do not take the lid off, as the dumplings will not rise properly.",
+      "When finished, remove the dumplings, and place them in a bowl.",
+      "Top the dumplings with poppy seeds and powdered sugar. Pour butter or vanilla sauce over the top.",
+      "Serve right away. Enjoy the delicious dumplings!"
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Dumpling recipes",
+      "Recipes for dessert",
+      "Boiled recipes",
+      "Austrian recipes",
+      "Recipes with images",
+      "Recipes using butter",
+      "Recipes using white sugar",
+      "Recipes using powdered sugar",
+      "Recipes using egg",
+      "Recipes using all-purpose flour",
+      "Recipes using fruit preserves",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Germknödel.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Germkn%C3%B6del.JPG",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Germkn%C3%B6del.JPG",
+    "localPath": "scripts/wiki/output/Germknödel.JPG",
+    "dimensions": {
+      "width": 640,
+      "height": 480
+    },
+    "fileSize": 37483,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Original uploader was Austria3 at en.wikibooks",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "metadata": {
+      "description": "== Licensing: ==",
+      "categories": [
+        "GFDL",
+        "Taken with Canon PowerShot A530",
+        "Germknödel",
+        "License migration redundant",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Germknödel.JPG"
+  }
+}

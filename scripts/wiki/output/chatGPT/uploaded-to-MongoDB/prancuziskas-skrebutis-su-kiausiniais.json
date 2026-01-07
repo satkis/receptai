@@ -1,0 +1,225 @@
+{
+  "slug": "prancuziskas-skrebutis-su-kiausiniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/prancuziskas-skrebutis-su-kiausiniais",
+  "title": {
+    "lt": "Prancūziškas skrebutis su kiaušiniais"
+  },
+  "description": {
+    "lt": "Prancūziškas skrebutis – tai populiarus pusryčių ar deserto patiekalas, gaminamas iš kepamo duonos gabalėlio, pamirkyto kiaušinių tešloje. Šis receptas leidžia panaudoti seną, sustingusią duoną, kurią galima lengvai paversti skaniu ir aromatingu patiekalu. Naudodami jūsų mėgstamus prieskonius ir priedus, paverskite šį patiekalą tikru desertu."
+  },
+  "seo": {
+    "metaTitle": "Prancūziškas skrebutis su kiaušiniais | Pusryčių receptas",
+    "metaDescription": "Išmokite gaminti prancūzišką skrebutį su kiaušiniais ir prieskoniais. Idealus pusryčių ar deserto pasirinkimas su įvairiais priedais.",
+    "keywords": [
+      "prancūziškas skrebutis",
+      "skrebutis su kiaušiniais",
+      "pusryčiai",
+      "desertas",
+      "prieskoniai"
+    ],
+    "recipeCategory": "pusryciai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 250,
+      "proteinContent": "6g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-30-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/pusryciai",
+  "secondaryCategories": [
+    "receptai/desertai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Kiaušinis"
+      },
+      "quantity": "1 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Duona"
+      },
+      "quantity": "2-3 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanilės ekstraktas"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "0.5 arb. šaukštelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "0.25 arb. šaukštelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "0.25 arb. šaukštelio",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Klevų sirupas"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Riešutai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Dubenyje išplakite kiaušinį su pienu ir prieskoniais. Įpilkite vanilės ekstraktą ir cukrų, jei norite saldesnio skonio."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimo paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę ant vidutinės ugnies. Ištirpinkite sviestą arba naudokite aliejų."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Skrebučio kepimas"
+      },
+      "text": {
+        "lt": "Duoną pamirkykite kiaušinio ir pieno mišinyje, tada dėkite į keptuvę. Kepkite, kol abi pusės gražiai paruduos ir skrebutis bus iškepęs viduje."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite skrebučius karštus, papuošę norimais priedais, pavyzdžiui, klevų sirupu ar riešutais."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint, kad skrebutis būtų traškus, naudokite kietą duoną, pavyzdžiui, ciabattą."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei norite, kad skrebutis būtų saldesnis, įberkite daugiau cukraus."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/prancuziskas-skrebutis-su-kiausiniais.jpg",
+    "alt": "Prancūziškas skrebutis su kiaušiniais ir prieskoniais",
+    "width": 401,
+    "height": 300
+  },
+  "tags": [
+    "prancūziškas skrebutis",
+    "pusryčių receptas",
+    "skanus desertas",
+    "lengvas paruošimas",
+    "kiaušinių patiekalas"
+  ],
+  "author": {
+    "name": "Klaus",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Klaus"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:French_Toast",
+    "pageTitle": "Cookbook:French_Toast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:09:46.126Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Toast&action=history",
+    "originalCreator": {
+      "name": "Klaus",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Klaus"
+    }
+  },
+  "originalImage": {
+    "fileName": "Frenchtoast.jpg",
+    "author": {
+      "name": "jspatchwork",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Rhetth~commonswiki"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Frenchtoast.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T16:09:46+03:00",
+  "createdAt": "2026-01-04T16:09:46+03:00",
+  "updatedAt": "2026-01-04T16:09:46+03:00"
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "kepti-zali-pomidorai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kepti-zali-pomidorai",
+  "title": {
+    "lt": "Kepti žali pomidorai"
+  },
+  "description": {
+    "lt": "Kepti žali pomidorai yra puikus užkandis ar garnyras, populiarus Pietų JAV virtuvėje. Šis receptas su kukurūzų miltais suteikia traškumo ir išskirtinio skonio. Patiekite su ožkos sūriu, kad patiekalas būtų dar ypatingesnis!"
+  },
+  "seo": {
+    "metaTitle": "Kepti žali pomidorai | Pietų JAV virtuvės receptas",
+    "metaDescription": "Traškūs kepti žali pomidorai su kukurūzų miltais – puikus užkandis ar garnyras iš Pietų JAV virtuvės. Patiekite su ožkos sūriu ypatingam skoniui.",
+    "keywords": [
+      "kepti žali pomidorai",
+      "pietų JAV virtuvė",
+      "kukurūzų miltai",
+      "užkandis",
+      "traškus garnyras"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Pietų JAV",
+    "nutrition": {
+      "calories": 180,
+      "proteinContent": "2g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 6,
+  "totalTimeMinutes": 16,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Žalieji pomidorai"
+      },
+      "quantity": "4–6 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pipirai"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kukurūzų miltai"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Ožkos sūris"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pomidorų paruošimas"
+      },
+      "text": {
+        "lt": "Supjaustykite žalius pomidorus 0,75–1,25 cm storio griežinėliais. Pabarstykite druska ir pipirais pagal skonį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Panardinkite pomidorų griežinėlius į kukurūzų miltus. Kepkite juos karštame aliejuje ant vidutinės ugnies apie 3 minutes arba kol apačia taps auksinės spalvos. Atsargiai apverskite ir kepkite kitą pusę."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite keptus žalius pomidorus vienus arba su šiek tiek ožkos sūrio, kad suteiktumėte elegancijos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Kukurūzų miltai suteikia ypatingo traškumo, todėl jų negailėkite."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kepti-zali-pomidorai.jpg",
+    "alt": "Kepti žali pomidorai su kukurūzų miltais",
+    "width": 1024,
+    "height": 716
+  },
+  "tags": [
+    "kepti žali pomidorai",
+    "pietų JAV virtuvė",
+    "traškus užkandis",
+    "kukurūzų miltai",
+    "lengvas receptas"
+  ],
+  "author": {
+    "name": "64.128.132.2",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:64.128.132.2"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Green_Tomatoes",
+    "pageTitle": "Cookbook:Fried_Green_Tomatoes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:16:35.513Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Green_Tomatoes&action=history",
+    "originalCreator": {
+      "name": "64.128.132.2",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:64.128.132.2"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_green_tomatoes.jpg",
+    "author": {
+      "name": "ninjapoodles",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hovev"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Fried_green_tomatoes.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:00:00+03:00",
+  "createdAt": "2026-01-04T19:00:00+03:00",
+  "updatedAt": "2026-01-04T19:00:00+03:00"
+}

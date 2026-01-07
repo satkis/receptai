@@ -1,0 +1,88 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dambun_Masara",
+    "pageTitle": "Cookbook:Dambun_Masara",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Gwanki",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gwanki"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ADambun_Masara&action=history",
+    "extractedAt": "2026-01-03T11:26:36.641Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Dambun Masara",
+    "slug": "dambun-masara",
+    "description": "Dambun masara is a traditional Hausa dish made from cornmeal that is steamed and mixed with vegetables and spices. This savory dish has a fluffy, crumbly texture and is a popular choice for a snack or light meal in northern Nigeria. It’s often enjoyed with a side of spicy sauce or fresh tomatoes.",
+    "ingredients": [
+      "2 cups maize (corn) flour",
+      "Water as needed",
+      "2 tablespoons vegetable oil",
+      "1 small onion, finely chopped",
+      "1 cup chopped spinach, moringa leaves, or any leafy greens (optional)",
+      "1 teaspoon ground pepper (or to taste)",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Place the corn flour in a large mixing bowl. Gradually stir in a small amount of water to moisten it slightly. The mixture should be crumbly like couscous, not sticky or dough-like.",
+      "Place the moistened corn flour in a steamer or colander over a pot of boiling water. Steam for 15–20 minutes until the corn flour becomes fluffy and cooked through.",
+      "In a large skillet, heat the vegetable oil over medium heat. Add the onions, and cook until they turn a golden brown.",
+      "Add the steamed corn flour to the pan with the onions. Add the chopped leafy greens (if using), pepper, and salt. Stir everything together to combine the flavors, cooking for an additional 10 minutes.",
+      "Serve hot with a side of spicy pepper sauce or fresh sliced tomatoes."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for swallows",
+      "Hausa recipes",
+      "Recipes using corn flour",
+      "Recipes using vegetable oil",
+      "Recipes using onion",
+      "Recipes using spinach",
+      "Recipes using pepper",
+      "Recipes using salt",
+      "Recipes using moringa"
+    ]
+  },
+  "image": {
+    "filename": "Dambun_hausa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Dambun_hausa.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dambun_hausa.jpg",
+    "localPath": "scripts/wiki/output/Dambun_hausa.jpg",
+    "dimensions": {
+      "width": 1280,
+      "height": 960
+    },
+    "fileSize": 287690,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Jamilu Muhammad080",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:SteinsplitterBot"
+    },
+    "metadata": {
+      "description": "Is a local food in Nigeria in northern Nigeria",
+      "categories": [
+        "Cuisine of Nigeria",
+        "Dambu",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Dambun_hausa.jpg"
+  }
+}

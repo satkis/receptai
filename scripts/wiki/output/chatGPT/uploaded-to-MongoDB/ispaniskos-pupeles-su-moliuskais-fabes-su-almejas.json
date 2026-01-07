@@ -1,0 +1,252 @@
+{
+  "slug": "ispaniskos-pupeles-su-moliuskais-fabes-su-almejas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/ispaniskos-pupeles-su-moliuskais-fabes-su-almejas",
+  "title": {
+    "lt": "Ispaniškos pupelės su moliuskais (Fabes su almejas)"
+  },
+  "description": {
+    "lt": "Ispaniškos pupelės su moliuskais, dar žinomos kaip Fabes su almejas, yra gardus ir sotus troškinys iš Astūrijos regiono Ispanijoje. Šis receptas apjungia baltąsias pupeles su šviežiais moliuskais, svogūnais, česnakais ir šafranu, kurie suteikia patiekalui išskirtinį skonį. Puikiai tinka žiemos vakarienei ar kaip šventinis patiekalas."
+  },
+  "seo": {
+    "metaTitle": "Ispaniškos pupelės su moliuskais (Fabes su almejas) | Tradicinis receptas",
+    "metaDescription": "Tradicinis Astūrijos regiono ispaniškas pupelių ir moliuskų troškinys su šafranu ir česnakais. Puikiai tinka žiemos vakarienei arba šventiniam stalui.",
+    "keywords": [
+      "ispaniškos pupelės",
+      "fabes su almejas",
+      "moliuskų troškinys",
+      "ispaniška virtuvė",
+      "Astūrijos receptai"
+    ],
+    "recipeCategory": "trokiniai",
+    "recipeCuisine": "Ispanų",
+    "nutrition": {
+      "calories": 400,
+      "proteinContent": "20g",
+      "fatContent": "15g",
+      "fiberContent": "10g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 80,
+  "totalTimeMinutes": 90,
+  "timeCategory": "iki-120-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/trokiniai",
+  "secondaryCategories": [
+    "receptai/juros-gerybes"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baltosios pupelės"
+      },
+      "quantity": "450g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Moliuskai"
+      },
+      "quantity": "24 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "3 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Lauro lapai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Svogūnas"
+      },
+      "quantity": "1/2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šafranas"
+      },
+      "quantity": "Žiupsnelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Saldžioji paprika"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Petražolės"
+      },
+      "quantity": "1/4 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Traški duona"
+      },
+      "quantity": "1 didelis kepalas",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Pupelių mirkymas"
+      },
+      "text": {
+        "lt": "Išskalaukite pupeles ir mirkykite jas per naktį."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Moliuskų paruošimas"
+      },
+      "text": {
+        "lt": "Nuplaukite moliuskus, kad jie būtų švarūs."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Troškinio ruošimas"
+      },
+      "text": {
+        "lt": "Nusausinkite pupeles ir sudėkite jas į puodą su svogūnu, česnaku, petražolėmis, lauro lapais ir alyvuogių aliejumi. Užpilkite tiek vandens, kad apsemtų, ir virkite ant stiprios ugnies."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pupelių virimas"
+      },
+      "text": {
+        "lt": "Kai užverda, sumažinkite ugnį ir uždenkite. Virkite apie 90 minučių, kartais pamaišydami ir prireikus papildydami vandeniu."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Moliuskų gaminimas"
+      },
+      "text": {
+        "lt": "Kai pupelės beveik paruoštos, į kitą puodą įdėkite moliuskus su vandeniu. Virkite ant vidutinės ugnies, kol moliuskai atsivers. Tai truks apie 10 minučių. Išimkite juos ir atidėkite."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Sultinio paruošimas"
+      },
+      "text": {
+        "lt": "Patikrinkite sultinį nuo nešvarumų ir, jei reikia, perkoškite. Supilkite į pupeles kartu su šafranu, likusiomis petražolėmis, paprika ir druska."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Troškinį dar pavirkite 5-10 minučių. Patiekite pupeles su sultiniu ir moliuskais, pridėkite traškios duonos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Visada laikykitės saugaus moliuskų tvarkymo taisyklių."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/ispaniskos-pupeles-su-moliuskais-fabes-su-almejas.jpg",
+    "alt": "Ispaniškos pupelės su moliuskais, patiekiamos su traškia duona",
+    "width": 800,
+    "height": 600
+  },
+  "tags": [
+    "ispaniškos pupelės",
+    "fabes su almejas",
+    "moliuskų troškinys",
+    "ispaniška virtuvė",
+    "Astūrijos receptai"
+  ],
+  "author": {
+    "name": "Moby-Dick4000",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Moby-Dick4000"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fabes_con_Almejas_(Spanish_Beans_with_Clams)",
+    "pageTitle": "Cookbook:Fabes_con_Almejas_(Spanish_Beans_with_Clams)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:57:48.800Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFabes_con_Almejas_(Spanish_Beans_with_Clams)&action=history",
+    "originalCreator": {
+      "name": "Moby-Dick4000",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Moby-Dick4000"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fabes_con_almejas_-_Jlastras.jpg",
+    "author": {
+      "name": "jlastras",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Tamorlan"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Fabes_con_almejas_-_Jlastras.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T18:57:48+03:00",
+  "createdAt": "2026-01-04T18:57:48+03:00",
+  "updatedAt": "2026-01-04T18:57:48+03:00"
+}

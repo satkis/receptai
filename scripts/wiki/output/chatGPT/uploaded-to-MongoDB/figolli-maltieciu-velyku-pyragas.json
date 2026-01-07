@@ -1,0 +1,229 @@
+{
+  "slug": "figolli-maltieciu-velyku-pyragas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/figolli-maltieciu-velyku-pyragas",
+  "title": {
+    "lt": "Figolli - Maltiečių Velykų pyragas"
+  },
+  "description": {
+    "lt": "Figolli yra tradiciniai maltiečių Velykų saldumynai. Jie gaminami grupėmis ir dovanojami draugams bei šeimai. Figolli forma paprastai būna velykinio simbolio, tačiau šiandien galima rasti įvairių formų. Šiame recepte sužinosite, kaip pasigaminti paprastus figolli, kuriuos galima dekoruoti šokoladu arba glazūra."
+  },
+  "seo": {
+    "metaTitle": "Figolli - Maltiečių Velykų pyragas | Tradicinis receptas",
+    "metaDescription": "Sužinokite, kaip pasigaminti tradicinius maltiečių Velykų saldumynus figolli. Pasiruoškite skanius pyragėlius su migdolais, apelsinais ir glazūra.",
+    "keywords": [
+      "figolli",
+      "maltiečių pyragas",
+      "velykiniai saldumynai",
+      "migdolų pyragas",
+      "tradiciniai receptai"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Maltiečių",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "6g",
+      "fatContent": "15g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/vaikams"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Savaime kylantys miltai"
+      },
+      "quantity": "800g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Margarinas"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Baltasis cukrus"
+      },
+      "quantity": "300g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Apelsinas"
+      },
+      "quantity": "1 vnt., nutarkuota žievelė",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "2-3 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maltų migdolų"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "125ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Persijokite miltus į dubenį ir įtrinkite margariną, kol mišinys taps panašūs į miltus."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kiaušinių ir cukraus maišymas"
+      },
+      "text": {
+        "lt": "Atskirkite indą, sumaišykite kiaušinius su cukrumi iki vientisos masės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Apelsinų žievelės pridėjimas"
+      },
+      "text": {
+        "lt": "Į kiaušinių ir cukraus mišinį įmaišykite nutarkuotą apelsino žievelę."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos užbaigimas"
+      },
+      "text": {
+        "lt": "Įmaišykite kiaušinių mišinį į miltų mišinį. Prireikus įpilkite šiek tiek vandens, kad tešla suformuotųsi."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Įdaro paruošimas"
+      },
+      "text": {
+        "lt": "Mažame inde pašildykite vandenį ir ištirpinkite jame cukrų, tada įmaišykite maltus migdolus."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Figolli formavimas"
+      },
+      "text": {
+        "lt": "Iškočiokite tešlą ir išpjaukite norimas figūras. Užtepkite įdarą ir uždenkite kita tešlos dalimi."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 190 °C ir kepkite figolli apie 30 minučių, kol taps aukso spalvos."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Naudokite metalines formeles, kad išgautumėte norimas figūras."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/figolli-maltieciu-velyku-pyragas.jpg",
+    "alt": "Figolli - tradicinis maltiečių Velykų pyragas",
+    "width": 209,
+    "height": 210
+  },
+  "tags": [
+    "figolli",
+    "maltiečių pyragas",
+    "velykiniai saldainiai",
+    "migdolų pyragas",
+    "tradiciniai desertai"
+  ],
+  "author": {
+    "name": "Inkwina",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Inkwina"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Figolli_(Maltese_Easter_Pastries)",
+    "pageTitle": "Cookbook:Figolli_(Maltese_Easter_Pastries)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T15:58:40.955Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFigolli_(Maltese_Easter_Pastries)&action=history",
+    "originalCreator": {
+      "name": "Inkwina",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Inkwina"
+    }
+  },
+  "originalImage": {
+    "fileName": "Heart_figolla.jpg",
+    "author": {
+      "name": "Silverlining at English Wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Heart_figolla.jpg?uselang=en#Licensing"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Heart_figolla.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T15:58:40+03:00",
+  "createdAt": "2026-01-04T15:58:40+03:00",
+  "updatedAt": "2026-01-04T15:58:40+03:00"
+}

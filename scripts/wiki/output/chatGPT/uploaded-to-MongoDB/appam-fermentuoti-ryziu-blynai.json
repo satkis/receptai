@@ -1,0 +1,218 @@
+{
+  "slug": "appam-fermentuoti-ryziu-blynai",
+  "canonicalUrl": "https://ragaujam.lt/receptas/appam-fermentuoti-ryziu-blynai",
+  "title": {
+    "lt": "Appam - fermentuoti ryžių blynai"
+  },
+  "description": {
+    "lt": "Appam yra fermentuoti ryžių blynai, kurie yra populiarūs Pietų Indijoje, ypač Kerala valstijoje. Šie blynai dažnai patiekiami su kokoso skonio daržovių troškiniu. Jie taip pat mėgstami Šri Lankoje, kur žinomi kaip 'appa' arba 'hopper'."
+  },
+  "seo": {
+    "metaTitle": "Appam - fermentuoti ryžių blynai | Pietų Indijos receptas",
+    "metaDescription": "Autentiškas Appam receptas iš Pietų Indijos. Fermentuoti ryžių blynai su kokoso skonio daržovių troškiniu. Puikiai tinkantis pusryčiams ar pietums.",
+    "keywords": [
+      "appam",
+      "fermentuoti blynai",
+      "ryžių blynai",
+      "pietų indijos virtuvė",
+      "vegetariški blynai"
+    ],
+    "recipeCategory": "miltiniai",
+    "recipeCuisine": "Pietų Indijos",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "3g",
+      "fatContent": "6g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 10,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 35,
+  "totalTimeMinutes": 50,
+  "timeCategory": "iki-60-min",
+  "servings": 12,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/miltiniai",
+  "secondaryCategories": [
+    "receptai/pusryciai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baltos ryžiai"
+      },
+      "quantity": "1.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Šviežiai tarkuotas kokosas"
+      },
+      "quantity": "1.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 šaukštas",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arbatinis šaukštelis arba pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Virti balti ryžiai"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "2-2.5 puodelio",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Mielės"
+      },
+      "quantity": "0.5 arbatinio šaukštelio",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Ryžių mirkymas"
+      },
+      "text": {
+        "lt": "Mirkykite nevirtus ryžius vandenyje, kol jie suminkštės."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Malimas"
+      },
+      "text": {
+        "lt": "Sumalkite mirkytus ryžius, kol jie bus maždaug ketvirtadaliais sumalti."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kokoso įmaišymas"
+      },
+      "text": {
+        "lt": "Įdėkite tarkuotą kokosą ir truputį vandens, tęskite malimą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Pridėkite cukrų, virtus ryžius ir mieles, ir toliau malkite, kol mišinys bus lygus ir skystesnis nei blynų tešla."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Fermentacija"
+      },
+      "text": {
+        "lt": "Perkelkite į platų indą ir palikite nakčiai fermentuotis."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Blynų kepimas"
+      },
+      "text": {
+        "lt": "Keptuvėje su šiek tiek aliejaus ar ghee sviestu kepkite blynus, kol jie taps auksiniai kraštuose."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norint užtikrinti gerą fermentaciją, į tešlą galima pridėti arba mielių arba kefyro."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Malimas gali būti atliekamas trintuvu, įsitikinkite, kad yra pakankamai skysčio."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/appam-fermentuoti-ryziu-blynai.jpg",
+    "alt": "Appam fermentuoti ryžių blynai su kokoso pienu",
+    "width": 2362,
+    "height": 1064
+  },
+  "tags": [
+    "appam",
+    "fermentuoti blynai",
+    "ryžių blynai",
+    "vegetariški blynai",
+    "pietų indijos virtuvė"
+  ],
+  "author": {
+    "name": "Paulcox",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Appam_(Fermented_Rice_Pancake)",
+    "pageTitle": "Cookbook:Appam_(Fermented_Rice_Pancake)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-21T14:04:09.171Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAppam_(Fermented_Rice_Pancake)&action=history",
+    "originalCreator": {
+      "name": "Paulcox",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Paulcox"
+    }
+  },
+  "originalImage": {
+    "fileName": "Appam_served_with_Coconut_Milk_in_Tamil_Nadu.JPG",
+    "author": {
+      "name": "KARTY JazZ",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:KARTY%20JazZ"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Appam_served_with_Coconut_Milk_in_Tamil_Nadu.JPG"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-21T17:04:09+03:00",
+  "createdAt": "2025-11-21T17:04:09+03:00",
+  "updatedAt": "2025-11-21T17:04:09+03:00"
+}

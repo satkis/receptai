@@ -1,0 +1,79 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Adobo_Chicken_(Philippine)",
+    "pageTitle": "Cookbook:Adobo_Chicken_(Philippine)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "198.232.60.10",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:198.232.60.10"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAdobo_Chicken_(Philippine)&action=history",
+    "extractedAt": "2025-11-21T12:45:02.502Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Adobo Chicken (Philippine)",
+    "slug": "adobo-chicken-philippine",
+    "description": "Adobo chicken is the most indigenous in the Philippines. It has evolved over the centuries to prepare foods that won't spoil easily in a tropical climate. The vinegar gives it a tangy taste and acts as a preservative. Each region has its own version, but pork and/or chicken are most commonly used. The steps below are the traditional way of making adobo. The soy sauce gives it a savoury taste.",
+    "ingredients": [
+      "6–8 chicken pieces, preferably legs and wings",
+      "⅓ cup (80 ml) vinegar made from coconut juice (as a variant, try balsamic vinegar)",
+      "¼ cup (60 ml) soy sauce",
+      "4 cloves of garlic, crushed",
+      "1–2 bay leaves",
+      "½ tsp (2.5 ml) freshly cracked (not ground) black peppercorns"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 3,
+    "category": "Filipino recipes",
+    "categories": [
+      "Recipes using chicken",
+      "Filipino recipes",
+      "Slow cooker recipes",
+      "Naturally gluten-free recipes",
+      "Recipes with metric units",
+      "Recipes using bay leaf",
+      "Recipes using garlic"
+    ]
+  },
+  "image": {
+    "filename": "Chicken_Adobo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chicken_Adobo.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Adobo.jpg",
+    "localPath": "scripts/wiki/output/Chicken_Adobo.jpg",
+    "dimensions": {
+      "width": 3072,
+      "height": 2304
+    },
+    "fileSize": 3350318,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Witchy2006 at English Wikipedia",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Webaware"
+    },
+    "metadata": {
+      "description": "Taken by my own camera.",
+      "categories": [
+        "Adobo (Filipino cuisine)",
+        "Taken with Sony DSC-W55",
+        "PD-user"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Chicken_Adobo.jpg"
+  }
+}

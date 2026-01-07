@@ -1,0 +1,95 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Aj%C3%AD_de_Gallina_(Peruvian_Chili_Chicken)",
+    "pageTitle": "Cookbook:Ají_de_Gallina_(Peruvian_Chili_Chicken)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Moby-Dick4000",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Moby-Dick4000"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AAj%C3%AD_de_Gallina_(Peruvian_Chili_Chicken)&action=history",
+    "extractedAt": "2025-11-21T14:03:52.201Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Ají de Gallina (Peruvian Chili Chicken)",
+    "slug": "aj-de-gallina-peruvian-chili-chicken",
+    "description": "'''''''''' (Spanish for chili pepper chicken) is a traditional Peruvian dish which has its roots in the social upheaval of the French Revolution in 1789.",
+    "ingredients": [
+      "1300 g (4 lb) chicken",
+      "120 ml (½ cup) of olive oil",
+      "1 large finely chopped onion",
+      "8 cloves of minced garlic",
+      "3 hot yellow South American chilis (seeds and filaments removed): Adjust quantity for individual taste.",
+      "Salt and pepper to taste",
+      "1 chicken stock cube",
+      "¼ loaf of bread",
+      "110 g (¼ lb) of chopped pecans",
+      "110 g (4 ounces) grated Parmesan cheese",
+      "1 can of evaporated milk",
+      "1.6 kg (3.5 lbs) boiled rice (flavored with chopped garlic and salt)",
+      "4 hard boiled eggs",
+      "6 potatoes",
+      "120 g (½ cup) black olives"
+    ],
+    "instructions": [],
+    "notes": [],
+    "servings": 8,
+    "totalTimeMinutes": 45,
+    "difficulty": 2,
+    "category": null,
+    "categories": [
+      "Featured recipes",
+      "Peruvian recipes",
+      "Recipes using chicken",
+      "Recipes using rice",
+      "Recipes_with_metric_units",
+      "Boiled recipes",
+      "Recipes with images",
+      "Recipes using parmesan",
+      "Recipes using evaporated milk",
+      "Recipes using dehydrated broth",
+      "Recipes using bread",
+      "Recipes using garlic"
+    ]
+  },
+  "image": {
+    "filename": "vistiena-pagal-peru-recepta-aji-de-gallina.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Aj%C3%AD_de_gallina_%28gourmet%29-b.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aj%C3%AD_de_gallina_(gourmet)-b.jpg",
+    "localPath": "scripts/wiki/output/Ají_de_gallina_(gourmet)-b.jpg",
+    "dimensions": {
+      "width": 2000,
+      "height": 1518
+    },
+    "fileSize": 2174193,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Dtarazona",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Xauxa"
+    },
+    "metadata": {
+      "description": "Ají de gallina, traditional meal of Peruvian creole cuisine.",
+      "categories": [
+        "Ají de gallina",
+        "Taken with Sony DSC-S650",
+        "Retouched pictures",
+        "Self-published work",
+        "PD-self"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Ají_de_gallina_(gourmet)-b.jpg"
+  }
+}

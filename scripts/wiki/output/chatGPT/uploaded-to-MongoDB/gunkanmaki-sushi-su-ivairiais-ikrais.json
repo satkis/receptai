@@ -1,0 +1,201 @@
+{
+  "slug": "gunkanmaki-sushi-su-ivairiais-ikrais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/gunkanmaki-sushi-su-ivairiais-ikrais",
+  "title": {
+    "lt": "Gunkanmaki sushi su įvairiais ikrais"
+  },
+  "description": {
+    "lt": "Gunkanmaki – tai japoniškas sushi, kurio pagrindą sudaro ovalios formos ryžiai, apvynioti nori juostele ir papuošti įvairiais ikrais ar kitais priedais. Šis receptas puikiai tiks norintiems išbandyti kažką naujo ir įspūdingo savo virtuvėje."
+  },
+  "seo": {
+    "metaTitle": "Gunkanmaki sushi | Receptas su nori ir ikrais",
+    "metaDescription": "Japoniškas Gunkanmaki sushi – patiekalas su nori, ryžiais ir įvairiais ikrais. Ideali užkandėlė ar šventės akcentas, praturtinantis jūsų stalą.",
+    "keywords": [
+      "gunkanmaki sushi",
+      "japoniškas sushi",
+      "ikrai",
+      "nori",
+      "užkandis"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Japonų",
+    "nutrition": {
+      "calories": 300,
+      "proteinContent": "15g",
+      "fatContent": "8g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 30,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/japonu"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sushi ryžiai"
+      },
+      "quantity": "200g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Nori"
+      },
+      "quantity": "2 lapai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Jūros ežių ikrai"
+      },
+      "quantity": "50g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Lašišų ikrai"
+      },
+      "quantity": "50g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Minčtas tunas"
+      },
+      "quantity": "50g",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Agurkas"
+      },
+      "quantity": "1 vnt.",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Putpelės kiaušinis"
+      },
+      "quantity": "4 vnt.",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Nori paruošimas"
+      },
+      "text": {
+        "lt": "Nupjaukite nori juosteles, jų plotis turėtų būti apie 2.5 cm, o ilgis pakankamas, kad apvyniojus liktų bent 2.5 cm užlaida."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Ryžių formavimas"
+      },
+      "text": {
+        "lt": "Sushi ryžius suformuokite į ovalius gabalėlius, kurių matmenys būtų apie 2.5 cm pločio, 3 cm ilgio ir 2.5 cm aukščio."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Nori apvyniojimas"
+      },
+      "text": {
+        "lt": "Paimkite vieną nori juostelę ir apvyniokite aplink ryžių gabalėlį. Drėgnas nori galas padės jį tvirtai užsandarinti."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Papuošimas"
+      },
+      "text": {
+        "lt": "Uždėkite pasirinktus priedus ant sushi viršaus. Pateikti galite su lašišų ikrais, jūros ežių ikrais, tunu, agurkais ar putpelės kiaušiniu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Pasirinkite šviežius ikrus geriausiam skoniui užtikrinti."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei neturite jūros ežių ikrų, galite naudoti lašišų ikrus."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/gunkanmaki-sushi-su-ivairiais-ikrais.jpg",
+    "alt": "Gunkanmaki sushi su įvairiais ikrais ir nori",
+    "width": 2800,
+    "height": 2100
+  },
+  "tags": [
+    "gunkanmaki sushi",
+    "japoniškas sushi",
+    "ikrai",
+    "nori",
+    "užkandis"
+  ],
+  "author": {
+    "name": "Unformed",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Unformed"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gunkanmaki_(Topped_Oval_Sushi)",
+    "pageTitle": "Cookbook:Gunkanmaki_(Topped_Oval_Sushi)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:57:49.646Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGunkanmaki_(Topped_Oval_Sushi)&action=history",
+    "originalCreator": {
+      "name": "Unformed",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Unformed"
+    }
+  },
+  "originalImage": {
+    "fileName": "Salmon_roe_gunkanmaki_of_Moriya_Sakanaya_Uohei.jpg",
+    "author": {
+      "name": "Nkanplain (talk)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Nkanplain"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Salmon_roe_gunkanmaki_of_Moriya_Sakanaya_Uohei.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

@@ -1,0 +1,254 @@
+{
+  "slug": "imbierinis-pyragas-su-prieskoniais",
+  "canonicalUrl": "https://ragaujam.lt/receptas/imbierinis-pyragas-su-prieskoniais",
+  "title": {
+    "lt": "Imbierinis pyragas su prieskoniais"
+  },
+  "description": {
+    "lt": "Minkštas ir kvapnus imbierinis pyragas, pagamintas su prieskoniais ir auksiniu sirupu. Šis receptas puikiai tinka kaip desertui ar užkandžiui per vakarėlius. Galite išbandyti ir parkiną, pridėję avižinių miltų."
+  },
+  "seo": {
+    "metaTitle": "Imbierinis pyragas su prieskoniais | Kvapnus ir minkštas receptas",
+    "metaDescription": "Minkštas imbierinis pyragas su prieskoniais ir auksiniu sirupu. Puikus desertas ar užkandis vakarėliams. Išbandykite ir parkiną su avižiniais miltais.",
+    "keywords": [
+      "imbierinis pyragas",
+      "prieskonių pyragas",
+      "auksinis sirupas",
+      "minkštas pyragas",
+      "desertas vakarėliams"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Anglų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "4g",
+      "fatContent": "14g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 80,
+  "timeCategory": "iki-120-min",
+  "servings": 10,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/pusryciai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "110g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudasis cukrus"
+      },
+      "quantity": "110g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Auksinis sirupas"
+      },
+      "quantity": "220g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Miltai"
+      },
+      "quantity": "220g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kepimo milteliai"
+      },
+      "quantity": "5ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Prieskoniai"
+      },
+      "quantity": "5ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Malti imbierai"
+      },
+      "quantity": "10ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kiaušiniai"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pienas"
+      },
+      "quantity": "120ml",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sviesto ir cukraus tirpinimas"
+      },
+      "text": {
+        "lt": "Puode švelniai kaitink sviestą, cukrų ir auksinį sirupą, kol sviestas ištirps."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos maišymas"
+      },
+      "text": {
+        "lt": "Į dubenį sudėk sausas sudedamąsias dalis. Supilk lydytą sviesto mišinį ir gerai išplak."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pieno pašildymas"
+      },
+      "text": {
+        "lt": "Puode lengvai pašildyk pieną, kad jis ištirpdytų sirupą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Pieno įmaišymas"
+      },
+      "text": {
+        "lt": "Įpilk pašildytą pieną į dubenį ir gerai išmaišyk."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Kiaušinių įmaišymas"
+      },
+      "text": {
+        "lt": "Išplak kiaušinius ir įmaišyk juos į tešlą."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Paruošimas kepimui"
+      },
+      "text": {
+        "lt": "Supilk tešlą į 20 cm išteptą kepimo formą."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Kepk 170°C temperatūroje 1 valandą."
+      }
+    },
+    {
+      "step": 8,
+      "name": {
+        "lt": "Atvėsinimas"
+      },
+      "text": {
+        "lt": "Atvėsink pyragą formoje 15 minučių, tada išimk."
+      }
+    },
+    {
+      "step": 9,
+      "name": {
+        "lt": "Laikymas ir patiekimas"
+      },
+      "text": {
+        "lt": "Palik pyragą bent 1 dieną prieš pjaustymą kvadratėliais. Patiek."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Norėdami paruošti parkiną, pusę kvietinių miltų pakeiskite avižiniais miltais."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/imbierinis-pyragas-su-prieskoniais.jpg",
+    "alt": "Imbierinis pyragas - kvapnus ir minkštas",
+    "width": 2048,
+    "height": 1536
+  },
+  "tags": [
+    "imbierinis pyragas",
+    "prieskonių pyragas",
+    "auksinis sirupas",
+    "minkštas pyragas",
+    "desertas vakarėliams"
+  ],
+  "author": {
+    "name": "Carandol",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Carandol"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gingerbread",
+    "pageTitle": "Cookbook:Gingerbread",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:45:04.024Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGingerbread&action=history",
+    "originalCreator": {
+      "name": "Carandol",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Carandol"
+    }
+  },
+  "originalImage": {
+    "fileName": "GingerbreadCake.jpg",
+    "author": {
+      "name": "cj from Vancouver, Canada",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:File%20Upload%20Bot%20(Magnus%20Manske)"
+    },
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/GingerbreadCake.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:45:04+03:00",
+  "createdAt": "2026-01-06T16:45:04+03:00",
+  "updatedAt": "2026-01-06T16:45:04+03:00"
+}

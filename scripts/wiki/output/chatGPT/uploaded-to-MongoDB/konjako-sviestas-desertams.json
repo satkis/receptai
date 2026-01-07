@@ -1,0 +1,174 @@
+{
+  "slug": "konjako-sviestas-desertams",
+  "canonicalUrl": "https://ragaujam.lt/receptas/konjako-sviestas-desertams",
+  "title": {
+    "lt": "Konjako sviestas"
+  },
+  "description": {
+    "lt": "Konjako sviestas yra klasikinis pasirinkimas šventiniams desertams, pvz., Kalėdiniam pudingui ar karštiems pyragėliams. Kreminis sviestas su cukrumi ir konjaku suteiks jūsų desertams nepakartojamą skonį."
+  },
+  "seo": {
+    "metaTitle": "Konjako sviestas | Receptas šventiniams desertams",
+    "metaDescription": "Pagaminkite konjako sviestą, puikiai derantį su Kalėdiniu pudingu ar karštais pyragėliais. Kreminis sviestas su konjaku ir cukrumi – šventiniam stalui.",
+    "keywords": [
+      "konjako sviestas",
+      "šventiniai desertai",
+      "sviestas su konjaku",
+      "Kalėdinis pudingas",
+      "šventinis stalas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 75,
+      "proteinContent": "0g",
+      "fatContent": "6g",
+      "fiberContent": "0g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 8,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 5,
+  "totalTimeMinutes": 10,
+  "timeCategory": "iki-15-min",
+  "servings": 8,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/seimai",
+    "receptai/uzkandziai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "75g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "75g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Konjakas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Sviesto ir cukraus plakimas"
+      },
+      "text": {
+        "lt": "Sumaišykite sviestą su cukrumi, kol mišinys taps lengvas ir purus. Tai pagrindas konjako sviestui."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Konjako įmaišymas"
+      },
+      "text": {
+        "lt": "Pamažu įplakite konjaką į sviesto ir cukraus mišinį. Tai suteiks sviestui išskirtinį skonį."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Atšaldymas"
+      },
+      "text": {
+        "lt": "Atvėsinkite mišinį prieš patiekiant, kad skoniai susijungtų."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Patiekite su Kalėdiniu pudingu ar karštais pyragėliais, kad užbaigtumėte šventinį patiekalą."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Konjako sviestas gali būti laikomas kelias savaites šaldytuve."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Jei norite, galite pridėti vanilės ekstrakto ar citrusinių vaisių žievelės."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/konjako-sviestas-desertams.jpg",
+    "alt": "Konjako sviestas, patiekiamas su Kalėdiniu pudingu",
+    "width": 3200,
+    "height": 2133
+  },
+  "tags": [
+    "konjako sviestas",
+    "šventiniai desertai",
+    "Kalėdinis pudingas",
+    "greitas receptas",
+    "sviestas su konjaku"
+  ],
+  "author": {
+    "name": "72.189.206.212",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:72.189.206.212"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Brandy_Butter",
+    "pageTitle": "Cookbook:Brandy_Butter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2025-11-27T13:11:11.382Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABrandy_Butter&action=history",
+    "originalCreator": {
+      "name": "72.189.206.212",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:72.189.206.212"
+    }
+  },
+  "originalImage": {
+    "fileName": "Brandy_butter.jpg",
+    "author": {
+      "name": "Matt Biddulph",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:FlickreviewR"
+    },
+    "license": {
+      "code": "cc-by-sa-2.0",
+      "shortName": "CC BY-SA 2.0",
+      "fullName": "Creative Commons Attribution-Share Alike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "wikimediaCommonsUrl": "https://commons.wikimedia.org/wiki/File:Brandy_butter.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2025-11-27T16:11:11+03:00",
+  "createdAt": "2025-11-27T16:11:11+03:00",
+  "updatedAt": "2025-11-27T16:11:11+03:00"
+}

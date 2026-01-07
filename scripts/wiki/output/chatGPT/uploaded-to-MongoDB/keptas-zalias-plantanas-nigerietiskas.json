@@ -1,0 +1,165 @@
+{
+  "slug": "keptas-zalias-plantanas-nigerietiskas",
+  "canonicalUrl": "https://ragaujam.lt/receptas/keptas-zalias-plantanas-nigerietiskas",
+  "title": {
+    "lt": "Keptas žalias plantanas - Nigerietiškas skonis"
+  },
+  "description": {
+    "lt": "Keptas žalias plantanas yra pagaminamas iš žalio plantano, todėl dažnai vadinamas žaliu plantanu. Šis patiekalas puikiai dera su keptomis bulvėmis ar kiaušinių padažu. Paprasta pagaminti ir tuo pačiu suteikia egzotišką skonį."
+  },
+  "seo": {
+    "metaTitle": "Keptas žalias plantanas | Nigerietiškas receptas",
+    "metaDescription": "Keptas žalias plantanas, patiekiamas su keptomis bulvėmis ar kiaušinių padažu. Paprastas nigerietiškas receptas su egzotišku skoniu.",
+    "keywords": [
+      "keptas plantanas",
+      "nigerietiška virtuvė",
+      "egzotiškas patiekalas",
+      "kepti patiekalai",
+      "žalias plantanas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigeriečių",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "1g",
+      "fatContent": "10g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 25,
+  "timeCategory": "iki-30-min",
+  "servings": 2,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/kepta-keptuveje"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Žalias plantanas"
+      },
+      "quantity": "2 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Maltas pipiras"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "Pagal skonį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Augalinis aliejus"
+      },
+      "quantity": "Pakankamai kepimui",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Nulupkite žalius plantanus ir supjaustykite juos mažais griežinėliais. Pagardinkite pipirais ir druska."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite pakankamą kiekį aliejaus keptuvėje, kad galėtumėte giliai kepti plantanus. Kepkite, kol plantanai taps auksiniai ir traškūs."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite plantanus iš aliejaus ir leiskite jiems nusivarvėti ant popierinio rankšluosčio. Patiekite karštus su keptomis bulvėmis arba kiaušinių padažu."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Plantanai yra skanūs ir vieni, bet puikiai tinka ir kaip garnyras šalia kitų patiekalų."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/keptas-zalias-plantanas-nigerietiskas.jpg",
+    "alt": "Keptas žalias plantanas - Nigerietiškas skonis",
+    "width": 648,
+    "height": 486
+  },
+  "tags": [
+    "keptas plantanas",
+    "nigerietiškas receptas",
+    "egzotiškas skonis",
+    "lengvas užkandis",
+    "kepti patiekalai"
+  ],
+  "author": {
+    "name": "Taoheedah",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Unripe_Plantain_(Nigerian_Green_Plantain)",
+    "pageTitle": "Cookbook:Fried_Unripe_Plantain_(Nigerian_Green_Plantain)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:21:08.661Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Unripe_Plantain_(Nigerian_Green_Plantain)&action=history",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    }
+  },
+  "originalImage": {
+    "fileName": "Fried_plantains.jpg",
+    "author": {
+      "name": "Dmitri Lytov",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Dmitri%20Lytov"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Fried_plantains.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:21:08+03:00",
+  "createdAt": "2026-01-04T19:21:08+03:00",
+  "updatedAt": "2026-01-04T19:21:08+03:00"
+}

@@ -1,0 +1,96 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fresh_Mozzarella_Bruschetta",
+    "pageTitle": "Cookbook:Fresh_Mozzarella_Bruschetta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "66.30.112.169",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:66.30.112.169"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFresh_Mozzarella_Bruschetta&action=history",
+    "extractedAt": "2026-01-04T16:10:54.041Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fresh Mozzarella Bruschetta",
+    "slug": "fresh-mozzarella-bruschetta",
+    "description": "Bruschette are small, open-faced sandwiches of tomato and mozzarella cheese. They are delicious, quick and easy to make, and perfect appetizers.",
+    "ingredients": [
+      "1 long loaf of crusty French bread",
+      "3 medium ripe Roma tomatoes",
+      "3 large fresh mozzarella balls",
+      "24 fresh basil leaves",
+      "Coarse salt",
+      "Black pepper",
+      "Extra virgin olive oil",
+      "Oregano",
+      "Balsamic vinegar"
+    ],
+    "instructions": [
+      "Cut bread into ½ inch (1.27 cm) slices on the diagonal.",
+      "Lightly toast bread in the oven on both sides.",
+      "Cut tomatoes into ¼ inch (0.75 cm) slices, and place one on each slice of bread.",
+      "Cut mozzarella balls into ¼ inch (0.75cm) slices and place on top of tomato.",
+      "Slice basil into thin strips and sprinkle on top with the oregano.",
+      "Combine olive oil and balsamic vinegar (to taste) in a small bowl",
+      "Drizzle bruschetta with the mixture and sprinkle with salt and pepper."
+    ],
+    "notes": [
+      "An optional re-toasting with toppings on will make the mozzarella melt and be even more delicious.",
+      "Authentic Italian bruschetta begins with rubbing roasted garlic cloves on the toasted bread slices."
+    ],
+    "servings": null,
+    "totalTimeMinutes": 15,
+    "difficulty": 2,
+    "category": null,
+    "categories": [
+      "Italian recipes|{{PAGENAME}}",
+      "Appetizer recipes|{{PAGENAME}}",
+      "Recipes using tomato|{{PAGENAME}}",
+      "Recipes using fresh mozzarella",
+      "Recipes using basil|{{PAGENAME}}",
+      "Recipes for sandwiches|{{PAGENAME}}",
+      "Featured recipes|{{PAGENAME}}",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Kid-friendly recipes",
+      "Recipes using bread"
+    ]
+  },
+  "image": {
+    "filename": "FreshMozzarellaBruschetta.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/FreshMozzarellaBruschetta.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:FreshMozzarellaBruschetta.jpg",
+    "localPath": "scripts/wiki/output/FreshMozzarellaBruschetta.jpg",
+    "dimensions": {
+      "width": 503,
+      "height": 353
+    },
+    "fileSize": 62184,
+    "license": {
+      "code": "pd",
+      "shortName": "Public domain",
+      "fullName": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FreshMozzarellaBruschetta.jpg?uselang=en#Licensing",
+      "attributionRequired": false,
+      "shareAlike": false,
+      "copyrighted": false,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "B:User:Alcinoe",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Jerem43"
+    },
+    "metadata": {
+      "description": "Fresh Mozzarella Bread",
+      "categories": [
+        "PD-user",
+        "Bruschetta",
+        "Sandwiches with mozzarella"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "FreshMozzarellaBruschetta.jpg"
+  }
+}

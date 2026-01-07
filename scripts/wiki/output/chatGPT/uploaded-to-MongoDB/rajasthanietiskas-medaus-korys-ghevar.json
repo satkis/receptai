@@ -1,0 +1,202 @@
+{
+  "slug": "rajasthanietiskas-medaus-korys-ghevar",
+  "canonicalUrl": "https://ragaujam.lt/receptas/rajasthanietiskas-medaus-korys-ghevar",
+  "title": {
+    "lt": "Rajasthanietiškas medaus korys - Ghevar"
+  },
+  "description": {
+    "lt": "Ghevar - tai Indijos delikatesas, kilęs iš Rajasthan valstijos. Šis skanėstas yra apvalios formos ir turi traškią, tačiau porėtą tekstūrą. Šiame recepte naudojamos Tarla Dalal receptų knygos įžvalgos, kad būtų galima sukurti autentišką ir gardų desertą."
+  },
+  "seo": {
+    "metaTitle": "Rajasthanietiškas medaus korys - Ghevar | Tradicinis receptas",
+    "metaDescription": "Ghevar - Indijos desertų karalius iš Rajasthan. Traškaus ir porėto skonio delikatesas, pagamintas iš miltų, ghee ir cukraus sirupo. Išbandykite autentišką receptą.",
+    "keywords": [
+      "ghevar",
+      "indijos desertas",
+      "rajasthani receptai",
+      "medaus korys",
+      "traškus desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Indų",
+    "nutrition": {
+      "calories": 350,
+      "proteinContent": "5g",
+      "fatContent": "20g",
+      "fiberContent": "1g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 90,
+  "totalTimeMinutes": 120,
+  "timeCategory": "iki-120-min",
+  "servings": 9,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "120 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "200 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Arrowroot"
+      },
+      "quantity": "10 g",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Ghee"
+      },
+      "quantity": "60 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kewra esencija"
+      },
+      "quantity": "Keletas lašų",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Cukraus sirupo paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite cukrų su vandeniu puode ir kaitinkite, kol gausite viengubą siūlo konsistencijos sirupą. Nuimkite nuo ugnies ir laikykite šiltai."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos paruošimas"
+      },
+      "text": {
+        "lt": "Dubenyje sumaišykite miltus, arrowroot ir ghee. Palaipsniui įpilkite 1 puodelį vandens, nuolat plakdami, kad susidarytų emulsija. Įpilkite dar 2 puodelius vandens, kad tešla būtų skysta, kaip plonų blynelių tešla. Laikykite vėsioje vietoje."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Ghevar kepimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite ghee keptuvėje. Jei naudojate, įdėkite ghevar formą. Vidutinėje kaitroje pilkite tešlą į formos centrą plona srovele. Kai putos nuslūgs, pridėkite dar tešlos. Pakartokite septynis kartus. Padidinkite ugnį ir supilkite šiek tiek karšto ghee į centrą, kad ghevar iškeptų."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Ghevar apdaila"
+      },
+      "text": {
+        "lt": "Kai centras sukietės ir viskas taps auksinės spalvos, atsargiai ištraukite ghevar mediniu pagaliuku. Leiskite perteklinei ghee nuvarvėti. Panardinkite ghevar į cukraus sirupą, greitai nuvarvinkite ir patiekite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pakartokite"
+      },
+      "text": {
+        "lt": "Pakartokite kepimo žingsnius su likusia tešla, kad pagamintumėte 9 gabalus ghevar."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Nereikia specialios formos ghevar kepimui – nedidelis puodas gali veikti kaip forma."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Patiekite ghevar su karšta rabri - tirštu saldinta pienu."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/rajasthanietiskas-medaus-korys-ghevar.jpg",
+    "alt": "Rajasthanietiškas medaus korys - Ghevar",
+    "width": 3264,
+    "height": 2448
+  },
+  "tags": [
+    "ghevar",
+    "indijos desertas",
+    "rajasthanietiškas skanėstas",
+    "traškus medaus korys",
+    "indų virtuvė"
+  ],
+  "author": {
+    "name": "Noopur28",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Noopur28"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ghevar_(Rajasthani_Honeycomb_Fritter)",
+    "pageTitle": "Cookbook:Ghevar_(Rajasthani_Honeycomb_Fritter)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:38:14.686Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhevar_(Rajasthani_Honeycomb_Fritter)&action=history",
+    "originalCreator": {
+      "name": "Noopur28",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Noopur28"
+    }
+  },
+  "originalImage": {
+    "fileName": "Paneer_ghevar.jpg",
+    "author": {
+      "name": "Meghana78",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:SteinsplitterBot"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Paneer_ghevar.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

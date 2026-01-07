@@ -1,0 +1,105 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cabbage_Rolls_in_Yogurt_Sauce_(Sarmi)",
+    "pageTitle": "Cookbook:Cabbage_Rolls_in_Yogurt_Sauce_(Sarmi)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Zornitsa",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Zornitsa"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACabbage_Rolls_in_Yogurt_Sauce_(Sarmi)&action=history",
+    "extractedAt": "2025-12-21T17:59:18.537Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Cabbage Rolls in Yogurt Sauce (Sarmi)",
+    "slug": "cabbage-rolls-in-yogurt-sauce-sarmi",
+    "description": "Sarmi is a Bulgarian dish of stuffed cabbage leaves, which shows significant Greek influences. For a gathering you may wish to consider presenting these somewhat 'white' rolls side-by-side with a dish of cabbage rolls in tomato sauce (see Cabbage Rolls in Tomato Sauce (Holubtsi)).",
+    "ingredients": [
+      "500 g (about 1 ⅛ lb) minced (ground) veal or beef",
+      "300 g (about ¾ lb) minced (ground) pork",
+      "1 bunch of spring onions",
+      "½ cup uncooked rice",
+      "1 cup yogurt",
+      "Parsley",
+      "Mint",
+      "Paprika (optional)",
+      "Pepper",
+      "30–40 grape or cabbage leaves (depending on the size, a substantially smaller number of leaves may be needed)",
+      "100 g butter or ½ cup sunflower oil",
+      "Salt"
+    ],
+    "instructions": [
+      "Boil the vine or cabbage leaves in salted water until they look cooked and are just bendable enough to roll. Drain and allow to cool during the following steps.",
+      "Lightly fry the finely chopped onions in a small amount of oil, and stir in a teaspoon or more of paprika.",
+      "Add the meat, rice, pepper, mint, and finely chopped parsley, then cook until the meat looks almost done.",
+      "Add ¾ cup of water, bring to a boil, then immediately cover and reduce heat to a bare minimum for 10 minutes, until the water is absorbed by the rice. Uncover and fluff as needed with a small spatula or spoon. Allow to cool to handling temperature.",
+      "Put 1 teaspoon of the meat mixture on each leaf and make into a rolled, fully enclosed, package, similar to a small egg roll. A bit more filling can be used if you are using large cabbage leaves, but try to make all the rolls somewhat uniform in size.",
+      "Arrange the rolls in a saucepan, add 1½ cups of warm water, cover, and simmer gently over low heat.",
+      "In the meantime, mix the yogurt with a bit of paprika for color (or omit if you wish to keep the dish somewhat white in color), and other spices as you desire.",
+      "When rolls are done, allow to cool a bit, gently transfer to a dish, and add the yogurt mixture to coat.",
+      "Serve with vegetables of your choice. Enjoy!"
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Bulgarian recipes|Sarmi",
+      "Recipes using ground pork|Sarmi",
+      "Recipes using veal|Sarmi",
+      "Recipes using ground beef",
+      "Recipes using rice|{{PAGENAME}}",
+      "Recipes using cabbage|{{PAGENAME}}",
+      "Appetizer recipes",
+      "Main course recipes",
+      "Recipes with images",
+      "Recipes_with_metric_units|{{PAGENAME}}",
+      "Recipes using butter",
+      "Recipes using sunflower oil",
+      "Recipes using mint"
+    ]
+  },
+  "image": {
+    "filename": "Sarmi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sarmi.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sarmi.jpg",
+    "localPath": "scripts/wiki/output/Sarmi.jpg",
+    "dimensions": {
+      "width": 1024,
+      "height": 768
+    },
+    "fileSize": 207137,
+    "license": {
+      "code": "cc-by-2.5",
+      "shortName": "CC BY 2.5",
+      "fullName": "Creative Commons Attribution 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Nk",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Nk"
+    },
+    "metadata": {
+      "description": null,
+      "categories": [
+        "Taken with Sony DSC-P72",
+        "Sarma",
+        "Files with no machine-readable author",
+        "Files with no machine-readable source",
+        "Media missing infobox template",
+        "Food preparation in Bulgaria",
+        "Preparation of cabbage rolls"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Sarmi.jpg"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "kepti-bananai-su-karamelizuotu-cukrumi",
+  "canonicalUrl": "https://ragaujam.lt/receptas/kepti-bananai-su-karamelizuotu-cukrumi",
+  "title": {
+    "lt": "Kepti bananai su karamelizuotu cukrumi"
+  },
+  "description": {
+    "lt": "Kepti bananai – tai gardus desertas arba užkandis, mėgstamas daugelyje pasaulio virtuvėse. Jie pasižymi saldžiu ir karamelizuotu skoniu, puikiai derančiu prie ledų ar blynų. Šis receptas padės jums paruošti traškius ir švelnius bananų griežinėlius, kurie taps puikiu desertu ar priedu prie kitų patiekalų."
+  },
+  "seo": {
+    "metaTitle": "Kepti bananai su karamelizuotu cukrumi | Saldus ir traškus desertas",
+    "metaDescription": "Gardus keptų bananų receptas su karamelizuotu cukrumi ir cinamonu. Puikus desertas ar priedas prie ledų ar blynų. Lengvai paruošiamas ir skanus!",
+    "keywords": [
+      "kepti bananai",
+      "karamelizuoti bananai",
+      "desertas su bananais",
+      "saldus užkandis",
+      "lengvas desertas"
+    ],
+    "recipeCategory": "desertai",
+    "recipeCuisine": "Tarptautinė",
+    "nutrition": {
+      "calories": 200,
+      "proteinContent": "1g",
+      "fatContent": "5g",
+      "fiberContent": "3g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 2,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 5,
+  "cookTimeMinutes": 15,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "lengvas",
+  "primaryCategoryPath": "receptai/desertai",
+  "secondaryCategories": [
+    "receptai/kepta-keptuveje"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Bananai"
+      },
+      "quantity": "4 vnt.",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Sviestas"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Rudasis cukrus"
+      },
+      "quantity": "2 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cinamonas"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [
+    {
+      "category": "Patiekimui",
+      "name": {
+        "lt": "Vaniliniai ledai"
+      },
+      "quantity": "Pagal skonį",
+      "vital": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę ant vidutinės ugnies ir ištirpinkite sviestą."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Kepimas"
+      },
+      "text": {
+        "lt": "Įdėkite bananų griežinėlius į keptuvę ir apibarstykite juos rudu cukrumi."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Karamelizavimas"
+      },
+      "text": {
+        "lt": "Kepkite bananus 2–3 minutes iš abiejų pusių, kol taps auksiniai ir karamelizuoti."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Papildymas"
+      },
+      "text": {
+        "lt": "Jei norite, kepimo metu pabarstykite cinamonu."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Patiekimas"
+      },
+      "text": {
+        "lt": "Išimkite keptus bananus iš keptuvės ir patiekite karštus. Galite papildyti vaniliniais ledais, jei norite."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Eksperimentuokite su skirtingais prieskoniais, tokiais kaip muskato riešutas, kad suteiktumėte dar unikalesnį skonį."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Papildomam saldumui apšlakstykite medumi arba šokoladiniu sirupu."
+      },
+      "priority": 2
+    },
+    {
+      "text": {
+        "lt": "Keptus bananus galima naudoti kaip priedą blynams, vafliams ar prancūziškam skrebučiui."
+      },
+      "priority": 3
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/kepti-bananai-su-karamelizuotu-cukrumi.jpg",
+    "alt": "Kepti bananai su karamelizuotu cukrumi ir vaniliniais ledais",
+    "width": 1280,
+    "height": 768
+  },
+  "tags": [
+    "kepti bananai",
+    "karamelizuoti bananai",
+    "desertas su bananais",
+    "lengvas desertas",
+    "greitas desertas"
+  ],
+  "author": {
+    "name": "ꠢꠣꠍꠘ ꠞꠣꠎꠣ",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:%EA%A0%A2%EA%A0%A3%EA%A0%8D%EA%A0%98%20%EA%A0%9E%EA%A0%A3%EA%A0%8E%EA%A0%A3"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fried_Bananas",
+    "pageTitle": "Cookbook:Fried_Bananas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-04T16:13:10.566Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Bananas&action=history",
+    "originalCreator": {
+      "name": "ꠢꠣꠍꠘ ꠞꠣꠎꠣ",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:%EA%A0%A2%EA%A0%A3%EA%A0%8D%EA%A0%98%20%EA%A0%9E%EA%A0%A3%EA%A0%8E%EA%A0%A3"
+    }
+  },
+  "originalImage": {
+    "fileName": "Pisang_goreng_(fried_bananas).jpg",
+    "author": {
+      "name": "Wiki Farazi",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Wiki%20Farazi"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pisang_goreng_%28fried_bananas%29.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-04T19:13:10+03:00",
+  "createdAt": "2026-01-04T19:13:10+03:00",
+  "updatedAt": "2026-01-04T19:13:10+03:00"
+}

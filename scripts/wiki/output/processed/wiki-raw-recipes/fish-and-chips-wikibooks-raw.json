@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fish_and_Chips",
+    "pageTitle": "Cookbook:Fish_and_Chips",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "65.34.186.143",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:65.34.186.143"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFish_and_Chips&action=history",
+    "extractedAt": "2026-01-04T15:59:01.374Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fish and Chips",
+    "slug": "fish-and-chips",
+    "description": "Fish and chips is a popular dish in England, New Zealand and Australia. The traditional fish in England is cod, though this is likely to fall apart or fail to cook in the middle.",
+    "ingredients": [
+      "125 g (4 oz) plain flour",
+      "125 g (4 oz) corn flour (cornstarch)",
+      "Salt",
+      "Enough cold water to form a batter",
+      "4 cod/haddock/monkfish (or any other suitable flaky fish) fillets",
+      "4 white potatoes, Maris Piper preferably",
+      "1 litre (1¾ pint) vegetable oil for deep-frying",
+      "Sea salt",
+      "1 lemon, wedged",
+      "Sprig of parsley, to garnish",
+      "Sea salt",
+      "Malt Vinegar",
+      "thumb|A w:deep fryer|deep fryer is the safest way to make fish and chips, just as they do at the chipper."
+    ],
+    "instructions": [
+      "Preheat the vegetable oil in a deep fryer to 180°C (350°F), or until a cube of bread browns in 15 seconds when added to the oil.",
+      "Peel the potatoes and cut into thick wedges. Deep-fry the potatoes in batches for 6–8 minutes or until they are crisp and golden.",
+      "Remove from the oil, and drain on kitchen paper. Sprinkle with sea salt and keep warm.",
+      "In a bowl, whisk together the plain flour, corn flour, salt, and enough cold water to form a batter.",
+      "Cut the fish into thick slices, then coat in the batter.",
+      "Deep fry the fish in batches for 5–6 minutes, depending on the size of the fish. Remove and drain on kitchen paper.",
+      "Transfer the fish and chips to serving plates and garnish with lemon wedges and sprig of parsley. Or for a fun, traditional twist, place the fried fish and chips on brown paper or newsprint.",
+      "Top with salt and/or vinegar. Typically the lemon wedges are squeezed over the fish and the vinegar is sprinkled on the chips. Also can be served with pickles, pickled onions, tartar sauce, pickled eggs, and mushy peas."
+    ],
+    "notes": [],
+    "servings": 4,
+    "totalTimeMinutes": 30,
+    "difficulty": 2,
+    "category": "Fish recipes",
+    "categories": [
+      "Recipes using fish",
+      "Recipes using potato",
+      "Deep fried recipes",
+      "English recipes",
+      "Recipes with metric units",
+      "Recipes using lemon",
+      "Recipes using cod",
+      "Recipes using cornstarch",
+      "Recipes using all-purpose flour",
+      "Recipes using vegetable oil",
+      "Recipes using haddock"
+    ]
+  },
+  "image": {
+    "filename": "Beer_Battered_Fish_and_Chips.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Beer_Battered_Fish_and_Chips.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beer_Battered_Fish_and_Chips.jpg",
+    "localPath": "scripts/wiki/output/Beer_Battered_Fish_and_Chips.jpg",
+    "dimensions": {
+      "width": 2272,
+      "height": 1704
+    },
+    "fileSize": 892751,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Gordon Joly",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:LoopZilla"
+    },
+    "metadata": {
+      "description": "Beer battered cod and Maris Piper chips, with mushy peas, tartare sauce and Budvar Dark Lager.",
+      "categories": [
+        "GFDL",
+        "Taken with Canon Digital IXUS 40",
+        "License migration redundant",
+        "Beer-based food",
+        "Self-published work",
+        "Cod dishes of the United Kingdom",
+        "Fish and chips in the United Kingdom"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Beer_Battered_Fish_and_Chips.jpg"
+  }
+}

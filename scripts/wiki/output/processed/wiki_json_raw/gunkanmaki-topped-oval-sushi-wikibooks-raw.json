@@ -1,0 +1,89 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gunkanmaki_(Topped_Oval_Sushi)",
+    "pageTitle": "Cookbook:Gunkanmaki_(Topped_Oval_Sushi)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Unformed",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Unformed"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGunkanmaki_(Topped_Oval_Sushi)&action=history",
+    "extractedAt": "2026-01-06T13:57:49.646Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gunkanmaki (Topped Oval Sushi)",
+    "slug": "gunkanmaki-topped-oval-sushi",
+    "description": "Gunkanmaki (\"battleship roll\") is a variety of sushi where a oval-shaped piece of sushi rice is wrapped with nori and topped.",
+    "ingredients": [
+      "Sushi rice",
+      "Nori",
+      "Uni (sea urchin) roe",
+      "Salmon roe",
+      "Negitoro (minced raw tuna)",
+      "Sliced cucumber",
+      "Quail egg"
+    ],
+    "instructions": [
+      "Cut nori into strips 1 inch wide and long enough to fully surround your sushi rice with at least 1 inch of overlap.",
+      "Form the sushi rice into oval pieces approximately 1 inch wide by 1¼ inch long by 1 inch high.",
+      "Starting with one end of a nori strip, fully wrap the nori around the sushi rice. Wet the inside of the overlapping nori, and press over the first end to seal the roll.",
+      "Stand the rolled rice up, and place the desired topping(s) on top of the roll as shown in the images."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for sushi|{{PAGENAME}}",
+      "Recipes using rice|{{PAGENAME}}",
+      "Side dish recipes",
+      "Appetizer recipes",
+      "Japanese recipes",
+      "Recipes using seaweed"
+    ]
+  },
+  "image": {
+    "filename": "Salmon_roe_gunkanmaki_of_Moriya_Sakanaya_Uohei.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Salmon_roe_gunkanmaki_of_Moriya_Sakanaya_Uohei.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Salmon_roe_gunkanmaki_of_Moriya_Sakanaya_Uohei.jpg",
+    "localPath": "scripts/wiki/output/Salmon_roe_gunkanmaki_of_Moriya_Sakanaya_Uohei.jpg",
+    "dimensions": {
+      "width": 2800,
+      "height": 2100
+    },
+    "fileSize": 1821274,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Nkanplain (talk)",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Nkanplain"
+    },
+    "metadata": {
+      "description": "Salmon roe gunkanmaki of conveyor belt sushi restaurant Moriya Sakanaya Uohei in Tsukubamirai City, Ibaraki Prefecture, this photo shoot on October 25, 2008.",
+      "categories": [
+        "Gunkanmaki",
+        "GFDL",
+        "Roe-based food",
+        "CC-BY-SA-3.0,2.5,2.0,1.0",
+        "License migration redundant",
+        "Salmon eggs",
+        "Self-published work",
+        "Files with coordinates missing SDC location of creation"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Salmon_roe_gunkanmaki_of_Moriya_Sakanaya_Uohei.jpg"
+  }
+}

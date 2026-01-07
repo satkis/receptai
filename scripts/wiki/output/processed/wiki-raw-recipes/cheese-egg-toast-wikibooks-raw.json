@@ -1,0 +1,88 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Cheese_Egg_Toast",
+    "pageTitle": "Cookbook:Cheese_Egg_Toast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "AnkitaS",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:AnkitaS"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ACheese_Egg_Toast&action=history",
+    "extractedAt": "2025-12-21T17:59:51.105Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Cheese Egg Toast",
+    "slug": "cheese-egg-toast",
+    "description": "*Salt to taste *Pepper to taste *4 bread slices *2 cheese slices *2 eggs *Butter, as needed",
+    "ingredients": [
+      "Salt to taste",
+      "Pepper to taste",
+      "4 bread slices",
+      "2 cheese slices",
+      "2 eggs",
+      "Butter, as needed"
+    ],
+    "instructions": [
+      "Beat eggs in a bowl. Mix in the salt and pepper.",
+      "Place a cheese slice on a bread slice, and sprinkle pepper powder over it. Place another bread slice on top, then slice the sandwich in half diagonally.",
+      "Melt butter in a pan over medium heat.",
+      "Dip the sliced sandwich in the beaten egg mixture and place in the pan. Pan fry the sandwich, flipping partway, until golden brown on both sides.",
+      "Serve immediately."
+    ],
+    "notes": [],
+    "servings": 3,
+    "totalTimeMinutes": 15,
+    "difficulty": 2,
+    "category": "Sandwich recipes",
+    "categories": [
+      "Recipes using egg",
+      "Recipes using butter",
+      "Recipes using cheese",
+      "Recipes using bread"
+    ]
+  },
+  "image": {
+    "filename": "Cheese_egg_toast.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cheese_egg_toast.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cheese_egg_toast.jpg",
+    "localPath": "scripts/wiki/output/Cheese_egg_toast.jpg",
+    "dimensions": {
+      "width": 4258,
+      "height": 2845
+    },
+    "fileSize": 3948189,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "AnkitaS",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:AnkitaS"
+    },
+    "metadata": {
+      "description": "It's cheese egg toast, am going to use it for the recipe in wikibook's cookbook.",
+      "categories": [
+        "Scrambled eggs",
+        "GFDL",
+        "Toasted sandwiches",
+        "License migration redundant",
+        "Cheese-based food",
+        "Self-published work",
+        "Uploaded with en.wp upload wizard",
+        "Photographs taken on 2012-12-07",
+        "Triangular sandwiches"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Cheese_egg_toast.jpg"
+  }
+}

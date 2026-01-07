@@ -1,0 +1,86 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Blue_Cheese_Dressing",
+    "pageTitle": "Cookbook:Blue_Cheese_Dressing",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Mahagaja",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Mahagaja"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlue_Cheese_Dressing&action=history",
+    "extractedAt": "2025-11-27T13:10:59.938Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Blue Cheese Dressing",
+    "slug": "blue-cheese-dressing",
+    "description": "Category:Recipes for salad dressing Category:United States recipes Category:Recipes with metric units Category:Recipes using blue cheese Category:Recipes using buttermilk Category:Recipes using lemon juice Category:Recipes using mayonnaise",
+    "ingredients": [
+      "2 tbsp (30 ml) lemon juice or vinegar (cider or white wine)",
+      "2/3 cup (160 ml) buttermilk",
+      "1 cup (230 g) mayonnaise",
+      "¾ cup (180 g) sour cream",
+      "½ tsp salt",
+      "½ tsp black pepper",
+      "½ tsp garlic powder",
+      "½ tsp onion powder",
+      "4 oz (115 g) any variety of blue cheese"
+    ],
+    "instructions": [
+      "Combine all ingredients except the blue cheese and whisk until smooth and homogeneous.",
+      "Dice the blue cheese into approximately ½ inch (1 cm) cubes. Most blue cheese is crumbly, so you'll wind up with a lot of crumbs as well as larger chunks.",
+      "Pour the mayonnaise mixture into a serving container and stir in the cubes and crumbs of cheese."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes for salad dressing",
+      "United States recipes",
+      "Recipes with metric units",
+      "Recipes using blue cheese",
+      "Recipes using buttermilk",
+      "Recipes using lemon juice",
+      "Recipes using mayonnaise"
+    ]
+  },
+  "image": {
+    "filename": "Blue_cheese_dressing.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Blue_cheese_dressing.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Blue_cheese_dressing.jpg",
+    "localPath": "scripts/wiki/output/Blue_cheese_dressing.jpg",
+    "dimensions": {
+      "width": 1875,
+      "height": 1538
+    },
+    "fileSize": 566101,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "jules",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Belbury"
+    },
+    "metadata": {
+      "description": "One Pot Chicken served with brocolli and blue cheese dressing.",
+      "categories": [
+        "Blue cheese",
+        "Extracted images",
+        "Broccoli-based food"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Blue_cheese_dressing.jpg"
+  }
+}

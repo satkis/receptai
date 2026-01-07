@@ -1,0 +1,256 @@
+{
+  "slug": "gurasa-hausa-plokstainis-su-darzovemis",
+  "canonicalUrl": "https://ragaujam.lt/receptas/gurasa-hausa-plokstainis-su-darzovemis",
+  "title": {
+    "lt": "Gurasa - Hausa plokštainis su daržovėmis"
+  },
+  "description": {
+    "lt": "Gurasa - tai tradicinis Hausa/Fulani plokštainis iš Šiaurės Nigerijos. Dažniausiai patiekiamas kaip lengvas patiekalas per pietus ar pusryčiams. Šis receptas sujungia kvietinius miltus, mieles ir daržoves, kad sukurtų nepaprastai skanų ir paprastą užkandį."
+  },
+  "seo": {
+    "metaTitle": "Gurasa su daržovėmis | Hausa plokštainis receptas",
+    "metaDescription": "Tradicinis Hausa/Fulani plokštainis gurasa su kvietiniais miltais ir daržovėmis. Puikus pasirinkimas lengviems pietums ar pusryčiams.",
+    "keywords": [
+      "gurasa",
+      "hausa plokštainis",
+      "daržovių patiekalai",
+      "lengvas užkandis",
+      "nigerietiška virtuvė"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Nigerietiška",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "4g",
+      "fatContent": "6g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "timeCategory": "iki-60-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "vidutiniškas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/darzoves"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Sausos mielės"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "250 ml",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kvietiniai miltai"
+      },
+      "quantity": "2 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pieno milteliai"
+      },
+      "quantity": "2 arbatiniai šaukšteliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "1 arbatinis šaukštelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "pagal poreikį",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Pomidorai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Svogūnai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Raudonos ir žalios paprikos"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Čili dribsniai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Mielių paruošimas"
+      },
+      "text": {
+        "lt": "Sumaišykite sausas mieles su šiltu vandeniu ir leiskite pastovėti 5 minutes, kad mielės suaktyvėtų."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Tešlos maišymas"
+      },
+      "text": {
+        "lt": "Sumaišykite miltus, pieno miltelius ir druską. Įmaišykite mielių mišinį, kol gausite labai tirštą ir vientisą tešlą."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Tešlos kildinimas"
+      },
+      "text": {
+        "lt": "Uždenkite dubenį ir leiskite tešlai kilti 1 valandą."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Gaminimas keptuvėje"
+      },
+      "text": {
+        "lt": "Įkaitinkite keptuvę vidutinėje kaitroje ir uždenkite plonu aliejaus sluoksniu. Įpilkite truputį tešlos į keptuvę ir paskirstykite."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Apvertimas ir kepimas"
+      },
+      "text": {
+        "lt": "Kepkite gurasa, kol apačia taps auksinė. Apverskite ir kepkite kitą pusę, kol taip pat taps auksinė."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Daržovių paruošimas"
+      },
+      "text": {
+        "lt": "Pomidorus, svogūnus ir paprikas sumaišykite su čili dribsniais ir trupučiu aliejaus. Pagardinkite druska pagal skonį."
+      }
+    },
+    {
+      "step": 7,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Supjaustykite arba suplėšykite gurasa į gabaliukus ir patiekite kartu su daržovių salotomis."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite, kad gurasa būtų minkštesnė, leiskite tešlai kilti ilgiau."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Galite pridėti žalumynų, tokių kaip petražolės ar kalendra, daržovių salotoms paįvairinti."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/gurasa-hausa-plokstainis-su-darzovemis.jpg",
+    "alt": "Gurasa - tradicinis Hausa plokštainis su daržovėmis",
+    "width": 780,
+    "height": 1040
+  },
+  "tags": [
+    "gurasa",
+    "hausa virtuvė",
+    "daržovių patiekalai",
+    "lengvas receptas",
+    "tradicinis užkandis"
+  ],
+  "author": {
+    "name": "Inyor4mr",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Inyor4mr"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gurasa_(Hausa_Flatbread_with_Vegetables)",
+    "pageTitle": "Cookbook:Gurasa_(Hausa_Flatbread_with_Vegetables)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:58:58.998Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGurasa_(Hausa_Flatbread_with_Vegetables)&action=history",
+    "originalCreator": {
+      "name": "Inyor4mr",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Inyor4mr"
+    }
+  },
+  "originalImage": {
+    "fileName": "Gurasa_spiced_with_kulikuli_sauce.jpg",
+    "author": {
+      "name": "Bukky658",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Bukky658"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://commons.wikimedia.org/wiki/File:Gurasa_spiced_with_kulikuli_sauce.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:00:00+03:00",
+  "createdAt": "2026-01-06T16:00:00+03:00",
+  "updatedAt": "2026-01-06T16:00:00+03:00"
+}

@@ -1,0 +1,93 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gambian_Baobab_Juice_(Bouye)",
+    "pageTitle": "Cookbook:Gambian_Baobab_Juice_(Bouye)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Baobab_Juice_(Bouye)&action=history",
+    "extractedAt": "2026-01-06T13:36:30.675Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Gambian Baobab Juice (Bouye)",
+    "slug": "gambian-baobab-juice-bouye",
+    "description": "Bouye juice is a delightful and creamy Gambian beverage made from the baobab fruit, which is native to the African continent. This refreshing drink is known for its rich and unique flavor, combining the natural sweetness of the baobab fruit with the creamy texture of evaporated milk. Bouye juice is a popular choice to quench thirst and cool down in the hot Gambian climate.",
+    "ingredients": [
+      "1 cup baobab fruit pulp",
+      "4 cups water",
+      "1 cup evaporated milk or condensed milk",
+      "¼ cup sugar (adjust according to taste)",
+      "½ teaspoon vitamin C powder (optional)",
+      "Ice cubes",
+      "Fresh mint leaves"
+    ],
+    "instructions": [
+      "In a blender, combine the baobab fruit pulp and water. Blend on high speed until the mixture is smooth and well-combined.",
+      "Place a strainer or cheesecloth over a pitcher or jug, and pour the blended mixture through it. This will help remove any pulp or seeds, resulting in a smoother juice.",
+      "Add the evaporated milk or condensed milk to the pitcher, along with the sugar and vitamin C powder (if using). Stir well until the sugar is dissolved and the ingredients are thoroughly mixed.",
+      "Refrigerate the bouye juice for at least 1 hour to chill and allow the flavors to meld together.",
+      "Once chilled, give the juice a good stir before serving.",
+      "Pour the juice into glasses filled with ice cubes.",
+      "Garnish each glass with fresh mint leaves for added freshness and aroma.",
+      "Serve the bouye juice immediately and enjoy its refreshing and creamy goodness."
+    ],
+    "notes": [
+      "Bouye juice can be customized to personal preference by adjusting the sweetness level. You can add more or less sugar depending on your taste. Additionally, some variations include the addition of vanilla extract or a splash of lime juice for added flavor."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Gambian recipes",
+      "Recipes for beverages",
+      "Recipes using baobab",
+      "Recipes using condensed milk",
+      "Recipes for juice",
+      "Recipes using mint",
+      "Recipes using sugar"
+    ]
+  },
+  "image": {
+    "filename": "Baobab_juice_-_color.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Baobab_juice_-_color.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Baobab_juice_-_color.jpg",
+    "localPath": "scripts/wiki/output/Baobab_juice_-_color.jpg",
+    "dimensions": {
+      "width": 801,
+      "height": 757
+    },
+    "fileSize": 315384,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "T.K. Naliaka",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "metadata": {
+      "description": "Fresh juice of the Adansonia digitata baobab. A pale slightly pinkish opaque juice made from dissolving the dry baobab fruit pulp in clean water and sieving out the seed and fibers. High in vitamin C, very tart, usually a sweetener like sugar is added. Shown freshly made and served from a re-used plastic bottle, as is commonly done. Hygiene is important in providing clean potable water for the dissolving and clean hands in the traditional hand-working to facilitate the dissolving of the pulp off the seeds. Factory-produced baobab juice (called 'bouye' in Wolof in Senegal, names vary between languages and countries) is becoming available for sale in urban supermarkets, but most families still find it easy and cheaper to make their own.",
+      "categories": [
+        "Fruit beverages",
+        "Self-published work",
+        "Beverages from Senegal",
+        "Adansonia digitata (uses)",
+        "Baobab juice"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Baobab_juice_-_color.jpg"
+  }
+}

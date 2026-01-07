@@ -1,0 +1,98 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fairy_Cakes",
+    "pageTitle": "Cookbook:Fairy_Cakes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Gentgeen",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Gentgeen"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFairy_Cakes&action=history",
+    "extractedAt": "2026-01-04T15:57:56.078Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fairy Cakes",
+    "slug": "fairy-cakes",
+    "description": "Fairy cakes are the British equivalent of American cupcakes. A common variant on fairy cakes is butterfly cakes, where the top of the cake is cut out and shaped to look like butterfly wings.",
+    "ingredients": [
+      "125 g (4.4 oz) butter",
+      "¾ cup (165 g / 5.8 oz) caster sugar",
+      "1 tsp vanilla or lemon extract",
+      "2 eggs",
+      "2 cups (275 g / 9.7 oz) self-raising flour",
+      "½ cup (125 ml / 4.2 oz) milk",
+      "½ cup (140 g / 4.9 oz) jam (optional)",
+      "½ cup (125 ml / 4.2 oz) cream (optional), whipped",
+      "Icing sugar for dusting (optional)"
+    ],
+    "instructions": [
+      "Beat the butter, sugar and vanilla until creamy.",
+      "Beat in the eggs one at a time.",
+      "Fold in the sifted flour alternately with the milk.",
+      "Transfer batter to 18 greased or lined muffin cups, filling the cavities about ¾ full.",
+      "Bake at 180 °C (356 °F) for 12–15 minutes until well risen and golden. Cool on a rack.",
+      "Cut out a small circle in the top of each cake (using a small knife), and cut each circle in half to make the butterfly \"wings\".",
+      "Spoon a little jam in the centre hollow, and top with whipped cream.",
+      "Arrange the wings into the cream.",
+      "Dust with icing sugar before serving."
+    ],
+    "notes": [],
+    "servings": null,
+    "totalTimeMinutes": 60,
+    "difficulty": 2,
+    "category": "Cake recipes",
+    "categories": [
+      "Baking recipes",
+      "Recipes with metric units",
+      "Recipes using butter",
+      "Recipes using egg",
+      "Recipes for dessert",
+      "Recipes for cupcakes",
+      "Recipes using whipped cream",
+      "Recipes using superfine sugar",
+      "Recipes using self-raising flour",
+      "Recipes using fruit preserves",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Fairy_cakes_close_up_on_tray.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Fairy_cakes_close_up_on_tray.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fairy_cakes_close_up_on_tray.jpg",
+    "localPath": "scripts/wiki/output/Fairy_cakes_close_up_on_tray.jpg",
+    "dimensions": {
+      "width": 2304,
+      "height": 1536
+    },
+    "fileSize": 651602,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "User:Lcarsdata",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Lcarsdata"
+    },
+    "metadata": {
+      "description": "Fairy cakes on an oven tray freshly removed from the oven.",
+      "categories": [
+        "GFDL",
+        "Taken with Kodak EasyShare DX6490",
+        "License migration completed",
+        "Self-published work",
+        "Cupcakes"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fairy_cakes_close_up_on_tray.jpg"
+  }
+}

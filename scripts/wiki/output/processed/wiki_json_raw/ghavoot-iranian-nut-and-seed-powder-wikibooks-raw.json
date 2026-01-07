@@ -1,0 +1,96 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Ghavoot_(Iranian_Nut_and_Seed_Powder)",
+    "pageTitle": "Cookbook:Ghavoot_(Iranian_Nut_and_Seed_Powder)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "ZxxZxxZ",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:ZxxZxxZ"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhavoot_(Iranian_Nut_and_Seed_Powder)&action=history",
+    "extractedAt": "2026-01-06T13:37:05.882Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Ghavoot (Iranian Nut and Seed Powder)",
+    "slug": "ghavoot-iranian-nut-and-seed-powder",
+    "description": "Ghavoot (قاووت) or ghovvatoo (قووتو) is a nutritionally-dense recipe made of powdered seeds, nuts, and sugar. There are several versions, depending on the components chosen, and their ratios. It is a traditional souvenir of Kerman, Iran.",
+    "ingredients": [
+      "Coffee beans",
+      "Cinnamon",
+      "Sesame seeds",
+      "Cottonseeds",
+      "Nigella seeds",
+      "Poppy seeds",
+      "Chickpeas",
+      "Walnuts",
+      "Almonds",
+      "Pistachio nuts"
+    ],
+    "instructions": [
+      "Grind and roast each component.",
+      "Add an equal weight of sugar; grind everything together.",
+      "Serve as powder, or blend it with milk or hot water."
+    ],
+    "notes": [
+      "Ghavoot is a traditional energizer. You can consume it as a pre-workout snack."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": 1,
+    "category": "Iranian recipes",
+    "categories": [
+      "Recipes using nuts and seeds",
+      "Recipes using sesame",
+      "Recipes using chickpea",
+      "Recipes using coffee",
+      "Recipes using chickpea",
+      "Iranian recipes",
+      "Roasted recipes",
+      "Side dish recipes",
+      "Vegan recipes",
+      "Gluten-free recipes",
+      "Recipes using almond",
+      "Recipes using sugar",
+      "Recipes using cinnamon",
+      "Recipes using cottonseed"
+    ]
+  },
+  "image": {
+    "filename": "Ghovvatoo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ghovvatoo.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ghovvatoo.jpg",
+    "localPath": "scripts/wiki/output/Ghovvatoo.jpg",
+    "dimensions": {
+      "width": 2079,
+      "height": 1920
+    },
+    "fileSize": 543221,
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "MRG90",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:MRG90"
+    },
+    "metadata": {
+      "description": "Ghovvatoo a kind of pastry and a souvenir of Kerman, Iran",
+      "categories": [
+        "Food in Kerman Province",
+        "Pastries of Iran",
+        "Self-published work"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Ghovvatoo.jpg"
+  }
+}

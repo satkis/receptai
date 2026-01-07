@@ -1,0 +1,80 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Fruit_Ice_Pops",
+    "pageTitle": "Cookbook:Fruit_Ice_Pops",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Taoheedah",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Taoheedah"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFruit_Ice_Pops&action=history",
+    "extractedAt": "2026-01-04T16:25:52.732Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Fruit Ice Pops",
+    "slug": "fruit-ice-pops",
+    "description": "This recipe for ice pops uses a blend of fresh fruits. ==Ingredients== *Mango, peeled and diced *Peach, peeled and diced *Strawberries *Watermelon, diced *Pear, juiced ==Procedure== #Combine all fruits with pear juice in a blender. Purée until smooth. #Divide the fruit mixture between ice pop molds, and insert the sticks. #Freeze the molds until completely solid. #Unmold the ice pops, and serve immediately ==Notes, tips, and variations== *The fruits used should be ripe.",
+    "ingredients": [
+      "Mango, peeled and diced",
+      "Peach, peeled and diced",
+      "Strawberries",
+      "Watermelon, diced",
+      "Pear, juiced"
+    ],
+    "instructions": [
+      "Combine all fruits with pear juice in a blender. Purée until smooth.",
+      "Divide the fruit mixture between ice pop molds, and insert the sticks.",
+      "Freeze the molds until completely solid.",
+      "Unmold the ice pops, and serve immediately"
+    ],
+    "notes": [
+      "The fruits used should be ripe."
+    ],
+    "servings": null,
+    "totalTimeMinutes": null,
+    "difficulty": null,
+    "category": null,
+    "categories": [
+      "Recipes using pear"
+    ]
+  },
+  "image": {
+    "filename": "Fruit_ice_lollies_(8588758339).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Fruit_ice_lollies_%288588758339%29.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fruit_ice_lollies_(8588758339).jpg",
+    "localPath": "scripts/wiki/output/Fruit_ice_lollies_(8588758339).jpg",
+    "dimensions": {
+      "width": 2272,
+      "height": 1704
+    },
+    "fileSize": 922235,
+    "license": {
+      "code": "cc-by-2.0",
+      "shortName": "CC BY 2.0",
+      "fullName": "Creative Commons Attribution 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "shareAlike": false,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "Lablascovegmenu from London",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:John%20Cummings"
+    },
+    "metadata": {
+      "description": "Fruit ice lollies",
+      "categories": [
+        "Vegan food",
+        "Taken with 4MP Digital Camera",
+        "Ice lollipops",
+        "Flickr images reviewed by FlickreviewR"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Fruit_ice_lollies_(8588758339).jpg"
+  }
+}

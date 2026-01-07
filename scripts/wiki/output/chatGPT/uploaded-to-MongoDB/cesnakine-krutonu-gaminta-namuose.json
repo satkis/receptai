@@ -1,0 +1,164 @@
+{
+  "slug": "cesnakine-krutonu-gaminta-namuose",
+  "canonicalUrl": "https://ragaujam.lt/receptas/cesnakine-krutonu-gaminta-namuose",
+  "title": {
+    "lt": "Česnakinė krutonų gaminta namuose"
+  },
+  "description": {
+    "lt": "Česnakiniai krutonai yra puikus priedas prie Cezario salotų ar kitų patiekalų. Jie lengvai paruošiami iš senos prancūziškos duonos gabalėlių, mirkintų česnakiniame aliejuje ir iškeptų orkaitėje, kad taptų traškūs."
+  },
+  "seo": {
+    "metaTitle": "Česnakiniai krutonai | Namuose pagaminti krutonai su česnaku",
+    "metaDescription": "Paruoškite skanius česnakinius krutonus iš senos prancūziškos duonos. Puikiai tinka Cezario salotoms ar kitoms salotoms.",
+    "keywords": [
+      "česnakiniai krutonai",
+      "namuose pagaminti krutonai",
+      "prancūziška duona",
+      "cezario salotos",
+      "traškūs krutonai"
+    ],
+    "recipeCategory": "duona"
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "totalTimeMinutes": 20,
+  "timeCategory": "iki-30-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/duona"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Prancūziška duona"
+      },
+      "quantity": "4 riekės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Česnakas"
+      },
+      "quantity": "2 skiltelės",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Alyvuogių aliejus"
+      },
+      "quantity": "4 šaukštai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Druska"
+      },
+      "quantity": "pagal skonį",
+      "vital": true
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Aliejaus paruošimas"
+      },
+      "text": {
+        "lt": "Supilkite alyvuogių aliejų į seklią dubenį ir suberkite smulkintą česnaką. Leiskite aliejui įsigerti česnako skonio."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Duonos paruošimas"
+      },
+      "text": {
+        "lt": "Įkaitinkite orkaitę iki 180 °C. Aliejų nukoškite į keptuvę ir ten apkepti duonos kubelius, kad jie įsigertų aliejaus."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Kepimas orkaitėje"
+      },
+      "text": {
+        "lt": "Išdėliokite duonos kubelius ant kepimo skardos, pabarstykite druska ir kepkite apie 10 minučių arba kol taps traškūs ir sausi."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Jei norite krutonų be česnako, paprasčiausiai praleiskite česnaką."
+      },
+      "priority": 1
+    },
+    {
+      "text": {
+        "lt": "Krutonai gali būti naudojami vietoj bulvių, jei jie yra smulkiai supjaustyti ir gerai apskrudinti."
+      },
+      "priority": 2
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/cesnakine-krutonu-gaminta-namuose.jpg",
+    "alt": "Traškūs česnakiniai krutonai iš prancūziškos duonos",
+    "width": 1636,
+    "height": 1243
+  },
+  "tags": [
+    "česnakiniai krutonai",
+    "namuose pagaminti krutonai",
+    "prancūziška duona",
+    "cezario salotos",
+    "traškūs krutonai"
+  ],
+  "author": {
+    "name": "69.3.232.112",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:69.3.232.112"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Garlic_Croutons_I",
+    "pageTitle": "Cookbook:Garlic_Croutons_I",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:36:51.959Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGarlic_Croutons_I&action=history",
+    "originalCreator": {
+      "name": "69.3.232.112",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:69.3.232.112"
+    }
+  },
+  "originalImage": {
+    "fileName": "Semmelwuerfel_geroestet.jpg",
+    "author": {
+      "name": "Hutschi",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Hutschi"
+    },
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Semmelwuerfel_geroestet.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:36:51+03:00",
+  "createdAt": "2026-01-06T16:36:51+03:00",
+  "updatedAt": "2026-01-06T16:36:51+03:00"
+}

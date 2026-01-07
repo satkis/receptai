@@ -1,0 +1,103 @@
+{
+  "source": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Frittaten_Soup",
+    "pageTitle": "Cookbook:Frittaten_Soup",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalCreator": {
+      "name": "Martina85",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Martina85"
+    },
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrittaten_Soup&action=history",
+    "extractedAt": "2026-01-04T16:24:44.313Z"
+  },
+  "recipe": {
+    "title": "Cookbook:Frittaten Soup",
+    "slug": "frittaten-soup",
+    "description": "__NOTOC__ | Austrian Cuisine Frittaten soup originates from an incident that took place during the Congress of Vienna in the 19th century, which involved various European ambassadors and was chaired by the Austrian Prince, Klemens Wenzel von Metternich. At this time, the main issues of European politics were discussed during secret meetings between the key diplomats. These private meetings needed to be kept confidential, and many ambassadors decided to hold them incognito in inns outside of the city.",
+    "ingredients": [
+      "thumb|300x300px|Pancake ingredients",
+      "2.5 liters water",
+      "300 g beef bones",
+      "400 g beef",
+      "1 onion",
+      "Celery",
+      "Carrots",
+      "Leek",
+      "Lovage",
+      "Salt",
+      "Chives, minced",
+      "2 eggs",
+      "400 ml milk",
+      "180 g flour",
+      "Salt",
+      "Butter or oil"
+    ],
+    "instructions": [
+      "Wash the beef bones with warm water.",
+      "Put the meat and bones in cold water and heat. Simmer for 1½ hours at low temperature. Skim the foam off the top of the soup from time to time and add more water if necessary.",
+      "Cut the onion in half, and brown it in a pan with no oil. The browned onion gives the soup its dark color.",
+      "Add all the vegetables and a pinch of salt to the broth, and cook for 20 minutes. Strain all solids from the soup.",
+      "Mix the egg, milk, flour, and salt together.",
+      "Heat the butter or oil in a frying pan.",
+      "Pour some of the batter into the hot pan and wait until the pancake has solidified. Flip the pancake and wait for the other side to cook.",
+      "Let it cool and then cut into thin strips.",
+      "Put the pancake strips into the finished broth.",
+      "Serve with chives on top."
+    ],
+    "notes": [],
+    "servings": 4,
+    "totalTimeMinutes": 120,
+    "difficulty": 2,
+    "category": "Soup recipes",
+    "categories": [
+      "Recipes using beef",
+      "Recipes for pancakes",
+      "Recipes for soup",
+      "German recipes",
+      "Recipes with metric units",
+      "Recipes using carrot",
+      "Recipes using celery",
+      "Recipes using chive",
+      "Recipes using wheat flour",
+      "Recipes using leek",
+      "Recipes using milk"
+    ]
+  },
+  "image": {
+    "filename": "Frittaten_soup.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Frittaten_soup.jpg",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frittaten_soup.jpg",
+    "localPath": "scripts/wiki/output/Frittaten_soup.jpg",
+    "dimensions": {
+      "width": 3072,
+      "height": 2304
+    },
+    "fileSize": 2233074,
+    "license": {
+      "code": "cc-by-sa-3.0",
+      "shortName": "CC BY-SA 3.0",
+      "fullName": "Creative Commons Attribution-Share Alike 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "shareAlike": true,
+      "copyrighted": true,
+      "restrictions": ""
+    },
+    "author": {
+      "name": "The original uploader was Martina85M at English Wikibooks.",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:JackPotte"
+    },
+    "metadata": {
+      "description": "frittaten_soup",
+      "categories": [
+        "Frittatensuppe",
+        "CC-BY-SA-3.0,2.5,2.0,1.0"
+      ]
+    }
+  },
+  "originalImage": {
+    "fileName": "Frittaten_soup.jpg"
+  }
+}

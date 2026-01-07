@@ -1,0 +1,213 @@
+{
+  "slug": "gambijos-baobabo-sultys-bouye",
+  "canonicalUrl": "https://ragaujam.lt/receptas/gambijos-baobabo-sultys-bouye",
+  "title": {
+    "lt": "Gambijos baobabo sultys (Bouye)"
+  },
+  "description": {
+    "lt": "Bouye sultys yra skanus ir kreminis Gambijos gėrimas, pagamintas iš baobabo vaisiaus, kuris yra kilęs iš Afrikos žemyno. Šis gaivinantis gėrimas garsėja savo turtingu ir unikaliu skoniu, derindamas natūralų baobabo vaisiaus saldumą su kreminiu kondensuoto pieno tekstūra. Bouye sultys yra populiarus pasirinkimas atgaivinti troškulį ir atsigaivinti karštame Gambijos klimate."
+  },
+  "seo": {
+    "metaTitle": "Gambijos Baobabo Sultys (Bouye) | Gaivus Receptas",
+    "metaDescription": "Autentiškas Bouye sulčių receptas iš Gambijos su baobabo vaisiumi ir kondensuotu pienu. Idealiai tinka karštoms dienoms, kai norisi gaivaus ir kreminio gėrimo.",
+    "keywords": [
+      "bouye sultys",
+      "Gambijos gėrimai",
+      "baobabo sultys",
+      "kreminės sultys",
+      "gaivus gėrimas"
+    ],
+    "recipeCategory": "uzkandziai",
+    "recipeCuisine": "Gambijos",
+    "nutrition": {
+      "calories": 150,
+      "proteinContent": "3g",
+      "fatContent": "5g",
+      "fiberContent": "2g"
+    }
+  },
+  "aggregateRating": {
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 0,
+  "totalTimeMinutes": 15,
+  "timeCategory": "iki-15-min",
+  "servings": 4,
+  "servingsUnit": "porcijos",
+  "difficulty": "labai lengvas",
+  "primaryCategoryPath": "receptai/uzkandziai",
+  "secondaryCategories": [
+    "receptai/seimai"
+  ],
+  "ingredients": [
+    {
+      "name": {
+        "lt": "Baobabo vaisiaus minkštimas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Vanduo"
+      },
+      "quantity": "4 puodeliai",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Kondensuotas pienas"
+      },
+      "quantity": "1 puodelis",
+      "vital": true
+    },
+    {
+      "name": {
+        "lt": "Cukrus"
+      },
+      "quantity": "¼ puodelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Vitaminas C"
+      },
+      "quantity": "½ arbatinio šaukštelio",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Ledo kubeliai"
+      },
+      "quantity": "pagal skonį",
+      "vital": false
+    },
+    {
+      "name": {
+        "lt": "Švieži mėtų lapai"
+      },
+      "quantity": "dekoravimui",
+      "vital": false
+    }
+  ],
+  "sideIngredients": [],
+  "instructions": [
+    {
+      "step": 1,
+      "name": {
+        "lt": "Maišymas"
+      },
+      "text": {
+        "lt": "Blenderiu sumaišykite baobabo vaisiaus minkštimą su vandeniu. Maišykite aukštu greičiu, kol masė taps vientisa ir gerai susimaišys."
+      }
+    },
+    {
+      "step": 2,
+      "name": {
+        "lt": "Sijojimas"
+      },
+      "text": {
+        "lt": "Per sietelį arba marlę perpilkite mišinį į ąsotį. Tai padės pašalinti minkštimą ir sėklas, todėl sultys bus sklandesnės."
+      }
+    },
+    {
+      "step": 3,
+      "name": {
+        "lt": "Pieno ir priedų pridėjimas"
+      },
+      "text": {
+        "lt": "Pridėkite kondensuotą pieną, cukrų ir vitaminą C į ąsotį. Gerai išmaišykite, kol cukrus ištirps ir visi ingredientai susijungs."
+      }
+    },
+    {
+      "step": 4,
+      "name": {
+        "lt": "Atšaldymas"
+      },
+      "text": {
+        "lt": "Padėkite bouye sultis į šaldytuvą bent 1 valandai, kad jos atvėstų ir skoniai susimaišytų."
+      }
+    },
+    {
+      "step": 5,
+      "name": {
+        "lt": "Pateikimas"
+      },
+      "text": {
+        "lt": "Atšaldytas sultis išmaišykite ir supilkite į stiklines su ledo kubeliais. Papuoškite šviežiais mėtos lapais."
+      }
+    },
+    {
+      "step": 6,
+      "name": {
+        "lt": "Mėgavimasis"
+      },
+      "text": {
+        "lt": "Patiekite bouye sultis iš karto ir mėgaukitės gaivumu bei kremine tekstūra."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "text": {
+        "lt": "Bouye sultis galite pritaikyti pagal savo skonį, reguliuodami saldumą. Pridėkite daugiau ar mažiau cukraus pagal poreikį."
+      },
+      "priority": 1
+    }
+  ],
+  "image": {
+    "src": "https://receptu-images.s3.eu-north-1.amazonaws.com/receptai/gambijos-baobabo-sultys-bouye.jpg",
+    "alt": "Gambijos baobabo sultys su ledu ir mėtomis",
+    "width": 801,
+    "height": 757
+  },
+  "tags": [
+    "bouye sultys",
+    "Gambijos gėrimai",
+    "baobabo sultys",
+    "kreminės sultys",
+    "gaivus gėrimas"
+  ],
+  "author": {
+    "name": "Sylvesterchukwu04",
+    "profileUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+  },
+  "originalSource": {
+    "platform": "Wikibooks",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Gambian_Baobab_Juice_(Bouye)",
+    "pageTitle": "Cookbook:Gambian_Baobab_Juice_(Bouye)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "datePublished": null,
+    "extractedAt": "2026-01-06T13:36:30.675Z",
+    "contributorsUrl": "https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Baobab_Juice_(Bouye)&action=history",
+    "originalCreator": {
+      "name": "Sylvesterchukwu04",
+      "userPageUrl": "https://en.wikibooks.org/wiki/User:Sylvesterchukwu04"
+    }
+  },
+  "originalImage": {
+    "fileName": "Baobab_juice_-_color.jpg",
+    "author": {
+      "name": "T.K. Naliaka",
+      "userPageUrl": "https://commons.wikimedia.org/wiki/User:Kittycataclysm"
+    },
+    "license": {
+      "code": "cc-by-sa-4.0",
+      "shortName": "CC BY-SA 4.0",
+      "fullName": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "wikimediaCommonsUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Baobab_juice_-_color.jpg"
+  },
+  "status": "published",
+  "featured": false,
+  "trending": false,
+  "publishedAt": "2026-01-06T16:36:30+03:00",
+  "createdAt": "2026-01-06T16:36:30+03:00",
+  "updatedAt": "2026-01-06T16:36:30+03:00"
+}
