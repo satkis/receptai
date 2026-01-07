@@ -42,6 +42,7 @@
     "s3:test:dev": "node scripts/setup-s3-buckets.js test development",
     "s3:test:prod": "node scripts/setup-s3-buckets.js test production",
     "wikibooks:scrape-category": "node scripts/wikibooks-category-scraper.js",
+    "wiki:extract": "node scripts/wiki/extract-wikibooks-recipe.js",
     "convert-and-upload": "node scripts/wiki/convert-and-upload.js",
     "upload-gpt-to-mongodb": "node scripts/wiki/upload-gpt-to-mongodb.js",
     "image-prep-and-load": "node scripts/image-prep-and-load.js"
