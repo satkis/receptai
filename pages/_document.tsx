@@ -20,18 +20,26 @@ export default function Document() {
         {/* url ownership - google search console */}
         <meta name="google-site-verification" content="M10eblvn_OWYGXcV68vhNx8Lxst88O4OruRN5tvR610" />
 
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HNHCXHF82"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-1HNHCXHF82');
-            `,
-          }}
-        />
+        {/* Google Analytics 4 - Load from environment variable */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                    'page_path': window.location.pathname,
+                    'page_title': document.title
+                  });
+                  console.log('Google Analytics initialized with ID: ${process.env.NEXT_PUBLIC_GA_ID}');
+                `,
+              }}
+            />
+          </>
+        )}
 
         {/* Optimized font loading - preload most critical weights only */}
         <link

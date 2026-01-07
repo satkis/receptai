@@ -9,30 +9,30 @@ import Layout from '@/components/layout/Layout';
 import StagingBanner from '@/components/StagingBanner';
 import ISRDebugger from '@/components/ISRDebugger';
 
-
-
-// Google Analytics
-const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID;
-
-// Track page views
+// Google Analytics - Track page views for client-side navigation
 const useGoogleAnalytics = () => {
   const router = useRouter();
 
   useEffect(() => {
+    const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID;
     if (!GA_TRACKING_ID) return;
 
     const handleRouteChange = (url: string) => {
-      // @ts-expect-error gtag is loaded dynamically
-      window.gtag('config', GA_TRACKING_ID, {
-        page_path: url,
-      });
+      // @ts-expect-error gtag is loaded dynamically by _document.tsx
+      if (window.gtag) {
+        // @ts-expect-error gtag is loaded dynamically
+        window.gtag('config', GA_TRACKING_ID, {
+          page_path: url,
+          page_title: document.title,
+        });
+      }
     };
 
     router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
     };
-  }, [router.events]);
+  }, []);
 };
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -73,27 +73,7 @@ export default function App({ Component, pageProps }: AppProps) {
           }}
         />
 
-        {/* Google Analytics */}
-        {GA_TRACKING_ID && (
-          <>
-            <script
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', '${GA_TRACKING_ID}', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
-            />
-          </>
-        )}
+        {/* Google Analytics is loaded in _document.tsx */}
       </Head>
 
       <StagingBanner />
