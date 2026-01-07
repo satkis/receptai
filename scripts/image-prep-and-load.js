@@ -345,14 +345,30 @@ async function compressImage(inputPath, outputPath) {
 }
 
 /**
- * Sanitize string for S3 metadata (remove non-ASCII characters)
+ * Convert Lithuanian characters to Latin equivalents for S3 metadata
  * S3 metadata headers cannot contain Lithuanian letters or non-ASCII characters
+ * This function converts them to proper Latin equivalents instead of removing them
  */
 function sanitizeForS3Metadata(text) {
   if (!text) return '';
-  return text
-    .replace(/[^\x00-\x7F]/g, '') // Remove non-ASCII characters
-    .trim();
+
+  // Lithuanian to Latin character mapping
+  const lithuanianToLatin = {
+    'ą': 'a', 'č': 'c', 'ę': 'e', 'ė': 'e', 'į': 'i', 'š': 's', 'ų': 'u', 'ū': 'u', 'ž': 'z',
+    'Ą': 'A', 'Č': 'C', 'Ę': 'E', 'Ė': 'E', 'Į': 'I', 'Š': 'S', 'Ų': 'U', 'Ū': 'U', 'Ž': 'Z'
+  };
+
+  let result = text;
+
+  // Replace Lithuanian characters with Latin equivalents
+  for (const [lithuanian, latin] of Object.entries(lithuanianToLatin)) {
+    result = result.split(lithuanian).join(latin);
+  }
+
+  // Remove any remaining non-ASCII characters (just in case)
+  result = result.replace(/[^\x00-\x7F]/g, '');
+
+  return result.trim();
 }
 
 /**
