@@ -40,7 +40,11 @@
     "s3:plan:prod": "node scripts/setup-s3-buckets.js plan production",
     "s3:list": "node scripts/setup-s3-buckets.js list",
     "s3:test:dev": "node scripts/setup-s3-buckets.js test development",
-    "s3:test:prod": "node scripts/setup-s3-buckets.js test production"
+    "s3:test:prod": "node scripts/setup-s3-buckets.js test production",
+    "wikibooks:scrape-category": "node scripts/wikibooks-category-scraper.js",
+    "convert-and-upload": "node scripts/wiki/convert-and-upload.js",
+    "upload-gpt-to-mongodb": "node scripts/wiki/upload-gpt-to-mongodb.js",
+    "image-prep-and-load": "node scripts/image-prep-and-load.js"
   },
   "dependencies": {
     "blurhash": "^2.0.5",
